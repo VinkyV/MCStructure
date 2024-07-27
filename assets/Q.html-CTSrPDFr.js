@@ -1,0 +1,21 @@
+import{_ as e,c as s,o as n,d as a}from"./app-DxWntEPx.js";const i={},t=a(`<h1 id="q" tabindex="-1"><a class="header-anchor" href="#q"><span>Q</span></a></h1><h3 id="queryregistrationresult" tabindex="-1"><a class="header-anchor" href="#queryregistrationresult"><span><code>QueryRegistrationResult</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">typedef IMinecraftEventing::AuthenticationOutcome QueryRegistrationResult;</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="query-user-notification-state" tabindex="-1"><a class="header-anchor" href="#query-user-notification-state"><span><code>QUERY_USER_NOTIFICATION_STATE</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum QUERY_USER_NOTIFICATION_STATE : __int32</span>
+<span class="line">{</span>
+<span class="line">  QUNS_NOT_PRESENT = 0x1,</span>
+<span class="line">  QUNS_BUSY = 0x2,</span>
+<span class="line">  QUNS_RUNNING_D3D_FULL_SCREEN = 0x3,</span>
+<span class="line">  QUNS_PRESENTATION_MODE = 0x4,</span>
+<span class="line">  QUNS_ACCEPTS_NOTIFICATIONS = 0x5,</span>
+<span class="line">  QUNS_QUIET_TIME = 0x6,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="queryresult" tabindex="-1"><a class="header-anchor" href="#queryresult"><span><code>QueryResult</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">typedef IMinecraftEventing::AuthenticationOutcome QueryResult;</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="queuerequestresult" tabindex="-1"><a class="header-anchor" href="#queuerequestresult"><span><code>QueueRequestResult</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum QueueRequestResult : __int8</span>
+<span class="line">{</span>
+<span class="line">  CanExecuteNow = 0x0,</span>
+<span class="line">  Queued = 0x1,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>`,9),l=[t];function r(d,u){return n(),s("div",null,l)}const p=e(i,[["render",r],["__file","Q.html.vue"]]),o=JSON.parse('{"path":"/1.16.201/enums/Q.html","title":"Q","lang":"en-US","frontmatter":{},"headers":[{"level":3,"title":"QueryRegistrationResult","slug":"queryregistrationresult","link":"#queryregistrationresult","children":[]},{"level":3,"title":"QUERY_USER_NOTIFICATION_STATE","slug":"query-user-notification-state","link":"#query-user-notification-state","children":[]},{"level":3,"title":"QueryResult","slug":"queryresult","link":"#queryresult","children":[]},{"level":3,"title":"QueueRequestResult","slug":"queuerequestresult","link":"#queuerequestresult","children":[]}],"git":{"updatedTime":1659743947000,"contributors":[{"name":"RedbeanW","email":"redbeana44945@gmail.com","commits":1}]},"filePathRelative":"1.16.201/enums/Q.md"}');export{p as comp,o as data};
