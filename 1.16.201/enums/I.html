@@ -1,0 +1,944 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.14" />
+    <style>
+      :root {
+        --c-bg: #fff;
+      }
+
+      html.dark {
+        --c-bg: #22272e;
+      }
+
+      html,
+      body {
+        background-color: var(--c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme')
+      const systemDarkMode =
+        window.matchMedia &&
+        window.matchMedia('(prefers-color-scheme: dark)').matches
+
+      if (userMode === 'light') {
+        document.documentElement.dataset.theme = 'light'
+      } else if (userMode === 'dark' || systemDarkMode) {
+        document.documentElement.classList.toggle('dark', true)
+        document.documentElement.dataset.theme = 'dark'
+      }
+    </script>
+    <title>I | MC TIL</title><meta name="description" content="Some structure and enum information for minecraft bedrock edition.">
+    <link rel="preload" href="/mcstructure/assets/style-BffCujja.css" as="style"><link rel="stylesheet" href="/mcstructure/assets/style-BffCujja.css">
+    <link rel="modulepreload" href="/mcstructure/assets/app-CsZ-F4rT.js"><link rel="modulepreload" href="/mcstructure/assets/I.html-Cih2B44P.js">
+    <link rel="prefetch" href="/mcstructure/assets/index.html-BFXvbUVh.js" as="script"><link rel="prefetch" href="/mcstructure/assets/index.html-Dj85jYiz.js" as="script"><link rel="prefetch" href="/mcstructure/assets/index.html-DbyVM42m.js" as="script"><link rel="prefetch" href="/mcstructure/assets/A.html-gLZ0ckTd.js" as="script"><link rel="prefetch" href="/mcstructure/assets/B.html-DikvzAFb.js" as="script"><link rel="prefetch" href="/mcstructure/assets/C.html-BSDuF4vD.js" as="script"><link rel="prefetch" href="/mcstructure/assets/D.html-TlZ8OfQc.js" as="script"><link rel="prefetch" href="/mcstructure/assets/E.html-C8Pv4Nid.js" as="script"><link rel="prefetch" href="/mcstructure/assets/F.html-lN-ZlHP2.js" as="script"><link rel="prefetch" href="/mcstructure/assets/G.html-DRjRIhz_.js" as="script"><link rel="prefetch" href="/mcstructure/assets/H.html-DkYus1J1.js" as="script"><link rel="prefetch" href="/mcstructure/assets/I.html-C2FW7RiH.js" as="script"><link rel="prefetch" href="/mcstructure/assets/J.html-COy9SfX0.js" as="script"><link rel="prefetch" href="/mcstructure/assets/K.html-Btu8pogP.js" as="script"><link rel="prefetch" href="/mcstructure/assets/L.html-HkcbpxkI.js" as="script"><link rel="prefetch" href="/mcstructure/assets/M.html-CWXp8LWd.js" as="script"><link rel="prefetch" href="/mcstructure/assets/N.html-DlB-21f-.js" as="script"><link rel="prefetch" href="/mcstructure/assets/O.html-C9r9bEbp.js" as="script"><link rel="prefetch" href="/mcstructure/assets/P.html-eSzkmAjF.js" as="script"><link rel="prefetch" href="/mcstructure/assets/Q.html-DNkGW8HE.js" as="script"><link rel="prefetch" href="/mcstructure/assets/R.html-Ch4HwVo2.js" as="script"><link rel="prefetch" href="/mcstructure/assets/S.html-D9wi3UXK.js" as="script"><link rel="prefetch" href="/mcstructure/assets/T.html-C-uYqvkU.js" as="script"><link rel="prefetch" href="/mcstructure/assets/U.html-CU5DQaxg.js" as="script"><link rel="prefetch" href="/mcstructure/assets/V.html-DTS3IgYK.js" as="script"><link rel="prefetch" href="/mcstructure/assets/W.html-sdE-eohH.js" as="script"><link rel="prefetch" href="/mcstructure/assets/X.html-BpHdXa2Z.js" as="script"><link rel="prefetch" href="/mcstructure/assets/Z.html-IpYY_L14.js" as="script"><link rel="prefetch" href="/mcstructure/assets/.html-85iWzdZh.js" as="script"><link rel="prefetch" href="/mcstructure/assets/A.html-BxnaZQk_.js" as="script"><link rel="prefetch" href="/mcstructure/assets/B.html-ByvLGh92.js" as="script"><link rel="prefetch" href="/mcstructure/assets/C.html-CzS_sBs_.js" as="script"><link rel="prefetch" href="/mcstructure/assets/D.html-D40RaC-K.js" as="script"><link rel="prefetch" href="/mcstructure/assets/E.html-B-O1LW9i.js" as="script"><link rel="prefetch" href="/mcstructure/assets/F.html-DV0MZkyM.js" as="script"><link rel="prefetch" href="/mcstructure/assets/G.html-Dj-hYIU7.js" as="script"><link rel="prefetch" href="/mcstructure/assets/H.html-Cimj7lxq.js" as="script"><link rel="prefetch" href="/mcstructure/assets/I.html-C6GlVuuc.js" as="script"><link rel="prefetch" href="/mcstructure/assets/J.html-DiDuCSQy.js" as="script"><link rel="prefetch" href="/mcstructure/assets/K.html-CTMSIxlp.js" as="script"><link rel="prefetch" href="/mcstructure/assets/L.html-C7cxYGtY.js" as="script"><link rel="prefetch" href="/mcstructure/assets/M.html-Zgw9WGZd.js" as="script"><link rel="prefetch" href="/mcstructure/assets/N.html-N-vb4ZHK.js" as="script"><link rel="prefetch" href="/mcstructure/assets/O.html-CDXZjCxQ.js" as="script"><link rel="prefetch" href="/mcstructure/assets/P.html-y5OlOCJM.js" as="script"><link rel="prefetch" href="/mcstructure/assets/R.html-BSiGj2ZZ.js" as="script"><link rel="prefetch" href="/mcstructure/assets/S.html-DiqB_MPV.js" as="script"><link rel="prefetch" href="/mcstructure/assets/T.html-Cy4s5rRd.js" as="script"><link rel="prefetch" href="/mcstructure/assets/U.html-CdjhviXp.js" as="script"><link rel="prefetch" href="/mcstructure/assets/V.html-Bp9ck6A7.js" as="script"><link rel="prefetch" href="/mcstructure/assets/W.html-hyKqnZoP.js" as="script"><link rel="prefetch" href="/mcstructure/assets/X.html-BJ_Uasx8.js" as="script"><link rel="prefetch" href="/mcstructure/assets/Z.html-DPMGH7dv.js" as="script"><link rel="prefetch" href="/mcstructure/assets/.html-BdFkbt3Z.js" as="script"><link rel="prefetch" href="/mcstructure/assets/A.html-DZNn5aGI.js" as="script"><link rel="prefetch" href="/mcstructure/assets/B.html-DxXCh3uI.js" as="script"><link rel="prefetch" href="/mcstructure/assets/C.html-CP0u5vrD.js" as="script"><link rel="prefetch" href="/mcstructure/assets/D.html-OzRs-zWa.js" as="script"><link rel="prefetch" href="/mcstructure/assets/D~1.html-Cq7CT9i8.js" as="script"><link rel="prefetch" href="/mcstructure/assets/D~2.html-9a5mw65p.js" as="script"><link rel="prefetch" href="/mcstructure/assets/D~3.html-7I6ugC52.js" as="script"><link rel="prefetch" href="/mcstructure/assets/E.html-B7n2DhOW.js" as="script"><link rel="prefetch" href="/mcstructure/assets/F.html-B6_qTAB1.js" as="script"><link rel="prefetch" href="/mcstructure/assets/G.html-tnPx32GK.js" as="script"><link rel="prefetch" href="/mcstructure/assets/H.html-wKxeNu6C.js" as="script"><link rel="prefetch" href="/mcstructure/assets/J.html-CRaMeLm1.js" as="script"><link rel="prefetch" href="/mcstructure/assets/K.html-BY245vF_.js" as="script"><link rel="prefetch" href="/mcstructure/assets/L.html-BKYlvOoV.js" as="script"><link rel="prefetch" href="/mcstructure/assets/M.html-DLZAc8pN.js" as="script"><link rel="prefetch" href="/mcstructure/assets/N.html-DCHdjo04.js" as="script"><link rel="prefetch" href="/mcstructure/assets/O.html-BnPzPtCP.js" as="script"><link rel="prefetch" href="/mcstructure/assets/P.html-DCTkl6Mq.js" as="script"><link rel="prefetch" href="/mcstructure/assets/Q.html-szukgbvm.js" as="script"><link rel="prefetch" href="/mcstructure/assets/R.html-CsgdcBCA.js" as="script"><link rel="prefetch" href="/mcstructure/assets/S.html-DMioY27y.js" as="script"><link rel="prefetch" href="/mcstructure/assets/T.html-DZQPdC9U.js" as="script"><link rel="prefetch" href="/mcstructure/assets/U.html-Bx2LRvsV.js" as="script"><link rel="prefetch" href="/mcstructure/assets/V.html-DBxlf9Ny.js" as="script"><link rel="prefetch" href="/mcstructure/assets/W.html-gGPSKGDC.js" as="script"><link rel="prefetch" href="/mcstructure/assets/X.html-e9xtnx-A.js" as="script"><link rel="prefetch" href="/mcstructure/assets/Z.html-40lfopdp.js" as="script"><link rel="prefetch" href="/mcstructure/assets/A.html-DzMMz49D.js" as="script"><link rel="prefetch" href="/mcstructure/assets/A~1.html-Yhbdjy0t.js" as="script"><link rel="prefetch" href="/mcstructure/assets/B.html-BQ_oPlKV.js" as="script"><link rel="prefetch" href="/mcstructure/assets/B~1.html-BHzFdoad.js" as="script"><link rel="prefetch" href="/mcstructure/assets/B~2.html-B2pWuuwn.js" as="script"><link rel="prefetch" href="/mcstructure/assets/C.html-D9-itRQ8.js" as="script"><link rel="prefetch" href="/mcstructure/assets/C~1.html-D1TAEDwf.js" as="script"><link rel="prefetch" href="/mcstructure/assets/C~2.html-CJhAeHk2.js" as="script"><link rel="prefetch" href="/mcstructure/assets/C~3.html-DYesXt6j.js" as="script"><link rel="prefetch" href="/mcstructure/assets/D.html-BVV6tOpA.js" as="script"><link rel="prefetch" href="/mcstructure/assets/D~1.html-BxVUTrcZ.js" as="script"><link rel="prefetch" href="/mcstructure/assets/D~10.html-DZ47T8mf.js" as="script"><link rel="prefetch" href="/mcstructure/assets/D~2.html-DFAnhgi3.js" as="script"><link rel="prefetch" href="/mcstructure/assets/D~3.html-QJUVoMPZ.js" as="script"><link rel="prefetch" href="/mcstructure/assets/D~4.html-D_OmeWnj.js" as="script"><link rel="prefetch" href="/mcstructure/assets/D~5.html-C9FH14S7.js" as="script"><link rel="prefetch" href="/mcstructure/assets/D~6.html-DCVwj4R8.js" as="script"><link rel="prefetch" href="/mcstructure/assets/D~7.html-ClACDGbF.js" as="script"><link rel="prefetch" href="/mcstructure/assets/D~8.html-CJJcZlG6.js" as="script"><link rel="prefetch" href="/mcstructure/assets/D~9.html-DuLymHuT.js" as="script"><link rel="prefetch" href="/mcstructure/assets/E.html-BhNRTBWl.js" as="script"><link rel="prefetch" href="/mcstructure/assets/E~1.html-BM9oxQG0.js" as="script"><link rel="prefetch" href="/mcstructure/assets/F.html-BVbUKQWc.js" as="script"><link rel="prefetch" href="/mcstructure/assets/F~1.html-DHLOg0tp.js" as="script"><link rel="prefetch" href="/mcstructure/assets/G.html-XsiULcol.js" as="script"><link rel="prefetch" href="/mcstructure/assets/H.html-Ccuk8KxU.js" as="script"><link rel="prefetch" href="/mcstructure/assets/I.html-DaDSCQ0t.js" as="script"><link rel="prefetch" href="/mcstructure/assets/I~1.html-CEBGjDRl.js" as="script"><link rel="prefetch" href="/mcstructure/assets/I~2.html-cdx7zoxg.js" as="script"><link rel="prefetch" href="/mcstructure/assets/J.html-CoTKxScb.js" as="script"><link rel="prefetch" href="/mcstructure/assets/K.html-COlR6yK8.js" as="script"><link rel="prefetch" href="/mcstructure/assets/L.html-ChlLIfSv.js" as="script"><link rel="prefetch" href="/mcstructure/assets/L~1.html-BUbCcLFg.js" as="script"><link rel="prefetch" href="/mcstructure/assets/M.html-BeUXRTi6.js" as="script"><link rel="prefetch" href="/mcstructure/assets/M~1.html-p2uxPAhd.js" as="script"><link rel="prefetch" href="/mcstructure/assets/M~2.html-cQU1bBCC.js" as="script"><link rel="prefetch" href="/mcstructure/assets/M~3.html-B8Km2vup.js" as="script"><link rel="prefetch" href="/mcstructure/assets/N.html-CoLUjbP0.js" as="script"><link rel="prefetch" href="/mcstructure/assets/O.html-DlwMzWt4.js" as="script"><link rel="prefetch" href="/mcstructure/assets/P.html-X0qrsTK8.js" as="script"><link rel="prefetch" href="/mcstructure/assets/P~1.html-DTNsvZ_x.js" as="script"><link rel="prefetch" href="/mcstructure/assets/P~2.html-DBSXrjNx.js" as="script"><link rel="prefetch" href="/mcstructure/assets/P~3.html-CJ3EZfXX.js" as="script"><link rel="prefetch" href="/mcstructure/assets/Q.html-CKYXRHB1.js" as="script"><link rel="prefetch" href="/mcstructure/assets/R.html--3mJFLJL.js" as="script"><link rel="prefetch" href="/mcstructure/assets/R~1.html-TsuonS3X.js" as="script"><link rel="prefetch" href="/mcstructure/assets/R~2.html-CXomLjFs.js" as="script"><link rel="prefetch" href="/mcstructure/assets/R~3.html-CnuTSEOZ.js" as="script"><link rel="prefetch" href="/mcstructure/assets/S.html-B3ianil5.js" as="script"><link rel="prefetch" href="/mcstructure/assets/S~1.html-Daw5LDSA.js" as="script"><link rel="prefetch" href="/mcstructure/assets/S~2.html-C8TSjv5J.js" as="script"><link rel="prefetch" href="/mcstructure/assets/S~3.html-DfIH06pA.js" as="script"><link rel="prefetch" href="/mcstructure/assets/S~4.html--gQYk-QM.js" as="script"><link rel="prefetch" href="/mcstructure/assets/T.html-OGsLuBXL.js" as="script"><link rel="prefetch" href="/mcstructure/assets/T~1.html-DRiC28yW.js" as="script"><link rel="prefetch" href="/mcstructure/assets/U.html-BveORCBO.js" as="script"><link rel="prefetch" href="/mcstructure/assets/V.html-B8CZ3piQ.js" as="script"><link rel="prefetch" href="/mcstructure/assets/W.html-BQ-pOW4G.js" as="script"><link rel="prefetch" href="/mcstructure/assets/W~1.html-DCmXWpyM.js" as="script"><link rel="prefetch" href="/mcstructure/assets/X.html-B0ZmYUQN.js" as="script"><link rel="prefetch" href="/mcstructure/assets/Z.html-Cs08Fuzm.js" as="script"><link rel="prefetch" href="/mcstructure/assets/404.html-Cd2Ktm8f.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="vp-theme-container external-link-icon"><!--[--><header class="vp-navbar"><div class="vp-toggle-sidebar-button" title="toggle sidebar" aria-expanded="false" role="button" tabindex="0"><div class="icon" aria-hidden="true"><span></span><span></span><span></span></div></div><span><a class="route-link" href="/mcstructure/"><!----><span class="vp-site-name" aria-hidden="true">MC TIL</span></a></span><div class="vp-navbar-items-wrapper" style=""><!--[--><!--]--><nav class="vp-navbar-items vp-hide-mobile" aria-label="site navigation"><!--[--><div class="vp-navbar-item"><a class="route-link auto-link" href="/mcstructure/" aria-label="Home"><!---->Home<!----></a></div><div class="vp-navbar-item"><a class="auto-link external-link" href="https://github.com/Redbeanw44602/mcstructure" aria-label="Github" rel="noopener noreferrer" target="_blank"><!---->Github<!----></a></div><!--]--></nav><!--[--><!--]--><button class="vp-toggle-color-mode-button" title="toggle color mode"><svg class="light-icon" viewbox="0 0 32 32" style=""><path d="M16 12.005a4 4 0 1 1-4 4a4.005 4.005 0 0 1 4-4m0-2a6 6 0 1 0 6 6a6 6 0 0 0-6-6z" fill="currentColor"></path><path d="M5.394 6.813l1.414-1.415l3.506 3.506L8.9 10.318z" fill="currentColor"></path><path d="M2 15.005h5v2H2z" fill="currentColor"></path><path d="M5.394 25.197L8.9 21.691l1.414 1.415l-3.506 3.505z" fill="currentColor"></path><path d="M15 25.005h2v5h-2z" fill="currentColor"></path><path d="M21.687 23.106l1.414-1.415l3.506 3.506l-1.414 1.414z" fill="currentColor"></path><path d="M25 15.005h5v2h-5z" fill="currentColor"></path><path d="M21.687 8.904l3.506-3.506l1.414 1.415l-3.506 3.505z" fill="currentColor"></path><path d="M15 2.005h2v5h-2z" fill="currentColor"></path></svg><svg class="dark-icon" viewbox="0 0 32 32" style="display:none;"><path d="M13.502 5.414a15.075 15.075 0 0 0 11.594 18.194a11.113 11.113 0 0 1-7.975 3.39c-.138 0-.278.005-.418 0a11.094 11.094 0 0 1-3.2-21.584M14.98 3a1.002 1.002 0 0 0-.175.016a13.096 13.096 0 0 0 1.825 25.981c.164.006.328 0 .49 0a13.072 13.072 0 0 0 10.703-5.555a1.01 1.01 0 0 0-.783-1.565A13.08 13.08 0 0 1 15.89 4.38A1.015 1.015 0 0 0 14.98 3z" fill="currentColor"></path></svg></button><form class="search-box" role="search"><input type="search" autocomplete="off" spellcheck="false" value><!----></form></div></header><!--]--><div class="vp-sidebar-mask"></div><!--[--><aside class="vp-sidebar"><nav class="vp-navbar-items" aria-label="site navigation"><!--[--><div class="vp-navbar-item"><a class="route-link auto-link" href="/mcstructure/" aria-label="Home"><!---->Home<!----></a></div><div class="vp-navbar-item"><a class="auto-link external-link" href="https://github.com/Redbeanw44602/mcstructure" aria-label="Github" rel="noopener noreferrer" target="_blank"><!---->Github<!----></a></div><!--]--></nav><!--[--><!--]--><ul class="vp-sidebar-items"><!--[--><li><p tabindex="0" class="vp-sidebar-item vp-sidebar-heading">Struct <!----></p><ul style="" class="vp-sidebar-children"><!--[--><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/A.html" aria-label="A"><!---->A<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/A~1.html" aria-label="A~1"><!---->A~1<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/B.html" aria-label="B"><!---->B<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/B~1.html" aria-label="B~1"><!---->B~1<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/B~2.html" aria-label="B~2"><!---->B~2<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/C.html" aria-label="C"><!---->C<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/C~1.html" aria-label="C~1"><!---->C~1<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/C~2.html" aria-label="C~2"><!---->C~2<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/C~3.html" aria-label="C~3"><!---->C~3<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/D.html" aria-label="D"><!---->D<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/D~1.html" aria-label="D~1"><!---->D~1<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/D~2.html" aria-label="D~2"><!---->D~2<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/D~3.html" aria-label="D~3"><!---->D~3<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/D~4.html" aria-label="D~4"><!---->D~4<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/D~5.html" aria-label="D~5"><!---->D~5<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/D~6.html" aria-label="D~6"><!---->D~6<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/D~7.html" aria-label="D~7"><!---->D~7<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/D~8.html" aria-label="D~8"><!---->D~8<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/D~9.html" aria-label="D~9"><!---->D~9<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/D~10.html" aria-label="D~10"><!---->D~10<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/E.html" aria-label="E"><!---->E<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/E~1.html" aria-label="E~1"><!---->E~1<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/F.html" aria-label="F"><!---->F<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/F~1.html" aria-label="F~1"><!---->F~1<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/G.html" aria-label="G"><!---->G<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/H.html" aria-label="H"><!---->H<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/I.html" aria-label="I"><!---->I<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/I~1.html" aria-label="I~1"><!---->I~1<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/I~2.html" aria-label="I~2"><!---->I~2<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/J.html" aria-label="J"><!---->J<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/K.html" aria-label="K"><!---->K<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/L.html" aria-label="L"><!---->L<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/L~1.html" aria-label="L~1"><!---->L~1<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/M.html" aria-label="M"><!---->M<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/M~1.html" aria-label="M~1"><!---->M~1<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/M~2.html" aria-label="M~2"><!---->M~2<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/M~3.html" aria-label="M~3"><!---->M~3<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/N.html" aria-label="N"><!---->N<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/O.html" aria-label="O"><!---->O<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/P.html" aria-label="P"><!---->P<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/P~1.html" aria-label="P~1"><!---->P~1<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/P~2.html" aria-label="P~2"><!---->P~2<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/P~3.html" aria-label="P~3"><!---->P~3<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/Q.html" aria-label="Q"><!---->Q<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/R.html" aria-label="R"><!---->R<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/R~1.html" aria-label="R~1"><!---->R~1<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/R~2.html" aria-label="R~2"><!---->R~2<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/R~3.html" aria-label="R~3"><!---->R~3<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/S.html" aria-label="S"><!---->S<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/S~1.html" aria-label="S~1"><!---->S~1<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/S~2.html" aria-label="S~2"><!---->S~2<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/S~3.html" aria-label="S~3"><!---->S~3<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/S~4.html" aria-label="S~4"><!---->S~4<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/T.html" aria-label="T"><!---->T<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/T~1.html" aria-label="T~1"><!---->T~1<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/U.html" aria-label="U"><!---->U<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/V.html" aria-label="V"><!---->V<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/W.html" aria-label="W"><!---->W<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/W~1.html" aria-label="W~1"><!---->W~1<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/X.html" aria-label="X"><!---->X<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/Z.html" aria-label="Z"><!---->Z<!----></a><!----></li><!--]--></ul></li><li><p tabindex="0" class="vp-sidebar-item vp-sidebar-heading active">Enums <!----></p><ul style="" class="vp-sidebar-children"><!--[--><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/enums/A.html" aria-label="A"><!---->A<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/enums/B.html" aria-label="B"><!---->B<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/enums/C.html" aria-label="C"><!---->C<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/enums/D.html" aria-label="D"><!---->D<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/enums/D~1.html" aria-label="D~1"><!---->D~1<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/enums/D~2.html" aria-label="D~2"><!---->D~2<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/enums/D~3.html" aria-label="D~3"><!---->D~3<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/enums/E.html" aria-label="E"><!---->E<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/enums/F.html" aria-label="F"><!---->F<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/enums/G.html" aria-label="G"><!---->G<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/enums/H.html" aria-label="H"><!---->H<!----></a><!----></li><li><a class="route-link route-link-active auto-link vp-sidebar-item active" href="/mcstructure/1.16.201/enums/I.html" aria-label="I"><!---->I<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/enums/J.html" aria-label="J"><!---->J<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/enums/K.html" aria-label="K"><!---->K<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/enums/L.html" aria-label="L"><!---->L<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/enums/M.html" aria-label="M"><!---->M<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/enums/N.html" aria-label="N"><!---->N<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/enums/O.html" aria-label="O"><!---->O<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/enums/P.html" aria-label="P"><!---->P<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/enums/R.html" aria-label="R"><!---->R<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/enums/S.html" aria-label="S"><!---->S<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/enums/T.html" aria-label="T"><!---->T<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/enums/U.html" aria-label="U"><!---->U<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/enums/V.html" aria-label="V"><!---->V<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/enums/W.html" aria-label="W"><!---->W<!----></a><!----></li><!--]--></ul></li><!--]--></ul><!--[--><!--]--></aside><!--]--><!--[--><main class="vp-page"><!--[--><!--]--><div class="theme-default-content"><!--[--><!--]--><div><h1 id="i" tabindex="-1"><a class="header-anchor" href="#i"><span>I</span></a></h1><h3 id="inputmode" tabindex="-1"><a class="header-anchor" href="#inputmode"><span><code>InputMode</code></span></a></h3><table><thead><tr><th>Name</th><th>Value</th></tr></thead></table><h3 id="iconblitglint" tabindex="-1"><a class="header-anchor" href="#iconblitglint"><span><code>IconBlitGlint</code></span></a></h3><table><thead><tr><th>Name</th><th>Value</th></tr></thead><tbody><tr><td>NoGlint</td><td><code>0</code></td></tr><tr><td>Glint</td><td><code>1</code></td></tr><tr><td>UnGlint</td><td><code>2</code></td></tr></tbody></table><h3 id="itemcontextflags" tabindex="-1"><a class="header-anchor" href="#itemcontextflags"><span><code>ItemContextFlags</code></span></a></h3><table><thead><tr><th>Name</th><th>Value</th></tr></thead></table><h3 id="iminecrafteventing-purchaseresult" tabindex="-1"><a class="header-anchor" href="#iminecrafteventing-purchaseresult"><span><code>IMinecraftEventing::PurchaseResult</code></span></a></h3><table><thead><tr><th>Name</th><th>Value</th></tr></thead><tbody><tr><td>Started</td><td><code>0</code></td></tr><tr><td>Completed</td><td><code>1</code></td></tr><tr><td>Canceled</td><td><code>2</code></td></tr><tr><td>Error</td><td><code>3</code></td></tr></tbody></table><h3 id="iminecrafteventing-promotiontype" tabindex="-1"><a class="header-anchor" href="#iminecrafteventing-promotiontype"><span><code>IMinecraftEventing::PromotionType</code></span></a></h3><table><thead><tr><th>Name</th><th>Value</th></tr></thead></table><h3 id="iminecrafteventing-storetype" tabindex="-1"><a class="header-anchor" href="#iminecrafteventing-storetype"><span><code>IMinecraftEventing::StoreType</code></span></a></h3><table><thead><tr><th>Name</th><th>Value</th></tr></thead></table><h3 id="iminecrafteventing-signinstage" tabindex="-1"><a class="header-anchor" href="#iminecrafteventing-signinstage"><span><code>IMinecraftEventing::SignInStage</code></span></a></h3><table><thead><tr><th>Name</th><th>Value</th></tr></thead></table><h3 id="iminecrafteventing-educationlessonaction" tabindex="-1"><a class="header-anchor" href="#iminecrafteventing-educationlessonaction"><span><code>IMinecraftEventing::EducationLessonAction</code></span></a></h3><table><thead><tr><th>Name</th><th>Value</th></tr></thead><tbody><tr><td>Start</td><td><code>0</code></td></tr><tr><td>Continue</td><td><code>1</code></td></tr><tr><td>Restart</td><td><code>2</code></td></tr><tr><td>Host</td><td><code>3</code></td></tr><tr><td>Join</td><td><code>4</code></td></tr><tr><td>Finish</td><td><code>5</code></td></tr></tbody></table><h3 id="intellisenseutils-matcheroptions" tabindex="-1"><a class="header-anchor" href="#intellisenseutils-matcheroptions"><span><code>IntellisenseUtils::MatcherOptions</code></span></a></h3><table><thead><tr><th>Name</th><th>Value</th></tr></thead></table><h3 id="itemacquisitionmethod" tabindex="-1"><a class="header-anchor" href="#itemacquisitionmethod"><span><code>ItemAcquisitionMethod</code></span></a></h3><table><thead><tr><th>Name</th><th>Value</th></tr></thead></table><h3 id="itemcolor" tabindex="-1"><a class="header-anchor" href="#itemcolor"><span><code>ItemColor</code></span></a></h3><table><thead><tr><th>Name</th><th>Value</th></tr></thead></table><h3 id="ismissingtexture" tabindex="-1"><a class="header-anchor" href="#ismissingtexture"><span><code>IsMissingTexture</code></span></a></h3><table><thead><tr><th>Name</th><th>Value</th></tr></thead><tbody><tr><td>Yes</td><td><code>0</code></td></tr><tr><td>No</td><td><code>1</code></td></tr></tbody></table><h3 id="itemuseinventorytransaction-actiontype" tabindex="-1"><a class="header-anchor" href="#itemuseinventorytransaction-actiontype"><span><code>ItemUseInventoryTransaction::ActionType</code></span></a></h3><table><thead><tr><th>Name</th><th>Value</th></tr></thead></table><h3 id="inventorytipid" tabindex="-1"><a class="header-anchor" href="#inventorytipid"><span><code>InventoryTipId</code></span></a></h3><table><thead><tr><th>Name</th><th>Value</th></tr></thead><tbody><tr><td>SHOW_SELECTWOOD_FOR_MAKEPLANK_TIP</td><td><code>0</code></td></tr><tr><td>SHOW_SELECTGRID_FOR_MAKEPLANK_TIP</td><td><code>1</code></td></tr><tr><td>SHOW_SELECT_OUTPUTSLOT_FOR_PLANK_TIP</td><td><code>2</code></td></tr><tr><td>SHOW_SELECT_INVENTORY_FOR_PLANK_TIP</td><td><code>3</code></td></tr><tr><td>SHOW_OPEN_RECIPE_BOOK</td><td><code>4</code></td></tr><tr><td>SHOW_MAKE_CRAFTING_TABLE</td><td><code>5</code></td></tr><tr><td>SHOW_SELECT_OUTPUTSLOT_CRAFTING_TABLE</td><td><code>6</code></td></tr><tr><td>SHOW_SELECT_HOTBAR_CRAFTING_TABLE</td><td><code>7</code></td></tr><tr><td>SHOW_CLOSE_INVENTORY</td><td><code>8</code></td></tr><tr><td>SHOW_NEED_PLANKS_AND_STICKS</td><td><code>9</code></td></tr><tr><td>SHOW_OPEN_SEARCH_TAB</td><td><code>10</code></td></tr><tr><td>SHOW_SELECT_WOODEN_PICKAXE</td><td><code>11</code></td></tr><tr><td>SHOW_SELECT_OUTPUTSLOT_FOR_WOODEN_PICKAXE</td><td><code>12</code></td></tr><tr><td>SHOW_SELECT_HOTBAR_WOODEN_PICKAXE</td><td><code>13</code></td></tr></tbody></table><h3 id="inventorytipstatus" tabindex="-1"><a class="header-anchor" href="#inventorytipstatus"><span><code>InventoryTipStatus</code></span></a></h3><table><thead><tr><th>Name</th><th>Value</th></tr></thead><tbody><tr><td>TIP_AVAILABLE</td><td><code>0</code></td></tr><tr><td>TIP_HIDDEN</td><td><code>1</code></td></tr><tr><td>TIP_IS_VISIBLE</td><td><code>2</code></td></tr><tr><td>TIP_COMPLETED</td><td><code>3</code></td></tr></tbody></table><h3 id="iminecrafteventing-realmconnectionflow" tabindex="-1"><a class="header-anchor" href="#iminecrafteventing-realmconnectionflow"><span><code>IMinecraftEventing::RealmConnectionFlow</code></span></a></h3><table><thead><tr><th>Name</th><th>Value</th></tr></thead><tbody><tr><td>PlayScreen</td><td><code>0</code></td></tr><tr><td>PauseScreen</td><td><code>1</code></td></tr></tbody></table><h3 id="iminecrafteventing-realmconnectionresult" tabindex="-1"><a class="header-anchor" href="#iminecrafteventing-realmconnectionresult"><span><code>IMinecraftEventing::RealmConnectionResult</code></span></a></h3><table><thead><tr><th>Name</th><th>Value</th></tr></thead><tbody><tr><td>Success</td><td><code>0</code></td></tr><tr><td>Failed</td><td><code>1</code></td></tr><tr><td>AccountRequired</td><td><code>2</code></td></tr></tbody></table><h3 id="ifilechunkuploader-uploadstatus" tabindex="-1"><a class="header-anchor" href="#ifilechunkuploader-uploadstatus"><span><code>IFileChunkUploader::UploadStatus</code></span></a></h3><table><thead><tr><th>Name</th><th>Value</th></tr></thead><tbody><tr><td>Initialized</td><td><code>0</code></td></tr><tr><td>ArchivingStarted</td><td><code>1</code></td></tr><tr><td>ArchivingFailed</td><td><code>2</code></td></tr><tr><td>ArchivingSucceeded</td><td><code>3</code></td></tr><tr><td>UploadFailed</td><td><code>4</code></td></tr><tr><td>ValidationStarted</td><td><code>5</code></td></tr><tr><td>ValidationProgress</td><td><code>6</code></td></tr><tr><td>ValidationFailed</td><td><code>7</code></td></tr><tr><td>ValidationCancelled</td><td><code>8</code></td></tr><tr><td>ValidationSucceeded</td><td><code>9</code></td></tr><tr><td>UnknownError</td><td><code>10</code></td></tr></tbody></table><h3 id="ifilechunkuploader-uploadstreamresult" tabindex="-1"><a class="header-anchor" href="#ifilechunkuploader-uploadstreamresult"><span><code>IFileChunkUploader::UploadStreamResult</code></span></a></h3><table><thead><tr><th>Name</th><th>Value</th></tr></thead></table><h3 id="inventorysourcetype" tabindex="-1"><a class="header-anchor" href="#inventorysourcetype"><span><code>InventorySourceType</code></span></a></h3><table><thead><tr><th>Name</th><th>Value</th></tr></thead><tbody><tr><td>ContainerInventory</td><td><code>0</code></td></tr><tr><td>GlobalInventory</td><td><code>1</code></td></tr><tr><td>WorldInteraction</td><td><code>2</code></td></tr><tr><td>CreativeInventory</td><td><code>3</code></td></tr><tr><td>NonImplementedFeatureTODO</td><td><code>99999</code></td></tr><tr><td>InvalidInventory</td><td><code>18446744073709551615</code></td></tr></tbody></table><h3 id="inventorysource-inventorysourceflags" tabindex="-1"><a class="header-anchor" href="#inventorysource-inventorysourceflags"><span><code>InventorySource::InventorySourceFlags</code></span></a></h3><table><thead><tr><th>Name</th><th>Value</th></tr></thead><tbody><tr><td>NoFlag</td><td><code>0</code></td></tr><tr><td>WorldInteraction_Random</td><td><code>1</code></td></tr></tbody></table><h3 id="itemcreativeregistrationmode" tabindex="-1"><a class="header-anchor" href="#itemcreativeregistrationmode"><span><code>ItemCreativeRegistrationMode</code></span></a></h3><table><thead><tr><th>Name</th><th>Value</th></tr></thead></table><h3 id="itemtransferamount-itemtransferamounttag" tabindex="-1"><a class="header-anchor" href="#itemtransferamount-itemtransferamounttag"><span><code>ItemTransferAmount::ItemTransferAmountTag</code></span></a></h3><table><thead><tr><th>Name</th><th>Value</th></tr></thead><tbody><tr><td>RequestAmount</td><td><code>0</code></td></tr><tr><td>TakeType</td><td><code>1</code></td></tr><tr><td>PlaceType</td><td><code>2</code></td></tr></tbody></table><h3 id="itemtaketype" tabindex="-1"><a class="header-anchor" href="#itemtaketype"><span><code>ItemTakeType</code></span></a></h3><table><thead><tr><th>Name</th><th>Value</th></tr></thead><tbody><tr><td>All</td><td><code>0</code></td></tr><tr><td>One</td><td><code>1</code></td></tr></tbody></table><h3 id="itemplacetype" tabindex="-1"><a class="header-anchor" href="#itemplacetype"><span><code>ItemPlaceType</code></span></a></h3><table><thead><tr><th>Name</th><th>Value</th></tr></thead></table><h3 id="if-oper-status" tabindex="-1"><a class="header-anchor" href="#if-oper-status"><span><code>IF_OPER_STATUS</code></span></a></h3><table><thead><tr><th>Name</th><th>Value</th></tr></thead><tbody><tr><td>IfOperStatusUp</td><td><code>1</code></td></tr><tr><td>IfOperStatusDown</td><td><code>2</code></td></tr><tr><td>IfOperStatusTesting</td><td><code>3</code></td></tr><tr><td>IfOperStatusUnknown</td><td><code>4</code></td></tr><tr><td>IfOperStatusDormant</td><td><code>5</code></td></tr><tr><td>IfOperStatusNotPresent</td><td><code>6</code></td></tr><tr><td>IfOperStatusLowerLayerDown</td><td><code>7</code></td></tr></tbody></table><h3 id="inputeventtype" tabindex="-1"><a class="header-anchor" href="#inputeventtype"><span><code>InputEventType</code></span></a></h3><table><thead><tr><th>Name</th><th>Value</th></tr></thead><tbody><tr><td>Button</td><td><code>0</code></td></tr><tr><td>OnClose</td><td><code>1</code></td></tr></tbody></table><h3 id="inputbindingmode" tabindex="-1"><a class="header-anchor" href="#inputbindingmode"><span><code>InputBindingMode</code></span></a></h3><table><thead><tr><th>Name</th><th>Value</th></tr></thead></table><h3 id="isa-availability" tabindex="-1"><a class="header-anchor" href="#isa-availability"><span><code>ISA_AVAILABILITY</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum ISA_AVAILABILITY : __int32</span>
+<span class="line">{</span>
+<span class="line">  __ISA_AVAILABLE_X86 = 0x0,</span>
+<span class="line">  __ISA_AVAILABLE_SSE2 = 0x1,</span>
+<span class="line">  __ISA_AVAILABLE_SSE42 = 0x2,</span>
+<span class="line">  __ISA_AVAILABLE_AVX = 0x3,</span>
+<span class="line">  __ISA_AVAILABLE_ENFSTRG = 0x4,</span>
+<span class="line">  __ISA_AVAILABLE_AVX2 = 0x5,</span>
+<span class="line">  __ISA_AVAILABLE_ARMNT = 0x0,</span>
+<span class="line">  __ISA_AVAILABLE_NEON = 0x1,</span>
+<span class="line">  __ISA_AVAILABLE_NEON_ARM64 = 0x2,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="itemusemethod" tabindex="-1"><a class="header-anchor" href="#itemusemethod"><span><code>ItemUseMethod</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">typedef cg::ColorSpace ItemUseMethod;</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="iminecrafteventing-connectionfailurereason" tabindex="-1"><a class="header-anchor" href="#iminecrafteventing-connectionfailurereason"><span><code>IMinecraftEventing::ConnectionFailureReason</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">typedef cg::ColorSpace IMinecraftEventing::ConnectionFailureReason;</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="iminecrafteventing-signinaccounttype" tabindex="-1"><a class="header-anchor" href="#iminecrafteventing-signinaccounttype"><span><code>IMinecraftEventing::SignInAccountType</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">typedef cg::ColorSpace IMinecraftEventing::SignInAccountType;</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="iminecrafteventing-signintrigger" tabindex="-1"><a class="header-anchor" href="#iminecrafteventing-signintrigger"><span><code>IMinecraftEventing::SignInTrigger</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">typedef cg::ColorSpace IMinecraftEventing::SignInTrigger;</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="iminecrafteventing-deviceaccountfailurephase" tabindex="-1"><a class="header-anchor" href="#iminecrafteventing-deviceaccountfailurephase"><span><code>IMinecraftEventing::DeviceAccountFailurePhase</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">typedef cg::ColorSpace IMinecraftEventing::DeviceAccountFailurePhase;</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="iminecrafteventing-edusigninstage" tabindex="-1"><a class="header-anchor" href="#iminecrafteventing-edusigninstage"><span><code>IMinecraftEventing::EduSignInStage</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">typedef cg::ColorSpace IMinecraftEventing::EduSignInStage;</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="iminecrafteventing-networktype" tabindex="-1"><a class="header-anchor" href="#iminecrafteventing-networktype"><span><code>IMinecraftEventing::NetworkType</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">typedef RealmsEnvironment IMinecraftEventing::NetworkType;</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="iminecrafteventing-filetransmissiondirection" tabindex="-1"><a class="header-anchor" href="#iminecrafteventing-filetransmissiondirection"><span><code>IMinecraftEventing::FileTransmissionDirection</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum IMinecraftEventing::FileTransmissionDirection : __int32</span>
+<span class="line">{</span>
+<span class="line">  Download = 0x0,</span>
+<span class="line">  Upload = 0x1,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="iminecrafteventing-filetransmissionstate" tabindex="-1"><a class="header-anchor" href="#iminecrafteventing-filetransmissionstate"><span><code>IMinecraftEventing::FileTransmissionState</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">typedef Bedrock::Threading::AsyncStatus IMinecraftEventing::FileTransmissionState;</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="iminecrafteventing-filetransmissiontype" tabindex="-1"><a class="header-anchor" href="#iminecrafteventing-filetransmissiontype"><span><code>IMinecraftEventing::FileTransmissionType</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum IMinecraftEventing::FileTransmissionType : __int32</span>
+<span class="line">{</span>
+<span class="line">  Realm_file = 0x1,</span>
+<span class="line">  Dlc = 0x2,</span>
+<span class="line">  Remix3D_DEPRECATED = 0x3,</span>
+<span class="line">  DlcUpdate_Auto = 0x4,</span>
+<span class="line">  DlcUpdate_User = 0x5,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="iminecrafteventing-purchasestage" tabindex="-1"><a class="header-anchor" href="#iminecrafteventing-purchasestage"><span><code>IMinecraftEventing::PurchaseStage</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">typedef cg::ColorSpace IMinecraftEventing::PurchaseStage;</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="iminecrafteventing-sharemode" tabindex="-1"><a class="header-anchor" href="#iminecrafteventing-sharemode"><span><code>IMinecraftEventing::ShareMode</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum IMinecraftEventing::ShareMode : __int32</span>
+<span class="line">{</span>
+<span class="line">  Share = 0x1,</span>
+<span class="line">  Copy = 0x2,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="iminecrafteventing-authenticationoutcome" tabindex="-1"><a class="header-anchor" href="#iminecrafteventing-authenticationoutcome"><span><code>IMinecraftEventing::AuthenticationOutcome</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum IMinecraftEventing::AuthenticationOutcome : __int32</span>
+<span class="line">{</span>
+<span class="line">  Success = 0x0,</span>
+<span class="line">  Failed = 0x1,</span>
+<span class="line">  AccountRequired = 0x2,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="iminecrafteventing-exportoutcome" tabindex="-1"><a class="header-anchor" href="#iminecrafteventing-exportoutcome"><span><code>IMinecraftEventing::ExportOutcome</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">typedef IMinecraftEventing::AuthenticationOutcome IMinecraftEventing::ExportOutcome;</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="iminecrafteventing-exportstage" tabindex="-1"><a class="header-anchor" href="#iminecrafteventing-exportstage"><span><code>IMinecraftEventing::ExportStage</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">typedef Bedrock::Threading::AsyncStatus IMinecraftEventing::ExportStage;</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="iminecrafteventing-serverconnectionoutcome" tabindex="-1"><a class="header-anchor" href="#iminecrafteventing-serverconnectionoutcome"><span><code>IMinecraftEventing::ServerConnectionOutcome</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">typedef IMinecraftEventing::AuthenticationOutcome IMinecraftEventing::ServerConnectionOutcome;</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="iminecrafteventing-clubsfeedscreensource" tabindex="-1"><a class="header-anchor" href="#iminecrafteventing-clubsfeedscreensource"><span><code>IMinecraftEventing::ClubsFeedScreenSource</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum IMinecraftEventing::ClubsFeedScreenSource : __int32</span>
+<span class="line">{</span>
+<span class="line">  PlayScreen = 0x0,</span>
+<span class="line">  PauseScreen = 0x1,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="iminecrafteventing-clubsengagementaction" tabindex="-1"><a class="header-anchor" href="#iminecrafteventing-clubsengagementaction"><span><code>IMinecraftEventing::ClubsEngagementAction</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum IMinecraftEventing::ClubsEngagementAction : __int32</span>
+<span class="line">{</span>
+<span class="line">  Like = 0x0,</span>
+<span class="line">  Unlike = 0x1,</span>
+<span class="line">  Post = 0x2,</span>
+<span class="line">  Delete = 0x3,</span>
+<span class="line">  Report = 0x4,</span>
+<span class="line">  Comment = 0x5,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="iminecrafteventing-clubsengagementtargettype" tabindex="-1"><a class="header-anchor" href="#iminecrafteventing-clubsengagementtargettype"><span><code>IMinecraftEventing::ClubsEngagementTargetType</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">typedef cg::ColorSpace IMinecraftEventing::ClubsEngagementTargetType;</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="iminecrafteventing-dayoneexperiencestate" tabindex="-1"><a class="header-anchor" href="#iminecrafteventing-dayoneexperiencestate"><span><code>IMinecraftEventing::DayOneExperienceState</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">typedef Bedrock::Threading::AsyncStatus IMinecraftEventing::DayOneExperienceState;</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="iminecrafteventing-elementconstructorusetype" tabindex="-1"><a class="header-anchor" href="#iminecrafteventing-elementconstructorusetype"><span><code>IMinecraftEventing::ElementConstructorUseType</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum IMinecraftEventing::ElementConstructorUseType : __int32</span>
+<span class="line">{</span>
+<span class="line">  Created = 0x0,</span>
+<span class="line">  Entered = 0x1,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="iminecrafteventing-realmconnectionlambda" tabindex="-1"><a class="header-anchor" href="#iminecrafteventing-realmconnectionlambda"><span><code>IMinecraftEventing::RealmConnectionLambda</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum IMinecraftEventing::RealmConnectionLambda : __int32</span>
+<span class="line">{</span>
+<span class="line">  CompletedCallback = 0x0,</span>
+<span class="line">  RetryCallback = 0x1,</span>
+<span class="line">  ProgressScreenTickCallback = 0x2,</span>
+<span class="line">  ProgressScreenOnCancelCallback = 0x3,</span>
+<span class="line">  GameServerConnectProgressCallback = 0x4,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="iminecrafteventing-multiplayersessionupdatetrigger" tabindex="-1"><a class="header-anchor" href="#iminecrafteventing-multiplayersessionupdatetrigger"><span><code>IMinecraftEventing::MultiplayerSessionUpdateTrigger</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">typedef Rotation IMinecraftEventing::MultiplayerSessionUpdateTrigger;</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="iminecrafteventing-opencodemethod" tabindex="-1"><a class="header-anchor" href="#iminecrafteventing-opencodemethod"><span><code>IMinecraftEventing::OpenCodeMethod</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum IMinecraftEventing::OpenCodeMethod : __int32</span>
+<span class="line">{</span>
+<span class="line">  TouchHUD = 0x0,</span>
+<span class="line">  Keypress = 0x1,</span>
+<span class="line">  Command = 0x2,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="iminecrafteventing-petdeathcontext" tabindex="-1"><a class="header-anchor" href="#iminecrafteventing-petdeathcontext"><span><code>IMinecraftEventing::PetDeathContext</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum IMinecraftEventing::PetDeathContext : __int32</span>
+<span class="line">{</span>
+<span class="line">  DiedOfOtherCause = 0x0,</span>
+<span class="line">  PlayerMurdered = 0x1,</span>
+<span class="line">  OwnerMurdered = 0x2,</span>
+<span class="line">  MobMurdered = 0x3,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="iminecrafteventing-structureblockactiontype" tabindex="-1"><a class="header-anchor" href="#iminecrafteventing-structureblockactiontype"><span><code>IMinecraftEventing::StructureBlockActionType</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">typedef cg::ColorSpace IMinecraftEventing::StructureBlockActionType;</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="iminecrafteventing-chunkcacheresulttype" tabindex="-1"><a class="header-anchor" href="#iminecrafteventing-chunkcacheresulttype"><span><code>IMinecraftEventing::ChunkCacheResultType</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum IMinecraftEventing::ChunkCacheResultType : __int32</span>
+<span class="line">{</span>
+<span class="line">  SuccessFromCache = 0x0,</span>
+<span class="line">  SuccessFromNetwork = 0x1,</span>
+<span class="line">  Failure = 0x2,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="iteminstallstate" tabindex="-1"><a class="header-anchor" href="#iteminstallstate"><span><code>ItemInstallState</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum ItemInstallState : __int32</span>
+<span class="line">{</span>
+<span class="line">  NotInstalled = 0x0,</span>
+<span class="line">  Installed = 0x1,</span>
+<span class="line">  UpdateAvailable = 0x2,</span>
+<span class="line">  _Unknown = 0x3,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="initiatorcategory" tabindex="-1"><a class="header-anchor" href="#initiatorcategory"><span><code>InitiatorCategory</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">typedef cg::ColorSpace InitiatorCategory;</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="itemtype" tabindex="-1"><a class="header-anchor" href="#itemtype"><span><code>ItemType</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum ItemType : __int32</span>
+<span class="line">{</span>
+<span class="line">  Legacy = 0x0,</span>
+<span class="line">  DataDriven = 0x1,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="inventorytransactionerror" tabindex="-1"><a class="header-anchor" href="#inventorytransactionerror"><span><code>InventoryTransactionError</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">typedef cg::ColorSpace InventoryTransactionError;</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="icamerabehavior-updateorder" tabindex="-1"><a class="header-anchor" href="#icamerabehavior-updateorder"><span><code>ICameraBehavior::UpdateOrder</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum ICameraBehavior::UpdateOrder : __int32</span>
+<span class="line">{</span>
+<span class="line">  First = 0x0,</span>
+<span class="line">  Second = 0x1,</span>
+<span class="line">  Third = 0x2,</span>
+<span class="line">  Fourth = 0x3,</span>
+<span class="line">  Fifth = 0x4,</span>
+<span class="line">  Sixth = 0x5,</span>
+<span class="line">  Seventh = 0x6,</span>
+<span class="line">  Eighth = 0x7,</span>
+<span class="line">  Ninth = 0x8,</span>
+<span class="line">  Tenth = 0x9,</span>
+<span class="line">  Eleventh = 0xA,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="inhandupdatetype" tabindex="-1"><a class="header-anchor" href="#inhandupdatetype"><span><code>InHandUpdateType</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">typedef ActorEvent InHandUpdateType;</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="itemspeciallocation" tabindex="-1"><a class="header-anchor" href="#itemspeciallocation"><span><code>ItemSpecialLocation</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">typedef TransformSpace ItemSpecialLocation;</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="itemsettype" tabindex="-1"><a class="header-anchor" href="#itemsettype"><span><code>ItemSetType</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">typedef MinecraftEventing::ItemInteractMethod ItemSetType;</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="itemaddtype" tabindex="-1"><a class="header-anchor" href="#itemaddtype"><span><code>ItemAddType</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">typedef ItemPlaceType ItemAddType;</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="ipproto" tabindex="-1"><a class="header-anchor" href="#ipproto"><span><code>IPPROTO</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum IPPROTO : __int32</span>
+<span class="line">{</span>
+<span class="line">  IPPROTO_HOPOPTS = 0x0,</span>
+<span class="line">  IPPROTO_ICMP = 0x1,</span>
+<span class="line">  IPPROTO_IGMP = 0x2,</span>
+<span class="line">  IPPROTO_GGP = 0x3,</span>
+<span class="line">  IPPROTO_IPV4 = 0x4,</span>
+<span class="line">  IPPROTO_ST = 0x5,</span>
+<span class="line">  IPPROTO_TCP = 0x6,</span>
+<span class="line">  IPPROTO_CBT = 0x7,</span>
+<span class="line">  IPPROTO_EGP = 0x8,</span>
+<span class="line">  IPPROTO_IGP = 0x9,</span>
+<span class="line">  IPPROTO_PUP = 0xC,</span>
+<span class="line">  IPPROTO_UDP = 0x11,</span>
+<span class="line">  IPPROTO_IDP = 0x16,</span>
+<span class="line">  IPPROTO_RDP = 0x1B,</span>
+<span class="line">  IPPROTO_IPV6 = 0x29,</span>
+<span class="line">  IPPROTO_ROUTING = 0x2B,</span>
+<span class="line">  IPPROTO_FRAGMENT = 0x2C,</span>
+<span class="line">  IPPROTO_ESP = 0x32,</span>
+<span class="line">  IPPROTO_AH = 0x33,</span>
+<span class="line">  IPPROTO_ICMPV6 = 0x3A,</span>
+<span class="line">  IPPROTO_NONE = 0x3B,</span>
+<span class="line">  IPPROTO_DSTOPTS = 0x3C,</span>
+<span class="line">  IPPROTO_ND = 0x4D,</span>
+<span class="line">  IPPROTO_ICLFXBM = 0x4E,</span>
+<span class="line">  IPPROTO_PIM = 0x67,</span>
+<span class="line">  IPPROTO_PGM = 0x71,</span>
+<span class="line">  IPPROTO_L2TP = 0x73,</span>
+<span class="line">  IPPROTO_SCTP = 0x84,</span>
+<span class="line">  IPPROTO_RAW = 0xFF,</span>
+<span class="line">  IPPROTO_MAX = 0x100,</span>
+<span class="line">  IPPROTO_RESERVED_RAW = 0x101,</span>
+<span class="line">  IPPROTO_RESERVED_IPSEC = 0x102,</span>
+<span class="line">  IPPROTO_RESERVED_IPSECOFFLOAD = 0x103,</span>
+<span class="line">  IPPROTO_RESERVED_WNV = 0x104,</span>
+<span class="line">  IPPROTO_RESERVED_MAX = 0x105,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="import-object-type" tabindex="-1"><a class="header-anchor" href="#import-object-type"><span><code>IMPORT_OBJECT_TYPE</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum IMPORT_OBJECT_TYPE : __int32</span>
+<span class="line">{</span>
+<span class="line">  IMPORT_OBJECT_CODE = 0x0,</span>
+<span class="line">  IMPORT_OBJECT_DATA = 0x1,</span>
+<span class="line">  IMPORT_OBJECT_CONST = 0x2,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="import-object-name-type" tabindex="-1"><a class="header-anchor" href="#import-object-name-type"><span><code>IMPORT_OBJECT_NAME_TYPE</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum IMPORT_OBJECT_NAME_TYPE : __int32</span>
+<span class="line">{</span>
+<span class="line">  IMPORT_OBJECT_ORDINAL = 0x0,</span>
+<span class="line">  IMPORT_OBJECT_NAME = 0x1,</span>
+<span class="line">  IMPORT_OBJECT_NAME_NO_PREFIX = 0x2,</span>
+<span class="line">  IMPORT_OBJECT_NAME_UNDECORATE = 0x3,</span>
+<span class="line">  IMPORT_OBJECT_NAME_EXPORTAS = 0x4,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="image-aux-symbol-type" tabindex="-1"><a class="header-anchor" href="#image-aux-symbol-type"><span><code>IMAGE_AUX_SYMBOL_TYPE</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum IMAGE_AUX_SYMBOL_TYPE : __int32</span>
+<span class="line">{</span>
+<span class="line">  IMAGE_AUX_SYMBOL_TYPE_TOKEN_DEF = 0x1,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="imagecachemode" tabindex="-1"><a class="header-anchor" href="#imagecachemode"><span><code>ImageCacheMode</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">typedef HolographicPlatform::GestureMode ImageCacheMode;</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="itemrenderchunktype" tabindex="-1"><a class="header-anchor" href="#itemrenderchunktype"><span><code>ItemRenderChunkType</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">typedef MaterialType ItemRenderChunkType;</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="interactpacket-action" tabindex="-1"><a class="header-anchor" href="#interactpacket-action"><span><code>InteractPacket::Action</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">typedef TransformSpace InteractPacket::Action;</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="itemlockmode" tabindex="-1"><a class="header-anchor" href="#itemlockmode"><span><code>ItemLockMode</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">typedef Rotation ItemLockMode;</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="inputcomponent-presstype" tabindex="-1"><a class="header-anchor" href="#inputcomponent-presstype"><span><code>InputComponent::PressType</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum InputComponent::PressType : __int32</span>
+<span class="line">{</span>
+<span class="line">  Single = 0x0,</span>
+<span class="line">  Double = 0x1,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="importsuccess" tabindex="-1"><a class="header-anchor" href="#importsuccess"><span><code>ImportSuccess</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">typedef TaskOptions ImportSuccess;</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="importfailure" tabindex="-1"><a class="header-anchor" href="#importfailure"><span><code>ImportFailure</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">typedef TaskOptions ImportFailure;</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="interactionmodel" tabindex="-1"><a class="header-anchor" href="#interactionmodel"><span><code>InteractionModel</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum InteractionModel : __int32</span>
+<span class="line">{</span>
+<span class="line">  CombinedInventory = 0x0,</span>
+<span class="line">  SeparateInventoryAndHotbar = 0x1,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="itemtransfertype" tabindex="-1"><a class="header-anchor" href="#itemtransfertype"><span><code>ItemTransferType</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">typedef MinecraftEventing::ItemInteractMethod ItemTransferType;</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="itemcrafttype" tabindex="-1"><a class="header-anchor" href="#itemcrafttype"><span><code>ItemCraftType</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">typedef ItemPlaceType ItemCraftType;</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="inventorylefttabindex" tabindex="-1"><a class="header-anchor" href="#inventorylefttabindex"><span><code>InventoryLeftTabIndex</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">typedef Rotation InventoryLeftTabIndex;</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="inventoryrighttabindex" tabindex="-1"><a class="header-anchor" href="#inventoryrighttabindex"><span><code>InventoryRightTabIndex</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">typedef Rotation InventoryRightTabIndex;</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="inventorylayout" tabindex="-1"><a class="header-anchor" href="#inventorylayout"><span><code>InventoryLayout</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">typedef Rotation InventoryLayout;</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="instantiationresult" tabindex="-1"><a class="header-anchor" href="#instantiationresult"><span><code>InstantiationResult</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">typedef IMinecraftEventing::AuthenticationOutcome InstantiationResult;</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="identitydefinition-type" tabindex="-1"><a class="header-anchor" href="#identitydefinition-type"><span><code>IdentityDefinition::Type</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">typedef TransformSpace IdentityDefinition::Type;</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="immersivereaderscreencontroller-immersivereadererrortype" tabindex="-1"><a class="header-anchor" href="#immersivereaderscreencontroller-immersivereadererrortype"><span><code>ImmersiveReaderScreenController::ImmersiveReaderErrorType</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum ImmersiveReaderScreenController::ImmersiveReaderErrorType : __int8</span>
+<span class="line">{</span>
+<span class="line">  WebviewFailure = 0x0,</span>
+<span class="line">  IdentityFailure = 0x1,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="immersivereaderscreencontroller-immersivereaderstatuscodes" tabindex="-1"><a class="header-anchor" href="#immersivereaderscreencontroller-immersivereaderstatuscodes"><span><code>ImmersiveReaderScreenController::ImmersiveReaderStatusCodes</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">typedef ChunkState ImmersiveReaderScreenController::ImmersiveReaderStatusCodes;</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="immersivereaderscreencontroller-immersivereaderstage" tabindex="-1"><a class="header-anchor" href="#immersivereaderscreencontroller-immersivereaderstage"><span><code>ImmersiveReaderScreenController::ImmersiveReaderStage</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">typedef UIAnim::State ImmersiveReaderScreenController::ImmersiveReaderStage;</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="ipjoinscreencontroller-joinrequest" tabindex="-1"><a class="header-anchor" href="#ipjoinscreencontroller-joinrequest"><span><code>IPJoinScreenController::JoinRequest</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">typedef StartIntent IPJoinScreenController::JoinRequest;</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="inputs" tabindex="-1"><a class="header-anchor" href="#inputs"><span><code>Inputs</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">typedef Rotation Inputs;</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="igpsturningmode" tabindex="-1"><a class="header-anchor" href="#igpsturningmode"><span><code>IGPSTurningMode</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum IGPSTurningMode : __int32</span>
+<span class="line">{</span>
+<span class="line">  STANDARD = 0x0,</span>
+<span class="line">  STUTTER = 0x1,</span>
+<span class="line">  DIRECT = 0x2,</span>
+<span class="line">  ROLL = 0x4,</span>
+<span class="line">  STUTTER_DIRECT = 0x3,</span>
+<span class="line">  STUTTER_ROLL = 0x5,</span>
+<span class="line">  DIRECT_ROLL = 0x6,</span>
+<span class="line">  STUTTER_DIRECT_ROLL = 0x7,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="ingamerealitymodescreen-vroptionpresetmode" tabindex="-1"><a class="header-anchor" href="#ingamerealitymodescreen-vroptionpresetmode"><span><code>InGameRealityModeScreen::VROptionPresetMode</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">typedef Realms::World::State InGameRealityModeScreen::VROptionPresetMode;</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="imguiitemflags" tabindex="-1"><a class="header-anchor" href="#imguiitemflags"><span><code>ImGuiItemFlags_</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum ImGuiItemFlags_ : __int32</span>
+<span class="line">{</span>
+<span class="line">  ImGuiItemFlags_NoTabStop = 0x1,</span>
+<span class="line">  ImGuiItemFlags_ButtonRepeat = 0x2,</span>
+<span class="line">  ImGuiItemFlags_Disabled = 0x4,</span>
+<span class="line">  ImGuiItemFlags_NoNav = 0x8,</span>
+<span class="line">  ImGuiItemFlags_NoNavDefaultFocus = 0x10,</span>
+<span class="line">  ImGuiItemFlags_SelectableDontClosePopup = 0x20,</span>
+<span class="line">  ImGuiItemFlags_Default_ = 0x0,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="imguilayouttype" tabindex="-1"><a class="header-anchor" href="#imguilayouttype"><span><code>ImGuiLayoutType_</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum ImGuiLayoutType_ : __int32</span>
+<span class="line">{</span>
+<span class="line">  ImGuiLayoutType_Vertical = 0x0,</span>
+<span class="line">  ImGuiLayoutType_Horizontal = 0x1,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="imguinavforward" tabindex="-1"><a class="header-anchor" href="#imguinavforward"><span><code>ImGuiNavForward</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum ImGuiNavForward : __int32</span>
+<span class="line">{</span>
+<span class="line">  ImGuiNavForward_None = 0x0,</span>
+<span class="line">  ImGuiNavForward_ForwardQueued = 0x1,</span>
+<span class="line">  ImGuiNavForward_ForwardActive = 0x2,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="imguiinputsource" tabindex="-1"><a class="header-anchor" href="#imguiinputsource"><span><code>ImGuiInputSource</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum ImGuiInputSource : __int32</span>
+<span class="line">{</span>
+<span class="line">  ImGuiInputSource_None = 0x0,</span>
+<span class="line">  ImGuiInputSource_Mouse = 0x1,</span>
+<span class="line">  ImGuiInputSource_Nav = 0x2,</span>
+<span class="line">  ImGuiInputSource_NavKeyboard = 0x3,</span>
+<span class="line">  ImGuiInputSource_NavGamepad = 0x4,</span>
+<span class="line">  ImGuiInputSource_COUNT = 0x5,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="imguicoloreditflags" tabindex="-1"><a class="header-anchor" href="#imguicoloreditflags"><span><code>ImGuiColorEditFlags_</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum ImGuiColorEditFlags_ : __int32</span>
+<span class="line">{</span>
+<span class="line">  ImGuiColorEditFlags_None = 0x0,</span>
+<span class="line">  ImGuiColorEditFlags_NoAlpha = 0x2,</span>
+<span class="line">  ImGuiColorEditFlags_NoPicker = 0x4,</span>
+<span class="line">  ImGuiColorEditFlags_NoOptions = 0x8,</span>
+<span class="line">  ImGuiColorEditFlags_NoSmallPreview = 0x10,</span>
+<span class="line">  ImGuiColorEditFlags_NoInputs = 0x20,</span>
+<span class="line">  ImGuiColorEditFlags_NoTooltip = 0x40,</span>
+<span class="line">  ImGuiColorEditFlags_NoLabel = 0x80,</span>
+<span class="line">  ImGuiColorEditFlags_NoSidePreview = 0x100,</span>
+<span class="line">  ImGuiColorEditFlags_NoDragDrop = 0x200,</span>
+<span class="line">  ImGuiColorEditFlags_AlphaBar = 0x10000,</span>
+<span class="line">  ImGuiColorEditFlags_AlphaPreview = 0x20000,</span>
+<span class="line">  ImGuiColorEditFlags_AlphaPreviewHalf = 0x40000,</span>
+<span class="line">  ImGuiColorEditFlags_HDR = 0x80000,</span>
+<span class="line">  ImGuiColorEditFlags_RGB = 0x100000,</span>
+<span class="line">  ImGuiColorEditFlags_HSV = 0x200000,</span>
+<span class="line">  ImGuiColorEditFlags_HEX = 0x400000,</span>
+<span class="line">  ImGuiColorEditFlags_Uint8 = 0x800000,</span>
+<span class="line">  ImGuiColorEditFlags_Float = 0x1000000,</span>
+<span class="line">  ImGuiColorEditFlags_PickerHueBar = 0x2000000,</span>
+<span class="line">  ImGuiColorEditFlags_PickerHueWheel = 0x4000000,</span>
+<span class="line">  ImGuiColorEditFlags__InputsMask = 0x700000,</span>
+<span class="line">  ImGuiColorEditFlags__DataTypeMask = 0x1800000,</span>
+<span class="line">  ImGuiColorEditFlags__PickerMask = 0x6000000,</span>
+<span class="line">  ImGuiColorEditFlags__OptionsDefault = 0x2900000,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="imguimousecursor" tabindex="-1"><a class="header-anchor" href="#imguimousecursor"><span><code>ImGuiMouseCursor_</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum ImGuiMouseCursor_ : __int32</span>
+<span class="line">{</span>
+<span class="line">  ImGuiMouseCursor_None = 0xFFFFFFFF,</span>
+<span class="line">  ImGuiMouseCursor_Arrow = 0x0,</span>
+<span class="line">  ImGuiMouseCursor_TextInput = 0x1,</span>
+<span class="line">  ImGuiMouseCursor_ResizeAll = 0x2,</span>
+<span class="line">  ImGuiMouseCursor_ResizeNS = 0x3,</span>
+<span class="line">  ImGuiMouseCursor_ResizeEW = 0x4,</span>
+<span class="line">  ImGuiMouseCursor_ResizeNESW = 0x5,</span>
+<span class="line">  ImGuiMouseCursor_ResizeNWSE = 0x6,</span>
+<span class="line">  ImGuiMouseCursor_Hand = 0x7,</span>
+<span class="line">  ImGuiMouseCursor_COUNT = 0x8,</span>
+<span class="line">  ImGuiMouseCursor_Count_ = 0x8,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="imguidir" tabindex="-1"><a class="header-anchor" href="#imguidir"><span><code>ImGuiDir_</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum ImGuiDir_ : __int32</span>
+<span class="line">{</span>
+<span class="line">  ImGuiDir_None = 0xFFFFFFFF,</span>
+<span class="line">  ImGuiDir_Left = 0x0,</span>
+<span class="line">  ImGuiDir_Right = 0x1,</span>
+<span class="line">  ImGuiDir_Up = 0x2,</span>
+<span class="line">  ImGuiDir_Down = 0x3,</span>
+<span class="line">  ImGuiDir_COUNT = 0x4,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="imguipopuppositionpolicy" tabindex="-1"><a class="header-anchor" href="#imguipopuppositionpolicy"><span><code>ImGuiPopupPositionPolicy</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum ImGuiPopupPositionPolicy : __int32</span>
+<span class="line">{</span>
+<span class="line">  ImGuiPopupPositionPolicy_Default = 0x0,</span>
+<span class="line">  ImGuiPopupPositionPolicy_ComboBox = 0x1,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="imguiwindowflags" tabindex="-1"><a class="header-anchor" href="#imguiwindowflags"><span><code>ImGuiWindowFlags_</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum ImGuiWindowFlags_ : __int32</span>
+<span class="line">{</span>
+<span class="line">  ImGuiWindowFlags_None = 0x0,</span>
+<span class="line">  ImGuiWindowFlags_NoTitleBar = 0x1,</span>
+<span class="line">  ImGuiWindowFlags_NoResize = 0x2,</span>
+<span class="line">  ImGuiWindowFlags_NoMove = 0x4,</span>
+<span class="line">  ImGuiWindowFlags_NoScrollbar = 0x8,</span>
+<span class="line">  ImGuiWindowFlags_NoScrollWithMouse = 0x10,</span>
+<span class="line">  ImGuiWindowFlags_NoCollapse = 0x20,</span>
+<span class="line">  ImGuiWindowFlags_AlwaysAutoResize = 0x40,</span>
+<span class="line">  ImGuiWindowFlags_NoBackground = 0x80,</span>
+<span class="line">  ImGuiWindowFlags_NoSavedSettings = 0x100,</span>
+<span class="line">  ImGuiWindowFlags_NoMouseInputs = 0x200,</span>
+<span class="line">  ImGuiWindowFlags_MenuBar = 0x400,</span>
+<span class="line">  ImGuiWindowFlags_HorizontalScrollbar = 0x800,</span>
+<span class="line">  ImGuiWindowFlags_NoFocusOnAppearing = 0x1000,</span>
+<span class="line">  ImGuiWindowFlags_NoBringToFrontOnFocus = 0x2000,</span>
+<span class="line">  ImGuiWindowFlags_AlwaysVerticalScrollbar = 0x4000,</span>
+<span class="line">  ImGuiWindowFlags_AlwaysHorizontalScrollbar = 0x8000,</span>
+<span class="line">  ImGuiWindowFlags_AlwaysUseWindowPadding = 0x10000,</span>
+<span class="line">  ImGuiWindowFlags_NoNavInputs = 0x40000,</span>
+<span class="line">  ImGuiWindowFlags_NoNavFocus = 0x80000,</span>
+<span class="line">  ImGuiWindowFlags_NoNav = 0xC0000,</span>
+<span class="line">  ImGuiWindowFlags_NoDecoration = 0x2B,</span>
+<span class="line">  ImGuiWindowFlags_NoInputs = 0xC0200,</span>
+<span class="line">  ImGuiWindowFlags_NavFlattened = 0x800000,</span>
+<span class="line">  ImGuiWindowFlags_ChildWindow = 0x1000000,</span>
+<span class="line">  ImGuiWindowFlags_Tooltip = 0x2000000,</span>
+<span class="line">  ImGuiWindowFlags_Popup = 0x4000000,</span>
+<span class="line">  ImGuiWindowFlags_Modal = 0x8000000,</span>
+<span class="line">  ImGuiWindowFlags_ChildMenu = 0x10000000,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="imguinavhighlightflags" tabindex="-1"><a class="header-anchor" href="#imguinavhighlightflags"><span><code>ImGuiNavHighlightFlags_</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum ImGuiNavHighlightFlags_ : __int32</span>
+<span class="line">{</span>
+<span class="line">  ImGuiNavHighlightFlags_None = 0x0,</span>
+<span class="line">  ImGuiNavHighlightFlags_TypeDefault = 0x1,</span>
+<span class="line">  ImGuiNavHighlightFlags_TypeThin = 0x2,</span>
+<span class="line">  ImGuiNavHighlightFlags_AlwaysDraw = 0x4,</span>
+<span class="line">  ImGuiNavHighlightFlags_NoRounding = 0x8,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="imguicol" tabindex="-1"><a class="header-anchor" href="#imguicol"><span><code>ImGuiCol_</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum ImGuiCol_ : __int32</span>
+<span class="line">{</span>
+<span class="line">  ImGuiCol_Text = 0x0,</span>
+<span class="line">  ImGuiCol_TextDisabled = 0x1,</span>
+<span class="line">  ImGuiCol_WindowBg = 0x2,</span>
+<span class="line">  ImGuiCol_ChildBg = 0x3,</span>
+<span class="line">  ImGuiCol_PopupBg = 0x4,</span>
+<span class="line">  ImGuiCol_Border = 0x5,</span>
+<span class="line">  ImGuiCol_BorderShadow = 0x6,</span>
+<span class="line">  ImGuiCol_FrameBg = 0x7,</span>
+<span class="line">  ImGuiCol_FrameBgHovered = 0x8,</span>
+<span class="line">  ImGuiCol_FrameBgActive = 0x9,</span>
+<span class="line">  ImGuiCol_TitleBg = 0xA,</span>
+<span class="line">  ImGuiCol_TitleBgActive = 0xB,</span>
+<span class="line">  ImGuiCol_TitleBgCollapsed = 0xC,</span>
+<span class="line">  ImGuiCol_MenuBarBg = 0xD,</span>
+<span class="line">  ImGuiCol_ScrollbarBg = 0xE,</span>
+<span class="line">  ImGuiCol_ScrollbarGrab = 0xF,</span>
+<span class="line">  ImGuiCol_ScrollbarGrabHovered = 0x10,</span>
+<span class="line">  ImGuiCol_ScrollbarGrabActive = 0x11,</span>
+<span class="line">  ImGuiCol_CheckMark = 0x12,</span>
+<span class="line">  ImGuiCol_SliderGrab = 0x13,</span>
+<span class="line">  ImGuiCol_SliderGrabActive = 0x14,</span>
+<span class="line">  ImGuiCol_Button = 0x15,</span>
+<span class="line">  ImGuiCol_ButtonHovered = 0x16,</span>
+<span class="line">  ImGuiCol_ButtonActive = 0x17,</span>
+<span class="line">  ImGuiCol_Header = 0x18,</span>
+<span class="line">  ImGuiCol_HeaderHovered = 0x19,</span>
+<span class="line">  ImGuiCol_HeaderActive = 0x1A,</span>
+<span class="line">  ImGuiCol_Separator = 0x1B,</span>
+<span class="line">  ImGuiCol_SeparatorHovered = 0x1C,</span>
+<span class="line">  ImGuiCol_SeparatorActive = 0x1D,</span>
+<span class="line">  ImGuiCol_ResizeGrip = 0x1E,</span>
+<span class="line">  ImGuiCol_ResizeGripHovered = 0x1F,</span>
+<span class="line">  ImGuiCol_ResizeGripActive = 0x20,</span>
+<span class="line">  ImGuiCol_PlotLines = 0x21,</span>
+<span class="line">  ImGuiCol_PlotLinesHovered = 0x22,</span>
+<span class="line">  ImGuiCol_PlotHistogram = 0x23,</span>
+<span class="line">  ImGuiCol_PlotHistogramHovered = 0x24,</span>
+<span class="line">  ImGuiCol_TextSelectedBg = 0x25,</span>
+<span class="line">  ImGuiCol_DragDropTarget = 0x26,</span>
+<span class="line">  ImGuiCol_NavHighlight = 0x27,</span>
+<span class="line">  ImGuiCol_NavWindowingHighlight = 0x28,</span>
+<span class="line">  ImGuiCol_NavWindowingDimBg = 0x29,</span>
+<span class="line">  ImGuiCol_ModalWindowDimBg = 0x2A,</span>
+<span class="line">  ImGuiCol_COUNT = 0x2B,</span>
+<span class="line">  ImGuiCol_ChildWindowBg = 0x3,</span>
+<span class="line">  ImGuiCol_Column = 0x1B,</span>
+<span class="line">  ImGuiCol_ColumnHovered = 0x1C,</span>
+<span class="line">  ImGuiCol_ColumnActive = 0x1D,</span>
+<span class="line">  ImGuiCol_ModalWindowDarkening = 0x2A,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="imguinavinput" tabindex="-1"><a class="header-anchor" href="#imguinavinput"><span><code>ImGuiNavInput_</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum ImGuiNavInput_ : __int32</span>
+<span class="line">{</span>
+<span class="line">  ImGuiNavInput_Activate = 0x0,</span>
+<span class="line">  ImGuiNavInput_Cancel = 0x1,</span>
+<span class="line">  ImGuiNavInput_Input = 0x2,</span>
+<span class="line">  ImGuiNavInput_Menu = 0x3,</span>
+<span class="line">  ImGuiNavInput_DpadLeft = 0x4,</span>
+<span class="line">  ImGuiNavInput_DpadRight = 0x5,</span>
+<span class="line">  ImGuiNavInput_DpadUp = 0x6,</span>
+<span class="line">  ImGuiNavInput_DpadDown = 0x7,</span>
+<span class="line">  ImGuiNavInput_LStickLeft = 0x8,</span>
+<span class="line">  ImGuiNavInput_LStickRight = 0x9,</span>
+<span class="line">  ImGuiNavInput_LStickUp = 0xA,</span>
+<span class="line">  ImGuiNavInput_LStickDown = 0xB,</span>
+<span class="line">  ImGuiNavInput_FocusPrev = 0xC,</span>
+<span class="line">  ImGuiNavInput_FocusNext = 0xD,</span>
+<span class="line">  ImGuiNavInput_TweakSlow = 0xE,</span>
+<span class="line">  ImGuiNavInput_TweakFast = 0xF,</span>
+<span class="line">  ImGuiNavInput_KeyMenu_ = 0x10,</span>
+<span class="line">  ImGuiNavInput_KeyLeft_ = 0x11,</span>
+<span class="line">  ImGuiNavInput_KeyRight_ = 0x12,</span>
+<span class="line">  ImGuiNavInput_KeyUp_ = 0x13,</span>
+<span class="line">  ImGuiNavInput_KeyDown_ = 0x14,</span>
+<span class="line">  ImGuiNavInput_COUNT = 0x15,</span>
+<span class="line">  ImGuiNavInput_InternalStart_ = 0x10,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="imguidragdropflags" tabindex="-1"><a class="header-anchor" href="#imguidragdropflags"><span><code>ImGuiDragDropFlags_</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum ImGuiDragDropFlags_ : __int32</span>
+<span class="line">{</span>
+<span class="line">  ImGuiDragDropFlags_None = 0x0,</span>
+<span class="line">  ImGuiDragDropFlags_SourceNoPreviewTooltip = 0x1,</span>
+<span class="line">  ImGuiDragDropFlags_SourceNoDisableHover = 0x2,</span>
+<span class="line">  ImGuiDragDropFlags_SourceNoHoldToOpenOthers = 0x4,</span>
+<span class="line">  ImGuiDragDropFlags_SourceAllowNullID = 0x8,</span>
+<span class="line">  ImGuiDragDropFlags_SourceExtern = 0x10,</span>
+<span class="line">  ImGuiDragDropFlags_SourceAutoExpirePayload = 0x20,</span>
+<span class="line">  ImGuiDragDropFlags_AcceptBeforeDelivery = 0x400,</span>
+<span class="line">  ImGuiDragDropFlags_AcceptNoDrawDefaultRect = 0x800,</span>
+<span class="line">  ImGuiDragDropFlags_AcceptNoPreviewTooltip = 0x1000,</span>
+<span class="line">  ImGuiDragDropFlags_AcceptPeekOnly = 0xC00,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="imguihoveredflags" tabindex="-1"><a class="header-anchor" href="#imguihoveredflags"><span><code>ImGuiHoveredFlags_</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum ImGuiHoveredFlags_ : __int32</span>
+<span class="line">{</span>
+<span class="line">  ImGuiHoveredFlags_None = 0x0,</span>
+<span class="line">  ImGuiHoveredFlags_ChildWindows = 0x1,</span>
+<span class="line">  ImGuiHoveredFlags_RootWindow = 0x2,</span>
+<span class="line">  ImGuiHoveredFlags_AnyWindow = 0x4,</span>
+<span class="line">  ImGuiHoveredFlags_AllowWhenBlockedByPopup = 0x8,</span>
+<span class="line">  ImGuiHoveredFlags_AllowWhenBlockedByActiveItem = 0x20,</span>
+<span class="line">  ImGuiHoveredFlags_AllowWhenOverlapped = 0x40,</span>
+<span class="line">  ImGuiHoveredFlags_AllowWhenDisabled = 0x80,</span>
+<span class="line">  ImGuiHoveredFlags_RectOnly = 0x68,</span>
+<span class="line">  ImGuiHoveredFlags_RootAndChildWindows = 0x3,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="imguifocusedflags" tabindex="-1"><a class="header-anchor" href="#imguifocusedflags"><span><code>ImGuiFocusedFlags_</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum ImGuiFocusedFlags_ : __int32</span>
+<span class="line">{</span>
+<span class="line">  ImGuiFocusedFlags_None = 0x0,</span>
+<span class="line">  ImGuiFocusedFlags_ChildWindows = 0x1,</span>
+<span class="line">  ImGuiFocusedFlags_RootWindow = 0x2,</span>
+<span class="line">  ImGuiFocusedFlags_AnyWindow = 0x4,</span>
+<span class="line">  ImGuiFocusedFlags_RootAndChildWindows = 0x3,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="imguicomboflags" tabindex="-1"><a class="header-anchor" href="#imguicomboflags"><span><code>ImGuiComboFlags_</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum ImGuiComboFlags_ : __int32</span>
+<span class="line">{</span>
+<span class="line">  ImGuiComboFlags_None = 0x0,</span>
+<span class="line">  ImGuiComboFlags_PopupAlignLeft = 0x1,</span>
+<span class="line">  ImGuiComboFlags_HeightSmall = 0x2,</span>
+<span class="line">  ImGuiComboFlags_HeightRegular = 0x4,</span>
+<span class="line">  ImGuiComboFlags_HeightLarge = 0x8,</span>
+<span class="line">  ImGuiComboFlags_HeightLargest = 0x10,</span>
+<span class="line">  ImGuiComboFlags_NoArrowButton = 0x20,</span>
+<span class="line">  ImGuiComboFlags_NoPreview = 0x40,</span>
+<span class="line">  ImGuiComboFlags_HeightMask_ = 0x1E,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="imguicond" tabindex="-1"><a class="header-anchor" href="#imguicond"><span><code>ImGuiCond_</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum ImGuiCond_ : __int32</span>
+<span class="line">{</span>
+<span class="line">  ImGuiCond_Always = 0x1,</span>
+<span class="line">  ImGuiCond_Once = 0x2,</span>
+<span class="line">  ImGuiCond_FirstUseEver = 0x4,</span>
+<span class="line">  ImGuiCond_Appearing = 0x8,</span>
+<span class="line">  ImGuiSetCond_Always = 0x1,</span>
+<span class="line">  ImGuiSetCond_Once = 0x2,</span>
+<span class="line">  ImGuiSetCond_FirstUseEver = 0x4,</span>
+<span class="line">  ImGuiSetCond_Appearing = 0x8,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="imguikey" tabindex="-1"><a class="header-anchor" href="#imguikey"><span><code>ImGuiKey_</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum ImGuiKey_ : __int32</span>
+<span class="line">{</span>
+<span class="line">  ImGuiKey_Tab = 0x0,</span>
+<span class="line">  ImGuiKey_LeftArrow = 0x1,</span>
+<span class="line">  ImGuiKey_RightArrow = 0x2,</span>
+<span class="line">  ImGuiKey_UpArrow = 0x3,</span>
+<span class="line">  ImGuiKey_DownArrow = 0x4,</span>
+<span class="line">  ImGuiKey_PageUp = 0x5,</span>
+<span class="line">  ImGuiKey_PageDown = 0x6,</span>
+<span class="line">  ImGuiKey_Home = 0x7,</span>
+<span class="line">  ImGuiKey_End = 0x8,</span>
+<span class="line">  ImGuiKey_Insert = 0x9,</span>
+<span class="line">  ImGuiKey_Delete = 0xA,</span>
+<span class="line">  ImGuiKey_Backspace = 0xB,</span>
+<span class="line">  ImGuiKey_Space = 0xC,</span>
+<span class="line">  ImGuiKey_Enter = 0xD,</span>
+<span class="line">  ImGuiKey_Escape = 0xE,</span>
+<span class="line">  ImGuiKey_A = 0xF,</span>
+<span class="line">  ImGuiKey_C = 0x10,</span>
+<span class="line">  ImGuiKey_V = 0x11,</span>
+<span class="line">  ImGuiKey_X = 0x12,</span>
+<span class="line">  ImGuiKey_Y = 0x13,</span>
+<span class="line">  ImGuiKey_Z = 0x14,</span>
+<span class="line">  ImGuiKey_COUNT = 0x15,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="imguistylevar" tabindex="-1"><a class="header-anchor" href="#imguistylevar"><span><code>ImGuiStyleVar_</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum ImGuiStyleVar_ : __int32</span>
+<span class="line">{</span>
+<span class="line">  ImGuiStyleVar_Alpha = 0x0,</span>
+<span class="line">  ImGuiStyleVar_WindowPadding = 0x1,</span>
+<span class="line">  ImGuiStyleVar_WindowRounding = 0x2,</span>
+<span class="line">  ImGuiStyleVar_WindowBorderSize = 0x3,</span>
+<span class="line">  ImGuiStyleVar_WindowMinSize = 0x4,</span>
+<span class="line">  ImGuiStyleVar_WindowTitleAlign = 0x5,</span>
+<span class="line">  ImGuiStyleVar_ChildRounding = 0x6,</span>
+<span class="line">  ImGuiStyleVar_ChildBorderSize = 0x7,</span>
+<span class="line">  ImGuiStyleVar_PopupRounding = 0x8,</span>
+<span class="line">  ImGuiStyleVar_PopupBorderSize = 0x9,</span>
+<span class="line">  ImGuiStyleVar_FramePadding = 0xA,</span>
+<span class="line">  ImGuiStyleVar_FrameRounding = 0xB,</span>
+<span class="line">  ImGuiStyleVar_FrameBorderSize = 0xC,</span>
+<span class="line">  ImGuiStyleVar_ItemSpacing = 0xD,</span>
+<span class="line">  ImGuiStyleVar_ItemInnerSpacing = 0xE,</span>
+<span class="line">  ImGuiStyleVar_IndentSpacing = 0xF,</span>
+<span class="line">  ImGuiStyleVar_ScrollbarSize = 0x10,</span>
+<span class="line">  ImGuiStyleVar_ScrollbarRounding = 0x11,</span>
+<span class="line">  ImGuiStyleVar_GrabMinSize = 0x12,</span>
+<span class="line">  ImGuiStyleVar_GrabRounding = 0x13,</span>
+<span class="line">  ImGuiStyleVar_ButtonTextAlign = 0x14,</span>
+<span class="line">  ImGuiStyleVar_COUNT = 0x15,</span>
+<span class="line">  ImGuiStyleVar_Count_ = 0x15,</span>
+<span class="line">  ImGuiStyleVar_ChildWindowRounding = 0x6,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="imdrawcornerflags" tabindex="-1"><a class="header-anchor" href="#imdrawcornerflags"><span><code>ImDrawCornerFlags_</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum ImDrawCornerFlags_ : __int32</span>
+<span class="line">{</span>
+<span class="line">  ImDrawCornerFlags_TopLeft = 0x1,</span>
+<span class="line">  ImDrawCornerFlags_TopRight = 0x2,</span>
+<span class="line">  ImDrawCornerFlags_BotLeft = 0x4,</span>
+<span class="line">  ImDrawCornerFlags_BotRight = 0x8,</span>
+<span class="line">  ImDrawCornerFlags_Top = 0x3,</span>
+<span class="line">  ImDrawCornerFlags_Bot = 0xC,</span>
+<span class="line">  ImDrawCornerFlags_Left = 0x5,</span>
+<span class="line">  ImDrawCornerFlags_Right = 0xA,</span>
+<span class="line">  ImDrawCornerFlags_All = 0xF,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="imguitreenodeflags" tabindex="-1"><a class="header-anchor" href="#imguitreenodeflags"><span><code>ImGuiTreeNodeFlags_</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum ImGuiTreeNodeFlags_ : __int32</span>
+<span class="line">{</span>
+<span class="line">  ImGuiTreeNodeFlags_None = 0x0,</span>
+<span class="line">  ImGuiTreeNodeFlags_Selected = 0x1,</span>
+<span class="line">  ImGuiTreeNodeFlags_Framed = 0x2,</span>
+<span class="line">  ImGuiTreeNodeFlags_AllowItemOverlap = 0x4,</span>
+<span class="line">  ImGuiTreeNodeFlags_NoTreePushOnOpen = 0x8,</span>
+<span class="line">  ImGuiTreeNodeFlags_NoAutoOpenOnLog = 0x10,</span>
+<span class="line">  ImGuiTreeNodeFlags_DefaultOpen = 0x20,</span>
+<span class="line">  ImGuiTreeNodeFlags_OpenOnDoubleClick = 0x40,</span>
+<span class="line">  ImGuiTreeNodeFlags_OpenOnArrow = 0x80,</span>
+<span class="line">  ImGuiTreeNodeFlags_Leaf = 0x100,</span>
+<span class="line">  ImGuiTreeNodeFlags_Bullet = 0x200,</span>
+<span class="line">  ImGuiTreeNodeFlags_FramePadding = 0x400,</span>
+<span class="line">  ImGuiTreeNodeFlags_NavLeftJumpsBackHere = 0x2000,</span>
+<span class="line">  ImGuiTreeNodeFlags_CollapsingHeader = 0x1A,</span>
+<span class="line">  ImGuiTreeNodeFlags_AllowOverlapMode = 0x4,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="itemstackrequestscreen" tabindex="-1"><a class="header-anchor" href="#itemstackrequestscreen"><span><code>ItemStackRequestScreen</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">typedef Frustum::FrustumSide ItemStackRequestScreen;</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="itemstacknetresult" tabindex="-1"><a class="header-anchor" href="#itemstacknetresult"><span><code>ItemStackNetResult</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">typedef IMinecraftEventing::AuthenticationOutcome ItemStackNetResult;</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="importcontexttype" tabindex="-1"><a class="header-anchor" href="#importcontexttype"><span><code>ImportContextType</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">typedef Skeleton::SkeletonType ImportContextType;</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="itemstackrequestactiontype" tabindex="-1"><a class="header-anchor" href="#itemstackrequestactiontype"><span><code>ItemStackRequestActionType</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">typedef MinecraftEventing::ItemInteractMethod ItemStackRequestActionType;</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="iplayertickpolicy-tickaction" tabindex="-1"><a class="header-anchor" href="#iplayertickpolicy-tickaction"><span><code>IPlayerTickPolicy::TickAction</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">typedef EventResult IPlayerTickPolicy::TickAction;</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="itemstacknetmanagerserver-textfilterstate" tabindex="-1"><a class="header-anchor" href="#itemstacknetmanagerserver-textfilterstate"><span><code>ItemStackNetManagerServer::TextFilterState</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">typedef Rotation ItemStackNetManagerServer::TextFilterState;</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="itemstackrequestactionmineblock-prevalidationstatus" tabindex="-1"><a class="header-anchor" href="#itemstackrequestactionmineblock-prevalidationstatus"><span><code>ItemStackRequestActionMineBlock::PreValidationStatus</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">typedef StreamReadResult ItemStackRequestActionMineBlock::PreValidationStatus;</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="ipackstoragepolicy-cacheinvalidationmode" tabindex="-1"><a class="header-anchor" href="#ipackstoragepolicy-cacheinvalidationmode"><span><code>IPackStoragePolicy::CacheInvalidationMode</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">typedef Rotation IPackStoragePolicy::CacheInvalidationMode;</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="ichunkloadedaction-chunkloadedactiontype" tabindex="-1"><a class="header-anchor" href="#ichunkloadedaction-chunkloadedactiontype"><span><code>IChunkLoadedAction::ChunkLoadedActionType</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum IChunkLoadedAction::ChunkLoadedActionType : __int8</span>
+<span class="line">{</span>
+<span class="line">  FunctionAction = 0x0,</span>
+<span class="line">  TestAction = 0x1,</span>
+<span class="line">  StructureAnimationAction = 0x2,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="itemreleaseinventorytransaction-actiontype" tabindex="-1"><a class="header-anchor" href="#itemreleaseinventorytransaction-actiontype"><span><code>ItemReleaseInventoryTransaction::ActionType</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">typedef Lockless::MemoryOrder ItemReleaseInventoryTransaction::ActionType;</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="itemuseonactorinventorytransaction-actiontype" tabindex="-1"><a class="header-anchor" href="#itemuseonactorinventorytransaction-actiontype"><span><code>ItemUseOnActorInventoryTransaction::ActionType</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">typedef MinecraftPacketIds ItemUseOnActorInventoryTransaction::ActionType;</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="inmemoryaccessmode" tabindex="-1"><a class="header-anchor" href="#inmemoryaccessmode"><span><code>InMemoryAccessMode</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum InMemoryAccessMode : __int32</span>
+<span class="line">{</span>
+<span class="line">  Read = 0x0,</span>
+<span class="line">  Write = 0x1,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="ieobjecttype" tabindex="-1"><a class="header-anchor" href="#ieobjecttype"><span><code>IEObjectType</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum IEObjectType : __int32</span>
+<span class="line">{</span>
+<span class="line">  IE_EPM_OBJECT_EVENT = 0x0,</span>
+<span class="line">  IE_EPM_OBJECT_MUTEX = 0x1,</span>
+<span class="line">  IE_EPM_OBJECT_SEMAPHORE = 0x2,</span>
+<span class="line">  IE_EPM_OBJECT_SHARED_MEMORY = 0x3,</span>
+<span class="line">  IE_EPM_OBJECT_WAITABLE_TIMER = 0x4,</span>
+<span class="line">  IE_EPM_OBJECT_FILE = 0x5,</span>
+<span class="line">  IE_EPM_OBJECT_NAMED_PIPE = 0x6,</span>
+<span class="line">  IE_EPM_OBJECT_REGISTRY = 0x7,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="innerassetinstaller-einstallstatus" tabindex="-1"><a class="header-anchor" href="#innerassetinstaller-einstallstatus"><span><code>InnerAssetInstaller::eInstallStatus</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum InnerAssetInstaller::eInstallStatus : __int32</span>
+<span class="line">{</span>
+<span class="line">  INSTALL_NONE = 0x0,</span>
+<span class="line">  INSTALL_START = 0x1,</span>
+<span class="line">  INSTALL_WAIT = 0x2,</span>
+<span class="line">  INSTALL_DONE = 0x3,</span>
+<span class="line">  INSTALL_FAIL = 0x4,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="inflate-codes-mode" tabindex="-1"><a class="header-anchor" href="#inflate-codes-mode"><span><code>inflate_codes_mode</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">typedef Category inflate_codes_mode;</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="inflate-block-mode" tabindex="-1"><a class="header-anchor" href="#inflate-block-mode"><span><code>inflate_block_mode</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">typedef codetype inflate_block_mode;</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="imguiitemstatusflags" tabindex="-1"><a class="header-anchor" href="#imguiitemstatusflags"><span><code>ImGuiItemStatusFlags_</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum ImGuiItemStatusFlags_ : __int32</span>
+<span class="line">{</span>
+<span class="line">  ImGuiItemStatusFlags_None = 0x0,</span>
+<span class="line">  ImGuiItemStatusFlags_HoveredRect = 0x1,</span>
+<span class="line">  ImGuiItemStatusFlags_HasDisplayRect = 0x2,</span>
+<span class="line">  ImGuiItemStatusFlags_Edited = 0x4,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="imguiconfigflags" tabindex="-1"><a class="header-anchor" href="#imguiconfigflags"><span><code>ImGuiConfigFlags_</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum ImGuiConfigFlags_ : __int32</span>
+<span class="line">{</span>
+<span class="line">  ImGuiConfigFlags_None = 0x0,</span>
+<span class="line">  ImGuiConfigFlags_NavEnableKeyboard = 0x1,</span>
+<span class="line">  ImGuiConfigFlags_NavEnableGamepad = 0x2,</span>
+<span class="line">  ImGuiConfigFlags_NavEnableSetMousePos = 0x4,</span>
+<span class="line">  ImGuiConfigFlags_NavNoCaptureKeyboard = 0x8,</span>
+<span class="line">  ImGuiConfigFlags_NoMouse = 0x10,</span>
+<span class="line">  ImGuiConfigFlags_NoMouseCursorChange = 0x20,</span>
+<span class="line">  ImGuiConfigFlags_IsSRGB = 0x100000,</span>
+<span class="line">  ImGuiConfigFlags_IsTouchScreen = 0x200000,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="imguiinputreadmode" tabindex="-1"><a class="header-anchor" href="#imguiinputreadmode"><span><code>ImGuiInputReadMode</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum ImGuiInputReadMode : __int32</span>
+<span class="line">{</span>
+<span class="line">  ImGuiInputReadMode_Down = 0x0,</span>
+<span class="line">  ImGuiInputReadMode_Pressed = 0x1,</span>
+<span class="line">  ImGuiInputReadMode_Released = 0x2,</span>
+<span class="line">  ImGuiInputReadMode_Repeat = 0x3,</span>
+<span class="line">  ImGuiInputReadMode_RepeatSlow = 0x4,</span>
+<span class="line">  ImGuiInputReadMode_RepeatFast = 0x5,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="imguibuttonflags" tabindex="-1"><a class="header-anchor" href="#imguibuttonflags"><span><code>ImGuiButtonFlags_</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum ImGuiButtonFlags_ : __int32</span>
+<span class="line">{</span>
+<span class="line">  ImGuiButtonFlags_None = 0x0,</span>
+<span class="line">  ImGuiButtonFlags_Repeat = 0x1,</span>
+<span class="line">  ImGuiButtonFlags_PressedOnClickRelease = 0x2,</span>
+<span class="line">  ImGuiButtonFlags_PressedOnClick = 0x4,</span>
+<span class="line">  ImGuiButtonFlags_PressedOnRelease = 0x8,</span>
+<span class="line">  ImGuiButtonFlags_PressedOnDoubleClick = 0x10,</span>
+<span class="line">  ImGuiButtonFlags_FlattenChildren = 0x20,</span>
+<span class="line">  ImGuiButtonFlags_AllowItemOverlap = 0x40,</span>
+<span class="line">  ImGuiButtonFlags_DontClosePopups = 0x80,</span>
+<span class="line">  ImGuiButtonFlags_Disabled = 0x100,</span>
+<span class="line">  ImGuiButtonFlags_AlignTextBaseLine = 0x200,</span>
+<span class="line">  ImGuiButtonFlags_NoKeyModifiers = 0x400,</span>
+<span class="line">  ImGuiButtonFlags_NoHoldingActiveID = 0x800,</span>
+<span class="line">  ImGuiButtonFlags_PressedOnDragDropHold = 0x1000,</span>
+<span class="line">  ImGuiButtonFlags_NoNavFocus = 0x2000,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="imguibackendflags" tabindex="-1"><a class="header-anchor" href="#imguibackendflags"><span><code>ImGuiBackendFlags_</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum ImGuiBackendFlags_ : __int32</span>
+<span class="line">{</span>
+<span class="line">  ImGuiBackendFlags_None = 0x0,</span>
+<span class="line">  ImGuiBackendFlags_HasGamepad = 0x1,</span>
+<span class="line">  ImGuiBackendFlags_HasMouseCursors = 0x2,</span>
+<span class="line">  ImGuiBackendFlags_HasSetMousePos = 0x4,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="imguicolumnsflags" tabindex="-1"><a class="header-anchor" href="#imguicolumnsflags"><span><code>ImGuiColumnsFlags_</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum ImGuiColumnsFlags_ : __int32</span>
+<span class="line">{</span>
+<span class="line">  ImGuiColumnsFlags_None = 0x0,</span>
+<span class="line">  ImGuiColumnsFlags_NoBorder = 0x1,</span>
+<span class="line">  ImGuiColumnsFlags_NoResize = 0x2,</span>
+<span class="line">  ImGuiColumnsFlags_NoPreserveWidths = 0x4,</span>
+<span class="line">  ImGuiColumnsFlags_NoForceWithinWindow = 0x8,</span>
+<span class="line">  ImGuiColumnsFlags_GrowParentContentsSize = 0x10,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="imguidatatype" tabindex="-1"><a class="header-anchor" href="#imguidatatype"><span><code>ImGuiDataType_</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum ImGuiDataType_ : __int32</span>
+<span class="line">{</span>
+<span class="line">  ImGuiDataType_S32 = 0x0,</span>
+<span class="line">  ImGuiDataType_U32 = 0x1,</span>
+<span class="line">  ImGuiDataType_S64 = 0x2,</span>
+<span class="line">  ImGuiDataType_U64 = 0x3,</span>
+<span class="line">  ImGuiDataType_Float = 0x4,</span>
+<span class="line">  ImGuiDataType_Double = 0x5,</span>
+<span class="line">  ImGuiDataType_COUNT = 0x6,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="imguinavmoveflags" tabindex="-1"><a class="header-anchor" href="#imguinavmoveflags"><span><code>ImGuiNavMoveFlags_</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum ImGuiNavMoveFlags_ : __int32</span>
+<span class="line">{</span>
+<span class="line">  ImGuiNavMoveFlags_None = 0x0,</span>
+<span class="line">  ImGuiNavMoveFlags_LoopX = 0x1,</span>
+<span class="line">  ImGuiNavMoveFlags_LoopY = 0x2,</span>
+<span class="line">  ImGuiNavMoveFlags_WrapX = 0x4,</span>
+<span class="line">  ImGuiNavMoveFlags_WrapY = 0x8,</span>
+<span class="line">  ImGuiNavMoveFlags_AllowCurrentNavId = 0x10,</span>
+<span class="line">  ImGuiNavMoveFlags_AlsoScoreVisibleSet = 0x20,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="imguinavdirsourceflags" tabindex="-1"><a class="header-anchor" href="#imguinavdirsourceflags"><span><code>ImGuiNavDirSourceFlags_</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum ImGuiNavDirSourceFlags_ : __int32</span>
+<span class="line">{</span>
+<span class="line">  ImGuiNavDirSourceFlags_None = 0x0,</span>
+<span class="line">  ImGuiNavDirSourceFlags_Keyboard = 0x1,</span>
+<span class="line">  ImGuiNavDirSourceFlags_PadDPad = 0x2,</span>
+<span class="line">  ImGuiNavDirSourceFlags_PadLStick = 0x4,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="imguiaxis" tabindex="-1"><a class="header-anchor" href="#imguiaxis"><span><code>ImGuiAxis</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum ImGuiAxis : __int32</span>
+<span class="line">{</span>
+<span class="line">  ImGuiAxis_None = 0xFFFFFFFF,</span>
+<span class="line">  ImGuiAxis_X = 0x0,</span>
+<span class="line">  ImGuiAxis_Y = 0x1,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="imdrawlistflags" tabindex="-1"><a class="header-anchor" href="#imdrawlistflags"><span><code>ImDrawListFlags_</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum ImDrawListFlags_ : __int32</span>
+<span class="line">{</span>
+<span class="line">  ImDrawListFlags_AntiAliasedLines = 0x1,</span>
+<span class="line">  ImDrawListFlags_AntiAliasedFill = 0x2,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="imguiinputtextflags" tabindex="-1"><a class="header-anchor" href="#imguiinputtextflags"><span><code>ImGuiInputTextFlags_</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum ImGuiInputTextFlags_ : __int32</span>
+<span class="line">{</span>
+<span class="line">  ImGuiInputTextFlags_None = 0x0,</span>
+<span class="line">  ImGuiInputTextFlags_CharsDecimal = 0x1,</span>
+<span class="line">  ImGuiInputTextFlags_CharsHexadecimal = 0x2,</span>
+<span class="line">  ImGuiInputTextFlags_CharsUppercase = 0x4,</span>
+<span class="line">  ImGuiInputTextFlags_CharsNoBlank = 0x8,</span>
+<span class="line">  ImGuiInputTextFlags_AutoSelectAll = 0x10,</span>
+<span class="line">  ImGuiInputTextFlags_EnterReturnsTrue = 0x20,</span>
+<span class="line">  ImGuiInputTextFlags_CallbackCompletion = 0x40,</span>
+<span class="line">  ImGuiInputTextFlags_CallbackHistory = 0x80,</span>
+<span class="line">  ImGuiInputTextFlags_CallbackAlways = 0x100,</span>
+<span class="line">  ImGuiInputTextFlags_CallbackCharFilter = 0x200,</span>
+<span class="line">  ImGuiInputTextFlags_AllowTabInput = 0x400,</span>
+<span class="line">  ImGuiInputTextFlags_CtrlEnterForNewLine = 0x800,</span>
+<span class="line">  ImGuiInputTextFlags_NoHorizontalScroll = 0x1000,</span>
+<span class="line">  ImGuiInputTextFlags_AlwaysInsertMode = 0x2000,</span>
+<span class="line">  ImGuiInputTextFlags_ReadOnly = 0x4000,</span>
+<span class="line">  ImGuiInputTextFlags_Password = 0x8000,</span>
+<span class="line">  ImGuiInputTextFlags_NoUndoRedo = 0x10000,</span>
+<span class="line">  ImGuiInputTextFlags_CharsScientific = 0x20000,</span>
+<span class="line">  ImGuiInputTextFlags_CallbackResize = 0x40000,</span>
+<span class="line">  ImGuiInputTextFlags_Multiline = 0x100000,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="imguiselectableflags" tabindex="-1"><a class="header-anchor" href="#imguiselectableflags"><span><code>ImGuiSelectableFlags_</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum ImGuiSelectableFlags_ : __int32</span>
+<span class="line">{</span>
+<span class="line">  ImGuiSelectableFlags_None = 0x0,</span>
+<span class="line">  ImGuiSelectableFlags_DontClosePopups = 0x1,</span>
+<span class="line">  ImGuiSelectableFlags_SpanAllColumns = 0x2,</span>
+<span class="line">  ImGuiSelectableFlags_AllowDoubleClick = 0x4,</span>
+<span class="line">  ImGuiSelectableFlags_Disabled = 0x8,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="imfontatlasflags" tabindex="-1"><a class="header-anchor" href="#imfontatlasflags"><span><code>ImFontAtlasFlags_</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum ImFontAtlasFlags_ : __int32</span>
+<span class="line">{</span>
+<span class="line">  ImFontAtlasFlags_None = 0x0,</span>
+<span class="line">  ImFontAtlasFlags_NoPowerOfTwoHeight = 0x1,</span>
+<span class="line">  ImFontAtlasFlags_NoMouseCursors = 0x2,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="imguisliderflags" tabindex="-1"><a class="header-anchor" href="#imguisliderflags"><span><code>ImGuiSliderFlags_</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum ImGuiSliderFlags_ : __int32</span>
+<span class="line">{</span>
+<span class="line">  ImGuiSliderFlags_None = 0x0,</span>
+<span class="line">  ImGuiSliderFlags_Vertical = 0x1,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="imguiplottype" tabindex="-1"><a class="header-anchor" href="#imguiplottype"><span><code>ImGuiPlotType</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum ImGuiPlotType : __int32</span>
+<span class="line">{</span>
+<span class="line">  ImGuiPlotType_Lines = 0x0,</span>
+<span class="line">  ImGuiPlotType_Histogram = 0x1,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="imguiselectableflagsprivate" tabindex="-1"><a class="header-anchor" href="#imguiselectableflagsprivate"><span><code>ImGuiSelectableFlagsPrivate_</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum ImGuiSelectableFlagsPrivate_ : __int32</span>
+<span class="line">{</span>
+<span class="line">  ImGuiSelectableFlags_NoHoldingActiveID = 0x400,</span>
+<span class="line">  ImGuiSelectableFlags_PressedOnClick = 0x800,</span>
+<span class="line">  ImGuiSelectableFlags_PressedOnRelease = 0x1000,</span>
+<span class="line">  ImGuiSelectableFlags_DrawFillAvailWidth = 0x2000,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="imguiseparatorflags" tabindex="-1"><a class="header-anchor" href="#imguiseparatorflags"><span><code>ImGuiSeparatorFlags_</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum ImGuiSeparatorFlags_ : __int32</span>
+<span class="line">{</span>
+<span class="line">  ImGuiSeparatorFlags_None = 0x0,</span>
+<span class="line">  ImGuiSeparatorFlags_Horizontal = 0x1,</span>
+<span class="line">  ImGuiSeparatorFlags_Vertical = 0x2,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="imguidragflags" tabindex="-1"><a class="header-anchor" href="#imguidragflags"><span><code>ImGuiDragFlags_</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum ImGuiDragFlags_ : __int32</span>
+<span class="line">{</span>
+<span class="line">  ImGuiDragFlags_None = 0x0,</span>
+<span class="line">  ImGuiDragFlags_Vertical = 0x1,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></div><!--[--><!--]--></div><footer class="vp-page-meta"><!----><div class="vp-meta-item git-info"><div class="vp-meta-item last-updated"><span class="meta-item-label">Last Updated: </span><!----></div><div class="vp-meta-item contributors"><span class="meta-item-label">Contributors: </span><span class="meta-item-info"><!--[--><!--[--><span class="contributor" title="email: redbeana44945@gmail.com">RedbeanW</span><!----><!--]--><!--]--></span></div></div></footer><nav class="vp-page-nav" aria-label="page navigation"><a class="route-link auto-link prev" href="/mcstructure/1.16.201/enums/H.html" aria-label="H"><div class="hint"><span class="arrow left"></span> Prev</div><div class="link"><span>H</span></div></a><a class="route-link auto-link next" href="/mcstructure/1.16.201/enums/J.html" aria-label="J"><div class="hint">Next <span class="arrow right"></span></div><div class="link"><span>J</span></div></a></nav><!--[--><!--]--></main><!--]--></div><!--[--><!----><!--]--><!--]--></div>
+    <script type="module" src="/mcstructure/assets/app-CsZ-F4rT.js" defer></script>
+  </body>
+</html>

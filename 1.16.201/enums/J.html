@@ -1,0 +1,338 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.14" />
+    <style>
+      :root {
+        --c-bg: #fff;
+      }
+
+      html.dark {
+        --c-bg: #22272e;
+      }
+
+      html,
+      body {
+        background-color: var(--c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme')
+      const systemDarkMode =
+        window.matchMedia &&
+        window.matchMedia('(prefers-color-scheme: dark)').matches
+
+      if (userMode === 'light') {
+        document.documentElement.dataset.theme = 'light'
+      } else if (userMode === 'dark' || systemDarkMode) {
+        document.documentElement.classList.toggle('dark', true)
+        document.documentElement.dataset.theme = 'dark'
+      }
+    </script>
+    <title>J | MC TIL</title><meta name="description" content="Some structure and enum information for minecraft bedrock edition.">
+    <link rel="preload" href="/mcstructure/assets/style-BffCujja.css" as="style"><link rel="stylesheet" href="/mcstructure/assets/style-BffCujja.css">
+    <link rel="modulepreload" href="/mcstructure/assets/app-CsZ-F4rT.js"><link rel="modulepreload" href="/mcstructure/assets/J.html-CRaMeLm1.js">
+    <link rel="prefetch" href="/mcstructure/assets/index.html-BFXvbUVh.js" as="script"><link rel="prefetch" href="/mcstructure/assets/index.html-Dj85jYiz.js" as="script"><link rel="prefetch" href="/mcstructure/assets/index.html-DbyVM42m.js" as="script"><link rel="prefetch" href="/mcstructure/assets/A.html-gLZ0ckTd.js" as="script"><link rel="prefetch" href="/mcstructure/assets/B.html-DikvzAFb.js" as="script"><link rel="prefetch" href="/mcstructure/assets/C.html-BSDuF4vD.js" as="script"><link rel="prefetch" href="/mcstructure/assets/D.html-TlZ8OfQc.js" as="script"><link rel="prefetch" href="/mcstructure/assets/E.html-C8Pv4Nid.js" as="script"><link rel="prefetch" href="/mcstructure/assets/F.html-lN-ZlHP2.js" as="script"><link rel="prefetch" href="/mcstructure/assets/G.html-DRjRIhz_.js" as="script"><link rel="prefetch" href="/mcstructure/assets/H.html-DkYus1J1.js" as="script"><link rel="prefetch" href="/mcstructure/assets/I.html-C2FW7RiH.js" as="script"><link rel="prefetch" href="/mcstructure/assets/J.html-COy9SfX0.js" as="script"><link rel="prefetch" href="/mcstructure/assets/K.html-Btu8pogP.js" as="script"><link rel="prefetch" href="/mcstructure/assets/L.html-HkcbpxkI.js" as="script"><link rel="prefetch" href="/mcstructure/assets/M.html-CWXp8LWd.js" as="script"><link rel="prefetch" href="/mcstructure/assets/N.html-DlB-21f-.js" as="script"><link rel="prefetch" href="/mcstructure/assets/O.html-C9r9bEbp.js" as="script"><link rel="prefetch" href="/mcstructure/assets/P.html-eSzkmAjF.js" as="script"><link rel="prefetch" href="/mcstructure/assets/Q.html-DNkGW8HE.js" as="script"><link rel="prefetch" href="/mcstructure/assets/R.html-Ch4HwVo2.js" as="script"><link rel="prefetch" href="/mcstructure/assets/S.html-D9wi3UXK.js" as="script"><link rel="prefetch" href="/mcstructure/assets/T.html-C-uYqvkU.js" as="script"><link rel="prefetch" href="/mcstructure/assets/U.html-CU5DQaxg.js" as="script"><link rel="prefetch" href="/mcstructure/assets/V.html-DTS3IgYK.js" as="script"><link rel="prefetch" href="/mcstructure/assets/W.html-sdE-eohH.js" as="script"><link rel="prefetch" href="/mcstructure/assets/X.html-BpHdXa2Z.js" as="script"><link rel="prefetch" href="/mcstructure/assets/Z.html-IpYY_L14.js" as="script"><link rel="prefetch" href="/mcstructure/assets/.html-85iWzdZh.js" as="script"><link rel="prefetch" href="/mcstructure/assets/A.html-BxnaZQk_.js" as="script"><link rel="prefetch" href="/mcstructure/assets/B.html-ByvLGh92.js" as="script"><link rel="prefetch" href="/mcstructure/assets/C.html-CzS_sBs_.js" as="script"><link rel="prefetch" href="/mcstructure/assets/D.html-D40RaC-K.js" as="script"><link rel="prefetch" href="/mcstructure/assets/E.html-B-O1LW9i.js" as="script"><link rel="prefetch" href="/mcstructure/assets/F.html-DV0MZkyM.js" as="script"><link rel="prefetch" href="/mcstructure/assets/G.html-Dj-hYIU7.js" as="script"><link rel="prefetch" href="/mcstructure/assets/H.html-Cimj7lxq.js" as="script"><link rel="prefetch" href="/mcstructure/assets/I.html-C6GlVuuc.js" as="script"><link rel="prefetch" href="/mcstructure/assets/J.html-DiDuCSQy.js" as="script"><link rel="prefetch" href="/mcstructure/assets/K.html-CTMSIxlp.js" as="script"><link rel="prefetch" href="/mcstructure/assets/L.html-C7cxYGtY.js" as="script"><link rel="prefetch" href="/mcstructure/assets/M.html-Zgw9WGZd.js" as="script"><link rel="prefetch" href="/mcstructure/assets/N.html-N-vb4ZHK.js" as="script"><link rel="prefetch" href="/mcstructure/assets/O.html-CDXZjCxQ.js" as="script"><link rel="prefetch" href="/mcstructure/assets/P.html-y5OlOCJM.js" as="script"><link rel="prefetch" href="/mcstructure/assets/R.html-BSiGj2ZZ.js" as="script"><link rel="prefetch" href="/mcstructure/assets/S.html-DiqB_MPV.js" as="script"><link rel="prefetch" href="/mcstructure/assets/T.html-Cy4s5rRd.js" as="script"><link rel="prefetch" href="/mcstructure/assets/U.html-CdjhviXp.js" as="script"><link rel="prefetch" href="/mcstructure/assets/V.html-Bp9ck6A7.js" as="script"><link rel="prefetch" href="/mcstructure/assets/W.html-hyKqnZoP.js" as="script"><link rel="prefetch" href="/mcstructure/assets/X.html-BJ_Uasx8.js" as="script"><link rel="prefetch" href="/mcstructure/assets/Z.html-DPMGH7dv.js" as="script"><link rel="prefetch" href="/mcstructure/assets/.html-BdFkbt3Z.js" as="script"><link rel="prefetch" href="/mcstructure/assets/A.html-DZNn5aGI.js" as="script"><link rel="prefetch" href="/mcstructure/assets/B.html-DxXCh3uI.js" as="script"><link rel="prefetch" href="/mcstructure/assets/C.html-CP0u5vrD.js" as="script"><link rel="prefetch" href="/mcstructure/assets/D.html-OzRs-zWa.js" as="script"><link rel="prefetch" href="/mcstructure/assets/D~1.html-Cq7CT9i8.js" as="script"><link rel="prefetch" href="/mcstructure/assets/D~2.html-9a5mw65p.js" as="script"><link rel="prefetch" href="/mcstructure/assets/D~3.html-7I6ugC52.js" as="script"><link rel="prefetch" href="/mcstructure/assets/E.html-B7n2DhOW.js" as="script"><link rel="prefetch" href="/mcstructure/assets/F.html-B6_qTAB1.js" as="script"><link rel="prefetch" href="/mcstructure/assets/G.html-tnPx32GK.js" as="script"><link rel="prefetch" href="/mcstructure/assets/H.html-wKxeNu6C.js" as="script"><link rel="prefetch" href="/mcstructure/assets/I.html-Cih2B44P.js" as="script"><link rel="prefetch" href="/mcstructure/assets/K.html-BY245vF_.js" as="script"><link rel="prefetch" href="/mcstructure/assets/L.html-BKYlvOoV.js" as="script"><link rel="prefetch" href="/mcstructure/assets/M.html-DLZAc8pN.js" as="script"><link rel="prefetch" href="/mcstructure/assets/N.html-DCHdjo04.js" as="script"><link rel="prefetch" href="/mcstructure/assets/O.html-BnPzPtCP.js" as="script"><link rel="prefetch" href="/mcstructure/assets/P.html-DCTkl6Mq.js" as="script"><link rel="prefetch" href="/mcstructure/assets/Q.html-szukgbvm.js" as="script"><link rel="prefetch" href="/mcstructure/assets/R.html-CsgdcBCA.js" as="script"><link rel="prefetch" href="/mcstructure/assets/S.html-DMioY27y.js" as="script"><link rel="prefetch" href="/mcstructure/assets/T.html-DZQPdC9U.js" as="script"><link rel="prefetch" href="/mcstructure/assets/U.html-Bx2LRvsV.js" as="script"><link rel="prefetch" href="/mcstructure/assets/V.html-DBxlf9Ny.js" as="script"><link rel="prefetch" href="/mcstructure/assets/W.html-gGPSKGDC.js" as="script"><link rel="prefetch" href="/mcstructure/assets/X.html-e9xtnx-A.js" as="script"><link rel="prefetch" href="/mcstructure/assets/Z.html-40lfopdp.js" as="script"><link rel="prefetch" href="/mcstructure/assets/A.html-DzMMz49D.js" as="script"><link rel="prefetch" href="/mcstructure/assets/A~1.html-Yhbdjy0t.js" as="script"><link rel="prefetch" href="/mcstructure/assets/B.html-BQ_oPlKV.js" as="script"><link rel="prefetch" href="/mcstructure/assets/B~1.html-BHzFdoad.js" as="script"><link rel="prefetch" href="/mcstructure/assets/B~2.html-B2pWuuwn.js" as="script"><link rel="prefetch" href="/mcstructure/assets/C.html-D9-itRQ8.js" as="script"><link rel="prefetch" href="/mcstructure/assets/C~1.html-D1TAEDwf.js" as="script"><link rel="prefetch" href="/mcstructure/assets/C~2.html-CJhAeHk2.js" as="script"><link rel="prefetch" href="/mcstructure/assets/C~3.html-DYesXt6j.js" as="script"><link rel="prefetch" href="/mcstructure/assets/D.html-BVV6tOpA.js" as="script"><link rel="prefetch" href="/mcstructure/assets/D~1.html-BxVUTrcZ.js" as="script"><link rel="prefetch" href="/mcstructure/assets/D~10.html-DZ47T8mf.js" as="script"><link rel="prefetch" href="/mcstructure/assets/D~2.html-DFAnhgi3.js" as="script"><link rel="prefetch" href="/mcstructure/assets/D~3.html-QJUVoMPZ.js" as="script"><link rel="prefetch" href="/mcstructure/assets/D~4.html-D_OmeWnj.js" as="script"><link rel="prefetch" href="/mcstructure/assets/D~5.html-C9FH14S7.js" as="script"><link rel="prefetch" href="/mcstructure/assets/D~6.html-DCVwj4R8.js" as="script"><link rel="prefetch" href="/mcstructure/assets/D~7.html-ClACDGbF.js" as="script"><link rel="prefetch" href="/mcstructure/assets/D~8.html-CJJcZlG6.js" as="script"><link rel="prefetch" href="/mcstructure/assets/D~9.html-DuLymHuT.js" as="script"><link rel="prefetch" href="/mcstructure/assets/E.html-BhNRTBWl.js" as="script"><link rel="prefetch" href="/mcstructure/assets/E~1.html-BM9oxQG0.js" as="script"><link rel="prefetch" href="/mcstructure/assets/F.html-BVbUKQWc.js" as="script"><link rel="prefetch" href="/mcstructure/assets/F~1.html-DHLOg0tp.js" as="script"><link rel="prefetch" href="/mcstructure/assets/G.html-XsiULcol.js" as="script"><link rel="prefetch" href="/mcstructure/assets/H.html-Ccuk8KxU.js" as="script"><link rel="prefetch" href="/mcstructure/assets/I.html-DaDSCQ0t.js" as="script"><link rel="prefetch" href="/mcstructure/assets/I~1.html-CEBGjDRl.js" as="script"><link rel="prefetch" href="/mcstructure/assets/I~2.html-cdx7zoxg.js" as="script"><link rel="prefetch" href="/mcstructure/assets/J.html-CoTKxScb.js" as="script"><link rel="prefetch" href="/mcstructure/assets/K.html-COlR6yK8.js" as="script"><link rel="prefetch" href="/mcstructure/assets/L.html-ChlLIfSv.js" as="script"><link rel="prefetch" href="/mcstructure/assets/L~1.html-BUbCcLFg.js" as="script"><link rel="prefetch" href="/mcstructure/assets/M.html-BeUXRTi6.js" as="script"><link rel="prefetch" href="/mcstructure/assets/M~1.html-p2uxPAhd.js" as="script"><link rel="prefetch" href="/mcstructure/assets/M~2.html-cQU1bBCC.js" as="script"><link rel="prefetch" href="/mcstructure/assets/M~3.html-B8Km2vup.js" as="script"><link rel="prefetch" href="/mcstructure/assets/N.html-CoLUjbP0.js" as="script"><link rel="prefetch" href="/mcstructure/assets/O.html-DlwMzWt4.js" as="script"><link rel="prefetch" href="/mcstructure/assets/P.html-X0qrsTK8.js" as="script"><link rel="prefetch" href="/mcstructure/assets/P~1.html-DTNsvZ_x.js" as="script"><link rel="prefetch" href="/mcstructure/assets/P~2.html-DBSXrjNx.js" as="script"><link rel="prefetch" href="/mcstructure/assets/P~3.html-CJ3EZfXX.js" as="script"><link rel="prefetch" href="/mcstructure/assets/Q.html-CKYXRHB1.js" as="script"><link rel="prefetch" href="/mcstructure/assets/R.html--3mJFLJL.js" as="script"><link rel="prefetch" href="/mcstructure/assets/R~1.html-TsuonS3X.js" as="script"><link rel="prefetch" href="/mcstructure/assets/R~2.html-CXomLjFs.js" as="script"><link rel="prefetch" href="/mcstructure/assets/R~3.html-CnuTSEOZ.js" as="script"><link rel="prefetch" href="/mcstructure/assets/S.html-B3ianil5.js" as="script"><link rel="prefetch" href="/mcstructure/assets/S~1.html-Daw5LDSA.js" as="script"><link rel="prefetch" href="/mcstructure/assets/S~2.html-C8TSjv5J.js" as="script"><link rel="prefetch" href="/mcstructure/assets/S~3.html-DfIH06pA.js" as="script"><link rel="prefetch" href="/mcstructure/assets/S~4.html--gQYk-QM.js" as="script"><link rel="prefetch" href="/mcstructure/assets/T.html-OGsLuBXL.js" as="script"><link rel="prefetch" href="/mcstructure/assets/T~1.html-DRiC28yW.js" as="script"><link rel="prefetch" href="/mcstructure/assets/U.html-BveORCBO.js" as="script"><link rel="prefetch" href="/mcstructure/assets/V.html-B8CZ3piQ.js" as="script"><link rel="prefetch" href="/mcstructure/assets/W.html-BQ-pOW4G.js" as="script"><link rel="prefetch" href="/mcstructure/assets/W~1.html-DCmXWpyM.js" as="script"><link rel="prefetch" href="/mcstructure/assets/X.html-B0ZmYUQN.js" as="script"><link rel="prefetch" href="/mcstructure/assets/Z.html-Cs08Fuzm.js" as="script"><link rel="prefetch" href="/mcstructure/assets/404.html-Cd2Ktm8f.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="vp-theme-container external-link-icon"><!--[--><header class="vp-navbar"><div class="vp-toggle-sidebar-button" title="toggle sidebar" aria-expanded="false" role="button" tabindex="0"><div class="icon" aria-hidden="true"><span></span><span></span><span></span></div></div><span><a class="route-link" href="/mcstructure/"><!----><span class="vp-site-name" aria-hidden="true">MC TIL</span></a></span><div class="vp-navbar-items-wrapper" style=""><!--[--><!--]--><nav class="vp-navbar-items vp-hide-mobile" aria-label="site navigation"><!--[--><div class="vp-navbar-item"><a class="route-link auto-link" href="/mcstructure/" aria-label="Home"><!---->Home<!----></a></div><div class="vp-navbar-item"><a class="auto-link external-link" href="https://github.com/Redbeanw44602/mcstructure" aria-label="Github" rel="noopener noreferrer" target="_blank"><!---->Github<!----></a></div><!--]--></nav><!--[--><!--]--><button class="vp-toggle-color-mode-button" title="toggle color mode"><svg class="light-icon" viewbox="0 0 32 32" style=""><path d="M16 12.005a4 4 0 1 1-4 4a4.005 4.005 0 0 1 4-4m0-2a6 6 0 1 0 6 6a6 6 0 0 0-6-6z" fill="currentColor"></path><path d="M5.394 6.813l1.414-1.415l3.506 3.506L8.9 10.318z" fill="currentColor"></path><path d="M2 15.005h5v2H2z" fill="currentColor"></path><path d="M5.394 25.197L8.9 21.691l1.414 1.415l-3.506 3.505z" fill="currentColor"></path><path d="M15 25.005h2v5h-2z" fill="currentColor"></path><path d="M21.687 23.106l1.414-1.415l3.506 3.506l-1.414 1.414z" fill="currentColor"></path><path d="M25 15.005h5v2h-5z" fill="currentColor"></path><path d="M21.687 8.904l3.506-3.506l1.414 1.415l-3.506 3.505z" fill="currentColor"></path><path d="M15 2.005h2v5h-2z" fill="currentColor"></path></svg><svg class="dark-icon" viewbox="0 0 32 32" style="display:none;"><path d="M13.502 5.414a15.075 15.075 0 0 0 11.594 18.194a11.113 11.113 0 0 1-7.975 3.39c-.138 0-.278.005-.418 0a11.094 11.094 0 0 1-3.2-21.584M14.98 3a1.002 1.002 0 0 0-.175.016a13.096 13.096 0 0 0 1.825 25.981c.164.006.328 0 .49 0a13.072 13.072 0 0 0 10.703-5.555a1.01 1.01 0 0 0-.783-1.565A13.08 13.08 0 0 1 15.89 4.38A1.015 1.015 0 0 0 14.98 3z" fill="currentColor"></path></svg></button><form class="search-box" role="search"><input type="search" autocomplete="off" spellcheck="false" value><!----></form></div></header><!--]--><div class="vp-sidebar-mask"></div><!--[--><aside class="vp-sidebar"><nav class="vp-navbar-items" aria-label="site navigation"><!--[--><div class="vp-navbar-item"><a class="route-link auto-link" href="/mcstructure/" aria-label="Home"><!---->Home<!----></a></div><div class="vp-navbar-item"><a class="auto-link external-link" href="https://github.com/Redbeanw44602/mcstructure" aria-label="Github" rel="noopener noreferrer" target="_blank"><!---->Github<!----></a></div><!--]--></nav><!--[--><!--]--><ul class="vp-sidebar-items"><!--[--><li><p tabindex="0" class="vp-sidebar-item vp-sidebar-heading">Struct <!----></p><ul style="" class="vp-sidebar-children"><!--[--><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/A.html" aria-label="A"><!---->A<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/A~1.html" aria-label="A~1"><!---->A~1<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/B.html" aria-label="B"><!---->B<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/B~1.html" aria-label="B~1"><!---->B~1<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/B~2.html" aria-label="B~2"><!---->B~2<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/C.html" aria-label="C"><!---->C<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/C~1.html" aria-label="C~1"><!---->C~1<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/C~2.html" aria-label="C~2"><!---->C~2<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/C~3.html" aria-label="C~3"><!---->C~3<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/D.html" aria-label="D"><!---->D<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/D~1.html" aria-label="D~1"><!---->D~1<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/D~2.html" aria-label="D~2"><!---->D~2<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/D~3.html" aria-label="D~3"><!---->D~3<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/D~4.html" aria-label="D~4"><!---->D~4<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/D~5.html" aria-label="D~5"><!---->D~5<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/D~6.html" aria-label="D~6"><!---->D~6<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/D~7.html" aria-label="D~7"><!---->D~7<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/D~8.html" aria-label="D~8"><!---->D~8<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/D~9.html" aria-label="D~9"><!---->D~9<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/D~10.html" aria-label="D~10"><!---->D~10<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/E.html" aria-label="E"><!---->E<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/E~1.html" aria-label="E~1"><!---->E~1<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/F.html" aria-label="F"><!---->F<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/F~1.html" aria-label="F~1"><!---->F~1<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/G.html" aria-label="G"><!---->G<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/H.html" aria-label="H"><!---->H<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/I.html" aria-label="I"><!---->I<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/I~1.html" aria-label="I~1"><!---->I~1<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/I~2.html" aria-label="I~2"><!---->I~2<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/J.html" aria-label="J"><!---->J<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/K.html" aria-label="K"><!---->K<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/L.html" aria-label="L"><!---->L<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/L~1.html" aria-label="L~1"><!---->L~1<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/M.html" aria-label="M"><!---->M<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/M~1.html" aria-label="M~1"><!---->M~1<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/M~2.html" aria-label="M~2"><!---->M~2<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/M~3.html" aria-label="M~3"><!---->M~3<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/N.html" aria-label="N"><!---->N<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/O.html" aria-label="O"><!---->O<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/P.html" aria-label="P"><!---->P<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/P~1.html" aria-label="P~1"><!---->P~1<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/P~2.html" aria-label="P~2"><!---->P~2<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/P~3.html" aria-label="P~3"><!---->P~3<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/Q.html" aria-label="Q"><!---->Q<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/R.html" aria-label="R"><!---->R<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/R~1.html" aria-label="R~1"><!---->R~1<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/R~2.html" aria-label="R~2"><!---->R~2<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/R~3.html" aria-label="R~3"><!---->R~3<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/S.html" aria-label="S"><!---->S<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/S~1.html" aria-label="S~1"><!---->S~1<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/S~2.html" aria-label="S~2"><!---->S~2<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/S~3.html" aria-label="S~3"><!---->S~3<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/S~4.html" aria-label="S~4"><!---->S~4<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/T.html" aria-label="T"><!---->T<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/T~1.html" aria-label="T~1"><!---->T~1<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/U.html" aria-label="U"><!---->U<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/V.html" aria-label="V"><!---->V<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/W.html" aria-label="W"><!---->W<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/W~1.html" aria-label="W~1"><!---->W~1<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/X.html" aria-label="X"><!---->X<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/Z.html" aria-label="Z"><!---->Z<!----></a><!----></li><!--]--></ul></li><li><p tabindex="0" class="vp-sidebar-item vp-sidebar-heading active">Enums <!----></p><ul style="" class="vp-sidebar-children"><!--[--><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/enums/A.html" aria-label="A"><!---->A<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/enums/B.html" aria-label="B"><!---->B<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/enums/C.html" aria-label="C"><!---->C<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/enums/D.html" aria-label="D"><!---->D<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/enums/D~1.html" aria-label="D~1"><!---->D~1<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/enums/D~2.html" aria-label="D~2"><!---->D~2<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/enums/D~3.html" aria-label="D~3"><!---->D~3<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/enums/E.html" aria-label="E"><!---->E<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/enums/F.html" aria-label="F"><!---->F<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/enums/G.html" aria-label="G"><!---->G<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/enums/H.html" aria-label="H"><!---->H<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/enums/I.html" aria-label="I"><!---->I<!----></a><!----></li><li><a class="route-link route-link-active auto-link vp-sidebar-item active" href="/mcstructure/1.16.201/enums/J.html" aria-label="J"><!---->J<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/enums/K.html" aria-label="K"><!---->K<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/enums/L.html" aria-label="L"><!---->L<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/enums/M.html" aria-label="M"><!---->M<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/enums/N.html" aria-label="N"><!---->N<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/enums/O.html" aria-label="O"><!---->O<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/enums/P.html" aria-label="P"><!---->P<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/enums/R.html" aria-label="R"><!---->R<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/enums/S.html" aria-label="S"><!---->S<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/enums/T.html" aria-label="T"><!---->T<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/enums/U.html" aria-label="U"><!---->U<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/enums/V.html" aria-label="V"><!---->V<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/enums/W.html" aria-label="W"><!---->W<!----></a><!----></li><!--]--></ul></li><!--]--></ul><!--[--><!--]--></aside><!--]--><!--[--><main class="vp-page"><!--[--><!--]--><div class="theme-default-content"><!--[--><!--]--><div><h1 id="j" tabindex="-1"><a class="header-anchor" href="#j"><span>J</span></a></h1><h3 id="jigsawjointtype" tabindex="-1"><a class="header-anchor" href="#jigsawjointtype"><span><code>JigsawJointType</code></span></a></h3><table><thead><tr><th>Name</th><th>Value</th></tr></thead><tbody><tr><td>ROLLABLE</td><td><code>0</code></td></tr><tr><td>ALIGNED</td><td><code>1</code></td></tr></tbody></table><h3 id="journaledfile-progression" tabindex="-1"><a class="header-anchor" href="#journaledfile-progression"><span><code>JournaledFile::Progression</code></span></a></h3><table><thead><tr><th>Name</th><th>Value</th></tr></thead><tbody><tr><td>NeverWritten</td><td><code>0</code></td></tr><tr><td>WriteFailed</td><td><code>1</code></td></tr><tr><td>WriteSuccess</td><td><code>2</code></td></tr></tbody></table><h3 id="json-reader-tokentype" tabindex="-1"><a class="header-anchor" href="#json-reader-tokentype"><span><code>Json::Reader::TokenType</code></span></a></h3><table><thead><tr><th>Name</th><th>Value</th></tr></thead><tbody><tr><td>tokenEndOfStream</td><td><code>0</code></td></tr><tr><td>tokenObjectBegin</td><td><code>1</code></td></tr><tr><td>tokenObjectEnd</td><td><code>2</code></td></tr><tr><td>tokenArrayBegin</td><td><code>3</code></td></tr><tr><td>tokenArrayEnd</td><td><code>4</code></td></tr><tr><td>tokenString</td><td><code>5</code></td></tr><tr><td>tokenNumber</td><td><code>6</code></td></tr><tr><td>tokenTrue</td><td><code>7</code></td></tr><tr><td>tokenFalse</td><td><code>8</code></td></tr><tr><td>tokenNull</td><td><code>9</code></td></tr><tr><td>tokenArraySeparator</td><td><code>10</code></td></tr><tr><td>tokenMemberSeparator</td><td><code>11</code></td></tr><tr><td>tokenComment</td><td><code>12</code></td></tr><tr><td>tokenError</td><td><code>13</code></td></tr></tbody></table><h3 id="job-object-net-rate-control-flags" tabindex="-1"><a class="header-anchor" href="#job-object-net-rate-control-flags"><span><code>JOB_OBJECT_NET_RATE_CONTROL_FLAGS</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum JOB_OBJECT_NET_RATE_CONTROL_FLAGS : __int32</span>
+<span class="line">{</span>
+<span class="line">  JOB_OBJECT_NET_RATE_CONTROL_ENABLE = 0x1,</span>
+<span class="line">  JOB_OBJECT_NET_RATE_CONTROL_MAX_BANDWIDTH = 0x2,</span>
+<span class="line">  JOB_OBJECT_NET_RATE_CONTROL_DSCP_TAG = 0x4,</span>
+<span class="line">  JOB_OBJECT_NET_RATE_CONTROL_VALID_FLAGS = 0x7,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="job-object-io-rate-control-flags" tabindex="-1"><a class="header-anchor" href="#job-object-io-rate-control-flags"><span><code>JOB_OBJECT_IO_RATE_CONTROL_FLAGS</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum JOB_OBJECT_IO_RATE_CONTROL_FLAGS : __int32</span>
+<span class="line">{</span>
+<span class="line">  JOB_OBJECT_IO_RATE_CONTROL_ENABLE = 0x1,</span>
+<span class="line">  JOB_OBJECT_IO_RATE_CONTROL_STANDALONE_VOLUME = 0x2,</span>
+<span class="line">  JOB_OBJECT_IO_RATE_CONTROL_VALID_FLAGS = 0x3,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="json-valuetype" tabindex="-1"><a class="header-anchor" href="#json-valuetype"><span><code>Json::ValueType</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum Json::ValueType : __int32</span>
+<span class="line">{</span>
+<span class="line">  nullValue = 0x0,</span>
+<span class="line">  intValue = 0x1,</span>
+<span class="line">  uintValue = 0x2,</span>
+<span class="line">  realValue = 0x3,</span>
+<span class="line">  stringValue = 0x4,</span>
+<span class="line">  booleanValue = 0x5,</span>
+<span class="line">  arrayValue = 0x6,</span>
+<span class="line">  objectValue = 0x7,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="json-commentplacement" tabindex="-1"><a class="header-anchor" href="#json-commentplacement"><span><code>Json::CommentPlacement</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum Json::CommentPlacement : __int32</span>
+<span class="line">{</span>
+<span class="line">  commentBefore = 0x0,</span>
+<span class="line">  commentAfterOnSameLine = 0x1,</span>
+<span class="line">  commentAfter = 0x2,</span>
+<span class="line">  numberOfCommentPlacement = 0x3,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="jobobject-io-attribution-control-flags" tabindex="-1"><a class="header-anchor" href="#jobobject-io-attribution-control-flags"><span><code>JOBOBJECT_IO_ATTRIBUTION_CONTROL_FLAGS</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum JOBOBJECT_IO_ATTRIBUTION_CONTROL_FLAGS : __int32</span>
+<span class="line">{</span>
+<span class="line">  JOBOBJECT_IO_ATTRIBUTION_CONTROL_ENABLE = 0x1,</span>
+<span class="line">  JOBOBJECT_IO_ATTRIBUTION_CONTROL_DISABLE = 0x2,</span>
+<span class="line">  JOBOBJECT_IO_ATTRIBUTION_CONTROL_VALID_FLAGS = 0x3,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="json-pathargument-kind" tabindex="-1"><a class="header-anchor" href="#json-pathargument-kind"><span><code>Json::PathArgument::Kind</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum Json::PathArgument::Kind : __int32</span>
+<span class="line">{</span>
+<span class="line">  kindNone = 0x0,</span>
+<span class="line">  kindIndex = 0x1,</span>
+<span class="line">  kindKey = 0x2,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="json-value-czstring-duplicationpolicy" tabindex="-1"><a class="header-anchor" href="#json-value-czstring-duplicationpolicy"><span><code>Json::Value::CZString::DuplicationPolicy</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum Json::Value::CZString::DuplicationPolicy : __int32</span>
+<span class="line">{</span>
+<span class="line">  noDuplication = 0x0,</span>
+<span class="line">  duplicate = 0x1,</span>
+<span class="line">  duplicateOnCopy = 0x2,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="joincodeentryscreencontroller-activescreen" tabindex="-1"><a class="header-anchor" href="#joincodeentryscreencontroller-activescreen"><span><code>JoincodeEntryScreenController::ActiveScreen</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">typedef Rotation JoincodeEntryScreenController::ActiveScreen;</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="jumptype" tabindex="-1"><a class="header-anchor" href="#jumptype"><span><code>JumpType</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">typedef ActorEvent JumpType;</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="j-dct-method" tabindex="-1"><a class="header-anchor" href="#j-dct-method"><span><code>J_DCT_METHOD</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum J_DCT_METHOD : __int32</span>
+<span class="line">{</span>
+<span class="line">  JDCT_ISLOW = 0x0,</span>
+<span class="line">  JDCT_IFAST = 0x1,</span>
+<span class="line">  JDCT_FLOAT = 0x2,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="j-color-space" tabindex="-1"><a class="header-anchor" href="#j-color-space"><span><code>J_COLOR_SPACE</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum J_COLOR_SPACE : __int32</span>
+<span class="line">{</span>
+<span class="line">  JCS_UNKNOWN = 0x0,</span>
+<span class="line">  JCS_GRAYSCALE = 0x1,</span>
+<span class="line">  JCS_RGB = 0x2,</span>
+<span class="line">  JCS_YCbCr = 0x3,</span>
+<span class="line">  JCS_CMYK = 0x4,</span>
+<span class="line">  JCS_YCCK = 0x5,</span>
+<span class="line">  JCS_BG_RGB = 0x6,</span>
+<span class="line">  JCS_BG_YCC = 0x7,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="j-color-transform" tabindex="-1"><a class="header-anchor" href="#j-color-transform"><span><code>J_COLOR_TRANSFORM</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum J_COLOR_TRANSFORM : __int32</span>
+<span class="line">{</span>
+<span class="line">  JCT_NONE = 0x0,</span>
+<span class="line">  JCT_SUBTRACT_GREEN = 0x1,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="json-unnamed-enum-uinttostringbuffersize" tabindex="-1"><a class="header-anchor" href="#json-unnamed-enum-uinttostringbuffersize"><span><code>Json::&lt;unnamed_enum_uintToStringBufferSize&gt;</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum Json::&lt;unnamed_enum_uintToStringBufferSize&gt; : __int32</span>
+<span class="line">{</span>
+<span class="line">  uintToStringBufferSize = 0x19,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="j-message-code" tabindex="-1"><a class="header-anchor" href="#j-message-code"><span><code>J_MESSAGE_CODE</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum J_MESSAGE_CODE : __int32</span>
+<span class="line">{</span>
+<span class="line">  JMSG_NOMESSAGE = 0x0,</span>
+<span class="line">  JERR_BAD_ALIGN_TYPE = 0x1,</span>
+<span class="line">  JERR_BAD_ALLOC_CHUNK = 0x2,</span>
+<span class="line">  JERR_BAD_BUFFER_MODE = 0x3,</span>
+<span class="line">  JERR_BAD_COMPONENT_ID = 0x4,</span>
+<span class="line">  JERR_BAD_CROP_SPEC = 0x5,</span>
+<span class="line">  JERR_BAD_DCT_COEF = 0x6,</span>
+<span class="line">  JERR_BAD_DCTSIZE = 0x7,</span>
+<span class="line">  JERR_BAD_DROP_SAMPLING = 0x8,</span>
+<span class="line">  JERR_BAD_HUFF_TABLE = 0x9,</span>
+<span class="line">  JERR_BAD_IN_COLORSPACE = 0xA,</span>
+<span class="line">  JERR_BAD_J_COLORSPACE = 0xB,</span>
+<span class="line">  JERR_BAD_LENGTH = 0xC,</span>
+<span class="line">  JERR_BAD_LIB_VERSION = 0xD,</span>
+<span class="line">  JERR_BAD_MCU_SIZE = 0xE,</span>
+<span class="line">  JERR_BAD_POOL_ID = 0xF,</span>
+<span class="line">  JERR_BAD_PRECISION = 0x10,</span>
+<span class="line">  JERR_BAD_PROGRESSION = 0x11,</span>
+<span class="line">  JERR_BAD_PROG_SCRIPT = 0x12,</span>
+<span class="line">  JERR_BAD_SAMPLING = 0x13,</span>
+<span class="line">  JERR_BAD_SCAN_SCRIPT = 0x14,</span>
+<span class="line">  JERR_BAD_STATE = 0x15,</span>
+<span class="line">  JERR_BAD_STRUCT_SIZE = 0x16,</span>
+<span class="line">  JERR_BAD_VIRTUAL_ACCESS = 0x17,</span>
+<span class="line">  JERR_BUFFER_SIZE = 0x18,</span>
+<span class="line">  JERR_CANT_SUSPEND = 0x19,</span>
+<span class="line">  JERR_CCIR601_NOTIMPL = 0x1A,</span>
+<span class="line">  JERR_COMPONENT_COUNT = 0x1B,</span>
+<span class="line">  JERR_CONVERSION_NOTIMPL = 0x1C,</span>
+<span class="line">  JERR_DAC_INDEX = 0x1D,</span>
+<span class="line">  JERR_DAC_VALUE = 0x1E,</span>
+<span class="line">  JERR_DHT_INDEX = 0x1F,</span>
+<span class="line">  JERR_DQT_INDEX = 0x20,</span>
+<span class="line">  JERR_EMPTY_IMAGE = 0x21,</span>
+<span class="line">  JERR_EMS_READ = 0x22,</span>
+<span class="line">  JERR_EMS_WRITE = 0x23,</span>
+<span class="line">  JERR_EOI_EXPECTED = 0x24,</span>
+<span class="line">  JERR_FILE_READ = 0x25,</span>
+<span class="line">  JERR_FILE_WRITE = 0x26,</span>
+<span class="line">  JERR_FRACT_SAMPLE_NOTIMPL = 0x27,</span>
+<span class="line">  JERR_HUFF_CLEN_OVERFLOW = 0x28,</span>
+<span class="line">  JERR_HUFF_MISSING_CODE = 0x29,</span>
+<span class="line">  JERR_IMAGE_TOO_BIG = 0x2A,</span>
+<span class="line">  JERR_INPUT_EMPTY = 0x2B,</span>
+<span class="line">  JERR_INPUT_EOF = 0x2C,</span>
+<span class="line">  JERR_MISMATCHED_QUANT_TABLE = 0x2D,</span>
+<span class="line">  JERR_MISSING_DATA = 0x2E,</span>
+<span class="line">  JERR_MODE_CHANGE = 0x2F,</span>
+<span class="line">  JERR_NOTIMPL = 0x30,</span>
+<span class="line">  JERR_NOT_COMPILED = 0x31,</span>
+<span class="line">  JERR_NO_ARITH_TABLE = 0x32,</span>
+<span class="line">  JERR_NO_BACKING_STORE = 0x33,</span>
+<span class="line">  JERR_NO_HUFF_TABLE = 0x34,</span>
+<span class="line">  JERR_NO_IMAGE = 0x35,</span>
+<span class="line">  JERR_NO_QUANT_TABLE = 0x36,</span>
+<span class="line">  JERR_NO_SOI = 0x37,</span>
+<span class="line">  JERR_OUT_OF_MEMORY = 0x38,</span>
+<span class="line">  JERR_QUANT_COMPONENTS = 0x39,</span>
+<span class="line">  JERR_QUANT_FEW_COLORS = 0x3A,</span>
+<span class="line">  JERR_QUANT_MANY_COLORS = 0x3B,</span>
+<span class="line">  JERR_SOF_BEFORE = 0x3C,</span>
+<span class="line">  JERR_SOF_DUPLICATE = 0x3D,</span>
+<span class="line">  JERR_SOF_NO_SOS = 0x3E,</span>
+<span class="line">  JERR_SOF_UNSUPPORTED = 0x3F,</span>
+<span class="line">  JERR_SOI_DUPLICATE = 0x40,</span>
+<span class="line">  JERR_TFILE_CREATE = 0x41,</span>
+<span class="line">  JERR_TFILE_READ = 0x42,</span>
+<span class="line">  JERR_TFILE_SEEK = 0x43,</span>
+<span class="line">  JERR_TFILE_WRITE = 0x44,</span>
+<span class="line">  JERR_TOO_LITTLE_DATA = 0x45,</span>
+<span class="line">  JERR_UNKNOWN_MARKER = 0x46,</span>
+<span class="line">  JERR_VIRTUAL_BUG = 0x47,</span>
+<span class="line">  JERR_WIDTH_OVERFLOW = 0x48,</span>
+<span class="line">  JERR_XMS_READ = 0x49,</span>
+<span class="line">  JERR_XMS_WRITE = 0x4A,</span>
+<span class="line">  JMSG_COPYRIGHT = 0x4B,</span>
+<span class="line">  JMSG_VERSION = 0x4C,</span>
+<span class="line">  JTRC_16BIT_TABLES = 0x4D,</span>
+<span class="line">  JTRC_ADOBE = 0x4E,</span>
+<span class="line">  JTRC_APP0 = 0x4F,</span>
+<span class="line">  JTRC_APP14 = 0x50,</span>
+<span class="line">  JTRC_DAC = 0x51,</span>
+<span class="line">  JTRC_DHT = 0x52,</span>
+<span class="line">  JTRC_DQT = 0x53,</span>
+<span class="line">  JTRC_DRI = 0x54,</span>
+<span class="line">  JTRC_EMS_CLOSE = 0x55,</span>
+<span class="line">  JTRC_EMS_OPEN = 0x56,</span>
+<span class="line">  JTRC_EOI = 0x57,</span>
+<span class="line">  JTRC_HUFFBITS = 0x58,</span>
+<span class="line">  JTRC_JFIF = 0x59,</span>
+<span class="line">  JTRC_JFIF_BADTHUMBNAILSIZE = 0x5A,</span>
+<span class="line">  JTRC_JFIF_EXTENSION = 0x5B,</span>
+<span class="line">  JTRC_JFIF_THUMBNAIL = 0x5C,</span>
+<span class="line">  JTRC_MISC_MARKER = 0x5D,</span>
+<span class="line">  JTRC_PARMLESS_MARKER = 0x5E,</span>
+<span class="line">  JTRC_QUANTVALS = 0x5F,</span>
+<span class="line">  JTRC_QUANT_3_NCOLORS = 0x60,</span>
+<span class="line">  JTRC_QUANT_NCOLORS = 0x61,</span>
+<span class="line">  JTRC_QUANT_SELECTED = 0x62,</span>
+<span class="line">  JTRC_RECOVERY_ACTION = 0x63,</span>
+<span class="line">  JTRC_RST = 0x64,</span>
+<span class="line">  JTRC_SMOOTH_NOTIMPL = 0x65,</span>
+<span class="line">  JTRC_SOF = 0x66,</span>
+<span class="line">  JTRC_SOF_COMPONENT = 0x67,</span>
+<span class="line">  JTRC_SOI = 0x68,</span>
+<span class="line">  JTRC_SOS = 0x69,</span>
+<span class="line">  JTRC_SOS_COMPONENT = 0x6A,</span>
+<span class="line">  JTRC_SOS_PARAMS = 0x6B,</span>
+<span class="line">  JTRC_TFILE_CLOSE = 0x6C,</span>
+<span class="line">  JTRC_TFILE_OPEN = 0x6D,</span>
+<span class="line">  JTRC_THUMB_JPEG = 0x6E,</span>
+<span class="line">  JTRC_THUMB_PALETTE = 0x6F,</span>
+<span class="line">  JTRC_THUMB_RGB = 0x70,</span>
+<span class="line">  JTRC_UNKNOWN_IDS = 0x71,</span>
+<span class="line">  JTRC_XMS_CLOSE = 0x72,</span>
+<span class="line">  JTRC_XMS_OPEN = 0x73,</span>
+<span class="line">  JWRN_ADOBE_XFORM = 0x74,</span>
+<span class="line">  JWRN_ARITH_BAD_CODE = 0x75,</span>
+<span class="line">  JWRN_BOGUS_PROGRESSION = 0x76,</span>
+<span class="line">  JWRN_EXTRANEOUS_DATA = 0x77,</span>
+<span class="line">  JWRN_HIT_MARKER = 0x78,</span>
+<span class="line">  JWRN_HUFF_BAD_CODE = 0x79,</span>
+<span class="line">  JWRN_JFIF_MAJOR = 0x7A,</span>
+<span class="line">  JWRN_JPEG_EOF = 0x7B,</span>
+<span class="line">  JWRN_MUST_RESYNC = 0x7C,</span>
+<span class="line">  JWRN_NOT_SEQUENTIAL = 0x7D,</span>
+<span class="line">  JWRN_TOO_MUCH_DATA = 0x7E,</span>
+<span class="line">  JMSG_LASTMSGCODE = 0x7F,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="j-buf-mode" tabindex="-1"><a class="header-anchor" href="#j-buf-mode"><span><code>J_BUF_MODE</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum J_BUF_MODE : __int32</span>
+<span class="line">{</span>
+<span class="line">  JBUF_PASS_THRU = 0x0,</span>
+<span class="line">  JBUF_SAVE_SOURCE = 0x1,</span>
+<span class="line">  JBUF_CRANK_DEST = 0x2,</span>
+<span class="line">  JBUF_SAVE_AND_PASS = 0x3,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="jpeg-marker" tabindex="-1"><a class="header-anchor" href="#jpeg-marker"><span><code>JPEG_MARKER</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum JPEG_MARKER : __int32</span>
+<span class="line">{</span>
+<span class="line">  M_SOF0 = 0xC0,</span>
+<span class="line">  M_SOF1 = 0xC1,</span>
+<span class="line">  M_SOF2 = 0xC2,</span>
+<span class="line">  M_SOF3 = 0xC3,</span>
+<span class="line">  M_SOF5 = 0xC5,</span>
+<span class="line">  M_SOF6 = 0xC6,</span>
+<span class="line">  M_SOF7 = 0xC7,</span>
+<span class="line">  M_JPG = 0xC8,</span>
+<span class="line">  M_SOF9 = 0xC9,</span>
+<span class="line">  M_SOF10 = 0xCA,</span>
+<span class="line">  M_SOF11 = 0xCB,</span>
+<span class="line">  M_SOF13 = 0xCD,</span>
+<span class="line">  M_SOF14 = 0xCE,</span>
+<span class="line">  M_SOF15 = 0xCF,</span>
+<span class="line">  M_DHT = 0xC4,</span>
+<span class="line">  M_DAC = 0xCC,</span>
+<span class="line">  M_RST0 = 0xD0,</span>
+<span class="line">  M_RST1 = 0xD1,</span>
+<span class="line">  M_RST2 = 0xD2,</span>
+<span class="line">  M_RST3 = 0xD3,</span>
+<span class="line">  M_RST4 = 0xD4,</span>
+<span class="line">  M_RST5 = 0xD5,</span>
+<span class="line">  M_RST6 = 0xD6,</span>
+<span class="line">  M_RST7 = 0xD7,</span>
+<span class="line">  M_SOI = 0xD8,</span>
+<span class="line">  M_EOI = 0xD9,</span>
+<span class="line">  M_SOS = 0xDA,</span>
+<span class="line">  M_DQT = 0xDB,</span>
+<span class="line">  M_DNL = 0xDC,</span>
+<span class="line">  M_DRI = 0xDD,</span>
+<span class="line">  M_DHP = 0xDE,</span>
+<span class="line">  M_EXP = 0xDF,</span>
+<span class="line">  M_APP0 = 0xE0,</span>
+<span class="line">  M_APP1 = 0xE1,</span>
+<span class="line">  M_APP2 = 0xE2,</span>
+<span class="line">  M_APP3 = 0xE3,</span>
+<span class="line">  M_APP4 = 0xE4,</span>
+<span class="line">  M_APP5 = 0xE5,</span>
+<span class="line">  M_APP6 = 0xE6,</span>
+<span class="line">  M_APP7 = 0xE7,</span>
+<span class="line">  M_APP8 = 0xE8,</span>
+<span class="line">  M_APP9 = 0xE9,</span>
+<span class="line">  M_APP10 = 0xEA,</span>
+<span class="line">  M_APP11 = 0xEB,</span>
+<span class="line">  M_APP12 = 0xEC,</span>
+<span class="line">  M_APP13 = 0xED,</span>
+<span class="line">  M_APP14 = 0xEE,</span>
+<span class="line">  M_APP15 = 0xEF,</span>
+<span class="line">  M_JPG0 = 0xF0,</span>
+<span class="line">  M_JPG8 = 0xF8,</span>
+<span class="line">  M_JPG13 = 0xFD,</span>
+<span class="line">  M_COM = 0xFE,</span>
+<span class="line">  M_TEM = 0x1,</span>
+<span class="line">  M_ERROR = 0x100,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="j-dither-mode" tabindex="-1"><a class="header-anchor" href="#j-dither-mode"><span><code>J_DITHER_MODE</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum J_DITHER_MODE : __int32</span>
+<span class="line">{</span>
+<span class="line">  JDITHER_NONE = 0x0,</span>
+<span class="line">  JDITHER_ORDERED = 0x1,</span>
+<span class="line">  JDITHER_FS = 0x2,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></div><!--[--><!--]--></div><footer class="vp-page-meta"><!----><div class="vp-meta-item git-info"><div class="vp-meta-item last-updated"><span class="meta-item-label">Last Updated: </span><!----></div><div class="vp-meta-item contributors"><span class="meta-item-label">Contributors: </span><span class="meta-item-info"><!--[--><!--[--><span class="contributor" title="email: redbeana44945@gmail.com">RedbeanW</span><!----><!--]--><!--]--></span></div></div></footer><nav class="vp-page-nav" aria-label="page navigation"><a class="route-link auto-link prev" href="/mcstructure/1.16.201/enums/I.html" aria-label="I"><div class="hint"><span class="arrow left"></span> Prev</div><div class="link"><span>I</span></div></a><a class="route-link auto-link next" href="/mcstructure/1.16.201/enums/K.html" aria-label="K"><div class="hint">Next <span class="arrow right"></span></div><div class="link"><span>K</span></div></a></nav><!--[--><!--]--></main><!--]--></div><!--[--><!----><!--]--><!--]--></div>
+    <script type="module" src="/mcstructure/assets/app-CsZ-F4rT.js" defer></script>
+  </body>
+</html>

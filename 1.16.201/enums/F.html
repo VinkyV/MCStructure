@@ -1,0 +1,715 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.14" />
+    <style>
+      :root {
+        --c-bg: #fff;
+      }
+
+      html.dark {
+        --c-bg: #22272e;
+      }
+
+      html,
+      body {
+        background-color: var(--c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme')
+      const systemDarkMode =
+        window.matchMedia &&
+        window.matchMedia('(prefers-color-scheme: dark)').matches
+
+      if (userMode === 'light') {
+        document.documentElement.dataset.theme = 'light'
+      } else if (userMode === 'dark' || systemDarkMode) {
+        document.documentElement.classList.toggle('dark', true)
+        document.documentElement.dataset.theme = 'dark'
+      }
+    </script>
+    <title>F | MC TIL</title><meta name="description" content="Some structure and enum information for minecraft bedrock edition.">
+    <link rel="preload" href="/mcstructure/assets/style-BffCujja.css" as="style"><link rel="stylesheet" href="/mcstructure/assets/style-BffCujja.css">
+    <link rel="modulepreload" href="/mcstructure/assets/app-CsZ-F4rT.js"><link rel="modulepreload" href="/mcstructure/assets/F.html-B6_qTAB1.js">
+    <link rel="prefetch" href="/mcstructure/assets/index.html-BFXvbUVh.js" as="script"><link rel="prefetch" href="/mcstructure/assets/index.html-Dj85jYiz.js" as="script"><link rel="prefetch" href="/mcstructure/assets/index.html-DbyVM42m.js" as="script"><link rel="prefetch" href="/mcstructure/assets/A.html-gLZ0ckTd.js" as="script"><link rel="prefetch" href="/mcstructure/assets/B.html-DikvzAFb.js" as="script"><link rel="prefetch" href="/mcstructure/assets/C.html-BSDuF4vD.js" as="script"><link rel="prefetch" href="/mcstructure/assets/D.html-TlZ8OfQc.js" as="script"><link rel="prefetch" href="/mcstructure/assets/E.html-C8Pv4Nid.js" as="script"><link rel="prefetch" href="/mcstructure/assets/F.html-lN-ZlHP2.js" as="script"><link rel="prefetch" href="/mcstructure/assets/G.html-DRjRIhz_.js" as="script"><link rel="prefetch" href="/mcstructure/assets/H.html-DkYus1J1.js" as="script"><link rel="prefetch" href="/mcstructure/assets/I.html-C2FW7RiH.js" as="script"><link rel="prefetch" href="/mcstructure/assets/J.html-COy9SfX0.js" as="script"><link rel="prefetch" href="/mcstructure/assets/K.html-Btu8pogP.js" as="script"><link rel="prefetch" href="/mcstructure/assets/L.html-HkcbpxkI.js" as="script"><link rel="prefetch" href="/mcstructure/assets/M.html-CWXp8LWd.js" as="script"><link rel="prefetch" href="/mcstructure/assets/N.html-DlB-21f-.js" as="script"><link rel="prefetch" href="/mcstructure/assets/O.html-C9r9bEbp.js" as="script"><link rel="prefetch" href="/mcstructure/assets/P.html-eSzkmAjF.js" as="script"><link rel="prefetch" href="/mcstructure/assets/Q.html-DNkGW8HE.js" as="script"><link rel="prefetch" href="/mcstructure/assets/R.html-Ch4HwVo2.js" as="script"><link rel="prefetch" href="/mcstructure/assets/S.html-D9wi3UXK.js" as="script"><link rel="prefetch" href="/mcstructure/assets/T.html-C-uYqvkU.js" as="script"><link rel="prefetch" href="/mcstructure/assets/U.html-CU5DQaxg.js" as="script"><link rel="prefetch" href="/mcstructure/assets/V.html-DTS3IgYK.js" as="script"><link rel="prefetch" href="/mcstructure/assets/W.html-sdE-eohH.js" as="script"><link rel="prefetch" href="/mcstructure/assets/X.html-BpHdXa2Z.js" as="script"><link rel="prefetch" href="/mcstructure/assets/Z.html-IpYY_L14.js" as="script"><link rel="prefetch" href="/mcstructure/assets/.html-85iWzdZh.js" as="script"><link rel="prefetch" href="/mcstructure/assets/A.html-BxnaZQk_.js" as="script"><link rel="prefetch" href="/mcstructure/assets/B.html-ByvLGh92.js" as="script"><link rel="prefetch" href="/mcstructure/assets/C.html-CzS_sBs_.js" as="script"><link rel="prefetch" href="/mcstructure/assets/D.html-D40RaC-K.js" as="script"><link rel="prefetch" href="/mcstructure/assets/E.html-B-O1LW9i.js" as="script"><link rel="prefetch" href="/mcstructure/assets/F.html-DV0MZkyM.js" as="script"><link rel="prefetch" href="/mcstructure/assets/G.html-Dj-hYIU7.js" as="script"><link rel="prefetch" href="/mcstructure/assets/H.html-Cimj7lxq.js" as="script"><link rel="prefetch" href="/mcstructure/assets/I.html-C6GlVuuc.js" as="script"><link rel="prefetch" href="/mcstructure/assets/J.html-DiDuCSQy.js" as="script"><link rel="prefetch" href="/mcstructure/assets/K.html-CTMSIxlp.js" as="script"><link rel="prefetch" href="/mcstructure/assets/L.html-C7cxYGtY.js" as="script"><link rel="prefetch" href="/mcstructure/assets/M.html-Zgw9WGZd.js" as="script"><link rel="prefetch" href="/mcstructure/assets/N.html-N-vb4ZHK.js" as="script"><link rel="prefetch" href="/mcstructure/assets/O.html-CDXZjCxQ.js" as="script"><link rel="prefetch" href="/mcstructure/assets/P.html-y5OlOCJM.js" as="script"><link rel="prefetch" href="/mcstructure/assets/R.html-BSiGj2ZZ.js" as="script"><link rel="prefetch" href="/mcstructure/assets/S.html-DiqB_MPV.js" as="script"><link rel="prefetch" href="/mcstructure/assets/T.html-Cy4s5rRd.js" as="script"><link rel="prefetch" href="/mcstructure/assets/U.html-CdjhviXp.js" as="script"><link rel="prefetch" href="/mcstructure/assets/V.html-Bp9ck6A7.js" as="script"><link rel="prefetch" href="/mcstructure/assets/W.html-hyKqnZoP.js" as="script"><link rel="prefetch" href="/mcstructure/assets/X.html-BJ_Uasx8.js" as="script"><link rel="prefetch" href="/mcstructure/assets/Z.html-DPMGH7dv.js" as="script"><link rel="prefetch" href="/mcstructure/assets/.html-BdFkbt3Z.js" as="script"><link rel="prefetch" href="/mcstructure/assets/A.html-DZNn5aGI.js" as="script"><link rel="prefetch" href="/mcstructure/assets/B.html-DxXCh3uI.js" as="script"><link rel="prefetch" href="/mcstructure/assets/C.html-CP0u5vrD.js" as="script"><link rel="prefetch" href="/mcstructure/assets/D.html-OzRs-zWa.js" as="script"><link rel="prefetch" href="/mcstructure/assets/D~1.html-Cq7CT9i8.js" as="script"><link rel="prefetch" href="/mcstructure/assets/D~2.html-9a5mw65p.js" as="script"><link rel="prefetch" href="/mcstructure/assets/D~3.html-7I6ugC52.js" as="script"><link rel="prefetch" href="/mcstructure/assets/E.html-B7n2DhOW.js" as="script"><link rel="prefetch" href="/mcstructure/assets/G.html-tnPx32GK.js" as="script"><link rel="prefetch" href="/mcstructure/assets/H.html-wKxeNu6C.js" as="script"><link rel="prefetch" href="/mcstructure/assets/I.html-Cih2B44P.js" as="script"><link rel="prefetch" href="/mcstructure/assets/J.html-CRaMeLm1.js" as="script"><link rel="prefetch" href="/mcstructure/assets/K.html-BY245vF_.js" as="script"><link rel="prefetch" href="/mcstructure/assets/L.html-BKYlvOoV.js" as="script"><link rel="prefetch" href="/mcstructure/assets/M.html-DLZAc8pN.js" as="script"><link rel="prefetch" href="/mcstructure/assets/N.html-DCHdjo04.js" as="script"><link rel="prefetch" href="/mcstructure/assets/O.html-BnPzPtCP.js" as="script"><link rel="prefetch" href="/mcstructure/assets/P.html-DCTkl6Mq.js" as="script"><link rel="prefetch" href="/mcstructure/assets/Q.html-szukgbvm.js" as="script"><link rel="prefetch" href="/mcstructure/assets/R.html-CsgdcBCA.js" as="script"><link rel="prefetch" href="/mcstructure/assets/S.html-DMioY27y.js" as="script"><link rel="prefetch" href="/mcstructure/assets/T.html-DZQPdC9U.js" as="script"><link rel="prefetch" href="/mcstructure/assets/U.html-Bx2LRvsV.js" as="script"><link rel="prefetch" href="/mcstructure/assets/V.html-DBxlf9Ny.js" as="script"><link rel="prefetch" href="/mcstructure/assets/W.html-gGPSKGDC.js" as="script"><link rel="prefetch" href="/mcstructure/assets/X.html-e9xtnx-A.js" as="script"><link rel="prefetch" href="/mcstructure/assets/Z.html-40lfopdp.js" as="script"><link rel="prefetch" href="/mcstructure/assets/A.html-DzMMz49D.js" as="script"><link rel="prefetch" href="/mcstructure/assets/A~1.html-Yhbdjy0t.js" as="script"><link rel="prefetch" href="/mcstructure/assets/B.html-BQ_oPlKV.js" as="script"><link rel="prefetch" href="/mcstructure/assets/B~1.html-BHzFdoad.js" as="script"><link rel="prefetch" href="/mcstructure/assets/B~2.html-B2pWuuwn.js" as="script"><link rel="prefetch" href="/mcstructure/assets/C.html-D9-itRQ8.js" as="script"><link rel="prefetch" href="/mcstructure/assets/C~1.html-D1TAEDwf.js" as="script"><link rel="prefetch" href="/mcstructure/assets/C~2.html-CJhAeHk2.js" as="script"><link rel="prefetch" href="/mcstructure/assets/C~3.html-DYesXt6j.js" as="script"><link rel="prefetch" href="/mcstructure/assets/D.html-BVV6tOpA.js" as="script"><link rel="prefetch" href="/mcstructure/assets/D~1.html-BxVUTrcZ.js" as="script"><link rel="prefetch" href="/mcstructure/assets/D~10.html-DZ47T8mf.js" as="script"><link rel="prefetch" href="/mcstructure/assets/D~2.html-DFAnhgi3.js" as="script"><link rel="prefetch" href="/mcstructure/assets/D~3.html-QJUVoMPZ.js" as="script"><link rel="prefetch" href="/mcstructure/assets/D~4.html-D_OmeWnj.js" as="script"><link rel="prefetch" href="/mcstructure/assets/D~5.html-C9FH14S7.js" as="script"><link rel="prefetch" href="/mcstructure/assets/D~6.html-DCVwj4R8.js" as="script"><link rel="prefetch" href="/mcstructure/assets/D~7.html-ClACDGbF.js" as="script"><link rel="prefetch" href="/mcstructure/assets/D~8.html-CJJcZlG6.js" as="script"><link rel="prefetch" href="/mcstructure/assets/D~9.html-DuLymHuT.js" as="script"><link rel="prefetch" href="/mcstructure/assets/E.html-BhNRTBWl.js" as="script"><link rel="prefetch" href="/mcstructure/assets/E~1.html-BM9oxQG0.js" as="script"><link rel="prefetch" href="/mcstructure/assets/F.html-BVbUKQWc.js" as="script"><link rel="prefetch" href="/mcstructure/assets/F~1.html-DHLOg0tp.js" as="script"><link rel="prefetch" href="/mcstructure/assets/G.html-XsiULcol.js" as="script"><link rel="prefetch" href="/mcstructure/assets/H.html-Ccuk8KxU.js" as="script"><link rel="prefetch" href="/mcstructure/assets/I.html-DaDSCQ0t.js" as="script"><link rel="prefetch" href="/mcstructure/assets/I~1.html-CEBGjDRl.js" as="script"><link rel="prefetch" href="/mcstructure/assets/I~2.html-cdx7zoxg.js" as="script"><link rel="prefetch" href="/mcstructure/assets/J.html-CoTKxScb.js" as="script"><link rel="prefetch" href="/mcstructure/assets/K.html-COlR6yK8.js" as="script"><link rel="prefetch" href="/mcstructure/assets/L.html-ChlLIfSv.js" as="script"><link rel="prefetch" href="/mcstructure/assets/L~1.html-BUbCcLFg.js" as="script"><link rel="prefetch" href="/mcstructure/assets/M.html-BeUXRTi6.js" as="script"><link rel="prefetch" href="/mcstructure/assets/M~1.html-p2uxPAhd.js" as="script"><link rel="prefetch" href="/mcstructure/assets/M~2.html-cQU1bBCC.js" as="script"><link rel="prefetch" href="/mcstructure/assets/M~3.html-B8Km2vup.js" as="script"><link rel="prefetch" href="/mcstructure/assets/N.html-CoLUjbP0.js" as="script"><link rel="prefetch" href="/mcstructure/assets/O.html-DlwMzWt4.js" as="script"><link rel="prefetch" href="/mcstructure/assets/P.html-X0qrsTK8.js" as="script"><link rel="prefetch" href="/mcstructure/assets/P~1.html-DTNsvZ_x.js" as="script"><link rel="prefetch" href="/mcstructure/assets/P~2.html-DBSXrjNx.js" as="script"><link rel="prefetch" href="/mcstructure/assets/P~3.html-CJ3EZfXX.js" as="script"><link rel="prefetch" href="/mcstructure/assets/Q.html-CKYXRHB1.js" as="script"><link rel="prefetch" href="/mcstructure/assets/R.html--3mJFLJL.js" as="script"><link rel="prefetch" href="/mcstructure/assets/R~1.html-TsuonS3X.js" as="script"><link rel="prefetch" href="/mcstructure/assets/R~2.html-CXomLjFs.js" as="script"><link rel="prefetch" href="/mcstructure/assets/R~3.html-CnuTSEOZ.js" as="script"><link rel="prefetch" href="/mcstructure/assets/S.html-B3ianil5.js" as="script"><link rel="prefetch" href="/mcstructure/assets/S~1.html-Daw5LDSA.js" as="script"><link rel="prefetch" href="/mcstructure/assets/S~2.html-C8TSjv5J.js" as="script"><link rel="prefetch" href="/mcstructure/assets/S~3.html-DfIH06pA.js" as="script"><link rel="prefetch" href="/mcstructure/assets/S~4.html--gQYk-QM.js" as="script"><link rel="prefetch" href="/mcstructure/assets/T.html-OGsLuBXL.js" as="script"><link rel="prefetch" href="/mcstructure/assets/T~1.html-DRiC28yW.js" as="script"><link rel="prefetch" href="/mcstructure/assets/U.html-BveORCBO.js" as="script"><link rel="prefetch" href="/mcstructure/assets/V.html-B8CZ3piQ.js" as="script"><link rel="prefetch" href="/mcstructure/assets/W.html-BQ-pOW4G.js" as="script"><link rel="prefetch" href="/mcstructure/assets/W~1.html-DCmXWpyM.js" as="script"><link rel="prefetch" href="/mcstructure/assets/X.html-B0ZmYUQN.js" as="script"><link rel="prefetch" href="/mcstructure/assets/Z.html-Cs08Fuzm.js" as="script"><link rel="prefetch" href="/mcstructure/assets/404.html-Cd2Ktm8f.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="vp-theme-container external-link-icon"><!--[--><header class="vp-navbar"><div class="vp-toggle-sidebar-button" title="toggle sidebar" aria-expanded="false" role="button" tabindex="0"><div class="icon" aria-hidden="true"><span></span><span></span><span></span></div></div><span><a class="route-link" href="/mcstructure/"><!----><span class="vp-site-name" aria-hidden="true">MC TIL</span></a></span><div class="vp-navbar-items-wrapper" style=""><!--[--><!--]--><nav class="vp-navbar-items vp-hide-mobile" aria-label="site navigation"><!--[--><div class="vp-navbar-item"><a class="route-link auto-link" href="/mcstructure/" aria-label="Home"><!---->Home<!----></a></div><div class="vp-navbar-item"><a class="auto-link external-link" href="https://github.com/Redbeanw44602/mcstructure" aria-label="Github" rel="noopener noreferrer" target="_blank"><!---->Github<!----></a></div><!--]--></nav><!--[--><!--]--><button class="vp-toggle-color-mode-button" title="toggle color mode"><svg class="light-icon" viewbox="0 0 32 32" style=""><path d="M16 12.005a4 4 0 1 1-4 4a4.005 4.005 0 0 1 4-4m0-2a6 6 0 1 0 6 6a6 6 0 0 0-6-6z" fill="currentColor"></path><path d="M5.394 6.813l1.414-1.415l3.506 3.506L8.9 10.318z" fill="currentColor"></path><path d="M2 15.005h5v2H2z" fill="currentColor"></path><path d="M5.394 25.197L8.9 21.691l1.414 1.415l-3.506 3.505z" fill="currentColor"></path><path d="M15 25.005h2v5h-2z" fill="currentColor"></path><path d="M21.687 23.106l1.414-1.415l3.506 3.506l-1.414 1.414z" fill="currentColor"></path><path d="M25 15.005h5v2h-5z" fill="currentColor"></path><path d="M21.687 8.904l3.506-3.506l1.414 1.415l-3.506 3.505z" fill="currentColor"></path><path d="M15 2.005h2v5h-2z" fill="currentColor"></path></svg><svg class="dark-icon" viewbox="0 0 32 32" style="display:none;"><path d="M13.502 5.414a15.075 15.075 0 0 0 11.594 18.194a11.113 11.113 0 0 1-7.975 3.39c-.138 0-.278.005-.418 0a11.094 11.094 0 0 1-3.2-21.584M14.98 3a1.002 1.002 0 0 0-.175.016a13.096 13.096 0 0 0 1.825 25.981c.164.006.328 0 .49 0a13.072 13.072 0 0 0 10.703-5.555a1.01 1.01 0 0 0-.783-1.565A13.08 13.08 0 0 1 15.89 4.38A1.015 1.015 0 0 0 14.98 3z" fill="currentColor"></path></svg></button><form class="search-box" role="search"><input type="search" autocomplete="off" spellcheck="false" value><!----></form></div></header><!--]--><div class="vp-sidebar-mask"></div><!--[--><aside class="vp-sidebar"><nav class="vp-navbar-items" aria-label="site navigation"><!--[--><div class="vp-navbar-item"><a class="route-link auto-link" href="/mcstructure/" aria-label="Home"><!---->Home<!----></a></div><div class="vp-navbar-item"><a class="auto-link external-link" href="https://github.com/Redbeanw44602/mcstructure" aria-label="Github" rel="noopener noreferrer" target="_blank"><!---->Github<!----></a></div><!--]--></nav><!--[--><!--]--><ul class="vp-sidebar-items"><!--[--><li><p tabindex="0" class="vp-sidebar-item vp-sidebar-heading">Struct <!----></p><ul style="" class="vp-sidebar-children"><!--[--><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/A.html" aria-label="A"><!---->A<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/A~1.html" aria-label="A~1"><!---->A~1<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/B.html" aria-label="B"><!---->B<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/B~1.html" aria-label="B~1"><!---->B~1<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/B~2.html" aria-label="B~2"><!---->B~2<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/C.html" aria-label="C"><!---->C<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/C~1.html" aria-label="C~1"><!---->C~1<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/C~2.html" aria-label="C~2"><!---->C~2<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/C~3.html" aria-label="C~3"><!---->C~3<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/D.html" aria-label="D"><!---->D<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/D~1.html" aria-label="D~1"><!---->D~1<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/D~2.html" aria-label="D~2"><!---->D~2<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/D~3.html" aria-label="D~3"><!---->D~3<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/D~4.html" aria-label="D~4"><!---->D~4<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/D~5.html" aria-label="D~5"><!---->D~5<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/D~6.html" aria-label="D~6"><!---->D~6<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/D~7.html" aria-label="D~7"><!---->D~7<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/D~8.html" aria-label="D~8"><!---->D~8<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/D~9.html" aria-label="D~9"><!---->D~9<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/D~10.html" aria-label="D~10"><!---->D~10<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/E.html" aria-label="E"><!---->E<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/E~1.html" aria-label="E~1"><!---->E~1<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/F.html" aria-label="F"><!---->F<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/F~1.html" aria-label="F~1"><!---->F~1<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/G.html" aria-label="G"><!---->G<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/H.html" aria-label="H"><!---->H<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/I.html" aria-label="I"><!---->I<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/I~1.html" aria-label="I~1"><!---->I~1<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/I~2.html" aria-label="I~2"><!---->I~2<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/J.html" aria-label="J"><!---->J<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/K.html" aria-label="K"><!---->K<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/L.html" aria-label="L"><!---->L<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/L~1.html" aria-label="L~1"><!---->L~1<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/M.html" aria-label="M"><!---->M<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/M~1.html" aria-label="M~1"><!---->M~1<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/M~2.html" aria-label="M~2"><!---->M~2<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/M~3.html" aria-label="M~3"><!---->M~3<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/N.html" aria-label="N"><!---->N<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/O.html" aria-label="O"><!---->O<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/P.html" aria-label="P"><!---->P<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/P~1.html" aria-label="P~1"><!---->P~1<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/P~2.html" aria-label="P~2"><!---->P~2<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/P~3.html" aria-label="P~3"><!---->P~3<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/Q.html" aria-label="Q"><!---->Q<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/R.html" aria-label="R"><!---->R<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/R~1.html" aria-label="R~1"><!---->R~1<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/R~2.html" aria-label="R~2"><!---->R~2<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/R~3.html" aria-label="R~3"><!---->R~3<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/S.html" aria-label="S"><!---->S<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/S~1.html" aria-label="S~1"><!---->S~1<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/S~2.html" aria-label="S~2"><!---->S~2<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/S~3.html" aria-label="S~3"><!---->S~3<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/S~4.html" aria-label="S~4"><!---->S~4<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/T.html" aria-label="T"><!---->T<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/T~1.html" aria-label="T~1"><!---->T~1<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/U.html" aria-label="U"><!---->U<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/V.html" aria-label="V"><!---->V<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/W.html" aria-label="W"><!---->W<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/W~1.html" aria-label="W~1"><!---->W~1<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/X.html" aria-label="X"><!---->X<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/structure/Z.html" aria-label="Z"><!---->Z<!----></a><!----></li><!--]--></ul></li><li><p tabindex="0" class="vp-sidebar-item vp-sidebar-heading active">Enums <!----></p><ul style="" class="vp-sidebar-children"><!--[--><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/enums/A.html" aria-label="A"><!---->A<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/enums/B.html" aria-label="B"><!---->B<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/enums/C.html" aria-label="C"><!---->C<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/enums/D.html" aria-label="D"><!---->D<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/enums/D~1.html" aria-label="D~1"><!---->D~1<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/enums/D~2.html" aria-label="D~2"><!---->D~2<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/enums/D~3.html" aria-label="D~3"><!---->D~3<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/enums/E.html" aria-label="E"><!---->E<!----></a><!----></li><li><a class="route-link route-link-active auto-link vp-sidebar-item active" href="/mcstructure/1.16.201/enums/F.html" aria-label="F"><!---->F<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/enums/G.html" aria-label="G"><!---->G<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/enums/H.html" aria-label="H"><!---->H<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/enums/I.html" aria-label="I"><!---->I<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/enums/J.html" aria-label="J"><!---->J<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/enums/K.html" aria-label="K"><!---->K<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/enums/L.html" aria-label="L"><!---->L<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/enums/M.html" aria-label="M"><!---->M<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/enums/N.html" aria-label="N"><!---->N<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/enums/O.html" aria-label="O"><!---->O<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/enums/P.html" aria-label="P"><!---->P<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/enums/R.html" aria-label="R"><!---->R<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/enums/S.html" aria-label="S"><!---->S<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/enums/T.html" aria-label="T"><!---->T<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/enums/U.html" aria-label="U"><!---->U<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/enums/V.html" aria-label="V"><!---->V<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/mcstructure/1.16.201/enums/W.html" aria-label="W"><!---->W<!----></a><!----></li><!--]--></ul></li><!--]--></ul><!--[--><!--]--></aside><!--]--><!--[--><main class="vp-page"><!--[--><!--]--><div class="theme-default-content"><!--[--><!--]--><div><h1 id="f" tabindex="-1"><a class="header-anchor" href="#f"><span>F</span></a></h1><h3 id="focusimpact" tabindex="-1"><a class="header-anchor" href="#focusimpact"><span><code>FocusImpact</code></span></a></h3><table><thead><tr><th>Name</th><th>Value</th></tr></thead><tbody><tr><td>Neutral</td><td><code>0</code></td></tr><tr><td>ActivateFocus</td><td><code>1</code></td></tr><tr><td>DeactivateFocus</td><td><code>2</code></td></tr></tbody></table><h3 id="facing-rotation" tabindex="-1"><a class="header-anchor" href="#facing-rotation"><span><code>Facing::Rotation</code></span></a></h3><table><thead><tr><th>Name</th><th>Value</th></tr></thead><tbody><tr><td>NONE</td><td><code>0</code></td></tr><tr><td>JUMP</td><td><code>1</code></td></tr><tr><td>HURT</td><td><code>2</code></td></tr><tr><td>DEATH</td><td><code>3</code></td></tr><tr><td>START_ATTACKING</td><td><code>4</code></td></tr><tr><td>STOP_ATTACKING</td><td><code>5</code></td></tr><tr><td>TAMING_FAILED</td><td><code>6</code></td></tr><tr><td>TAMING_SUCCEEDED</td><td><code>7</code></td></tr><tr><td>SHAKE_WETNESS</td><td><code>8</code></td></tr><tr><td>EAT_GRASS</td><td><code>10</code></td></tr><tr><td>FISHHOOK_BUBBLE</td><td><code>11</code></td></tr><tr><td>FISHHOOK_FISHPOS</td><td><code>12</code></td></tr><tr><td>FISHHOOK_HOOKTIME</td><td><code>13</code></td></tr><tr><td>FISHHOOK_TEASE</td><td><code>14</code></td></tr><tr><td>SQUID_FLEEING</td><td><code>15</code></td></tr><tr><td>ZOMBIE_CONVERTING</td><td><code>16</code></td></tr><tr><td>PLAY_AMBIENT</td><td><code>17</code></td></tr><tr><td>SPAWN_ALIVE</td><td><code>18</code></td></tr><tr><td>START_OFFER_FLOWER</td><td><code>19</code></td></tr><tr><td>STOP_OFFER_FLOWER</td><td><code>20</code></td></tr><tr><td>LOVE_HEARTS</td><td><code>21</code></td></tr><tr><td>VILLAGER_ANGRY</td><td><code>22</code></td></tr><tr><td>VILLAGER_HAPPY</td><td><code>23</code></td></tr><tr><td>WITCH_HAT_MAGIC</td><td><code>24</code></td></tr><tr><td>FIREWORKS_EXPLODE</td><td><code>25</code></td></tr><tr><td>IN_LOVE_HEARTS</td><td><code>26</code></td></tr><tr><td>SILVERFISH_MERGE_ANIM</td><td><code>27</code></td></tr><tr><td>GUARDIAN_ATTACK_SOUND</td><td><code>28</code></td></tr><tr><td>DRINK_POTION</td><td><code>29</code></td></tr><tr><td>THROW_POTION</td><td><code>30</code></td></tr><tr><td>PRIME_TNTCART</td><td><code>31</code></td></tr><tr><td>PRIME_CREEPER</td><td><code>32</code></td></tr><tr><td>AIR_SUPPLY</td><td><code>33</code></td></tr><tr><td>ADD_PLAYER_LEVELS</td><td><code>34</code></td></tr><tr><td>GUARDIAN_MINING_FATIGUE</td><td><code>35</code></td></tr><tr><td>AGENT_SWING_ARM</td><td><code>36</code></td></tr><tr><td>DRAGON_START_DEATH_ANIM</td><td><code>37</code></td></tr><tr><td>GROUND_DUST</td><td><code>38</code></td></tr><tr><td>SHAKE</td><td><code>39</code></td></tr><tr><td>FEED</td><td><code>57</code></td></tr><tr><td>BABY_EAT</td><td><code>60</code></td></tr><tr><td>INSTANT_DEATH</td><td><code>61</code></td></tr><tr><td>NOTIFY_TRADE</td><td><code>62</code></td></tr><tr><td>LEASH_DESTROYED</td><td><code>63</code></td></tr><tr><td>CARAVAN_UPDATED</td><td><code>64</code></td></tr><tr><td>TALISMAN_ACTIVATE</td><td><code>65</code></td></tr><tr><td>UPDATE_STRUCTURE_FEATURE</td><td><code>66</code></td></tr><tr><td>PLAYER_SPAWNED_MOB</td><td><code>67</code></td></tr><tr><td>PUKE</td><td><code>68</code></td></tr><tr><td>UPDATE_STACK_SIZE</td><td><code>69</code></td></tr><tr><td>START_SWIMMING</td><td><code>70</code></td></tr><tr><td>BALLOON_POP</td><td><code>71</code></td></tr><tr><td>TREASURE_HUNT</td><td><code>72</code></td></tr><tr><td>SUMMON_AGENT</td><td><code>73</code></td></tr><tr><td>FINISHED_CHARGING_CROSSBOW</td><td><code>74</code></td></tr><tr><td>LANDED_ON_GROUND</td><td><code>75</code></td></tr></tbody></table><h3 id="flip" tabindex="-1"><a class="header-anchor" href="#flip"><span><code>Flip</code></span></a></h3><table><thead><tr><th>Name</th><th>Value</th></tr></thead></table><h3 id="fertilizertype" tabindex="-1"><a class="header-anchor" href="#fertilizertype"><span><code>FertilizerType</code></span></a></h3><table><thead><tr><th>Name</th><th>Value</th></tr></thead><tbody><tr><td>Bonemeal</td><td><code>0</code></td></tr><tr><td>Rapid</td><td><code>1</code></td></tr></tbody></table><h3 id="fogdistancesetting-distancetype" tabindex="-1"><a class="header-anchor" href="#fogdistancesetting-distancetype"><span><code>FogDistanceSetting::DistanceType</code></span></a></h3><table><thead><tr><th>Name</th><th>Value</th></tr></thead><tbody><tr><td>THIRD_BEZIER</td><td><code>0</code></td></tr><tr><td>FOURTH_BEZIER</td><td><code>1</code></td></tr><tr><td>FIXED</td><td><code>2</code></td></tr></tbody></table><h3 id="filteroperator" tabindex="-1"><a class="header-anchor" href="#filteroperator"><span><code>FilterOperator</code></span></a></h3><table><thead><tr><th>Name</th><th>Value</th></tr></thead><tbody><tr><td>Equal</td><td><code>0</code></td></tr><tr><td>NotEqual</td><td><code>1</code></td></tr><tr><td>GreaterThan</td><td><code>2</code></td></tr><tr><td>LessThan</td><td><code>3</code></td></tr><tr><td>GreaterThanOrEqual</td><td><code>4</code></td></tr><tr><td>LessThanOrEqual</td><td><code>5</code></td></tr></tbody></table><h3 id="facing-name" tabindex="-1"><a class="header-anchor" href="#facing-name"><span><code>Facing::Name</code></span></a></h3><table><thead><tr><th>Name</th><th>Value</th></tr></thead></table><h3 id="ft-rfork-rule" tabindex="-1"><a class="header-anchor" href="#ft-rfork-rule"><span><code>FT_RFork_Rule_</code></span></a></h3><table><thead><tr><th>Name</th><th>Value</th></tr></thead><tbody><tr><td>FT_RFork_Rule_apple_double</td><td><code>0</code></td></tr><tr><td>FT_RFork_Rule_apple_single</td><td><code>1</code></td></tr><tr><td>FT_RFork_Rule_darwin_ufs_export</td><td><code>2</code></td></tr><tr><td>FT_RFork_Rule_darwin_newvfs</td><td><code>3</code></td></tr><tr><td>FT_RFork_Rule_darwin_hfsplus</td><td><code>4</code></td></tr><tr><td>FT_RFork_Rule_vfat</td><td><code>5</code></td></tr><tr><td>FT_RFork_Rule_linux_cap</td><td><code>6</code></td></tr><tr><td>FT_RFork_Rule_linux_double</td><td><code>7</code></td></tr><tr><td>FT_RFork_Rule_linux_netatalk</td><td><code>8</code></td></tr><tr><td>FT_RFork_Rule_invalid</td><td><code>18446744073709551614</code></td></tr><tr><td>FT_RFork_Rule_uknown</td><td><code>18446744073709551615</code></td></tr></tbody></table><h3 id="ft-render-mode" tabindex="-1"><a class="header-anchor" href="#ft-render-mode"><span><code>FT_Render_Mode_</code></span></a></h3><table><thead><tr><th>Name</th><th>Value</th></tr></thead><tbody><tr><td>FT_RENDER_MODE_NORMAL</td><td><code>0</code></td></tr><tr><td>FT_RENDER_MODE_LIGHT</td><td><code>1</code></td></tr><tr><td>FT_RENDER_MODE_MONO</td><td><code>2</code></td></tr><tr><td>FT_RENDER_MODE_LCD</td><td><code>3</code></td></tr><tr><td>FT_RENDER_MODE_LCD_V</td><td><code>4</code></td></tr><tr><td>FT_RENDER_MODE_MAX</td><td><code>5</code></td></tr></tbody></table><h3 id="ft-truetypeenginetype" tabindex="-1"><a class="header-anchor" href="#ft-truetypeenginetype"><span><code>FT_TrueTypeEngineType_</code></span></a></h3><table><thead><tr><th>Name</th><th>Value</th></tr></thead><tbody><tr><td>FT_TRUETYPE_ENGINE_TYPE_NONE</td><td><code>0</code></td></tr><tr><td>FT_TRUETYPE_ENGINE_TYPE_UNPATENTED</td><td><code>1</code></td></tr><tr><td>FT_TRUETYPE_ENGINE_TYPE_PATENTED</td><td><code>2</code></td></tr></tbody></table><h3 id="float-format-type" tabindex="-1"><a class="header-anchor" href="#float-format-type"><span><code>float_format_type</code></span></a></h3><table><thead><tr><th>Name</th><th>Value</th></tr></thead><tbody><tr><td>unknown_format</td><td><code>0</code></td></tr><tr><td>ieee_big_endian_format</td><td><code>1</code></td></tr><tr><td>ieee_little_endian_format</td><td><code>2</code></td></tr></tbody></table><h3 id="filetype" tabindex="-1"><a class="header-anchor" href="#filetype"><span><code>filetype</code></span></a></h3><table><thead><tr><th>Name</th><th>Value</th></tr></thead><tbody><tr><td>SEARCH_ERROR</td><td><code>0</code></td></tr><tr><td>?</td><td><code>1</code></td></tr><tr><td>?</td><td><code>2</code></td></tr><tr><td>C_EXTENSION</td><td><code>3</code></td></tr><tr><td>?</td><td><code>4</code></td></tr><tr><td>PKG_DIRECTORY</td><td><code>5</code></td></tr><tr><td>C_BUILTIN</td><td><code>6</code></td></tr><tr><td>?</td><td><code>7</code></td></tr><tr><td>?</td><td><code>8</code></td></tr><tr><td>IMP_HOOK</td><td><code>9</code></td></tr></tbody></table><h3 id="filterparamtype" tabindex="-1"><a class="header-anchor" href="#filterparamtype"><span><code>FilterParamType</code></span></a></h3><table><thead><tr><th>Name</th><th>Value</th></tr></thead></table><h3 id="filterparamrequirement" tabindex="-1"><a class="header-anchor" href="#filterparamrequirement"><span><code>FilterParamRequirement</code></span></a></h3><table><thead><tr><th>Name</th><th>Value</th></tr></thead><tbody><tr><td>Required</td><td><code>0</code></td></tr><tr><td>Optional</td><td><code>1</code></td></tr></tbody></table><h3 id="filterparamoption" tabindex="-1"><a class="header-anchor" href="#filterparamoption"><span><code>FilterParamOption</code></span></a></h3><table><thead><tr><th>Name</th><th>Value</th></tr></thead></table><h3 id="ft-glyph-format" tabindex="-1"><a class="header-anchor" href="#ft-glyph-format"><span><code>FT_Glyph_Format_</code></span></a></h3><table><thead><tr><th>Name</th><th>Value</th></tr></thead><tbody><tr><td>FT_GLYPH_FORMAT_NONE</td><td><code>0</code></td></tr><tr><td>FT_GLYPH_FORMAT_BITMAP</td><td><code>1651078259</code></td></tr><tr><td>FT_GLYPH_FORMAT_COMPOSITE</td><td><code>1668246896</code></td></tr><tr><td>FT_GLYPH_FORMAT_OUTLINE</td><td><code>1869968492</code></td></tr><tr><td>FT_GLYPH_FORMAT_PLOTTER</td><td><code>1886154612</code></td></tr></tbody></table><h3 id="fakehdrsetting" tabindex="-1"><a class="header-anchor" href="#fakehdrsetting"><span><code>FakeHDRSetting</code></span></a></h3><table><thead><tr><th>Name</th><th>Value</th></tr></thead><tbody><tr><td>EnableFakeHDR</td><td><code>0</code></td></tr><tr><td>DisableFakeHDR</td><td><code>1</code></td></tr></tbody></table><h3 id="frustumcullertype" tabindex="-1"><a class="header-anchor" href="#frustumcullertype"><span><code>FrustumCullerType</code></span></a></h3><table><thead><tr><th>Name</th><th>Value</th></tr></thead><tbody><tr><td>Perspective</td><td><code>0</code></td></tr><tr><td>RayTracing</td><td><code>1</code></td></tr></tbody></table><h3 id="fogmanager-layertype" tabindex="-1"><a class="header-anchor" href="#fogmanager-layertype"><span><code>FogManager::LayerType</code></span></a></h3><table><thead><tr><th>Name</th><th>Value</th></tr></thead><tbody><tr><td>DATA_DEFAULT</td><td><code>0</code></td></tr><tr><td>BIOME</td><td><code>1</code></td></tr><tr><td>SERVER_DIRECTED</td><td><code>2</code></td></tr></tbody></table><h3 id="flightingtoggleid" tabindex="-1"><a class="header-anchor" href="#flightingtoggleid"><span><code>FlightingToggleId</code></span></a></h3><table><thead><tr><th>Name</th><th>Value</th></tr></thead><tbody><tr><td>CoreUiTechValidation</td><td><code>0</code></td></tr></tbody></table><h3 id="filearchiver-outcome" tabindex="-1"><a class="header-anchor" href="#filearchiver-outcome"><span><code>FileArchiver::Outcome</code></span></a></h3><table><thead><tr><th>Name</th><th>Value</th></tr></thead></table><h3 id="filtergroup-collectiontype" tabindex="-1"><a class="header-anchor" href="#filtergroup-collectiontype"><span><code>FilterGroup::CollectionType</code></span></a></h3><table><thead><tr><th>Name</th><th>Value</th></tr></thead><tbody><tr><td>AND</td><td><code>0</code></td></tr><tr><td>OR</td><td><code>1</code></td></tr><tr><td>NOT</td><td><code>2</code></td></tr></tbody></table><h3 id="filtersubject" tabindex="-1"><a class="header-anchor" href="#filtersubject"><span><code>FilterSubject</code></span></a></h3><table><thead><tr><th>Name</th><th>Value</th></tr></thead></table><h3 id="filereadresult" tabindex="-1"><a class="header-anchor" href="#filereadresult"><span><code>FileReadResult</code></span></a></h3><table><thead><tr><th>Name</th><th>Value</th></tr></thead><tbody><tr><td>INITIAL</td><td><code>0</code></td></tr><tr><td>PROCESSING</td><td><code>1</code></td></tr><tr><td>FAIL</td><td><code>2</code></td></tr><tr><td>SUCCESS</td><td><code>3</code></td></tr></tbody></table><h3 id="flowerblock-type" tabindex="-1"><a class="header-anchor" href="#flowerblock-type"><span><code>FlowerBlock::Type</code></span></a></h3><table><thead><tr><th>Name</th><th>Value</th></tr></thead></table><h3 id="flowertype" tabindex="-1"><a class="header-anchor" href="#flowertype"><span><code>FlowerType</code></span></a></h3><table><thead><tr><th>Name</th><th>Value</th></tr></thead></table><h3 id="ft-size-request-type" tabindex="-1"><a class="header-anchor" href="#ft-size-request-type"><span><code>FT_Size_Request_Type_</code></span></a></h3><table><thead><tr><th>Name</th><th>Value</th></tr></thead><tbody><tr><td>FT_SIZE_REQUEST_TYPE_NOMINAL</td><td><code>0</code></td></tr><tr><td>FT_SIZE_REQUEST_TYPE_REAL_DIM</td><td><code>1</code></td></tr><tr><td>FT_SIZE_REQUEST_TYPE_BBOX</td><td><code>2</code></td></tr><tr><td>FT_SIZE_REQUEST_TYPE_CELL</td><td><code>3</code></td></tr><tr><td>FT_SIZE_REQUEST_TYPE_SCALES</td><td><code>4</code></td></tr><tr><td>FT_SIZE_REQUEST_TYPE_MAX</td><td><code>5</code></td></tr></tbody></table><h3 id="ft-encoding" tabindex="-1"><a class="header-anchor" href="#ft-encoding"><span><code>FT_Encoding_</code></span></a></h3><table><thead><tr><th>Name</th><th>Value</th></tr></thead><tbody><tr><td>FT_ENCODING_NONE</td><td><code>0</code></td></tr><tr><td>FT_ENCODING_ADOBE_CUSTOM</td><td><code>1094992451</code></td></tr><tr><td>FT_ENCODING_ADOBE_EXPERT</td><td><code>1094992453</code></td></tr><tr><td>FT_ENCODING_ADOBE_STANDARD</td><td><code>1094995778</code></td></tr><tr><td>FT_ENCODING_APPLE_ROMAN</td><td><code>1634889070</code></td></tr><tr><td>FT_ENCODING_BIG5</td><td><code>1651074869</code></td></tr><tr><td>FT_ENCODING_MS_BIG5</td><td><code>1651074869</code></td></tr><tr><td>FT_ENCODING_PRC</td><td><code>1734484000</code></td></tr><tr><td>FT_ENCODING_GB2312</td><td><code>1734484000</code></td></tr><tr><td>FT_ENCODING_MS_GB2312</td><td><code>1734484000</code></td></tr><tr><td>FT_ENCODING_JOHAB</td><td><code>1785686113</code></td></tr><tr><td>FT_ENCODING_MS_JOHAB</td><td><code>1785686113</code></td></tr><tr><td>FT_ENCODING_ADOBE_LATIN_1</td><td><code>1818326065</code></td></tr><tr><td>FT_ENCODING_OLD_LATIN_2</td><td><code>1818326066</code></td></tr><tr><td>FT_ENCODING_SJIS</td><td><code>1936353651</code></td></tr><tr><td>FT_ENCODING_MS_SJIS</td><td><code>1936353651</code></td></tr><tr><td>FT_ENCODING_MS_SYMBOL</td><td><code>1937337698</code></td></tr><tr><td>FT_ENCODING_UNICODE</td><td><code>1970170211</code></td></tr><tr><td>FT_ENCODING_WANSUNG</td><td><code>2002873971</code></td></tr><tr><td>FT_ENCODING_MS_WANSUNG</td><td><code>2002873971</code></td></tr></tbody></table><h3 id="frustum-frustumside" tabindex="-1"><a class="header-anchor" href="#frustum-frustumside"><span><code>Frustum::FrustumSide</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum Frustum::FrustumSide : __int8</span>
+<span class="line">{</span>
+<span class="line">  Right = 0x0,</span>
+<span class="line">  Left = 0x1,</span>
+<span class="line">  Bottom = 0x2,</span>
+<span class="line">  Top = 0x3,</span>
+<span class="line">  Back = 0x4,</span>
+<span class="line">  Front = 0x5,</span>
+<span class="line">  NumFrustumPlanes = 0x6,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="frustum-plane" tabindex="-1"><a class="header-anchor" href="#frustum-plane"><span><code>Frustum::Plane</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum Frustum::Plane : __int8</span>
+<span class="line">{</span>
+<span class="line">  PlaneNormalX = 0x0,</span>
+<span class="line">  PlaneNormalY = 0x1,</span>
+<span class="line">  PlaneNormalZ = 0x2,</span>
+<span class="line">  PlaneToOriginDistance = 0x3,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="filestoragedirectory" tabindex="-1"><a class="header-anchor" href="#filestoragedirectory"><span><code>FileStorageDirectory</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">typedef Rotation FileStorageDirectory;</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="fullscreenmode" tabindex="-1"><a class="header-anchor" href="#fullscreenmode"><span><code>FullscreenMode</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum FullscreenMode : __int32</span>
+<span class="line">{</span>
+<span class="line">  Windowed = 0x0,</span>
+<span class="line">  Fullscreen = 0x1,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="fogdefinition-distancesettingtype" tabindex="-1"><a class="header-anchor" href="#fogdefinition-distancesettingtype"><span><code>FogDefinition::DistanceSettingType</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum FogDefinition::DistanceSettingType : __int32</span>
+<span class="line">{</span>
+<span class="line">  AIR = 0x0,</span>
+<span class="line">  WEATHER = 0x1,</span>
+<span class="line">  WATER = 0x2,</span>
+<span class="line">  LAVA = 0x3,</span>
+<span class="line">  LAVA_RESIST = 0x4,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="fogdefinition-densitysettingtype" tabindex="-1"><a class="header-anchor" href="#fogdefinition-densitysettingtype"><span><code>FogDefinition::DensitySettingType</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">typedef FogDefinition::DistanceSettingType FogDefinition::DensitySettingType;</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="fogdefinition-coefficientsettingtype" tabindex="-1"><a class="header-anchor" href="#fogdefinition-coefficientsettingtype"><span><code>FogDefinition::CoefficientSettingType</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">typedef FogDefinition::DistanceSettingType FogDefinition::CoefficientSettingType;</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="filearchiver-state" tabindex="-1"><a class="header-anchor" href="#filearchiver-state"><span><code>FileArchiver::State</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">typedef ClientInstanceState FileArchiver::State;</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="filearchiver-exporttype" tabindex="-1"><a class="header-anchor" href="#filearchiver-exporttype"><span><code>FileArchiver::ExportType</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum FileArchiver::ExportType : __int32</span>
+<span class="line">{</span>
+<span class="line">  Level = 0x0,</span>
+<span class="line">  Template = 0x1,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="featureoptionid" tabindex="-1"><a class="header-anchor" href="#featureoptionid"><span><code>FeatureOptionID</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">typedef Rotation FeatureOptionID;</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="flightingservice-fetchstate" tabindex="-1"><a class="header-anchor" href="#flightingservice-fetchstate"><span><code>FlightingService::FetchState</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum FlightingService::FetchState : __int32</span>
+<span class="line">{</span>
+<span class="line">  NotStarted = 0x0,</span>
+<span class="line">  Fetching = 0x1,</span>
+<span class="line">  Complete = 0x2,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="fulfillment" tabindex="-1"><a class="header-anchor" href="#fulfillment"><span><code>Fulfillment</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">typedef ItemInstallState Fulfillment;</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="ft-orientation" tabindex="-1"><a class="header-anchor" href="#ft-orientation"><span><code>FT_Orientation_</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum FT_Orientation_ : __int32</span>
+<span class="line">{</span>
+<span class="line">  FT_ORIENTATION_TRUETYPE = 0x0,</span>
+<span class="line">  FT_ORIENTATION_POSTSCRIPT = 0x1,</span>
+<span class="line">  FT_ORIENTATION_FILL_RIGHT = 0x0,</span>
+<span class="line">  FT_ORIENTATION_FILL_LEFT = 0x1,</span>
+<span class="line">  FT_ORIENTATION_NONE = 0x2,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="foliagecolor-palettename" tabindex="-1"><a class="header-anchor" href="#foliagecolor-palettename"><span><code>FoliageColor::PaletteName</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">typedef TaskOptions FoliageColor::PaletteName;</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="focusnavigationmode" tabindex="-1"><a class="header-anchor" href="#focusnavigationmode"><span><code>FocusNavigationMode</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">typedef Rotation FocusNavigationMode;</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="filesystemmode" tabindex="-1"><a class="header-anchor" href="#filesystemmode"><span><code>FileSystemMode</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">typedef Core::FileAccessType FileSystemMode;</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="filterresult" tabindex="-1"><a class="header-anchor" href="#filterresult"><span><code>FilterResult</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum FilterResult : __int32</span>
+<span class="line">{</span>
+<span class="line">  ShowPrioritized = 0x0,</span>
+<span class="line">  Show = 0x1,</span>
+<span class="line">  Disable = 0x2,</span>
+<span class="line">  Hide = 0x3,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="filepickersettings-pickertype" tabindex="-1"><a class="header-anchor" href="#filepickersettings-pickertype"><span><code>FilePickerSettings::PickerType</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">typedef TransformSpace FilePickerSettings::PickerType;</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="feedbackdialogchoice" tabindex="-1"><a class="header-anchor" href="#feedbackdialogchoice"><span><code>FeedbackDialogChoice</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum FeedbackDialogChoice : __int32</span>
+<span class="line">{</span>
+<span class="line">  Suggestion = 0x0,</span>
+<span class="line">  Bug = 0x1,</span>
+<span class="line">  Help = 0x2,</span>
+<span class="line">  HelpXbox = 0x3,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="friendstatus" tabindex="-1"><a class="header-anchor" href="#friendstatus"><span><code>FriendStatus</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">typedef ActorEvent FriendStatus;</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="fireworkchargeitem-shape" tabindex="-1"><a class="header-anchor" href="#fireworkchargeitem-shape"><span><code>FireworkChargeItem::Shape</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum FireworkChargeItem::Shape : __int32</span>
+<span class="line">{</span>
+<span class="line">  SHAPE_NONE = 0x0,</span>
+<span class="line">  SHAPE_LARGE_BALL = 0x1,</span>
+<span class="line">  SHAPE_STAR = 0x2,</span>
+<span class="line">  SHAPE_HEAD_CREEPER = 0x3,</span>
+<span class="line">  SHAPE_BURST = 0x4,</span>
+<span class="line">  SHAPE_COUNT = 0x5,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="fallingblock-state" tabindex="-1"><a class="header-anchor" href="#fallingblock-state"><span><code>FallingBlock::State</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum FallingBlock::State : __int32</span>
+<span class="line">{</span>
+<span class="line">  Falling = 0x0,</span>
+<span class="line">  WaitRemoval = 0x1,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="freezeonhitsubcomponent-shape" tabindex="-1"><a class="header-anchor" href="#freezeonhitsubcomponent-shape"><span><code>FreezeOnHitSubcomponent::Shape</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum FreezeOnHitSubcomponent::Shape : __int8</span>
+<span class="line">{</span>
+<span class="line">  Cube = 0x0,</span>
+<span class="line">  Sphere = 0x1,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="fogcommand-mode" tabindex="-1"><a class="header-anchor" href="#fogcommand-mode"><span><code>FogCommand::Mode</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">typedef hbui::Router::QueuedRouteAction FogCommand::Mode;</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="functionstate" tabindex="-1"><a class="header-anchor" href="#functionstate"><span><code>FunctionState</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">typedef Realms::World::State FunctionState;</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="fooditemcomponentlegacy-onuseaction" tabindex="-1"><a class="header-anchor" href="#fooditemcomponentlegacy-onuseaction"><span><code>FoodItemComponentLegacy::OnUseAction</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">typedef ActorEvent FoodItemComponentLegacy::OnUseAction;</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="furnaceblockactor-unnamed-enum-slot-ingredient" tabindex="-1"><a class="header-anchor" href="#furnaceblockactor-unnamed-enum-slot-ingredient"><span><code>FurnaceBlockActor::&lt;unnamed_enum_SLOT_INGREDIENT&gt;</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum FurnaceBlockActor::&lt;unnamed_enum_SLOT_INGREDIENT&gt; : __int32</span>
+<span class="line">{</span>
+<span class="line">  SLOT_INGREDIENT = 0x0,</span>
+<span class="line">  SLOT_FUEL = 0x1,</span>
+<span class="line">  SLOT_RESULT = 0x2,</span>
+<span class="line">  NUM_ITEMS = 0x3,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="filetype-1" tabindex="-1"><a class="header-anchor" href="#filetype-1"><span><code>FileType</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">typedef TransformSpace FileType;</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="fillcommand-fillmode" tabindex="-1"><a class="header-anchor" href="#fillcommand-fillmode"><span><code>FillCommand::FillMode</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">typedef hbui::Router::QueuedRouteAction FillCommand::FillMode;</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="filtertestdimensionweather-weathertype" tabindex="-1"><a class="header-anchor" href="#filtertestdimensionweather-weathertype"><span><code>FilterTestDimensionWeather::WeatherType</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">typedef DimensionId FilterTestDimensionWeather::WeatherType;</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="fishpattern" tabindex="-1"><a class="header-anchor" href="#fishpattern"><span><code>FishPattern</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">typedef OptionID FishPattern;</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="flowerplacementtype" tabindex="-1"><a class="header-anchor" href="#flowerplacementtype"><span><code>FlowerPlacementType</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">typedef DimensionId FlowerPlacementType;</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="file-usage-type" tabindex="-1"><a class="header-anchor" href="#file-usage-type"><span><code>FILE_USAGE_TYPE</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum FILE_USAGE_TYPE : __int32</span>
+<span class="line">{</span>
+<span class="line">  FUT_PLAYING = 0x0,</span>
+<span class="line">  FUT_EDITING = 0x1,</span>
+<span class="line">  FUT_GENERIC = 0x2,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="fffp-mode" tabindex="-1"><a class="header-anchor" href="#fffp-mode"><span><code>FFFP_MODE</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum FFFP_MODE : __int32</span>
+<span class="line">{</span>
+<span class="line">  FFFP_EXACTMATCH = 0x0,</span>
+<span class="line">  FFFP_NEARESTPARENTMATCH = 0x1,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="furnacecontainerdata" tabindex="-1"><a class="header-anchor" href="#furnacecontainerdata"><span><code>FurnaceContainerData</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum FurnaceContainerData : __int32</span>
+<span class="line">{</span>
+<span class="line">  SetTickCount = 0x0,</span>
+<span class="line">  SetLitTime = 0x1,</span>
+<span class="line">  SetLitDuration = 0x2,</span>
+<span class="line">  SetStoredXP = 0x3,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="fmod-debug-mode" tabindex="-1"><a class="header-anchor" href="#fmod-debug-mode"><span><code>FMOD_DEBUG_MODE</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum FMOD_DEBUG_MODE : __int32</span>
+<span class="line">{</span>
+<span class="line">  FMOD_DEBUG_MODE_TTY = 0x0,</span>
+<span class="line">  FMOD_DEBUG_MODE_FILE = 0x1,</span>
+<span class="line">  FMOD_DEBUG_MODE_CALLBACK = 0x2,</span>
+<span class="line">  FMOD_DEBUG_MODE_FORCEINT = 0x10000,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="fmod-dspconnection-type" tabindex="-1"><a class="header-anchor" href="#fmod-dspconnection-type"><span><code>FMOD_DSPCONNECTION_TYPE</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum FMOD_DSPCONNECTION_TYPE : __int32</span>
+<span class="line">{</span>
+<span class="line">  FMOD_DSPCONNECTION_TYPE_STANDARD = 0x0,</span>
+<span class="line">  FMOD_DSPCONNECTION_TYPE_SIDECHAIN = 0x1,</span>
+<span class="line">  FMOD_DSPCONNECTION_TYPE_SEND = 0x2,</span>
+<span class="line">  FMOD_DSPCONNECTION_TYPE_SEND_SIDECHAIN = 0x3,</span>
+<span class="line">  FMOD_DSPCONNECTION_TYPE_MAX = 0x4,</span>
+<span class="line">  FMOD_DSPCONNECTION_TYPE_FORCEINT = 0x10000,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="fmod-result" tabindex="-1"><a class="header-anchor" href="#fmod-result"><span><code>FMOD_RESULT</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum FMOD_RESULT : __int32</span>
+<span class="line">{</span>
+<span class="line">  FMOD_OK = 0x0,</span>
+<span class="line">  FMOD_ERR_BADCOMMAND = 0x1,</span>
+<span class="line">  FMOD_ERR_CHANNEL_ALLOC = 0x2,</span>
+<span class="line">  FMOD_ERR_CHANNEL_STOLEN = 0x3,</span>
+<span class="line">  FMOD_ERR_DMA = 0x4,</span>
+<span class="line">  FMOD_ERR_DSP_CONNECTION = 0x5,</span>
+<span class="line">  FMOD_ERR_DSP_DONTPROCESS = 0x6,</span>
+<span class="line">  FMOD_ERR_DSP_FORMAT = 0x7,</span>
+<span class="line">  FMOD_ERR_DSP_INUSE = 0x8,</span>
+<span class="line">  FMOD_ERR_DSP_NOTFOUND = 0x9,</span>
+<span class="line">  FMOD_ERR_DSP_RESERVED = 0xA,</span>
+<span class="line">  FMOD_ERR_DSP_SILENCE = 0xB,</span>
+<span class="line">  FMOD_ERR_DSP_TYPE = 0xC,</span>
+<span class="line">  FMOD_ERR_FILE_BAD = 0xD,</span>
+<span class="line">  FMOD_ERR_FILE_COULDNOTSEEK = 0xE,</span>
+<span class="line">  FMOD_ERR_FILE_DISKEJECTED = 0xF,</span>
+<span class="line">  FMOD_ERR_FILE_EOF = 0x10,</span>
+<span class="line">  FMOD_ERR_FILE_ENDOFDATA = 0x11,</span>
+<span class="line">  FMOD_ERR_FILE_NOTFOUND = 0x12,</span>
+<span class="line">  FMOD_ERR_FORMAT = 0x13,</span>
+<span class="line">  FMOD_ERR_HEADER_MISMATCH = 0x14,</span>
+<span class="line">  FMOD_ERR_HTTP = 0x15,</span>
+<span class="line">  FMOD_ERR_HTTP_ACCESS = 0x16,</span>
+<span class="line">  FMOD_ERR_HTTP_PROXY_AUTH = 0x17,</span>
+<span class="line">  FMOD_ERR_HTTP_SERVER_ERROR = 0x18,</span>
+<span class="line">  FMOD_ERR_HTTP_TIMEOUT = 0x19,</span>
+<span class="line">  FMOD_ERR_INITIALIZATION = 0x1A,</span>
+<span class="line">  FMOD_ERR_INITIALIZED = 0x1B,</span>
+<span class="line">  FMOD_ERR_INTERNAL = 0x1C,</span>
+<span class="line">  FMOD_ERR_INVALID_FLOAT = 0x1D,</span>
+<span class="line">  FMOD_ERR_INVALID_HANDLE = 0x1E,</span>
+<span class="line">  FMOD_ERR_INVALID_PARAM = 0x1F,</span>
+<span class="line">  FMOD_ERR_INVALID_POSITION = 0x20,</span>
+<span class="line">  FMOD_ERR_INVALID_SPEAKER = 0x21,</span>
+<span class="line">  FMOD_ERR_INVALID_SYNCPOINT = 0x22,</span>
+<span class="line">  FMOD_ERR_INVALID_THREAD = 0x23,</span>
+<span class="line">  FMOD_ERR_INVALID_VECTOR = 0x24,</span>
+<span class="line">  FMOD_ERR_MAXAUDIBLE = 0x25,</span>
+<span class="line">  FMOD_ERR_MEMORY = 0x26,</span>
+<span class="line">  FMOD_ERR_MEMORY_CANTPOINT = 0x27,</span>
+<span class="line">  FMOD_ERR_NEEDS3D = 0x28,</span>
+<span class="line">  FMOD_ERR_NEEDSHARDWARE = 0x29,</span>
+<span class="line">  FMOD_ERR_NET_CONNECT = 0x2A,</span>
+<span class="line">  FMOD_ERR_NET_SOCKET_ERROR = 0x2B,</span>
+<span class="line">  FMOD_ERR_NET_URL = 0x2C,</span>
+<span class="line">  FMOD_ERR_NET_WOULD_BLOCK = 0x2D,</span>
+<span class="line">  FMOD_ERR_NOTREADY = 0x2E,</span>
+<span class="line">  FMOD_ERR_OUTPUT_ALLOCATED = 0x2F,</span>
+<span class="line">  FMOD_ERR_OUTPUT_CREATEBUFFER = 0x30,</span>
+<span class="line">  FMOD_ERR_OUTPUT_DRIVERCALL = 0x31,</span>
+<span class="line">  FMOD_ERR_OUTPUT_FORMAT = 0x32,</span>
+<span class="line">  FMOD_ERR_OUTPUT_INIT = 0x33,</span>
+<span class="line">  FMOD_ERR_OUTPUT_NODRIVERS = 0x34,</span>
+<span class="line">  FMOD_ERR_PLUGIN = 0x35,</span>
+<span class="line">  FMOD_ERR_PLUGIN_MISSING = 0x36,</span>
+<span class="line">  FMOD_ERR_PLUGIN_RESOURCE = 0x37,</span>
+<span class="line">  FMOD_ERR_PLUGIN_VERSION = 0x38,</span>
+<span class="line">  FMOD_ERR_RECORD = 0x39,</span>
+<span class="line">  FMOD_ERR_REVERB_CHANNELGROUP = 0x3A,</span>
+<span class="line">  FMOD_ERR_REVERB_INSTANCE = 0x3B,</span>
+<span class="line">  FMOD_ERR_SUBSOUNDS = 0x3C,</span>
+<span class="line">  FMOD_ERR_SUBSOUND_ALLOCATED = 0x3D,</span>
+<span class="line">  FMOD_ERR_SUBSOUND_CANTMOVE = 0x3E,</span>
+<span class="line">  FMOD_ERR_TAGNOTFOUND = 0x3F,</span>
+<span class="line">  FMOD_ERR_TOOMANYCHANNELS = 0x40,</span>
+<span class="line">  FMOD_ERR_TRUNCATED = 0x41,</span>
+<span class="line">  FMOD_ERR_UNIMPLEMENTED = 0x42,</span>
+<span class="line">  FMOD_ERR_UNINITIALIZED = 0x43,</span>
+<span class="line">  FMOD_ERR_UNSUPPORTED = 0x44,</span>
+<span class="line">  FMOD_ERR_VERSION = 0x45,</span>
+<span class="line">  FMOD_ERR_EVENT_ALREADY_LOADED = 0x46,</span>
+<span class="line">  FMOD_ERR_EVENT_LIVEUPDATE_BUSY = 0x47,</span>
+<span class="line">  FMOD_ERR_EVENT_LIVEUPDATE_MISMATCH = 0x48,</span>
+<span class="line">  FMOD_ERR_EVENT_LIVEUPDATE_TIMEOUT = 0x49,</span>
+<span class="line">  FMOD_ERR_EVENT_NOTFOUND = 0x4A,</span>
+<span class="line">  FMOD_ERR_STUDIO_UNINITIALIZED = 0x4B,</span>
+<span class="line">  FMOD_ERR_STUDIO_NOT_LOADED = 0x4C,</span>
+<span class="line">  FMOD_ERR_INVALID_STRING = 0x4D,</span>
+<span class="line">  FMOD_ERR_ALREADY_LOCKED = 0x4E,</span>
+<span class="line">  FMOD_ERR_NOT_LOCKED = 0x4F,</span>
+<span class="line">  FMOD_ERR_RECORD_DISCONNECTED = 0x50,</span>
+<span class="line">  FMOD_ERR_TOOMANYSAMPLES = 0x51,</span>
+<span class="line">  FMOD_RESULT_FORCEINT = 0x10000,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="fmod-channelcontrol-type" tabindex="-1"><a class="header-anchor" href="#fmod-channelcontrol-type"><span><code>FMOD_CHANNELCONTROL_TYPE</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum FMOD_CHANNELCONTROL_TYPE : __int32</span>
+<span class="line">{</span>
+<span class="line">  FMOD_CHANNELCONTROL_CHANNEL = 0x0,</span>
+<span class="line">  FMOD_CHANNELCONTROL_CHANNELGROUP = 0x1,</span>
+<span class="line">  FMOD_CHANNELCONTROL_FORCEINT = 0x10000,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="fmod-outputtype" tabindex="-1"><a class="header-anchor" href="#fmod-outputtype"><span><code>FMOD_OUTPUTTYPE</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum FMOD_OUTPUTTYPE : __int32</span>
+<span class="line">{</span>
+<span class="line">  FMOD_OUTPUTTYPE_AUTODETECT = 0x0,</span>
+<span class="line">  FMOD_OUTPUTTYPE_UNKNOWN = 0x1,</span>
+<span class="line">  FMOD_OUTPUTTYPE_NOSOUND = 0x2,</span>
+<span class="line">  FMOD_OUTPUTTYPE_WAVWRITER = 0x3,</span>
+<span class="line">  FMOD_OUTPUTTYPE_NOSOUND_NRT = 0x4,</span>
+<span class="line">  FMOD_OUTPUTTYPE_WAVWRITER_NRT = 0x5,</span>
+<span class="line">  FMOD_OUTPUTTYPE_DSOUND = 0x6,</span>
+<span class="line">  FMOD_OUTPUTTYPE_WINMM = 0x7,</span>
+<span class="line">  FMOD_OUTPUTTYPE_WASAPI = 0x8,</span>
+<span class="line">  FMOD_OUTPUTTYPE_ASIO = 0x9,</span>
+<span class="line">  FMOD_OUTPUTTYPE_PULSEAUDIO = 0xA,</span>
+<span class="line">  FMOD_OUTPUTTYPE_ALSA = 0xB,</span>
+<span class="line">  FMOD_OUTPUTTYPE_COREAUDIO = 0xC,</span>
+<span class="line">  FMOD_OUTPUTTYPE_XAUDIO = 0xD,</span>
+<span class="line">  FMOD_OUTPUTTYPE_PS3 = 0xE,</span>
+<span class="line">  FMOD_OUTPUTTYPE_AUDIOTRACK = 0xF,</span>
+<span class="line">  FMOD_OUTPUTTYPE_OPENSL = 0x10,</span>
+<span class="line">  FMOD_OUTPUTTYPE_WIIU = 0x11,</span>
+<span class="line">  FMOD_OUTPUTTYPE_AUDIOOUT = 0x12,</span>
+<span class="line">  FMOD_OUTPUTTYPE_AUDIO3D = 0x13,</span>
+<span class="line">  FMOD_OUTPUTTYPE_ATMOS = 0x14,</span>
+<span class="line">  FMOD_OUTPUTTYPE_WEBAUDIO = 0x15,</span>
+<span class="line">  FMOD_OUTPUTTYPE_NNAUDIO = 0x16,</span>
+<span class="line">  FMOD_OUTPUTTYPE_MAX = 0x17,</span>
+<span class="line">  FMOD_OUTPUTTYPE_FORCEINT = 0x10000,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="fmod-speakermode" tabindex="-1"><a class="header-anchor" href="#fmod-speakermode"><span><code>FMOD_SPEAKERMODE</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum FMOD_SPEAKERMODE : __int32</span>
+<span class="line">{</span>
+<span class="line">  FMOD_SPEAKERMODE_DEFAULT = 0x0,</span>
+<span class="line">  FMOD_SPEAKERMODE_RAW = 0x1,</span>
+<span class="line">  FMOD_SPEAKERMODE_MONO = 0x2,</span>
+<span class="line">  FMOD_SPEAKERMODE_STEREO = 0x3,</span>
+<span class="line">  FMOD_SPEAKERMODE_QUAD = 0x4,</span>
+<span class="line">  FMOD_SPEAKERMODE_SURROUND = 0x5,</span>
+<span class="line">  FMOD_SPEAKERMODE_5POINT1 = 0x6,</span>
+<span class="line">  FMOD_SPEAKERMODE_7POINT1 = 0x7,</span>
+<span class="line">  FMOD_SPEAKERMODE_MAX = 0x8,</span>
+<span class="line">  FMOD_SPEAKERMODE_FORCEINT = 0x10000,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="fmod-speaker" tabindex="-1"><a class="header-anchor" href="#fmod-speaker"><span><code>FMOD_SPEAKER</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum FMOD_SPEAKER : __int32</span>
+<span class="line">{</span>
+<span class="line">  FMOD_SPEAKER_FRONT_LEFT = 0x0,</span>
+<span class="line">  FMOD_SPEAKER_FRONT_RIGHT = 0x1,</span>
+<span class="line">  FMOD_SPEAKER_FRONT_CENTER = 0x2,</span>
+<span class="line">  FMOD_SPEAKER_LOW_FREQUENCY = 0x3,</span>
+<span class="line">  FMOD_SPEAKER_SURROUND_LEFT = 0x4,</span>
+<span class="line">  FMOD_SPEAKER_SURROUND_RIGHT = 0x5,</span>
+<span class="line">  FMOD_SPEAKER_BACK_LEFT = 0x6,</span>
+<span class="line">  FMOD_SPEAKER_BACK_RIGHT = 0x7,</span>
+<span class="line">  FMOD_SPEAKER_MAX = 0x8,</span>
+<span class="line">  FMOD_SPEAKER_FORCEINT = 0x10000,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="fmod-plugintype" tabindex="-1"><a class="header-anchor" href="#fmod-plugintype"><span><code>FMOD_PLUGINTYPE</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum FMOD_PLUGINTYPE : __int32</span>
+<span class="line">{</span>
+<span class="line">  FMOD_PLUGINTYPE_OUTPUT = 0x0,</span>
+<span class="line">  FMOD_PLUGINTYPE_CODEC = 0x1,</span>
+<span class="line">  FMOD_PLUGINTYPE_DSP = 0x2,</span>
+<span class="line">  FMOD_PLUGINTYPE_MAX = 0x3,</span>
+<span class="line">  FMOD_PLUGINTYPE_FORCEINT = 0x10000,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="fmod-sound-type" tabindex="-1"><a class="header-anchor" href="#fmod-sound-type"><span><code>FMOD_SOUND_TYPE</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum FMOD_SOUND_TYPE : __int32</span>
+<span class="line">{</span>
+<span class="line">  FMOD_SOUND_TYPE_UNKNOWN = 0x0,</span>
+<span class="line">  FMOD_SOUND_TYPE_AIFF = 0x1,</span>
+<span class="line">  FMOD_SOUND_TYPE_ASF = 0x2,</span>
+<span class="line">  FMOD_SOUND_TYPE_DLS = 0x3,</span>
+<span class="line">  FMOD_SOUND_TYPE_FLAC = 0x4,</span>
+<span class="line">  FMOD_SOUND_TYPE_FSB = 0x5,</span>
+<span class="line">  FMOD_SOUND_TYPE_IT = 0x6,</span>
+<span class="line">  FMOD_SOUND_TYPE_MIDI = 0x7,</span>
+<span class="line">  FMOD_SOUND_TYPE_MOD = 0x8,</span>
+<span class="line">  FMOD_SOUND_TYPE_MPEG = 0x9,</span>
+<span class="line">  FMOD_SOUND_TYPE_OGGVORBIS = 0xA,</span>
+<span class="line">  FMOD_SOUND_TYPE_PLAYLIST = 0xB,</span>
+<span class="line">  FMOD_SOUND_TYPE_RAW = 0xC,</span>
+<span class="line">  FMOD_SOUND_TYPE_S3M = 0xD,</span>
+<span class="line">  FMOD_SOUND_TYPE_USER = 0xE,</span>
+<span class="line">  FMOD_SOUND_TYPE_WAV = 0xF,</span>
+<span class="line">  FMOD_SOUND_TYPE_XM = 0x10,</span>
+<span class="line">  FMOD_SOUND_TYPE_XMA = 0x11,</span>
+<span class="line">  FMOD_SOUND_TYPE_AUDIOQUEUE = 0x12,</span>
+<span class="line">  FMOD_SOUND_TYPE_AT9 = 0x13,</span>
+<span class="line">  FMOD_SOUND_TYPE_VORBIS = 0x14,</span>
+<span class="line">  FMOD_SOUND_TYPE_MEDIA_FOUNDATION = 0x15,</span>
+<span class="line">  FMOD_SOUND_TYPE_MEDIACODEC = 0x16,</span>
+<span class="line">  FMOD_SOUND_TYPE_FADPCM = 0x17,</span>
+<span class="line">  FMOD_SOUND_TYPE_MAX = 0x18,</span>
+<span class="line">  FMOD_SOUND_TYPE_FORCEINT = 0x10000,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="fmod-sound-format" tabindex="-1"><a class="header-anchor" href="#fmod-sound-format"><span><code>FMOD_SOUND_FORMAT</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum FMOD_SOUND_FORMAT : __int32</span>
+<span class="line">{</span>
+<span class="line">  FMOD_SOUND_FORMAT_NONE = 0x0,</span>
+<span class="line">  FMOD_SOUND_FORMAT_PCM8 = 0x1,</span>
+<span class="line">  FMOD_SOUND_FORMAT_PCM16 = 0x2,</span>
+<span class="line">  FMOD_SOUND_FORMAT_PCM24 = 0x3,</span>
+<span class="line">  FMOD_SOUND_FORMAT_PCM32 = 0x4,</span>
+<span class="line">  FMOD_SOUND_FORMAT_PCMFLOAT = 0x5,</span>
+<span class="line">  FMOD_SOUND_FORMAT_BITSTREAM = 0x6,</span>
+<span class="line">  FMOD_SOUND_FORMAT_MAX = 0x7,</span>
+<span class="line">  FMOD_SOUND_FORMAT_FORCEINT = 0x10000,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="fmod-openstate" tabindex="-1"><a class="header-anchor" href="#fmod-openstate"><span><code>FMOD_OPENSTATE</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum FMOD_OPENSTATE : __int32</span>
+<span class="line">{</span>
+<span class="line">  FMOD_OPENSTATE_READY = 0x0,</span>
+<span class="line">  FMOD_OPENSTATE_LOADING = 0x1,</span>
+<span class="line">  FMOD_OPENSTATE_ERROR = 0x2,</span>
+<span class="line">  FMOD_OPENSTATE_CONNECTING = 0x3,</span>
+<span class="line">  FMOD_OPENSTATE_BUFFERING = 0x4,</span>
+<span class="line">  FMOD_OPENSTATE_SEEKING = 0x5,</span>
+<span class="line">  FMOD_OPENSTATE_PLAYING = 0x6,</span>
+<span class="line">  FMOD_OPENSTATE_SETPOSITION = 0x7,</span>
+<span class="line">  FMOD_OPENSTATE_MAX = 0x8,</span>
+<span class="line">  FMOD_OPENSTATE_FORCEINT = 0x10000,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="fmod-soundgroup-behavior" tabindex="-1"><a class="header-anchor" href="#fmod-soundgroup-behavior"><span><code>FMOD_SOUNDGROUP_BEHAVIOR</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum FMOD_SOUNDGROUP_BEHAVIOR : __int32</span>
+<span class="line">{</span>
+<span class="line">  FMOD_SOUNDGROUP_BEHAVIOR_FAIL = 0x0,</span>
+<span class="line">  FMOD_SOUNDGROUP_BEHAVIOR_MUTE = 0x1,</span>
+<span class="line">  FMOD_SOUNDGROUP_BEHAVIOR_STEALLOWEST = 0x2,</span>
+<span class="line">  FMOD_SOUNDGROUP_BEHAVIOR_MAX = 0x3,</span>
+<span class="line">  FMOD_SOUNDGROUP_BEHAVIOR_FORCEINT = 0x10000,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="fmod-channelcontrol-callback-type" tabindex="-1"><a class="header-anchor" href="#fmod-channelcontrol-callback-type"><span><code>FMOD_CHANNELCONTROL_CALLBACK_TYPE</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum FMOD_CHANNELCONTROL_CALLBACK_TYPE : __int32</span>
+<span class="line">{</span>
+<span class="line">  FMOD_CHANNELCONTROL_CALLBACK_END = 0x0,</span>
+<span class="line">  FMOD_CHANNELCONTROL_CALLBACK_VIRTUALVOICE = 0x1,</span>
+<span class="line">  FMOD_CHANNELCONTROL_CALLBACK_SYNCPOINT = 0x2,</span>
+<span class="line">  FMOD_CHANNELCONTROL_CALLBACK_OCCLUSION = 0x3,</span>
+<span class="line">  FMOD_CHANNELCONTROL_CALLBACK_MAX = 0x4,</span>
+<span class="line">  FMOD_CHANNELCONTROL_CALLBACK_FORCEINT = 0x10000,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="fmod-dsp-resampler" tabindex="-1"><a class="header-anchor" href="#fmod-dsp-resampler"><span><code>FMOD_DSP_RESAMPLER</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum FMOD_DSP_RESAMPLER : __int32</span>
+<span class="line">{</span>
+<span class="line">  FMOD_DSP_RESAMPLER_DEFAULT = 0x0,</span>
+<span class="line">  FMOD_DSP_RESAMPLER_NOINTERP = 0x1,</span>
+<span class="line">  FMOD_DSP_RESAMPLER_LINEAR = 0x2,</span>
+<span class="line">  FMOD_DSP_RESAMPLER_CUBIC = 0x3,</span>
+<span class="line">  FMOD_DSP_RESAMPLER_SPLINE = 0x4,</span>
+<span class="line">  FMOD_DSP_RESAMPLER_MAX = 0x5,</span>
+<span class="line">  FMOD_DSP_RESAMPLER_FORCEINT = 0x10000,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="fmod-tagtype" tabindex="-1"><a class="header-anchor" href="#fmod-tagtype"><span><code>FMOD_TAGTYPE</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum FMOD_TAGTYPE : __int32</span>
+<span class="line">{</span>
+<span class="line">  FMOD_TAGTYPE_UNKNOWN = 0x0,</span>
+<span class="line">  FMOD_TAGTYPE_ID3V1 = 0x1,</span>
+<span class="line">  FMOD_TAGTYPE_ID3V2 = 0x2,</span>
+<span class="line">  FMOD_TAGTYPE_VORBISCOMMENT = 0x3,</span>
+<span class="line">  FMOD_TAGTYPE_SHOUTCAST = 0x4,</span>
+<span class="line">  FMOD_TAGTYPE_ICECAST = 0x5,</span>
+<span class="line">  FMOD_TAGTYPE_ASF = 0x6,</span>
+<span class="line">  FMOD_TAGTYPE_MIDI = 0x7,</span>
+<span class="line">  FMOD_TAGTYPE_PLAYLIST = 0x8,</span>
+<span class="line">  FMOD_TAGTYPE_FMOD = 0x9,</span>
+<span class="line">  FMOD_TAGTYPE_USER = 0xA,</span>
+<span class="line">  FMOD_TAGTYPE_MAX = 0xB,</span>
+<span class="line">  FMOD_TAGTYPE_FORCEINT = 0x10000,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="fmod-tagdatatype" tabindex="-1"><a class="header-anchor" href="#fmod-tagdatatype"><span><code>FMOD_TAGDATATYPE</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum FMOD_TAGDATATYPE : __int32</span>
+<span class="line">{</span>
+<span class="line">  FMOD_TAGDATATYPE_BINARY = 0x0,</span>
+<span class="line">  FMOD_TAGDATATYPE_INT = 0x1,</span>
+<span class="line">  FMOD_TAGDATATYPE_FLOAT = 0x2,</span>
+<span class="line">  FMOD_TAGDATATYPE_STRING = 0x3,</span>
+<span class="line">  FMOD_TAGDATATYPE_STRING_UTF16 = 0x4,</span>
+<span class="line">  FMOD_TAGDATATYPE_STRING_UTF16BE = 0x5,</span>
+<span class="line">  FMOD_TAGDATATYPE_STRING_UTF8 = 0x6,</span>
+<span class="line">  FMOD_TAGDATATYPE_CDTOC = 0x7,</span>
+<span class="line">  FMOD_TAGDATATYPE_MAX = 0x8,</span>
+<span class="line">  FMOD_TAGDATATYPE_FORCEINT = 0x10000,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="fmod-dsp-type" tabindex="-1"><a class="header-anchor" href="#fmod-dsp-type"><span><code>FMOD_DSP_TYPE</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum FMOD_DSP_TYPE : __int32</span>
+<span class="line">{</span>
+<span class="line">  FMOD_DSP_TYPE_UNKNOWN = 0x0,</span>
+<span class="line">  FMOD_DSP_TYPE_MIXER = 0x1,</span>
+<span class="line">  FMOD_DSP_TYPE_OSCILLATOR = 0x2,</span>
+<span class="line">  FMOD_DSP_TYPE_LOWPASS = 0x3,</span>
+<span class="line">  FMOD_DSP_TYPE_ITLOWPASS = 0x4,</span>
+<span class="line">  FMOD_DSP_TYPE_HIGHPASS = 0x5,</span>
+<span class="line">  FMOD_DSP_TYPE_ECHO = 0x6,</span>
+<span class="line">  FMOD_DSP_TYPE_FADER = 0x7,</span>
+<span class="line">  FMOD_DSP_TYPE_FLANGE = 0x8,</span>
+<span class="line">  FMOD_DSP_TYPE_DISTORTION = 0x9,</span>
+<span class="line">  FMOD_DSP_TYPE_NORMALIZE = 0xA,</span>
+<span class="line">  FMOD_DSP_TYPE_LIMITER = 0xB,</span>
+<span class="line">  FMOD_DSP_TYPE_PARAMEQ = 0xC,</span>
+<span class="line">  FMOD_DSP_TYPE_PITCHSHIFT = 0xD,</span>
+<span class="line">  FMOD_DSP_TYPE_CHORUS = 0xE,</span>
+<span class="line">  FMOD_DSP_TYPE_VSTPLUGIN = 0xF,</span>
+<span class="line">  FMOD_DSP_TYPE_WINAMPPLUGIN = 0x10,</span>
+<span class="line">  FMOD_DSP_TYPE_ITECHO = 0x11,</span>
+<span class="line">  FMOD_DSP_TYPE_COMPRESSOR = 0x12,</span>
+<span class="line">  FMOD_DSP_TYPE_SFXREVERB = 0x13,</span>
+<span class="line">  FMOD_DSP_TYPE_LOWPASS_SIMPLE = 0x14,</span>
+<span class="line">  FMOD_DSP_TYPE_DELAY = 0x15,</span>
+<span class="line">  FMOD_DSP_TYPE_TREMOLO = 0x16,</span>
+<span class="line">  FMOD_DSP_TYPE_LADSPAPLUGIN = 0x17,</span>
+<span class="line">  FMOD_DSP_TYPE_SEND = 0x18,</span>
+<span class="line">  FMOD_DSP_TYPE_RETURN = 0x19,</span>
+<span class="line">  FMOD_DSP_TYPE_HIGHPASS_SIMPLE = 0x1A,</span>
+<span class="line">  FMOD_DSP_TYPE_PAN = 0x1B,</span>
+<span class="line">  FMOD_DSP_TYPE_THREE_EQ = 0x1C,</span>
+<span class="line">  FMOD_DSP_TYPE_FFT = 0x1D,</span>
+<span class="line">  FMOD_DSP_TYPE_LOUDNESS_METER = 0x1E,</span>
+<span class="line">  FMOD_DSP_TYPE_ENVELOPEFOLLOWER = 0x1F,</span>
+<span class="line">  FMOD_DSP_TYPE_CONVOLUTIONREVERB = 0x20,</span>
+<span class="line">  FMOD_DSP_TYPE_CHANNELMIX = 0x21,</span>
+<span class="line">  FMOD_DSP_TYPE_TRANSCEIVER = 0x22,</span>
+<span class="line">  FMOD_DSP_TYPE_OBJECTPAN = 0x23,</span>
+<span class="line">  FMOD_DSP_TYPE_MULTIBAND_EQ = 0x24,</span>
+<span class="line">  FMOD_DSP_TYPE_MAX = 0x25,</span>
+<span class="line">  FMOD_DSP_TYPE_FORCEINT = 0x10000,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="fmod-dsp-pan-3d-rolloff-type" tabindex="-1"><a class="header-anchor" href="#fmod-dsp-pan-3d-rolloff-type"><span><code>FMOD_DSP_PAN_3D_ROLLOFF_TYPE</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum FMOD_DSP_PAN_3D_ROLLOFF_TYPE : __int32</span>
+<span class="line">{</span>
+<span class="line">  FMOD_DSP_PAN_3D_ROLLOFF_LINEARSQUARED = 0x0,</span>
+<span class="line">  FMOD_DSP_PAN_3D_ROLLOFF_LINEAR = 0x1,</span>
+<span class="line">  FMOD_DSP_PAN_3D_ROLLOFF_INVERSE = 0x2,</span>
+<span class="line">  FMOD_DSP_PAN_3D_ROLLOFF_INVERSETAPERED = 0x3,</span>
+<span class="line">  FMOD_DSP_PAN_3D_ROLLOFF_CUSTOM = 0x4,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="fmod-dsp-process-operation" tabindex="-1"><a class="header-anchor" href="#fmod-dsp-process-operation"><span><code>FMOD_DSP_PROCESS_OPERATION</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum FMOD_DSP_PROCESS_OPERATION : __int32</span>
+<span class="line">{</span>
+<span class="line">  FMOD_DSP_PROCESS_PERFORM = 0x0,</span>
+<span class="line">  FMOD_DSP_PROCESS_QUERY = 0x1,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="fmod-dsp-pan-surround-flags" tabindex="-1"><a class="header-anchor" href="#fmod-dsp-pan-surround-flags"><span><code>FMOD_DSP_PAN_SURROUND_FLAGS</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum FMOD_DSP_PAN_SURROUND_FLAGS : __int32</span>
+<span class="line">{</span>
+<span class="line">  FMOD_DSP_PAN_SURROUND_DEFAULT = 0x0,</span>
+<span class="line">  FMOD_DSP_PAN_SURROUND_ROTATION_NOT_BIASED = 0x1,</span>
+<span class="line">  FMOD_DSP_PAN_SURROUND_FLAGS_FORCEINT = 0x10000,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="fmod-dsp-parameter-type" tabindex="-1"><a class="header-anchor" href="#fmod-dsp-parameter-type"><span><code>FMOD_DSP_PARAMETER_TYPE</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum FMOD_DSP_PARAMETER_TYPE : __int32</span>
+<span class="line">{</span>
+<span class="line">  FMOD_DSP_PARAMETER_TYPE_FLOAT = 0x0,</span>
+<span class="line">  FMOD_DSP_PARAMETER_TYPE_INT = 0x1,</span>
+<span class="line">  FMOD_DSP_PARAMETER_TYPE_BOOL = 0x2,</span>
+<span class="line">  FMOD_DSP_PARAMETER_TYPE_DATA = 0x3,</span>
+<span class="line">  FMOD_DSP_PARAMETER_TYPE_MAX = 0x4,</span>
+<span class="line">  FMOD_DSP_PARAMETER_TYPE_FORCEINT = 0x10000,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="fmod-dsp-parameter-float-mapping-type" tabindex="-1"><a class="header-anchor" href="#fmod-dsp-parameter-float-mapping-type"><span><code>FMOD_DSP_PARAMETER_FLOAT_MAPPING_TYPE</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum FMOD_DSP_PARAMETER_FLOAT_MAPPING_TYPE : __int32</span>
+<span class="line">{</span>
+<span class="line">  FMOD_DSP_PARAMETER_FLOAT_MAPPING_TYPE_LINEAR = 0x0,</span>
+<span class="line">  FMOD_DSP_PARAMETER_FLOAT_MAPPING_TYPE_AUTO = 0x1,</span>
+<span class="line">  FMOD_DSP_PARAMETER_FLOAT_MAPPING_TYPE_PIECEWISE_LINEAR = 0x2,</span>
+<span class="line">  FMOD_DSP_PARAMETER_FLOAT_MAPPING_TYPE_FORCEINT = 0x10000,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="fmod-channelorder" tabindex="-1"><a class="header-anchor" href="#fmod-channelorder"><span><code>FMOD_CHANNELORDER</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum FMOD_CHANNELORDER : __int32</span>
+<span class="line">{</span>
+<span class="line">  FMOD_CHANNELORDER_DEFAULT = 0x0,</span>
+<span class="line">  FMOD_CHANNELORDER_WAVEFORMAT = 0x1,</span>
+<span class="line">  FMOD_CHANNELORDER_PROTOOLS = 0x2,</span>
+<span class="line">  FMOD_CHANNELORDER_ALLMONO = 0x3,</span>
+<span class="line">  FMOD_CHANNELORDER_ALLSTEREO = 0x4,</span>
+<span class="line">  FMOD_CHANNELORDER_ALSA = 0x5,</span>
+<span class="line">  FMOD_CHANNELORDER_MAX = 0x6,</span>
+<span class="line">  FMOD_CHANNELORDER_FORCEINT = 0x10000,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="ft-kerning-mode" tabindex="-1"><a class="header-anchor" href="#ft-kerning-mode"><span><code>FT_Kerning_Mode_</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum FT_Kerning_Mode_ : __int32</span>
+<span class="line">{</span>
+<span class="line">  FT_KERNING_DEFAULT = 0x0,</span>
+<span class="line">  FT_KERNING_UNFITTED = 0x1,</span>
+<span class="line">  FT_KERNING_UNSCALED = 0x2,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="ft-frame-op" tabindex="-1"><a class="header-anchor" href="#ft-frame-op"><span><code>FT_Frame_Op_</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum FT_Frame_Op_ : __int32</span>
+<span class="line">{</span>
+<span class="line">  ft_frame_end = 0x0,</span>
+<span class="line">  ft_frame_start = 0x4,</span>
+<span class="line">  ft_frame_byte = 0x8,</span>
+<span class="line">  ft_frame_schar = 0x9,</span>
+<span class="line">  ft_frame_ushort_be = 0xC,</span>
+<span class="line">  ft_frame_short_be = 0xD,</span>
+<span class="line">  ft_frame_ushort_le = 0xE,</span>
+<span class="line">  ft_frame_short_le = 0xF,</span>
+<span class="line">  ft_frame_ulong_be = 0x10,</span>
+<span class="line">  ft_frame_long_be = 0x11,</span>
+<span class="line">  ft_frame_ulong_le = 0x12,</span>
+<span class="line">  ft_frame_long_le = 0x13,</span>
+<span class="line">  ft_frame_uoff3_be = 0x14,</span>
+<span class="line">  ft_frame_off3_be = 0x15,</span>
+<span class="line">  ft_frame_uoff3_le = 0x16,</span>
+<span class="line">  ft_frame_off3_le = 0x17,</span>
+<span class="line">  ft_frame_bytes = 0x18,</span>
+<span class="line">  ft_frame_skip = 0x19,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="ft-pixel-mode" tabindex="-1"><a class="header-anchor" href="#ft-pixel-mode"><span><code>FT_Pixel_Mode_</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum FT_Pixel_Mode_ : __int32</span>
+<span class="line">{</span>
+<span class="line">  FT_PIXEL_MODE_NONE = 0x0,</span>
+<span class="line">  FT_PIXEL_MODE_MONO = 0x1,</span>
+<span class="line">  FT_PIXEL_MODE_GRAY = 0x2,</span>
+<span class="line">  FT_PIXEL_MODE_GRAY2 = 0x3,</span>
+<span class="line">  FT_PIXEL_MODE_GRAY4 = 0x4,</span>
+<span class="line">  FT_PIXEL_MODE_LCD = 0x5,</span>
+<span class="line">  FT_PIXEL_MODE_LCD_V = 0x6,</span>
+<span class="line">  FT_PIXEL_MODE_BGRA = 0x7,</span>
+<span class="line">  FT_PIXEL_MODE_MAX = 0x8,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="ft-validationlevel" tabindex="-1"><a class="header-anchor" href="#ft-validationlevel"><span><code>FT_ValidationLevel_</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum FT_ValidationLevel_ : __int32</span>
+<span class="line">{</span>
+<span class="line">  FT_VALIDATE_DEFAULT = 0x0,</span>
+<span class="line">  FT_VALIDATE_TIGHT = 0x1,</span>
+<span class="line">  FT_VALIDATE_PARANOID = 0x2,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="ft-sfnt-tag" tabindex="-1"><a class="header-anchor" href="#ft-sfnt-tag"><span><code>FT_Sfnt_Tag_</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum FT_Sfnt_Tag_ : __int32</span>
+<span class="line">{</span>
+<span class="line">  FT_SFNT_HEAD = 0x0,</span>
+<span class="line">  FT_SFNT_MAXP = 0x1,</span>
+<span class="line">  FT_SFNT_OS2 = 0x2,</span>
+<span class="line">  FT_SFNT_HHEA = 0x3,</span>
+<span class="line">  FT_SFNT_VHEA = 0x4,</span>
+<span class="line">  FT_SFNT_POST = 0x5,</span>
+<span class="line">  FT_SFNT_PCLT = 0x6,</span>
+<span class="line">  FT_SFNT_MAX = 0x7,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="ft-lcdfilter" tabindex="-1"><a class="header-anchor" href="#ft-lcdfilter"><span><code>FT_LcdFilter_</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum FT_LcdFilter_ : __int32</span>
+<span class="line">{</span>
+<span class="line">  FT_LCD_FILTER_NONE = 0x0,</span>
+<span class="line">  FT_LCD_FILTER_DEFAULT = 0x1,</span>
+<span class="line">  FT_LCD_FILTER_LIGHT = 0x2,</span>
+<span class="line">  FT_LCD_FILTER_LEGACY1 = 0x3,</span>
+<span class="line">  FT_LCD_FILTER_LEGACY = 0x10,</span>
+<span class="line">  FT_LCD_FILTER_MAX = 0x11,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="ft-glyph-bbox-mode" tabindex="-1"><a class="header-anchor" href="#ft-glyph-bbox-mode"><span><code>FT_Glyph_BBox_Mode_</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum FT_Glyph_BBox_Mode_ : __int32</span>
+<span class="line">{</span>
+<span class="line">  FT_GLYPH_BBOX_UNSCALED = 0x0,</span>
+<span class="line">  FT_GLYPH_BBOX_SUBPIXELS = 0x0,</span>
+<span class="line">  FT_GLYPH_BBOX_GRIDFIT = 0x1,</span>
+<span class="line">  FT_GLYPH_BBOX_TRUNCATE = 0x2,</span>
+<span class="line">  FT_GLYPH_BBOX_PIXELS = 0x3,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="ft-stroker-linecap" tabindex="-1"><a class="header-anchor" href="#ft-stroker-linecap"><span><code>FT_Stroker_LineCap_</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum FT_Stroker_LineCap_ : __int32</span>
+<span class="line">{</span>
+<span class="line">  FT_STROKER_LINECAP_BUTT = 0x0,</span>
+<span class="line">  FT_STROKER_LINECAP_ROUND = 0x1,</span>
+<span class="line">  FT_STROKER_LINECAP_SQUARE = 0x2,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="ft-stroker-linejoin" tabindex="-1"><a class="header-anchor" href="#ft-stroker-linejoin"><span><code>FT_Stroker_LineJoin_</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum FT_Stroker_LineJoin_ : __int32</span>
+<span class="line">{</span>
+<span class="line">  FT_STROKER_LINEJOIN_ROUND = 0x0,</span>
+<span class="line">  FT_STROKER_LINEJOIN_BEVEL = 0x1,</span>
+<span class="line">  FT_STROKER_LINEJOIN_MITER_VARIABLE = 0x2,</span>
+<span class="line">  FT_STROKER_LINEJOIN_MITER = 0x2,</span>
+<span class="line">  FT_STROKER_LINEJOIN_MITER_FIXED = 0x3,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="ft-strokerborder" tabindex="-1"><a class="header-anchor" href="#ft-strokerborder"><span><code>FT_StrokerBorder_</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum FT_StrokerBorder_ : __int32</span>
+<span class="line">{</span>
+<span class="line">  FT_STROKER_BORDER_LEFT = 0x0,</span>
+<span class="line">  FT_STROKER_BORDER_RIGHT = 0x1,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="ft-stroketags" tabindex="-1"><a class="header-anchor" href="#ft-stroketags"><span><code>FT_StrokeTags_</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum FT_StrokeTags_ : __int32</span>
+<span class="line">{</span>
+<span class="line">  FT_STROKE_TAG_ON = 0x1,</span>
+<span class="line">  FT_STROKE_TAG_CUBIC = 0x2,</span>
+<span class="line">  FT_STROKE_TAG_BEGIN = 0x4,</span>
+<span class="line">  FT_STROKE_TAG_END = 0x8,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="ft-lzwphase" tabindex="-1"><a class="header-anchor" href="#ft-lzwphase"><span><code>FT_LzwPhase_</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">enum FT_LzwPhase_ : __int32</span>
+<span class="line">{</span>
+<span class="line">  FT_LZW_PHASE_START = 0x0,</span>
+<span class="line">  FT_LZW_PHASE_CODE = 0x1,</span>
+<span class="line">  FT_LZW_PHASE_STACK = 0x2,</span>
+<span class="line">  FT_LZW_PHASE_EOF = 0x3,</span>
+<span class="line">};</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="fblocktype" tabindex="-1"><a class="header-anchor" href="#fblocktype"><span><code>fblocktype</code></span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">typedef Category fblocktype;</span>
+<span class="line"></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div></div></div></div><!--[--><!--]--></div><footer class="vp-page-meta"><!----><div class="vp-meta-item git-info"><div class="vp-meta-item last-updated"><span class="meta-item-label">Last Updated: </span><!----></div><div class="vp-meta-item contributors"><span class="meta-item-label">Contributors: </span><span class="meta-item-info"><!--[--><!--[--><span class="contributor" title="email: redbeana44945@gmail.com">RedbeanW</span><!----><!--]--><!--]--></span></div></div></footer><nav class="vp-page-nav" aria-label="page navigation"><a class="route-link auto-link prev" href="/mcstructure/1.16.201/enums/E.html" aria-label="E"><div class="hint"><span class="arrow left"></span> Prev</div><div class="link"><span>E</span></div></a><a class="route-link auto-link next" href="/mcstructure/1.16.201/enums/G.html" aria-label="G"><div class="hint">Next <span class="arrow right"></span></div><div class="link"><span>G</span></div></a></nav><!--[--><!--]--></main><!--]--></div><!--[--><!----><!--]--><!--]--></div>
+    <script type="module" src="/mcstructure/assets/app-CsZ-F4rT.js" defer></script>
+  </body>
+</html>
