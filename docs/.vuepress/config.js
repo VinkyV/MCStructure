@@ -25,7 +25,7 @@ export default defineUserConfig({
   theme: defaultTheme({
     navbar: [
       { text: 'Home', link: '/' },
-      { text: 'Github', link: 'https://github.com/Redbeanw44602/mcstructure' }
+      { text: 'Github', link: 'https://github.com/VinkyV/MCStructure' }
     ],
     sidebar: {
       '/1.14.60.5/': [
