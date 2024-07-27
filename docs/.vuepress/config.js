@@ -11,7 +11,7 @@ export default defineUserConfig({
   lang: 'en-US',
 
   title: 'MC TIL',
-  base: '/mcstructure/',
+  base: '/MCstructure/',
   description: 'Some structure and enum information for minecraft bedrock edition.',
   plugins: [
     activeHeaderLinksPlugin(),
