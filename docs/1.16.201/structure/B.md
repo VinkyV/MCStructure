@@ -1,7 +1,7 @@
 # B
 ### `BoolOption`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (488) `Option` | baseclass_0
 488 | (1) `bool` | mValue
 489 | (1) `bool` | mDefaultValue
@@ -10,13 +10,13 @@ Offset | Type | Name
 
 ### `Bedrock::PubSub::Publisher<void __cdecl(Option const &),Bedrock::PubSub::ThreadModel::MultiThreaded,void>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (120) `Bedrock::PubSub::Detail::PublisherBase<Bedrock::PubSub::ThreadModel::MultiThreaded,void,void __cdecl(Option const &)>` | baseclass_0
 
 
 ### `Bedrock::PubSub::Detail::PublisherBase<Bedrock::PubSub::ThreadModel::MultiThreaded,void,void __cdecl(Option const &)>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::list<std::shared_ptr<Bedrock::PubSub::Detail::PublisherBase<Bedrock::PubSub::ThreadModel::MultiThreaded,void,void __cdecl(Option const &)>::SubscriptionBody>>` | mSubscriptions
 16 | (80) `std::mutex` | mMutex
 96 | (16) `std::weak_ptr<Bedrock::PubSub::Detail::PublisherBase<Bedrock::PubSub::ThreadModel::MultiThreaded,void,void __cdecl(Option const &)>::SubscriptionBody>` | mSingleSubscriber
@@ -25,13 +25,13 @@ Offset | Type | Name
 
 ### `Bedrock::PubSub::Publisher<void __cdecl(Option const &,enum InputMode),Bedrock::PubSub::ThreadModel::MultiThreaded,void>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (120) `Bedrock::PubSub::Detail::PublisherBase<Bedrock::PubSub::ThreadModel::MultiThreaded,void,void __cdecl(Option const &,enum InputMode)>` | baseclass_0
 
 
 ### `Bedrock::PubSub::Detail::PublisherBase<Bedrock::PubSub::ThreadModel::MultiThreaded,void,void __cdecl(Option const &,enum InputMode)>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::list<std::shared_ptr<Bedrock::PubSub::Detail::PublisherBase<Bedrock::PubSub::ThreadModel::MultiThreaded,void,void __cdecl(Option const &,enum InputMode)>::SubscriptionBody>>` | mSubscriptions
 16 | (80) `std::mutex` | mMutex
 96 | (16) `std::weak_ptr<Bedrock::PubSub::Detail::PublisherBase<Bedrock::PubSub::ThreadModel::MultiThreaded,void,void __cdecl(Option const &,enum InputMode)>::SubscriptionBody>` | mSingleSubscriber
@@ -40,25 +40,25 @@ Offset | Type | Name
 
 ### `Bedrock::PubSub::ScopedSubscription`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `Bedrock::PubSub::Subscription` | baseclass_0
 
 
 ### `Bedrock::PubSub::Subscription`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<Bedrock::PubSub::Detail::SubscriptionBodyInterface>` | mBody
 
 
 ### `Brightness`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `NewType<unsigned char>` | baseclass_0
 
 
 ### `BlockPos`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | x
 4 | (4) `int` | y
 8 | (4) `int` | z
@@ -66,49 +66,49 @@ Offset | Type | Name
 
 ### `BaseGameVersion`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (112) `SemVersion` | mSemVersion
 
 
 ### `Bedrock::Threading::OSThreadPriority`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mPriority
 
 
 ### `Bedrock::EnableNonOwnerReferences`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<Bedrock::EnableNonOwnerReferences::ControlBlock>` | mControlBlock
 
 
 ### `Bedrock::Application::ThreadOwner<Core::Random>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2516) `Core::Random` | mObject
 
 
 ### `BidirectionalUnorderedMap<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,enum ActorDamageCause>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::unordered_map<std::string,enum ActorDamageCause>` | mRight
 64 | (64) `std::unordered_map<enum ActorDamageCause,std::string>` | mLeft
 
 
 ### `BucketableDescription`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ComponentDescription` | baseclass_0
 
 
 ### `BoneAnimationChannel::sortKeyFrames::__l2::KeyFrameCompare`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `BoneOrientation`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | mUseMatrixFromOwningActor
 4 | (4) `int` | mParentBoneIndex
 8 | (4) `_BYTE[4]` | mParentSkeletalHierarchyIndex
@@ -126,31 +126,31 @@ Offset | Type | Name
 
 ### `BoneOrientationTransform`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (36) `Vec3[3]` | mData
 
 
 ### `BlockSerializationUtils::NbtToBlockCache`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::map<unsigned __int64,Block const *>` | mCache
 16 | (80) `std::mutex` | mMutex
 
 
 ### `BlockSource::fetchBlocksInCylinderSorted::__l2::<lambda_162be0394a410a4558b7b369e9c9236e>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `Bedrock::Detail::DataStoreInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::function<Core::PathBuffer<std::string > __cdecl(gsl::not_null<AppPlatform *>)>` | mFilePathFn
 
 
 ### `bgfx::TopLevelInstanceDesc`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `bgfx::AccelerationStructureHandle` | bottomLevelAS
 4 | (4) `bgfx::RtObjectCategory` | objectCategory
 8 | (4) `bgfx::RtMediaType` | mediaType
@@ -166,19 +166,19 @@ Offset | Type | Name
 
 ### `bgfx::AccelerationStructureHandle`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `unsigned __int16` | idx
 
 
 ### `bgfx::TextureHandle`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `unsigned __int16` | idx
 
 
 ### `bgfx::RayTracingConfiguration`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | mRtxOn
 4 | (16) `bgfx::DLSSOptions` | mDLSSOptions
 20 | (4) `float` | mEmissiveBrightnessMultiplier
@@ -291,7 +291,7 @@ Offset | Type | Name
 
 ### `bgfx::DLSSOptions`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `bgfx::DLSSOptions::Mode` | mMode
 4 | (4) `bgfx::DLSSOptions::Scaling` | mQuality
 8 | (4) `float` | mSharpness
@@ -300,20 +300,20 @@ Offset | Type | Name
 
 ### `ButtonColors`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `mce::Color` | pressed
 16 | (16) `mce::Color` | released
 
 
 ### `BedrockLog::CategoryLogs`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (504) `std::array<BedrockLog::CategoryLogFile,7>` | baseclass_0
 
 
 ### `BedrockLog::CategoryLogFile`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::unordered_map<enum BedrockLog::LogChannel,std::unique_ptr<BedrockLog::LogDetails>,std::enum_hash<enum BedrockLog::LogChannel>,std::equal_to<enum BedrockLog::LogChannel>,std::allocator<std::pair<enum BedrockLog::LogChannel const ,std::unique_ptr<BedrockLog::LogDetails> > > >` | mChannel
 64 | (4) `std::bitset<3>` | mCombinedChannelMask
 68 | (4) `int` | mMessageCount
@@ -321,24 +321,24 @@ Offset | Type | Name
 
 ### `Bedrock::Memory::InternalHeapAllocator`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Bedrock::Memory::IMemoryAllocator` | baseclass_0
 
 
 ### `Bedrock::Memory::IMemoryAllocator`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Bedrock::Memory::IMemoryAllocator_vtbl *` | __vftable
 
 
 ### `BackgroundTaskBase::PriorityComparer`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `Bedrock::Threading::CustomTLS::TLSManager`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | mNativeKey
 8 | (16384) `Bedrock::Threading::CustomTLS::TLSManager::KeyInfo[1024]` | mKeyInfo
 16392 | (8208) `Bedrock::Threading::LFFixedRingBuffer<unsigned __int64,1024>` | mFreeList
@@ -348,14 +348,14 @@ Offset | Type | Name
 
 ### `Bedrock::Threading::CustomTLS::TLSManager::KeyInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `void (__fastcall *)(void *)` | mDestructor
 8 | (4) `unsigned int` | mVersionId
 
 
 ### `Bedrock::Threading::LFFixedRingBuffer<unsigned __int64,1024>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8192) `unsigned __int64[1024]` | mItems
 8192 | (8) `std::atomic<unsigned __int64>` | mReadPos
 8200 | (8) `std::atomic<unsigned __int64>` | mWritePos
@@ -363,12 +363,12 @@ Offset | Type | Name
 
 ### `BackgroundTaskBase::PendingComparer`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `Bedrock::JSONObject::NodeFunctionTable`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `void (__fastcall *)(bool *, const Bedrock::JSONObject::Node *)` | mBoolean
 8 | (8) `void (__fastcall *)(unsigned int *, const Bedrock::JSONObject::Node *)` | mUInt32
 16 | (8) `void (__fastcall *)(int *, const Bedrock::JSONObject::Node *)` | mSInt32
@@ -386,7 +386,7 @@ Offset | Type | Name
 
 ### `bdf_options_t_`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | correct_metrics
 4 | (4) `int` | keep_unencoded
 8 | (4) `int` | keep_comments
@@ -395,7 +395,7 @@ Offset | Type | Name
 
 ### `bdf_property_t_`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const char *` | name
 8 | (4) `int` | format
 12 | (4) `int` | builtin
@@ -404,20 +404,20 @@ Offset | Type | Name
 
 ### `bx::ErrorResult`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | code
 
 
 ### `bgfx::EmbeddedShader`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const char *` | name
 8 | (264) `bgfx::EmbeddedShader::Data[11]` | data
 
 
 ### `bgfx::EmbeddedShader::Data`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `bgfx::RendererType::Enum` | type
 8 | (8) `const unsigned __int8 *` | data
 16 | (4) `unsigned int` | size
@@ -425,7 +425,7 @@ Offset | Type | Name
 
 ### `bgfx::RendererCreator`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `bgfx::RendererContextI *(__fastcall *)(const bgfx::Init *)` | createFn
 8 | (8) `void (__fastcall *)()` | destroyFn
 16 | (8) `const char *` | name
@@ -434,27 +434,27 @@ Offset | Type | Name
 
 ### `bgfx::CapsFlags`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `unsigned __int64` | m_flag
 8 | (8) `const char *` | m_str
 
 
 ### `bgfx::IndexBufferHandle`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `unsigned __int16` | idx
 
 
 ### `bgfx::d3d11::UavFormat`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (12) `DXGI_FORMAT[3]` | format
 12 | (4) `unsigned int` | stride
 
 
 ### `bgfx::d3d11::PrimInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `D3D_PRIMITIVE_TOPOLOGY` | m_type
 4 | (4) `unsigned int` | m_min
 8 | (4) `unsigned int` | m_div
@@ -463,7 +463,7 @@ Offset | Type | Name
 
 ### `bgfx::d3d11::TextureFormatInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `DXGI_FORMAT` | m_fmt
 4 | (4) `DXGI_FORMAT` | m_fmtSrv
 8 | (4) `DXGI_FORMAT` | m_fmtDsv
@@ -472,7 +472,7 @@ Offset | Type | Name
 
 ### `bgfx::d3d11::IntelExtension`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `char[16]` | key
 16 | (4) `unsigned int` | version
 20 | (4) `unsigned int` | type
@@ -481,7 +481,7 @@ Offset | Type | Name
 
 ### `bgfx::d3d11::Zero`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (256) `ID3D11Buffer *[32]` | m_buffer
 1 | (64) `ID3D11UnorderedAccessView *[8]` | m_uav
 2 | (1024) `ID3D11ShaderResourceView *[128]` | m_srv
@@ -493,7 +493,7 @@ Offset | Type | Name
 
 ### `bgfx::ViewState`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32768) `bgfx::Matrix4[2][256]` | m_viewTmp
 32768 | (32768) `bgfx::Matrix4[2][256]` | m_viewProj
 65536 | (16) `bgfx::Matrix4 *[2]` | m_view
@@ -509,26 +509,26 @@ Offset | Type | Name
 
 ### `bgfx::Matrix4`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `bgfx::Matrix4::<unnamed_type_un>` | un
 
 
 ### `bgfx::Matrix4::<unnamed_type_un>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `float[16]` | val
 1 | (64) `bx::float4x4_t` | f4x4
 
 
 ### `bx::float4x4_t`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `__m128[4]` | col
 
 
 ### `bgfx::Rect`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `unsigned __int16` | m_x
 2 | (2) `unsigned __int16` | m_y
 4 | (2) `unsigned __int16` | m_width
@@ -537,21 +537,21 @@ Offset | Type | Name
 
 ### `bgfx::d3d12::HeapProperty`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (20) `D3D12_HEAP_PROPERTIES` | m_properties
 20 | (4) `D3D12_RESOURCE_STATES` | m_state
 
 
 ### `bgfx::d3d12::UavFormat`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (12) `DXGI_FORMAT[3]` | format
 12 | (4) `unsigned int` | stride
 
 
 ### `bgfx::d3d12::PrimInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `D3D_PRIMITIVE_TOPOLOGY` | m_topology
 4 | (4) `D3D12_PRIMITIVE_TOPOLOGY_TYPE` | m_topologyType
 8 | (4) `unsigned int` | m_min
@@ -561,7 +561,7 @@ Offset | Type | Name
 
 ### `bgfx::d3d12::TextureFormatInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `DXGI_FORMAT` | m_fmt
 4 | (4) `DXGI_FORMAT` | m_fmtSrv
 8 | (4) `DXGI_FORMAT` | m_fmtDsv
@@ -570,13 +570,13 @@ Offset | Type | Name
 
 ### `bgfx::FrameBufferHandle`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `unsigned __int16` | idx
 
 
 ### `bgfx::d3d12rtx::RendererContextD3D12RTX::runRayTracingShader::__l2::RayTracingShaderInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `bgfx::d3d12rtx::RTRayGenShader` | mRayGenShader
 4 | (4) `bgfx::d3d12rtx::RTComputeShader` | mComputeShader
 8 | (4) `bgfx::d3d12rtx::RTDispatchSize` | mDispatchSize
@@ -584,7 +584,7 @@ Offset | Type | Name
 
 ### `bgfx::d3d9::Blend`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `_D3DBLEND` | m_src
 4 | (4) `_D3DBLEND` | m_dst
 8 | (1) `bool` | m_factor
@@ -592,14 +592,14 @@ Offset | Type | Name
 
 ### `bgfx::d3d9::Msaa`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `_D3DMULTISAMPLE_TYPE` | m_type
 4 | (4) `unsigned int` | m_quality
 
 
 ### `bgfx::d3d9::ExtendedFormat`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `_D3DFORMAT` | m_fmt
 4 | (4) `unsigned int` | m_usage
 8 | (4) `_D3DRESOURCETYPE` | m_type
@@ -608,7 +608,7 @@ Offset | Type | Name
 
 ### `bgfx::d3d9::PrimInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `_D3DPRIMITIVETYPE` | m_type
 4 | (4) `unsigned int` | m_min
 8 | (4) `unsigned int` | m_div
@@ -617,13 +617,13 @@ Offset | Type | Name
 
 ### `bgfx::d3d9::TextureFormatInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `_D3DFORMAT` | m_fmt
 
 
 ### `bgfx::gl::Blend`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | m_src
 4 | (4) `unsigned int` | m_dst
 8 | (1) `bool` | m_factor
@@ -631,7 +631,7 @@ Offset | Type | Name
 
 ### `bgfx::gl::Extension`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const char *` | m_name
 8 | (1) `bool` | m_supported
 9 | (1) `bool` | m_initialize
@@ -639,7 +639,7 @@ Offset | Type | Name
 
 ### `bgfx::gl::PrimInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | m_type
 4 | (4) `unsigned int` | m_min
 8 | (4) `unsigned int` | m_div
@@ -648,14 +648,14 @@ Offset | Type | Name
 
 ### `bgfx::gl::VendorId`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const char *` | name
 8 | (2) `unsigned __int16` | id
 
 
 ### `bgfx::gl::TextureFormatInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | m_internalFmt
 4 | (4) `unsigned int` | m_internalFmtSrgb
 8 | (4) `unsigned int` | m_fmt
@@ -665,7 +665,7 @@ Offset | Type | Name
 
 ### `bgfx::vk::Extension`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const char *` | m_name
 8 | (4) `unsigned int` | m_minVersion
 12 | (1) `bool` | m_instanceExt
@@ -675,7 +675,7 @@ Offset | Type | Name
 
 ### `bgfx::vk::PrimInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `VkPrimitiveTopology` | m_topology
 4 | (4) `unsigned int` | m_min
 8 | (4) `unsigned int` | m_div
@@ -684,7 +684,7 @@ Offset | Type | Name
 
 ### `bgfx::vk::TextureFormatInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `VkFormat` | m_fmt
 4 | (4) `VkFormat` | m_fmtSrv
 8 | (4) `VkFormat` | m_fmtDsv
@@ -693,21 +693,21 @@ Offset | Type | Name
 
 ### `bgfx::Dx9bcOpcodeInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `unsigned __int8` | numOperands
 1 | (1) `unsigned __int8` | numValues
 
 
 ### `bgfx::DxbcOpcodeInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `unsigned __int8` | numOperands
 1 | (1) `unsigned __int8` | numValues
 
 
 ### `bgfx::SpvOpcodeInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | hasType
 1 | (1) `bool` | hasResult
 4 | (32) `bgfx::SpvOperand::Enum[8]` | operands
@@ -715,20 +715,20 @@ Offset | Type | Name
 
 ### `bgfx::SpvDecorationInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `bgfx::SpvOperand::Enum[2]` | operands
 
 
 ### `bgfx::AttribToId`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `bgfx::Attrib::Enum` | attr
 4 | (2) `unsigned __int16` | id
 
 
 ### `bimg::TranslatePvr3Format`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `unsigned __int64` | m_format
 8 | (4) `unsigned int` | m_channelTypeMask
 12 | (4) `_BYTE[4]` | m_textureFormat
@@ -736,7 +736,7 @@ Offset | Type | Name
 
 ### `bimg::TranslateDdsFormat`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | m_format
 4 | (4) `_BYTE[4]` | m_textureFormat
 8 | (1) `bool` | m_srgb
@@ -744,7 +744,7 @@ Offset | Type | Name
 
 ### `bimg::ImageBlockInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `unsigned __int8` | bitsPerPixel
 1 | (1) `unsigned __int8` | blockWidth
 2 | (1) `unsigned __int8` | blockHeight
@@ -762,7 +762,7 @@ Offset | Type | Name
 
 ### `bimg::Bc7ModeInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `unsigned __int8` | numSubsets
 1 | (1) `unsigned __int8` | partitionBits
 2 | (1) `unsigned __int8` | rotationBits
@@ -776,7 +776,7 @@ Offset | Type | Name
 
 ### `bimg::Bc6hModeInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `unsigned __int8` | transformed
 1 | (1) `unsigned __int8` | partitionBits
 2 | (1) `unsigned __int8` | endpointBits
@@ -785,14 +785,14 @@ Offset | Type | Name
 
 ### `bimg::KtxFormatInfo2`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | m_internalFmt
 4 | (4) `_BYTE[4]` | m_format
 
 
 ### `bimg::KtxFormatInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | m_internalFmt
 4 | (4) `unsigned int` | m_internalFmtSrgb
 8 | (4) `unsigned int` | m_fmt
@@ -801,7 +801,7 @@ Offset | Type | Name
 
 ### `bimg::TranslateDdsPixelFormat`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | m_bitCount
 4 | (4) `unsigned int` | m_flags
 8 | (16) `unsigned int[4]` | m_bitmask
@@ -810,77 +810,77 @@ Offset | Type | Name
 
 ### `bimg::PackUnpack`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `void (__fastcall *)(void *, const float *)` | pack
 8 | (8) `void (__fastcall *)(float *, const void *)` | unpack
 
 
 ### `bimg::CubeMapFace::Neighbour`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `unsigned __int8` | m_faceIdx
 1 | (1) `unsigned __int8` | m_faceEdge
 
 
 ### `bimg::CubeMapFace`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (36) `float[3][3]` | uv
 
 
 ### `Bedrock::NonOwnerPointer<mce::ShaderGroup>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<Bedrock::EnableNonOwnerReferences::ControlBlock>` | mControlBlock
 
 
 ### `BurnOdds`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mChance
 
 
 ### `Bedrock::NonOwnerPointer<AppConfigs>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<Bedrock::EnableNonOwnerReferences::ControlBlock>` | mControlBlock
 
 
 ### `Bedrock::NonOwnerPointer<Bedrock::IApplicationDataStores>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<Bedrock::EnableNonOwnerReferences::ControlBlock>` | mControlBlock
 
 
 ### `BidirectionalUnorderedMap<int,AutomaticID<Dimension,int> >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::unordered_map<int,AutomaticID<Dimension,int>>` | mRight
 64 | (64) `std::unordered_map<AutomaticID<Dimension,int>,int,std::hash<AutomaticID<Dimension,int> >,std::equal_to<AutomaticID<Dimension,int> >,std::allocator<std::pair<AutomaticID<Dimension,int> const ,int> > >` | mLeft
 
 
 ### `Bedrock::NonOwnerPointer<cg::IGraphicsDeviceVendorProvider>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<Bedrock::EnableNonOwnerReferences::ControlBlock>` | mControlBlock
 
 
 ### `Bedrock::NonOwnerPointer<ProfilingManager>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<Bedrock::EnableNonOwnerReferences::ControlBlock>` | mControlBlock
 
 
 ### `BidirectionalUnorderedMap<enum ComplexInventoryTransaction::Type,std::basic_string<char,std::char_traits<char>,std::allocator<char> > >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::unordered_map<enum ComplexInventoryTransaction::Type,std::string>` | mRight
 64 | (64) `std::unordered_map<std::string,enum ComplexInventoryTransaction::Type>` | mLeft
 
 
 ### `BackwardsCompatTextureInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | mUse
 4 | (8) `glm::tvec2<float,0>` | mUVSize
 12 | (8) `glm::tvec2<float,0>` | mUV
@@ -890,77 +890,77 @@ Offset | Type | Name
 
 ### `Bedrock::NonOwnerPointer<cg::IGraphicsDevicePlatformProvider>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<Bedrock::EnableNonOwnerReferences::ControlBlock>` | mControlBlock
 
 
 ### `BehaviorTreeDefinitionPtr`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `BehaviorTreeGroup *` | mGroup
 8 | (8) `BehaviorTreeDefinition *` | mPtr
 
 
 ### `Bedrock::NonOwnerPointer<ServiceClientScheduler>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<Bedrock::EnableNonOwnerReferences::ControlBlock>` | mControlBlock
 
 
 ### `Bedrock::NonOwnerPointer<Social::MultiplayerServiceManager>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<Bedrock::EnableNonOwnerReferences::ControlBlock>` | mControlBlock
 
 
 ### `BeardKernel`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (55296) `const std::array<float,13824>` | mKernel
 
 
 ### `Bedrock::NonOwnerPointer<IEntitlementManager>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<Bedrock::EnableNonOwnerReferences::ControlBlock>` | mControlBlock
 
 
 ### `BidirectionalUnorderedMap<enum ItemUseInventoryTransaction::ActionType,std::basic_string<char,std::char_traits<char>,std::allocator<char> > >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::unordered_map<enum ItemUseInventoryTransaction::ActionType,std::string>` | mRight
 64 | (64) `std::unordered_map<std::string,enum ItemUseInventoryTransaction::ActionType>` | mLeft
 
 
 ### `Bedrock::NonOwnerPointer<DateManager>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<Bedrock::EnableNonOwnerReferences::ControlBlock>` | mControlBlock
 
 
 ### `BidirectionalUnorderedMap<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,AutomaticID<Dimension,int> >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::unordered_map<std::string,AutomaticID<Dimension,int>>` | mRight
 64 | (64) `std::unordered_map<AutomaticID<Dimension,int>,std::string,std::hash<AutomaticID<Dimension,int> >,std::equal_to<AutomaticID<Dimension,int> >,std::allocator<std::pair<AutomaticID<Dimension,int> const ,std::string > > >` | mLeft
 
 
 ### `BidirectionalUnorderedMap<enum ItemAcquisitionMethod,std::basic_string<char,std::char_traits<char>,std::allocator<char> > >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::unordered_map<enum ItemAcquisitionMethod,std::string>` | mRight
 64 | (64) `std::unordered_map<std::string,enum ItemAcquisitionMethod>` | mLeft
 
 
 ### `Bedrock::NonOwnerPointer<OfferRepository>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<Bedrock::EnableNonOwnerReferences::ControlBlock>` | mControlBlock
 
 
 ### `bgfx::Caps`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `bgfx::RendererType::Enum` | rendererType
 4 | (32) `char[32]` | rendererVersion
 40 | (8) `unsigned __int64` | rendererFeatureVersion
@@ -986,7 +986,7 @@ Offset | Type | Name
 
 ### `bgfx::Caps::GPU`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `unsigned __int16` | vendorId
 2 | (2) `unsigned __int16` | deviceId
 4 | (4) `unsigned int` | subSysId
@@ -1000,7 +1000,7 @@ Offset | Type | Name
 
 ### `bgfx::Caps::Limits`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | maxDrawCalls
 4 | (4) `unsigned int` | maxBlits
 8 | (4) `unsigned int` | maxTextureSize
@@ -1029,94 +1029,94 @@ Offset | Type | Name
 
 ### `Bedrock::NonOwnerPointer<Social::UserManager>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<Bedrock::EnableNonOwnerReferences::ControlBlock>` | mControlBlock
 
 
 ### `Bedrock::NonOwnerPointer<mce::FileWatcherNull>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<Bedrock::EnableNonOwnerReferences::ControlBlock>` | mControlBlock
 
 
 ### `BidirectionalUnorderedMap<enum ParticleType,std::basic_string<char,std::char_traits<char>,std::allocator<char> > >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::unordered_map<enum ParticleType,std::string>` | mRight
 64 | (64) `std::unordered_map<std::string,enum ParticleType>` | mLeft
 
 
 ### `Bedrock::NonOwnerPointer<IMinecraftEventing>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<Bedrock::EnableNonOwnerReferences::ControlBlock>` | mControlBlock
 
 
 ### `Bedrock::NonOwnerPointer<ServerInstance>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<Bedrock::EnableNonOwnerReferences::ControlBlock>` | mControlBlock
 
 
 ### `Bedrock::NonOwnerPointer<IApp>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<Bedrock::EnableNonOwnerReferences::ControlBlock>` | mControlBlock
 
 
 ### `Bedrock::NonOwnerPointer<BasicTestProfileStats>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<Bedrock::EnableNonOwnerReferences::ControlBlock>` | mControlBlock
 
 
 ### `Bedrock::NonOwnerPointer<GameRelightingTestData>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<Bedrock::EnableNonOwnerReferences::ControlBlock>` | mControlBlock
 
 
 ### `Bedrock::NonOwnerPointer<Core::LoadTimeProfiler>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<Bedrock::EnableNonOwnerReferences::ControlBlock>` | mControlBlock
 
 
 ### `Bedrock::NonOwnerPointer<NetworkDebugManager>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<Bedrock::EnableNonOwnerReferences::ControlBlock>` | mControlBlock
 
 
 ### `Bedrock::NonOwnerPointer<IRayTracingOptions>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<Bedrock::EnableNonOwnerReferences::ControlBlock>` | mControlBlock
 
 
 ### `BidirectionalUnorderedMap<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,enum LevelSoundEvent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::unordered_map<std::string,enum LevelSoundEvent>` | mRight
 64 | (64) `std::unordered_map<enum LevelSoundEvent,std::string>` | mLeft
 
 
 ### `Bedrock::NonOwnerPointer<AppPlatform>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<Bedrock::EnableNonOwnerReferences::ControlBlock>` | mControlBlock
 
 
 ### `BidirectionalUnorderedMap<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,enum FilterSubject>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::unordered_map<std::string,enum FilterSubject>` | mRight
 64 | (64) `std::unordered_map<enum FilterSubject,std::string>` | mLeft
 
 
 ### `bgfx::DREDData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | m_enableDRED
 8 | (24) `std::vector<std::string>` | m_breadCrumbStrings
 32 | (24) `std::vector<std::string>` | m_pageFaultFreedDataStrings
@@ -1125,51 +1125,51 @@ Offset | Type | Name
 
 ### `BidirectionalUnorderedMap<enum ItemUseMethod,std::basic_string<char,std::char_traits<char>,std::allocator<char> > >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::unordered_map<enum ItemUseMethod,std::string>` | mRight
 64 | (64) `std::unordered_map<std::string,enum ItemUseMethod>` | mLeft
 
 
 ### `Bedrock::NonOwnerPointer<ChunkPerformanceData>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<Bedrock::EnableNonOwnerReferences::ControlBlock>` | mControlBlock
 
 
 ### `Bedrock::NonOwnerPointer<ContentTierManager::ValidatorRegistry>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<Bedrock::EnableNonOwnerReferences::ControlBlock>` | mControlBlock
 
 
 ### `Bedrock::NonOwnerPointer<mce::framebuilder::FrameBuilder>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<Bedrock::EnableNonOwnerReferences::ControlBlock>` | mControlBlock
 
 
 ### `BidirectionalUnorderedMap<enum ItemStackNetResult,std::basic_string<char,std::char_traits<char>,std::allocator<char> > >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::unordered_map<enum ItemStackNetResult,std::string>` | mRight
 64 | (64) `std::unordered_map<std::string,enum ItemStackNetResult>` | mLeft
 
 
 ### `Bedrock::NonOwnerPointer<GameStore>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<Bedrock::EnableNonOwnerReferences::ControlBlock>` | mControlBlock
 
 
 ### `Bedrock::NonOwnerPointer<DataUtils::MiscData>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<Bedrock::EnableNonOwnerReferences::ControlBlock>` | mControlBlock
 
 
 ### `Bedrock::Threading::InstancedThreadLocal<bool (__cdecl**)(AssertHandlerContext const &),std::allocator<bool (__cdecl**)(AssertHandlerContext const &)> >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::function<void __cdecl(bool (__cdecl** *)(AssertHandlerContext const &))>` | mConstructor
 64 | (16) `Bedrock::Intrusive::list<Bedrock::Threading::InstancedThreadLocal<bool (__cdecl**)(AssertHandlerContext const &),std::allocator<bool (__cdecl**)(AssertHandlerContext const &)> >::Item,Bedrock::Intrusive::list_base_hook<void>,Bedrock::Intrusive::list_base_hook<void> >` | mItems
 80 | (80) `std::mutex` | mMutex
@@ -1179,20 +1179,20 @@ Offset | Type | Name
 
 ### `Bedrock::Intrusive::list<Bedrock::Threading::InstancedThreadLocal<bool (__cdecl**)(AssertHandlerContext const &),std::allocator<bool (__cdecl**)(AssertHandlerContext const &)> >::Item,Bedrock::Intrusive::list_base_hook<void>,Bedrock::Intrusive::list_base_hook<void> >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `Bedrock::Intrusive::list_base_hook<void>` | mSentinel
 
 
 ### `Bedrock::Intrusive::list_base_hook<void>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Bedrock::Intrusive::list_base_hook<void> *` | mNext
 8 | (8) `Bedrock::Intrusive::list_base_hook<void> *` | mPrev
 
 
 ### `BedrockTextureData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `mce::ClientTexture` | mClientTexture
 16 | (112) `mce::TextureDescription` | mTextureDescription
 128 | (1) `IsMissingTexture` | mIsMissingTexture
@@ -1202,7 +1202,7 @@ Offset | Type | Name
 
 ### `bgfx::PlatformData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `void *` | ndt
 8 | (8) `void *` | nwh
 16 | (8) `void *` | context
@@ -1213,91 +1213,91 @@ Offset | Type | Name
 
 ### `BidirectionalUnorderedMap<enum InventoryTransactionError,std::basic_string<char,std::char_traits<char>,std::allocator<char> > >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::unordered_map<enum InventoryTransactionError,std::string>` | mRight
 64 | (64) `std::unordered_map<std::string,enum InventoryTransactionError>` | mLeft
 
 
 ### `BidirectionalUnorderedMap<enum ItemStackRequestActionType,std::basic_string<char,std::char_traits<char>,std::allocator<char> > >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::unordered_map<enum ItemStackRequestActionType,std::string>` | mRight
 64 | (64) `std::unordered_map<std::string,enum ItemStackRequestActionType>` | mLeft
 
 
 ### `Bedrock::NonOwnerPointer<FeatureToggles>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<Bedrock::EnableNonOwnerReferences::ControlBlock>` | mControlBlock
 
 
 ### `Bedrock::NonOwnerPointer<Bedrock::Threading::PendingConditionals>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<Bedrock::EnableNonOwnerReferences::ControlBlock>` | mControlBlock
 
 
 ### `BackwardsCompatTextureGroup`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::unordered_map<ResourceLocation,BackwardsCompatTextureInfo>` | mBackCompatMap
 
 
 ### `Bedrock::NonOwnerPointer<EducationOptions>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<Bedrock::EnableNonOwnerReferences::ControlBlock>` | mControlBlock
 
 
 ### `Bedrock::NonOwnerPointer<ResourceLoadManager>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<Bedrock::EnableNonOwnerReferences::ControlBlock>` | mControlBlock
 
 
 ### `BidirectionalUnorderedMap<enum SparseContainer::PushSlotPredictionResult,std::basic_string<char,std::char_traits<char>,std::allocator<char> > >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::unordered_map<enum SparseContainer::PushSlotPredictionResult,std::string>` | mRight
 64 | (64) `std::unordered_map<std::string,enum SparseContainer::PushSlotPredictionResult>` | mLeft
 
 
 ### `Bedrock::NonOwnerPointer<PackManifest::CapabilityRegistry>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<Bedrock::EnableNonOwnerReferences::ControlBlock>` | mControlBlock
 
 
 ### `Bedrock::NonOwnerPointer<ContentLog>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<Bedrock::EnableNonOwnerReferences::ControlBlock>` | mControlBlock
 
 
 ### `BidirectionalUnorderedMap<enum ContainerType,std::basic_string<char,std::char_traits<char>,std::allocator<char> > >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::unordered_map<enum ContainerType,std::string>` | mRight
 64 | (64) `std::unordered_map<std::string,enum ContainerType>` | mLeft
 
 
 ### `bgfx::InternalData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const bgfx::Caps *` | caps
 8 | (8) `void *` | context
 
 
 ### `Bedrock::Threading::Burst::Details::WorkerTaskStats<std::atomic<unsigned __int64> >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::atomic<unsigned __int64>` | mTasksQueued
 8 | (8) `std::atomic<unsigned __int64>` | mTasksCompleted
 
 
 ### `bgfx::vk::RendererContextVK`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `bgfx::RendererContextI` | baseclass_0
 8 | (8) `VkAllocationCallbacks *` | m_allocatorCb
 16 | (8) `struct VkDebugReportCallbackEXT_T *` | m_debugReportCallback
@@ -1363,37 +1363,37 @@ Offset | Type | Name
 
 ### `bgfx::RendererContextI`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `bgfx::RendererContextI_vtbl *` | __vftable
 
 
 ### `bgfx::vk::VkSwapchainKHR`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `VkSwapchainKHR_T *` | vk
 
 
 ### `bgfx::vk::VkImage`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `VkImage_T *` | vk
 
 
 ### `bgfx::vk::VkImageView`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `VkImageView_T *` | vk
 
 
 ### `bgfx::vk::VkFramebuffer`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `VkFramebuffer_T *` | vk
 
 
 ### `bgfx::vk::ScratchBufferVK`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `VkDescriptorSet_T **` | m_descriptorSet
 8 | (8) `bgfx::vk::VkBuffer` | m_buffer
 16 | (8) `VkDeviceMemory_T *` | m_deviceMem
@@ -1406,49 +1406,49 @@ Offset | Type | Name
 
 ### `bgfx::vk::VkBuffer`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `VkBuffer_T *` | vk
 
 
 ### `bgfx::vk::VkSemaphore`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `VkSemaphore_T *` | vk
 
 
 ### `bgfx::vk::VkFence`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `VkFence_T *` | vk
 
 
 ### `bgfx::vk::VkRenderPass`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `VkRenderPass_T *` | vk
 
 
 ### `bgfx::vk::VkDescriptorPool`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `VkDescriptorPool_T *` | vk
 
 
 ### `bgfx::vk::VkPipelineCache`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `VkPipelineCache_T *` | vk
 
 
 ### `bgfx::vk::VkCommandPool`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `VkCommandPool_T *` | vk
 
 
 ### `bgfx::vk::BufferVK`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `bgfx::vk::VkBuffer` | m_buffer
 8 | (8) `VkDeviceMemory_T *` | m_deviceMem
 16 | (4) `unsigned int` | m_size
@@ -1458,20 +1458,20 @@ Offset | Type | Name
 
 ### `bgfx::vk::VertexBufferVK`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `bgfx::vk::BufferVK` | baseclass_0
 24 | (2) `bgfx::VertexDeclHandle` | m_decl
 
 
 ### `bgfx::VertexDeclHandle`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `unsigned __int16` | idx
 
 
 ### `bgfx::vk::ShaderVK`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const bgfx::Memory *` | m_code
 8 | (8) `bgfx::vk::VkShaderModule` | m_module
 16 | (8) `bgfx::UniformBuffer *` | m_constantBuffer
@@ -1491,13 +1491,13 @@ Offset | Type | Name
 
 ### `bgfx::vk::VkShaderModule`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `VkShaderModule_T *` | vk
 
 
 ### `bgfx::PredefinedUniform`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | m_loc
 4 | (2) `unsigned __int16` | m_count
 6 | (1) `unsigned __int8` | m_type
@@ -1505,7 +1505,7 @@ Offset | Type | Name
 
 ### `bgfx::vk::ShaderVK::BindInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `bgfx::UniformHandle` | uniformHandle
 4 | (4) `_BYTE[4]` | type
 8 | (4) `unsigned int` | binding
@@ -1514,13 +1514,13 @@ Offset | Type | Name
 
 ### `bgfx::UniformHandle`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `unsigned __int16` | idx
 
 
 ### `bgfx::vk::ProgramVK`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const bgfx::vk::ShaderVK *` | m_vsh
 8 | (8) `const bgfx::vk::ShaderVK *` | m_fsh
 16 | (192) `bgfx::PredefinedUniform[24]` | m_predefined
@@ -1531,13 +1531,13 @@ Offset | Type | Name
 
 ### `bgfx::vk::VkPipelineLayout`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `VkPipelineLayout_T *` | vk
 
 
 ### `bgfx::vk::TextureVK`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `void *` | m_directAccessPtr
 8 | (8) `unsigned __int64` | m_flags
 16 | (4) `unsigned int` | m_width
@@ -1561,7 +1561,7 @@ Offset | Type | Name
 
 ### `bgfx::VertexDecl`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | m_hash
 4 | (2) `unsigned __int16` | m_stride
 6 | (36) `unsigned __int16[18]` | m_offset
@@ -1570,7 +1570,7 @@ Offset | Type | Name
 
 ### `bgfx::vk::FrameBufferVK`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `bgfx::TextureHandle[8]` | m_texture
 16 | (2) `bgfx::TextureHandle` | m_depth
 20 | (4) `unsigned int` | m_width
@@ -1586,7 +1586,7 @@ Offset | Type | Name
 
 ### `bgfx::Attachment`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `bgfx::TextureHandle` | handle
 2 | (2) `unsigned __int16` | mip
 4 | (2) `unsigned __int16` | layer
@@ -1594,14 +1594,14 @@ Offset | Type | Name
 
 ### `bgfx::UniformRegistry`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (6152) `bx::HandleHashMapT<1024,unsigned int>` | m_uniforms
 6152 | (1024) `bgfx::UniformRegInfo[512]` | m_info
 
 
 ### `bx::HandleHashMapT<1024,unsigned int>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | m_maxCapacity
 4 | (4) `unsigned int` | m_numElements
 8 | (4096) `unsigned int[1024]` | m_key
@@ -1610,37 +1610,37 @@ Offset | Type | Name
 
 ### `bgfx::UniformRegInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `bgfx::UniformHandle` | m_handle
 
 
 ### `bgfx::vk::StateCacheT<bgfx::vk::VkPipeline>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `tinystl::unordered_map<unsigned __int64,bgfx::vk::VkPipeline,bgfx::TinyStlAllocator>` | m_hashMap
 
 
 ### `bgfx::vk::StateCacheT<bgfx::vk::VkDescriptorSetLayout>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `tinystl::unordered_map<unsigned __int64,bgfx::vk::VkDescriptorSetLayout,bgfx::TinyStlAllocator>` | m_hashMap
 
 
 ### `bgfx::vk::StateCacheT<bgfx::vk::VkRenderPass>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `tinystl::unordered_map<unsigned __int64,bgfx::vk::VkRenderPass,bgfx::TinyStlAllocator>` | m_hashMap
 
 
 ### `bgfx::vk::StateCacheT<bgfx::vk::VkSampler>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `tinystl::unordered_map<unsigned __int64,bgfx::vk::VkSampler,bgfx::TinyStlAllocator>` | m_hashMap
 
 
 ### `bgfx::Resolution`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | width
 4 | (4) `unsigned int` | height
 8 | (4) `unsigned int` | reset
@@ -1648,7 +1648,7 @@ Offset | Type | Name
 
 ### `bgfx::TextVideoMem`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `bgfx::TextVideoMem::MemSlot *` | m_mem
 8 | (4) `unsigned int` | m_size
 12 | (2) `unsigned __int16` | m_width
@@ -1658,12 +1658,12 @@ Offset | Type | Name
 
 ### `BlockSerializationUtils::<lambda_c386b27b51dd5988e6b0ca8a8aac9607>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `bgfx::d3d12::ProgramD3D12`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const bgfx::d3d12::ShaderD3D12 *` | m_vsh
 8 | (8) `const bgfx::d3d12::ShaderD3D12 *` | m_fsh
 16 | (192) `bgfx::PredefinedUniform[24]` | m_predefined
@@ -1672,46 +1672,46 @@ Offset | Type | Name
 
 ### `Bedrock::NonOwnerPointer<WorkerPool>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<Bedrock::EnableNonOwnerReferences::ControlBlock>` | mControlBlock
 
 
 ### `Bedrock::NonOwnerPointer<Social::IUserManager>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<Bedrock::EnableNonOwnerReferences::ControlBlock>` | mControlBlock
 
 
 ### `buffer_span<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const std::string *` | mBegin
 8 | (8) `const std::string *` | mEnd
 
 
 ### `BaseAttributeMap`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::unordered_map<unsigned int,AttributeInstance>` | mInstanceMap
 64 | (24) `std::vector<AttributeInstanceHandle>` | mDirtyAttributes
 
 
 ### `BlockMaterialInstancesComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::unordered_map<std::string,BlockMaterialInstance>` | mMaterials
 
 
 ### `buffer_span_mut<BrightnessPair const >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const BrightnessPair *` | mBegin
 8 | (8) `const BrightnessPair *` | mEnd
 
 
 ### `bgfx::gl::ShaderGL`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | m_id
 4 | (4) `unsigned int` | m_type
 8 | (4) `unsigned int` | m_hash
@@ -1719,79 +1719,79 @@ Offset | Type | Name
 
 ### `bgfx::d3d12::IndexedResourceStatesManager<128,bgfx::FrameBufferHandle,bgfx::d3d12::FrameBufferD3D12,bgfx::d3d12::FrameBufferD3D12 [128]>::ResourceStateEntry`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `D3D12_RESOURCE_STATES` | m_initialState
 4 | (4) `D3D12_RESOURCE_STATES` | m_currentState
 
 
 ### `bgfx::VertexBufferHandle`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `unsigned __int16` | idx
 
 
 ### `bgfx::DynamicIndexBufferHandle`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `unsigned __int16` | idx
 
 
 ### `bgfx::DynamicVertexBufferHandle`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `unsigned __int16` | idx
 
 
 ### `bgfx::IndirectBufferHandle`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `unsigned __int16` | idx
 
 
 ### `bgfx::ShaderBufferHandle`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `unsigned __int16` | idx
 
 
 ### `buffer_span_mut<ClientBlockPipeline::BlockSchematicCell const >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const ClientBlockPipeline::BlockSchematicCell *` | mBegin
 8 | (8) `const ClientBlockPipeline::BlockSchematicCell *` | mEnd
 
 
 ### `buffer_span_mut<ClientBlockPipeline::BlockCell const >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const ClientBlockPipeline::BlockCell *` | mBegin
 8 | (8) `const ClientBlockPipeline::BlockCell *` | mEnd
 
 
 ### `buffer_span_mut<ClientBlockPipeline::BlockOpacityData const >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const ClientBlockPipeline::BlockOpacityData *` | mBegin
 8 | (8) `const ClientBlockPipeline::BlockOpacityData *` | mEnd
 
 
 ### `buffer_span_mut<float const >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const float *` | mBegin
 8 | (8) `const float *` | mEnd
 
 
 ### `BlockBakedMaterialDataComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `ClientBlockPipeline::BakedMaterialMap` | mBakedMaterials
 32 | (1) `bool` | mIsSolidOpaque
 
 
 ### `BlockSource`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `BlockSource_vtbl *` | __vftable
 8 | (4) `const std::thread::id` | mOwnerThreadID
 12 | (1) `const bool` | mAllowUnpopulatedChunks
@@ -1818,14 +1818,14 @@ Offset | Type | Name
 
 ### `BrightnessPair`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `Brightness` | sky
 1 | (1) `Brightness` | block
 
 
 ### `BaseActorRenderContext`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `BaseActorRenderContext_vtbl *` | __vftable
 8 | (4) `float` | mNumEntitiesRenderedThisFrame
 12 | (4) `float` | mLastFrameTime
@@ -1853,7 +1853,7 @@ Offset | Type | Name
 
 ### `Bounds`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (12) `Pos` | mMin
 12 | (12) `Pos` | mMax
 24 | (12) `Pos` | mDim
@@ -1864,74 +1864,74 @@ Offset | Type | Name
 
 ### `Bedrock::NonOwnerPointer<SoundEngine>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<Bedrock::EnableNonOwnerReferences::ControlBlock>` | mControlBlock
 
 
 ### `Bedrock::NonOwnerPointer<SoundPlayerInterface>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<Bedrock::EnableNonOwnerReferences::ControlBlock>` | mControlBlock
 
 
 ### `Bedrock::NonOwnerPointer<TextureAtlas const >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<Bedrock::EnableNonOwnerReferences::ControlBlock>` | mControlBlock
 
 
 ### `BedrockTexture`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<BedrockTextureData>` | mBedrockTextureData
 
 
 ### `Bedrock::NonOwnerPointer<LevelLoader>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<Bedrock::EnableNonOwnerReferences::ControlBlock>` | mControlBlock
 
 
 ### `Bedrock::NonOwnerPointer<DateManager const >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<Bedrock::EnableNonOwnerReferences::ControlBlock>` | mControlBlock
 
 
 ### `Bedrock::NonOwnerPointer<Music>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<Bedrock::EnableNonOwnerReferences::ControlBlock>` | mControlBlock
 
 
 ### `Bedrock::NonOwnerPointer<ContentAcquisition>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<Bedrock::EnableNonOwnerReferences::ControlBlock>` | mControlBlock
 
 
 ### `Bedrock::NonOwnerPointer<WebSocketCommManager>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<Bedrock::EnableNonOwnerReferences::ControlBlock>` | mControlBlock
 
 
 ### `Bedrock::NonOwnerPointer<TrialManager>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<Bedrock::EnableNonOwnerReferences::ControlBlock>` | mControlBlock
 
 
 ### `ButtonUpRightOfFirstRefusalRequest`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | buttonId
 8 | (16) `std::weak_ptr<UIControl>` | control
 
 
 ### `ButtonScreenEventData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | id
 4 | (4) `unsigned int` | fromButtonId
 8 | (1) `ButtonState` | previousState
@@ -1948,7 +1948,7 @@ Offset | Type | Name
 
 ### `bgfx::FencedRingBuffer<bgfx::RingBuffer<bgfx::d3d12::StagingBufferD3D12,unsigned __int64,void *,bgfx::d3d12::RingBufferAllocator<0> >::RingBufferResourceAllocator,0>::ScopedAllocation`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<bgfx::RingBuffer<bgfx::d3d12::StagingBufferD3D12,unsigned __int64,void *,bgfx::d3d12::RingBufferAllocator<0> >::RingBufferResourceAllocator::Buffer>` | m_buffer
 16 | (8) `const unsigned __int64` | m_offset
 24 | (8) `const unsigned __int64` | m_size
@@ -1958,21 +1958,21 @@ Offset | Type | Name
 
 ### `buffer_span<int>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const int *` | mBegin
 8 | (8) `const int *` | mEnd
 
 
 ### `buffer_span_mut<std::shared_ptr<LevelChunk> >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::shared_ptr<LevelChunk> *` | mBegin
 8 | (8) `std::shared_ptr<LevelChunk> *` | mEnd
 
 
 ### `BasicTimer`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `long double` | mTimeDelay
 8 | (8) `long double` | mStartTime
 16 | (64) `std::function<double __cdecl(void)>` | mGetCurrentTimeCallback
@@ -1980,20 +1980,20 @@ Offset | Type | Name
 
 ### `BossInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | mName
 32 | (4) `float` | mHealth
 
 
 ### `BossEventListener`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `BossEventListener_vtbl *` | __vftable
 
 
 ### `bgfx::d3d12::ResourceStatesMananger`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (41488) `bgfx::d3d12::IndexedResourceStatesManager<4096,bgfx::IndexBufferHandle,bgfx::d3d12::BufferD3D12,bgfx::d3d12::BufferD3D12 [4096]>` | m_indexBuffers
 41488 | (41488) `bgfx::d3d12::IndexedResourceStatesManager<4096,bgfx::VertexBufferHandle,bgfx::d3d12::VertexBufferD3D12,bgfx::d3d12::VertexBufferD3D12 [4096]>` | m_vertexBuffers
 82976 | (41488) `bgfx::d3d12::IndexedResourceStatesManager<4096,bgfx::TextureHandle,bgfx::d3d12::TextureD3D12,bgfx::d3d12::TextureD3D12 [4096]>` | m_textures
@@ -2003,7 +2003,7 @@ Offset | Type | Name
 
 ### `bgfx::d3d12::IndexedResourceStatesManager<4096,bgfx::IndexBufferHandle,bgfx::d3d12::BufferD3D12,bgfx::d3d12::BufferD3D12 [4096]>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `bgfx::d3d12::BufferD3D12 (*)[4096]` | m_resources
 8 | (2) `unsigned __int16` | m_count
 16 | (512) `std::bitset<4096>` | m_sets
@@ -2013,14 +2013,14 @@ Offset | Type | Name
 
 ### `bgfx::d3d12::IndexedResourceStatesManager<4096,bgfx::IndexBufferHandle,bgfx::d3d12::BufferD3D12,bgfx::d3d12::BufferD3D12 [4096]>::ResourceStateEntry`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `D3D12_RESOURCE_STATES` | m_initialState
 4 | (4) `D3D12_RESOURCE_STATES` | m_currentState
 
 
 ### `bgfx::d3d12::IndexedResourceStatesManager<4096,bgfx::VertexBufferHandle,bgfx::d3d12::VertexBufferD3D12,bgfx::d3d12::VertexBufferD3D12 [4096]>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `bgfx::d3d12::VertexBufferD3D12 (*)[4096]` | m_resources
 8 | (2) `unsigned __int16` | m_count
 16 | (512) `std::bitset<4096>` | m_sets
@@ -2030,14 +2030,14 @@ Offset | Type | Name
 
 ### `bgfx::d3d12::IndexedResourceStatesManager<4096,bgfx::VertexBufferHandle,bgfx::d3d12::VertexBufferD3D12,bgfx::d3d12::VertexBufferD3D12 [4096]>::ResourceStateEntry`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `D3D12_RESOURCE_STATES` | m_initialState
 4 | (4) `D3D12_RESOURCE_STATES` | m_currentState
 
 
 ### `bgfx::d3d12::IndexedResourceStatesManager<4096,bgfx::TextureHandle,bgfx::d3d12::TextureD3D12,bgfx::d3d12::TextureD3D12 [4096]>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `bgfx::d3d12::TextureD3D12 (*)[4096]` | m_resources
 8 | (2) `unsigned __int16` | m_count
 16 | (512) `std::bitset<4096>` | m_sets
@@ -2047,14 +2047,14 @@ Offset | Type | Name
 
 ### `bgfx::d3d12::IndexedResourceStatesManager<4096,bgfx::TextureHandle,bgfx::d3d12::TextureD3D12,bgfx::d3d12::TextureD3D12 [4096]>::ResourceStateEntry`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `D3D12_RESOURCE_STATES` | m_initialState
 4 | (4) `D3D12_RESOURCE_STATES` | m_currentState
 
 
 ### `bgfx::d3d12::IndexedResourceStatesManager<4096,bgfx::ShaderBufferHandle,bgfx::d3d12::BufferD3D12,bgfx::d3d12::BufferD3D12 [4096]>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `bgfx::d3d12::BufferD3D12 (*)[4096]` | m_resources
 8 | (2) `unsigned __int16` | m_count
 16 | (512) `std::bitset<4096>` | m_sets
@@ -2064,14 +2064,14 @@ Offset | Type | Name
 
 ### `bgfx::d3d12::IndexedResourceStatesManager<4096,bgfx::ShaderBufferHandle,bgfx::d3d12::BufferD3D12,bgfx::d3d12::BufferD3D12 [4096]>::ResourceStateEntry`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `D3D12_RESOURCE_STATES` | m_initialState
 4 | (4) `D3D12_RESOURCE_STATES` | m_currentState
 
 
 ### `bgfx::d3d12::IndexedResourceStatesManager<128,bgfx::FrameBufferHandle,bgfx::d3d12::FrameBufferD3D12,bgfx::d3d12::FrameBufferD3D12 [128]>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `bgfx::d3d12::FrameBufferD3D12 (*)[128]` | m_resources
 8 | (2) `unsigned __int16` | m_count
 16 | (16) `std::bitset<128>` | m_sets
@@ -2081,19 +2081,19 @@ Offset | Type | Name
 
 ### `Bedrock::NonOwnerPointer<ContentCatalogService>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<Bedrock::EnableNonOwnerReferences::ControlBlock>` | mControlBlock
 
 
 ### `Bedrock::NonOwnerPointer<StoreCatalogRepository>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<Bedrock::EnableNonOwnerReferences::ControlBlock>` | mControlBlock
 
 
 ### `BaseCommandBlock`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | mLastOutputId
 32 | (24) `std::vector<std::string>` | mLastOutputParams
 56 | (32) `std::string` | mCommand
@@ -2109,7 +2109,7 @@ Offset | Type | Name
 
 ### `BatchClippingState`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `glm::tvec2<float,0>` | mTopLeftClip
 8 | (8) `glm::tvec2<float,0>` | mBottomRightClip
 16 | (1) `bool` | mClipsChildren
@@ -2119,14 +2119,14 @@ Offset | Type | Name
 
 ### `BatchVisualState`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float` | mAlpha
 4 | (4) `float` | mPropagatedAlpha
 
 
 ### `BatchKey`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `UIBatchType` | mBatchType
 4 | (4) `int` | mCustomId
 8 | (4) `int` | mDepth
@@ -2139,7 +2139,7 @@ Offset | Type | Name
 
 ### `BindInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `BindType` | bindType
 4 | (1) `bool` | autoScale
 8 | (12) `Vec3` | pos
@@ -2149,19 +2149,19 @@ Offset | Type | Name
 
 ### `BindingFactory`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `BindingFactory_vtbl *` | __vftable
 
 
 ### `BuildActionIntention`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mAction
 
 
 ### `bgfx::d3d9::VertexBufferD3D9`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IDirect3DVertexBuffer9 *` | m_ptr
 8 | (8) `unsigned __int8 *` | m_dynamic
 16 | (4) `unsigned int` | m_size
@@ -2170,7 +2170,7 @@ Offset | Type | Name
 
 ### `BossEventPacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `Packet` | baseclass_0
 40 | (4) `const int` | FLAG_DARKEN
 44 | (4) `const int` | FLAG_FOG
@@ -2187,13 +2187,13 @@ Offset | Type | Name
 
 ### `Bedrock::NonOwnerPointer<FogDefinitionRegistry const >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<Bedrock::EnableNonOwnerReferences::ControlBlock>` | mControlBlock
 
 
 ### `BlockEventPacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `Packet` | baseclass_0
 40 | (12) `NetworkBlockPosition` | mPos
 52 | (4) `int` | mB0
@@ -2202,14 +2202,14 @@ Offset | Type | Name
 
 ### `buffer_span_mut<ExpressionNode>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ExpressionNode *` | mBegin
 8 | (8) `ExpressionNode *` | mEnd
 
 
 ### `BlockGeometry::ElementBox`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (12) `glm::tvec3<float,0>` | mOrigin
 12 | (12) `glm::tvec3<float,0>` | mSize
 24 | (384) `std::array<BlockGeometry::Face,6>` | mFaces
@@ -2217,7 +2217,7 @@ Offset | Type | Name
 
 ### `BlockGeometry::Face`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float` | u0
 4 | (4) `float` | v0
 8 | (4) `float` | u1
@@ -2230,7 +2230,7 @@ Offset | Type | Name
 
 ### `BlockGraphics`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `BlockGraphics_vtbl *` | __vftable
 8 | (8) `IsotropicFaceData` | mIsotropicFaceData
 16 | (8) `const Block *` | mBlock
@@ -2251,19 +2251,19 @@ Offset | Type | Name
 
 ### `BlockGraphics::initBlocks::__l2::<lambda_ae40432cfeaa2b9f26426c68835add40>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `BlockOccluder`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `std::bitset<6>` | mFacingOccluded
 8 | (8) `BlockTessellatorCache *` | mBlockCache
 
 
 ### `BlockTessellatorBlockInWorld`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const Block *` | block
 8 | (4) `BlockRenderLayer` | layer
 12 | (12) `BlockPos` | pos
@@ -2272,7 +2272,7 @@ Offset | Type | Name
 
 ### `BlockTessellatorCustomExtraData::CauldronData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `mce::Color` | mColor
 16 | (4) `int` | mTextureIndex
 20 | (4) `int` | mRenderLayer
@@ -2280,7 +2280,7 @@ Offset | Type | Name
 
 ### `BannerBlockActor`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (288) `BlockActor` | baseclass_0
 288 | (1) `bool` | mDirtyBounds
 289 | (1) `unsigned __int8` | mBaseColor
@@ -2291,7 +2291,7 @@ Offset | Type | Name
 
 ### `BlockActor`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `BlockActor_vtbl *` | __vftable
 8 | (4) `int` | mTickCount
 12 | (16) `mce::Color` | mFront
@@ -2322,7 +2322,7 @@ Offset | Type | Name
 
 ### `BannerRenderer::_setupTextureAtlas::__l2::<lambda_d1aa061d604d54f0e610811945668f01>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `BannerRenderer *const` | __this
 8 | (8) `mce::TextureGroup *` | textures
 16 | (24) `std::vector<std::string>` | patternTextures
@@ -2331,81 +2331,81 @@ Offset | Type | Name
 
 ### `buffer_span_mut<SubChunk>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SubChunk *` | mBegin
 8 | (8) `SubChunk *` | mEnd
 
 
 ### `ByteMask`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `unsigned __int8` | mask
 
 
 ### `BlockTessellatorCustomExtraData::Map`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::unordered_map<BlockPos,BlockTessellatorCustomExtraData::CauldronData>` | mExtraCauldronData
 64 | (64) `std::unordered_map<BlockPos,BlockTessellatorCustomExtraData::FlowerPotData>` | mExtraFlowerPotData
 
 
 ### `buffer_span_mut<RangeIndices>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `RangeIndices *` | mBegin
 8 | (8) `RangeIndices *` | mEnd
 
 
 ### `BlockActorBlockSyncMessage`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (12) `BlockPos` | mBlockEntityPos
 12 | (4) `_BYTE[4]` | mMessage
 
 
 ### `buffer_span_mut<CommandListFuture>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `CommandListFuture *` | mBegin
 8 | (8) `CommandListFuture *` | mEnd
 
 
 ### `BlockDestructInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float` | destructRate
 4 | (4) `float` | destructProgress
 
 
 ### `buffer_span_mut<std::shared_ptr<RenderChunkInstanced> >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::shared_ptr<RenderChunkInstanced> *` | mBegin
 8 | (8) `std::shared_ptr<RenderChunkInstanced> *` | mEnd
 
 
 ### `Bedrock::Threading::CountReference`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Bedrock::Threading::CountTracker *` | mCountSource
 
 
 ### `bgfx::d3d12::FenceSyncContext::addBuffer::__l2::<lambda_ac6b7a419de5ff0a554a1beba548a9d9>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `bgfx::RingBuffer<bgfx::d3d12::StagingBufferD3D12,unsigned __int64,void *,bgfx::d3d12::RingBufferAllocator<0> > *` | buffer
 
 
 ### `Bedrock::Threading::Burst::Details::WorkTargetItem`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `unsigned __int64` | mWorkerCount
 8 | (8) `unsigned __int64` | mKickCount
 
 
 ### `BlockDescriptor`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (48) `HashedString` | mBlockName
 48 | (16) `std::shared_ptr<ExpressionNode>` | mTags
 64 | (24) `std::vector<BlockDescriptor::BlockState>` | mStates
@@ -2417,7 +2417,7 @@ Offset | Type | Name
 
 ### `BuoyancyComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float` | mBaseBuoyancy
 4 | (4) `float` | mDragDownOnRemoval
 8 | (4) `float` | mBigWaveProbability
@@ -2430,31 +2430,31 @@ Offset | Type | Name
 
 ### `Bedrock::NonOwnerPointer<PackStorage::PackStorageImpl>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<Bedrock::EnableNonOwnerReferences::ControlBlock>` | mControlBlock
 
 
 ### `Bedrock::NonOwnerPointer<cg::TextureSetLayerDefinition const >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<Bedrock::EnableNonOwnerReferences::ControlBlock>` | mControlBlock
 
 
 ### `BiomeComponentLoading::_buildSchema::__l2::<lambda_28e21e68b5d2bdce02834018dcd63395>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::function<CappedSurfaceAttributes & __cdecl(std::pair<std::reference_wrapper<Biome>,std::reference_wrapper<IWorldRegistriesProvider> > *)>` | componentAccessor
 
 
 ### `BiomeComponentLoading::_buildSchema::__l2::<lambda_d6ab075ac52cb670009075d6b429800e>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::function<CappedSurfaceAttributes & __cdecl(std::pair<std::reference_wrapper<Biome>,std::reference_wrapper<IWorldRegistriesProvider> > *)>` | componentAccessor
 
 
 ### `BlockRaycastComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | mEnabled
 1 | (1) `bool` | mWorldInfoBaked
 4 | (28) `AABB` | mOriginalAABB
@@ -2463,45 +2463,45 @@ Offset | Type | Name
 
 ### `BlockFrictionComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float` | mFriction
 
 
 ### `BlockDisplayNameComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | mDisplayName
 
 
 ### `BlockGeometryComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | mGeometryName
 32 | (16) `std::shared_ptr<ClientBlockPipeline::BlockSchematic>` | mBlockSchematic
 
 
 ### `BlockLightEmissionComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `Brightness` | mLightEmission
 
 
 ### `BlockPlacementCondition`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `unsigned __int8` | directionalFilter
 8 | (24) `std::vector<BlockDescriptor>` | blockFilter
 
 
 ### `BlockPlacementFilterComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<BlockPlacementCondition>` | conditions
 
 
 ### `BlockQueuedTickingComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `float[2]` | mDelayRange
 8 | (1) `bool` | mLooping
 16 | (320) `DefinitionTrigger` | mOnTimeDown
@@ -2509,20 +2509,20 @@ Offset | Type | Name
 
 ### `BlockUnitCubeComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<ClientBlockPipeline::BlockSchematic>` | mBlockSchematic
 
 
 ### `BidirectionalUnorderedMap<int,unsigned __int64>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::unordered_map<int,unsigned __int64>` | mRight
 64 | (64) `std::unordered_map<unsigned __int64,int>` | mLeft
 
 
 ### `BlockVolume`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `buffer_span_mut<Block const *>` | mBlocks
 16 | (4) `unsigned int` | mWidth
 20 | (4) `unsigned int` | mHeight
@@ -2531,21 +2531,21 @@ Offset | Type | Name
 
 ### `buffer_span_mut<Block const *>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const Block **` | mBegin
 8 | (8) `const Block **` | mEnd
 
 
 ### `BoundingBox`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (12) `BlockPos` | min
 12 | (12) `BlockPos` | max
 
 
 ### `BeardAndShaverDescription`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `BoundingBox` | mCachedPieceBounds
 24 | (4) `int` | mCachedPieceBaseY
 28 | (4) `int` | mCachedXCenter
@@ -2559,7 +2559,7 @@ Offset | Type | Name
 
 ### `BreedableType`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (176) `ActorDefinitionIdentifier` | mMateType
 176 | (176) `ActorDefinitionIdentifier` | mBabyType
 352 | (320) `DefinitionTrigger` | mOnBred
@@ -2567,7 +2567,7 @@ Offset | Type | Name
 
 ### `BlockBreakSensorComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float` | mSensorRadius
 4 | (12) `Vec3` | mSensorPos
 16 | (16) `BlockEventDispatcherToken` | mListener
@@ -2576,28 +2576,28 @@ Offset | Type | Name
 
 ### `BlockEventDispatcherToken`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mHandle
 8 | (8) `BlockEventDispatcher *` | mDispatcher
 
 
 ### `BinaryHeap`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<PathfinderNode *>` | heap
 24 | (4) `int` | sizeVar
 
 
 ### `BlockSet`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float` | cost
 8 | (24) `std::vector<BlockDescriptor>` | blockDescriptors
 
 
 ### `BossComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | mName
 32 | (1) `bool` | mHealthBarVisible
 36 | (4) `float` | mHealthPercent
@@ -2614,7 +2614,7 @@ Offset | Type | Name
 
 ### `BehaviorComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `BehaviorTreeDefinitionPtr` | mTreeDefinition
 16 | (8) `std::unique_ptr<BehaviorNode>` | mRoot
 24 | (88) `BehaviorData` | mBehaviorData
@@ -2623,20 +2623,20 @@ Offset | Type | Name
 
 ### `BehaviorData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::unordered_map<std::string,std::unique_ptr<BehaviorData::DataProxy>>` | mData
 64 | (24) `std::vector<std::unique_ptr<BehaviorData::DataProxy>>` | mDataStack
 
 
 ### `BreakBlocksSystem::tick::__l2::<lambda_6fc3bb95378df2694061b49575fc6c14>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `BreakBlocksSystem *const` | __this
 
 
 ### `BreathableComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mSuffocateTime
 4 | (4) `float` | mInhaleTime
 8 | (4) `int` | mAirRegenPerTick
@@ -2655,21 +2655,21 @@ Offset | Type | Name
 
 ### `ByteTag`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Tag` | baseclass_0
 8 | (1) `unsigned __int8` | data
 
 
 ### `ByteArrayTag`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Tag` | baseclass_0
 8 | (24) `TagMemoryChunk` | data
 
 
 ### `BatchedNetworkPeer::DataCallback`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | data
 32 | (4) `Compressibility` | compressible
 40 | (64) `std::function<void __cdecl(void)>` | callback
@@ -2677,7 +2677,7 @@ Offset | Type | Name
 
 ### `BookEditPacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `Packet` | baseclass_0
 40 | (1) `BookEditAction` | mAction
 44 | (4) `int` | mBookSlot
@@ -2690,7 +2690,7 @@ Offset | Type | Name
 
 ### `BlockVolume::BlockVolumeIter`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (12) `Pos` | pos
 12 | (12) `Pos` | dims
 24 | (8) `buffer_span_mut<Block const *>::iterator` | blockIter
@@ -2698,13 +2698,13 @@ Offset | Type | Name
 
 ### `buffer_span_mut<Block const *>::iterator`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const Block **` | mPtr
 
 
 ### `BinaryStream`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `ReadOnlyBinaryStream` | baseclass_0
 64 | (32) `std::string` | mOwnedBuffer
 96 | (8) `std::string *` | mBuffer
@@ -2712,13 +2712,13 @@ Offset | Type | Name
 
 ### `Bedrock::NonOwnerPointer<ServerInstanceEventCoordinator>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<Bedrock::EnableNonOwnerReferences::ControlBlock>` | mControlBlock
 
 
 ### `BlockChange`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mUpdateFlags
 8 | (8) `const Block *` | mOldBlock
 16 | (8) `const Block *` | mNewBlock
@@ -2726,20 +2726,20 @@ Offset | Type | Name
 
 ### `Bedrock::Threading::completeThen::__l2::<lambda_0b7e0b68a12c863263a53ce71992289b>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<Bedrock::Threading::AsyncDeferredResultT<std::pair<Json::Value,Core::PathBuffer<std::string > > > >` | wrapperTask
 16 | (40) `ActorDefinitionGroup::_getResources::__l8::<lambda_d64fe27ef6da0a56cad972a0ec1d52ab>` | callback
 
 
 ### `Bedrock::NonOwnerPointer<Level>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<Bedrock::EnableNonOwnerReferences::ControlBlock>` | mControlBlock
 
 
 ### `BarterComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ActorUniqueID` | mItemOriginationActorUniqueID
 8 | (2) `__int16` | mBarterItemId
 10 | (1) `bool` | mExecuteTrade
@@ -2747,21 +2747,21 @@ Offset | Type | Name
 
 ### `BlockReducer`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `BlockReducer_vtbl *` | __vftable
 8 | (64) `std::unordered_map<int,std::vector<ItemStack>>` | mBlockToElements
 
 
 ### `BlockLegacy::tryGetStateFromLegacyData::__l2::<lambda_aa356eec0c94171593ee29f169b1c8dd>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const BlockLegacy *const` | __this
 8 | (2) `unsigned __int16` | data
 
 
 ### `BuildMatch`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | mMatched
 1 | (1) `unsigned __int8` | mForward
 2 | (1) `unsigned __int8` | mUp
@@ -2775,50 +2775,50 @@ Offset | Type | Name
 
 ### `BiomeComponentLoading::_buildSchema::__l2::<lambda_588cbba04482f56d12cfb2e5c6cae432>::()::__l2::<lambda_45198a55f8a28523ff9cd66bab017799>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::function<BiomeDecorationAttributes<ListedFeatures> & __cdecl(std::pair<std::reference_wrapper<Biome>,std::reference_wrapper<IWorldRegistriesProvider> > *)>` | componentAccessor
 
 
 ### `BiomeComponentLoading::_buildSchema::__l2::<lambda_2b22735977b37e611b382921ec440033>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::function<ClimateAttributes & __cdecl(std::pair<std::reference_wrapper<Biome>,std::reference_wrapper<IWorldRegistriesProvider> > *)>` | componentAccessor
 
 
 ### `BiomeComponentLoading::_buildSchema::__l2::<lambda_45252a856d8739e9c6bb0100836f32b3>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::function<SurfaceMaterialAttributes & __cdecl(std::pair<std::reference_wrapper<Biome>,std::reference_wrapper<IWorldRegistriesProvider> > *)>` | componentAccessor
 
 
 ### `BiomeComponentLoading::_buildSchema::__l2::<lambda_e1885f2df24d7b159c293c55fe6bfd77>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::function<OverworldHeightAttributes & __cdecl(std::pair<std::reference_wrapper<Biome>,std::reference_wrapper<IWorldRegistriesProvider> > *)>` | componentAccessor
 
 
 ### `BiomeComponentLoading::_buildSchema::__l2::<lambda_9cd4a940da8b9d3c7f88c55d5cb46739>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::function<OverworldHeightAttributes & __cdecl(std::pair<std::reference_wrapper<Biome>,std::reference_wrapper<IWorldRegistriesProvider> > *)>` | componentAccessor
 
 
 ### `BiomeDecorationAttributes<ListedFeatures>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<BiomeDecorationFeature *>` | mFeatures
 24 | (64) `std::unordered_set<HashedString>` | mFeatureRuleNameSet
 
 
 ### `BlockActorFactory::createBlockEntity::__l4::<lambda_0a8b0200222e817880ba31bb39105399>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `BlockActorType *` | type
 
 
 ### `BaseRailBlock::Rail`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `BlockSource *` | mRegion
 8 | (12) `BlockPos` | mPos
 20 | (1) `bool` | mUsesDataBit
@@ -2827,7 +2827,7 @@ Offset | Type | Name
 
 ### `BlockDefinition`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (112) `SemVersion` | mFormatVersion
 112 | (192) `BlockDescription` | mDescription
 304 | (48) `BlockComponentGroupDescription` | mBaseComponents
@@ -2837,7 +2837,7 @@ Offset | Type | Name
 
 ### `BlockDescription`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | mIdentifier
 32 | (24) `std::vector<BlockStateDefinition>` | mStates
 56 | (32) `std::string` | mMaterial
@@ -2849,14 +2849,14 @@ Offset | Type | Name
 
 ### `BlockComponentGroupDescription`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<std::shared_ptr<BlockComponentDescription>>` | mDescriptions
 24 | (24) `std::vector<HashedString>` | mTags
 
 
 ### `BlockStateDefinition`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | mName
 32 | (1) `_BYTE[1]` | mType
 40 | (8) `std::unique_ptr<ListTag>` | mEnumValues
@@ -2865,7 +2865,7 @@ Offset | Type | Name
 
 ### `BlockDefinitionGroup::loadResourcesMod::__l2::BlockResource`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (112) `SemVersion` | mVersion
 112 | (192) `BlockDescription` | mDescription
 304 | (16) `Json::Value` | mRoot
@@ -2873,7 +2873,7 @@ Offset | Type | Name
 
 ### `BlockSource::fetchBlocksInCylinder::__l2::<lambda_0d9328dc3cbb3a479fb4635880f92988>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `BlockSource *const` | __this
 8 | (8) `const BlockPos *` | centerPos
 16 | (4) `unsigned int` | radius
@@ -2883,7 +2883,7 @@ Offset | Type | Name
 
 ### `BlockSource::fetchBlocksInBox::__l2::<lambda_f079637cc512a127f579039b711c8a60>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `BlockSource *const` | __this
 8 | (8) `const BoundingBox *` | box
 16 | (8) `std::function<bool __cdecl(Block const &)> *` | predicate
@@ -2891,14 +2891,14 @@ Offset | Type | Name
 
 ### `BlockTickingQueue::BlockTick`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | mIsRemoved
 8 | (40) `TickNextTickData` | mData
 
 
 ### `BlockFetchResult`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::reference_wrapper<Block const >` | mBlock
 8 | (12) `BlockPos` | mBlockPos
 20 | (4) `unsigned int` | mDistanceSquared
@@ -2906,7 +2906,7 @@ Offset | Type | Name
 
 ### `BiomeDecorationFeature`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1816) `ScatterParams` | mScatter
 1816 | (24) `WeakRefT<FeatureRefTraits>` | mFeature
 1840 | (48) `HashedString` | mIdentifier
@@ -2914,13 +2914,13 @@ Offset | Type | Name
 
 ### `BiomeFilterGroup`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `FilterGroup` | baseclass_0
 
 
 ### `Block`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Block_vtbl *` | __vftable
 8 | (2) `const unsigned __int16` | mData
 16 | (8) `gsl::not_null<BlockLegacy *>` | mLegacyBlock
@@ -2935,56 +2935,56 @@ Offset | Type | Name
 
 ### `BiomeSource`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `BiomeSource_vtbl *` | __vftable
 
 
 ### `BonusChestFeature`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `Feature` | baseclass_0
 
 
 ### `BigEndianStringByteInput`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `StringByteInput` | baseclass_0
 
 
 ### `BytesDataInput`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IDataInput` | baseclass_0
 
 
 ### `BlockTickingQueue::TickDataSet`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `MovePriorityQueue<BlockTickingQueue::BlockTick,std::greater<BlockTickingQueue::BlockTick> >` | baseclass_0
 
 
 ### `BiomeChunkData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `unsigned __int8` | biome
 
 
 ### `bgfx::Memory`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `unsigned __int8 *` | data
 8 | (4) `unsigned int` | size
 
 
 ### `bgfx::ShaderHandle`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `unsigned __int16` | idx
 
 
 ### `bgfx::Init`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `bgfx::RendererType::Enum` | type
 4 | (2) `unsigned __int16` | vendorId
 6 | (2) `unsigned __int16` | deviceId
@@ -2998,7 +2998,7 @@ Offset | Type | Name
 
 ### `bgfx::Init::Limits`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `unsigned __int16` | maxEncoders
 4 | (4) `unsigned int` | transientVbSize
 8 | (4) `unsigned int` | transientIbSize
@@ -3007,7 +3007,7 @@ Offset | Type | Name
 
 ### `bgfx::InstanceDataBuffer`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `unsigned __int8 *` | data
 8 | (4) `unsigned int` | size
 12 | (4) `unsigned int` | offset
@@ -3018,56 +3018,56 @@ Offset | Type | Name
 
 ### `BaseGamePackSlices`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<BaseGamePackSlices::BaseGameVersionPack>` | mBaseGameVersionPacks
 24 | (24) `std::vector<BaseGamePackSlices::BaseGameVersionPack>` | mBaseGameVersionTestPacks
 
 
 ### `BiomeComponentLoading::_buildSchema::__l2::<lambda_304b29c86db3d6bdd6f6537782e989e0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::function<MesaSurfaceAttributes & __cdecl(std::pair<std::reference_wrapper<Biome>,std::reference_wrapper<IWorldRegistriesProvider> > *)>` | componentAccessor
 
 
 ### `BiomeComponentLoading::_buildSchema::__l2::<lambda_7bf6a58d63e3c81bd35ab4e9d081ecbf>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::function<WeightedBiomeAttributes<HillsTransformation> & __cdecl(std::pair<std::reference_wrapper<Biome>,std::reference_wrapper<IWorldRegistriesProvider> > *)>` | componentAccessor
 
 
 ### `BiomeComponentLoading::_buildSchema::__l2::<lambda_86a0f9e6e32f92158f68bfa3784704c3>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::function<WeightedBiomeAttributes<MutateBiomeTransformation> & __cdecl(std::pair<std::reference_wrapper<Biome>,std::reference_wrapper<IWorldRegistriesProvider> > *)>` | componentAccessor
 
 
 ### `BiomeComponentLoading::_buildSchema::__l2::<lambda_2892db5edaa4d8160c8761f115eea62c>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::function<WeightedBiomeAttributes<RiverTransformation> & __cdecl(std::pair<std::reference_wrapper<Biome>,std::reference_wrapper<IWorldRegistriesProvider> > *)>` | componentAccessor
 
 
 ### `BiomeComponentLoading::_buildSchema::__l2::<lambda_9d9461e1e6ffd446a377f5480aefaf21>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::function<WeightedBiomeAttributes<ShoreTransformation> & __cdecl(std::pair<std::reference_wrapper<Biome>,std::reference_wrapper<IWorldRegistriesProvider> > *)>` | componentAccessor
 
 
 ### `BiomeComponentLoading::_buildSchema::__l2::<lambda_f24f1fe26483478c4c9f59e59c913b83>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::function<std::vector<std::pair<Biome *,unsigned int>> & __cdecl(std::pair<std::reference_wrapper<Biome>,std::reference_wrapper<IWorldRegistriesProvider> > *)>` | biomeVectorAccessor
 
 
 ### `BlockSelector`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `BlockSelector_vtbl *` | __vftable
 
 
 ### `BlockTickingQueue`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `LevelChunk *` | mOwningChunk
 8 | (8) `Tick` | mCurrentTick
 16 | (24) `BlockTickingQueue::TickDataSet` | mNextTickQueue
@@ -3078,14 +3078,14 @@ Offset | Type | Name
 
 ### `BiomeArea`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | mStride
 8 | (24) `std::vector<Biome const *>` | mBiomes
 
 
 ### `Biome`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Biome_vtbl *` | __vftable
 8 | (32) `std::string` | mName
 40 | (4) `int` | mDebugMapColor
@@ -3119,12 +3119,12 @@ Offset | Type | Name
 
 ### `BlockActorFactory::registerCustomBlockEntityCreationCallback::__l2::<lambda_fff5251917a5d96d413be26580a41046>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ButtonChordTracker::ChordButtonDetails`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | buttonMaskForThisChord
 4 | (4) `int` | completeChordMask
 8 | (4) `unsigned int` | resultantButtonId
@@ -3134,7 +3134,7 @@ Offset | Type | Name
 
 ### `ButtonEventData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | id
 4 | (1) `ButtonState` | state
 5 | (1) `bool` | exclusive
@@ -3143,7 +3143,7 @@ Offset | Type | Name
 
 ### `ButtonChordTracker::TrackerMappingAndState`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::unordered_multimap<unsigned int,ButtonChordTracker::ChordButtonDetails>` | mChordMap
 64 | (24) `std::vector<int>` | mChordState
 88 | (24) `std::vector<std::vector<unsigned int>>` | mButtonSequences
@@ -3151,21 +3151,21 @@ Offset | Type | Name
 
 ### `Bedrock::JSONObject::ValueWrapper`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `Bedrock::JSONObject::JSONType` | mType
 8 | (64) `$26CCF555AF14FCAE7148684434635FE2` | ___u1
 
 
 ### `Bedrock::JSONObject::ValueWrapper::NumberInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `$3EB15921B14454EE0C46C34FC3F1335B` | ___u0
 8 | (1) `bool` | mIsFloatingPoint
 
 
 ### `Bedrock::JSONObject::ValueWrapper::StringInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const char *` | mString
 8 | (4) `unsigned int` | mLength
 12 | (4) `unsigned int` | mCopy
@@ -3173,26 +3173,26 @@ Offset | Type | Name
 
 ### `bgfx::d3d12rtx::IrradianceCacheClearContext`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | m_blasIdx
 
 
 ### `Bedrock::JSONObject::ParseHandler`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `gsl::not_null<Bedrock::JSONObject::Document *>` | mDocument
 8 | (8) `Bedrock::JSONObject::ParseHandler::StackEntry *` | mStack
 
 
 ### `Bedrock::Intrusive::list<Bedrock::JSONObject::NodeBase,Bedrock::JSONObject::NodeBase,Bedrock::JSONObject::NodeBase>::iterator_base<0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Bedrock::JSONObject::NodeBase *` | mHook
 
 
 ### `black_TWorker_`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | precision_bits
 4 | (4) `int` | precision
 8 | (4) `int` | precision_half
@@ -3236,21 +3236,21 @@ Offset | Type | Name
 
 ### `black_TBand_`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `__int16` | y_min
 2 | (2) `__int16` | y_max
 
 
 ### `BDF_PropertyRec_`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `BDF_PropertyType_` | type
 8 | (8) `union {const char *atom;int integer;unsigned int cardinal;}` | u
 
 
 ### `bufferinfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `void *` | buf
 8 | (8) `_object *` | obj
 16 | (8) `__int64` | len
@@ -3267,7 +3267,7 @@ Offset | Type | Name
 
 ### `buffered`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int64` | ob_refcnt
 8 | (8) `_typeobject *` | ob_type
 16 | (8) `_object *` | raw
@@ -3293,7 +3293,7 @@ Offset | Type | Name
 
 ### `BCinfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | e0
 4 | (4) `int` | nd
 8 | (4) `int` | nd0
@@ -3302,14 +3302,14 @@ Offset | Type | Name
 
 ### `bgfx::NonLocalAllocator::Allocation`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `unsigned __int64` | m_ptr
 8 | (4) `unsigned int` | m_offset
 
 
 ### `bgfx::Context::DynamicVertexAllocation`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `unsigned __int64` | m_ptr
 8 | (4) `unsigned int` | m_offset
 16 | (8) `unsigned __int64` | m_totalSize
@@ -3317,7 +3317,7 @@ Offset | Type | Name
 
 ### `bx::MemoryReader`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `bx::ReaderSeekerI` | baseclass_0
 16 | (8) `const unsigned __int8 *` | m_data
 24 | (8) `__int64` | m_pos
@@ -3326,40 +3326,40 @@ Offset | Type | Name
 
 ### `bx::ReaderSeekerI`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `bx::ReaderI` | baseclass_0
 8 | (8) `bx::SeekerI` | baseclass_8
 
 
 ### `bx::ReaderI`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `bx::ReaderI_vtbl *` | __vftable
 
 
 ### `bx::SeekerI`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `bx::SeekerI_vtbl *` | __vftable
 
 
 ### `bx::Error`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `bx::StringView` | m_msg
 16 | (4) `unsigned int` | m_code
 
 
 ### `bx::StringView`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const char *` | m_ptr
 8 | (4) `int` | m_len
 
 
 ### `bimg::ImageContainer`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `bx::AllocatorI *` | m_allocator
 8 | (8) `void *` | m_data
 16 | (4) `_BYTE[4]` | m_format
@@ -3380,25 +3380,25 @@ Offset | Type | Name
 
 ### `bx::WriterI`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `bx::WriterI_vtbl *` | __vftable
 
 
 ### `bx::DefaultAllocator`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `bx::AllocatorI` | baseclass_0
 
 
 ### `bx::AllocatorI`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `bx::AllocatorI_vtbl *` | __vftable
 
 
 ### `bgfx::Context`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (128) `bx::Semaphore` | m_renderSem
 128 | (128) `bx::Semaphore` | m_apiSem
 256 | (128) `bx::Semaphore` | m_encoderEndSem
@@ -3477,19 +3477,19 @@ Offset | Type | Name
 
 ### `bx::Semaphore`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (128) `unsigned __int8[128]` | m_internal
 
 
 ### `bx::Mutex`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `unsigned __int8[64]` | m_internal
 
 
 ### `bx::Thread`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `bx::Thread_vtbl *` | __vftable
 16 | (64) `unsigned __int8[64]` | m_internal
 80 | (8) `int (__fastcall *)(bx::Thread *, void *)` | m_fn
@@ -3503,27 +3503,27 @@ Offset | Type | Name
 
 ### `bx::MpScUnboundedBlockingQueue<void>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (96) `bx::MpScUnboundedQueueT<void>` | m_queue
 96 | (128) `bx::Semaphore` | m_sem
 
 
 ### `bx::MpScUnboundedQueueT<void>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `bx::Mutex` | m_write
 64 | (32) `bx::SpScUnboundedQueueT<void>` | m_queue
 
 
 ### `bx::SpScUnboundedQueueT<void>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `bx::SpScUnboundedQueue` | m_queue
 
 
 ### `bx::SpScUnboundedQueue`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `bx::AllocatorI *` | m_allocator
 8 | (8) `bx::SpScUnboundedQueue::Node *` | m_first
 16 | (8) `bx::SpScUnboundedQueue::Node *` | m_divider
@@ -3532,7 +3532,7 @@ Offset | Type | Name
 
 ### `bgfx::Frame`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (512) `unsigned __int16[256]` | m_viewRemap
 512 | (256) `float[16][4]` | m_colorPalette
 768 | (65536) `bgfx::View[256]` | m_view
@@ -3577,7 +3577,7 @@ Offset | Type | Name
 
 ### `bgfx::View`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `bgfx::Clear` | m_clear
 16 | (8) `bgfx::Rect` | m_rect
 24 | (8) `bgfx::Rect` | m_scissor
@@ -3590,7 +3590,7 @@ Offset | Type | Name
 
 ### `bgfx::Clear`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `unsigned __int8[8]` | m_index
 8 | (4) `float` | m_depth
 12 | (1) `unsigned __int8` | m_stencil
@@ -3599,14 +3599,14 @@ Offset | Type | Name
 
 ### `bgfx::RenderItem`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (128) `bgfx::RenderDraw` | draw
 1 | (64) `bgfx::RenderCompute` | compute
 
 
 ### `bgfx::RenderDraw`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `bgfx::Stream[4]` | m_stream
 32 | (8) `unsigned __int64` | m_stateFlags
 40 | (8) `unsigned __int64` | m_stencil
@@ -3638,7 +3638,7 @@ Offset | Type | Name
 
 ### `bgfx::Stream`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | m_startVertex
 4 | (2) `bgfx::VertexBufferHandle` | m_handle
 6 | (2) `bgfx::VertexDeclHandle` | m_decl
@@ -3646,13 +3646,13 @@ Offset | Type | Name
 
 ### `bgfx::OcclusionQueryHandle`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `unsigned __int16` | idx
 
 
 ### `bgfx::RenderCompute`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | m_uniformBegin
 4 | (4) `unsigned int` | m_uniformEnd
 8 | (4) `unsigned int` | m_startMatrix
@@ -3670,13 +3670,13 @@ Offset | Type | Name
 
 ### `bgfx::RenderBind`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (512) `bgfx::Binding[64]` | m_bind
 
 
 ### `bgfx::Binding`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `unsigned __int16` | m_idx
 2 | (1) `unsigned __int8` | m_type
 4 | (4) `bgfx::Binding::<unnamed_type_m_un>` | m_un
@@ -3684,20 +3684,20 @@ Offset | Type | Name
 
 ### `bgfx::Binding::<unnamed_type_m_un>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `bgfx::Binding::<unnamed_type_m_un>::<unnamed_type_m_draw>` | m_draw
 1 | (3) `bgfx::Binding::<unnamed_type_m_un>::<unnamed_type_m_compute>` | m_compute
 
 
 ### `bgfx::Binding::<unnamed_type_m_un>::<unnamed_type_m_draw>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | m_textureFlags
 
 
 ### `bgfx::Binding::<unnamed_type_m_un>::<unnamed_type_m_compute>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `unsigned __int8` | m_format
 1 | (1) `unsigned __int8` | m_access
 2 | (1) `unsigned __int8` | m_mip
@@ -3705,7 +3705,7 @@ Offset | Type | Name
 
 ### `bgfx::BlitItem`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `unsigned __int16` | m_srcX
 2 | (2) `unsigned __int16` | m_srcY
 4 | (2) `unsigned __int16` | m_srcZ
@@ -3723,28 +3723,28 @@ Offset | Type | Name
 
 ### `bgfx::FrameCache`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4194320) `bgfx::MatrixCache` | m_matrixCache
 4194320 | (524292) `bgfx::RectCache` | m_rectCache
 
 
 ### `bgfx::MatrixCache`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4194304) `bgfx::Matrix4[65536]` | m_cache
 4194304 | (4) `unsigned int` | m_num
 
 
 ### `bgfx::RectCache`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (524288) `bgfx::Rect[65536]` | m_cache
 524288 | (4) `unsigned int` | m_num
 
 
 ### `bgfx::CommandBuffer`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | m_pos
 4 | (4) `unsigned int` | m_size
 8 | (262144) `unsigned __int8[262144]` | m_buffer
@@ -3752,83 +3752,83 @@ Offset | Type | Name
 
 ### `bgfx::Frame::FreeHandle<bgfx::IndexBufferHandle,4096>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8192) `bgfx::IndexBufferHandle[4096]` | m_queue
 8192 | (2) `unsigned __int16` | m_num
 
 
 ### `bgfx::Frame::FreeHandle<bgfx::VertexDeclHandle,64>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (128) `bgfx::VertexDeclHandle[64]` | m_queue
 128 | (2) `unsigned __int16` | m_num
 
 
 ### `bgfx::Frame::FreeHandle<bgfx::VertexBufferHandle,4096>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8192) `bgfx::VertexBufferHandle[4096]` | m_queue
 8192 | (2) `unsigned __int16` | m_num
 
 
 ### `bgfx::Frame::FreeHandle<bgfx::ShaderHandle,4096>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8192) `bgfx::ShaderHandle[4096]` | m_queue
 8192 | (2) `unsigned __int16` | m_num
 
 
 ### `bgfx::Frame::FreeHandle<bgfx::ProgramHandle,2048>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4096) `bgfx::ProgramHandle[2048]` | m_queue
 4096 | (2) `unsigned __int16` | m_num
 
 
 ### `bgfx::ProgramHandle`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `unsigned __int16` | idx
 
 
 ### `bgfx::Frame::FreeHandle<bgfx::TextureHandle,4096>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8192) `bgfx::TextureHandle[4096]` | m_queue
 8192 | (2) `unsigned __int16` | m_num
 
 
 ### `bgfx::Frame::FreeHandle<bgfx::ShaderBufferHandle,4096>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8192) `bgfx::ShaderBufferHandle[4096]` | m_queue
 8192 | (2) `unsigned __int16` | m_num
 
 
 ### `bgfx::Frame::FreeHandle<bgfx::FrameBufferHandle,128>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (256) `bgfx::FrameBufferHandle[128]` | m_queue
 256 | (2) `unsigned __int16` | m_num
 
 
 ### `bgfx::Frame::FreeHandle<bgfx::UniformHandle,512>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1024) `bgfx::UniformHandle[512]` | m_queue
 1024 | (2) `unsigned __int16` | m_num
 
 
 ### `bgfx::Frame::FreeHandle<bgfx::AccelerationStructureHandle,32768>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (65536) `bgfx::AccelerationStructureHandle[32768]` | m_queue
 65536 | (2) `unsigned __int16` | m_num
 
 
 ### `bgfx::Stats`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int64` | cpuTimeFrame
 8 | (8) `__int64` | cpuTimeBegin
 16 | (8) `__int64` | cpuTimeEnd
@@ -3871,7 +3871,7 @@ Offset | Type | Name
 
 ### `bgfx::ViewStats`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (256) `char[256]` | name
 256 | (2) `unsigned __int16` | view
 264 | (8) `__int64` | cpuTimeElapsed
@@ -3880,20 +3880,20 @@ Offset | Type | Name
 
 ### `bgfx::IndexBuffer`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | m_size
 
 
 ### `bgfx::VertexBuffer`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | m_size
 4 | (2) `unsigned __int16` | m_stride
 
 
 ### `bgfx::DynamicIndexBuffer`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `bgfx::IndexBufferHandle` | m_handle
 4 | (4) `unsigned int` | m_offset
 8 | (4) `unsigned int` | m_size
@@ -3903,7 +3903,7 @@ Offset | Type | Name
 
 ### `bgfx::DynamicVertexBuffer`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `bgfx::VertexBufferHandle` | m_handle
 4 | (4) `unsigned int` | m_offset
 8 | (4) `unsigned int` | m_size
@@ -3916,70 +3916,70 @@ Offset | Type | Name
 
 ### `bgfx::NonLocalAllocator`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `tinystl::list<bgfx::NonLocalAllocator::Free,bgfx::TinyStlAllocator>` | m_free
 24 | (32) `tinystl::unordered_map<unsigned __int64,unsigned int,bgfx::TinyStlAllocator>` | m_used
 
 
 ### `bx::HandleAllocT<4096>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `bx::HandleAlloc` | baseclass_0
 4 | (16384) `unsigned __int16[8192]` | m_padding
 
 
 ### `bx::HandleAlloc`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `unsigned __int16` | m_numHandles
 2 | (2) `unsigned __int16` | m_maxHandles
 
 
 ### `bx::HandleAllocT<64>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `bx::HandleAlloc` | baseclass_0
 4 | (256) `unsigned __int16[128]` | m_padding
 
 
 ### `bx::HandleAllocT<2048>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `bx::HandleAlloc` | baseclass_0
 4 | (8192) `unsigned __int16[4096]` | m_padding
 
 
 ### `bx::HandleAllocT<128>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `bx::HandleAlloc` | baseclass_0
 4 | (512) `unsigned __int16[256]` | m_padding
 
 
 ### `bx::HandleAllocT<512>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `bx::HandleAlloc` | baseclass_0
 4 | (2048) `unsigned __int16[1024]` | m_padding
 
 
 ### `bx::HandleAllocT<256>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `bx::HandleAlloc` | baseclass_0
 4 | (1024) `unsigned __int16[512]` | m_padding
 
 
 ### `bx::HandleAllocT<32768>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `bx::HandleAlloc` | baseclass_0
 4 | (131072) `unsigned __int16[65536]` | m_padding
 
 
 ### `bgfx::Context::UniformRef`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `bx::StringT<&bgfx::g_allocator>` | m_name
 16 | (4) `_BYTE[4]` | m_type
 20 | (2) `unsigned __int16` | m_num
@@ -3988,13 +3988,13 @@ Offset | Type | Name
 
 ### `bx::StringT<&bgfx::g_allocator>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `bx::StringView` | baseclass_0
 
 
 ### `bx::HandleHashMapT<8192,unsigned int>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | m_maxCapacity
 4 | (4) `unsigned int` | m_numElements
 8 | (32768) `unsigned int[8192]` | m_key
@@ -4003,7 +4003,7 @@ Offset | Type | Name
 
 ### `bgfx::Context::ShaderRef`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `bgfx::UniformHandle *` | m_uniforms
 8 | (16) `bx::StringT<&bgfx::g_allocator>` | m_name
 24 | (4) `unsigned int` | m_hash
@@ -4013,7 +4013,7 @@ Offset | Type | Name
 
 ### `bx::HandleHashMapT<4096,unsigned int>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | m_maxCapacity
 4 | (4) `unsigned int` | m_numElements
 8 | (16384) `unsigned int[4096]` | m_key
@@ -4022,7 +4022,7 @@ Offset | Type | Name
 
 ### `bgfx::Context::ProgramRef`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `bgfx::ShaderHandle` | m_vsh
 2 | (2) `bgfx::ShaderHandle` | m_fsh
 4 | (2) `__int16` | m_refCount
@@ -4030,7 +4030,7 @@ Offset | Type | Name
 
 ### `bgfx::Context::TextureRef`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `bx::StringT<&bgfx::g_allocator>` | m_name
 16 | (8) `void *` | m_ptr
 24 | (4) `unsigned int` | m_storageSize
@@ -4046,7 +4046,7 @@ Offset | Type | Name
 
 ### `bgfx::Context::ShaderBufferRef`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `bx::StringT<&bgfx::g_allocator>` | m_name
 16 | (8) `void *` | m_ptr
 24 | (4) `unsigned int` | m_stride
@@ -4056,21 +4056,21 @@ Offset | Type | Name
 
 ### `bgfx::Context::FrameBufferRef`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `bgfx::Context::FrameBufferRef::un` | un
 16 | (1) `bool` | m_window
 
 
 ### `bgfx::Context::FrameBufferRef::un`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `bgfx::TextureHandle[8]` | m_th
 1 | (8) `void *` | m_nwh
 
 
 ### `bgfx::VertexDeclRef`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (776) `bx::HandleHashMapT<128,unsigned int>` | m_vertexDeclMap
 776 | (128) `unsigned __int16[64]` | m_vertexDeclRef
 904 | (8192) `bgfx::VertexDeclHandle[4096]` | m_vertexBufferRef
@@ -4079,7 +4079,7 @@ Offset | Type | Name
 
 ### `bx::HandleHashMapT<128,unsigned int>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | m_maxCapacity
 4 | (4) `unsigned int` | m_numElements
 8 | (512) `unsigned int[128]` | m_key
@@ -4088,7 +4088,7 @@ Offset | Type | Name
 
 ### `bgfx::TextVideoMemBlitter`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `bgfx::TextureHandle` | m_texture
 8 | (8) `bgfx::TransientVertexBuffer *` | m_vb
 16 | (8) `bgfx::TransientIndexBuffer *` | m_ib
@@ -4098,7 +4098,7 @@ Offset | Type | Name
 
 ### `bgfx::ClearQuad`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `bgfx::TransientVertexBuffer *` | m_vb
 8 | (80) `bgfx::VertexDecl` | m_decl
 88 | (16) `bgfx::ProgramHandle[8]` | m_program
@@ -4106,7 +4106,7 @@ Offset | Type | Name
 
 ### `bgfx::UpdateBatchT<256>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | m_num
 4 | (1024) `unsigned int[256]` | m_keys
 1028 | (1024) `unsigned int[256]` | m_values
@@ -4114,7 +4114,7 @@ Offset | Type | Name
 
 ### `bx::MemoryWriter`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `bx::WriterSeekerI` | baseclass_0
 16 | (8) `bx::MemoryBlockI *` | m_memBlock
 24 | (8) `unsigned __int8 *` | m_data
@@ -4125,14 +4125,14 @@ Offset | Type | Name
 
 ### `bx::WriterSeekerI`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `bx::WriterI` | baseclass_0
 8 | (8) `bx::SeekerI` | baseclass_8
 
 
 ### `bx::HashMurmur2A`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | m_hash
 4 | (4) `unsigned int` | m_tail
 8 | (4) `unsigned int` | m_count
@@ -4141,7 +4141,7 @@ Offset | Type | Name
 
 ### `bgfx::NvMemoryInfoV2`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | version
 4 | (4) `unsigned int` | dedicatedVideoMemory
 8 | (4) `unsigned int` | availableDedicatedVideoMemory
@@ -4152,7 +4152,7 @@ Offset | Type | Name
 
 ### `bgfx::d3d11::AGSDriverVersionInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (256) `char[256]` | strDriverVersion
 256 | (256) `char[256]` | strCatalystVersion
 512 | (256) `char[256]` | strCatalystWebLink
@@ -4160,7 +4160,7 @@ Offset | Type | Name
 
 ### `bgfx::DxbcShader`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | version
 8 | (24) `tinystl::vector<unsigned char,bgfx::TinyStlAllocator>` | byteCode
 32 | (1) `bool` | shex
@@ -4169,7 +4169,7 @@ Offset | Type | Name
 
 ### `bimg::ImageMip`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `_BYTE[4]` | m_format
 4 | (4) `unsigned int` | m_width
 8 | (4) `unsigned int` | m_height
@@ -4183,7 +4183,7 @@ Offset | Type | Name
 
 ### `bgfx::SwapChainDesc`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | width
 4 | (4) `unsigned int` | height
 8 | (4) `DXGI_FORMAT` | format
@@ -4202,7 +4202,7 @@ Offset | Type | Name
 
 ### `bgfx::BlitState`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const bgfx::Frame *` | m_frame
 8 | (4) `bgfx::BlitKey` | m_key
 12 | (2) `unsigned __int16` | m_item
@@ -4210,14 +4210,14 @@ Offset | Type | Name
 
 ### `bgfx::BlitKey`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `unsigned __int16` | m_item
 2 | (2) `unsigned __int16` | m_view
 
 
 ### `bgfx::Profiler<bgfx::d3d11::TimerQueryD3D11>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const char (*)[256]` | m_viewName
 8 | (8) `bgfx::Frame *` | m_frame
 16 | (8) `bgfx::d3d11::TimerQueryD3D11 *` | m_gpuTimer
@@ -4228,13 +4228,13 @@ Offset | Type | Name
 
 ### `bgfx::vk::VkSampler`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `struct VkSampler_T *` | vk
 
 
 ### `bgfx::d3d12::ResourceCreate`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ID3D12Resource *` | m_ptr
 8 | (4) `D3D12_RESOURCE_STATES` | m_initialState
 16 | (8) `unsigned __int64` | m_gpuVA
@@ -4242,7 +4242,7 @@ Offset | Type | Name
 
 ### `bgfx::RingBuffer<bgfx::d3d12::StagingBufferD3D12,unsigned __int64,void *,bgfx::d3d12::RingBufferAllocator<2> >::Location`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | m_offset
 4 | (4) `unsigned int` | m_size
 8 | (32) `bgfx::d3d12::StagingBufferD3D12` | m_buffer
@@ -4252,7 +4252,7 @@ Offset | Type | Name
 
 ### `bgfx::d3d12::StagingBufferD3D12`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ID3D12Resource *` | m_upload
 8 | (8) `unsigned __int64` | m_gpuVA
 16 | (8) `unsigned __int8 *` | m_data
@@ -4262,7 +4262,7 @@ Offset | Type | Name
 
 ### `bgfx::DxbcContext`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `bgfx::DxbcContext::Header` | header
 32 | (32) `bgfx::DxbcSignature` | inputSignature
 64 | (32) `bgfx::DxbcSignature` | outputSignature
@@ -4273,7 +4273,7 @@ Offset | Type | Name
 
 ### `bgfx::DxbcContext::Header`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | magic
 4 | (16) `unsigned __int8[16]` | hash
 20 | (4) `unsigned int` | version
@@ -4283,28 +4283,28 @@ Offset | Type | Name
 
 ### `bgfx::DxbcSignature`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | key
 8 | (24) `tinystl::vector<bgfx::DxbcSignature::Element,bgfx::TinyStlAllocator>` | elements
 
 
 ### `bgfx::d3d12::Bind`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `D3D12_GPU_DESCRIPTOR_HANDLE` | m_srvHandle
 8 | (2) `unsigned __int16` | m_samplerStateIdx
 
 
 ### `bgfx::d3d12::UniformBufferInstance`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::optional<bgfx::UniformBufferView>` | m_vsCb
 24 | (24) `std::optional<bgfx::UniformBufferView>` | m_fsCb
 
 
 ### `bgfx::UniformBufferView`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const bgfx::UniformBuffer *` | m_uniforms
 8 | (4) `unsigned int` | m_size
 12 | (4) `unsigned int` | m_pos
@@ -4312,7 +4312,7 @@ Offset | Type | Name
 
 ### `bgfx::d3d12::ConstantBufferDataContainer`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `bgfx::d3d12::ConstantBufferScratch *` | m_scratch
 8 | (8) `unsigned __int64` | m_currentOffset
 16 | (4) `unsigned int` | m_cbSize
@@ -4324,7 +4324,7 @@ Offset | Type | Name
 
 ### `bgfx::FencedRingBuffer<bgfx::RingBuffer<bgfx::d3d12::StagingBufferD3D12,unsigned __int64,void *,bgfx::d3d12::RingBufferAllocator<2> >::RingBufferResourceAllocator,0>::ScopedAllocation`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<bgfx::RingBuffer<bgfx::d3d12::StagingBufferD3D12,unsigned __int64,void *,bgfx::d3d12::RingBufferAllocator<2> >::RingBufferResourceAllocator::Buffer>` | m_buffer
 16 | (8) `const unsigned __int64` | m_offset
 24 | (8) `const unsigned __int64` | m_size
@@ -4334,14 +4334,14 @@ Offset | Type | Name
 
 ### `bgfx::FencedRingBuffer<bgfx::RingBuffer<bgfx::d3d12::StagingBufferD3D12,unsigned __int64,void *,bgfx::d3d12::RingBufferAllocator<2> >::RingBufferResourceAllocator,0>::LinearAllocation`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `unsigned __int64` | m_offsetPrefix
 8 | (8) `unsigned __int64` | m_dataOffset
 
 
 ### `bgfx::d3d12rtx::D3D12RTProgram`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `bgfx::d3d12rtx::D3D12RTShaderInfo` | info
 24 | (8) `IDxcBlob *` | blob
 32 | (32) `D3D12_DXIL_LIBRARY_DESC` | dxilLibDesc
@@ -4352,7 +4352,7 @@ Offset | Type | Name
 
 ### `bgfx::d3d12rtx::D3D12RTShaderInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const wchar_t *` | filename
 8 | (8) `const wchar_t *` | entryPoint
 16 | (8) `const wchar_t *` | targetProfile
@@ -4360,14 +4360,14 @@ Offset | Type | Name
 
 ### `bgfx::d3d12rtx::AdaptiveDenoiserLightSortKey`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | idx
 4 | (4) `float` | distanceSquared
 
 
 ### `bgfx::d3d12rtx::RendererContextD3D12RTX::BlasCompactionContext`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `bgfx::d3d12rtx::RTBlasCompactionState` | state
 4 | (2) `bgfx::AccelerationStructureHandle` | hBuffer
 8 | (4) `unsigned int` | beforeSize
@@ -4378,7 +4378,7 @@ Offset | Type | Name
 
 ### `bgfx::d3d12rtx::RendererContextD3D12RTX::BlasBuildContext`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (56) `D3D12_RAYTRACING_GEOMETRY_DESC` | desc
 56 | (2) `bgfx::AccelerationStructureHandle` | hBuffer
 60 | (4) `D3D12_RAYTRACING_ACCELERATION_STRUCTURE_BUILD_FLAGS` | flags
@@ -4387,7 +4387,7 @@ Offset | Type | Name
 
 ### `bgfx::RingBuffer<bgfx::d3d12::StagingBufferD3D12,unsigned __int64,void *,bgfx::d3d12::RingBufferAllocator<0> >::Location`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | m_offset
 4 | (4) `unsigned int` | m_size
 8 | (32) `bgfx::d3d12::StagingBufferD3D12` | m_buffer
@@ -4397,20 +4397,20 @@ Offset | Type | Name
 
 ### `bgfx::d3d12rtx::RendererContextD3D12RTX::GlobalDescriptorTableTextureTransition`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `bgfx::d3d12rtx::RTGlobalDescriptorTable` | m_whichEntry
 4 | (4) `D3D12_RESOURCE_STATES` | m_assumedPreviousState
 
 
 ### `bgfx::d3d12rtx::RendererContextD3D12RTX::float3x4`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (48) `float[3][4]` | data
 
 
 ### `bgfx::gl::FrameBufferGL`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `bgfx::gl::SwapChainGL *` | m_swapChain
 8 | (8) `unsigned int[2]` | m_fbo
 16 | (4) `unsigned int` | m_width
@@ -4424,13 +4424,13 @@ Offset | Type | Name
 
 ### `bgfx::vk::VkPipeline`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `struct VkPipeline_T *` | vk
 
 
 ### `bgfx::DxbcSubOperand`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `bgfx::DxbcOperandType::Enum` | type
 4 | (1) `unsigned __int8` | mode
 5 | (1) `unsigned __int8` | modeBits
@@ -4442,7 +4442,7 @@ Offset | Type | Name
 
 ### `bgfx::DxbcOperand`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `bgfx::DxbcOperandType::Enum` | type
 4 | (4) `bgfx::DxbcOperandMode::Enum` | mode
 8 | (1) `unsigned __int8` | modeBits
@@ -4457,14 +4457,14 @@ Offset | Type | Name
 
 ### `bgfx::DxbcOperand::<unnamed_type_un>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `unsigned int[4]` | imm32
 1 | (32) `unsigned __int64[4]` | imm64
 
 
 ### `bgfx::DxbcInstruction`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `bgfx::DxbcOpcode::Enum` | opcode
 4 | (12) `unsigned int[3]` | value
 16 | (4) `unsigned int` | length
@@ -4501,20 +4501,20 @@ Offset | Type | Name
 
 ### `bimg::BitReader`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const unsigned __int8 *` | m_data
 8 | (2) `unsigned __int16` | m_bitPos
 
 
 ### `bgfx::d3d12::ConstantBufferScratch`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<unsigned char>` | m_data
 
 
 ### `BlockActorDataPacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `Packet` | baseclass_0
 40 | (12) `NetworkBlockPosition` | mPos
 56 | (24) `CompoundTag` | mData
@@ -4522,7 +4522,7 @@ Offset | Type | Name
 
 ### `bgfx::Profiler<bgfx::gl::TimerQueryGL>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const char (*)[256]` | m_viewName
 8 | (8) `bgfx::Frame *` | m_frame
 16 | (8) `bgfx::gl::TimerQueryGL *` | m_gpuTimer
@@ -4533,7 +4533,7 @@ Offset | Type | Name
 
 ### `Bedrock::JSONObject::Document`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `Bedrock::JSONObject::DocumentOptions` | mOptions
 32 | (16) `Bedrock::JSONObject::ParseResult` | mParseResult
 48 | (8) `Bedrock::Memory::IMemoryAllocator *` | mAllocator
@@ -4545,7 +4545,7 @@ Offset | Type | Name
 
 ### `Bedrock::JSONObject::DocumentOptions`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `void *` | mFixedBlock
 8 | (8) `Bedrock::Memory::IMemoryAllocator *` | mAllocator
 16 | (8) `char *` | mInSituBuffer
@@ -4555,7 +4555,7 @@ Offset | Type | Name
 
 ### `Bedrock::JSONObject::ParseResult`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const char *` | mErrorDescription
 8 | (4) `unsigned int` | mOffset
 12 | (4) `int` | mErrorCode

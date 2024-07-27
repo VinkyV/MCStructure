@@ -1,19 +1,19 @@
 # U
 ### `uicontrolid_t<UIComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | mID
 8 | (8) `unsigned __int64` | mBitId
 
 
 ### `UIAnimLayout::{ctor}::__l2::<lambda_b740528f05b815a1d9f33202085666a7>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `Urho3D::Vector3`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float` | x_
 4 | (4) `float` | y_
 8 | (4) `float` | z_
@@ -21,14 +21,14 @@ Offset | Type | Name
 
 ### `Urho3D::Vector2`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float` | x_
 4 | (4) `float` | y_
 
 
 ### `Urho3D::Matrix4`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float` | m00_
 4 | (4) `float` | m01_
 8 | (4) `float` | m02_
@@ -49,7 +49,7 @@ Offset | Type | Name
 
 ### `utf8proc_property_struct`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `__int16` | category
 2 | (2) `__int16` | combining_class
 4 | (2) `__int16` | bidi_class
@@ -69,7 +69,7 @@ Offset | Type | Name
 
 ### `unim_index`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const unsigned __int16 *` | map
 8 | (1) `unsigned __int8` | bottom
 9 | (1) `unsigned __int8` | top
@@ -77,7 +77,7 @@ Offset | Type | Name
 
 ### `Urho3D::Color`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float` | r_
 4 | (4) `float` | g_
 8 | (4) `float` | b_
@@ -86,7 +86,7 @@ Offset | Type | Name
 
 ### `Urho3D::IntVector3`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | x_
 4 | (4) `int` | y_
 8 | (4) `int` | z_
@@ -94,14 +94,14 @@ Offset | Type | Name
 
 ### `Urho3D::IntVector2`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | x_
 4 | (4) `int` | y_
 
 
 ### `Urho3D::Matrix3`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float` | m00_
 4 | (4) `float` | m01_
 8 | (4) `float` | m02_
@@ -115,20 +115,20 @@ Offset | Type | Name
 
 ### `Urho3D::StringHash`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | value_
 
 
 ### `Urho3D::Rect`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Urho3D::Vector2` | min_
 8 | (8) `Urho3D::Vector2` | max_
 
 
 ### `Urho3D::Matrix3x4`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float` | m00_
 4 | (4) `float` | m01_
 8 | (4) `float` | m02_
@@ -145,7 +145,7 @@ Offset | Type | Name
 
 ### `Urho3D::IntRect`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | left_
 4 | (4) `int` | top_
 8 | (4) `int` | right_
@@ -154,7 +154,7 @@ Offset | Type | Name
 
 ### `Urho3D::Quaternion`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float` | w_
 4 | (4) `float` | x_
 8 | (4) `float` | y_
@@ -163,7 +163,7 @@ Offset | Type | Name
 
 ### `Urho3D::Vector4`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float` | x_
 4 | (4) `float` | y_
 8 | (4) `float` | z_
@@ -172,14 +172,14 @@ Offset | Type | Name
 
 ### `Urho3D::AnimatedModelRenderDispatcher`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::unordered_map<std::string,Urho3D::AnimatedModelRender>` | mRenderMap_
 64 | (64) `std::unordered_map<std::string,unsigned __int64>` | mRenderNum_
 
 
 ### `us_f0_lr_term_struct`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const char *` | feature
 8 | (4) `const float` | start
 12 | (4) `const float` | mid
@@ -189,7 +189,7 @@ Offset | Type | Name
 
 ### `UIResolvedDef`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | mIgnored
 8 | (32) `const std::string` | mDefNamespace
 40 | (32) `const std::string` | mDefName
@@ -202,7 +202,7 @@ Offset | Type | Name
 
 ### `UNWIND_INFO_HDR`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `` | Ver3_Flags
 1 | (1) `` | PrologSize
 2 | (1) `` | CntUnwindCodes
@@ -211,21 +211,21 @@ Offset | Type | Name
 
 ### `UNWIND_CODE`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `` | PrologOff
 1 | (1) `` | OpCode_OpInfo
 
 
 ### `UnwindMapEntry`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `` | toState
 4 | (4) `` | action
 
 
 ### `Util::Url::Components`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `std::optional<std::string >` | scheme
 40 | (40) `std::optional<std::string >` | authority
 80 | (40) `std::optional<std::string >` | path
@@ -235,7 +235,7 @@ Offset | Type | Name
 
 ### `UIScreenContext`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `const int` | xm
 4 | (4) `const int` | ym
 8 | (4) `const float` | a
@@ -243,14 +243,14 @@ Offset | Type | Name
 
 ### `UiExpression`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<ExprToken>` | mTokens
 24 | (1) `bool` | mIsStatic
 
 
 ### `ui::LayoutOffset`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<ui::AxisOffset>` | noAutoScaleX
 24 | (24) `std::vector<ui::AxisOffset>` | noAutoScaleY
 48 | (4) `ui::LayoutAxisOffsetContainerType` | noAutoScaleXType
@@ -263,7 +263,7 @@ Offset | Type | Name
 
 ### `UITextureInfoPtr`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `UITextureInfoPtr_vtbl *` | __vftable
 8 | (8) `const UITextureInfo *` | mUITextureInfo
 16 | (8) `UIRepository *` | mGroup
@@ -272,7 +272,7 @@ Offset | Type | Name
 
 ### `UIPropertyBag`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `UIPropertyBag_vtbl *` | __vftable
 8 | (24) `PropertyBag` | baseclass_8
 32 | (24) `std::vector<std::pair<std::string,std::vector<UIPropertyBag::PropertyChangedNotificationInfo> >>` | mPropertyChangedNotificationInfoMap
@@ -280,7 +280,7 @@ Offset | Type | Name
 
 ### `UIAnimationComponent::NewAnimation`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<UIAnim>` | newAnim
 16 | (4) `float` | lastAnimDuration
 20 | (4) `float` | lastAnimTime
@@ -288,7 +288,7 @@ Offset | Type | Name
 
 ### `ui::AxisOffset`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `_BYTE[4]` | type
 4 | (4) `float` | value
 8 | (4) `ui::LayoutAxisOperation` | operation
@@ -296,7 +296,7 @@ Offset | Type | Name
 
 ### `UIPropertyBag::registerForPropertyChangedNotification::__l2::<lambda_7e52e4d85eb4d187d33f31333af04fdb>::()::__l2::<lambda_cbc2fb54f5f402da5c9469866231f08c>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `const std::function<void __cdecl(std::weak_ptr<UIControl> const &,gsl::basic_string_span<char const ,-1>,Json::Value const &,UIPropertyBag::ContextObject)>` | callback
 64 | (32) `const UiExpression` | sourcePropertyName
 96 | (8) `UIPropertyBag *const` | __this
@@ -304,14 +304,14 @@ Offset | Type | Name
 
 ### `UserProfileCardScreenController::_registerFriendsDropdown::__l2::<lambda_8edab51aeee724a1c610a07b9b257e12>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `const std::string` | dropdownName
 32 | (8) `UserProfileCardScreenController *const` | __this
 
 
 ### `UIControl`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `UIControl_vtbl *` | __vftable
 8 | (16) `std::enable_shared_from_this<UIControl>` | baseclass_8
 24 | (1) `bool` | sizeFlag
@@ -354,19 +354,19 @@ Offset | Type | Name
 
 ### `UIRenderContext`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `UIRenderContext_vtbl *` | __vftable
 
 
 ### `UIMeasureStrategy`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `UIMeasureStrategy_vtbl *` | __vftable
 
 
 ### `UIDefRepository::loadDefsList::__l2::<lambda_1ecc128b6a504e1674127a91f414fc08>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<std::vector<UIDefRepository::DefEntry> >` | allDefEntriesPtr
 16 | (16) `std::shared_ptr<std::unordered_map<std::string,UIDefNamespace> >` | defNamespaces
 32 | (8) `UIDefRepository *const` | __this
@@ -377,14 +377,14 @@ Offset | Type | Name
 
 ### `UIDefRepository::_queueFinishLoad::__l5::<lambda_8c79f890e388074120223c816a5a3204>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<std::vector<PackReport> >` | packReportsPtr
 16 | (64) `std::function<void __cdecl(std::vector<PackReport> &)>` | onReportsReady
 
 
 ### `UIDefRepository::validateDefEntries::__l13::<lambda_507eaf82f275a1afc1e36b521629d2d9>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<std::vector<PackReport> >` | packReportsPtr
 16 | (16) `std::shared_ptr<ResourcePackStack const >` | packStack
 32 | (64) `std::function<void __cdecl(std::vector<PackReport> &)>` | onReportsReady
@@ -392,7 +392,7 @@ Offset | Type | Name
 
 ### `UIDefRepository::_collectAllDefEntries::__l33::<lambda_e42ddb60c01723a5881424d6dd583a07>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<std::vector<UIDefRepository::DefEntry> >` | allDefEntries
 16 | (16) `std::shared_ptr<std::vector<PackReport> >` | packReports
 32 | (16) `std::shared_ptr<std::vector<PackReport> >` | fileReports
@@ -402,7 +402,7 @@ Offset | Type | Name
 
 ### `UIDefRepository::DefEntry`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | collectionIndex
 8 | (32) `std::string` | ns
 40 | (32) `std::string` | name
@@ -413,14 +413,14 @@ Offset | Type | Name
 
 ### `ui::AxisOffsetContainer`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<ui::AxisOffset>` | axisOffsets
 24 | (4) `ui::LayoutAxisOffsetContainerType` | containerType
 
 
 ### `UIIndexInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | index
 8 | (8) `const Json::Value *` | value
 16 | (1) `bool` | removed
@@ -428,20 +428,20 @@ Offset | Type | Name
 
 ### `UIPackError`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `PackError` | baseclass_0
 
 
 ### `UserAuthentication::getGlobalCertificate::__l2::<lambda_75f04232756511bb1d450f368ea2c7cb>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<UserAuthentication>` | weakThis
 16 | (64) `std::function<void __cdecl(std::unique_ptr<Certificate>)>` | callback
 
 
 ### `UserAuthentication::getGlobalCertificate::__l2::<lambda_75f04232756511bb1d450f368ea2c7cb>::()::__l5::<lambda_fce1549d43fd9f2db1bffbfa91d8f005>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<UserAuthentication>` | weakThis
 16 | (1) `bool` | success
 24 | (64) `std::function<void __cdecl(std::unique_ptr<Certificate>)>` | callback
@@ -450,14 +450,14 @@ Offset | Type | Name
 
 ### `UnverifiedCertificate`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (128) `const WebToken` | mRawToken
 128 | (8) `std::unique_ptr<UnverifiedCertificate>` | mParentUnverifiedCertificate
 
 
 ### `UpdateAttributesPacket::AttributeData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float` | mCurrentValue
 4 | (4) `float` | mMinValue
 8 | (4) `float` | mMaxValue
@@ -467,7 +467,7 @@ Offset | Type | Name
 
 ### `UpdateAttributesPacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `Packet` | baseclass_0
 40 | (8) `ActorRuntimeID` | mRuntimeId
 48 | (24) `std::vector<UpdateAttributesPacket::AttributeData>` | mAttributeData
@@ -476,7 +476,7 @@ Offset | Type | Name
 
 ### `UpdateTradePacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `Packet` | baseclass_0
 40 | (1) `ContainerID` | mContainerId
 41 | (1) `ContainerType` | mType
@@ -492,19 +492,19 @@ Offset | Type | Name
 
 ### `Urho3D::ColorFrame`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `InterpolableFrame<Urho3D::Color>` | baseclass_0
 
 
 ### `Urho3D::EmitterPathFrame`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `InterpolableFrame<Urho3D::Vector3>` | baseclass_0
 
 
 ### `Urho3D::BoundingBox`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (12) `Urho3D::Vector3` | min_
 12 | (4) `float` | dummyMin_
 16 | (12) `Urho3D::Vector3` | max_
@@ -513,14 +513,14 @@ Offset | Type | Name
 
 ### `Urho3D::AnimatedModelRender`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<Urho3D::Geometry *>` | mGeometryVector_
 24 | (600) `Urho3D::GeometryGroup` | mGeometryGroup_
 
 
 ### `Urho3D::GeometryGroup`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<int>` | geometryIds
 24 | (24) `std::vector<Urho3D::Geometry *>` | geometrys
 48 | (64) `std::unordered_map<int,Urho3D::ModelPart>` | modelParts_
@@ -529,7 +529,7 @@ Offset | Type | Name
 
 ### `Urho3D::ModelPartGroup`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<Urho3D::ModelPart const *>` | modelParts
 24 | (1) `bool` | useFieldBoneId
 28 | (4) `int` | vertexCount
@@ -541,7 +541,7 @@ Offset | Type | Name
 
 ### `Urho3D::Animation`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | isGlobal
 8 | (32) `std::string` | animationName_
 40 | (4) `Urho3D::StringHash` | animationNameHash_
@@ -553,7 +553,7 @@ Offset | Type | Name
 
 ### `Urho3D::AnimationStateTrack`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const Urho3D::AnimationTrack *` | track_
 8 | (8) `Urho3D::Bone *` | bone_
 16 | (4) `float` | weight_
@@ -567,7 +567,7 @@ Offset | Type | Name
 
 ### `Urho3D::Node`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (12) `Urho3D::Vector3` | position_
 12 | (16) `Urho3D::Quaternion` | rotation_
 28 | (12) `Urho3D::Vector3` | scale_
@@ -581,13 +581,13 @@ Offset | Type | Name
 
 ### `Urho3D::EmitterScaleFrame`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `InterpolableFrame<float>` | baseclass_0
 
 
 ### `Urho3D::ParticleEmitter::RenderData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `Urho3D::Color` | color
 16 | (48) `Vec3[4]` | meshPos
 64 | (4) `float` | u0
@@ -599,7 +599,7 @@ Offset | Type | Name
 
 ### `unz_file_info64_s`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | version
 4 | (4) `unsigned int` | version_needed
 8 | (4) `unsigned int` | flag
@@ -619,7 +619,7 @@ Offset | Type | Name
 
 ### `U`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `long double` | d
 1 | (8) `unsigned int[2]` | L
 

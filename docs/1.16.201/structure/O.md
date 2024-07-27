@@ -1,27 +1,27 @@
 # O
 ### `OptionConstants::<lambda_494f639503c40febe0dbb14372a57cbf>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `OptionConstants::<lambda_631366cfcd28947db7d3be15dfb1611c>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `OptionConstants::<lambda_f6873ee4037cf69a5750303b33811eac>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `OptionConstants::<lambda_ac8f171e94addf05b263c93e72bdf2a9>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `Option`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Option_vtbl *` | __vftable
 8 | (120) `Bedrock::PubSub::Publisher<void __cdecl(Option const &),Bedrock::PubSub::ThreadModel::MultiThreaded,void>` | mValueChangedPublisher
 128 | (120) `Bedrock::PubSub::Publisher<void __cdecl(Option const &,enum InputMode),Bedrock::PubSub::ThreadModel::MultiThreaded,void>` | mInputModeChangedPublisher
@@ -42,66 +42,66 @@ Offset | Type | Name
 
 ### `optional_ref<TerrainMaterialVariationManager const >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const TerrainMaterialVariationManager *` | ptr
 
 
 ### `optional_ref<rendergraph::FrameBufferBuilder>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `rendergraph::FrameBufferBuilder *` | ptr
 
 
 ### `OptionConstants::<lambda_0e1acb4e778a483f08cd62409c6f59ee>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `OwnerPtrT<EntityRegistryRefTraits>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `OwnerStorageSharePtr<EntityRegistryOwned>` | baseclass_0
 
 
 ### `OwnerStorageSharePtr<EntityRegistryOwned>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<EntityRegistryOwned>` | mValue
 
 
 ### `OwnerPtrT<EntityRefTraits>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `OwnerStorageEntity` | baseclass_0
 
 
 ### `OwnerStorageEntity`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::optional<OwnerStorageEntity::EntityContextOwned>` | mContext
 
 
 ### `OwnerStorageEntity::EntityContextOwned`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `EntityContext` | baseclass_0
 
 
 ### `optional_ref<Localization const >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const Localization *` | ptr
 
 
 ### `OptionSaveDeferral`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<Options>` | mOptions
 
 
 ### `ObjModel`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | name
 32 | (24) `std::vector<float>` | positions
 56 | (24) `std::vector<float>` | normals
@@ -112,19 +112,19 @@ Offset | Type | Name
 
 ### `optional_ref<rendergraph::Pass>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `rendergraph::Pass *` | ptr
 
 
 ### `OwnedDurablesPagingCache::{ctor}::__l2::<lambda_28a90fe2ce902a855825d33515958818>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `OwnedDurablesPagingCache *const` | __this
 
 
 ### `OwnedDurablesPagingCache::search::__l2::<lambda_c62e108c2369350517fae1efb94c51cb>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `OwnedDurablesPagingCache *const` | __this
 8 | (576) `const SearchQuery` | query
 584 | (64) `std::function<void __cdecl(DurableSearchResults const &)>` | callback
@@ -132,19 +132,19 @@ Offset | Type | Name
 
 ### `OwnerPtrT<SharePtrRefTraits<FogDefinition const > >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `OwnerStorageSharePtr<FogDefinition const >` | baseclass_0
 
 
 ### `OwnerStorageSharePtr<FogDefinition const >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<FogDefinition const >` | mValue
 
 
 ### `OwnedItemStackRequestScope`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ItemStackNetManagerClient *` | mItemStackNetManagerClient
 8 | (1) `bool` | mBeganRequest
 16 | (16) `std::shared_ptr<ItemStackRequestData>` | mResult
@@ -152,14 +152,14 @@ Offset | Type | Name
 
 ### `OptionalString`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | valid
 8 | (32) `std::string` | string
 
 
 ### `OSInformation`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | MajorOSVersion
 4 | (4) `unsigned int` | MinorOSVersion
 8 | (32) `std::string` | OSVersionName
@@ -167,7 +167,7 @@ Offset | Type | Name
 
 ### `OverworldGenerator::OverridableBiomeSourceHelper`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::unique_ptr<CachedBiomeSource<VanillaOverworldBiomeSource>>` | mNormalBiomeSource
 8 | (8) `std::unique_ptr<FixedBiomeSource>` | mOverriddenBiomeSource
 16 | (8) `BiomeSource *` | mBiomeSource
@@ -175,7 +175,7 @@ Offset | Type | Name
 
 ### `OceanRuinConfiguration`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `OceanTempCategory` | type
 4 | (4) `float` | largeProbability
 8 | (4) `float` | clusterProbability
@@ -183,19 +183,19 @@ Offset | Type | Name
 
 ### `OwnerPtrT<SharePtrRefTraits<PerlinSimplexNoise> >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `OwnerStorageSharePtr<PerlinSimplexNoise>` | baseclass_0
 
 
 ### `OwnerStorageSharePtr<PerlinSimplexNoise>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<PerlinSimplexNoise>` | mValue
 
 
 ### `OutputString`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `char *` | ptr
 8 | (8) `char *` | end
 16 | (8) `_object *` | obj

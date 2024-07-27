@@ -1,19 +1,19 @@
 # U
 ### `Unique<AppPlatform_linux>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::__uniq_ptr_impl<AppPlatform_linux,std::default_delete<AppPlatform_linux> >` | _M_t
 
 
 ### `Unique<Automation::AutomationClient>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::__uniq_ptr_impl<Automation::AutomationClient,std::default_delete<Automation::AutomationClient> >` | _M_t
 
 
 ### `utsname`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (65) `char[65]` | sysname
 65 | (65) `char[65]` | nodename
 130 | (65) `char[65]` | release
@@ -24,106 +24,106 @@ Offset | Type | Name
 
 ### `Unique<CompoundTag>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::__uniq_ptr_impl<CompoundTag,std::default_delete<CompoundTag> >` | _M_t
 
 
 ### `Unique<ItemInstance>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::__uniq_ptr_impl<ItemInstance,std::default_delete<ItemInstance> >` | _M_t
 
 
 ### `UniqueLock`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::unique_lock<std::shared_timed_mutex>::mutex_type *` | _M_device
 8 | (1) `bool` | _M_owns
 
 
 ### `Unique<UnverifiedCertificate>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::__uniq_ptr_impl<UnverifiedCertificate,std::default_delete<UnverifiedCertificate> >` | _M_t
 
 
 ### `Unique<Certificate>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::__uniq_ptr_impl<Certificate,std::default_delete<Certificate> >` | _M_t
 
 
 ### `UnverifiedCertificate`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (128) `const WebToken` | mRawToken
 128 | (8) `Unique<UnverifiedCertificate>` | mParentUnverifiedCertificate
 
 
 ### `Unique<Crypto::Asymmetric::Asymmetric>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::__uniq_ptr_impl<Crypto::Asymmetric::Asymmetric,std::default_delete<Crypto::Asymmetric::Asymmetric> >` | _M_t
 
 
 ### `Unique<AgentCommands::Command>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::__uniq_ptr_impl<AgentCommands::Command,std::default_delete<AgentCommands::Command> >` | _M_t
 
 
 ### `Unique<BehaviorNode>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::__uniq_ptr_impl<BehaviorNode,std::default_delete<BehaviorNode> >` | _M_t
 
 
 ### `Unique<DanceComponentListener>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::__uniq_ptr_impl<DanceComponentListener,std::default_delete<DanceComponentListener> >` | _M_t
 
 
 ### `Unique<JumpControl>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::__uniq_ptr_impl<JumpControl,std::default_delete<JumpControl> >` | _M_t
 
 
 ### `Unique<LookControl>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::__uniq_ptr_impl<LookControl,std::default_delete<LookControl> >` | _M_t
 
 
 ### `Unique<PathNavigation>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::__uniq_ptr_impl<PathNavigation,std::default_delete<PathNavigation> >` | _M_t
 
 
 ### `Unique<Path>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::__uniq_ptr_impl<Path,std::default_delete<Path> >` | _M_t
 
 
 ### `Unique<Tag>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::__uniq_ptr_impl<Tag,std::default_delete<Tag> >` | _M_t
 
 
 ### `UpdateBlockPropertiesPacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `Packet` | baseclass_0
 40 | (8) `Unique<CompoundTag>` | mBlockProperties
 
 
 ### `UpdateAttributesPacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `Packet` | baseclass_0
 40 | (8) `ActorRuntimeID` | mRuntimeId
 48 | (24) `std::vector<UpdateAttributesPacket::AttributeData>` | mAttributeData
@@ -131,53 +131,53 @@ Offset | Type | Name
 
 ### `Unique<Recipe>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::__uniq_ptr_impl<Recipe,std::default_delete<Recipe> >` | _M_t
 
 
 ### `Util::HashString`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | mText
 32 | (8) `uint64_t` | mHash
 
 
 ### `Unique<CommandContext>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::__uniq_ptr_impl<CommandContext,std::default_delete<CommandContext> >` | _M_t
 
 
 ### `Unique<WebToken>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::__uniq_ptr_impl<WebToken,std::default_delete<WebToken> >` | _M_t
 
 
 ### `UPNPInterface::UPNPCallback`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<void (UPNPResult)>::_Invoker_type` | _M_invoker
 
 
 ### `UPNPResult`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (257) `UPNPExternalIPResult` | externalIP
 1 | (262) `UPNPPortMappingResult` | portMapping
 
 
 ### `UPNPExternalIPResult`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | bUPNPSupported
 1 | (256) `char[256]` | hostIPAddress
 
 
 ### `UPNPPortMappingResult`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | bUPNPSupported
 1 | (256) `char[256]` | hostIPAddress
 258 | (2) `unsigned __int16` | externalPort
@@ -186,32 +186,32 @@ Offset | Type | Name
 
 ### `UPNPInterface::UPNPNotification`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<void ()>::_Invoker_type` | _M_invoker
 
 
 ### `Unique<ListTag>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::__uniq_ptr_impl<ListTag,std::default_delete<ListTag> >` | _M_t
 
 
 ### `Unique<CommandOrigin>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::__uniq_ptr_impl<CommandOrigin,std::default_delete<CommandOrigin> >` | _M_t
 
 
 ### `Unique<ComplexInventoryTransaction>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::__uniq_ptr_impl<ComplexInventoryTransaction,std::default_delete<ComplexInventoryTransaction> >` | _M_t
 
 
 ### `UpdateAttributesPacket::AttributeData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float` | mCurrentValue
 4 | (4) `float` | mMinValue
 8 | (4) `float` | mMaxValue
@@ -221,19 +221,19 @@ Offset | Type | Name
 
 ### `Unique<BlockComponentFactory>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::__uniq_ptr_impl<BlockComponentFactory,std::default_delete<BlockComponentFactory> >` | _M_t
 
 
 ### `Unique<BlockDefinitionGroup>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::__uniq_ptr_impl<BlockDefinitionGroup,std::default_delete<BlockDefinitionGroup> >` | _M_t
 
 
 ### `UpdateEquipPacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (36) `Packet:288` | baseclass_0
 36 | (1) `ContainerID` | mContainerId
 37 | (1) `ContainerType` | mType
@@ -244,7 +244,7 @@ Offset | Type | Name
 
 ### `UpdateTradePacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (36) `Packet:288` | baseclass_0
 36 | (1) `ContainerID` | mContainerId
 37 | (1) `ContainerType` | mType
@@ -260,105 +260,105 @@ Offset | Type | Name
 
 ### `Unique<ChangeDimensionRequest>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::__uniq_ptr_impl<ChangeDimensionRequest,std::default_delete<ChangeDimensionRequest> >` | _M_t
 
 
 ### `Unique<Actor>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::__uniq_ptr_impl<Actor,std::default_delete<Actor> >` | _M_t
 
 
 ### `Util::isValidIP::$012BCF0047B80F8DCFFA921910E94D35`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `int[8]` | ipv6
 1 | (16) `int[4]` | ipv4
 
 
 ### `Util::isValidIP::$A5E8C83C2C9C7045BF6C6CE6AD4B8468`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (5) `char[5]` | ipv6
 1 | (4) `char[4]` | ipv4
 
 
 ### `Unique<Level>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::__uniq_ptr_impl<Level,std::default_delete<Level> >` | _M_t
 
 
 ### `Unique<NetEventCallback>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::__uniq_ptr_impl<NetEventCallback,std::default_delete<NetEventCallback> >` | _M_t
 
 
 ### `Unique<Container>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::__uniq_ptr_impl<Container,std::default_delete<Container> >` | _M_t
 
 
 ### `Unique<ActorDefinitionDescriptor>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::__uniq_ptr_impl<ActorDefinitionDescriptor,std::default_delete<ActorDefinitionDescriptor> >` | _M_t
 
 
 ### `Unique<ActorDefinition>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::__uniq_ptr_impl<ActorDefinition,std::default_delete<ActorDefinition> >` | _M_t
 
 
 ### `Unique<Goal>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::__uniq_ptr_impl<Goal,std::default_delete<Goal> >` | _M_t
 
 
 ### `Unique<BehaviorTreeDefinition>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::__uniq_ptr_impl<BehaviorTreeDefinition,std::default_delete<BehaviorTreeDefinition> >` | _M_t
 
 
 ### `Unique<BehaviorDefinition>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::__uniq_ptr_impl<BehaviorDefinition,std::default_delete<BehaviorDefinition> >` | _M_t
 
 
 ### `Unique<LavaSlime>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::__uniq_ptr_impl<LavaSlime,std::default_delete<LavaSlime> >` | _M_t
 
 
 ### `Unique<FillingContainer>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::__uniq_ptr_impl<FillingContainer,std::default_delete<FillingContainer> >` | _M_t
 
 
 ### `Unique<Inventory>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::__uniq_ptr_impl<Inventory,std::default_delete<Inventory> >` | _M_t
 
 
 ### `Unique<OnHitSubcomponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::__uniq_ptr_impl<OnHitSubcomponent,std::default_delete<OnHitSubcomponent> >` | _M_t
 
 
 ### `UpdateBlockPacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (36) `Packet:288` | baseclass_0
 36 | (12) `NetworkBlockPosition` | mPos
 48 | (4) `uint32_t` | mLayer
@@ -368,145 +368,145 @@ Offset | Type | Name
 
 ### `Unique<TradeTable>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::__uniq_ptr_impl<TradeTable,std::default_delete<TradeTable> >` | _M_t
 
 
 ### `Unique<LootItemFunction>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::__uniq_ptr_impl<LootItemFunction,std::default_delete<LootItemFunction> >` | _M_t
 
 
 ### `Unique<LevelStorage>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::__uniq_ptr_impl<LevelStorage,std::default_delete<LevelStorage> >` | _M_t
 
 
 ### `Unique<Player>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::__uniq_ptr_impl<Player,std::default_delete<Player> >` | _M_t
 
 
 ### `Unique<ChalkboardBlockActor>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::__uniq_ptr_impl<ChalkboardBlockActor,std::default_delete<ChalkboardBlockActor> >` | _M_t
 
 
 ### `Unique<BlockComponentDescription>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::__uniq_ptr_impl<BlockComponentDescription,std::default_delete<BlockComponentDescription> >` | _M_t
 
 
 ### `Unique<ChunkSource>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::__uniq_ptr_impl<ChunkSource,std::default_delete<ChunkSource> >` | _M_t
 
 
 ### `Unique<ChunkViewSource>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::__uniq_ptr_impl<ChunkViewSource,std::default_delete<ChunkViewSource> >` | _M_t
 
 
 ### `Unique<LegacyStructureTemplate>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::__uniq_ptr_impl<LegacyStructureTemplate,std::default_delete<LegacyStructureTemplate> >` | _M_t
 
 
 ### `Unique<GameRulesChangedPacket>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::__uniq_ptr_impl<GameRulesChangedPacket,std::default_delete<GameRulesChangedPacket> >` | _M_t
 
 
 ### `Unique<Objective>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::__uniq_ptr_impl<Objective,std::default_delete<Objective> >` | _M_t
 
 
 ### `Unique<ObjectiveCriteria>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::__uniq_ptr_impl<ObjectiveCriteria,std::default_delete<ObjectiveCriteria> >` | _M_t
 
 
 ### `Unique<CommandArea>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::__uniq_ptr_impl<CommandArea,std::default_delete<CommandArea> >` | _M_t
 
 
 ### `Unique<SpawnGroupData>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::__uniq_ptr_impl<SpawnGroupData,std::default_delete<SpawnGroupData> >` | _M_t
 
 
 ### `Unique<BlockPatternBuilder>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::__uniq_ptr_impl<BlockPatternBuilder,std::default_delete<BlockPatternBuilder> >` | _M_t
 
 
 ### `Unique<BedBlockActor>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::__uniq_ptr_impl<BedBlockActor,std::default_delete<BedBlockActor> >` | _M_t
 
 
 ### `Unique<LootPoolTiers>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::__uniq_ptr_impl<LootPoolTiers,std::default_delete<LootPoolTiers> >` | _M_t
 
 
 ### `Unique<LootPoolEntry>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::__uniq_ptr_impl<LootPoolEntry,std::default_delete<LootPoolEntry> >` | _M_t
 
 
 ### `Unique<LootTable>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::__uniq_ptr_impl<LootTable,std::default_delete<LootTable> >` | _M_t
 
 
 ### `Unique<EnchantBookForTradingFunction>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::__uniq_ptr_impl<EnchantBookForTradingFunction,std::default_delete<EnchantBookForTradingFunction> >` | _M_t
 
 
 ### `Unique<ExplorationMapFunction>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::__uniq_ptr_impl<ExplorationMapFunction,std::default_delete<ExplorationMapFunction> >` | _M_t
 
 
 ### `Unique<BehaviorData::DataProxy>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::__uniq_ptr_impl<BehaviorData::DataProxy,std::default_delete<BehaviorData::DataProxy> >` | _M_t
 
 
 ### `Unique<LootItemCondition>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::__uniq_ptr_impl<LootItemCondition,std::default_delete<LootItemCondition> >` | _M_t
 
 
 ### `unz_file_info`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `uLong` | version
 8 | (8) `uLong` | version_needed
 16 | (8) `uLong` | flag
@@ -526,65 +526,65 @@ Offset | Type | Name
 
 ### `unz_global_info64`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ZPOS64_T` | number_entry
 8 | (8) `uLong` | size_comment
 
 
 ### `unz_global_info`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `uLong` | number_entry
 8 | (8) `uLong` | size_comment
 
 
 ### `utimbuf`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__time_t` | actime
 8 | (8) `__time_t` | modtime
 
 
 ### `Util::swapEndian<int>::$11F1BAB51A7F6778145096AE6C662BB5`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | u
 1 | (4) `unsigned __int8[4]` | u8
 
 
 ### `Util::compareNoCase::$7EF7C94BEAB75C6CEF4ADFB99B570420`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `Util::toLower::$7EF7C94BEAB75C6CEF4ADFB99B570420`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `Util::toUpper::$7EF7C94BEAB75C6CEF4ADFB99B570420`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `Util::toLowerInPlace::$7EF7C94BEAB75C6CEF4ADFB99B570420`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `Util::toUpperInPlace::$7EF7C94BEAB75C6CEF4ADFB99B570420`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `unz64_s`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (88) `zlib_filefunc64_32_def` | z_filefunc
 88 | (4) `int` | is64bitOpenFunction
 96 | (8) `voidpf` | filestream
@@ -605,7 +605,7 @@ Offset | Type | Name
 
 ### `unz_file_info64`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `uLong` | version
 8 | (8) `uLong` | version_needed
 16 | (8) `uLong` | flag
@@ -625,20 +625,20 @@ Offset | Type | Name
 
 ### `unz_file_info64_internal`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ZPOS64_T` | offset_curfile
 
 
 ### `unz64_file_pos`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ZPOS64_T` | pos_in_zip_directory
 8 | (8) `ZPOS64_T` | num_of_file
 
 
 ### `ucontext_t_0`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `unsigned __int64` | uc_flags
 8 | (8) `ucontext_t *` | uc_link
 16 | (24) `stack_t` | uc_stack
@@ -649,14 +649,14 @@ Offset | Type | Name
 
 ### `uint128_struct`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `uint64_t` | high
 8 | (8) `uint64_t` | low
 
 
 ### `user_regs_struct`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `unsigned __int64` | _r15
 8 | (8) `unsigned __int64` | _r14
 16 | (8) `unsigned __int64` | _r13
@@ -688,7 +688,7 @@ Offset | Type | Name
 
 ### `user_fpregs_struct`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `unsigned __int16` | cwd
 2 | (2) `unsigned __int16` | swd
 4 | (2) `unsigned __int16` | ftw
@@ -704,19 +704,19 @@ Offset | Type | Name
 
 ### `Unique<MobEffect>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::__uniq_ptr_impl<MobEffect,std::default_delete<MobEffect> >` | _M_t
 
 
 ### `Unique<BlockGraphics>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::__uniq_ptr_impl<BlockGraphics,std::default_delete<BlockGraphics> >` | _M_t
 
 
 ### `utf8proc_property_t`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `utf8proc_propval_t` | category
 2 | (2) `utf8proc_propval_t` | combining_class
 4 | (2) `utf8proc_propval_t` | bidi_class
@@ -734,109 +734,109 @@ Offset | Type | Name
 
 ### `Unique<StructureTemplatePool>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::__uniq_ptr_impl<StructureTemplatePool,std::default_delete<StructureTemplatePool> >` | _M_t
 
 
 ### `Unique<CircuitSystem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::__uniq_ptr_impl<CircuitSystem,std::default_delete<CircuitSystem> >` | _M_t
 
 
 ### `Unique<TickingAreaList>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::__uniq_ptr_impl<TickingAreaList,std::default_delete<TickingAreaList> >` | _M_t
 
 
 ### `Unique<VillageManager>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::__uniq_ptr_impl<VillageManager,std::default_delete<VillageManager> >` | _M_t
 
 
 ### `Unique<PerlinSimplexNoise>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::__uniq_ptr_impl<PerlinSimplexNoise,std::default_delete<PerlinSimplexNoise> >` | _M_t
 
 
 ### `UniqueRakPeer`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::__uniq_ptr_impl<RakNet::RakPeerInterface,void (*)(RakNet::RakPeerInterface *)>` | _M_t
 
 
 ### `Unique<RakNetInstance>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::__uniq_ptr_impl<RakNetInstance,std::default_delete<RakNetInstance> >` | _M_t
 
 
 ### `Unique<LocalConnector>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::__uniq_ptr_impl<LocalConnector,std::default_delete<LocalConnector> >` | _M_t
 
 
 ### `Unique<RakNetServerLocator>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::__uniq_ptr_impl<RakNetServerLocator,std::default_delete<RakNetServerLocator> >` | _M_t
 
 
 ### `Unique<UPNPInterface>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::__uniq_ptr_impl<UPNPInterface,std::default_delete<UPNPInterface> >` | _M_t
 
 
 ### `Unique<NetworkHandler::IncomingPacketQueue>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::__uniq_ptr_impl<NetworkHandler::IncomingPacketQueue,std::default_delete<NetworkHandler::IncomingPacketQueue> >` | _M_t
 
 
 ### `Unique<ShapedRecipe>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::__uniq_ptr_impl<ShapedRecipe,std::default_delete<ShapedRecipe> >` | _M_t
 
 
 ### `Unique<ShapelessRecipe>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::__uniq_ptr_impl<ShapelessRecipe,std::default_delete<ShapelessRecipe> >` | _M_t
 
 
 ### `Unique<MultiRecipe>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::__uniq_ptr_impl<MultiRecipe,std::default_delete<MultiRecipe> >` | _M_t
 
 
 ### `Unique<LootComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::__uniq_ptr_impl<LootComponent,std::default_delete<LootComponent> >` | _M_t
 
 
 ### `UpdateAttributesPacket::AttributeData::AttributeData::$7EF7C94BEAB75C6CEF4ADFB99B570420`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `UpdateBlockPropertiesPacket::UpdateBlockPropertiesPacket::$5D452180F6FD32FDE19EF7DE5EC88D21`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Unique<CompoundTag> *` | defTag
 
 
 ### `UpdateSoftEnumPacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `Packet` | baseclass_0
 40 | (32) `std::string` | mEnumName
 72 | (24) `std::vector<std::string>` | mValues
@@ -845,38 +845,38 @@ Offset | Type | Name
 
 ### `UriListener`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `int (**)(void)` | _vptr$UriListener
 
 
 ### `Unique<MoveControl>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::__uniq_ptr_impl<MoveControl,std::default_delete<MoveControl> >` | _M_t
 
 
 ### `Unique<SpawnData>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::__uniq_ptr_impl<SpawnData,std::default_delete<SpawnData> >` | _M_t
 
 
 ### `UpdateBlockSyncedPacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `UpdateBlockPacket` | baseclass_0
 64 | (16) `ActorBlockSyncMessage` | mEntityBlockSyncMessage
 
 
 ### `Unique<ITickingArea>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::__uniq_ptr_impl<ITickingArea,std::default_delete<ITickingArea> >` | _M_t
 
 
 ### `UnderwaterTorchBlock::animateTick::$7EF7C94BEAB75C6CEF4ADFB99B570420`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 

@@ -1,7 +1,7 @@
 # Z
 ### `z_stream`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Bytef *` | next_in
 8 | (4) `uInt` | avail_in
 16 | (8) `uLong` | total_in
@@ -20,14 +20,14 @@ Offset | Type | Name
 
 ### `ZlibFileAccessWrapper`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::unique_ptr<zlib_filefunc64_32_def_s>` | mZipAPI
 8 | (8) `IFileAccess *` | mFileAccess
 
 
 ### `zip_fileinfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `tm_zip` | tmz_date
 24 | (8) `uLong` | dosDate
 32 | (8) `uLong` | internal_fa
@@ -36,7 +36,7 @@ Offset | Type | Name
 
 ### `zlib_filefunc64_32_def`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `zlib_filefunc64_def` | zfile_func64
 64 | (8) `open_file_func` | zopen32_file
 72 | (8) `tell_file_func` | ztell32_file
@@ -45,7 +45,7 @@ Offset | Type | Name
 
 ### `zlib_filefunc64_def`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `open64_file_func` | zopen64_file
 8 | (8) `read_file_func` | zread_file
 16 | (8) `write_file_func` | zwrite_file
@@ -58,7 +58,7 @@ Offset | Type | Name
 
 ### `zip64_internal`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (88) `zlib_filefunc64_32_def` | z_filefunc
 88 | (8) `voidpf` | filestream
 96 | (16) `linkedlist_data` | central_dir
@@ -72,7 +72,7 @@ Offset | Type | Name
 
 ### `z_stream_s`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Bytef *` | next_in
 8 | (4) `uInt` | avail_in
 16 | (8) `uLong` | total_in

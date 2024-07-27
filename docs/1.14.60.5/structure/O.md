@@ -1,96 +1,96 @@
 # O
 ### `OverworldGenerator::_makeLayers::$2867EA52F754A99BBF15CBCDF29DF3E2`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const BiomeRegistry *` | biomeRegistry
 
 
 ### `OwnedActorSet`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<std::unique_ptr<Actor>>` | c
 
 
 ### `OwnerStorageEntity::EntityContextOwned`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `EntityContext` | baseclass_0
 
 
 ### `OpenDoorAnnotationComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (80) `std::queue<BlockPos>` | mPassedDoorPositions
 
 
 ### `OptionalString`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | valid
 8 | (32) `std::string` | string
 
 
 ### `Option::StringFilter`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<std::string (const std::string &)>::_Invoker_type` | _M_invoker
 
 
 ### `Option::BoolFilter`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<bool (bool)>::_Invoker_type` | _M_invoker
 
 
 ### `Option::SaveIntCallback`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<int (int)>::_Invoker_type` | _M_invoker
 
 
 ### `OnScreenTextureAnimationPacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (36) `Packet:288` | baseclass_0
 36 | (4) `unsigned int` | mEffectID
 
 
 ### `OwnerPtr<EntityId>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `EntityRefTraits::OwnerStorage` | baseclass_0
 
 
 ### `OverworldHeightAttributes`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `BiomeHeight` | mHeightParams
 
 
 ### `OceanMixerLayer::OceanData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::unique_ptr<char []>` | mResult
 
 
 ### `optional_ref<int>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `int *` | ptr
 
 
 ### `OverworldDimension`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1216) `Dimension` | baseclass_0
 
 
 ### `OceanRuinConfiguration`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `OceanTempCategory` | type
 4 | (4) `float` | largeProbability
 8 | (4) `float` | clusterProbability
@@ -98,31 +98,31 @@ Offset | Type | Name
 
 ### `OwnerPtr<PerlinSimplexNoise>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `SharePtrRefTraits<PerlinSimplexNoise>::OwnerStorage` | baseclass_0
 
 
 ### `optional_ref<const Localization>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const Localization *` | ptr
 
 
 ### `Ocelot::updateEntitySpecificMolangVariables::$7EF7C94BEAB75C6CEF4ADFB99B570420`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `OwnerPtrT<FeatureRefTraits>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `FeatureRefTraits::OwnerStorage` | baseclass_0
 
 
 ### `ObjectiveCriteria`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `const std::string` | mName
 32 | (1) `const bool` | mReadOnly
 33 | (1) `const ObjectiveRenderType_0` | mRenderType

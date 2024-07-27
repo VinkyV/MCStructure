@@ -1,14 +1,14 @@
 # N
 ### `NetworkAddress`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | host
 32 | (2) `uint16_t` | port
 
 
 ### `NetworkPeer::NetworkStatus`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `NetworkPeer::NetworkLoad` | mLoad
 4 | (4) `int` | mCurrentPing
 8 | (4) `int` | mAveragePing
@@ -21,26 +21,26 @@ Offset | Type | Name
 
 ### `NewType<unsigned char>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `NewType<unsigned char>::Raw` | value
 
 
 ### `NewType<long>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `NewType<long>::Raw` | value
 
 
 ### `NpcComponent::TextFilter`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<std::string (const std::string &)>::_Invoker_type` | _M_invoker
 
 
 ### `NpcRequestPacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `Packet` | baseclass_0
 40 | (8) `ActorRuntimeID` | mId
 48 | (1) `NpcRequestPacket::RequestType` | mType
@@ -50,19 +50,19 @@ Offset | Type | Name
 
 ### `NpcActions`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Vector_base<std::unique_ptr<NpcAction>>` | baseclass_0
 
 
 ### `NpcCommandAction::CommandVector`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Vector_base<NpcCommandAction::SavedCommand>` | baseclass_0
 
 
 ### `NavigationComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | mAvoidDamageBlocks
 1 | (1) `bool` | mAvoidPortals
 2 | (1) `bool` | mAvoidSun
@@ -91,7 +91,7 @@ Offset | Type | Name
 
 ### `NetworkIdentifier`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `RakNet::RakNetGUID` | mGuid
 16 | (128) `sockaddr_storage` | mSock
 144 | (4) `NetworkIdentifier::Type` | mType
@@ -99,7 +99,7 @@ Offset | Type | Name
 
 ### `NetworkStatistics::PacketStats`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | id
 4 | (4) `unsigned int` | sentNum
 8 | (4) `unsigned int` | sentBytes
@@ -109,7 +109,7 @@ Offset | Type | Name
 
 ### `NetworkStatistics::OverviewStats`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | sentBytesUnpacked
 4 | (4) `unsigned int` | sentBytesPacked
 8 | (4) `unsigned int` | receivedBytesUnpacked
@@ -118,26 +118,26 @@ Offset | Type | Name
 
 ### `NetworkSettingOptions`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `uint16_t` | mCompressionThreshold
 
 
 ### `NetworkSettingsPacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (36) `Packet:288` | baseclass_0
 36 | (2) `uint16_t` | mCompressionThreshold
 
 
 ### `NetworkBlockPosition`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (12) `BlockPos` | baseclass_0
 
 
 ### `NetworkStackLatencyPacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `Packet` | baseclass_0
 40 | (8) `std::chrono::_V2::steady_clock::time_point` | createTime
 48 | (1) `bool` | fromServer
@@ -145,7 +145,7 @@ Offset | Type | Name
 
 ### `NameableDescription`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ComponentDescription` | baseclass_0
 8 | (24) `std::vector<NameAction>` | mNameActions
 32 | (128) `DefinitionTrigger` | mDefaultActionTrigger
@@ -155,14 +155,14 @@ Offset | Type | Name
 
 ### `NameableComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | mAllowNameTagRenaming
 1 | (1) `bool` | mAlwaysShow
 
 
 ### `NpcComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mCurrentSkin
 4 | (36) `NpcGUIOffset` | mPortraitOffsets
 40 | (36) `NpcGUIOffset` | mPickerOffsets
@@ -175,7 +175,7 @@ Offset | Type | Name
 
 ### `NpcGUIOffset`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (12) `Vec3` | mTranslation
 12 | (12) `Vec3` | mRotation
 24 | (12) `Vec3` | mScale
@@ -183,50 +183,50 @@ Offset | Type | Name
 
 ### `NewBlockID`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `NewType<unsigned short>` | baseclass_0
 
 
 ### `NewType<unsigned short>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `NewType<unsigned short>::Raw` | value
 
 
 ### `NibblePair`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8` | _bf_0
 
 
 ### `NetworkComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `EntityNetId` | mEntityNetId
 
 
 ### `NoiseBasedTemperatureAttributes`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `TemperatureCategory` | mTemperatureCategory
 
 
 ### `NewType<int>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `NewType<int>::Raw` | value
 
 
 ### `NameAction`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<std::string>` | mNameFilters
 24 | (128) `DefinitionTrigger` | mOnNamed
 
 
 ### `NetworkChunkPublisherUpdatePacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (36) `Packet:288` | baseclass_0
 36 | (12) `BlockPos` | mPosition
 48 | (4) `uint32_t` | mRadius
@@ -234,19 +234,19 @@ Offset | Type | Name
 
 ### `NullLogger`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `leveldb::Logger` | baseclass_0
 
 
 ### `NetEventCallback`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `int (**)(void)` | _vptr$NetEventCallback
 
 
 ### `NetworkHandler`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `RakNetInstance::ConnectionCallbacks` | baseclass_0
 8 | (8) `RakPeerHelper::IPSupportInterface` | baseclass_8
 16 | (8) `LocalConnector::ConnectionCallbacks` | baseclass_10
@@ -279,7 +279,7 @@ Offset | Type | Name
 
 ### `NoteBlock::triggerEvent::$7EF7C94BEAB75C6CEF4ADFB99B570420`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 

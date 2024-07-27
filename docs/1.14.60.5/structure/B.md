@@ -1,7 +1,7 @@
 # B
 ### `BlockPos`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | x
 4 | (4) `int` | y
 8 | (4) `int` | z
@@ -9,51 +9,51 @@ Offset | Type | Name
 
 ### `BaseGameVersion`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (112) `SemVersion` | mSemVersion
 
 
 ### `Bedrock::Threading::Mutex`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `std::__mutex_base` | baseclass_0
 
 
 ### `BedrockEngine::AppIsland`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `BedrockEngine::IIslandCore` | baseclass_0
 
 
 ### `BedrockEngine::IIslandCore`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `int (**)(void)` | _vptr$IIslandCore
 
 
 ### `BaseGamePackSlices`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<BaseGamePackSlices::BaseGameVersionPack>` | mBaseGameVersionPacks
 24 | (24) `std::vector<BaseGamePackSlices::BaseGameVersionPack>` | mBaseGameVersionTestPacks
 
 
 ### `BoundingBox`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (12) `BlockPos` | min
 12 | (12) `BlockPos` | max
 
 
 ### `Bedrock::Application::ThreadOwner<Core::Random>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2516) `Core::Random` | mObject
 
 
 ### `BlockSource`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `int (**)(void)` | _vptr$BlockSource
 8 | (8) `const std::thread::id` | mOwnerThreadID
 16 | (1) `const bool` | mAllowUnpopulatedChunks
@@ -77,32 +77,32 @@ Offset | Type | Name
 
 ### `BlockSource::ListenerVector`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Vector_base<BlockSourceListener *>` | baseclass_0
 
 
 ### `BrightnessPair`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `Brightness` | sky
 1 | (1) `Brightness` | block
 
 
 ### `Brightness`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `NewType<unsigned char>` | baseclass_0
 
 
 ### `BlockActorList`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Vector_base<BlockActor *>` | baseclass_0
 
 
 ### `BlockTickingQueue`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `LevelChunk *` | mOwningChunk
 8 | (8) `Tick` | mCurrentTick
 16 | (24) `BlockTickingQueue::TickDataSet` | mNextTickQueue
@@ -113,32 +113,32 @@ Offset | Type | Name
 
 ### `BlockTickingQueue::TickDataSet`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `MovePriorityQueue<BlockTickingQueue::BlockTick,std::greater<BlockTickingQueue::BlockTick> >` | baseclass_0
 
 
 ### `Bedrock::Threading::LockGuard<Bedrock::Threading::Mutex>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::lock_guard<std::mutex>::mutex_type *` | _M_device
 
 
 ### `buffer_span<ChunkPos>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const ChunkPos *` | mBegin
 8 | (8) `const ChunkPos *` | mEnd
 
 
 ### `BiomeSource`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `int (**)(void)` | _vptr$BiomeSource
 
 
 ### `BlockVolume`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `buffer_span_mut<const Block *>` | blocks
 16 | (4) `uint32_t` | mWidth
 20 | (4) `uint32_t` | mHeight
@@ -147,27 +147,27 @@ Offset | Type | Name
 
 ### `buffer_span_mut<const Block *>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const Block **` | mBegin
 8 | (8) `const Block **` | mEnd
 
 
 ### `BiomeArea`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `uint32_t` | mStride
 8 | (24) `std::vector<const Biome *>` | mBiomes
 
 
 ### `BonusChestFeature`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `Feature` | baseclass_0
 
 
 ### `BlockPosIterator`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (12) `const BlockPos` | mMinCorner
 12 | (12) `const BlockPos` | mMaxCorner
 24 | (12) `BlockPos` | mCurrentPos
@@ -176,26 +176,26 @@ Offset | Type | Name
 
 ### `buffer_span<std::pair<gsl::basic_string_span<const char,-1>,gsl::basic_string_span<const char,-1> > >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const std::pair<gsl::basic_string_span<const char,-1>,gsl::basic_string_span<const char,-1> > *` | mBegin
 8 | (8) `const std::pair<gsl::basic_string_span<const char,-1>,gsl::basic_string_span<const char,-1> > *` | mEnd
 
 
 ### `buffer_span<std::pair<gsl::basic_string_span<const char,-1>,gsl::basic_string_span<const char,-1> > >::iterator`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const std::pair<gsl::basic_string_span<const char,-1>,gsl::basic_string_span<const char,-1> > *` | mPtr
 
 
 ### `Bedrock::Threading::LockGuard<Core::SingleThreadedLock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::lock_guard<Core::SingleThreadedLock>::mutex_type *` | _M_device
 
 
 ### `BalloonComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ActorUniqueID` | mAttachedID
 8 | (4) `float` | mMaxHeight
 12 | (1) `bool` | mShouldDropAttached
@@ -203,7 +203,7 @@ Offset | Type | Name
 
 ### `BehaviorComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `BehaviorTreeDefinitionPtr` | mTreeDefinition
 16 | (8) `Unique<BehaviorNode>` | mRoot
 24 | (80) `BehaviorData` | mBehaviorData
@@ -211,21 +211,21 @@ Offset | Type | Name
 
 ### `BehaviorTreeDefinitionPtr`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `BehaviorTreeGroup *` | mGroup
 8 | (8) `BehaviorTreeDefinition *` | mPtr
 
 
 ### `BehaviorData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (56) `std::unordered_map<std::string,std::unique_ptr<BehaviorData::DataProxy>>` | mData
 56 | (24) `std::vector<std::unique_ptr<BehaviorData::DataProxy>>` | mDataStack
 
 
 ### `BlockBreakSensorComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float` | mSensorRadius
 4 | (12) `Vec3` | mSensorPos
 16 | (16) `BlockEventDispatcherToken` | mListener
@@ -234,20 +234,20 @@ Offset | Type | Name
 
 ### `BlockEventDispatcherToken`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `ListenerHandle` | mHandle
 8 | (8) `BlockEventDispatcher *` | mDispatcher
 
 
 ### `BodyControlComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::unique_ptr<BodyControl>` | mBodyControl
 
 
 ### `BoostableComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | mIsBoosting
 4 | (4) `int` | mBoostTime
 8 | (4) `int` | mBoostTimeTotal
@@ -256,7 +256,7 @@ Offset | Type | Name
 
 ### `BossComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | mName
 32 | (1) `bool` | mHealthBarVisible
 36 | (4) `float` | mHealthPercent
@@ -273,13 +273,13 @@ Offset | Type | Name
 
 ### `BreakBlocksComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `IEntityComponent` | baseclass_0
 
 
 ### `BreakDoorAnnotationComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mBreakTicks
 4 | (4) `Difficulty` | mMinDifficulty
 8 | (8) `ActorUniqueID` | mTargetID
@@ -290,7 +290,7 @@ Offset | Type | Name
 
 ### `BreathableComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mSuffocateTime
 4 | (4) `float` | mInhaleTime
 8 | (4) `int` | mAirRegenPerTick
@@ -308,7 +308,7 @@ Offset | Type | Name
 
 ### `BreedableComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const BreedableDefinition *` | mStaticData
 8 | (4) `int` | mLoveTimer
 12 | (4) `int` | mBreedCooldown
@@ -320,7 +320,7 @@ Offset | Type | Name
 
 ### `BribeableComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const BribeableDefinition *` | mStaticData
 8 | (4) `int` | mBribeTimer
 12 | (4) `int` | mBribeCooldown
@@ -329,7 +329,7 @@ Offset | Type | Name
 
 ### `BaseCommandBlock`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | mLastOutputId
 32 | (24) `std::vector<std::string>` | mLastOutputParams
 56 | (32) `std::string` | mCommand
@@ -345,72 +345,72 @@ Offset | Type | Name
 
 ### `Bedrock::Threading::$<23596803,1>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::lock_guard<std::mutex>::mutex_type *` | _M_device
 
 
 ### `Bedrock::Threading::UniqueLock<Bedrock::Threading::SharedMutex>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::unique_lock<std::shared_timed_mutex>::mutex_type *` | _M_device
 8 | (1) `bool` | _M_owns
 
 
 ### `Bedrock::Threading::SharedLock<Bedrock::Threading::SharedMutex>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::shared_lock<std::shared_timed_mutex>::mutex_type *` | _M_pm
 8 | (1) `bool` | _M_owns
 
 
 ### `BinaryDataOutput`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `BytesDataOutput` | baseclass_0
 8 | (8) `BinaryStream *` | mStream
 
 
 ### `BytesDataOutput`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IDataOutput` | baseclass_0
 
 
 ### `BinaryDataInput`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `BytesDataInput` | baseclass_0
 8 | (8) `ReadOnlyBinaryStream *` | mStream
 
 
 ### `BytesDataInput`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IDataInput` | baseclass_0
 
 
 ### `Bedrock::Threading::IAsyncResult<void>::Handle`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::__shared_ptr<Bedrock::Threading::IAsyncResult<void>,__gnu_cxx::_S_atomic>` | baseclass_0
 
 
 ### `Bedrock::Threading::UniqueLock<Bedrock::Threading::RecursiveMutex>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::unique_lock<std::recursive_mutex>::mutex_type *` | _M_device
 8 | (1) `bool` | _M_owns
 
 
 ### `Bedrock::Threading::$<25190359,1>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::lock_guard<std::mutex>::mutex_type *` | _M_device
 
 
 ### `Blacklist::Entry`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `mce::UUID` | mUuid
 16 | (32) `std::string` | mXuid
 48 | (32) `std::string` | mBlockedMessage
@@ -419,21 +419,21 @@ Offset | Type | Name
 
 ### `BiomeDefinitionListPacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `Packet` | baseclass_0
 40 | (56) `CompoundTag` | mBiomeData
 
 
 ### `Bedrock::Threading::UniqueLock<Bedrock::Threading::Mutex>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::unique_lock<std::mutex>::mutex_type *` | _M_device
 8 | (1) `bool` | _M_owns
 
 
 ### `BookEditPacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (36) `Packet:288` | baseclass_0
 36 | (1) `BookEditAction` | mAction
 40 | (4) `int` | mBookSlot
@@ -446,27 +446,27 @@ Offset | Type | Name
 
 ### `buffer_span<unsigned int>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const unsigned int *` | mBegin
 8 | (8) `const unsigned int *` | mEnd
 
 
 ### `BaseGamePackSlices::applyPackSlices::$407E69F49D83A976B60EB7804F48E5FB`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `const bool` | shouldApplyAllSlices
 8 | (8) `const BaseGameVersion *` | baseGameVersion
 
 
 ### `BaseGameVersion::any_version_constructor`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `BehaviorPackContents`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `uint32_t` | mEntities
 4 | (4) `uint32_t` | mLoots
 8 | (4) `uint32_t` | mTrades
@@ -475,43 +475,43 @@ Offset | Type | Name
 
 ### `Bedrock::Threading::Thread`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::thread::id` | _M_id
 
 
 ### `Blacklist::LockGuard`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::lock_guard<std::recursive_mutex>::mutex_type *` | _M_device
 
 
 ### `Bedrock::Threading::ConditionVariable`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (48) `std::condition_variable::__native_type` | _M_cond
 
 
 ### `BucketableComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `IEntityComponent` | baseclass_0
 
 
 ### `BucketableDescription`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ComponentDescription` | baseclass_0
 
 
 ### `BoneAnimationChannel::sortKeyFrames::KeyFrameCompare`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `BoneOrientation`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mParentBoneIndex
 4 | (4) `SkeletalHierarchyIndex` | mParentSkeletalHierarchyIndex
 8 | (40) `HashedString` | mName
@@ -527,38 +527,38 @@ Offset | Type | Name
 
 ### `BoneOrientationTransform`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (36) `Vec3[3]` | mData
 
 
 ### `Bedrock::Threading::RecursiveMutex`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `std::__recursive_mutex_base` | baseclass_0
 
 
 ### `Bedrock::Threading::LockGuard<Bedrock::Threading::RecursiveMutex>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::lock_guard<std::recursive_mutex>::mutex_type *` | _M_device
 
 
 ### `buffer_span_mut<std::shared_ptr<LevelChunk> >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::shared_ptr<LevelChunk> *` | mBegin
 8 | (8) `std::shared_ptr<LevelChunk> *` | mEnd
 
 
 ### `buffer_span<unsigned int>::iterator`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const unsigned int *` | mPtr
 
 
 ### `BlockActorDataPacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (36) `Packet:288` | baseclass_0
 36 | (12) `NetworkBlockPosition` | mPos
 48 | (56) `CompoundTag` | mData
@@ -566,40 +566,40 @@ Offset | Type | Name
 
 ### `buffer_span_mut<unsigned int>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `unsigned int *` | mBegin
 8 | (8) `unsigned int *` | mEnd
 
 
 ### `BlockPalette::ConstructorToken`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `BlockID`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `NewType<unsigned char>` | baseclass_0
 
 
 ### `buffer_span<BlockID>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const BlockID *` | mBegin
 8 | (8) `const BlockID *` | mEnd
 
 
 ### `buffer_span<NibblePair>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const NibblePair *` | mBegin
 8 | (8) `const NibblePair *` | mEnd
 
 
 ### `BlockFetchResult`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::reference_wrapper<const Block>` | mBlock
 8 | (12) `BlockPos` | mBlockPos
 20 | (4) `uint32_t` | mDistanceSquared
@@ -607,34 +607,34 @@ Offset | Type | Name
 
 ### `buffer_span<SubChunk>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const SubChunk *` | mBegin
 8 | (8) `const SubChunk *` | mEnd
 
 
 ### `buffer_span<Actor *>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Actor *const *` | mBegin
 8 | (8) `Actor *const *` | mEnd
 
 
 ### `buffer_span<Actor *>::iterator`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Actor *const *` | mPtr
 
 
 ### `BlockTickingQueue::BlockTick`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | mIsRemoved
 8 | (40) `TickNextTickData` | mData
 
 
 ### `BlockTickingQueue::getTickDelaysInArea::$8CF75821B5BA7DD28C0CF4A48A9CB9FA`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const BoundingBox *` | boundingBox
 8 | (8) `std::unordered_multimap<BlockPos,TickDelayBlock> *` | ticks
 16 | (8) `const BlockTickingQueue *` | this
@@ -642,214 +642,214 @@ Offset | Type | Name
 
 ### `BlockPosSet`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (56) `std::unordered_set<BlockPos>::_Hashtable` | _M_h
 
 
 ### `BiomeComponentLoading::ComponentAccessor<WeightedBiomeAttributes<HillsTransformation> >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<WeightedBiomeAttributes<HillsTransformation> &(std::pair<std::reference_wrapper<Biome>,std::reference_wrapper<IWorldRegistriesProvider> > *)>::_Invoker_type` | _M_invoker
 
 
 ### `BiomeComponentLoading::ComponentAccessor<WeightedBiomeAttributes<MutateBiomeTransformation> >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<WeightedBiomeAttributes<MutateBiomeTransformation> &(std::pair<std::reference_wrapper<Biome>,std::reference_wrapper<IWorldRegistriesProvider> > *)>::_Invoker_type` | _M_invoker
 
 
 ### `BiomeComponentLoading::ComponentAccessor<WeightedBiomeAttributes<RiverTransformation> >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<WeightedBiomeAttributes<RiverTransformation> &(std::pair<std::reference_wrapper<Biome>,std::reference_wrapper<IWorldRegistriesProvider> > *)>::_Invoker_type` | _M_invoker
 
 
 ### `BiomeComponentLoading::ComponentAccessor<WeightedBiomeAttributes<ShoreTransformation> >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<WeightedBiomeAttributes<ShoreTransformation> &(std::pair<std::reference_wrapper<Biome>,std::reference_wrapper<IWorldRegistriesProvider> > *)>::_Invoker_type` | _M_invoker
 
 
 ### `BiomeComponentLoading::ComponentAccessor<FlagComponent<IgnoreAutomaticFeatureRules> >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<FlagComponent<IgnoreAutomaticFeatureRules> &(std::pair<std::reference_wrapper<Biome>,std::reference_wrapper<IWorldRegistriesProvider> > *)>::_Invoker_type` | _M_invoker
 
 
 ### `BiomeComponentLoading::ComponentAccessor<FlagComponent<DataDrivenBiomeSurface> >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<FlagComponent<DataDrivenBiomeSurface> &(std::pair<std::reference_wrapper<Biome>,std::reference_wrapper<IWorldRegistriesProvider> > *)>::_Invoker_type` | _M_invoker
 
 
 ### `BiomeComponentLoading::ComponentAccessor<FlagComponent<SwampBiomeSurface> >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<FlagComponent<SwampBiomeSurface> &(std::pair<std::reference_wrapper<Biome>,std::reference_wrapper<IWorldRegistriesProvider> > *)>::_Invoker_type` | _M_invoker
 
 
 ### `BiomeComponentLoading::ComponentAccessor<FlagComponent<OceanFrozenBiomeSurface> >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<FlagComponent<OceanFrozenBiomeSurface> &(std::pair<std::reference_wrapper<Biome>,std::reference_wrapper<IWorldRegistriesProvider> > *)>::_Invoker_type` | _M_invoker
 
 
 ### `BiomeComponentLoading::ComponentAccessor<FlagComponent<NetherBiomeSurface> >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<FlagComponent<NetherBiomeSurface> &(std::pair<std::reference_wrapper<Biome>,std::reference_wrapper<IWorldRegistriesProvider> > *)>::_Invoker_type` | _M_invoker
 
 
 ### `BiomeComponentLoading::ComponentAccessor<FlagComponent<TheEndBiomeSurface> >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<FlagComponent<TheEndBiomeSurface> &(std::pair<std::reference_wrapper<Biome>,std::reference_wrapper<IWorldRegistriesProvider> > *)>::_Invoker_type` | _M_invoker
 
 
 ### `BiomeComponentLoading::ComponentAccessor<HillsTransformationAttributes>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<WeightedBiomeAttributes<HillsTransformation> &(std::pair<std::reference_wrapper<Biome>,std::reference_wrapper<IWorldRegistriesProvider> > *)>::_Invoker_type` | _M_invoker
 
 
 ### `BiomeComponentLoading::ComponentAccessor<MutateTransformationAttributes>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<WeightedBiomeAttributes<MutateBiomeTransformation> &(std::pair<std::reference_wrapper<Biome>,std::reference_wrapper<IWorldRegistriesProvider> > *)>::_Invoker_type` | _M_invoker
 
 
 ### `BiomeComponentLoading::ComponentAccessor<PreHillsEdgeAttributes>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<FilteredTransformationAttributes<PreHillsEdgeTransformation> &(std::pair<std::reference_wrapper<Biome>,std::reference_wrapper<IWorldRegistriesProvider> > *)>::_Invoker_type` | _M_invoker
 
 
 ### `BiomeComponentLoading::ComponentAccessor<PostShoreEdgeAttributes>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<FilteredTransformationAttributes<PostShoreEdgeTransformation> &(std::pair<std::reference_wrapper<Biome>,std::reference_wrapper<IWorldRegistriesProvider> > *)>::_Invoker_type` | _M_invoker
 
 
 ### `BiomeComponentLoading::ComponentAccessor<RiverTransformationAttributes>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<WeightedBiomeAttributes<RiverTransformation> &(std::pair<std::reference_wrapper<Biome>,std::reference_wrapper<IWorldRegistriesProvider> > *)>::_Invoker_type` | _M_invoker
 
 
 ### `BiomeComponentLoading::ComponentAccessor<ShoreAttributes>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<WeightedBiomeAttributes<ShoreTransformation> &(std::pair<std::reference_wrapper<Biome>,std::reference_wrapper<IWorldRegistriesProvider> > *)>::_Invoker_type` | _M_invoker
 
 
 ### `BiomeComponentLoading::ComponentAccessor<LegacyPreHillsEdgeAttributes>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<FilteredTransformationAttributes<LegacyPreHillsEdgeTransformation> &(std::pair<std::reference_wrapper<Biome>,std::reference_wrapper<IWorldRegistriesProvider> > *)>::_Invoker_type` | _M_invoker
 
 
 ### `BiomeFilterGroup`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `FilterGroup` | baseclass_0
 
 
 ### `BiomeHeight`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float` | depth
 4 | (4) `float` | scale
 
 
 ### `BiomeDecorationAttributes<ListedFeatures>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<BiomeDecorationAttributes<ListedFeatures>::Element,std::allocator<BiomeDecorationAttributes<ListedFeatures>::Element> >` | mFeatures
 
 
 ### `BiomeComponentLoading::_buildSchema<BiomeDecorationAttributes<ListedFeatures> >::$2658D4B1BE3081384A926FB0E5D18BAF`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `BiomeComponentLoading::BiomeSchemaNode *` | schemaNode
 8 | (32) `BiomeComponentLoading::ComponentAccessor<ListedFeaturesDecorationAttributes>` | componentAccessor
 
 
 ### `BiomeComponentLoading::ComponentAccessor<ListedFeaturesDecorationAttributes>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<BiomeDecorationAttributes<ListedFeatures> &(std::pair<std::reference_wrapper<Biome>,std::reference_wrapper<IWorldRegistriesProvider> > *)>::_Invoker_type` | _M_invoker
 
 
 ### `BiomeComponentLoading::ComponentAccessor<ClimateAttributes>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<ClimateAttributes &(std::pair<std::reference_wrapper<Biome>,std::reference_wrapper<IWorldRegistriesProvider> > *)>::_Invoker_type` | _M_invoker
 
 
 ### `BiomeComponentLoading::ComponentAccessor<SurfaceMaterialAdjustmentAttributes>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<SurfaceMaterialAdjustmentAttributes &(std::pair<std::reference_wrapper<Biome>,std::reference_wrapper<IWorldRegistriesProvider> > *)>::_Invoker_type` | _M_invoker
 
 
 ### `BiomeComponentLoading::ComponentAccessor<SurfaceMaterialAttributes>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<SurfaceMaterialAttributes &(std::pair<std::reference_wrapper<Biome>,std::reference_wrapper<IWorldRegistriesProvider> > *)>::_Invoker_type` | _M_invoker
 
 
 ### `BiomeComponentLoading::ComponentAccessor<WorldGenClimateMappingAttributes>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<WorldGenClimateMappingAttributes &(std::pair<std::reference_wrapper<Biome>,std::reference_wrapper<IWorldRegistriesProvider> > *)>::_Invoker_type` | _M_invoker
 
 
 ### `BiomeComponentLoading::ComponentAccessor<MesaSurfaceAttributes>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<MesaSurfaceAttributes &(std::pair<std::reference_wrapper<Biome>,std::reference_wrapper<IWorldRegistriesProvider> > *)>::_Invoker_type` | _M_invoker
 
 
 ### `BiomeComponentLoading::ComponentAccessor<OverworldHeightAttributes>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<OverworldHeightAttributes &(std::pair<std::reference_wrapper<Biome>,std::reference_wrapper<IWorldRegistriesProvider> > *)>::_Invoker_type` | _M_invoker
 
 
 ### `BiomeComponentLoading::BiomeParseContext`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::reference_wrapper<Biome>` | first
 8 | (8) `std::reference_wrapper<IWorldRegistriesProvider>` | second
 
 
 ### `BiomeMetadata`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | mName
 32 | (32) `std::string` | mInherits
 64 | (16) `Json::Value` | mLocalComponents
@@ -857,7 +857,7 @@ Offset | Type | Name
 
 ### `BiomeRegistryMergeStrategy`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ResourcePackMergeStrategy` | baseclass_0
 8 | (32) `Core::HeapPathBuffer` | mBiomePath
 40 | (8) `Json::Value *` | mRoot
@@ -865,7 +865,7 @@ Offset | Type | Name
 
 ### `BaseRailBlock::Rail`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `BlockSource *` | mRegion
 8 | (12) `BlockPos` | mPos
 20 | (1) `bool` | mUsesDataBit
@@ -874,54 +874,54 @@ Offset | Type | Name
 
 ### `BlockLegacy::createBlockPermutations::$033A5A72970D0569F1B4E5782E3E5F13`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `BlockLegacy *` | this
 
 
 ### `Bedrock::Threading::UniqueLock<Mutex>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::unique_lock<std::shared_timed_mutex>::mutex_type *` | _M_device
 8 | (1) `bool` | _M_owns
 
 
 ### `Bedrock::Threading::SharedLock<Mutex>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::shared_lock<std::shared_timed_mutex>::mutex_type *` | _M_pm
 8 | (1) `bool` | _M_owns
 
 
 ### `buffer_span_mut<long>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int64 *` | mBegin
 8 | (8) `__int64 *` | mEnd
 
 
 ### `buffer_span_mut<const Block *>::iterator`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const Block **` | mPtr
 
 
 ### `BeaconBeamSection`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mHeight
 4 | (16) `Color` | mColor
 
 
 ### `BlockDescriptionFactoryFunction`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<std::unique_ptr<BlockComponentDescription> ()>::_Invoker_type` | _M_invoker
 
 
 ### `BlockDescription`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | mIdentifier
 32 | (1) `bool` | mRegisterToCreativeMenu
 33 | (1) `bool` | mIsExperimental
@@ -929,7 +929,7 @@ Offset | Type | Name
 
 ### `BlockDefinition`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (112) `SemVersion` | mFormatVersion
 112 | (40) `BlockDescription` | mDescription
 152 | (24) `std::vector<std::shared_ptr<BlockComponentDescription>>` | mDescriptions
@@ -937,46 +937,46 @@ Offset | Type | Name
 
 ### `Bedrock::Threading::LockGuard<SpinLock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::lock_guard<SpinLock>::mutex_type *` | _M_device
 
 
 ### `buffer_span<Pos>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const Pos *` | mBegin
 8 | (8) `const Pos *` | mEnd
 
 
 ### `buffer_span<const Block *>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const Block *const *` | mBegin
 8 | (8) `const Block *const *` | mEnd
 
 
 ### `buffer_span_mut<SubChunk>::iterator`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SubChunk *` | mPtr
 
 
 ### `BiomeChunkData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `unsigned __int8` | biome
 
 
 ### `buffer_span_mut<SubChunk>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SubChunk *` | mBegin
 8 | (8) `SubChunk *` | mEnd
 
 
 ### `BiomeChunkDataLegacy`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `unsigned __int8` | biome
 1 | (1) `unsigned __int8` | r
 2 | (1) `unsigned __int8` | g
@@ -985,7 +985,7 @@ Offset | Type | Name
 
 ### `BlockEventPacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (36) `Packet:288` | baseclass_0
 36 | (12) `NetworkBlockPosition` | mPos
 48 | (4) `int` | mB0
@@ -994,7 +994,7 @@ Offset | Type | Name
 
 ### `BuildMatch`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | mMatched
 1 | (1) `FacingID` | mForward
 2 | (1) `FacingID` | mUp
@@ -1008,7 +1008,7 @@ Offset | Type | Name
 
 ### `BiomeDecorationAttributes<ImplicitFeatures>::Element`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1064) `ScatterParams` | mScatter
 1064 | (24) `WeakRef<IFeature>` | mFeature
 1088 | (48) `StringKey` | mIdentifier
@@ -1016,13 +1016,13 @@ Offset | Type | Name
 
 ### `BiomeDecorationAttributes<ImplicitFeatures>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<BiomeDecorationAttributes<ImplicitFeatures>::Element,std::allocator<BiomeDecorationAttributes<ImplicitFeatures>::Element> >` | mFeatures
 
 
 ### `BonusChestFeature::place::$FD274EF55AC88BD6B944C809A18A5641`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const BonusChestFeature *` | this
 8 | (8) `BlockSource *` | region
 16 | (8) `Random *` | newRandom
@@ -1030,33 +1030,33 @@ Offset | Type | Name
 
 ### `BlockLayer`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const Block *` | mBlock
 8 | (4) `int` | mNumLayers
 
 
 ### `BlockSerializationUtils::NbtToBlockCache`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (48) `std::map<unsigned long,const Block *>` | mCache
 48 | (40) `Bedrock::Threading::Mutex` | mMutex
 
 
 ### `buffer_span<ChunkPos>::iterator`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const ChunkPos *` | mPtr
 
 
 ### `BigEndianStringByteInput`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `StringByteInput` | baseclass_0
 
 
 ### `BinaryStream`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (56) `ReadOnlyBinaryStream` | baseclass_0
 56 | (32) `std::string` | mOwnedBuffer
 88 | (8) `std::string *` | mBuffer
@@ -1064,7 +1064,7 @@ Offset | Type | Name
 
 ### `BlockGraphics::ModelItem`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | name
 32 | (8) `const BlockGeometry::TessellatedModel *` | model
 40 | (24) `std::vector<unsigned long>` | textureIndices
@@ -1072,20 +1072,20 @@ Offset | Type | Name
 
 ### `BlockGraphics::ConstructorToken`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `BlockListEventMap`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (56) `std::unordered_set<const BlockLegacy *>` | mBlockList
 56 | (32) `std::string` | mEventName
 
 
 ### `BoostItem`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const Item *` | mItem
 8 | (8) `const Item *` | mReplacement
 16 | (4) `int` | mDamageAmount
@@ -1093,7 +1093,7 @@ Offset | Type | Name
 
 ### `BossEventPacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (36) `Packet:288` | baseclass_0
 36 | (4) `const int` | FLAG_DARKEN
 40 | (4) `const int` | FLAG_FOG
@@ -1110,7 +1110,7 @@ Offset | Type | Name
 
 ### `BreedableType`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (168) `ActorDefinitionIdentifier` | mMateType
 168 | (168) `ActorDefinitionIdentifier` | mBabyType
 336 | (128) `DefinitionTrigger` | mOnBred
@@ -1118,7 +1118,7 @@ Offset | Type | Name
 
 ### `BatchedNetworkPeer::DataCallback`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | data
 32 | (4) `Compressibility` | compressible
 40 | (32) `std::function<void ()>` | callback
@@ -1126,275 +1126,275 @@ Offset | Type | Name
 
 ### `ByteVector`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Vector_base<unsigned char>` | baseclass_0
 
 
 ### `BalloonableComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `IEntityComponent` | baseclass_0
 
 
 ### `BinaryHeap`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<PathfinderNode *>` | heap
 24 | (4) `int` | sizeVar
 
 
 ### `BehaviorFactory::DefinitionCreator`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<std::unique_ptr<BehaviorDefinition> ()>::_Invoker_type` | _M_invoker
 
 
 ### `BehaviorFactory::NodeCreator`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<std::unique_ptr<BehaviorNode> ()>::_Invoker_type` | _M_invoker
 
 
 ### `BlockPatternBuilder::BlockEntryTester`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<bool (BlockSource &,const BlockPos &,const Block &)>::_Invoker_type` | _M_invoker
 
 
 ### `Bedrock::Threading::$<268754422,1>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::lock_guard<std::mutex>::mutex_type *` | _M_device
 
 
 ### `Bedrock::Threading::$<269227119,1>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::lock_guard<std::mutex>::mutex_type *` | _M_device
 
 
 ### `Bedrock::Threading::LockGuard<decltype(mIdMutex)>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::lock_guard<std::mutex>::mutex_type *` | _M_device
 
 
 ### `Bedrock::Threading::LockGuard<std::mutex>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::lock_guard<std::mutex>::mutex_type *` | _M_device
 
 
 ### `Bedrock::Threading::$<281360972,1>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::lock_guard<std::mutex>::mutex_type *` | _M_device
 
 
 ### `BedrockLog::LogDetails::_appendLogEntryMetadata::$7EF7C94BEAB75C6CEF4ADFB99B570420`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `BedrockLog::LogAreaFilter`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::bitset<34>` | baseclass_0
 
 
 ### `Bedrock::Threading::$<282285601,1>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::lock_guard<std::recursive_mutex>::mutex_type *` | _M_device
 
 
 ### `Bedrock::Threading::LockGuard<decltype(sStorageAreaLock)>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::lock_guard<std::mutex>::mutex_type *` | _M_device
 
 
 ### `Bedrock::Threading::$<282285612,1>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::unique_lock<std::recursive_mutex>::mutex_type *` | _M_device
 8 | (1) `bool` | _M_owns
 
 
 ### `Bedrock::Threading::LockGuard<decltype(FileImpl::sAllFilesLock)>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::lock_guard<std::mutex>::mutex_type *` | _M_device
 
 
 ### `Bedrock::Threading::$<282952368,1>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::lock_guard<std::mutex>::mutex_type *` | _M_device
 
 
 ### `Bedrock::Threading::$<283102713,1>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::lock_guard<std::mutex>::mutex_type *` | _M_device
 
 
 ### `Bedrock::Threading::`anonymous namespace'::AsyncErrorCategory`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `Bedrock::Threading::IAsyncResult<void>::CompletionHandler`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<void (const Bedrock::Threading::IAsyncResult<void> &)>::_Invoker_type` | _M_invoker
 
 
 ### `Bedrock::Threading::UniqueLockReleaseWindow<std::mutex>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Bedrock::Threading::UniqueLock<std::mutex> *` | mLock
 
 
 ### `BackgroundTask::PendingComparer`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `buffer_span<bool>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const bool *` | mBegin
 8 | (8) `const bool *` | mEnd
 
 
 ### `buffer_span<int>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const int *` | mBegin
 8 | (8) `const int *` | mEnd
 
 
 ### `buffer_span<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char> > >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const std::string *` | mBegin
 8 | (8) `const std::string *` | mEnd
 
 
 ### `BackgroundTask::PriorityComparer`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `Bedrock::Threading::SharedMutex`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (56) `std::__shared_timed_mutex_base` | baseclass_0
 
 
 ### `BidirectionalUnorderedMap<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char> >,ActorDamageCause>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (56) `std::unordered_map<std::string,ActorDamageCause>` | mRight
 56 | (56) `std::unordered_map<ActorDamageCause,std::string>` | mLeft
 
 
 ### `BidirectionalUnorderedMap<ItemUseMethod,std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char> > >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (56) `std::unordered_map<ItemUseMethod,std::string>` | mRight
 56 | (56) `std::unordered_map<std::string,ItemUseMethod>` | mLeft
 
 
 ### `BidirectionalUnorderedMap<ItemAcquisitionMethod,std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char> > >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (56) `std::unordered_map<ItemAcquisitionMethod,std::string>` | mRight
 56 | (56) `std::unordered_map<std::string,ItemAcquisitionMethod>` | mLeft
 
 
 ### `BidirectionalUnorderedMap<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char> >,LevelSoundEvent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (56) `std::unordered_map<std::string,LevelSoundEvent>` | mRight
 56 | (56) `std::unordered_map<LevelSoundEvent,std::string>` | mLeft
 
 
 ### `BlockActor::MapIdType`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (48) `std::map<std::string,BlockActorType>::_Rep_type` | _M_t
 
 
 ### `BlockActor::MapTypeId`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (48) `std::map<BlockActorType,std::string>::_Rep_type` | _M_t
 
 
 ### `BlockTypeRegistry::BlockLookupMap`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (56) `std::unordered_map<std::string,SharedPtr<BlockLegacy>>::_Hashtable` | _M_h
 
 
 ### `BidirectionalUnorderedMap<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char> >,AutomaticID<Dimension,int> >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (56) `std::unordered_map<std::string,AutomaticID<Dimension,int>>` | mRight
 56 | (56) `std::unordered_map<AutomaticID<Dimension,int>,std::string>` | mLeft
 
 
 ### `BidirectionalUnorderedMap<ContainerType,std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char> > >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (56) `std::unordered_map<ContainerType,std::string>` | mRight
 56 | (56) `std::unordered_map<std::string,ContainerType>` | mLeft
 
 
 ### `BidirectionalUnorderedMap<ParticleType,std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char> > >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (56) `std::unordered_map<ParticleType,std::string>` | mRight
 56 | (56) `std::unordered_map<std::string,ParticleType>` | mLeft
 
 
 ### `BedrockLog::CategoryLogs`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (504) `std::array<BedrockLog::CategoryLogFile,7>` | baseclass_0
 
 
 ### `BackwardsCompatTextureGroup`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (56) `std::unordered_map<ResourceLocation,BackwardsCompatTextureInfo>` | mBackCompatMap
 
 
 ### `BlockSelector`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `int (**)(void)` | _vptr$BlockSelector
 
 
 ### `BlockSourceListener`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `int (**)(void)` | _vptr$BlockSourceListener
 
 
 ### `Biome`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `int (**)(void)` | _vptr$Biome
 8 | (32) `std::string` | mName
 40 | (4) `int` | mDebugMapColor
@@ -1423,13 +1423,13 @@ Offset | Type | Name
 
 ### `BlockMap`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (56) `std::unordered_map<int,const Block *>::_Hashtable` | _M_h
 
 
 ### `BackgroundWorkerPerfInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const BackgroundWorker *` | mUpdaterWorker
 8 | (8) `std::atomic<unsigned long>` | mTotalRunTasks
 16 | (8) `std::atomic<unsigned long>` | mTotalRunTasksTicks
@@ -1442,7 +1442,7 @@ Offset | Type | Name
 
 ### `BackgroundTaskQueue`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `Bedrock::Threading::Mutex` | mIngressLock
 40 | (40) `Bedrock::Threading::Mutex` | mEgressLock
 80 | (80) `BackgroundTaskQueue::TaskPipe` | mTasks
@@ -1455,7 +1455,7 @@ Offset | Type | Name
 
 ### `BackgroundTaskQueue::TaskPipe`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Lockless::WeakAtomic<SPSCQueue<std::shared_ptr<BackgroundTask>,512>::Block *>` | mFrontBlock
 8 | (56) `char[56]` | mCachelineFiller
 64 | (8) `Lockless::WeakAtomic<SPSCQueue<std::shared_ptr<BackgroundTask>,512>::Block *>` | mTailBlock
@@ -1464,13 +1464,13 @@ Offset | Type | Name
 
 ### `BackgroundTaskQueue::SortingJobQueue`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `MovePriorityQueue<std::shared_ptr<BackgroundTask>,BackgroundTask::PriorityComparer>::Base` | mC
 
 
 ### `BlockLegacy`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `int (**)(void)` | _vptr$BlockLegacy
 8 | (32) `std::string` | mDescriptionId
 40 | (32) `std::string` | mRawNameId
@@ -1530,14 +1530,14 @@ Offset | Type | Name
 
 ### `BaseAttributeMap`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (56) `std::unordered_map<unsigned int,AttributeInstance>` | mInstanceMap
 56 | (24) `std::vector<AttributeInstanceHandle>` | mDirtyAttributes
 
 
 ### `BaseMoveToGoal`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (12) `Goal:96` | baseclass_0
 12 | (4) `int` | mTravelTicks
 16 | (4) `int` | mNextStartTick
@@ -1559,13 +1559,13 @@ Offset | Type | Name
 
 ### `Boat::onAboveBubbleColumn::$7EF7C94BEAB75C6CEF4ADFB99B570420`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `BlockSource::fetchBlocksInCylinder::$BFF6684F24A24DAB087E11B4105C16CA`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `BlockSource *` | this
 8 | (8) `const BlockPos *` | centerPos
 16 | (4) `uint32_t` | radius
@@ -1575,7 +1575,7 @@ Offset | Type | Name
 
 ### `BlockSource::fetchBlocksInBox::$74F335EC098D670C69AD7D2E598E74BF`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `BlockSource *` | this
 8 | (8) `const BoundingBox *` | box
 16 | (8) `std::function<bool (const Block &)> *` | predicate
@@ -1583,26 +1583,26 @@ Offset | Type | Name
 
 ### `BiomeRegistry::BiomeParent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | parentName
 32 | (16) `Json::Value` | json
 
 
 ### `BiomeDecorationSystem::decorate::$7EF7C94BEAB75C6CEF4ADFB99B570420`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `BlockLegacy::initFromDefinition::$033A5A72970D0569F1B4E5782E3E5F13`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `BlockLegacy *` | this
 
 
 ### `BlockActor`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `int (**)(void)` | _vptr$BlockActor
 8 | (4) `int` | mTickCount
 16 | (8) `const Block *` | mBlock
@@ -1627,19 +1627,19 @@ Offset | Type | Name
 
 ### `BurstReactionComponent::_onEnd::$7EF7C94BEAB75C6CEF4ADFB99B570420`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `BiomeChunkState`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `byte` | snowLevel
 
 
 ### `BlockActor:1632`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `int (**)(void)` | _vptr$BlockActor
 8 | (4) `int` | mTickCount
 12 | (4) `_BYTE[4]` | gapC
@@ -1667,7 +1667,7 @@ Offset | Type | Name
 
 ### `BehaviorTreeGroup`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ResourcePackManager *` | mResourcePackManager
 8 | (8) `BehaviorFactory *` | mFactory
 16 | (56) `BehaviorTreeGroup::BehaviorDefinitionMap` | mDefinitions
@@ -1676,20 +1676,20 @@ Offset | Type | Name
 
 ### `BehaviorTreeGroup::BehaviorDefinitionMap`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (56) `std::unordered_map<std::string,std::unique_ptr<BehaviorTreeDefinition>>::_Hashtable` | _M_h
 
 
 ### `BlockEventDispatcher`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (56) `ListenerSet` | mRegisteredListeners
 56 | (4) `ListenerHandle` | mHandleCounter
 
 
 ### `BlockChange`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mUpdateFlags
 8 | (8) `const Block *` | mOldBlock
 16 | (8) `const Block *` | mNewBlock
@@ -1697,7 +1697,7 @@ Offset | Type | Name
 
 ### `BehaviorDefinition`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `int (**)(void)` | _vptr$BehaviorDefinition
 8 | (32) `std::string` | mName
 40 | (16) `BehaviorTreeDefinitionPtr` | mTreeDefinition
@@ -1705,32 +1705,32 @@ Offset | Type | Name
 
 ### `BehaviorFactory`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (56) `std::unordered_map<std::string,std::pair<std::function<std::unique_ptr<BehaviorDefinition> ()>,std::function<std::unique_ptr<BehaviorNode> ()> >>` | mFactoryPairs
 
 
 ### `BubbleColumnBlock::entityInside::$7EF7C94BEAB75C6CEF4ADFB99B570420`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `Bedrock::Threading::ConditionVariableAny`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (48) `std::condition_variable` | _M_cond
 48 | (16) `std::shared_ptr<std::mutex>` | _M_mutex
 
 
 ### `Bedrock::Threading::AsyncBase`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::enable_shared_from_this<Bedrock::Threading::AsyncBase>` | baseclass_0
 
 
 ### `BackgroundTask`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `Bedrock::Threading::IAsyncResult<void>` | baseclass_0
 24 | (8) `ITaskGroup *` | mGroup
 32 | (8) `BackgroundTask *` | mPrevTask
@@ -1749,14 +1749,14 @@ Offset | Type | Name
 
 ### `Bedrock::Threading::IAsyncResult<void>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `int (**)(void)` | _vptr$IAsyncResult
 8 | (16) `Bedrock::Threading::AsyncBase` | baseclass_8
 
 
 ### `buffer_span<WorkerPool *>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `WorkerPool *const *` | mBegin
 8 | (8) `WorkerPool *const *` | mEnd
 

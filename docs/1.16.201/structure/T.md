@@ -1,7 +1,7 @@
 # T
 ### `tm`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | tm_sec
 4 | (4) `int` | tm_min
 8 | (4) `int` | tm_hour
@@ -15,13 +15,13 @@ Offset | Type | Name
 
 ### `Tick`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `unsigned __int64` | tickID
 
 
 ### `TerrainMaterialVariationManager`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `mce::RenderingProfile` | mRenderingProfile
 8 | (8) `mce::RenderMaterialGroup *` | mRenderMaterialGroup
 16 | (32) `std::string` | mVariationName
@@ -33,13 +33,13 @@ Offset | Type | Name
 
 ### `typeid_t<IScreenCapabilities>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `unsigned __int16` | mID
 
 
 ### `TextureAtlasItem`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | mName
 32 | (4) `int` | mParsedNodeIndex
 40 | (24) `std::vector<std::vector<TextureUVCoordinateSet>>` | mTextureUVs
@@ -47,55 +47,55 @@ Offset | Type | Name
 
 ### `TextureSetHelpers::TextureSetDefinitionLoaderResourceHelper`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `TextureSetHelpers::TextureSetDefinitionLoaderResourceHelper_vtbl *` | __vftable
 
 
 ### `TextureAtlas::recreateAtlas::__l2::<lambda_b4cd09a31552d66f59ead337c2c8f72a>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `TreatmentPackDownloadMonitor::buildTreatmentStackPack::__l5::<lambda_3b2a49ec1524b669fbce386f9d135c28>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `TouchContactPoints`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (48) `std::array<int,12>` | mTouchIDLookup
 
 
 ### `tagPOINT`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | x
 4 | (4) `int` | y
 
 
 ### `typeid_t<CommandRegistry>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `unsigned __int16` | mID
 
 
 ### `TextureSetHelpers::NamePair`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `cg::TextureSetLayerType` | layerType
 8 | (32) `const std::string` | jsonLayerPropertyNames
 
 
 ### `typeid_t<EntityGoalFactory>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `unsigned __int16` | mID
 
 
 ### `TagMemoryChunk`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `unsigned __int64` | mElements
 8 | (8) `unsigned __int64` | mSize
 16 | (8) `std::unique_ptr<unsigned char [0]>` | mBuffer
@@ -103,13 +103,13 @@ Offset | Type | Name
 
 ### `typeid_t<IAppConfigData>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `unsigned __int16` | mID
 
 
 ### `ThreadConfiguration`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `Bedrock::Threading::OSThreadPriority` | Priority
 8 | (16) `std::optional<unsigned __int64>` | CoreAffinityMask
 24 | (4) `int` | IdealCore
@@ -117,13 +117,13 @@ Offset | Type | Name
 
 ### `Tag`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Tag_vtbl *` | __vftable
 
 
 ### `tDownloadInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | cdnFileUrl
 32 | (32) `std::string` | outFilePath
 64 | (1) `bool` | resumeFromBreak
@@ -136,7 +136,7 @@ Offset | Type | Name
 
 ### `TransferHandler`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | mNeedTransferServer
 8 | (16) `std::shared_ptr<NetworkHandler>` | mNetworkHandler
 24 | (8) `TransferPacketHandler *` | mTransferPacketHandler
@@ -150,7 +150,7 @@ Offset | Type | Name
 
 ### `TransferHandler::<unnamed_type_mHostMode>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | localConnector
 4 | (4) `unsigned int` | userId
 8 | (32) `std::string` | userToken
@@ -168,7 +168,7 @@ Offset | Type | Name
 
 ### `traceback_t`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | hash
 4 | (4) `int` | nframe
 8 | (16) `frame_t[1]` | frames
@@ -176,13 +176,13 @@ Offset | Type | Name
 
 ### `TradeInterestGoal::canUse::__l2::<lambda_0d1ef5e65fe9e0f12991fabfa234365c>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `TradeInterestGoal *const` | __this
 
 
 ### `T1_FieldRec_`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const char *` | ident
 8 | (4) `T1_FieldLocation_` | location
 12 | (4) `T1_FieldType_` | type
@@ -196,14 +196,14 @@ Offset | Type | Name
 
 ### `tt_sfnt_id_rec_`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | CheckSum
 4 | (4) `unsigned int` | Length
 
 
 ### `TerrainLayer`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const unsigned __int64` | id
 8 | (4) `_BYTE[4]` | transparency
 16 | (32) `const std::string` | name
@@ -212,13 +212,13 @@ Offset | Type | Name
 
 ### `TintMapColor`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::array<mce::Color,4>` | colors
 
 
 ### `TaskResult`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | mIsDone
 8 | (8) `std::chrono::time_point<std::chrono::steady_clock,std::chrono::duration<__int64,std::ratio<1,1000000000> > >` | mRunAtTime
 16 | (16) `std::shared_ptr<Bedrock::Threading::IAsyncResult<void> >` | mWaitOperation
@@ -227,7 +227,7 @@ Offset | Type | Name
 
 ### `TT_GraphicsState_`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `unsigned __int16` | rp0
 2 | (2) `unsigned __int16` | rp1
 4 | (2) `unsigned __int16` | rp2
@@ -253,7 +253,7 @@ Offset | Type | Name
 
 ### `ThirdPartyInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::unordered_set<std::string>` | mAllowListUrls
 64 | (32) `std::string` | mCreatorId
 96 | (32) `std::string` | mCreatorName
@@ -262,7 +262,7 @@ Offset | Type | Name
 
 ### `TT_CMap_ClassRec_`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (80) `FT_CMap_ClassRec_` | clazz
 80 | (4) `unsigned int` | format
 88 | (8) `int (__fastcall *)(unsigned __int8 *, volatile FT_ValidatorRec_ *)` | validate
@@ -271,7 +271,7 @@ Offset | Type | Name
 
 ### `T1_Builder_FuncsRec_`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `void (__fastcall *)(T1_BuilderRec_ *, FT_FaceRec_ *, FT_SizeRec_ *, FT_GlyphSlotRec_ *, unsigned __int8)` | init
 8 | (8) `void (__fastcall *)(T1_BuilderRec_ *)` | done
 16 | (8) `int (__fastcall *)(T1_BuilderRec_ *, int)` | check_points
@@ -284,7 +284,7 @@ Offset | Type | Name
 
 ### `TextureUVCoordinateSet`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float` | weight
 4 | (4) `float` | _u0
 8 | (4) `float` | _v0
@@ -300,25 +300,25 @@ Offset | Type | Name
 
 ### `TypedServerNetId<ItemStackNetIdTag,int,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mRawId
 
 
 ### `TypedClientNetId<ItemStackRequestIdTag,int,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mRawId
 
 
 ### `TypedClientNetId<ItemStackLegacyRequestIdTag,int,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mRawId
 
 
 ### `TextureTint`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | mPath
 32 | (32) `std::string` | mTintMap
 64 | (64) `TintMapColor` | mTintBaseColor
@@ -331,13 +331,13 @@ Offset | Type | Name
 
 ### `TextureAtlasItemTextureSetTranslation`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<std::variant<TextureAtlasItemTextureSetTranslation::Translation,TextureAtlasItemTextureSetTranslation::ColorUniform,TextureAtlasItemTextureSetTranslation::NormalTranslation,TextureAtlasItemTextureSetTranslation::MERTranslation,TextureAtlasItemTextureSetTranslation::MERUniform,TextureAtlasItemTextureSetTranslation::Uniform,TextureAtlasItemTextureSetTranslation::SingleChannelTranslation>>` | layers
 
 
 ### `T1_CMap_ClassesRec_`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const FT_CMap_ClassRec_ *` | standard
 8 | (8) `const FT_CMap_ClassRec_ *` | expert
 16 | (8) `const FT_CMap_ClassRec_ *` | custom
@@ -346,14 +346,14 @@ Offset | Type | Name
 
 ### `TypeMapping`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `char` | inputType
 8 | (8) `const char *` | type
 
 
 ### `T1_Decoder_FuncsRec_`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `int (__fastcall *)(T1_DecoderRec_ *, FT_FaceRec_ *, FT_SizeRec_ *, FT_GlyphSlotRec_ *, unsigned __int8 **, PS_BlendRec_ *, unsigned __int8, FT_Render_Mode_, int (__fastcall *)(T1_DecoderRec_ *, unsigned int))` | init
 8 | (8) `void (__fastcall *)(T1_DecoderRec_ *)` | done
 16 | (8) `int (__fastcall *)(T1_DecoderRec_ *, unsigned __int8 *, unsigned int)` | parse_metrics
@@ -362,7 +362,7 @@ Offset | Type | Name
 
 ### `TryBlockMapEntry`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `` | tryLow
 4 | (4) `` | tryHigh
 8 | (4) `` | catchHigh
@@ -372,7 +372,7 @@ Offset | Type | Name
 
 ### `TypeDescriptor`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `` | pVFTable
 8 | (8) `` | spare
 16 | (0) `` | name
@@ -380,14 +380,14 @@ Offset | Type | Name
 
 ### `tinystl::unordered_map<unsigned __int64,bgfx::vk::VkPipeline,bgfx::TinyStlAllocator>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `unsigned __int64` | m_size
 8 | (24) `tinystl::buffer<tinystl::unordered_hash_node<unsigned __int64,bgfx::vk::VkPipeline> *,bgfx::TinyStlAllocator>` | m_buckets
 
 
 ### `tinystl::buffer<tinystl::unordered_hash_node<unsigned __int64,bgfx::vk::VkPipeline> *,bgfx::TinyStlAllocator>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `tinystl::unordered_hash_node<unsigned __int64,bgfx::vk::VkPipeline> **` | first
 8 | (8) `tinystl::unordered_hash_node<unsigned __int64,bgfx::vk::VkPipeline> **` | last
 16 | (8) `tinystl::unordered_hash_node<unsigned __int64,bgfx::vk::VkPipeline> **` | capacity
@@ -395,14 +395,14 @@ Offset | Type | Name
 
 ### `tinystl::unordered_map<unsigned __int64,bgfx::vk::VkDescriptorSetLayout,bgfx::TinyStlAllocator>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `unsigned __int64` | m_size
 8 | (24) `tinystl::buffer<tinystl::unordered_hash_node<unsigned __int64,bgfx::vk::VkDescriptorSetLayout> *,bgfx::TinyStlAllocator>` | m_buckets
 
 
 ### `tinystl::buffer<tinystl::unordered_hash_node<unsigned __int64,bgfx::vk::VkDescriptorSetLayout> *,bgfx::TinyStlAllocator>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `tinystl::unordered_hash_node<unsigned __int64,bgfx::vk::VkDescriptorSetLayout> **` | first
 8 | (8) `tinystl::unordered_hash_node<unsigned __int64,bgfx::vk::VkDescriptorSetLayout> **` | last
 16 | (8) `tinystl::unordered_hash_node<unsigned __int64,bgfx::vk::VkDescriptorSetLayout> **` | capacity
@@ -410,14 +410,14 @@ Offset | Type | Name
 
 ### `tinystl::unordered_map<unsigned __int64,bgfx::vk::VkRenderPass,bgfx::TinyStlAllocator>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `unsigned __int64` | m_size
 8 | (24) `tinystl::buffer<tinystl::unordered_hash_node<unsigned __int64,bgfx::vk::VkRenderPass> *,bgfx::TinyStlAllocator>` | m_buckets
 
 
 ### `tinystl::buffer<tinystl::unordered_hash_node<unsigned __int64,bgfx::vk::VkRenderPass> *,bgfx::TinyStlAllocator>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `tinystl::unordered_hash_node<unsigned __int64,bgfx::vk::VkRenderPass> **` | first
 8 | (8) `tinystl::unordered_hash_node<unsigned __int64,bgfx::vk::VkRenderPass> **` | last
 16 | (8) `tinystl::unordered_hash_node<unsigned __int64,bgfx::vk::VkRenderPass> **` | capacity
@@ -425,14 +425,14 @@ Offset | Type | Name
 
 ### `tinystl::unordered_map<unsigned __int64,bgfx::vk::VkSampler,bgfx::TinyStlAllocator>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `unsigned __int64` | m_size
 8 | (24) `tinystl::buffer<tinystl::unordered_hash_node<unsigned __int64,bgfx::vk::VkSampler> *,bgfx::TinyStlAllocator>` | m_buckets
 
 
 ### `tinystl::buffer<tinystl::unordered_hash_node<unsigned __int64,bgfx::vk::VkSampler> *,bgfx::TinyStlAllocator>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `tinystl::unordered_hash_node<unsigned __int64,bgfx::vk::VkSampler> **` | first
 8 | (8) `tinystl::unordered_hash_node<unsigned __int64,bgfx::vk::VkSampler> **` | last
 16 | (8) `tinystl::unordered_hash_node<unsigned __int64,bgfx::vk::VkSampler> **` | capacity
@@ -440,7 +440,7 @@ Offset | Type | Name
 
 ### `TropicalFishInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mColor
 4 | (4) `int` | mColor2
 8 | (4) `int` | mVariant
@@ -450,14 +450,14 @@ Offset | Type | Name
 
 ### `TaskStartInfoEx<void>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `TaskStartInfoBase` | baseclass_0
 40 | (16) `std::shared_ptr<Bedrock::Threading::IAsyncResult<void> >` | predecessor
 
 
 ### `TaskStartInfoBase`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `gsl::basic_string_span<char const ,-1>` | name
 16 | (4) `std::thread::id` | affinity
 20 | (4) `unsigned int` | priority
@@ -468,20 +468,20 @@ Offset | Type | Name
 
 ### `TextObjectRoot`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ITextObject` | baseclass_0
 8 | (24) `std::vector<std::unique_ptr<ITextObject>>` | mChildren
 
 
 ### `typeid_t<ContentLog>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `unsigned __int16` | mID
 
 
 ### `TouchPoint`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | id
 4 | (4) `TouchState` | state
 8 | (4) `float` | x
@@ -492,7 +492,7 @@ Offset | Type | Name
 
 ### `TextEditScreenEventData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | id
 4 | (4) `int` | index
 8 | (1) `bool` | finished
@@ -503,7 +503,7 @@ Offset | Type | Name
 
 ### `ToggleChangeEventData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | id
 4 | (4) `int` | index
 8 | (1) `bool` | state
@@ -514,7 +514,7 @@ Offset | Type | Name
 
 ### `TextEditSelectedStateChangeEventData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | id
 4 | (4) `int` | index
 8 | (1) `bool` | selected
@@ -522,7 +522,7 @@ Offset | Type | Name
 
 ### `TrueTypeFont::PageOfGlyphs`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<int>` | codepoints
 24 | (64) `std::unordered_map<int,int>` | codepointMap
 88 | (24) `std::vector<stbtt_packedchar>` | packedCharacters
@@ -534,7 +534,7 @@ Offset | Type | Name
 
 ### `tAppPkgInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | pkgChn
 32 | (32) `std::string` | pkgVer
 64 | (32) `std::string` | pkgUrl
@@ -542,14 +542,14 @@ Offset | Type | Name
 
 ### `TextObjectParser::ErrorLocalization`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | mErrorLocalizationString
 32 | (24) `std::vector<std::string>` | mLocalizationParameters
 
 
 ### `TitleMessage`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | mTitle
 32 | (32) `std::string` | mSubtitle
 64 | (4) `int` | mFadeInTime
@@ -560,13 +560,13 @@ Offset | Type | Name
 
 ### `TypedScreenCapabilities<SettingsScreenCapabilities>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IScreenCapabilities` | baseclass_0
 
 
 ### `Trade2ScreenController::TradeItemCollections`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `const Json::Value` | mCollections
 16 | (2) `std::optional<bool>` | mHasTradeItem1Collection
 18 | (2) `std::optional<bool>` | mHasTradeItem2Collection
@@ -580,7 +580,7 @@ Offset | Type | Name
 
 ### `TreatmentQuery<QueryManifestSearchResults,QueryManifestDocument>::_searchItemsByTreatment::__l2::<lambda_e985b95cf47085b084b2f896a314c77e>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<TreatmentQuery<QueryManifestSearchResults,QueryManifestDocument> >` | weakThis
 16 | (24) `const std::vector<std::string>` | treatments
 40 | (4) `const unsigned int` | queryId
@@ -588,7 +588,7 @@ Offset | Type | Name
 
 ### `TreatmentQuery<DressingRoomManifestSearchResults,DressingRoomManifestDocument>::_searchItemsByTreatment::__l2::<lambda_f0d0b224456a960fbce51bd76243ee88>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<TreatmentQuery<DressingRoomManifestSearchResults,DressingRoomManifestDocument> >` | weakThis
 16 | (24) `const std::vector<std::string>` | treatments
 40 | (4) `const unsigned int` | queryId
@@ -596,7 +596,7 @@ Offset | Type | Name
 
 ### `TextPacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `Packet` | baseclass_0
 40 | (1) `TextPacketType` | mType
 48 | (32) `std::string` | mAuthor
@@ -609,34 +609,34 @@ Offset | Type | Name
 
 ### `TextureState`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (72) `mce::TexturePtr` | mTexturePtr
 72 | (1) `bool` | mActive
 
 
 ### `TextCharEventData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (5) `std::array<char,5>` | utf8text
 5 | (1) `bool` | keepImePosition
 
 
 ### `TextureTessellator`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | mCloudLighting
 
 
 ### `TextureOffset`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | x
 4 | (4) `int` | y
 
 
 ### `TrustedSkinHelper`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (152) `NetworkIdentifier` | mNetworkIdentifier
 152 | (16) `std::weak_ptr<Options const >` | mPrimaryOptions
 168 | (8) `gsl::not_null<Social::MultiplayerServiceManager *>` | mMultiplayerServiceManager
@@ -646,7 +646,7 @@ Offset | Type | Name
 
 ### `Tessellator`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | mIsFormatFixed
 8 | (240) `mce::MeshData` | mMeshData
 248 | (20) `std::optional<glm::tvec4<float,0> >` | mNextNormal
@@ -677,7 +677,7 @@ Offset | Type | Name
 
 ### `TerrainCommands`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<CommandListFuture>` | chunksOpaqueSeasons
 24 | (24) `std::vector<CommandListFuture>` | chunksOpaque
 48 | (24) `std::vector<CommandListFuture>` | chunksEndPortal
@@ -702,7 +702,7 @@ Offset | Type | Name
 
 ### `TextureAtlasTile`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<TextureData>` | textureDataCollection
 24 | (24) `std::vector<TextureUVCoordinateSet *>` | uvs
 48 | (16) `mce::Color` | overlay
@@ -718,7 +718,7 @@ Offset | Type | Name
 
 ### `TextureData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (56) `ResourceLocation` | location
 56 | (72) `std::optional<cg::ImageDescription>` | imageDescription
 128 | (56) `ResourceLocation` | tintMapLocation
@@ -732,7 +732,7 @@ Offset | Type | Name
 
 ### `TextureHotReloader::registerTexture::__l2::<lambda_d19440a49b67ab4c701b7d6018d1d57a>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (56) `const ResourceLocation` | resLoc
 56 | (56) `const ResourceLocation` | fullResourceLocation
 112 | (64) `std::function<void __cdecl(ResourceLocation const &)>` | textureReloadCallback
@@ -742,7 +742,7 @@ Offset | Type | Name
 
 ### `TextureHotReloader::registerAtlas::__l17::<lambda_e6a985aa285298526d00c4debf11172a>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::function<void __cdecl(enum TextureAtlasStatus const &)>` | textureAtlasStatusCallback
 64 | (64) `std::function<void __cdecl(ResourceLocation const &)>` | textureAtlasReloadCallback
 128 | (1) `const MipMapSupport` | mipMapSupport
@@ -754,14 +754,14 @@ Offset | Type | Name
 
 ### `TextureHotReloader::registerAtlas::__l17::<lambda_e6a985aa285298526d00c4debf11172a>::()::__l2::<lambda_3afaa43a3801353c84e3cfcd831e61a4>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::function<void __cdecl(ResourceLocation const &)>` | textureAtlasReloadCallback
 64 | (56) `const ResourceLocation` | fullResourceLocation
 
 
 ### `TreatmentPackMetadata`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `DateRange` | mDateRange
 64 | (32) `std::string` | mRequiredTreatmentTag
 96 | (32) `std::string` | mMinClientVersion
@@ -771,21 +771,21 @@ Offset | Type | Name
 
 ### `ToastManager::pushNotificationReceived::__l8::<lambda_ea7bf187b5e06244cc520f7a0ac3d28d>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ToastManager *const` | __this
 8 | (88) `const PushNotificationMessage` | msg
 
 
 ### `ToastFetcher::_processQueryResults::__l25::<lambda_5f20b6d3bbb0086d9f0765cdb6a274b0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<ToastFetcher>` | weakThis
 16 | (792) `const PromotionToastDocument` | toastDoc
 
 
 ### `TreatmentQuery<StoreConfigSearchResults,StoreConfigDocument>::_searchItemsByTreatment::__l2::<lambda_f774b8bad2c471843a0d320293710300>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<TreatmentQuery<StoreConfigSearchResults,StoreConfigDocument> >` | weakThis
 16 | (24) `const std::vector<std::string>` | treatments
 40 | (4) `const unsigned int` | queryId
@@ -793,7 +793,7 @@ Offset | Type | Name
 
 ### `TreatmentQuery<SalesSearchResults,SalesDocument>::_searchItemsByTreatment::__l2::<lambda_aea4d7b104890074629d18fc30a151d4>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<TreatmentQuery<SalesSearchResults,SalesDocument> >` | weakThis
 16 | (24) `const std::vector<std::string>` | treatments
 40 | (4) `const unsigned int` | queryId
@@ -801,14 +801,14 @@ Offset | Type | Name
 
 ### `TextToSpeechClient_flite::speakText::__l13::<lambda_68f502a62989c797c7648cd555e3232c>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<TextToSpeechClient_flite>` | weakThis
 16 | (32) `const std::string` | text
 
 
 ### `tagRAWINPUTDEVICE`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `unsigned __int16` | usUsagePage
 2 | (2) `unsigned __int16` | usUsage
 4 | (4) `unsigned int` | dwFlags
@@ -817,7 +817,7 @@ Offset | Type | Name
 
 ### `tagMSG`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `HWND__ *` | hwnd
 8 | (4) `unsigned int` | message
 16 | (8) `unsigned __int64` | wParam
@@ -828,7 +828,7 @@ Offset | Type | Name
 
 ### `tagRECT`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | left
 4 | (4) `int` | top
 8 | (4) `int` | right
@@ -837,7 +837,7 @@ Offset | Type | Name
 
 ### `tagTOUCHINPUT`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | x
 4 | (4) `int` | y
 8 | (8) `void *` | hSource
@@ -852,7 +852,7 @@ Offset | Type | Name
 
 ### `tagMONITORINFO`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | cbSize
 4 | (16) `tagRECT` | rcMonitor
 20 | (16) `tagRECT` | rcWork
@@ -861,13 +861,13 @@ Offset | Type | Name
 
 ### `type_safe::strong_typedef<dragon::materials::ParameterId,unsigned short>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `unsigned __int16` | value_
 
 
 ### `TextureSetHelpers::TextureSetDefinitionLoader::_loadImageLayers::__l17::layerConstraints`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `cg::TextureSetLayerType` | layerType
 4 | (1) `bool` | mandatory
 8 | (24) `std::vector<int>` | supportedImageChannelCounts
@@ -875,7 +875,7 @@ Offset | Type | Name
 
 ### `Trade`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mMaxUses
 4 | (1) `bool` | mRewardExperience
 8 | (4) `int` | mWeight
@@ -887,7 +887,7 @@ Offset | Type | Name
 
 ### `TimerComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mTime
 8 | (8) `unsigned __int64` | mTimeStamp
 16 | (1) `bool` | mHasExecuted
@@ -902,19 +902,19 @@ Offset | Type | Name
 
 ### `TypedServerNetId<RecipeNetIdTag,unsigned int,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | mRawId
 
 
 ### `TypedServerNetId<CreativeItemNetIdTag,unsigned int,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | mRawId
 
 
 ### `TextObjectParser::ServerData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const gsl::not_null<CommandRegistry::Parser *>` | mParser
 8 | (8) `const gsl::not_null<CommandOrigin const *>` | mCommandOrigin
 16 | (8) `const gsl::not_null<Scoreboard const *>` | mScoreboard
@@ -922,7 +922,7 @@ Offset | Type | Name
 
 ### `TickWorldComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | mChunkRadius
 4 | (4) `float` | mMaxDistToPlayers
 8 | (1) `bool` | mAlwaysActive
@@ -932,7 +932,7 @@ Offset | Type | Name
 
 ### `Token`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | mText
 32 | (4) `$43394D8BCE5B19B713CE0E76E20E677C` | ___u1
 36 | (4) `Token::Type` | mType
@@ -941,14 +941,14 @@ Offset | Type | Name
 
 ### `TrustingComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float` | mChance
 8 | (16) `std::set<Item const *>` | mTrustItems
 
 
 ### `TemporalAttributeBuff`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (88) `AttributeBuff` | baseclass_0
 88 | (4) `int` | mDuration
 92 | (4) `int` | mLifeTimer
@@ -958,13 +958,13 @@ Offset | Type | Name
 
 ### `TypedRuntimeId<ContainerRuntimeIdTag,unsigned int,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | mRawId
 
 
 ### `Trade2ContainerManagerController`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (136) `ContainerManagerController` | baseclass_0
 136 | (16) `std::weak_ptr<Trade2ContainerManagerModel>` | mTradeContainerManagerModel
 152 | (1) `bool` | mSelectBestTradeOnItemPlace
@@ -974,7 +974,7 @@ Offset | Type | Name
 
 ### `TradeItem`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | itemId
 4 | (4) `int` | itemAux
 8 | (4) `int` | count_min
@@ -985,21 +985,21 @@ Offset | Type | Name
 
 ### `TradeGroup`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mNumToSelect
 8 | (24) `std::vector<Trade>` | mTrades
 
 
 ### `TradeTier`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | mExpToUnlock
 8 | (24) `std::vector<TradeGroup>` | mGroups
 
 
 ### `TickNextTickData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (12) `BlockPos` | pos
 16 | (8) `const Block *` | mBlock
 24 | (8) `Tick` | tick
@@ -1008,14 +1008,14 @@ Offset | Type | Name
 
 ### `TickDelayBlock`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mTickDelay
 8 | (8) `const Block *` | mBlock
 
 
 ### `TreeHelper::AttachableDecoration::DirectionMask`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | mWest
 1 | (1) `bool` | mEast
 2 | (1) `bool` | mNorth
@@ -1024,7 +1024,7 @@ Offset | Type | Name
 
 ### `tagOFNA`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | lStructSize
 8 | (8) `HWND__ *` | hwndOwner
 16 | (8) `HINSTANCE__ *` | hInstance
@@ -1052,14 +1052,14 @@ Offset | Type | Name
 
 ### `timeval`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | tv_sec
 4 | (4) `int` | tv_usec
 
 
 ### `TransformConditions`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `TransformConditionBrightness` | mBrightness
 8 | (40) `TransformConditionSurrounding` | mSurrounding
 48 | (4) `TransformConditionInt` | mTickCount
@@ -1067,34 +1067,34 @@ Offset | Type | Name
 
 ### `TransformConditionBrightness`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | max
 4 | (4) `int` | min
 
 
 ### `TransformConditionSurrounding`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | value
 32 | (4) `int` | radius
 
 
 ### `TransformConditionInt`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | value
 
 
 ### `TransformComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (56) `TransformConditions` | mConditions
 56 | (32) `std::string` | mResult
 
 
 ### `TouchInputMapping`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<TouchTextButtonBinding>` | textButtonBindings
 24 | (24) `std::vector<TouchGlyphButtonBinding>` | glyphButtonBindings
 48 | (24) `std::vector<TouchGlyphButtonBindingEX>` | glyphButtonBindingEXs
@@ -1109,7 +1109,7 @@ Offset | Type | Name
 
 ### `TouchTurnInteractBinding`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | turnInteractButtonName
 32 | (32) `std::string` | tapButtonName
 64 | (32) `std::string` | holdButtonName
@@ -1120,139 +1120,139 @@ Offset | Type | Name
 
 ### `TestAutoInputMapping`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<TestAutoInputBinding>` | inputBindings
 
 
 ### `TrailSystem::tick::__l2::<lambda_c642df8e8f8dc06e627b82e74a46ee8c>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `TrailSystem *const` | __this
 
 
 ### `TrailSystem::BlockPositions`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (48) `BlockPos[4]` | mBlockPos
 
 
 ### `TrunkVariantBuilder::buildTrunkVariant::__l2::<lambda_3c96b118ffe9170a2291ea38c928ddb8>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::function<ITreeTrunkWrapper & __cdecl(FeatureLoading::ConcreteFeatureHolder<VanillaTreeFeature> *)>` | trunkAccessor
 
 
 ### `TreeHelper::TreeParams::buildSchema::__l2::<lambda_bf429b9943da523f3643fae7320cff06>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::function<TreeHelper::TreeParams & __cdecl(FeatureLoading::ConcreteFeatureHolder<VanillaTreeFeature> *)>` | paramAccessor
 
 
 ### `TreeHelper::TreeParams::buildSchema::__l2::<lambda_b7dd1207d09816c0c9db1e6ece51e520>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::function<TreeHelper::TreeParams & __cdecl(FeatureLoading::ConcreteFeatureHolder<VanillaTreeFeature> *)>` | paramAccessor
 
 
 ### `TreeHelper::TreeParams::buildSchema::__l3::<lambda_ba2ff42a04179a7d4894163efb6b8b51>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::function<TreeHelper::TreeParams & __cdecl(FeatureLoading::ConcreteFeatureHolder<VanillaTreeFeature> *)>` | paramAccessor
 
 
 ### `TreeHelper::AttachableDecoration::buildSchema::__l2::<lambda_5e4bd2a6e306b937e24b2085f6536010>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::function<TreeHelper::AttachableDecoration & __cdecl(SimpleTreeCanopy *)>` | paramAccessor
 
 
 ### `TreeHelper::AttachableDecoration::buildSchema::__l2::<lambda_35823045a604d8e3db9f83bb8371b7d5>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::function<TreeHelper::AttachableDecoration & __cdecl(SimpleTreeCanopy *)>` | paramAccessor
 
 
 ### `TreeHelper::AttachableDecoration::buildSchema::__l2::<lambda_cedc28b75fb8749133e75d18d3512355>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::function<TreeHelper::AttachableDecoration & __cdecl(AcaciaTreeTrunk *)>` | paramAccessor
 
 
 ### `TreeHelper::AttachableDecoration::buildSchema::__l2::<lambda_aec198287f74f059d029ccf4ef1c577c>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::function<TreeHelper::AttachableDecoration & __cdecl(AcaciaTreeTrunk *)>` | paramAccessor
 
 
 ### `TreeHelper::AttachableDecoration::buildSchema::__l2::<lambda_baa72491bdadbebb01f35d1038cd8d6b>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::function<TreeHelper::AttachableDecoration & __cdecl(FallenTreeTrunk *)>` | paramAccessor
 
 
 ### `TreeHelper::AttachableDecoration::buildSchema::__l2::<lambda_2c168f71e54c6faf572d0551eeebe8f0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::function<TreeHelper::AttachableDecoration & __cdecl(FallenTreeTrunk *)>` | paramAccessor
 
 
 ### `TreeHelper::AttachableDecoration::buildSchema::__l2::<lambda_b01630c12ad9025c6f4b9b3378d3dd7f>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::function<TreeHelper::AttachableDecoration & __cdecl(MegaTreeTrunk *)>` | paramAccessor
 
 
 ### `TreeHelper::AttachableDecoration::buildSchema::__l2::<lambda_dcf9ab12608cfd54a4f7a832e8a9d7a2>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::function<TreeHelper::AttachableDecoration & __cdecl(MegaTreeTrunk *)>` | paramAccessor
 
 
 ### `TreeHelper::AttachableDecoration::buildSchema::__l2::<lambda_4204fc98330b04bfb097d1dcec9854fb>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::function<TreeHelper::AttachableDecoration & __cdecl(SimpleTreeTrunk *)>` | paramAccessor
 
 
 ### `TreeHelper::AttachableDecoration::buildSchema::__l2::<lambda_1f6aaabf01f47958cadbe8c0b8c4c53f>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::function<TreeHelper::AttachableDecoration & __cdecl(SimpleTreeTrunk *)>` | paramAccessor
 
 
 ### `TreeHelper::AttachableDecoration::buildSchema::__l2::<lambda_4f6efd324af87ba1b45da67ba0332cdc>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::function<TreeHelper::AttachableDecoration & __cdecl(SimpleTreeCanopy *)>` | paramAccessor
 
 
 ### `TreeHelper::AttachableDecoration::buildSchema::__l2::<lambda_d038d92cd2883b2ee65fa0a1d16c2d87>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::function<TreeHelper::AttachableDecoration & __cdecl(SimpleTreeCanopy *)>` | paramAccessor
 
 
 ### `TreeHelper::AttachableDecoration::buildSchema::__l2::<lambda_22ca3585577933bb2c95ef437ae03bde>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::function<TreeHelper::AttachableDecoration & __cdecl(SimpleTreeCanopy *)>` | paramAccessor
 
 
 ### `TreeHelper::AttachableDecoration::buildSchema::__l2::<lambda_ea8eeac4ffd972d2f79b338c9d52793b>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::function<TreeHelper::AttachableDecoration & __cdecl(SimpleTreeCanopy *)>` | paramAccessor
 
 
 ### `TreeHelper::AttachableDecoration::buildSchema::__l2::<lambda_48eb51015eaf0361e05f044e832cf162>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::function<TreeHelper::AttachableDecoration & __cdecl(SimpleTreeCanopy *)>` | paramAccessor
 
 
 ### `TagRegistry<IDType<BiomeTagIDType>,IDType<BiomeTagSetIDType> >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::unordered_map<HashedString,unsigned __int64>` | mTagIndexMap
 64 | (24) `std::vector<std::string>` | mTags
 88 | (24) `std::vector<IndexSet>` | mSets
@@ -1264,14 +1264,14 @@ Offset | Type | Name
 
 ### `type_info`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `type_info_vtbl *` | __vftable
 8 | (16) `__std_type_info_data` | _Data
 
 
 ### `TextInput`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | text
 32 | (1) `bool` | keepImePosition
 36 | (4) `int` | controllerId
@@ -1279,14 +1279,14 @@ Offset | Type | Name
 
 ### `TurnEventData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float` | _dx
 4 | (4) `float` | dy
 
 
 ### `tm_unz_s`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | tm_sec
 4 | (4) `unsigned int` | tm_min
 8 | (4) `unsigned int` | tm_hour
@@ -1297,7 +1297,7 @@ Offset | Type | Name
 
 ### `tm_zip_s`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | tm_sec
 4 | (4) `unsigned int` | tm_min
 8 | (4) `unsigned int` | tm_hour
@@ -1308,7 +1308,7 @@ Offset | Type | Name
 
 ### `T1_DecoderRec_`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (176) `T1_BuilderRec_` | builder
 176 | (1024) `int[256]` | stack
 1200 | (8) `int *` | top
@@ -1339,7 +1339,7 @@ Offset | Type | Name
 
 ### `T1_BuilderRec_`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `FT_MemoryRec_ *` | memory
 8 | (8) `FT_FaceRec_ *` | face
 16 | (8) `FT_GlyphSlotRec_ *` | glyph
@@ -1362,7 +1362,7 @@ Offset | Type | Name
 
 ### `T1_Decoder_ZoneRec_`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `unsigned __int8 *` | cursor
 8 | (8) `unsigned __int8 *` | base
 16 | (8) `unsigned __int8 *` | limit
@@ -1370,7 +1370,7 @@ Offset | Type | Name
 
 ### `T1_TokenRec_`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `unsigned __int8 *` | start
 8 | (8) `unsigned __int8 *` | limit
 16 | (4) `T1_TokenType_` | type
@@ -1378,14 +1378,14 @@ Offset | Type | Name
 
 ### `TPoint_`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | x
 4 | (4) `int` | y
 
 
 ### `TT_SBitDecoderRec_`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `TT_FaceRec_ *` | face
 8 | (8) `FT_StreamRec_ *` | stream
 16 | (8) `FT_Bitmap_ *` | bitmap
@@ -1403,14 +1403,14 @@ Offset | Type | Name
 
 ### `TPixmap_`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `unsigned __int8 *` | origin
 8 | (4) `int` | pitch
 
 
 ### `TT_LoaderRec_`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `TT_FaceRec_ *` | face
 8 | (8) `TT_SizeRec_ *` | size
 16 | (8) `FT_GlyphSlotRec_ *` | glyph
@@ -1444,7 +1444,7 @@ Offset | Type | Name
 
 ### `TT_GlyphZoneRec_`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `FT_MemoryRec_ *` | memory
 8 | (2) `unsigned __int16` | max_points
 10 | (2) `__int16` | max_contours
@@ -1460,7 +1460,7 @@ Offset | Type | Name
 
 ### `T1_ParserRec_`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (144) `PS_ParserRec_` | root
 144 | (8) `FT_StreamRec_ *` | stream
 152 | (8) `unsigned __int8 *` | base_dict
@@ -1474,7 +1474,7 @@ Offset | Type | Name
 
 ### `T42_ParserRec_`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (144) `PS_ParserRec_` | root
 144 | (8) `FT_StreamRec_ *` | stream
 152 | (8) `unsigned __int8 *` | base_dict
@@ -1484,7 +1484,7 @@ Offset | Type | Name
 
 ### `textio`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int64` | ob_refcnt
 8 | (8) `_typeobject *` | ob_type
 16 | (4) `int` | ok
@@ -1517,39 +1517,39 @@ Offset | Type | Name
 
 ### `tinystl::pair<tinystl::unordered_hash_iterator<tinystl::unordered_hash_node<unsigned __int64,unsigned int> >,bool>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `tinystl::unordered_hash_iterator<tinystl::unordered_hash_node<unsigned __int64,unsigned int> >` | first
 8 | (1) `bool` | second
 
 
 ### `tinystl::unordered_hash_iterator<tinystl::unordered_hash_node<unsigned __int64,unsigned int> >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `tinystl::unordered_hash_node<unsigned __int64,unsigned int> *` | node
 
 
 ### `tinystl::pair<unsigned __int64,unsigned int>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `unsigned __int64` | first
 8 | (4) `unsigned int` | second
 
 
 ### `tinystl::list<bgfx::NonLocalAllocator::Free,bgfx::TinyStlAllocator>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `tinystl::vector<bgfx::NonLocalAllocator::Free,bgfx::TinyStlAllocator>` | baseclass_0
 
 
 ### `tinystl::vector<bgfx::NonLocalAllocator::Free,bgfx::TinyStlAllocator>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `tinystl::buffer<bgfx::NonLocalAllocator::Free,bgfx::TinyStlAllocator>` | m_buffer
 
 
 ### `tinystl::buffer<bgfx::NonLocalAllocator::Free,bgfx::TinyStlAllocator>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `bgfx::NonLocalAllocator::Free *` | first
 8 | (8) `bgfx::NonLocalAllocator::Free *` | last
 16 | (8) `bgfx::NonLocalAllocator::Free *` | capacity
@@ -1557,14 +1557,14 @@ Offset | Type | Name
 
 ### `tinystl::unordered_map<unsigned __int64,unsigned int,bgfx::TinyStlAllocator>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `unsigned __int64` | m_size
 8 | (24) `tinystl::buffer<tinystl::unordered_hash_node<unsigned __int64,unsigned int> *,bgfx::TinyStlAllocator>` | m_buckets
 
 
 ### `tinystl::buffer<tinystl::unordered_hash_node<unsigned __int64,unsigned int> *,bgfx::TinyStlAllocator>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `tinystl::unordered_hash_node<unsigned __int64,unsigned int> **` | first
 8 | (8) `tinystl::unordered_hash_node<unsigned __int64,unsigned int> **` | last
 16 | (8) `tinystl::unordered_hash_node<unsigned __int64,unsigned int> **` | capacity
@@ -1572,7 +1572,7 @@ Offset | Type | Name
 
 ### `tagPIXELFORMATDESCRIPTOR`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `unsigned __int16` | nSize
 2 | (2) `unsigned __int16` | nVersion
 4 | (4) `unsigned int` | dwFlags
@@ -1603,13 +1603,13 @@ Offset | Type | Name
 
 ### `tinystl::vector<unsigned char,bgfx::TinyStlAllocator>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `tinystl::buffer<unsigned char,bgfx::TinyStlAllocator>` | m_buffer
 
 
 ### `tinystl::buffer<unsigned char,bgfx::TinyStlAllocator>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `unsigned __int8 *` | first
 8 | (8) `unsigned __int8 *` | last
 16 | (8) `unsigned __int8 *` | capacity
@@ -1617,46 +1617,46 @@ Offset | Type | Name
 
 ### `tinystl::pair<tinystl::unordered_hash_iterator<tinystl::unordered_hash_node<unsigned __int64,unsigned short> >,bool>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `tinystl::unordered_hash_iterator<tinystl::unordered_hash_node<unsigned __int64,unsigned short> >` | first
 8 | (1) `bool` | second
 
 
 ### `tinystl::unordered_hash_iterator<tinystl::unordered_hash_node<unsigned __int64,unsigned short> >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `tinystl::unordered_hash_node<unsigned __int64,unsigned short> *` | node
 
 
 ### `tinystl::pair<tinystl::unordered_hash_iterator<tinystl::unordered_hash_node<unsigned __int64,bgfx::vk::VkSampler> >,bool>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `tinystl::unordered_hash_iterator<tinystl::unordered_hash_node<unsigned __int64,bgfx::vk::VkSampler> >` | first
 8 | (1) `bool` | second
 
 
 ### `tinystl::unordered_hash_iterator<tinystl::unordered_hash_node<unsigned __int64,bgfx::vk::VkSampler> >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `tinystl::unordered_hash_node<unsigned __int64,bgfx::vk::VkSampler> *` | node
 
 
 ### `tinystl::pair<unsigned __int64,bgfx::vk::VkSampler>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `unsigned __int64` | first
 8 | (8) `bgfx::vk::VkSampler` | second
 
 
 ### `tinystl::vector<bgfx::DxbcSignature::Element,bgfx::TinyStlAllocator>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `tinystl::buffer<bgfx::DxbcSignature::Element,bgfx::TinyStlAllocator>` | m_buffer
 
 
 ### `tinystl::buffer<bgfx::DxbcSignature::Element,bgfx::TinyStlAllocator>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `bgfx::DxbcSignature::Element *` | first
 8 | (8) `bgfx::DxbcSignature::Element *` | last
 16 | (8) `bgfx::DxbcSignature::Element *` | capacity
@@ -1664,7 +1664,7 @@ Offset | Type | Name
 
 ### `tinystl::buffer<tinystl::unordered_hash_node<tinystl::stringT<bgfx::TinyStlAllocator>,unsigned int> *,bgfx::TinyStlAllocator>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `tinystl::unordered_hash_node<tinystl::stringT<bgfx::TinyStlAllocator>,unsigned int> **` | first
 8 | (8) `tinystl::unordered_hash_node<tinystl::stringT<bgfx::TinyStlAllocator>,unsigned int> **` | last
 16 | (8) `tinystl::unordered_hash_node<tinystl::stringT<bgfx::TinyStlAllocator>,unsigned int> **` | capacity
@@ -1672,27 +1672,27 @@ Offset | Type | Name
 
 ### `tinystl::pair<tinystl::unordered_hash_iterator<tinystl::unordered_hash_node<unsigned int,unsigned int> >,bool>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `tinystl::unordered_hash_iterator<tinystl::unordered_hash_node<unsigned int,unsigned int> >` | first
 8 | (1) `bool` | second
 
 
 ### `tinystl::unordered_hash_iterator<tinystl::unordered_hash_node<unsigned int,unsigned int> >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `tinystl::unordered_hash_node<unsigned int,unsigned int> *` | node
 
 
 ### `tinystl::pair<unsigned int,unsigned int>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | first
 4 | (4) `unsigned int` | second
 
 
 ### `tinystl::stringT<bgfx::TinyStlAllocator>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `char *` | m_first
 8 | (8) `char *` | m_last
 16 | (8) `char *` | m_capacity
@@ -1701,33 +1701,33 @@ Offset | Type | Name
 
 ### `tinystl::unordered_map<tinystl::stringT<bgfx::TinyStlAllocator>,unsigned int,bgfx::TinyStlAllocator>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `unsigned __int64` | m_size
 8 | (24) `tinystl::buffer<tinystl::unordered_hash_node<tinystl::stringT<bgfx::TinyStlAllocator>,unsigned int> *,bgfx::TinyStlAllocator>` | m_buckets
 
 
 ### `tinystl::pair<tinystl::unordered_hash_iterator<tinystl::unordered_hash_node<tinystl::stringT<bgfx::TinyStlAllocator>,unsigned int> >,bool>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `tinystl::unordered_hash_iterator<tinystl::unordered_hash_node<tinystl::stringT<bgfx::TinyStlAllocator>,unsigned int> >` | first
 8 | (1) `bool` | second
 
 
 ### `tinystl::unordered_hash_iterator<tinystl::unordered_hash_node<tinystl::stringT<bgfx::TinyStlAllocator>,unsigned int> >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `tinystl::unordered_hash_node<tinystl::stringT<bgfx::TinyStlAllocator>,unsigned int> *` | node
 
 
 ### `tinystl::vector<unsigned int,bgfx::TinyStlAllocator>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `tinystl::buffer<unsigned int,bgfx::TinyStlAllocator>` | m_buffer
 
 
 ### `tinystl::buffer<unsigned int,bgfx::TinyStlAllocator>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `unsigned int *` | first
 8 | (8) `unsigned int *` | last
 16 | (8) `unsigned int *` | capacity

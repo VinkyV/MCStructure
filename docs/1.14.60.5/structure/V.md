@@ -1,14 +1,14 @@
 # V
 ### `VanillaGameModuleServer::initializeBehaviorStack::$C1F886AF5C927D64019CD3E2F97D7EC0`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ResourcePackRepository *` | repo
 8 | (8) `ResourcePackStack *` | tempStack
 
 
 ### `Vec3`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float` | x
 4 | (4) `float` | y
 8 | (4) `float` | z
@@ -16,214 +16,214 @@ Offset | Type | Name
 
 ### `VanillaVillageJigsawStructures::initialize::StructurePoolElementList`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Vector_base<std::pair<const StructurePoolElement *,int>>` | baseclass_0
 
 
 ### `VanillaOverworldBiomeSource`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `LayerBiomeSource` | baseclass_0
 24 | (16) `ConstLayerPtr<Biome *>` | m4x4ResolutionLayer
 
 
 ### `Vec2`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float` | x
 4 | (4) `float` | y
 
 
 ### `ViewedEntityContextT<EntityContext,FlagComponent<ActorTickedFlag>,ActorComponent,AgeableComponent>::ViewedComponentWrapper<AgeableComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ViewedEntityContextT<EntityContext,FlagComponent<ActorTickedFlag>,ActorComponent,AgeableComponent>::ViewedComponentWrapper<AgeableComponent>::ViewType *` | mView
 8 | (4) `const EntityId` | mEntity
 
 
 ### `ViewedEntityContextT<EntityContext,FlagComponent<ActorTickedFlag>,ActorComponent,AgeableComponent>::ViewedComponentWrapper<ActorComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ViewedEntityContextT<EntityContext,FlagComponent<ActorTickedFlag>,ActorComponent,AgeableComponent>::ViewedComponentWrapper<ActorComponent>::ViewType *` | mView
 8 | (4) `const EntityId` | mEntity
 
 
 ### `VariantParameterList`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (112) `VariantParameterList::Parameter[7]` | parameters
 
 
 ### `VariantParameterList::Parameter`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ClassID::IDType` | type
 8 | (8) `void *` | data
 
 
 ### `ViewedEntityContextT<EntityContext,FlagComponent<ActorTickedFlag>,ActorComponent,AgeableComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `EntityContext` | baseclass_0
 16 | (8) `entt::View<EntityId,FlagComponent<ActorTickedFlag>,ActorComponent,AgeableComponent> *` | mView
 
 
 ### `ViewedEntityContextT<EntityContext,FlagComponent<ActorTickedFlag>,ActorComponent,AgentCommandComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `EntityContext` | baseclass_0
 16 | (8) `entt::View<EntityId,FlagComponent<ActorTickedFlag>,ActorComponent,AgentCommandComponent> *` | mView
 
 
 ### `ViewedEntityContextT<EntityContext,FlagComponent<ActorTickedFlag>,ActorComponent,AreaAttackComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `EntityContext` | baseclass_0
 16 | (8) `entt::View<EntityId,FlagComponent<ActorTickedFlag>,ActorComponent,AreaAttackComponent> *` | mView
 
 
 ### `ViewedEntityContextT<EntityContext,FlagComponent<ActorTickedFlag>,ActorComponent,BlockBreakSensorComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `EntityContext` | baseclass_0
 16 | (8) `entt::View<EntityId,FlagComponent<ActorTickedFlag>,ActorComponent,BlockBreakSensorComponent> *` | mView
 
 
 ### `ViewedEntityContextT<EntityContext,FlagComponent<ActorTickedFlag>,ActorComponent,BreakBlocksComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `EntityContext` | baseclass_0
 16 | (8) `entt::View<EntityId,FlagComponent<ActorTickedFlag>,ActorComponent,BreakBlocksComponent> *` | mView
 
 
 ### `ViewedEntityContextT<EntityContext,FlagComponent<ActorTickedFlag>,ActorComponent,BreathableComponent>::ViewedComponentWrapper<BreathableComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ViewedEntityContextT<EntityContext,FlagComponent<ActorTickedFlag>,ActorComponent,BreathableComponent>::ViewedComponentWrapper<BreathableComponent>::ViewType *` | mView
 8 | (4) `const EntityId` | mEntity
 
 
 ### `ViewedEntityContextT<EntityContext,FlagComponent<ActorTickedFlag>,ActorComponent,BreathableComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `EntityContext` | baseclass_0
 16 | (8) `entt::View<EntityId,FlagComponent<ActorTickedFlag>,ActorComponent,BreathableComponent> *` | mView
 
 
 ### `ViewedEntityContextT<EntityContext,FlagComponent<ActorTickedFlag>,ActorComponent,CommandBlockComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `EntityContext` | baseclass_0
 16 | (8) `entt::View<EntityId,FlagComponent<ActorTickedFlag>,ActorComponent,CommandBlockComponent> *` | mView
 
 
 ### `ViewedEntityContextT<EntityContext,FlagComponent<ActorTickedFlag>,ActorComponent,DamageOverTimeComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `EntityContext` | baseclass_0
 16 | (8) `entt::View<EntityId,FlagComponent<ActorTickedFlag>,ActorComponent,DamageOverTimeComponent> *` | mView
 
 
 ### `ViewedEntityContextT<EntityContext,FlagComponent<ActorTickedFlag>,ActorComponent,ActorFlagComponent<EnvironmentSensorFlag> >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `EntityContext` | baseclass_0
 16 | (8) `entt::View<EntityId,FlagComponent<ActorTickedFlag>,ActorComponent,ActorFlagComponent<EnvironmentSensorFlag> > *` | mView
 
 
 ### `ViewedEntityContextT<EntityContext,FlagComponent<ActorTickedFlag>,ActorComponent,ExplodeComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `EntityContext` | baseclass_0
 16 | (8) `entt::View<EntityId,FlagComponent<ActorTickedFlag>,ActorComponent,ExplodeComponent> *` | mView
 
 
 ### `ViewedEntityContextT<EntityContext,FlagComponent<ActorTickedFlag>,ActorComponent,GoalSelectorComponent>::ViewedComponentWrapper<GoalSelectorComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ViewedEntityContextT<EntityContext,FlagComponent<ActorTickedFlag>,ActorComponent,GoalSelectorComponent>::ViewedComponentWrapper<GoalSelectorComponent>::ViewType *` | mView
 8 | (4) `const EntityId` | mEntity
 
 
 ### `ViewedEntityContextT<EntityContext,FlagComponent<ActorTickedFlag>,ActorComponent,GoalSelectorComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `EntityContext` | baseclass_0
 16 | (8) `entt::View<EntityId,FlagComponent<ActorTickedFlag>,ActorComponent,GoalSelectorComponent> *` | mView
 
 
 ### `ViewedEntityContextT<EntityContext,FlagComponent<ActorTickedFlag>,ActorComponent,HurtOnConditionComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `EntityContext` | baseclass_0
 16 | (8) `entt::View<EntityId,FlagComponent<ActorTickedFlag>,ActorComponent,HurtOnConditionComponent> *` | mView
 
 
 ### `ViewedEntityContextT<EntityContext,FlagComponent<ActorTickedFlag>,ActorComponent,LeashableComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `EntityContext` | baseclass_0
 16 | (8) `entt::View<EntityId,FlagComponent<ActorTickedFlag>,ActorComponent,LeashableComponent> *` | mView
 
 
 ### `ViewedEntityContextT<EntityContext,FlagComponent<ActorTickedFlag>,ActorComponent,ProjectileComponent>::ViewedComponentWrapper<ProjectileComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ViewedEntityContextT<EntityContext,FlagComponent<ActorTickedFlag>,ActorComponent,ProjectileComponent>::ViewedComponentWrapper<ProjectileComponent>::ViewType *` | mView
 8 | (4) `const EntityId` | mEntity
 
 
 ### `ViewedEntityContextT<EntityContext,FlagComponent<ActorTickedFlag>,ActorComponent,ProjectileComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `EntityContext` | baseclass_0
 16 | (8) `entt::View<EntityId,FlagComponent<ActorTickedFlag>,ActorComponent,ProjectileComponent> *` | mView
 
 
 ### `ViewedEntityContextT<EntityContext,FlagComponent<ActorTickedFlag>,ActorComponent,SpawnActorComponent>::ViewedComponentWrapper<SpawnActorComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ViewedEntityContextT<EntityContext,FlagComponent<ActorTickedFlag>,ActorComponent,SpawnActorComponent>::ViewedComponentWrapper<SpawnActorComponent>::ViewType *` | mView
 8 | (4) `const EntityId` | mEntity
 
 
 ### `ViewedEntityContextT<EntityContext,FlagComponent<ActorTickedFlag>,ActorComponent,SpawnActorComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `EntityContext` | baseclass_0
 16 | (8) `entt::View<EntityId,FlagComponent<ActorTickedFlag>,ActorComponent,SpawnActorComponent> *` | mView
 
 
 ### `ViewedEntityContextT<EntityContext,FlagComponent<ActorTickedFlag>,ActorComponent,TransformationComponent>::ViewedComponentWrapper<TransformationComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ViewedEntityContextT<EntityContext,FlagComponent<ActorTickedFlag>,ActorComponent,TransformationComponent>::ViewedComponentWrapper<TransformationComponent>::ViewType *` | mView
 8 | (4) `const EntityId` | mEntity
 
 
 ### `ViewedEntityContextT<EntityContext,FlagComponent<ActorTickedFlag>,ActorComponent,TransformationComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `EntityContext` | baseclass_0
 16 | (8) `entt::View<EntityId,FlagComponent<ActorTickedFlag>,ActorComponent,TransformationComponent> *` | mView
 
 
 ### `ValueChangedCallback`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<void (Option *)>::_Invoker_type` | _M_invoker
 
 
 ### `VanillaBiomeTypeAttributes`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `VanillaBiomeTypes_0` | mBiomeType
 
 
 ### `VideoStreamConnectPacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `Packet` | baseclass_0
 40 | (32) `WebSocketPacketData` | mWebSocketData
 72 | (4) `float` | mFrequency
@@ -234,7 +234,7 @@ Offset | Type | Name
 
 ### `va_list`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | gp_offset
 4 | (4) `unsigned int` | fp_offset
 8 | (8) `void *` | overflow_arg_area
@@ -243,77 +243,77 @@ Offset | Type | Name
 
 ### `VanillaBlockStateTransformUtils::CommonDirectionMapping<PortalAxis>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<std::pair<PortalAxis,CommonDirection>>` | mToRight
 24 | (24) `std::vector<std::pair<CommonDirection,PortalAxis>>` | mToLeft
 
 
 ### `VanillaBlockStateTransformUtils::CommonDirectionMapping<Direction::Type>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<std::pair<Direction::Type,CommonDirection>>` | mToRight
 24 | (24) `std::vector<std::pair<CommonDirection,Direction::Type>>` | mToLeft
 
 
 ### `VanillaBlockStateTransformUtils::CommonDirectionMapping<Facing::Name>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<std::pair<Facing::Name,CommonDirection>>` | mToRight
 24 | (24) `std::vector<std::pair<CommonDirection,Facing::Name>>` | mToLeft
 
 
 ### `VanillaBlockStateTransformUtils::CommonDirectionMapping<RailDirection>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<std::pair<RailDirection,CommonDirection>>` | mToRight
 24 | (24) `std::vector<std::pair<CommonDirection,RailDirection>>` | mToLeft
 
 
 ### `VanillaBlockStateTransformUtils::CommonDirectionMapping<TorchFacing>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<std::pair<TorchFacing,CommonDirection>>` | mToRight
 24 | (24) `std::vector<std::pair<CommonDirection,TorchFacing>>` | mToLeft
 
 
 ### `VanillaBlockStateTransformUtils::CommonDirectionMapping<WeirdoDirection>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<std::pair<WeirdoDirection,CommonDirection>>` | mToRight
 24 | (24) `std::vector<std::pair<CommonDirection,WeirdoDirection>>` | mToLeft
 
 
 ### `VanillaBlockStateTransformUtils::CommonDirectionMapping<CoralDirection>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<std::pair<CoralDirection,CommonDirection>>` | mToRight
 24 | (24) `std::vector<std::pair<CommonDirection,CoralDirection>>` | mToLeft
 
 
 ### `VanillaBlockStateTransformUtils::CommonDirectionMapping<LeverDirection>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<std::pair<LeverDirection,CommonDirection>>` | mToRight
 24 | (24) `std::vector<std::pair<CommonDirection,LeverDirection>>` | mToLeft
 
 
 ### `VanillaBlockStateTransformUtils::CommonDirectionMapping<PillarAxis>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<std::pair<PillarAxis,CommonDirection>>` | mToRight
 24 | (24) `std::vector<std::pair<CommonDirection,PillarAxis>>` | mToLeft
 
 
 ### `VanillaBlockStateTransformUtils::transformStandingRotation::$1E86A9CFC8E8AB731D791E938854EF55`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `const int` | halfSteps
 4 | (4) `const int` | variationCount
 
 
 ### `VanillaActorData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `ActorType` | mActorType
 4 | (1) `bool` | mAllowSummon
 8 | (8) `ActorFactoryFunction` | mFactory
@@ -322,98 +322,98 @@ Offset | Type | Name
 
 ### `ViewedEntityContextT<EntityContext,FlagComponent<ActorTickedFlag>,ActorComponent,AgentCommandComponent>::ViewedComponentWrapper<ActorComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ViewedEntityContextT<EntityContext,FlagComponent<ActorTickedFlag>,ActorComponent,AgentCommandComponent>::ViewedComponentWrapper<ActorComponent>::ViewType *` | mView
 8 | (4) `const EntityId` | mEntity
 
 
 ### `ViewedEntityContextT<EntityContext,FlagComponent<ActorTickedFlag>,ActorComponent,AgentCommandComponent>::ViewedComponentWrapper<AgentCommandComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ViewedEntityContextT<EntityContext,FlagComponent<ActorTickedFlag>,ActorComponent,AgentCommandComponent>::ViewedComponentWrapper<AgentCommandComponent>::ViewType *` | mView
 8 | (4) `const EntityId` | mEntity
 
 
 ### `ViewedEntityContextT<EntityContext,FlagComponent<ActorTickedFlag>,ActorComponent,AreaAttackComponent>::ViewedComponentWrapper<ActorComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ViewedEntityContextT<EntityContext,FlagComponent<ActorTickedFlag>,ActorComponent,AreaAttackComponent>::ViewedComponentWrapper<ActorComponent>::ViewType *` | mView
 8 | (4) `const EntityId` | mEntity
 
 
 ### `ViewedEntityContextT<EntityContext,FlagComponent<ActorTickedFlag>,ActorComponent,AreaAttackComponent>::ViewedComponentWrapper<AreaAttackComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ViewedEntityContextT<EntityContext,FlagComponent<ActorTickedFlag>,ActorComponent,AreaAttackComponent>::ViewedComponentWrapper<AreaAttackComponent>::ViewType *` | mView
 8 | (4) `const EntityId` | mEntity
 
 
 ### `ViewedEntityContextT<EntityContext,FlagComponent<ActorTickedFlag>,ActorComponent,BlockBreakSensorComponent>::ViewedComponentWrapper<ActorComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ViewedEntityContextT<EntityContext,FlagComponent<ActorTickedFlag>,ActorComponent,BlockBreakSensorComponent>::ViewedComponentWrapper<ActorComponent>::ViewType *` | mView
 8 | (4) `const EntityId` | mEntity
 
 
 ### `ViewedEntityContextT<EntityContext,FlagComponent<ActorTickedFlag>,ActorComponent,BlockBreakSensorComponent>::ViewedComponentWrapper<BlockBreakSensorComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ViewedEntityContextT<EntityContext,FlagComponent<ActorTickedFlag>,ActorComponent,BlockBreakSensorComponent>::ViewedComponentWrapper<BlockBreakSensorComponent>::ViewType *` | mView
 8 | (4) `const EntityId` | mEntity
 
 
 ### `ViewedEntityContextT<EntityContext,FlagComponent<ActorTickedFlag>,ActorComponent,BreakBlocksComponent>::ViewedComponentWrapper<BreakBlocksComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ViewedEntityContextT<EntityContext,FlagComponent<ActorTickedFlag>,ActorComponent,BreakBlocksComponent>::ViewedComponentWrapper<BreakBlocksComponent>::ViewType *` | mView
 8 | (4) `const EntityId` | mEntity
 
 
 ### `ViewedEntityContextT<EntityContext,FlagComponent<ActorTickedFlag>,ActorComponent,BreakBlocksComponent>::ViewedComponentWrapper<ActorComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ViewedEntityContextT<EntityContext,FlagComponent<ActorTickedFlag>,ActorComponent,BreakBlocksComponent>::ViewedComponentWrapper<ActorComponent>::ViewType *` | mView
 8 | (4) `const EntityId` | mEntity
 
 
 ### `ViewedEntityContextT<EntityContext,FlagComponent<ActorTickedFlag>,ActorComponent,BreathableComponent>::ViewedComponentWrapper<ActorComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ViewedEntityContextT<EntityContext,FlagComponent<ActorTickedFlag>,ActorComponent,BreathableComponent>::ViewedComponentWrapper<ActorComponent>::ViewType *` | mView
 8 | (4) `const EntityId` | mEntity
 
 
 ### `ViewedEntityContextT<EntityContext,FlagComponent<ActorTickedFlag>,ActorComponent,CommandBlockComponent>::ViewedComponentWrapper<ActorComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ViewedEntityContextT<EntityContext,FlagComponent<ActorTickedFlag>,ActorComponent,CommandBlockComponent>::ViewedComponentWrapper<ActorComponent>::ViewType *` | mView
 8 | (4) `const EntityId` | mEntity
 
 
 ### `ViewedEntityContextT<EntityContext,FlagComponent<ActorTickedFlag>,ActorComponent,CommandBlockComponent>::ViewedComponentWrapper<CommandBlockComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ViewedEntityContextT<EntityContext,FlagComponent<ActorTickedFlag>,ActorComponent,CommandBlockComponent>::ViewedComponentWrapper<CommandBlockComponent>::ViewType *` | mView
 8 | (4) `const EntityId` | mEntity
 
 
 ### `ViewedEntityContextT<EntityContext,FlagComponent<ActorTickedFlag>,ActorComponent,DamageOverTimeComponent>::ViewedComponentWrapper<ActorComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ViewedEntityContextT<EntityContext,FlagComponent<ActorTickedFlag>,ActorComponent,DamageOverTimeComponent>::ViewedComponentWrapper<ActorComponent>::ViewType *` | mView
 8 | (4) `const EntityId` | mEntity
 
 
 ### `ViewedEntityContextT<EntityContext,FlagComponent<ActorTickedFlag>,ActorComponent,DamageOverTimeComponent>::ViewedComponentWrapper<DamageOverTimeComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ViewedEntityContextT<EntityContext,FlagComponent<ActorTickedFlag>,ActorComponent,DamageOverTimeComponent>::ViewedComponentWrapper<DamageOverTimeComponent>::ViewType *` | mView
 8 | (4) `const EntityId` | mEntity
 
 
 ### `VillageManager`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Dimension *` | mDimension
 8 | (24) `std::vector<BlockPos>` | mFindPOIQueries
 32 | (24) `std::vector<std::shared_ptr<POIInstance>>` | mUnclusteredPOIs
@@ -430,82 +430,82 @@ Offset | Type | Name
 
 ### `VillageManager::VillageMap`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (56) `std::unordered_map<mce::UUID,std::shared_ptr<Village>>::_Hashtable` | _M_h
 
 
 ### `VillageManager::POIBlueprintMap`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (56) `std::unordered_map<const BlockLegacy *,std::unique_ptr<POIBlueprint>>::_Hashtable` | _M_h
 
 
 ### `ViewedEntityContextT<EntityContext,FlagComponent<ActorTickedFlag>,ActorComponent,ActorFlagComponent<EnvironmentSensorFlag> >::ViewedComponentWrapper<ActorComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ViewedEntityContextT<EntityContext,FlagComponent<ActorTickedFlag>,ActorComponent,ActorFlagComponent<EnvironmentSensorFlag> >::ViewedComponentWrapper<ActorComponent>::ViewType *` | mView
 8 | (4) `const EntityId` | mEntity
 
 
 ### `ViewedEntityContextT<EntityContext,FlagComponent<ActorTickedFlag>,ActorComponent,ExplodeComponent>::ViewedComponentWrapper<ActorComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ViewedEntityContextT<EntityContext,FlagComponent<ActorTickedFlag>,ActorComponent,ExplodeComponent>::ViewedComponentWrapper<ActorComponent>::ViewType *` | mView
 8 | (4) `const EntityId` | mEntity
 
 
 ### `ViewedEntityContextT<EntityContext,FlagComponent<ActorTickedFlag>,ActorComponent,ExplodeComponent>::ViewedComponentWrapper<ExplodeComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ViewedEntityContextT<EntityContext,FlagComponent<ActorTickedFlag>,ActorComponent,ExplodeComponent>::ViewedComponentWrapper<ExplodeComponent>::ViewType *` | mView
 8 | (4) `const EntityId` | mEntity
 
 
 ### `ViewedEntityContextT<EntityContext,FlagComponent<ActorTickedFlag>,ActorComponent,GoalSelectorComponent>::ViewedComponentWrapper<ActorComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ViewedEntityContextT<EntityContext,FlagComponent<ActorTickedFlag>,ActorComponent,GoalSelectorComponent>::ViewedComponentWrapper<ActorComponent>::ViewType *` | mView
 8 | (4) `const EntityId` | mEntity
 
 
 ### `ViewedEntityContextT<EntityContext,FlagComponent<ActorTickedFlag>,ActorComponent,HurtOnConditionComponent>::ViewedComponentWrapper<ActorComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ViewedEntityContextT<EntityContext,FlagComponent<ActorTickedFlag>,ActorComponent,HurtOnConditionComponent>::ViewedComponentWrapper<ActorComponent>::ViewType *` | mView
 8 | (4) `const EntityId` | mEntity
 
 
 ### `ViewedEntityContextT<EntityContext,FlagComponent<ActorTickedFlag>,ActorComponent,LeashableComponent>::ViewedComponentWrapper<ActorComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ViewedEntityContextT<EntityContext,FlagComponent<ActorTickedFlag>,ActorComponent,LeashableComponent>::ViewedComponentWrapper<ActorComponent>::ViewType *` | mView
 8 | (4) `const EntityId` | mEntity
 
 
 ### `ViewedEntityContextT<EntityContext,FlagComponent<ActorTickedFlag>,ActorComponent,ProjectileComponent>::ViewedComponentWrapper<ActorComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ViewedEntityContextT<EntityContext,FlagComponent<ActorTickedFlag>,ActorComponent,ProjectileComponent>::ViewedComponentWrapper<ActorComponent>::ViewType *` | mView
 8 | (4) `const EntityId` | mEntity
 
 
 ### `ViewedEntityContextT<EntityContext,FlagComponent<ActorTickedFlag>,ActorComponent,SpawnActorComponent>::ViewedComponentWrapper<ActorComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ViewedEntityContextT<EntityContext,FlagComponent<ActorTickedFlag>,ActorComponent,SpawnActorComponent>::ViewedComponentWrapper<ActorComponent>::ViewType *` | mView
 8 | (4) `const EntityId` | mEntity
 
 
 ### `ViewedEntityContextT<EntityContext,FlagComponent<ActorTickedFlag>,ActorComponent,TransformationComponent>::ViewedComponentWrapper<ActorComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ViewedEntityContextT<EntityContext,FlagComponent<ActorTickedFlag>,ActorComponent,TransformationComponent>::ViewedComponentWrapper<ActorComponent>::ViewType *` | mView
 8 | (4) `const EntityId` | mEntity
 
 
 ### `Village_0`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `mce::UUID` | mUniqueID
 16 | (8) `Dimension *` | mDimension
 24 | (72) `Village::UnclaimedPOIList` | mUnclaimedPOIStacks
@@ -531,25 +531,25 @@ Offset | Type | Name
 
 ### `Village::UnclaimedPOIList`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (72) `std::__array_traits<std::vector<std::weak_ptr<POIInstance>>,3>::_Type` | _M_elems
 
 
 ### `Village::ClaimedPOIList`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (56) `std::unordered_map<ActorUniqueID,std::vector<std::weak_ptr<POIInstance>>>::_Hashtable` | _M_h
 
 
 ### `Village::DwellerMap`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (56) `std::unordered_map<ActorUniqueID,Tick>::_Hashtable` | _M_h
 
 
 ### `VillagerV2::updateEntitySpecificMolangVariables::$7EF7C94BEAB75C6CEF4ADFB99B570420`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 

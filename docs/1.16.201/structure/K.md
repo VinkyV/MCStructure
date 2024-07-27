@@ -1,7 +1,7 @@
 # K
 ### `KTX::KTXInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | glInterFormat
 8 | (24) `std::vector<int>` | imageSizeList
 32 | (1) `unsigned __int8` | mipmapCount
@@ -10,7 +10,7 @@ Offset | Type | Name
 
 ### `KickCommandData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `_BYTE[1]` | requiredPermissionLevel
 8 | (16) `gsl::basic_string_span<char const ,-1>` | name
 24 | (16) `gsl::basic_string_span<char const ,-1>` | description
@@ -23,7 +23,7 @@ Offset | Type | Name
 
 ### `KillStrings`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `gsl::basic_string_span<char const ,-1>` | name
 16 | (16) `gsl::basic_string_span<char const ,-1>` | description
 32 | (16) `gsl::basic_string_span<char const ,-1>` | success
@@ -32,7 +32,7 @@ Offset | Type | Name
 
 ### `Keymapping`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | mAction
 32 | (24) `std::vector<int>` | mKeys
 56 | (1) `bool` | mAllowRemap
@@ -40,7 +40,7 @@ Offset | Type | Name
 
 ### `KeyManager`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `KeyManager_vtbl *` | __vftable
 8 | (32) `std::string` | mPublicKey
 40 | (8) `std::unique_ptr<Crypto::Asymmetric::Asymmetric>` | mInstance
@@ -48,7 +48,7 @@ Offset | Type | Name
 
 ### `KeyboardAction`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | state
 4 | (1) `unsigned __int8` | key
 8 | (4) `int` | controllerId
@@ -56,14 +56,14 @@ Offset | Type | Name
 
 ### `KeyOrNameResult`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | mString
 32 | (4) `KeyOrNameResult::ResultType` | mType
 
 
 ### `KeyFrameTransform`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<KeyFrameTransformData>` | mPrePost
 24 | (16) `KeyFrameLerpMode` | mLerpMode
 40 | (4) `float` | mKeyFrameTimeStamp
@@ -71,20 +71,20 @@ Offset | Type | Name
 
 ### `KeyFrameLerpMode`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::unique_ptr<glm::tmat4x4<float,0>>` | mPrecomputedCubicCoeffs
 8 | (4) `_BYTE[4]` | mLerpStyle
 
 
 ### `KnockBackEvent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `WeakRefT<EntityRefTraits>` | mActor
 
 
 ### `KNOWNFOLDERID`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | Data1
 4 | (2) `unsigned __int16` | Data2
 6 | (2) `unsigned __int16` | Data3
@@ -93,20 +93,20 @@ Offset | Type | Name
 
 ### `KeyboardInputMapping`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<KeyboardKeyBinding>` | keyBindings
 
 
 ### `KeyboardMapper::KeyboardKeyButtonDetails`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | nameId
 4 | (1) `FocusImpact` | focusImpact
 
 
 ### `KeyboardMapper::KeyboardMappingData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::unordered_multimap<int,KeyboardMapper::KeyboardKeyButtonDetails>` | mKeyboardKeyToButtonDetailsMap
 
 

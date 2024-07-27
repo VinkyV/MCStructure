@@ -1,13 +1,13 @@
 # D
 ### `DimensionType`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | runtimeID
 
 
 ### `DedicatedServer`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IMinecraftApp` | baseclass_0
 8 | (8) `BedrockEngine::AppIsland` | baseclass_8
 16 | (8) `AppPlatform *` | mPlatform
@@ -22,38 +22,38 @@ Offset | Type | Name
 
 ### `DebugLogScope`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | mPopScope
 
 
 ### `DirtyTicksCounter`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | totalTime
 4 | (4) `int` | lastChange
 
 
 ### `DataTypeMap::typeFor<long>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `DataTypeMap::typeFor<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char> > >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `DataTypeMap::typeFor<int>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `DamageOverTimeComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mHurtValue
 4 | (4) `int` | mDamageTimeInterval
 8 | (4) `int` | mDamageTime
@@ -61,19 +61,19 @@ Offset | Type | Name
 
 ### `DanceComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Unique<DanceComponentListener>` | mListener
 
 
 ### `DespawnComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `IEntityComponent` | baseclass_0
 
 
 ### `DwellerComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | mCanFindPOI
 1 | (1) `bool` | mCanMigrate
 2 | (1) `bool` | mHasJoinedDwelling
@@ -92,7 +92,7 @@ Offset | Type | Name
 
 ### `DefinitionTrigger`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | mType
 32 | (32) `std::string` | mTarget
 64 | (64) `ActorFilterGroup` | mFilter
@@ -100,7 +100,7 @@ Offset | Type | Name
 
 ### `DisconnectPacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (36) `Packet:288` | baseclass_0
 36 | (1) `bool` | mSkipMessage
 40 | (32) `std::string` | mMessage
@@ -108,74 +108,74 @@ Offset | Type | Name
 
 ### `DefaultDataLoadHelper`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `DataLoadHelper` | baseclass_0
 
 
 ### `DataLoadHelper`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `int (**)(void)` | _vptr$DataLoadHelper
 
 
 ### `Description`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `int (**)(void)` | _vptr$Description
 
 
 ### `DamageSensorDefinition`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<DamageSensorTrigger>` | mTriggers
 
 
 ### `DistanceSortedActor`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Actor *` | mActor
 8 | (4) `float` | mDistanceSquared
 
 
 ### `DistanceSortedActorList`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Vector_base<DistanceSortedActor>` | baseclass_0
 
 
 ### `DataTypeMap::typeFor<short>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `DataTypeMap::typeFor<float>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `DataTypeMap::typeFor<signed char>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `DataTypeMap::typeFor<Vec3>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `DefintionDescription`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `int (**)(void)` | _vptr$DefintionDescription
 
 
 ### `DefinitionInstanceGroup`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<std::shared_ptr<IDefinitionInstance>>` | mDefinitionList
 24 | (56) `std::unordered_map<std::string,std::shared_ptr<IDefinitionInstance>>` | mDefinitionMap
 80 | (56) `std::unordered_map<unsigned short,std::string>` | mTypeIdToDefinitionName
@@ -183,7 +183,7 @@ Offset | Type | Name
 
 ### `DefinitionEvent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float` | mProbability
 8 | (64) `ActorFilterGroup` | mFilter
 72 | (32) `std::string` | mName
@@ -195,14 +195,14 @@ Offset | Type | Name
 
 ### `DefinitionModifier`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<std::string>` | mAddGroups
 24 | (24) `std::vector<std::string>` | mRemoveGroups
 
 
 ### `DrinkPotionData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mPotionId
 4 | (4) `float` | mChance
 8 | (64) `ActorFilterGroup` | mFilter
@@ -210,19 +210,19 @@ Offset | Type | Name
 
 ### `DataTypeMap::typeFor<BlockPos>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `DataTypeMap::typeFor<CompoundTag>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `DBStorageConfig`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Scheduler *` | scheduler
 8 | (32) `Core::HeapPathBuffer` | fullPath
 40 | (32) `Core::HeapPathBuffer` | dbSubfolder
@@ -237,14 +237,14 @@ Offset | Type | Name
 
 ### `DisplayObjective`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const Objective *` | mObjective
 8 | (1) `ObjectiveSortOrder` | mSortOrder
 
 
 ### `DistanceConstraint`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float` | mConstraintMass
 4 | (12) `Vec3` | mConstraintAxis
 16 | (4) `float` | mBias
@@ -256,7 +256,7 @@ Offset | Type | Name
 
 ### `DenySameParentsVariantData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float` | mChance
 4 | (4) `int` | mVariantRangeMin
 8 | (4) `int` | mVariantRangeMax
@@ -264,7 +264,7 @@ Offset | Type | Name
 
 ### `DamageSensorTrigger`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (128) `DefinitionTrigger` | mOnDamage
 128 | (1) `bool` | mDealsDamage
 132 | (4) `ActorDamageCause` | mCause
@@ -274,90 +274,90 @@ Offset | Type | Name
 
 ### `DefinitionEventLoader::loadEvent::$308FE320F1A5CE0A1A20921AD32B0459`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `DefinitionEvent *` | defEvent
 
 
 ### `DefinitionSerializer<AddRiderDefinition>::DefinitionInitializer`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<std::shared_ptr<DefinitionInstanceTyped<AddRiderDefinition> > ()>::_Invoker_type` | _M_invoker
 
 
 ### `DefinitionSerializer<AgeableDefinition>::DefinitionInitializer`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<std::shared_ptr<DefinitionInstanceTyped<AgeableDefinition> > ()>::_Invoker_type` | _M_invoker
 
 
 ### `DefinitionSerializer<AreaAttackDefinition>::DefinitionInitializer`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<std::shared_ptr<DefinitionInstanceTyped<AreaAttackDefinition> > ()>::_Invoker_type` | _M_invoker
 
 
 ### `DefinitionSerializer<BoostableDefinition>::DefinitionInitializer`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<std::shared_ptr<DefinitionInstanceTyped<BoostableDefinition> > ()>::_Invoker_type` | _M_invoker
 
 
 ### `DefinitionSerializer<BossDefinition>::DefinitionInitializer`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<std::shared_ptr<DefinitionInstanceTyped<BossDefinition> > ()>::_Invoker_type` | _M_invoker
 
 
 ### `DefinitionSerializer<BreathableDefinition>::DefinitionInitializer`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<std::shared_ptr<DefinitionInstanceTyped<BreathableDefinition> > ()>::_Invoker_type` | _M_invoker
 
 
 ### `DefinitionSerializer<BreedableDefinition>::DefinitionInitializer`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<std::shared_ptr<DefinitionInstanceTyped<BreedableDefinition> > ()>::_Invoker_type` | _M_invoker
 
 
 ### `DefinitionSerializer<BribeableDefinition>::DefinitionInitializer`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<std::shared_ptr<DefinitionInstanceTyped<BribeableDefinition> > ()>::_Invoker_type` | _M_invoker
 
 
 ### `DefinitionSerializer<BurnsInDaylightDefinition>::DefinitionInitializer`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<std::shared_ptr<DefinitionInstanceTyped<BurnsInDaylightDefinition> > ()>::_Invoker_type` | _M_invoker
 
 
 ### `DefinitionSerializer<DamageOverTimeDefinition>::DefinitionInitializer`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<std::shared_ptr<DefinitionInstanceTyped<DamageOverTimeDefinition> > ()>::_Invoker_type` | _M_invoker
 
 
 ### `DefinitionSerializer<DamageSensorDefinition>::DefinitionInitializer`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<std::shared_ptr<DefinitionInstanceTyped<DamageSensorDefinition> > ()>::_Invoker_type` | _M_invoker
 
 
 ### `DamageSensorComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mDamageAmount
 4 | (1) `bool` | mDamageIsFatal
 8 | (4) `int` | mDamageCause
@@ -367,229 +367,229 @@ Offset | Type | Name
 
 ### `DefinitionSerializer<EntitySensorDefinition>::DefinitionInitializer`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<std::shared_ptr<DefinitionInstanceTyped<EntitySensorDefinition> > ()>::_Invoker_type` | _M_invoker
 
 
 ### `DefinitionSerializer<EnvironmentSensorDefinition>::DefinitionInitializer`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<std::shared_ptr<DefinitionInstanceTyped<EnvironmentSensorDefinition> > ()>::_Invoker_type` | _M_invoker
 
 
 ### `DefinitionSerializer<EquippableDefinition>::DefinitionInitializer`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<std::shared_ptr<DefinitionInstanceTyped<EquippableDefinition> > ()>::_Invoker_type` | _M_invoker
 
 
 ### `DefinitionSerializer<ExperienceRewardDefinition>::DefinitionInitializer`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<std::shared_ptr<DefinitionInstanceTyped<ExperienceRewardDefinition> > ()>::_Invoker_type` | _M_invoker
 
 
 ### `DefinitionSerializer<ExplodeDefinition>::DefinitionInitializer`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<std::shared_ptr<DefinitionInstanceTyped<ExplodeDefinition> > ()>::_Invoker_type` | _M_invoker
 
 
 ### `DefinitionSerializer<FlockingDefinition>::DefinitionInitializer`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<std::shared_ptr<DefinitionInstanceTyped<FlockingDefinition> > ()>::_Invoker_type` | _M_invoker
 
 
 ### `DefinitionSerializer<GeneticsDefinition>::DefinitionInitializer`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<std::shared_ptr<DefinitionInstanceTyped<GeneticsDefinition> > ()>::_Invoker_type` | _M_invoker
 
 
 ### `DefinitionSerializer<GiveableDefinition>::DefinitionInitializer`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<std::shared_ptr<DefinitionInstanceTyped<GiveableDefinition> > ()>::_Invoker_type` | _M_invoker
 
 
 ### `DefinitionSerializer<HealableDefinition>::DefinitionInitializer`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<std::shared_ptr<DefinitionInstanceTyped<HealableDefinition> > ()>::_Invoker_type` | _M_invoker
 
 
 ### `DefinitionSerializer<HomeDefinition>::DefinitionInitializer`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<std::shared_ptr<DefinitionInstanceTyped<HomeDefinition> > ()>::_Invoker_type` | _M_invoker
 
 
 ### `DefinitionSerializer<HurtOnConditionDefinition>::DefinitionInitializer`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<std::shared_ptr<DefinitionInstanceTyped<HurtOnConditionDefinition> > ()>::_Invoker_type` | _M_invoker
 
 
 ### `DefinitionSerializer<InsomniaDefinition>::DefinitionInitializer`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<std::shared_ptr<DefinitionInstanceTyped<InsomniaDefinition> > ()>::_Invoker_type` | _M_invoker
 
 
 ### `DefinitionSerializer<InteractDefinition>::DefinitionInitializer`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<std::shared_ptr<DefinitionInstanceTyped<InteractDefinition> > ()>::_Invoker_type` | _M_invoker
 
 
 ### `DefinitionSerializer<HopperDefinition>::DefinitionInitializer`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<std::shared_ptr<DefinitionInstanceTyped<HopperDefinition> > ()>::_Invoker_type` | _M_invoker
 
 
 ### `DefinitionSerializer<LeashableDefinition>::DefinitionInitializer`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<std::shared_ptr<DefinitionInstanceTyped<LeashableDefinition> > ()>::_Invoker_type` | _M_invoker
 
 
 ### `DefinitionSerializer<LegacyTradeableDefinition>::DefinitionInitializer`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<std::shared_ptr<DefinitionInstanceTyped<LegacyTradeableDefinition> > ()>::_Invoker_type` | _M_invoker
 
 
 ### `DefinitionSerializer<LookAtDefinition>::DefinitionInitializer`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<std::shared_ptr<DefinitionInstanceTyped<LookAtDefinition> > ()>::_Invoker_type` | _M_invoker
 
 
 ### `DefinitionSerializer<MobEffectDefinition>::DefinitionInitializer`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<std::shared_ptr<DefinitionInstanceTyped<MobEffectDefinition> > ()>::_Invoker_type` | _M_invoker
 
 
 ### `DefinitionSerializer<MountTameableDefinition>::DefinitionInitializer`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<std::shared_ptr<DefinitionInstanceTyped<MountTameableDefinition> > ()>::_Invoker_type` | _M_invoker
 
 
 ### `DefinitionSerializer<PeekDefinition>::DefinitionInitializer`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<std::shared_ptr<DefinitionInstanceTyped<PeekDefinition> > ()>::_Invoker_type` | _M_invoker
 
 
 ### `DefinitionSerializer<PhysicsDefinition>::DefinitionInitializer`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<std::shared_ptr<DefinitionInstanceTyped<PhysicsDefinition> > ()>::_Invoker_type` | _M_invoker
 
 
 ### `DefinitionSerializer<RailMovementDefinition>::DefinitionInitializer`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<std::shared_ptr<DefinitionInstanceTyped<RailMovementDefinition> > ()>::_Invoker_type` | _M_invoker
 
 
 ### `DefinitionSerializer<ScaffoldingClimberDefinition>::DefinitionInitializer`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<std::shared_ptr<DefinitionInstanceTyped<ScaffoldingClimberDefinition> > ()>::_Invoker_type` | _M_invoker
 
 
 ### `DefinitionSerializer<ScaleByAgeDefinition>::DefinitionInitializer`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<std::shared_ptr<DefinitionInstanceTyped<ScaleByAgeDefinition> > ()>::_Invoker_type` | _M_invoker
 
 
 ### `DefinitionSerializer<SchedulerDefinition>::DefinitionInitializer`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<std::shared_ptr<DefinitionInstanceTyped<SchedulerDefinition> > ()>::_Invoker_type` | _M_invoker
 
 
 ### `DefinitionSerializer<BlockBreakSensorDefinition>::DefinitionInitializer`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<std::shared_ptr<DefinitionInstanceTyped<BlockBreakSensorDefinition> > ()>::_Invoker_type` | _M_invoker
 
 
 ### `DefinitionSerializer<ShareableDefinition>::DefinitionInitializer`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<std::shared_ptr<DefinitionInstanceTyped<ShareableDefinition> > ()>::_Invoker_type` | _M_invoker
 
 
 ### `DefinitionSerializer<GrowsCropDefinition>::DefinitionInitializer`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<std::shared_ptr<DefinitionInstanceTyped<GrowsCropDefinition> > ()>::_Invoker_type` | _M_invoker
 
 
 ### `DefinitionSerializer<BalloonDefinition>::DefinitionInitializer`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<std::shared_ptr<DefinitionInstanceTyped<BalloonDefinition> > ()>::_Invoker_type` | _M_invoker
 
 
 ### `DefinitionSerializer<BalloonableDefinition>::DefinitionInitializer`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<std::shared_ptr<DefinitionInstanceTyped<BalloonableDefinition> > ()>::_Invoker_type` | _M_invoker
 
 
 ### `DiggerItem::BlockList`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Vector_base<const Block *>` | baseclass_0
 
 
 ### `DBStorage::DBStorageToken`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::atomic<int> *` | mRefCounter
 
 
 ### `DamageCondition`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `ActorFilterGroup` | mDamageFilters
 64 | (32) `std::string` | mCause
 96 | (4) `int` | mDamagePerTick
@@ -597,21 +597,21 @@ Offset | Type | Name
 
 ### `DBChunkStorageKey`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const ChunkPos` | pos
 8 | (4) `const DimensionType` | id
 
 
 ### `DBChunkStorage::UpgradeFixHandler`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<void (LevelChunk &,BlockSource &)>::_Invoker_type` | _M_invoker
 
 
 ### `DataStructures::List<RakNet::SystemAddress>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `RakNet::SystemAddress *` | listArray
 8 | (4) `unsigned int` | list_size
 12 | (4) `unsigned int` | allocation_size
@@ -619,7 +619,7 @@ Offset | Type | Name
 
 ### `DataStructures::List<RakNet::RakNetGUID>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `RakNet::RakNetGUID *` | listArray
 8 | (4) `unsigned int` | list_size
 12 | (4) `unsigned int` | allocation_size
@@ -627,7 +627,7 @@ Offset | Type | Name
 
 ### `DataStructures::Queue<RakNet::RakPeer::RequestedConnectionStruct *>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `RakNet::RakPeer::RequestedConnectionStruct **` | array
 8 | (4) `unsigned int` | head
 12 | (4) `unsigned int` | tail
@@ -636,7 +636,7 @@ Offset | Type | Name
 
 ### `DataStructures::List<RakNet::RakNetSocket2 *>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `RakNet::RakNetSocket2 **` | listArray
 8 | (4) `unsigned int` | list_size
 12 | (4) `unsigned int` | allocation_size
@@ -644,13 +644,13 @@ Offset | Type | Name
 
 ### `DatagramSequenceNumberType`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `uint32_t` | val
 
 
 ### `DatagramHeaderFormat`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `DatagramSequenceNumberType` | datagramNumber
 4 | (4) `float` | AS
 8 | (1) `bool` | isACK
@@ -664,19 +664,19 @@ Offset | Type | Name
 
 ### `DataStructures::RangeList<RakNet::uint24_t>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `DataStructures::OrderedList<RakNet::uint24_t,DataStructures::RangeNode<RakNet::uint24_t>,&DataStructures::RangeNodeComp>` | ranges
 
 
 ### `DataStructures::OrderedList<RakNet::uint24_t,DataStructures::RangeNode<RakNet::uint24_t>,&DataStructures::RangeNodeComp>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `DataStructures::List<DataStructures::RangeNode<RakNet::uint24_t> >` | orderedList
 
 
 ### `DataStructures::List<DataStructures::RangeNode<RakNet::uint24_t> >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `DataStructures::RangeNode<RakNet::uint24_t> *` | listArray
 8 | (4) `unsigned int` | list_size
 12 | (4) `unsigned int` | allocation_size
@@ -684,14 +684,14 @@ Offset | Type | Name
 
 ### `DataStructures::Heap<unsigned long,RakNet::InternalPacket *,false>::HeapNode`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `unsigned __int64` | weight
 8 | (8) `RakNet::InternalPacket *` | data
 
 
 ### `DataStructures::Queue<HuffmanEncodingTreeNode *>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `HuffmanEncodingTreeNode **` | array
 8 | (4) `unsigned int` | head
 12 | (4) `unsigned int` | tail
@@ -700,13 +700,13 @@ Offset | Type | Name
 
 ### `DataStructures::LinkedList<HuffmanEncodingTreeNode *>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `DataStructures::CircularLinkedList<HuffmanEncodingTreeNode *>` | baseclass_0
 
 
 ### `DataStructures::CircularLinkedList<HuffmanEncodingTreeNode *>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | list_size
 8 | (8) `DataStructures::CircularLinkedList<HuffmanEncodingTreeNode *>::node *` | root
 16 | (8) `DataStructures::CircularLinkedList<HuffmanEncodingTreeNode *>::node *` | position
@@ -714,35 +714,35 @@ Offset | Type | Name
 
 ### `DelayedDeleter<SubChunkBlockStorage>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `DelayedDeleter<SubChunkBlockStorage>::EntryQueue` | mEntries
 32 | (40) `Bedrock::Threading::Mutex` | mEntriesMutex
 
 
 ### `DelayedDeleter<SubChunkBlockStorage>::EntryQueue`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<std::pair<std::chrono::time_point<std::chrono::_V2::steady_clock,std::chrono::duration<long,std::ratio<1,1000000000> > >,std::unique_ptr<SubChunkBlockStorage> >>` | c
 24 | (1) `std::greater<std::pair<std::chrono::time_point<std::chrono::_V2::steady_clock,std::chrono::duration<long,std::ratio<1,1000000000> > >,std::unique_ptr<SubChunkBlockStorage> > >` | comp
 
 
 ### `DelayedDeleter<SubChunkBrightnessStorage>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `DelayedDeleter<SubChunkBrightnessStorage>::EntryQueue` | mEntries
 32 | (40) `Bedrock::Threading::Mutex` | mEntriesMutex
 
 
 ### `DelayedDeleter<SubChunkBrightnessStorage>::EntryQueue`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<std::pair<std::chrono::time_point<std::chrono::_V2::steady_clock,std::chrono::duration<long,std::ratio<1,1000000000> > >,std::unique_ptr<SubChunkBrightnessStorage> >>` | c
 24 | (1) `std::greater<std::pair<std::chrono::time_point<std::chrono::_V2::steady_clock,std::chrono::duration<long,std::ratio<1,1000000000> > >,std::unique_ptr<SubChunkBrightnessStorage> > >` | comp
 
 
 ### `DataStructures::List<RakNet::RakString::SharedString *>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `RakNet::RakString::SharedString **` | listArray
 8 | (4) `unsigned int` | list_size
 12 | (4) `unsigned int` | allocation_size
@@ -750,14 +750,14 @@ Offset | Type | Name
 
 ### `DimensionConversionData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (12) `Vec3` | mOverworldSpawnPoint
 12 | (4) `int` | mNetherScale
 
 
 ### `Dimension`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `LevelListener` | baseclass_0
 8 | (48) `SavedData` | baseclass_8
 56 | (8) `Level *` | mLevel
@@ -801,13 +801,13 @@ Offset | Type | Name
 
 ### `Dimension::ChunkPosToActorListMap`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (56) `std::unordered_map<ChunkPos,std::vector<std::unique_ptr<CompoundTag>>>::_Hashtable` | _M_h
 
 
 ### `DataStructures::Queue<RakNet::BPSTracker::TimeAndValue2>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `RakNet::BPSTracker::TimeAndValue2 *` | array
 8 | (4) `unsigned int` | head
 12 | (4) `unsigned int` | tail
@@ -816,14 +816,14 @@ Offset | Type | Name
 
 ### `DataStructures::RangeNode<RakNet::uint24_t>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `RakNet::uint24_t` | minIndex
 4 | (4) `RakNet::uint24_t` | maxIndex
 
 
 ### `DataStructures::Map<int,RakNet::HuffmanEncodingTree *,&DataStructures::defaultMapKeyComparison>::MapNode`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mapNodeKey
 8 | (8) `RakNet::HuffmanEncodingTree *` | mapNodeData
 

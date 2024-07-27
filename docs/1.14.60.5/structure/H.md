@@ -1,14 +1,14 @@
 # H
 ### `HashedString`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `HashType64` | mStrHash
 8 | (32) `std::string` | mStr
 
 
 ### `HellSpringFeature`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `Feature` | baseclass_0
 24 | (8) `const Block *` | mBlock
 32 | (1) `bool` | mInsideRock
@@ -16,26 +16,26 @@ Offset | Type | Name
 
 ### `HellFireFeature`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `Feature` | baseclass_0
 
 
 ### `HerdList`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Vector_base<MobSpawnHerdInfo>` | baseclass_0
 
 
 ### `HopperComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (12) `Hopper` | baseclass_0
 12 | (12) `BlockPos` | mLastPosition
 
 
 ### `Hopper`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mCooldownTime
 4 | (1) `bool` | mTransferedFromChestMinecart
 5 | (1) `bool` | mIsEntity
@@ -44,13 +44,13 @@ Offset | Type | Name
 
 ### `HurtOnConditionComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `IEntityComponent` | baseclass_0
 
 
 ### `HitResult`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (12) `Vec3` | mStartPos
 12 | (12) `Vec3` | mRayDir
 24 | (4) `HitResultType` | mType
@@ -67,14 +67,14 @@ Offset | Type | Name
 
 ### `HurtArmorPacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (36) `Packet:288` | baseclass_0
 36 | (4) `int` | mDmg
 
 
 ### `HealableDefinition`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<FeedItem>` | mHealItems
 24 | (1) `bool` | mForceUse
 32 | (64) `ActorFilterGroup` | mFilter
@@ -82,40 +82,40 @@ Offset | Type | Name
 
 ### `HideComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | mIsInRaid
 1 | (1) `bool` | mReactToBell
 
 
 ### `HealableComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `IEntityComponent` | baseclass_0
 
 
 ### `HomeComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (12) `BlockPos` | mHomePos
 12 | (4) `DimensionType` | mDimensionId
 
 
 ### `HugeMushroomFeature`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `Feature` | baseclass_0
 24 | (4) `int` | mForcedType
 
 
 ### `HurtOnConditionDefinition::deserializeData::$B7C8591B4983496A0E79D8038F2BDAD9`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `HurtOnConditionDefinition *` | this
 
 
 ### `HeavyBlock::animateTick::$7EF7C94BEAB75C6CEF4ADFB99B570420`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 

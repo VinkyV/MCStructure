@@ -1,31 +1,31 @@
 # T
 ### `Tick`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `uint64_t` | tickID
 
 
 ### `Tag`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `int (**)(void)` | _vptr$Tag
 
 
 ### `TagMap`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (48) `std::map<std::string,CompoundTagVariant>::_Rep_type` | _M_t
 
 
 ### `typeid_t<CommandRegistry>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `uint16_t` | mID
 
 
 ### `TextPacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (36) `Packet:288` | baseclass_0
 36 | (1) `TextPacketType` | mType
 40 | (32) `std::string` | mAuthor
@@ -38,7 +38,7 @@ Offset | Type | Name
 
 ### `Trade`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mMaxUses
 4 | (1) `bool` | mRewardExperience
 8 | (4) `int` | mWeight
@@ -49,20 +49,20 @@ Offset | Type | Name
 
 ### `typeid_t<IDefinitionInstance>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `uint16_t` | mID
 
 
 ### `TextObjectRoot`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ITextObject` | baseclass_0
 8 | (24) `std::vector<std::unique_ptr<ITextObject>>` | mChildren
 
 
 ### `TargetNearbyComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | mWasSeenLastTick
 1 | (1) `bool` | mWasInsideRange
 2 | (1) `bool` | mWasOutsideRange
@@ -71,7 +71,7 @@ Offset | Type | Name
 
 ### `TeleportComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | mRandomTeleports
 4 | (4) `int` | mMinTeleportTime
 8 | (4) `int` | mMaxTeleportTime
@@ -85,7 +85,7 @@ Offset | Type | Name
 
 ### `TimerComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mTime
 8 | (8) `uint64_t` | mTimeStamp
 16 | (1) `bool` | mHasExecuted
@@ -100,26 +100,26 @@ Offset | Type | Name
 
 ### `TrailSystem::BlockPositions`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (48) `BlockPos[4]` | mBlockPos
 
 
 ### `TrailComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const BlockLegacy *` | mBlockType
 8 | (12) `Vec3` | mSpawnOffset
 
 
 ### `TransformationComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mDelayTicks
 
 
 ### `TagMemoryChunk`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `size_t` | mElements
 8 | (8) `size_t` | mSize
 16 | (8) `std::unique_ptr<unsigned char []>` | mBuffer
@@ -127,7 +127,7 @@ Offset | Type | Name
 
 ### `ThirdPartyInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (56) `std::unordered_set<std::string>` | mWhitelistUrls
 56 | (32) `std::string` | mCreatorId
 88 | (32) `std::string` | mCreatorName
@@ -136,7 +136,7 @@ Offset | Type | Name
 
 ### `TaskStartInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `string_span` | name
 16 | (8) `std::thread::id` | affinity
 24 | (4) `uint32_t` | priority
@@ -148,7 +148,7 @@ Offset | Type | Name
 
 ### `TransferPacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `Packet` | baseclass_0
 40 | (32) `std::string` | mServerAddress
 72 | (4) `int` | mServerPort
@@ -156,7 +156,7 @@ Offset | Type | Name
 
 ### `TickSyncPacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `Packet` | baseclass_0
 40 | (8) `int64_t` | mClientRequestTimestamp
 48 | (8) `int64_t` | mServerReceptionResponseTimestamp
@@ -164,13 +164,13 @@ Offset | Type | Name
 
 ### `TintMapColor`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::array<Color,4>` | colors
 
 
 ### `ThreadConfiguration`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `Bedrock::Threading::OSThreadPriority` | Priority
 8 | (16) `std::optional<unsigned long>` | CoreAffinityMask
 24 | (4) `int32_t` | IdealCore
@@ -178,7 +178,7 @@ Offset | Type | Name
 
 ### `ThreadConfiguration:224`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `Bedrock::Threading::OSThreadPriority` | Priority
 4 | (4) `_BYTE[4]` | gap4
 8 | (16) `std::optional<unsigned long>` | CoreAffinityMask
@@ -187,13 +187,13 @@ Offset | Type | Name
 
 ### `typeid_t<ScriptBinderComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `uint16_t` | mID
 
 
 ### `TeleportDescription`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ComponentDescription` | baseclass_0
 8 | (1) `bool` | mRandomTeleports
 12 | (4) `float` | mMinTeleportTime
@@ -207,7 +207,7 @@ Offset | Type | Name
 
 ### `TickingAreaDescription`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (12) `BlockPos` | mOrigin
 12 | (12) `BlockPos` | mMax
 24 | (4) `uint32_t` | mRadius
@@ -217,13 +217,13 @@ Offset | Type | Name
 
 ### `TagsDescription`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ComponentDescription` | baseclass_0
 
 
 ### `TextureUVCoordinateSet`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float` | weight
 4 | (4) `float` | _u0
 8 | (4) `float` | _v0
@@ -237,32 +237,32 @@ Offset | Type | Name
 
 ### `TrustComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (56) `std::unordered_set<ActorUniqueID>` | mTrustedPlayerIDs
 
 
 ### `TagsComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `TagSetID` | mTagSetID
 
 
 ### `TagSetID`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `size_t` | mID
 
 
 ### `TameableComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float` | mChance
 8 | (48) `std::set<const Item *>` | mTameItems
 
 
 ### `TickWorldComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `uint32_t` | mChunkRadius
 4 | (4) `float` | mMaxDistToPlayers
 8 | (1) `bool` | mAlwaysActive
@@ -272,38 +272,38 @@ Offset | Type | Name
 
 ### `TrustingComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float` | mChance
 8 | (48) `std::set<const Item *>` | mTrustItems
 
 
 ### `TradeResupplyComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | mHasResupplied
 
 
 ### `Token::List`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Vector_base<Token>` | baseclass_0
 
 
 ### `TargetDescriptorList`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Vector_base<MobDescriptor>` | baseclass_0
 
 
 ### `TripodCameraComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `IEntityComponent` | baseclass_0
 
 
 ### `TakeItemActorPacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `Packet` | baseclass_0
 40 | (8) `ActorRuntimeID` | mItemId
 48 | (8) `ActorRuntimeID` | mPlayerId
@@ -311,7 +311,7 @@ Offset | Type | Name
 
 ### `TemporalAttributeBuff`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (84) `AttributeBuff:672` | baseclass_0
 84 | (4) `int` | mDuration
 88 | (4) `int` | mLifeTimer
@@ -321,7 +321,7 @@ Offset | Type | Name
 
 ### `TextureAtlasItem`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | mName
 32 | (4) `int` | mParsedNodeIndex
 40 | (24) `std::vector<std::vector<TextureUVCoordinateSet>>` | mTextureUVs
@@ -329,21 +329,21 @@ Offset | Type | Name
 
 ### `TradeTier`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | mExpToUnlock
 8 | (24) `std::vector<TradeGroup>` | mGroups
 
 
 ### `TradeGroup`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mNumToSelect
 8 | (24) `std::vector<Trade>` | mTrades
 
 
 ### `TradeItem`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | itemId
 4 | (4) `int` | itemAux
 8 | (4) `int` | count_min
@@ -354,7 +354,7 @@ Offset | Type | Name
 
 ### `TickNextTickData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (12) `BlockPos` | pos
 16 | (8) `const Block *` | mBlock
 24 | (8) `Tick` | tick
@@ -363,7 +363,7 @@ Offset | Type | Name
 
 ### `tm`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | tm_sec
 4 | (4) `int` | tm_min
 8 | (4) `int` | tm_hour
@@ -379,13 +379,13 @@ Offset | Type | Name
 
 ### `TrackedUniqueChunkPtr`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::__uniq_ptr_impl<LevelChunk,LevelChunkFinalDeleter>` | _M_t
 
 
 ### `TagRegistry`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (56) `std::unordered_map<StringKey,unsigned int>` | mTagIndexMap
 56 | (24) `std::vector<std::string>` | mTags
 80 | (24) `std::vector<IndexSet>` | mSets
@@ -397,19 +397,19 @@ Offset | Type | Name
 
 ### `TagID`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `size_t` | mID
 
 
 ### `TickingAreasList`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Vector_base<std::shared_ptr<ITickingArea>>` | baseclass_0
 
 
 ### `TextureItem`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | defaultName
 32 | (32) `std::string` | carriedName
 64 | (64) `TextureAtlasItem` | defaultItem
@@ -418,25 +418,25 @@ Offset | Type | Name
 
 ### `typeid_t<ContextAccessor>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `uint16_t` | mID
 
 
 ### `TagCommand::ActorRefList`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Vector_base<std::reference_wrapper<Actor>>` | baseclass_0
 
 
 ### `TagCommand::_listTags::$7EF7C94BEAB75C6CEF4ADFB99B570420`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `Token`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | mText
 32 | (4) `Token::$8E444B718253266053441DBC27016FD8` | _anon_0
 36 | (4) `Token::Type` | mType
@@ -445,20 +445,20 @@ Offset | Type | Name
 
 ### `Token::$8E444B718253266053441DBC27016FD8`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mIntValue
 1 | (1) `bool` | mBoolValue
 
 
 ### `type_safe::strong_typedef<mce::Radian,float>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float` | value_
 
 
 ### `TaskResult`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | mIsDone
 8 | (8) `std::chrono::_V2::steady_clock::time_point` | mRunAtTime
 16 | (16) `Bedrock::Threading::IAsyncResult<void>::Handle` | mWaitOperation
@@ -467,21 +467,21 @@ Offset | Type | Name
 
 ### `timeval`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__time_t` | tv_sec
 8 | (8) `__suseconds_t` | tv_usec
 
 
 ### `timespec`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__time_t` | tv_sec
 8 | (8) `__syscall_slong_t` | tv_nsec
 
 
 ### `tm_unz`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `uInt` | tm_sec
 4 | (4) `uInt` | tm_min
 8 | (4) `uInt` | tm_hour
@@ -492,7 +492,7 @@ Offset | Type | Name
 
 ### `tm_zip`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `uInt` | tm_sec
 4 | (4) `uInt` | tm_min
 8 | (4) `uInt` | tm_hour
@@ -503,13 +503,13 @@ Offset | Type | Name
 
 ### `type_safe::strong_typedef<mce::Degree,float>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float` | value_
 
 
 ### `ThreadLocal<ResourceLoadManager::ResourceLoadTaskGroup *>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `ThreadLocal<ResourceLoadManager::ResourceLoadTaskGroup *>::Creator` | mCreator
 32 | (24) `ThreadLocal<ResourceLoadManager::ResourceLoadTaskGroup *>::Pool` | mPool
 56 | (40) `Bedrock::Threading::Mutex` | mCreatorLock
@@ -519,20 +519,20 @@ Offset | Type | Name
 
 ### `ThreadLocal<ResourceLoadManager::ResourceLoadTaskGroup *>::Creator`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<std::unique_ptr<ResourceLoadManager::ResourceLoadTaskGroup *> ()>::_Invoker_type` | _M_invoker
 
 
 ### `ThreadLocal<ResourceLoadManager::ResourceLoadTaskGroup *>::Pool`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Vector_base<std::unique_ptr<ResourceLoadManager::ResourceLoadTaskGroup *>>` | baseclass_0
 
 
 ### `ThreadLocal<PerfTimer>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `ThreadLocal<PerfTimer>::Creator` | mCreator
 32 | (24) `ThreadLocal<PerfTimer>::Pool` | mPool
 56 | (40) `Bedrock::Threading::Mutex` | mCreatorLock
@@ -542,20 +542,20 @@ Offset | Type | Name
 
 ### `ThreadLocal<PerfTimer>::Creator`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<std::unique_ptr<PerfTimer> ()>::_Invoker_type` | _M_invoker
 
 
 ### `ThreadLocal<PerfTimer>::Pool`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Vector_base<std::unique_ptr<PerfTimer>>` | baseclass_0
 
 
 ### `ThreadLocal<EvalParams>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `ThreadLocal<EvalParams>::Creator` | mCreator
 32 | (24) `ThreadLocal<EvalParams>::Pool` | mPool
 56 | (40) `Bedrock::Threading::Mutex` | mCreatorLock
@@ -565,20 +565,20 @@ Offset | Type | Name
 
 ### `ThreadLocal<EvalParams>::Creator`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<std::unique_ptr<EvalParams> ()>::_Invoker_type` | _M_invoker
 
 
 ### `ThreadLocal<EvalParams>::Pool`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Vector_base<std::unique_ptr<EvalParams>>` | baseclass_0
 
 
 ### `ThreadLocal<Random>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `ThreadLocal<Random>::Creator` | mCreator
 32 | (24) `ThreadLocal<Random>::Pool` | mPool
 56 | (40) `Bedrock::Threading::Mutex` | mCreatorLock
@@ -588,20 +588,20 @@ Offset | Type | Name
 
 ### `ThreadLocal<Random>::Creator`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<std::unique_ptr<Random> ()>::_Invoker_type` | _M_invoker
 
 
 ### `ThreadLocal<Random>::Pool`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Vector_base<std::unique_ptr<Random>>` | baseclass_0
 
 
 ### `ThreadLocal<DBStorageWriteBatch>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `ThreadLocal<DBStorageWriteBatch>::Creator` | mCreator
 32 | (24) `ThreadLocal<DBStorageWriteBatch>::Pool` | mPool
 56 | (40) `Bedrock::Threading::Mutex` | mCreatorLock
@@ -611,20 +611,20 @@ Offset | Type | Name
 
 ### `ThreadLocal<DBStorageWriteBatch>::Creator`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<std::unique_ptr<DBStorageWriteBatch> ()>::_Invoker_type` | _M_invoker
 
 
 ### `ThreadLocal<DBStorageWriteBatch>::Pool`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Vector_base<std::unique_ptr<DBStorageWriteBatch>>` | baseclass_0
 
 
 ### `ThreadLocal<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char> > >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `ThreadLocal<std::string >::Creator` | mCreator
 32 | (24) `ThreadLocal<std::string >::Pool` | mPool
 56 | (40) `Bedrock::Threading::Mutex` | mCreatorLock
@@ -634,20 +634,20 @@ Offset | Type | Name
 
 ### `ThreadLocal<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char> > >::Creator`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<std::unique_ptr<std::string> ()>::_Invoker_type` | _M_invoker
 
 
 ### `ThreadLocal<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char> > >::Pool`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Vector_base<std::unique_ptr<std::string>>` | baseclass_0
 
 
 ### `ThreadLocal<Core::Random>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `ThreadLocal<Core::Random>::Creator` | mCreator
 32 | (24) `ThreadLocal<Core::Random>::Pool` | mPool
 56 | (40) `Bedrock::Threading::Mutex` | mCreatorLock
@@ -657,20 +657,20 @@ Offset | Type | Name
 
 ### `ThreadLocal<Core::Random>::Creator`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<std::unique_ptr<Core::Random> ()>::_Invoker_type` | _M_invoker
 
 
 ### `ThreadLocal<Core::Random>::Pool`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Vector_base<std::unique_ptr<Core::Random>>` | baseclass_0
 
 
 ### `ThreadLocal<bool (**)(const char *,const char *,const char *,bool,int,const char *,const char *,bool)>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `ThreadLocal<bool (**)(const char *,const char *,const char *,bool,int,const char *,const char *,bool)>::Creator` | mCreator
 32 | (24) `ThreadLocal<bool (**)(const char *,const char *,const char *,bool,int,const char *,const char *,bool)>::Pool` | mPool
 56 | (40) `Bedrock::Threading::Mutex` | mCreatorLock
@@ -680,20 +680,20 @@ Offset | Type | Name
 
 ### `ThreadLocal<bool (**)(const char *,const char *,const char *,bool,int,const char *,const char *,bool)>::Creator`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<std::unique_ptr<bool (**)(const char *,const char *,const char *,bool,int,const char *,const char *,bool),std::default_delete<bool (**)(const char *,const char *,const char *,bool,int,const char *,const char *,bool)> > ()>::_Invoker_type` | _M_invoker
 
 
 ### `ThreadLocal<bool (**)(const char *,const char *,const char *,bool,int,const char *,const char *,bool)>::Pool`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Vector_base<std::unique_ptr<bool (**)(const char *,const char *,const char *,bool,int,const char *,const char *,bool),std::default_delete<bool (**)(const char *,const char *,const char *,bool,int,const char *,const char *,bool)> >>` | baseclass_0
 
 
 ### `TaskGroup`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ITaskGroup` | baseclass_0
 8 | (8) `Scheduler *` | mScheduler
 16 | (8) `WorkerPool *` | mWorkers
@@ -709,38 +709,38 @@ Offset | Type | Name
 
 ### `type_safe::strong_typedef_op::unary_minus<mce::Radian>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `TropicalFish::updateEntitySpecificMolangVariables::$7EF7C94BEAB75C6CEF4ADFB99B570420`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `TripodCamera::updateEntitySpecificMolangVariables::$7EF7C94BEAB75C6CEF4ADFB99B570420`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `TickDelayBlock`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mTickDelay
 8 | (8) `const Block *` | mBlock
 
 
 ### `type_safe::strong_typedef_op::relational_comparison<mce::Degree>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `type_safe::strong_typedef_op::addition<mce::Degree>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 

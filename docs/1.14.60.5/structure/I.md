@@ -1,25 +1,25 @@
 # I
 ### `IJsonSerializable`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `int (**)(void)` | _vptr$IJsonSerializable
 
 
 ### `IMinecraftApp`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `int (**)(void)` | _vptr$IMinecraftApp
 
 
 ### `ItemStack`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (136) `ItemStackBase` | baseclass_0
 
 
 ### `ItemStackBase`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `int (**)(void)` | _vptr$ItemStackBase
 8 | (8) `WeakPtr<Item>` | mItem
 16 | (8) `Unique<CompoundTag>` | mUserData
@@ -39,44 +39,44 @@ Offset | Type | Name
 
 ### `IBlockPlacementTarget`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `int (**)(void)` | _vptr$IBlockPlacementTarget
 
 
 ### `IFeature`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `int (**)(void)` | _vptr$IFeature
 
 
 ### `ItemEnchants`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mSlot
 8 | (72) `std::vector<EnchantmentInstance>[3]` | mItemEnchants
 
 
 ### `ItemInstance`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (136) `ItemStackBase` | baseclass_0
 
 
 ### `ITextObject`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `int (**)(void)` | _vptr$ITextObject
 
 
 ### `IEntityComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `InsomniaComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mTimeSinceRest
 4 | (4) `float` | mDaysUntilInsomnia
 8 | (4) `int` | mTicksUntilInsomnia
@@ -84,31 +84,31 @@ Offset | Type | Name
 
 ### `InteractComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `__int16` | mCoolDownCounter
 
 
 ### `IDataOutput`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `int (**)(void)` | _vptr$IDataOutput
 
 
 ### `IDataInput`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `int (**)(void)` | _vptr$IDataInput
 
 
 ### `in6_addr`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `in6_addr::$FA2BBAF2C6BC03A9E0081A5D902744A5` | __in6_u
 
 
 ### `in6_addr::$FA2BBAF2C6BC03A9E0081A5D902744A5`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `uint8_t[16]` | __u6_addr8
 1 | (16) `uint16_t[8]` | __u6_addr16
 2 | (16) `uint32_t[4]` | __u6_addr32
@@ -116,13 +116,13 @@ Offset | Type | Name
 
 ### `in_addr`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `in_addr_t` | s_addr
 
 
 ### `InventoryContentPacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (36) `Packet:288` | baseclass_0
 36 | (1) `ContainerID` | mInventoryId
 40 | (24) `std::vector<ItemStack>` | mSlots
@@ -130,7 +130,7 @@ Offset | Type | Name
 
 ### `InventorySource`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `InventorySourceType` | mType
 4 | (1) `ContainerID` | mContainerId
 8 | (4) `InventorySource::InventorySourceFlags` | mFlags
@@ -138,33 +138,33 @@ Offset | Type | Name
 
 ### `InputModeValueChangedCallback`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<void (Option *,InputMode)>::_Invoker_type` | _M_invoker
 
 
 ### `IntOption::_validate::$7EF7C94BEAB75C6CEF4ADFB99B570420`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `iterator`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::_Bit_iterator_base` | baseclass_0
 
 
 ### `InventoryTransactionPacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `Packet` | baseclass_0
 40 | (8) `Unique<ComplexInventoryTransaction>` | mTransaction
 
 
 ### `InventorySlotPacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (36) `Packet:288` | baseclass_0
 36 | (1) `ContainerID` | mInventoryId
 40 | (4) `uint32_t` | mSlot
@@ -173,20 +173,20 @@ Offset | Type | Name
 
 ### `InvertableFilter<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char> > >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | value
 32 | (1) `bool` | inverted
 
 
 ### `InteractDefinition`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<Interaction>` | mInteractions
 
 
 ### `InteractPacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (36) `Packet:288` | baseclass_0
 36 | (1) `InteractPacket::Action` | mAction
 40 | (8) `ActorRuntimeID` | mTargetId
@@ -195,55 +195,55 @@ Offset | Type | Name
 
 ### `IsotropicFaceData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | mFaceTextureIsotropic
 4 | (4) `unsigned int` | mIsotropicFaceEnabled
 
 
 ### `IllagerBeastBlockedComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `IEntityComponent` | baseclass_0
 
 
 ### `IntRange`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | rangeMin
 4 | (4) `int` | rangeMax
 
 
 ### `IdentifierDescription`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `DefintionDescription` | baseclass_0
 8 | (32) `std::string` | mId
 
 
 ### `IsSpawnableDescription`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `DefintionDescription` | baseclass_0
 8 | (1) `bool` | mIsSpawnable
 
 
 ### `IsSummonableDescription`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `DefintionDescription` | baseclass_0
 8 | (1) `bool` | mIsSummonable
 
 
 ### `IsExperimentalDescription`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `DefintionDescription` | baseclass_0
 8 | (1) `bool` | mIsExperimental
 
 
 ### `ItemDescriptor`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `WeakPtr<Item>` | mItem
 8 | (8) `const Block *` | mBlock
 16 | (2) `__int16` | mAuxValue
@@ -252,7 +252,7 @@ Offset | Type | Name
 
 ### `InventoryAction`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (12) `InventorySource` | mSource
 12 | (4) `uint32_t` | mSlot
 16 | (136) `ItemStack` | mFromItem
@@ -261,7 +261,7 @@ Offset | Type | Name
 
 ### `ItemTransferAmount`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `const ItemTransferAmount::ItemTransferAmountTag` | mTag
 4 | (4) `ItemTransferAmount::$8A9EA68892D5133F1EC35B6C915D03B5` | mData
 8 | (1) `const bool` | mFromMax
@@ -269,7 +269,7 @@ Offset | Type | Name
 
 ### `ItemTransferAmount::$8A9EA68892D5133F1EC35B6C915D03B5`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | requestAmount
 1 | (4) `ItemTakeType` | takeType
 2 | (4) `ItemPlaceType` | placeType
@@ -277,20 +277,20 @@ Offset | Type | Name
 
 ### `InstantaneousAttributeBuff`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (88) `AttributeBuff` | baseclass_0
 
 
 ### `ItemUseInventoryTransaction::resendBlocksAroundArea::$AAED32D802A7A0D4B8CDA03B8D4F5BA0`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Player *` | player
 8 | (8) `BlockSource *` | region
 
 
 ### `ItemOffsetsJsonMergeStrategy`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ResourcePackMergeStrategy` | baseclass_0
 8 | (32) `std::string` | mFileName
 40 | (8) `Json::Value *` | mRoot
@@ -299,27 +299,27 @@ Offset | Type | Name
 
 ### `ItemOffsetsJsonMergeStrategy::PreMergeCallback`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<bool (Json::Value &,const Json::Value &)>::_Invoker_type` | _M_invoker
 
 
 ### `ItemStackBase::_loadComponents::$7EF7C94BEAB75C6CEF4ADFB99B570420`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `ItemDescriptorCount`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (20) `ItemDescriptor:160` | baseclass_0
 20 | (2) `uint16_t` | mStackSize
 
 
 ### `ItemDescriptor:160`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `WeakPtr<Item>` | mItem
 8 | (8) `const Block *` | mBlock
 16 | (2) `__int16` | mAuxValue
@@ -328,42 +328,42 @@ Offset | Type | Name
 
 ### `InheritanceTree<BiomeRegistry::BiomeParent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (56) `std::unordered_map<std::string,InheritanceTree<BiomeRegistry::BiomeParent>::InheritanceTreeNode,std::hash<std::string>,std::equal_to<std::string >,std::allocator<std::pair<const std::string,InheritanceTree<BiomeRegistry::BiomeParent>::InheritanceTreeNode> > >` | mNodes
 56 | (40) `Bedrock::Threading::Mutex` | mNodeLock
 
 
 ### `ItemFrameDropItemPacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (36) `Packet:288` | baseclass_0
 36 | (12) `NetworkBlockPosition` | mPos
 
 
 ### `IndexSet`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<unsigned long>` | mPacked
 24 | (24) `std::vector<unsigned long>` | mSparse
 
 
 ### `ifconf`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | ifc_len
 8 | (8) `ifconf::$CB4E2310AA03783056CB5D3719B31C2A` | ifc_ifcu
 
 
 ### `ifconf::$CB4E2310AA03783056CB5D3719B31C2A`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__caddr_t` | ifcu_buf
 1 | (8) `ifreq *` | ifcu_req
 
 
 ### `IdentifierResult`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | mValid
 8 | (32) `std::string` | mIdentifier
 40 | (32) `std::string` | mNamespace
@@ -371,14 +371,14 @@ Offset | Type | Name
 
 ### `IdentityDefinition::PlayerNameResolver`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<const std::string &(ActorUniqueID)>::_Invoker_type` | _M_invoker
 
 
 ### `Item::Tier`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `const int` | mLevel
 4 | (4) `const int` | mUses
 8 | (4) `const float` | mSpeed
@@ -388,7 +388,7 @@ Offset | Type | Name
 
 ### `IdentityDefinition`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `ScoreboardId` | mScoreboardId
 16 | (1) `bool` | mIsHiddenFakePlayer
 24 | (8) `PlayerScoreboardId` | mPlayerId
@@ -399,20 +399,20 @@ Offset | Type | Name
 
 ### `ifreq`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `ifreq::$EC3FB77B1F5CBB3C6B6AB4B4CE5B261D` | ifr_ifrn
 16 | (24) `ifreq::$3766CEB1D20AE6FB37CD7F05C4AF9C4E` | ifr_ifru
 
 
 ### `ifreq::$EC3FB77B1F5CBB3C6B6AB4B4CE5B261D`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `char[16]` | ifrn_name
 
 
 ### `ifreq::$3766CEB1D20AE6FB37CD7F05C4AF9C4E`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `sockaddr` | ifru_addr
 1 | (16) `sockaddr` | ifru_dstaddr
 2 | (16) `sockaddr` | ifru_broadaddr
@@ -429,7 +429,7 @@ Offset | Type | Name
 
 ### `ifmap`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `unsigned __int64` | mem_start
 8 | (8) `unsigned __int64` | mem_end
 16 | (2) `unsigned __int16` | base_addr
@@ -440,63 +440,63 @@ Offset | Type | Name
 
 ### `ipv6_mreq`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `in6_addr` | ipv6mr_multiaddr
 16 | (4) `unsigned int` | ipv6mr_interface
 
 
 ### `IFileAccess`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `int (**)(void)` | _vptr$IFileAccess
 
 
 ### `IFileReadAccess`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `int (**)(void)` | _vptr$IFileReadAccess
 
 
 ### `IFileWriteAccess`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `int (**)(void)` | _vptr$IFileWriteAccess
 
 
 ### `iovec`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `void *` | iov_base
 8 | (8) `size_t` | iov_len
 
 
 ### `ItemRegistry::ItemRegistryMap`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Vector_base<SharedPtr<Item>>` | baseclass_0
 
 
 ### `InternalTaskGroup`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ITaskGroup` | baseclass_0
 
 
 ### `ITaskGroup`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `int (**)(void)` | _vptr$ITaskGroup
 
 
 ### `ItemStateVariant<bool>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (80) `ItemState` | baseclass_0
 
 
 ### `ItemState`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `int (**)(void)` | _vptr$ItemState
 8 | (8) `const size_t` | mID
 16 | (8) `const size_t` | mVariationCount
@@ -506,7 +506,7 @@ Offset | Type | Name
 
 ### `ItemState::StateListNode`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ItemState::StateListNode *` | mNext
 8 | (8) `ItemState::StateListNode *` | mPrev
 16 | (8) `ItemState *` | mState
@@ -514,299 +514,299 @@ Offset | Type | Name
 
 ### `ItemStateVariant<int>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (80) `ItemState` | baseclass_0
 
 
 ### `ItemStateVariant<PortalAxis>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (80) `ItemState` | baseclass_0
 
 
 ### `ItemStateVariant<AnvilDamage>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (80) `ItemState` | baseclass_0
 
 
 ### `ItemStateVariant<SaplingType>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (80) `ItemState` | baseclass_0
 
 
 ### `ItemStateVariant<TorchFacing>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (80) `ItemState` | baseclass_0
 
 
 ### `ItemStateVariant<EggCount>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (80) `ItemState` | baseclass_0
 
 
 ### `ItemStateVariant<HatchLevel>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (80) `ItemState` | baseclass_0
 
 
 ### `ItemStateVariant<BlockColor>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (80) `ItemState` | baseclass_0
 
 
 ### `ItemStateVariant<StalkThickness>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (80) `ItemState` | baseclass_0
 
 
 ### `ItemStateVariant<LeafSize>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (80) `ItemState` | baseclass_0
 
 
 ### `ItemStateVariant<WoodType>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (80) `ItemState` | baseclass_0
 
 
 ### `ItemStateVariant<StoneType>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (80) `ItemState` | baseclass_0
 
 
 ### `ItemStateVariant<DirtType>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (80) `ItemState` | baseclass_0
 
 
 ### `ItemStateVariant<SandType>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (80) `ItemState` | baseclass_0
 
 
 ### `ItemStateVariant<OldLogType>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (80) `ItemState` | baseclass_0
 
 
 ### `ItemStateVariant<NewLogType>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (80) `ItemState` | baseclass_0
 
 
 ### `ItemStateVariant<ChiselType>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (80) `ItemState` | baseclass_0
 
 
 ### `ItemStateVariant<OldLeafType>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (80) `ItemState` | baseclass_0
 
 
 ### `ItemStateVariant<NewLeafType>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (80) `ItemState` | baseclass_0
 
 
 ### `ItemStateVariant<SpongeType>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (80) `ItemState` | baseclass_0
 
 
 ### `ItemStateVariant<SandStoneType>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (80) `ItemState` | baseclass_0
 
 
 ### `ItemStateVariant<TallGrassType>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (80) `ItemState` | baseclass_0
 
 
 ### `ItemStateVariant<FlowerType>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (80) `ItemState` | baseclass_0
 
 
 ### `ItemStateVariant<StoneSlabType>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (80) `ItemState` | baseclass_0
 
 
 ### `ItemStateVariant<StoneSlabType2>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (80) `ItemState` | baseclass_0
 
 
 ### `ItemStateVariant<StoneSlabType3>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (80) `ItemState` | baseclass_0
 
 
 ### `ItemStateVariant<StoneSlabType4>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (80) `ItemState` | baseclass_0
 
 
 ### `ItemStateVariant<MonsterEggStoneType>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (80) `ItemState` | baseclass_0
 
 
 ### `ItemStateVariant<StoneBrickType>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (80) `ItemState` | baseclass_0
 
 
 ### `ItemStateVariant<WallBlockType>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (80) `ItemState` | baseclass_0
 
 
 ### `ItemStateVariant<PrismarineBlockType>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (80) `ItemState` | baseclass_0
 
 
 ### `ItemStateVariant<DoublePlantType>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (80) `ItemState` | baseclass_0
 
 
 ### `ItemStateVariant<ChemistryTableType>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (80) `ItemState` | baseclass_0
 
 
 ### `ItemStateVariant<SeaGrassType>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (80) `ItemState` | baseclass_0
 
 
 ### `ItemStateVariant<CoralColor>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (80) `ItemState` | baseclass_0
 
 
 ### `ItemStateVariant<CauldronLiquidType>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (80) `ItemState` | baseclass_0
 
 
 ### `ItemStateVariant<AttachmentType>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (80) `ItemState` | baseclass_0
 
 
 ### `ItemStateVariant<StructureVoidType>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (80) `ItemState` | baseclass_0
 
 
 ### `ItemStateVariant<StructureBlockType>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (80) `ItemState` | baseclass_0
 
 
 ### `ItemStateVariant<LeverDirection>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (80) `ItemState` | baseclass_0
 
 
 ### `ItemStateVariant<PillarAxis>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (80) `ItemState` | baseclass_0
 
 
 ### `IMinecraftEventing`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPackTelemetry` | baseclass_0
 8 | (24) `IWebviewTelemetry` | baseclass_8
 
 
 ### `IPackTelemetry`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `int (**)(void)` | _vptr$IPackTelemetry
 
 
 ### `IWebviewTelemetry`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `WebviewObserver` | baseclass_0
 16 | (8) `const IMinecraftEventing *` | mEventing
 
 
 ### `ItemData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | mName
 32 | (2) `__int16` | mId
 
 
 ### `IronGolem::updateEntitySpecificMolangVariables::$7EF7C94BEAB75C6CEF4ADFB99B570420`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `ItemGroup`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (136) `ItemInstance` | mItemTemplate
 136 | (4) `int` | mCount
 
 
 ### `IDType<TagIDType>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `size_t` | mID
 
 
 ### `InventoryTransactionItemGroup`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mItemId
 4 | (4) `int` | mItemAux
 8 | (8) `Unique<CompoundTag>` | mTag
@@ -816,7 +816,7 @@ Offset | Type | Name
 
 ### `InheritanceTree<BiomeRegistry::BiomeParent>::InheritanceTreeNode`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | name
 32 | (48) `BiomeRegistry::BiomeParent` | val
 80 | (24) `std::vector<InheritanceTree<BiomeRegistry::BiomeParent>::InheritanceTreeNode *,std::allocator<InheritanceTree<BiomeRegistry::BiomeParent>::InheritanceTreeNode *> >` | child
@@ -825,7 +825,7 @@ Offset | Type | Name
 
 ### `IdentityDictionary`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (56) `std::unordered_map<PlayerScoreboardId,ScoreboardId>` | mPlayers
 56 | (56) `std::unordered_map<ActorUniqueID,ScoreboardId>` | mEntities
 112 | (56) `std::unordered_map<std::string,ScoreboardId>` | mFakes
@@ -834,20 +834,20 @@ Offset | Type | Name
 
 ### `ItemDefinition`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | itemId
 4 | (4) `int` | auxValue
 
 
 ### `IDType<TagSetIDType>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `size_t` | mID
 
 
 ### `InMemoryFile`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `Bedrock::Threading::Mutex` | mMutex
 40 | (24) `std::vector<char>` | mBuffer
 64 | (32) `Core::HeapPathBuffer` | mFilename

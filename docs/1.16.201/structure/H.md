@@ -1,7 +1,7 @@
 # H
 ### `HashedString`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `unsigned __int64` | mStrHash
 8 | (32) `std::string` | mStr
 40 | (8) `const HashedString *` | mLastMatch
@@ -9,7 +9,7 @@ Offset | Type | Name
 
 ### `HandlerType`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `` | adjectives
 4 | (4) `` | pType
 8 | (4) `` | dispCatchObj
@@ -19,7 +19,7 @@ Offset | Type | Name
 
 ### `HistoricalFrameTimes`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `unsigned __int64` | mFrameIndex
 8 | (120) `float[30]` | mHistoricalMinimumFrameTimes
 128 | (120) `float[30]` | mHistoricalMaximumFrameTimes
@@ -29,7 +29,7 @@ Offset | Type | Name
 
 ### `HitResult`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (12) `Vec3` | mStartPos
 12 | (12) `Vec3` | mRayDir
 24 | (4) `HitResultType` | mType
@@ -46,7 +46,7 @@ Offset | Type | Name
 
 ### `HolographicPlatform::HoloFrameOfReferenceSetupData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (12) `Vec3` | mMinecraftPlayerPos
 12 | (4) `float` | mUIWidth
 16 | (4) `float` | mUIHeight
@@ -74,7 +74,7 @@ Offset | Type | Name
 
 ### `hbui::RouterLocation`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<AbstractScene>` | mScene
 16 | (32) `std::string` | mUrl
 48 | (32) `std::string` | mPath
@@ -87,20 +87,20 @@ Offset | Type | Name
 
 ### `HoverScreenEventData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `UIPropertyBag *` | properties
 8 | (1) `bool` | hover
 
 
 ### `HoloInputModeChangeScreenEventData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `_BYTE[4]` | mode
 
 
 ### `hbui::FacetRegistry::FacetEntry`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | name
 32 | (64) `std::function<std::unique_ptr<hbui::IFacet> __cdecl(void)>` | constructor
 96 | (8) `std::unique_ptr<hbui::IFacet>` | facet
@@ -108,99 +108,99 @@ Offset | Type | Name
 
 ### `hbui::Feature::registerIsEnabledChangedCallback::__l5::<lambda_1ab57bcd99c576631ba41c810ebdfff7>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::function<void __cdecl(bool)>` | callback
 
 
 ### `hbui::RouterHistory::FullHistory`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<std::string>` | entries
 24 | (4) `int` | current
 
 
 ### `hbui::SceneProvider::createScene::__l2::<lambda_9198b0a63744d6caef4e6bf93514f963>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `hbui::SceneProvider *const` | __this
 
 
 ### `hbui::SceneProvider::createScene::__l2::<lambda_03742a56a76ff97dd1e21e945eb64304>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `hbui::SceneProvider *const` | __this
 
 
 ### `hbui::SceneProvider::createScene::__l2::<lambda_3ee6f9688302b02ab45782d3ee16d8ce>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `hbui::SceneProvider *const` | __this
 
 
 ### `hbui::SceneProvider::createScene::__l2::<lambda_b4883a86f58b08e1adf25075f2619414>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `hbui::SceneProvider *const` | __this
 
 
 ### `hbui::SceneProvider::createScene::__l2::<lambda_198843c04982cc508dc4bb1d040ed8de>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<std::string>` | featureFlags
 
 
 ### `hbui::SceneProvider::createScene::__l2::<lambda_304967065c66569af40ba27c5a2bf6f5>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `hbui::SceneProvider *const` | __this
 
 
 ### `hbui::SceneProvider::createScene::__l2::<lambda_29ee3a92f3d498426295e1b7ffbcb6ea>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `hbui::SceneProvider *const` | __this
 
 
 ### `hbui::SceneProvider::createScene::__l2::<lambda_df7288e7b03dfb70aec84d96b0a91b02>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `hbui::SceneProvider *const` | __this
 
 
 ### `hbui::SceneProvider::createScene::__l2::<lambda_420fe536fd38216466f4e15beb7f8f35>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `hbui::SceneProvider *const` | __this
 
 
 ### `hbui::SceneProvider::createScene::__l2::<lambda_4e8329eee189f5c87c78bda6854976e8>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `hbui::SceneProvider *const` | __this
 
 
 ### `hbui::SceneProvider::createScene::__l2::<lambda_b8cda2d613720fd8ef484f58bcce6777>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `hbui::SceneProvider *const` | __this
 
 
 ### `hbui::SceneProvider::createScene::__l8::<lambda_41cdb76c9bee798add5b424eb551b203>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `hbui::SceneProvider *const` | __this
 
 
 ### `HummingbirdUI::CallbackEntry`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `void *` | token
 8 | (64) `std::function<void __cdecl(void)>` | callback
 
 
 ### `hbui::HybridResourceLocation`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `hbui::HybridResourceFileSystem` | mFileSystem
 8 | (32) `Core::PathBuffer<std::string >` | mPath
 40 | (8) `const PackInstance *` | mPack
@@ -208,7 +208,7 @@ Offset | Type | Name
 
 ### `hbui::RouteMatcher::Entry`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `const std::string` | baseScreenId
 32 | (40) `const std::basic_regex<char,std::regex_traits<char> >` | pattern
 72 | (4) `hbui::RouteType` | type
@@ -218,14 +218,14 @@ Offset | Type | Name
 
 ### `hbui::RouterLocationEventing::ScreenChangedProperties`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | mShouldFireEvent
 8 | (64) `std::unordered_map<std::string,std::string>` | mEventProperties
 
 
 ### `HostOptionSubCommand`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | mButtonText
 32 | (32) `std::string` | mTexture
 64 | (32) `std::string` | mSubCommand
@@ -233,7 +233,7 @@ Offset | Type | Name
 
 ### `HudScreenController`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2672) `ClientInstanceScreenController` | baseclass_0
 2672 | (8) `BossEventListener` | baseclass_a70
 2680 | (1) `bool` | mEDUDiscoveryObserved
@@ -269,7 +269,7 @@ Offset | Type | Name
 
 ### `HudScreenController::Tooltip`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `Remapping::ActionEnum` | action
 4 | (1) `HudScreenController::Tooltip::Type` | type
 8 | (64) `std::function<std::string __cdecl(void)>` | getDescription
@@ -278,7 +278,7 @@ Offset | Type | Name
 
 ### `HydrateParams`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | mProductId
 32 | (32) `std::string` | mLastModifiedDate
 64 | (1) `bool` | mDisableCachedResponseOnFailure
@@ -287,13 +287,13 @@ Offset | Type | Name
 
 ### `HomeSystem::tick::__l2::<lambda_13bc406ef66a336e9c00382282ba4146>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `HomeSystem *const` | __this
 
 
 ### `HomeComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mRestrictionRadius
 4 | (4) `int` | mRestrictionRadiusSqr
 8 | (4) `int` | mCooldownTicksMax
@@ -305,7 +305,7 @@ Offset | Type | Name
 
 ### `HealableDefinition`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<FeedItem>` | mHealItems
 24 | (1) `bool` | mForceUse
 32 | (64) `ActorFilterGroup` | mFilter
@@ -313,27 +313,27 @@ Offset | Type | Name
 
 ### `HitboxComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<Hitbox>` | mHitboxes
 
 
 ### `HistoricPredictionData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | slot
 8 | (248) `ItemStack` | item
 
 
 ### `HugeMushroomFeature`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `Feature` | baseclass_0
 24 | (4) `int` | mForcedType
 
 
 ### `HugeFungusFeature`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `Feature` | baseclass_0
 24 | (8) `const Block *` | mStemBlock
 32 | (8) `const Block *` | mHatBlock
@@ -343,7 +343,7 @@ Offset | Type | Name
 
 ### `HTTPRequest`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | mURL
 32 | (32) `std::string` | mRequestBody
 64 | (32) `std::string` | mContentType
@@ -356,7 +356,7 @@ Offset | Type | Name
 
 ### `HTTPResponse`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | body
 32 | (64) `std::unordered_map<std::string,std::string>` | headers
 96 | (4) `int` | responseCode
@@ -365,7 +365,7 @@ Offset | Type | Name
 
 ### `HellSpringFeature`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `Feature` | baseclass_0
 24 | (8) `const Block *` | mBlock
 32 | (1) `bool` | mInsideRock
@@ -373,7 +373,7 @@ Offset | Type | Name
 
 ### `HellFireFeature`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `Feature` | baseclass_0
 
 

@@ -1,7 +1,7 @@
 # C
 ### `Core::Profile::GroupToken`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const Core::Profile::ProfileGroup *` | mGroup
 8 | (80) `std::mutex` | mTokenCreationMutex
 88 | (16) `Core::Profile::CPUProfileTokenMicroProfile` | mToken
@@ -11,61 +11,61 @@ Offset | Type | Name
 
 ### `Core::Profile::CPUProfileTokenMicroProfile`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | mColor
 8 | (8) `std::atomic<unsigned __int64>` | mMicroProfileToken
 
 
 ### `ClientBlockPipeline::SmoothLightBakingStep::_computeLightBrightness::__l2::<lambda_44f4050c3c928648c37d299e6a06abad>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `Core::PathBuffer<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | mContainer
 
 
 ### `Core::Path`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `Core::PathPart` | mPathPart
 
 
 ### `Core::PathPart`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | mUtf8StdString
 
 
 ### `ContentIdentity`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `mce::UUID` | mUUID
 16 | (1) `bool` | mValid
 
 
 ### `ClientBlobCache::Cache::_trimIfNeeded::__l5::<lambda_cfc6481d33223e5533d33a80b1ed8b6a>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ChunkPos`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `$9E42F9C9F7B1A17B3F4FC42C25BE33AF` | ___u0
 
 
 ### `Core::PathBuffer<Core::StackString<char,1024> >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1040) `Core::StackString<char,1024>` | mContainer
 
 
 ### `Core::StackString<char,1024>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const unsigned __int64` | MAX_LENGTH
 8 | (1024) `std::array<char,1024>` | mBuf
 1032 | (8) `unsigned __int64` | mLength
@@ -73,12 +73,12 @@ Offset | Type | Name
 
 ### `ContentAcquisition::_sortContentTrackersByPriority::__l2::<lambda_9747ad26564c82a94e7199d71afa4537>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `CommonDocument`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | mProductId
 32 | (32) `std::string` | mContentType
 64 | (32) `std::string` | mCreatorId
@@ -100,39 +100,39 @@ Offset | Type | Name
 
 ### `CommonLocTextPair`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | langCode
 32 | (32) `std::string` | locText
 
 
 ### `ContentTierManager::ValidatorRegistry::ValidatorRegisterer`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ContentTierManager::ValidatorRegistry`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `Bedrock::EnableNonOwnerReferences` | baseclass_0
 16 | (64) `std::unordered_map<std::string,ContentTierManager::ValidatorRegistry::ValidatorRegistryValidators>` | mValidatorList
 
 
 ### `CommandFlag`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `unsigned __int8` | flag
 
 
 ### `CommandOrigin`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `CommandOrigin_vtbl *` | __vftable
 8 | (16) `mce::UUID` | mUUID
 
 
 ### `Core::Random`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | mSeed
 4 | (2496) `unsigned int[624]` | _mt
 2500 | (4) `int` | _mti
@@ -143,32 +143,32 @@ Offset | Type | Name
 
 ### `ComponentDescription`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Description` | baseclass_0
 
 
 ### `CompoundTag`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Tag` | baseclass_0
 8 | (16) `std::map<std::string,CompoundTagVariant>` | mTags
 
 
 ### `CraftableCompounds::_getCompoundId::__l2::<lambda_cb3f8bb483eddc0a11d03ac37babd3ba>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ContainerPopulationData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `ContainerEnumName` | containerName
 4 | (4) `CreativeItemCategory` | itemCategory
 
 
 ### `ContainerScreenContext`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Player *` | mPlayer
 8 | (1) `ContainerType` | mScreenContainerType
 16 | (24) `std::variant<std::monostate,ActorUniqueID,BlockPos>` | mOwner
@@ -176,23 +176,23 @@ Offset | Type | Name
 
 ### `ChemicalHeatBlock::_getRelativeOffsets::__l5::<lambda_b0dd78f1bda910ef2822257e4eb6eb5b>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ChunkLocalHeight`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `__int16` | mVal
 
 
 ### `ChunkSource::_spawnChunkGenerationTasks::__l3::<lambda_7e0f765fe899e3b8d51a4ee6497a8231>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `cst_diphone_entry_struct`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const char *` | name
 8 | (2) `unsigned __int16` | start_pm
 10 | (1) `unsigned __int8` | pb_pm
@@ -201,7 +201,7 @@ Offset | Type | Name
 
 ### `cst_dur_stats_struct`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `char *` | phone
 8 | (4) `float` | mean
 12 | (4) `float` | stddev
@@ -209,20 +209,20 @@ Offset | Type | Name
 
 ### `cst_val_struct`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `union {cst_val_cons_struct cc;cst_val_atom_struct a;}` | c
 
 
 ### `cst_val_cons_struct`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `cst_val_struct *` | car
 8 | (8) `cst_val_struct *` | cdr
 
 
 ### `cst_val_atom_struct`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | type
 4 | (4) `int` | ref_count
 8 | (8) `cst_val_atom_struct::<unnamed_type_v>` | v
@@ -230,7 +230,7 @@ Offset | Type | Name
 
 ### `cst_val_atom_struct::<unnamed_type_v>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `long double` | fval
 1 | (8) `__int64` | ival
 2 | (8) `void *` | vval
@@ -238,7 +238,7 @@ Offset | Type | Name
 
 ### `cst_cart_node_struct`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `unsigned __int8` | feat
 1 | (1) `unsigned __int8` | op
 2 | (2) `unsigned __int16` | no_node
@@ -247,7 +247,7 @@ Offset | Type | Name
 
 ### `cst_regex_struct`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `char` | regstart
 1 | (1) `char` | reganch
 8 | (8) `char *` | regmust
@@ -258,14 +258,14 @@ Offset | Type | Name
 
 ### `cst_synth_module_struct`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const char *` | hookname
 8 | (8) `cst_utterance_struct *(__fastcall *)(cst_utterance_struct *)` | defhook
 
 
 ### `config_s`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `unsigned __int16` | good_length
 2 | (2) `unsigned __int16` | max_lazy
 4 | (2) `unsigned __int16` | nice_length
@@ -275,7 +275,7 @@ Offset | Type | Name
 
 ### `code`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `unsigned __int8` | op
 1 | (1) `unsigned __int8` | bits
 2 | (2) `unsigned __int16` | val
@@ -283,25 +283,25 @@ Offset | Type | Name
 
 ### `ct_data_s`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `union {unsigned __int16 freq;unsigned __int16 code;}` | fc
 2 | (2) `union {unsigned __int16 dad;unsigned __int16 len;}` | _dl
 
 
 ### `Core::FileOpenMode`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8` | _bf_0
 
 
 ### `CompareScheduledCallback`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `CFF_Field_Handler_`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | kind
 4 | (4) `int` | code
 8 | (4) `unsigned int` | offset
@@ -313,31 +313,31 @@ Offset | Type | Name
 
 ### `Core::Profile::ProfileGroupManager`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::unique_ptr<Core::Profile::ProfileGroupManager::Impl>` | mImpl
 
 
 ### `Core::Profile::CounterTokenMicroProfile`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `unsigned __int64` | mMicroProfileToken
 
 
 ### `ColorChannel`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float` | mValue
 
 
 ### `CatalogPropertyBag`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `PropertyBag` | baseclass_0
 
 
 ### `CompassSpriteCalculator`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mFrame
 4 | (4) `float` | mRot
 8 | (4) `float` | mRotA
@@ -345,7 +345,7 @@ Offset | Type | Name
 
 ### `cst_lang_struct`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const char *` | lang
 8 | (8) `void (__fastcall *)(cst_voice_struct *)` | lang_init
 16 | (8) `lexicon_struct *(*)(...)` | lex_init
@@ -353,13 +353,13 @@ Offset | Type | Name
 
 ### `CrashDumpFormatEntryImpl`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `CrashDumpLogFieldFormat` | baseclass_0
 
 
 ### `CrashDumpLogFieldFormat`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `char[24]` | mMemberName
 24 | (4) `unsigned int` | mMemberSize
 28 | (4) `_BYTE[4]` | mMemberFormatCode
@@ -367,39 +367,39 @@ Offset | Type | Name
 
 ### `cst_cart_struct`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const cst_cart_node_struct *` | rule_table
 8 | (8) `const char *const *` | feat_table
 
 
 ### `Core::Subject<I18nObserver,Core::SingleThreadedLock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 8 | (24) `std::vector<gsl::not_null<I18nObserver *>>` | mObservers
 
 
 ### `Core::SingleThreadedLock`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `Core::StorageAreasTree`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `Core::StorageAreasTree::TreeNode` | mRoot
 32 | (24) `std::vector<Core::FileStorageArea *>` | mStorageAreas
 
 
 ### `Core::StorageAreasTree::TreeNode`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<Core::StorageAreasTree::TreeChild>` | mChildren
 24 | (8) `Core::FileStorageArea *` | mStorageArea
 
 
 ### `cst_lts_rules_struct`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `char *` | name
 8 | (8) `const unsigned __int16 *` | letter_index
 16 | (8) `const unsigned __int8 *` | models
@@ -411,13 +411,13 @@ Offset | Type | Name
 
 ### `Core::OutputFileStream`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (296) `Core::FileStream` | baseclass_0
 
 
 ### `Core::FileStream`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (128) `std::iostream` | baseclass_0
 128 | (56) `_BYTE[56]` | mStreamBuffer
 184 | (1) `bool` | mLoggingEnabled
@@ -426,13 +426,13 @@ Offset | Type | Name
 
 ### `CommandRegistry::Symbol`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mValue
 
 
 ### `CFF_Decoder_FuncsRec_`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `void (__fastcall *)(CFF_Decoder_ *, TT_FaceRec_ *, CFF_SizeRec_ *, CFF_GlyphSlotRec_ *, unsigned __int8, FT_Render_Mode_, int (__fastcall *)(TT_FaceRec_ *, unsigned int, unsigned __int8 **, unsigned int *), void (__fastcall *)(TT_FaceRec_ *, unsigned __int8 **, unsigned int))` | init
 8 | (8) `int (__fastcall *)(CFF_Decoder_ *, CFF_SizeRec_ *, unsigned int)` | prepare
 16 | (8) `int (__fastcall *)(PS_Decoder_ *, unsigned __int8 *, unsigned int)` | parse_charstrings
@@ -440,7 +440,7 @@ Offset | Type | Name
 
 ### `Core::FileStats`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::atomic<unsigned __int64>` | mNumSuccessfulWriteOperations
 8 | (8) `std::atomic<unsigned __int64>` | mNumBytesWritten
 16 | (8) `std::atomic<unsigned __int64>` | mNumFailedWriteOperations
@@ -453,7 +453,7 @@ Offset | Type | Name
 
 ### `cst_sts_list_struct`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const cst_sts_struct *` | sts
 8 | (8) `const cst_sts_paged_struct *` | sts_paged
 16 | (8) `const unsigned __int16 *` | frames
@@ -470,7 +470,7 @@ Offset | Type | Name
 
 ### `cst_phoneset_struct`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const char *` | name
 8 | (8) `const char *const *` | featnames
 16 | (8) `const cst_val_struct *const *` | featvals
@@ -483,7 +483,7 @@ Offset | Type | Name
 
 ### `CFF_Builder_FuncsRec_`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `void (__fastcall *)(CFF_Builder_ *, TT_FaceRec_ *, CFF_SizeRec_ *, CFF_GlyphSlotRec_ *, unsigned __int8)` | init
 8 | (8) `void (__fastcall *)(CFF_Builder_ *)` | done
 16 | (8) `int (__fastcall *)(CFF_Builder_ *, int)` | check_points
@@ -496,21 +496,21 @@ Offset | Type | Name
 
 ### `cst_val_def_struct`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const char *` | name
 8 | (8) `void (__fastcall *)(void *)` | delete_function
 
 
 ### `cg::TextureDescription`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `cg::ImageDescription` | baseclass_0
 64 | (4) `unsigned int` | mMipCount
 
 
 ### `cg::ImageDescription`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | mWidth
 4 | (4) `unsigned int` | mHeight
 8 | (4) `mce::TextureFormat` | mTextureFormat
@@ -522,13 +522,13 @@ Offset | Type | Name
 
 ### `cg::TextureSetImageDescription`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<cg::TextureSetImageDescription::LayerInfoVar>` | mLayerInfo
 
 
 ### `cst_diphone_db_struct`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const char *` | name
 8 | (4) `int` | num_entries
 16 | (8) `const cst_diphone_entry_struct *` | diphones
@@ -537,13 +537,13 @@ Offset | Type | Name
 
 ### `ContentTierIncompatibleReason`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | mError
 
 
 ### `C_SCOPE_TABLE`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `` | Begin
 4 | (4) `` | End
 8 | (4) `` | Handler
@@ -552,7 +552,7 @@ Offset | Type | Name
 
 ### `Core::FileStdStreamBuf`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (104) `std::streambuf` | baseclass_0
 104 | (16) `Core::File` | mFile
 120 | (1) `Core::FileOpenMode` | mFileOpenMode
@@ -562,21 +562,21 @@ Offset | Type | Name
 
 ### `Core::File`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::unique_ptr<Core::FileImpl>` | muptFile
 8 | (8) `std::unique_ptr<Core::FileSystemImpl>` | muptTransaction
 
 
 ### `cg::TypeFlagPair`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `cg::TextureSetLayerType` | type
 8 | (8) `const char *` | desc
 
 
 ### `CameraShakeComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<CameraShakeEvent>` | mShakeEvents
 24 | (8) `std::unique_ptr<SimplexNoise>` | xAxisNoise
 32 | (8) `std::unique_ptr<SimplexNoise>` | yAxisNoise
@@ -591,7 +591,7 @@ Offset | Type | Name
 
 ### `ComplexInventoryTransaction`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ComplexInventoryTransaction_vtbl *` | __vftable
 8 | (4) `ComplexInventoryTransaction::Type` | mType
 16 | (88) `InventoryTransaction` | mTransaction
@@ -599,20 +599,20 @@ Offset | Type | Name
 
 ### `ClientBlockPipeline::Inputs`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<std::any>` | mInputs
 
 
 ### `Core::Profile::ProfileSectionGroup`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Core::Profile::GroupToken *` | mToken
 8 | (1) `bool` | mEntered
 
 
 ### `Core::Profile::ProfileGroup`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | mName
 32 | (4) `unsigned int` | mColor
 36 | (4) `int` | mGroupIndex
@@ -621,7 +621,7 @@ Offset | Type | Name
 
 ### `ClientBlockPipeline::VolumeViewOf<BrightnessPair const >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (12) `Pos` | mMin
 12 | (12) `Pos` | mMax
 24 | (16) `buffer_span_mut<BrightnessPair const >` | mView
@@ -629,14 +629,14 @@ Offset | Type | Name
 
 ### `ClientBlockPipeline::UvTransform`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Vec2` | mStart
 8 | (8) `Vec2` | mSize
 
 
 ### `ClientBlockPipeline::VolumeViewOf<ClientBlockPipeline::BlockSchematicCell const >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (12) `Pos` | mMin
 12 | (12) `Pos` | mMax
 24 | (16) `buffer_span_mut<ClientBlockPipeline::BlockSchematicCell const >` | mView
@@ -644,14 +644,14 @@ Offset | Type | Name
 
 ### `ClientBlockPipeline::BoxSchematicInstance`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `std::bitset<6>` | mFaceMask
 4 | (64) `Matrix` | mLocalToGridTransform
 
 
 ### `ClientBlockPipeline::SchematicsJoiningStep::StaticStepData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `gsl::not_null<ClientBlockPipeline::OwnedBlockVolume const *>` | mBlockVolume
 8 | (8) `gsl::not_null<ClientBlockPipeline::BlockSchematicVolume const *>` | mInputSchematicVolume
 16 | (8) `gsl::not_null<ClientBlockPipeline::BoxSchematicAttributes const *>` | mInputBoxes
@@ -664,7 +664,7 @@ Offset | Type | Name
 
 ### `ClientBlockPipeline::VolumeViewOf<ClientBlockPipeline::BlockCell const >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (12) `Pos` | mMin
 12 | (12) `Pos` | mMax
 24 | (16) `buffer_span_mut<ClientBlockPipeline::BlockCell const >` | mView
@@ -672,7 +672,7 @@ Offset | Type | Name
 
 ### `ClientBlockPipeline::SchematicsJoiningStep::BlockCellStepData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (12) `Pos` | mBlockPos
 16 | (8) `unsigned __int64` | mBlockIndex
 24 | (8) `unsigned __int64` | mLayer
@@ -683,7 +683,7 @@ Offset | Type | Name
 
 ### `ClientBlockPipeline::VolumeViewOf<ClientBlockPipeline::BlockOpacityData const >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (12) `Pos` | mMin
 12 | (12) `Pos` | mMax
 24 | (16) `buffer_span_mut<ClientBlockPipeline::BlockOpacityData const >` | mView
@@ -691,7 +691,7 @@ Offset | Type | Name
 
 ### `ClientBlockPipeline::BoxFaceSchematic`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | mExists
 4 | (16) `ClientBlockPipeline::UvTransform` | mUvTransform
 20 | (4) `int` | mMaterialInstanceId
@@ -699,21 +699,21 @@ Offset | Type | Name
 
 ### `ClientBlockPipeline::BoxSchematic`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `Matrix` | mLocalToModelTransform
 64 | (144) `std::array<ClientBlockPipeline::BoxFaceSchematic,6>` | mFaces
 
 
 ### `ClientBlockPipeline::SmoothLightBakingStep::SampledLightValues`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Vec2` | mLightUvs
 8 | (4) `float` | mAoValue
 
 
 ### `ClientBlockPipeline::VolumeViewOf<float const >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (12) `Pos` | mMin
 12 | (12) `Pos` | mMax
 24 | (16) `buffer_span_mut<float const >` | mView
@@ -721,20 +721,20 @@ Offset | Type | Name
 
 ### `ClientBlockPipeline::BakedMaterialMap`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<std::shared_ptr<ClientBlockPipeline::Material const >>` | mResolvedMaterials
 24 | (1) `bool` | mIsOpaqueForOccluding
 
 
 ### `ClientBlockPipeline::DimensionDimmingScalars`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::array<float,6>` | mScalars
 
 
 ### `ClientBlockPipeline::Description::BakedStep`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `unsigned __int64` | mStepId
 8 | (24) `std::vector<unsigned __int64>` | mDependencies
 32 | (24) `std::vector<unsigned __int64>` | mDependants
@@ -742,13 +742,13 @@ Offset | Type | Name
 
 ### `ClientBlockPipeline::BlockCell`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::array<Block const *,2>` | mBlocks
 
 
 ### `ContentSource`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ContentSource_vtbl *` | __vftable
 8 | (24) `std::vector<ContentItem *>` | mLoadedItems
 32 | (4) `_BYTE[4]` | mType
@@ -757,28 +757,28 @@ Offset | Type | Name
 
 ### `Core::Result`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::function<char const * __cdecl(std::string *)>` | mMessageResolver
 64 | (1) `__int8` | _bf_40
 
 
 ### `cg::ImageBuffer`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `mce::Blob` | mStorage
 24 | (64) `cg::ImageDescription` | mImageDescription
 
 
 ### `Core::SplitPathT<1024,64>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2048) `std::array<Core::Path,64>` | mParts
 2048 | (8) `unsigned __int64` | mNumParts
 
 
 ### `CameraBlendSettings`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::function<float __cdecl(float,float,float)>` | mEaseFunction
 64 | (4) `float` | mBlendTime
 68 | (1) `bool` | mCameraFromAcceptsInput
@@ -787,7 +787,7 @@ Offset | Type | Name
 
 ### `CameraDirector`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (312) `Camera` | mCamera
 312 | (24) `std::vector<std::unique_ptr<ICameraBehavior>>` | mBehaviors
 336 | (8) `std::unique_ptr<ActivationRule>` | mActivationRule
@@ -795,7 +795,7 @@ Offset | Type | Name
 
 ### `Camera`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (48) `HashedString` | mId
 48 | (4) `int` | mPriority
 56 | (72) `CameraBlendSettings` | mBlendInDefault
@@ -822,14 +822,14 @@ Offset | Type | Name
 
 ### `CommandVersion`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mFrom
 4 | (4) `int` | mTo
 
 
 ### `ContextMessageLogger`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ContextMessageLogger_vtbl *` | __vftable
 8 | (24) `std::vector<ContextMessage>` | mMessageBufferArray
 32 | (5) `bool[5]` | mReceivedMessages
@@ -838,7 +838,7 @@ Offset | Type | Name
 
 ### `ContextMessageLoggerOptions`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `bool[4]` | mStoreMessages
 4 | (4) `bool[4]` | mAssertIfMessageTypeWasReceived
 8 | (4) `bool[4]` | mAssertInDestructorIfMessageTypeWasReceived
@@ -848,7 +848,7 @@ Offset | Type | Name
 
 ### `Config`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mWidth
 4 | (4) `int` | mHeight
 8 | (4) `float` | mGuiScale
@@ -863,7 +863,7 @@ Offset | Type | Name
 
 ### `CrashDumpGameplayData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `_BYTE[2]` | mFunc
 2 | (2) `_BYTE[2]` | mTag
 4 | (4) `int` | mClientId
@@ -872,7 +872,7 @@ Offset | Type | Name
 
 ### `ClientInstance::_leaveGameOnUnrecoverableError::__l11::<lambda_9e193ddaee367b7b7b07833f6136df6c>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<ClientInstance>` | weakThis
 16 | (32) `const std::string` | titleMessage
 48 | (32) `const std::string` | displayMessage
@@ -880,7 +880,7 @@ Offset | Type | Name
 
 ### `ClientFrameUpdateContext`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `FrameUpdateContext` | baseclass_0
 32 | (4) `float` | a
 36 | (1) `bool` | stereoRendering
@@ -888,13 +888,13 @@ Offset | Type | Name
 
 ### `ClientInstance::update::__l42::<lambda_2eadb951cae52f74e068bad3dd7fa7f4>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<ClientInstance>` | weakPtr
 
 
 ### `ClientInstance::setupClientGame::__l8::<lambda_f8252ab8124c045f24524d1760b419d8>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<ClientInstance>` | weakThis
 16 | (64) `std::function<void __cdecl(enum ClientGameSetupResult)>` | callback
 80 | (1) `bool` | joiningLocalServer
@@ -902,7 +902,7 @@ Offset | Type | Name
 
 ### `ClientInstance::_startExternalNetworkWorld::__l2::<lambda_2f4e89c11809877f171d784f43a2bb0a>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ClientInstance *const` | __this
 8 | (256) `Social::GameConnectionInfo` | connection
 264 | (32) `const std::string` | serverName
@@ -910,28 +910,28 @@ Offset | Type | Name
 
 ### `ClientInstance::_startExternalNetworkWorld::__l2::<lambda_2f4e89c11809877f171d784f43a2bb0a>::()::__l25::<lambda_89f9ae71cef463ef90f3d3d6d3c5a294>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ClientInstance *const` | __this
 8 | (256) `Social::GameConnectionInfo` | connectionInfo
 
 
 ### `ConstCompositeSceneStackView`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const SceneStack *` | mMainStack
 8 | (8) `const SceneStack *` | mClientInstanceStack
 
 
 ### `ClientInstance::_isShowingScreen::__l2::<lambda_851bb6c3689e76182cb941d3bd1036a4>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `bool *` | showingScreen
 8 | (32) `const std::string` | screenName
 
 
 ### `ClientInstance::navigateToCoinPurchaseScreen::__l2::<lambda_e1cf1260acbd6347c10ba2122d74ca7a>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<ClientInstance>` | weakPtr
 16 | (16) `std::shared_ptr<OfferRepository::ProductQueryAttemptResult>` | queryAttemptFinished
 32 | (16) `std::shared_ptr<AsyncTracker>` | tracker
@@ -941,7 +941,7 @@ Offset | Type | Name
 
 ### `ClientInstance::navigateToStoreSeeAllByCreatorScreen::__l2::<lambda_15d8531333f726aeede88a06a28b4fd0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<ClientInstance>` | weakThis
 16 | (32) `const std::string` | creatorId
 48 | (1) `const bool` | calledFromHyperlink
@@ -949,7 +949,7 @@ Offset | Type | Name
 
 ### `ClientInstance::ClientDestroyBlockState`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Player *` | mPlayer
 8 | (8) `GameMode *` | mGameMode
 16 | (1) `bool` | mDestroyButtonDown
@@ -961,7 +961,7 @@ Offset | Type | Name
 
 ### `ClientSkin`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | mInitialized
 1 | (1) `bool` | mIsLoadingGeometry
 4 | (4) `int` | mReferenceCount
@@ -972,7 +972,7 @@ Offset | Type | Name
 
 ### `ClientSkinInfoData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (688) `SkinInfoData` | baseclass_0
 688 | (1) `unsigned __int8` | mSubClientId
 696 | (16) `BedrockTexture` | mBloomTexture
@@ -984,13 +984,13 @@ Offset | Type | Name
 
 ### `ClientParticleTrackingComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::unordered_map<HashedString,std::vector<unsigned int>>` | mParticleEmitterLists
 
 
 ### `CatalogInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<DateManager>` | mDateManager
 16 | (20) `RetryDelay` | mSaveDelay
 36 | (4) `int` | mPropertyChangeVersion
@@ -998,13 +998,13 @@ Offset | Type | Name
 
 ### `CallbackToken`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<CallbackTokenCancelState>` | mCancelState
 
 
 ### `cg::math::Rect<float>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float` | mX
 4 | (4) `float` | mY
 8 | (4) `float` | mWidth
@@ -1013,7 +1013,7 @@ Offset | Type | Name
 
 ### `CrashDumpKeyValueData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `_BYTE[2]` | mTag0
 2 | (2) `_BYTE[2]` | mTag1
 4 | (4) `int` | mValue0
@@ -1022,20 +1022,20 @@ Offset | Type | Name
 
 ### `ContentLog::ContentLogEndPointData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `gsl::not_null<ContentLogEndPoint *>` | mContentLogEndPoint
 
 
 ### `ControllerDirectionEventData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `DirectionId` | directionId
 4 | (8) `float[2]` | deltaPosition
 
 
 ### `ClippedCollectionEventData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | collectionNameHash
 4 | (4) `int` | startIndex
 8 | (4) `int` | endIndex
@@ -1044,7 +1044,7 @@ Offset | Type | Name
 
 ### `ClipStateChangeEventData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | id
 8 | (8) `UIPropertyBag *` | propertyBag
 16 | (1) `bool` | isClipped
@@ -1052,13 +1052,13 @@ Offset | Type | Name
 
 ### `CustomRendererEventData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | id
 
 
 ### `CollisionGrid<15>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float` | mWidth
 4 | (4) `float` | mHeight
 8 | (32) `std::bitset<225>` | mGrid
@@ -1066,13 +1066,13 @@ Offset | Type | Name
 
 ### `ClientBlockPipeline::TessellatorContext`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<ClientBlockPipeline::SchematicsRepository>` | mSchematicsRepo
 
 
 ### `CommandListTaskContext`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `mce::CommandList` | mCommandList
 64 | (8) `mce::RingBuffer *` | mCbUploadRingBuffer
 72 | (8) `mce::PerFrameConstants *` | mThreadedPerFrameConstants
@@ -1084,7 +1084,7 @@ Offset | Type | Name
 
 ### `ChunkLayerRenderObject`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `unsigned __int64` | mChunkIdx
 8 | (8) `const mce::MaterialPtr *` | mMaterial
 16 | (4) `unsigned int` | mIndicesStart
@@ -1096,34 +1096,34 @@ Offset | Type | Name
 
 ### `ContentLog::ContentLogScope`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | mPopScope
 8 | (16) `std::weak_ptr<ContentLog::ScopeHandler>` | mScopeHandler
 
 
 ### `ClientInstanceScreenModel`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (216) `MinecraftScreenModel` | baseclass_0
 216 | (64) `std::unordered_map<ActorUniqueID,BossInfo>` | mBossInfo
 
 
 ### `ContainerScreenController::_registerStateMachine::__l2::<lambda_22ba86bea9db98d4be3d24a41addfd59>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ContainerScreenController *const` | __this
 
 
 ### `ControlsSettingsScreenController::_registerControllerCallbacks::__l2::<lambda_7847dc19740a716fdd766d12d5c86f1d>::()::__l2::<lambda_e1ed6117cdc1faf979ad9c55cf15bfe3>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Option *` | option
 8 | (64) `std::function<void __cdecl(void)>` | onToggle
 
 
 ### `ControlsSettingsScreenController::KeyboardLayoutInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `const KeyboardType` | mType
 8 | (8) `KeyboardRemappingLayout *` | mLayout
 16 | (24) `std::vector<ControlsSettingsScreenController::BindingInfo>` | mBindings
@@ -1133,7 +1133,7 @@ Offset | Type | Name
 
 ### `CourseScreenController::_setLeaveGameOverride::__l2::<lambda_b1807e78fd2d1443f9792a801376796c>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<TutorialCollection>` | tutorialCollection
 16 | (16) `std::shared_ptr<LibraryCollection>` | libraryCollection
 32 | (32) `std::string` | courseTitle
@@ -1143,7 +1143,7 @@ Offset | Type | Name
 
 ### `CraftingScreenControllerProxyCallbacks`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::function<ContainerController * __cdecl(std::string const &)>` | mGetContainerController
 64 | (64) `std::function<void __cdecl(std::string const &,int,enum ItemCraftType)>` | mRecipeAutoCraft
 128 | (64) `std::function<void __cdecl(std::string const &,int)>` | mHandleRecipeSelect
@@ -1154,20 +1154,20 @@ Offset | Type | Name
 
 ### `CraftableCountingData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mTotalResultItems
 4 | (4) `int` | mAmountOfTimesRecipeIsCrafted
 
 
 ### `CraftingScreenController::_registerStateMachine::__l2::<lambda_be0bf6bd90e4b29638d1008293b3501b>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | clearHotbarButtonOrDropId
 
 
 ### `CraftingScreenController::_recipeAutoCraft::__l2::<lambda_6aa2f103e2c2f5d7d0fafc45ee252653>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `CraftingScreenController *const` | __this
 8 | (32) `const std::string` | collectionName
 40 | (4) `int` | collectionIndex
@@ -1175,7 +1175,7 @@ Offset | Type | Name
 
 ### `CraftingTableComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mGridSize
 8 | (32) `std::string` | mCustomDescription
 40 | (24) `std::vector<std::string>` | mCraftingTags
@@ -1183,21 +1183,21 @@ Offset | Type | Name
 
 ### `CustomTemplatesScreenController::_registerEvents::__l2::<lambda_faa911ab3abefbbffed8c9d57cca4fc8>::()::__l8::<lambda_855dc3b3dd5168adfa3023a3c097783b>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<CustomTemplatesScreenController>` | weakThis
 16 | (264) `const WorldTemplateInfo` | level
 
 
 ### `CustomTemplatesScreenController::_handleWorldTemplateClicked::__l2::<lambda_0fd1354ad3496433dfc1a1fe4fe2b8a7>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `CustomTemplatesScreenController *const` | __this
 8 | (136) `PackIdVersion` | packId
 
 
 ### `CustomTemplatesScreenController::_createWorldTemplate::__l5::<lambda_bc20e33a775adc61e26b6412226bb3d7>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `CustomTemplatesScreenController *const` | __this
 8 | (8) `const WorldTemplateInfo *` | level
 16 | (64) `std::function<void __cdecl(void)>` | failureCallback
@@ -1205,13 +1205,13 @@ Offset | Type | Name
 
 ### `CustomTemplatesScreenController::_createWorldTemplate::__l5::<lambda_bc20e33a775adc61e26b6412226bb3d7>::()::__l5::<lambda_1e628f6eed268bb442e37bdf2a00b8a2>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::function<void __cdecl(void)>` | failureCallback
 
 
 ### `ClientInstanceScreenController`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2648) `MinecraftScreenController` | baseclass_0
 2648 | (16) `std::shared_ptr<ClientInstanceScreenModel>` | mClientInstanceScreenModel
 2664 | (8) `std::unique_ptr<PlatformMultiplayerRestrictions>` | mPlatformMultiplayerRestrictions
@@ -1219,14 +1219,14 @@ Offset | Type | Name
 
 ### `ContentTierInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mMemoryTier
 4 | (1) `bool` | mIsRayTracingCapable
 
 
 ### `Clubs::ClubModel`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | mClubID
 32 | (32) `std::string` | mClubDescription
 64 | (32) `std::string` | mClubIcon
@@ -1235,13 +1235,13 @@ Offset | Type | Name
 
 ### `ControlScreenAction`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ControlScreenAction_vtbl *` | __vftable
 
 
 ### `CommandSyntaxInformation`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | isValid
 8 | (32) `std::string` | description
 40 | (24) `std::vector<OverloadSyntaxInformation>` | possibilities
@@ -1249,7 +1249,7 @@ Offset | Type | Name
 
 ### `Core::ZipUtils::ZipFileRestrictions`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::set<std::string>` | mForbiddenExtensions
 16 | (16) `std::set<std::string>` | mRestrictedExtensions
 32 | (16) `std::set<std::string>` | mForbiddenFilenames
@@ -1257,7 +1257,7 @@ Offset | Type | Name
 
 ### `Core::ZipUtils::ZipProgress`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `std::atomic<unsigned int>` | mFilesDone
 4 | (4) `std::atomic<unsigned int>` | mFilesSkipped
 8 | (4) `std::atomic<unsigned int>` | mTotalFiles
@@ -1265,7 +1265,7 @@ Offset | Type | Name
 
 ### `CommandBlockComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (152) `BaseCommandBlock` | mBaseCommandBlock
 152 | (4) `int` | mCurrentTickCount
 156 | (1) `bool` | mTicking
@@ -1273,7 +1273,7 @@ Offset | Type | Name
 
 ### `CommonSearchResults`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mTotalCount
 4 | (4) `int` | mFilteredCount
 8 | (4) `int` | mUnfilteredDocumentCount
@@ -1281,7 +1281,7 @@ Offset | Type | Name
 
 ### `ClientInstanceScreenModel::navigateToLeaveLevelScreen::__l5::<lambda_ef00954ff1e757a0ee5bf3eac0e1e9ef>::()::__l5::<lambda_f55e9c9a0c9d5b1a28a0ec013240d974>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<ClientInstanceScreenModel>` | weakThis
 16 | (1) `bool` | switchScreen
 24 | (384) `LevelSummary` | summary
@@ -1289,14 +1289,14 @@ Offset | Type | Name
 
 ### `ClientInstanceScreenModel::initiateGLBFileSave::__l5::<lambda_18e2ef64fe5ed0094ca318e07172f502>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `Core::PathBuffer<std::string >` | originPath
 32 | (64) `std::function<void __cdecl(bool)>` | onComplete
 
 
 ### `Crypto::Hash::Hash`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Crypto::Hash::IHash` | baseclass_0
 8 | (8) `std::unique_ptr<Crypto::Hash::IHash>` | mHash
 16 | (4) `int` | mUuidVersion
@@ -1304,19 +1304,19 @@ Offset | Type | Name
 
 ### `Crypto::Hash::IHash`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Crypto::Hash::IHash_vtbl *` | __vftable
 
 
 ### `ClipAreas`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::set<RectangleArea>` | mAreas
 
 
 ### `ClippedControlMetadata`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<RenderControlMetadata>` | controlsToUpdate
 24 | (24) `std::vector<std::shared_ptr<UIControl>>` | clippedGrids
 48 | (24) `std::vector<ScreenEvent>` | clipStateChangeEvents
@@ -1324,182 +1324,182 @@ Offset | Type | Name
 
 ### `ClientBindingFactory::getAreaBinding::__l5::<lambda_f4ef36c9c2241edd05e2049a4cc37d3c>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const ClientBindingFactory *const` | __this
 8 | (64) `std::unordered_map<std::string,bool>` | map
 
 
 ### `ClientBindingFactory::getAreaBinding::__l9::<lambda_86bc8e749623499401e3fdbcc7ae7f39>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const ClientBindingFactory *const` | __this
 8 | (64) `std::unordered_map<std::string,bool>` | map
 
 
 ### `ClientBindingFactory::getAreaBinding::__l13::<lambda_dcb08eb3e54defb9e64370fd721b66b7>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const ClientBindingFactory *const` | __this
 8 | (64) `std::unordered_map<std::string,bool>` | map
 
 
 ### `ClientBindingFactory::getAreaBinding::__l17::<lambda_6b703eda3e6b7618b784bcc537ad3c62>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const ClientBindingFactory *const` | __this
 8 | (64) `std::unordered_map<std::string,bool>` | map
 
 
 ### `ClientBindingFactory::getAreaBinding::__l21::<lambda_363f1cc72b078a154ed0ead09b4d024d>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const ClientBindingFactory *const` | __this
 8 | (64) `std::unordered_map<std::string,bool>` | map
 
 
 ### `ClientBindingFactory::getAreaBinding::__l25::<lambda_fa86098d63427aae10170ef55fc211e6>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const ClientBindingFactory *const` | __this
 8 | (64) `std::unordered_map<std::string,bool>` | map
 
 
 ### `ClientBindingFactory::getAreaBinding::__l29::<lambda_4ad4abaf36d194589aeacc2087f8e5d8>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const ClientBindingFactory *const` | __this
 8 | (64) `std::unordered_map<std::string,bool>` | map
 
 
 ### `ClientBindingFactory::getAreaBinding::__l33::<lambda_c124153a23bc74bb259e700314fabfe5>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const ClientBindingFactory *const` | __this
 8 | (64) `std::unordered_map<std::string,bool>` | map
 
 
 ### `ClientBindingFactory::getAreaBinding::__l37::<lambda_ad03e7fd0cd44601e962483c0c526b9c>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const ClientBindingFactory *const` | __this
 8 | (64) `std::unordered_map<std::string,bool>` | map
 
 
 ### `ClientBindingFactory::getAreaBinding::__l41::<lambda_15d4d27fc3fab10c113ccc141c937ae8>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const ClientBindingFactory *const` | __this
 8 | (64) `std::unordered_map<std::string,bool>` | map
 
 
 ### `ClientBindingFactory::getAreaBinding::__l45::<lambda_8ff1de1eef774dd1106ac7f5857e2d9b>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const ClientBindingFactory *const` | __this
 8 | (64) `std::unordered_map<std::string,bool>` | map
 
 
 ### `ClientBindingFactory::getAreaBinding::__l49::<lambda_b41f787d80d65477826583f3d77947ad>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const ClientBindingFactory *const` | __this
 8 | (64) `std::unordered_map<std::string,bool>` | map
 
 
 ### `ClientBindingFactory::getAreaBinding::__l53::<lambda_02e65bc75bc403a0d5915dac1a58e8c2>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const ClientBindingFactory *const` | __this
 8 | (64) `std::unordered_map<std::string,bool>` | map
 
 
 ### `ClientBindingFactory::getAreaBinding::__l57::<lambda_662ee5d55e561d65a044d078186e83d9>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const ClientBindingFactory *const` | __this
 8 | (64) `std::unordered_map<std::string,bool>` | map
 
 
 ### `ClientBindingFactory::getAreaBinding::__l65::<lambda_11cb320c71eb9c2c133ff6d68d8de661>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const ClientBindingFactory *const` | __this
 8 | (64) `std::unordered_map<std::string,bool>` | map
 
 
 ### `ClientBindingFactory::getAreaBinding::__l69::<lambda_9003cc46be8ff06e6019466117b648cb>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const ClientBindingFactory *const` | __this
 8 | (64) `std::unordered_map<std::string,bool>` | map
 
 
 ### `ClientBindingFactory::getAreaBinding::__l73::<lambda_63d65d763c745e34cfd24e2ed9e972e9>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const ClientBindingFactory *const` | __this
 8 | (64) `std::unordered_map<std::string,bool>` | map
 
 
 ### `ClientBindingFactory::getAreaBinding::__l81::<lambda_91076f5a9a3c55292508097fc4d6fac7>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const ClientBindingFactory *const` | __this
 8 | (64) `std::unordered_map<std::string,bool>` | map
 
 
 ### `ClientBindingFactory::getAreaBinding::__l85::<lambda_feb1532674b9f50b160f3ecdb14b5bbc>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const ClientBindingFactory *const` | __this
 8 | (64) `std::unordered_map<std::string,bool>` | map
 
 
 ### `ClientBindingFactory::getAreaBinding::__l89::<lambda_3045ae51b964740e158387af04a53e99>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const ClientBindingFactory *const` | __this
 8 | (64) `std::unordered_map<std::string,bool>` | map
 
 
 ### `ClientBindingFactory::getAreaBinding::__l93::<lambda_98c915c68a450916aaedca71464fb20d>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const ClientBindingFactory *const` | __this
 8 | (64) `std::unordered_map<std::string,bool>` | map
 
 
 ### `ClientBindingFactory::getAreaBinding::__l97::<lambda_30a6bbd5c8267ea08db9dc591f356dc6>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const ClientBindingFactory *const` | __this
 8 | (64) `std::unordered_map<std::string,bool>` | map
 
 
 ### `ClientBindingFactory::getAreaBinding::__l101::<lambda_9dbc146f72c67fa5eb0eb81ee8beb838>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const ClientBindingFactory *const` | __this
 8 | (64) `std::unordered_map<std::string,bool>` | map
 
 
 ### `ClientBindingFactory::getAreaBinding::__l105::<lambda_8236814038f22a3770d7eb365f42c1bb>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const ClientBindingFactory *const` | __this
 8 | (64) `std::unordered_map<std::string,bool>` | map
 
 
 ### `ClientBindingFactory::getAreaBinding::__l109::<lambda_5be19c9e68037c701d60f79feeb8b6fc>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const ClientBindingFactory *const` | __this
 8 | (64) `std::unordered_map<std::string,bool>` | map
 
 
 ### `ClientBindingFactory`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `BindingFactory` | baseclass_0
 8 | (8) `const ClientInputHandler *` | mClientInputHandler
 16 | (8) `IClientInstance *` | mClient
@@ -1550,7 +1550,7 @@ Offset | Type | Name
 
 ### `ChannelListQuery`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mSkip
 4 | (4) `int` | mCount
 8 | (32) `std::string` | mChannelName
@@ -1559,7 +1559,7 @@ Offset | Type | Name
 
 ### `Cube`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (12) `Vec3` | mOrigin
 12 | (12) `Vec3` | mSize
 24 | (12) `Vec3` | mRotation
@@ -1572,7 +1572,7 @@ Offset | Type | Name
 
 ### `Cube::FaceUVData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Vec2` | mUV
 8 | (8) `Vec2` | mUVSize
 16 | (4) `int` | mMaterialInstanceListIndex
@@ -1581,7 +1581,7 @@ Offset | Type | Name
 
 ### `ClientNetworkHandler::handle::__l2::<lambda_3a932b1c4cad8a420efad8f5991d860f>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ResourcePackFileDownloaderManager *` | downloadManager
 8 | (32) `std::string` | resourceName
 40 | (8) `ClientNetworkHandler *const` | __this
@@ -1590,7 +1590,7 @@ Offset | Type | Name
 
 ### `ClientNetworkHandler::handle::__l2::<lambda_57a8c0175a82e2b1f2fddb694a815e8f>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (152) `const NetworkIdentifier` | source
 152 | (32) `std::string` | resourceName
 184 | (8) `ClientNetworkHandler *const` | __this
@@ -1600,7 +1600,7 @@ Offset | Type | Name
 
 ### `ClientNetworkHandler::handle::__l2::<lambda_f7c9cc170d1b2d687b5ef307e2dd2a5f>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ClientNetworkHandler *const` | __this
 8 | (8) `ResourcePackFileDownloaderManager *` | downloadManager
 16 | (8) `const NetworkIdentifier *` | source
@@ -1610,7 +1610,7 @@ Offset | Type | Name
 
 ### `ClientNetworkHandler::handle::__l2::<lambda_f7c9cc170d1b2d687b5ef307e2dd2a5f>::()::__l5::<lambda_c1b3156103bb292e2178303c3a153411>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ClientNetworkHandler *const` | __this
 8 | (8) `ResourcePackFileDownloaderManager *` | downloadManager
 16 | (128) `const ResourcePackDataInfoPacket` | packet
@@ -1619,13 +1619,13 @@ Offset | Type | Name
 
 ### `ClientNetworkHandler::handle::__l2::<lambda_d12db79ea14521c577faa9163e217abc>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `const LabTablePacket` | packet
 
 
 ### `ConnectionRequest`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::unique_ptr<UnverifiedCertificate>` | mCertificateData
 8 | (8) `std::unique_ptr<Certificate>` | mCertificate
 16 | (8) `std::unique_ptr<WebToken>` | mRawToken
@@ -1634,7 +1634,7 @@ Offset | Type | Name
 
 ### `ContainerOpenPacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `Packet` | baseclass_0
 40 | (1) `ContainerID` | mContainerId
 41 | (1) `ContainerType` | mType
@@ -1644,7 +1644,7 @@ Offset | Type | Name
 
 ### `ContainerComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ContainerContentChangeListener` | baseclass_0
 8 | (8) `std::unique_ptr<Container>` | mContainer
 16 | (8) `Mob *` | mListenerShim
@@ -1657,13 +1657,13 @@ Offset | Type | Name
 
 ### `ContainerContentChangeListener`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ContainerContentChangeListener_vtbl *` | __vftable
 
 
 ### `ChatOptions::ChatOption`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Option *` | option
 8 | (1) `const ChatCategory` | category
 16 | (32) `const std::string` | telemetryName
@@ -1671,20 +1671,20 @@ Offset | Type | Name
 
 ### `ConstDeserializeDataParams`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const Json::Value *` | mValue
 8 | (112) `const SemVersion` | mPackVersion
 
 
 ### `Core::InputFileStream`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (296) `Core::FileStream` | baseclass_0
 
 
 ### `CommonResourceDefinitionMap`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::unordered_map<HashedString,ActorSkeletalAnimationPtr>` | mActorAnimationMap
 64 | (64) `std::unordered_map<HashedString,ActorAnimationControllerPtr>` | mActorAnimationControllerMap
 128 | (24) `std::vector<NamedMolangScript>` | mActorAnimateScriptArray
@@ -1694,13 +1694,13 @@ Offset | Type | Name
 
 ### `ClientBlockPipeline::Transforms`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `Matrix` | mPostTransform
 
 
 ### `ChalkboardBlockActor::CachedMessageData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (640) `std::array<ChalkboardBlockActor::CachedLineData,16>` | lineData
 640 | (4) `unsigned int` | numLines
 648 | (32) `std::string` | filteredMessage
@@ -1710,14 +1710,14 @@ Offset | Type | Name
 
 ### `ChalkboardBlockActor::CachedLineData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | text
 32 | (4) `int` | lineLength
 
 
 ### `ChunkBlockPos`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `unsigned __int8` | x
 1 | (1) `unsigned __int8` | z
 2 | (2) `ChunkLocalHeight` | y
@@ -1725,7 +1725,7 @@ Offset | Type | Name
 
 ### `ChunkSource`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ChunkSource_vtbl *` | __vftable
 8 | (4) `int` | mChunkSide
 16 | (8) `Level *` | mLevel
@@ -1737,19 +1737,19 @@ Offset | Type | Name
 
 ### `CubeMap::renderCubeMap::__l17::<lambda_260eef0ecc0f3850dffbb1b638223cba>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `const Matrix` | cubemapWorldMatrix
 
 
 ### `ClientRenderData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `unsigned __int8` | mClientSubId
 
 
 ### `CloudRenderObject`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<mce::Mesh>` | mCloudsMesh
 16 | (8) `const mce::MaterialPtr *` | mCloudMaterial
 24 | (16) `mce::Color` | mCloudColor
@@ -1759,7 +1759,7 @@ Offset | Type | Name
 
 ### `ChunkRenderObjectCollection`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<mce::ServerTexture>` | mTextures
 24 | (24) `std::vector<ChunkRenderData>` | mChunkQueue
 48 | (1296) `std::vector<ChunkLayerRenderObject>[3][18]` | mTerrainLayerChunkQueue
@@ -1768,14 +1768,14 @@ Offset | Type | Name
 
 ### `CrackRenderObjectCollection`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `std::vector<CrackRenderObject,LinearAllocator<CrackRenderObject> >` | mCracks
 40 | (72) `mce::TexturePtr` | mAtlasTexture
 
 
 ### `CrackRenderObject`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<mce::Mesh>` | mMesh
 16 | (8) `const mce::MaterialPtr *` | mCrackMat
 24 | (1) `bool` | mAlphaTest
@@ -1783,26 +1783,26 @@ Offset | Type | Name
 
 ### `cg::BufferSpan`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `cg::BufferDescription` | mDescription
 8 | (8) `const unsigned __int8 *` | mData
 
 
 ### `cg::BufferDescription`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | mStride
 4 | (4) `unsigned int` | mCount
 
 
 ### `cg::RenderMaterialGroupLoader<std::unordered_map<HashedString,std::shared_ptr<mce::RenderMaterialInfo>,std::hash<HashedString>,std::equal_to<HashedString>,std::allocator<std::pair<HashedString const ,std::shared_ptr<mce::RenderMaterialInfo> > > >,mce::RenderMaterial,mce::RenderMaterialInfo,ResourcePackManager>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `cg::RenderFeaturesConfiguration`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | MSAAEnabled
 1 | (1) `bool` | TexelAAEnabled
 2 | (1) `bool` | HolographicMode
@@ -1814,7 +1814,7 @@ Offset | Type | Name
 
 ### `cg::RenderMaterialBase`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `cg::RenderMaterialBase_vtbl *` | __vftable
 8 | (16) `std::map<std::string,std::shared_ptr<cg::RenderMaterialBase>>` | mMaterialVariations
 24 | (32) `cg::VariationMap` | mVariationMap
@@ -1833,20 +1833,20 @@ Offset | Type | Name
 
 ### `cg::VariationMap`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::map<std::string,cg::VariationMap>` | mMaterialJsonVariationMap
 16 | (16) `Json::Value` | mVariantJson
 
 
 ### `cg::ResourceManager<std::shared_ptr<cg::ImageBuffer>,ResourceLocation,SharedImageBufferTracker,std::shared_ptr<cg::ImageBuffer>,std::map>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::map<ResourceLocation,std::shared_ptr<cg::ImageBuffer>>` | mContainer
 
 
 ### `ContentCatalogPackSource::_collectAllCatalogItems::__l2::<lambda_baa95d9a96c4efb4ae292f92f510cc21>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ContentCatalogPackSource *const` | __this
 8 | (576) `SearchQuery` | query
 584 | (16) `std::shared_ptr<unsigned __int64>` | documentsReceived
@@ -1857,7 +1857,7 @@ Offset | Type | Name
 
 ### `ContentCatalogPackSource::_addCatalogItemsFromSearch::__l9::<lambda_6c2cc72359c8774f2a3e9185f6c63471>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ContentCatalogPackSource *const` | __this
 8 | (576) `SearchQuery` | nextQuery
 584 | (16) `std::shared_ptr<unsigned __int64>` | documentsReceived
@@ -1868,7 +1868,7 @@ Offset | Type | Name
 
 ### `Core::ZipUtils::UnzipSettings`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (48) `Core::ZipUtils::ZipFileRestrictions` | mRestrictions
 48 | (1) `bool` | mDeleteZipOnSuccess
 49 | (1) `bool` | mPreventOverwrites
@@ -1879,14 +1879,14 @@ Offset | Type | Name
 
 ### `ContentAcquisition::searchForDlcIdsByPackIds::__l11::<lambda_b5e7ac097f87844b528ff4a5d3cae47b>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (136) `const PackIdVersion` | packId
 136 | (160) `ContentAcquisition::searchForDlcIdsByPackIds::__l6::<lambda_1d55797dc2ac18165f6bbd44e10719d3>` | onSearchComplete
 
 
 ### `ContentAcquisition::searchForDlcIdsByPackIds::__l6::<lambda_1d55797dc2ac18165f6bbd44e10719d3>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ContentAcquisition *const` | __this
 8 | (16) `std::shared_ptr<`ContentAcquisition::searchForDlcIdsByPackIds'::`2'::SearchTracker>` | tracker
 24 | (136) `const PackIdVersion` | packId
@@ -1894,7 +1894,7 @@ Offset | Type | Name
 
 ### `ContentAcquisition::checkStorageRequirements::__l2::<lambda_9e238074f4708f40d39951c6bbb8c3d5>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ContentAcquisition *const` | __this
 8 | (16) `std::shared_ptr<`ContentAcquisition::checkStorageRequirements'::`2'::Totals>` | sharedTotals
 24 | (24) `const std::vector<DlcId>` | dlcIds
@@ -1903,14 +1903,14 @@ Offset | Type | Name
 
 ### `ContentAcquisition::checkStorageRequirements::__l2::<lambda_9e238074f4708f40d39951c6bbb8c3d5>::()::__l2::<lambda_23d0a1b8fd39adaa4c0cd04cd9e72a88>::()::__l5::<lambda_fb76be13b8fe047662fa721a3a77c9bb>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `unsigned __int64` | dlcSize
 8 | (64) `std::function<void __cdecl(bool,unsigned __int64)>` | callback
 
 
 ### `ContentAcquisition::checkStorageRequirements::__l2::<lambda_9e238074f4708f40d39951c6bbb8c3d5>::()::__l6::<lambda_5be28da840c3ba3420f6b07d0ad08a78>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ContentAcquisition *const` | __this
 8 | (200) `const DlcId` | dlcId
 208 | (88) `ContentAcquisition::checkStorageRequirements::__l2::<lambda_9e238074f4708f40d39951c6bbb8c3d5>::()::__l2::<lambda_23d0a1b8fd39adaa4c0cd04cd9e72a88>` | onFileSizeFound
@@ -1919,7 +1919,7 @@ Offset | Type | Name
 
 ### `ContentAcquisition::checkStorageRequirements::__l2::<lambda_9e238074f4708f40d39951c6bbb8c3d5>::()::__l2::<lambda_23d0a1b8fd39adaa4c0cd04cd9e72a88>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<`ContentAcquisition::checkStorageRequirements'::`2'::Totals>` | sharedTotals
 16 | (4) `const int` | numRequested
 24 | (64) `std::function<void __cdecl(bool,unsigned __int64)>` | callback
@@ -1927,28 +1927,28 @@ Offset | Type | Name
 
 ### `ContentTracker::fetchFileSize::__l7::<lambda_aa9599aea01d6dd62378f60e02738f2f>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ContentTracker *const` | __this
 8 | (64) `std::function<void __cdecl(unsigned __int64)>` | callback
 
 
 ### `ContentAcquisition::checkStorageRequirements::__l2::<lambda_9e238074f4708f40d39951c6bbb8c3d5>::()::__l2::<lambda_23d0a1b8fd39adaa4c0cd04cd9e72a88>::()::__l5::<lambda_fb76be13b8fe047662fa721a3a77c9bb>::()::__l5::<lambda_5dde433396ba1836ea97aad5da28a35d>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `unsigned __int64` | dlcSize
 8 | (64) `std::function<void __cdecl(bool,unsigned __int64)>` | callback
 
 
 ### `ContentAcquisition::checkStorageRequirements::__l2::<lambda_9e238074f4708f40d39951c6bbb8c3d5>::()::__l2::<lambda_23d0a1b8fd39adaa4c0cd04cd9e72a88>::()::__l5::<lambda_fb76be13b8fe047662fa721a3a77c9bb>::()::__l5::<lambda_06fba6772e5a40319ba863ad66ed81c5>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `unsigned __int64` | dlcSize
 8 | (64) `std::function<void __cdecl(bool,unsigned __int64)>` | callback
 
 
 ### `ContentAcquisition::getTitles::__l6::<lambda_6b2ec6fd37d40446a41ee22bbc465839>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ContentAcquisition *const` | __this
 8 | (200) `const DlcId` | dlcId
 208 | (88) `ContentAcquisition::getTitles::__l2::<lambda_c6179e0117411f607c7c2f5e595ff517>` | onFileFound
@@ -1957,7 +1957,7 @@ Offset | Type | Name
 
 ### `ContentAcquisition::getTitles::__l2::<lambda_c6179e0117411f607c7c2f5e595ff517>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `const int` | numRequested
 8 | (64) `std::function<void __cdecl(std::vector<std::string> const &)>` | callback
 72 | (16) `std::shared_ptr<std::vector<std::string> >` | sharedTitles
@@ -1965,14 +1965,14 @@ Offset | Type | Name
 
 ### `ContentTracker::fetchTitle::__l7::<lambda_580c010aa240fa46c9d3dfd81e8f23e3>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ContentTracker *const` | __this
 8 | (64) `std::function<void __cdecl(std::string const &)>` | callback
 
 
 ### `ContentAcquisition::DownloadCallback`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | mShouldCheckExistence
 8 | (16) `std::weak_ptr<bool>` | mExistenceTracker
 24 | (64) `std::function<void __cdecl(DownloadStateObject &)>` | mCallback
@@ -1980,21 +1980,21 @@ Offset | Type | Name
 
 ### `ContentAcquisition::_getAvailableDiskFreeSpaceAsync::__l2::<lambda_450f8a999d305d9c737ff19408a1e820>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::function<void __cdecl(unsigned __int64)>` | callback
 64 | (16) `std::shared_ptr<unsigned __int64>` | shared_size
 
 
 ### `ContentTracker::fetchFileSize::__l7::<lambda_aa9599aea01d6dd62378f60e02738f2f>::()::__l5::<lambda_b649e17da3516653addd3c4881defd02>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::function<void __cdecl(unsigned __int64)>` | callback
 64 | (16) `std::weak_ptr<bool>` | weakExistence
 
 
 ### `ContentTracker::_fetchContentDetails::__l2::<lambda_852b98f00350dbcb07efe1ff2bc71eec>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ContentTracker *const` | __this
 8 | (64) `std::function<void __cdecl(bool)>` | callback
 72 | (16) `std::weak_ptr<bool>` | weakExistence
@@ -2002,7 +2002,7 @@ Offset | Type | Name
 
 ### `ContentTracker::_importLegacyMusicPack::__l2::<lambda_e71312bd262726470a6492efa540d394>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ContentTracker *const` | __this
 8 | (1040) `const Core::PathBuffer<Core::StackString<char,1024> >` | musicTargetPath
 1048 | (16) `std::shared_ptr<enum Core::ZipUtils::UnzipResult>` | sharedErrorCode
@@ -2010,7 +2010,7 @@ Offset | Type | Name
 
 ### `ContentTracker::_importLegacyMusicPack::__l2::<lambda_4ae52eb2e663e20b64225feacde9ef21>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1040) `const Core::PathBuffer<Core::StackString<char,1024> >` | fileToImport
 1040 | (1040) `const Core::PathBuffer<Core::StackString<char,1024> >` | musicTargetPath
 2080 | (16) `std::shared_ptr<enum Core::ZipUtils::UnzipResult>` | sharedErrorCode
@@ -2018,7 +2018,7 @@ Offset | Type | Name
 
 ### `ContentAcquisition::DownloadHistory`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `unsigned __int64` | mDownloadSize
 8 | (1) `bool` | mHasDownloadSize
 12 | (4) `_BYTE[4]` | mStatus
@@ -2028,7 +2028,7 @@ Offset | Type | Name
 
 ### `Core::CallbackListeners<int,enum Social::SignInResult>::Listener`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<bool>` | mExistenceTracker
 16 | (64) `std::function<void __cdecl(int,enum Social::SignInResult)>` | mCallback
 80 | (1) `bool` | mShouldCheckExistence
@@ -2036,7 +2036,7 @@ Offset | Type | Name
 
 ### `CSHA1`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (20) `unsigned int[5]` | m_state
 20 | (8) `unsigned int[2]` | m_count
 28 | (4) `unsigned int[1]` | m_reserved0
@@ -2049,104 +2049,104 @@ Offset | Type | Name
 
 ### `CloudSaveSystemWrapper::isSettingsOutOfDate::__l13::<lambda_c97df555e43ec3a5e05f628f8af02513>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::function<void __cdecl(Core::Result,bool)>` | callback
 
 
 ### `CloudSaveSystemWrapper::acquireSettingsAsync::__l13::<lambda_7bb126be8a3e79d11e6699d2a94b7bda>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<Social::User>` | weakUser
 16 | (64) `std::function<void __cdecl(Core::Result)>` | callback
 
 
 ### `CDScopedEvent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `_BYTE[2]` | mTag
 2 | (2) `_BYTE[2]` | mTagEnd
 
 
 ### `Concurrency::details::_MakeVoidToUnitFunc::__l2::<lambda_052e919cc0e5399df76dff3972c0cac1>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `const std::function<void __cdecl(void)>` | _Func
 
 
 ### `Concurrency::details::_DefaultPPLTaskScheduler`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Concurrency::scheduler_interface` | baseclass_0
 
 
 ### `Concurrency::scheduler_interface`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Concurrency::scheduler_interface_vtbl *` | __vftable
 
 
 ### `Concurrency::details::_Task_impl_base::_ScheduleContinuationTask::__l5::<lambda_713ee8bbd6b08550d59c52695cab5ce3>::()::__l8::<lambda_f25c37099038263181b5186a3fa41b37>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Concurrency::details::_ContinuationTaskHandleBase *` | _PTaskHandle
 8 | (16) `std::shared_ptr<Concurrency::details::_Task_impl_base>` | _TaskImplPtr
 
 
 ### `Concurrency::invalid_operation`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::exception` | baseclass_0
 
 
 ### `cg::details::WorkToken::asLifetime::__l2::<lambda_89b2dae39f23600ad3e66c7a2b82fa2b>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<cg::details::WorkToken>` | ptrHandle
 16 | (64) `std::function<void __cdecl(void)>` | finalizeCallback
 
 
 ### `CommandListQueue::generateAsync::__l5::<lambda_7ffb9bb526d84acb0ee651a3ebd1913c>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `CommandListQueue *const` | __this
 8 | (64) `std::function<void __cdecl(CommandListTaskContext &)>` | func
 
 
 ### `cg::TaskPoolGroupExecutionPolicy<dragon::rendering::RenderContext,1>::execute::__l2::<lambda_2cf6a093770e7d9b1aecca19f5efb284>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<gsl::final_action<std::function<void __cdecl(void)> > >` | token
 16 | (64) `const std::function<void __cdecl(dragon::rendering::RenderContext &)>` | callback
 
 
 ### `cg::TaskPoolGroupExecutionPolicy<std::nullptr_t,1>::{ctor}::__l2::<lambda_6874d52efc76d8cff42ccf8c811d2193>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `cg::TaskPoolGroupExecutionPolicy<std::nullptr_t,1> *const` | __this
 
 
 ### `Core::CpuRingBufferAllocator<dragon::frameobject::PreparedDraw,2,0,Core::CheckedRingBuffer<2,0> >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Core::CheckedRingBuffer<2,0> *` | mBufferInstance
 
 
 ### `Core::CpuRingBufferAllocator<dragon::materials::MaterialUniformOverrides::UniformPair,2,0,Core::CheckedRingBuffer<2,0> >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Core::CheckedRingBuffer<2,0> *` | mBufferInstance
 
 
 ### `cg::taskorder::TaskBuilderWithActionAndDependencies<dragon::framegraph::ExecutionContext<dragon::rendering::RenderContext>,dragon::rendering::modules::BlitTaskContext,dragon::framegraph::dependency::BindFramebufferColor<dragon::rendering::RenderContext> >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (224) `cg::taskorder::TaskBuilderWithAction<dragon::framegraph::ExecutionContext<dragon::rendering::RenderContext>,dragon::rendering::modules::BlitTaskContext>` | baseclass_0
 224 | (24) `cg::taskorder::DependencyBuilder<dragon::framegraph::dependency::BindFramebufferColor<dragon::rendering::RenderContext> >` | mDependencies
 
 
 ### `cg::taskorder::TaskBuilderWithAction<dragon::framegraph::ExecutionContext<dragon::rendering::RenderContext>,dragon::rendering::modules::BlitTaskContext>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `cg::taskorder::TaskBuilder<dragon::framegraph::ExecutionContext<dragon::rendering::RenderContext> >` | baseclass_0
 32 | (128) `dragon::rendering::modules::BlitTaskContext` | mContext
 160 | (64) `std::function<void __cdecl(dragon::framegraph::ExecutionContext<dragon::rendering::RenderContext> const &,dragon::rendering::modules::BlitTaskContext const &)>` | mAction
@@ -2154,13 +2154,13 @@ Offset | Type | Name
 
 ### `cg::taskorder::TaskBuilder<dragon::framegraph::ExecutionContext<dragon::rendering::RenderContext> >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | mName
 
 
 ### `cg::math::Rect<unsigned short>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `unsigned __int16` | mX
 2 | (2) `unsigned __int16` | mY
 4 | (2) `unsigned __int16` | mWidth
@@ -2169,83 +2169,83 @@ Offset | Type | Name
 
 ### `cg::taskorder::DependencyBuilder<dragon::framegraph::dependency::BindFramebufferColor<dragon::rendering::RenderContext> >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::tuple<dragon::framegraph::dependency::BindFramebufferColor<dragon::rendering::RenderContext> >` | mDependencies
 
 
 ### `cg::taskorder::TaskBuilderWithActionAndDependencies<dragon::framegraph::ExecutionContext<dragon::rendering::RenderContext>,void,dragon::framegraph::dependency::BindMaterialTexture<dragon::rendering::RenderContext>,dragon::framegraph::dependency::BindFramebufferColor<dragon::rendering::RenderContext> >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (96) `cg::taskorder::TaskBuilderWithAction<dragon::framegraph::ExecutionContext<dragon::rendering::RenderContext>,void>` | baseclass_0
 96 | (56) `cg::taskorder::DependencyBuilder<dragon::framegraph::dependency::BindMaterialTexture<dragon::rendering::RenderContext>,dragon::framegraph::dependency::BindFramebufferColor<dragon::rendering::RenderContext> >` | mDependencies
 
 
 ### `cg::taskorder::TaskBuilderWithAction<dragon::framegraph::ExecutionContext<dragon::rendering::RenderContext>,void>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `cg::taskorder::TaskBuilder<dragon::framegraph::ExecutionContext<dragon::rendering::RenderContext> >` | baseclass_0
 32 | (64) `std::function<void __cdecl(dragon::framegraph::ExecutionContext<dragon::rendering::RenderContext> const &)>` | mAction
 
 
 ### `cg::taskorder::DependencyBuilder<dragon::framegraph::dependency::BindMaterialTexture<dragon::rendering::RenderContext>,dragon::framegraph::dependency::BindFramebufferColor<dragon::rendering::RenderContext> >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (56) `std::tuple<dragon::framegraph::dependency::BindMaterialTexture<dragon::rendering::RenderContext>,dragon::framegraph::dependency::BindFramebufferColor<dragon::rendering::RenderContext> >` | mDependencies
 
 
 ### `Core::CpuRingBufferAllocator<std::pair<dragon::framegraph::detail::AbstractPass<dragon::rendering::RenderContext> const *,dragon::framegraph::detail::LinkingContext<dragon::rendering::RenderContext> *>,2,0,Core::CheckedRingBuffer<2,0> >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Core::CheckedRingBuffer<2,0> *` | mBufferInstance
 
 
 ### `Core::CpuRingBufferAllocator<glm::tvec4<float,0>,2,0,Core::CheckedRingBuffer<2,0> >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Core::CheckedRingBuffer<2,0> *` | mBufferInstance
 
 
 ### `Core::CpuRingBufferAllocator<glm::tmat3x3<float,0>,2,0,Core::CheckedRingBuffer<2,0> >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Core::CheckedRingBuffer<2,0> *` | mBufferInstance
 
 
 ### `Core::CpuRingBufferAllocator<glm::tmat4x4<float,0>,2,0,Core::CheckedRingBuffer<2,0> >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Core::CheckedRingBuffer<2,0> *` | mBufferInstance
 
 
 ### `cg::taskorder::TaskBuilderWithActionAndDependencies<dragon::framegraph::ExecutionContext<dragon::rendering::RenderContext>,void,dragon::framegraph::dependency::BindFramebufferDepth<dragon::rendering::RenderContext>,dragon::framegraph::dependency::BindMaterialTexture<dragon::rendering::RenderContext>,dragon::framegraph::dependency::BindFramebufferColor<dragon::rendering::RenderContext> >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (96) `cg::taskorder::TaskBuilderWithAction<dragon::framegraph::ExecutionContext<dragon::rendering::RenderContext>,void>` | baseclass_0
 96 | (72) `cg::taskorder::DependencyBuilder<dragon::framegraph::dependency::BindFramebufferDepth<dragon::rendering::RenderContext>,dragon::framegraph::dependency::BindMaterialTexture<dragon::rendering::RenderContext>,dragon::framegraph::dependency::BindFramebufferColor<dragon::rendering::RenderContext> >` | mDependencies
 
 
 ### `cg::taskorder::DependencyBuilder<dragon::framegraph::dependency::BindFramebufferDepth<dragon::rendering::RenderContext>,dragon::framegraph::dependency::BindMaterialTexture<dragon::rendering::RenderContext>,dragon::framegraph::dependency::BindFramebufferColor<dragon::rendering::RenderContext> >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (72) `std::tuple<dragon::framegraph::dependency::BindFramebufferDepth<dragon::rendering::RenderContext>,dragon::framegraph::dependency::BindMaterialTexture<dragon::rendering::RenderContext>,dragon::framegraph::dependency::BindFramebufferColor<dragon::rendering::RenderContext> >` | mDependencies
 
 
 ### `cg::taskorder::TaskBuilderWithActionAndDependencies<dragon::framegraph::ExecutionContext<dragon::rendering::RenderContext>,void,dragon::framegraph::dependency::BindFramebufferColor<dragon::rendering::RenderContext> >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (96) `cg::taskorder::TaskBuilderWithAction<dragon::framegraph::ExecutionContext<dragon::rendering::RenderContext>,void>` | baseclass_0
 96 | (24) `cg::taskorder::DependencyBuilder<dragon::framegraph::dependency::BindFramebufferColor<dragon::rendering::RenderContext> >` | mDependencies
 
 
 ### `Core::CpuRingBufferAllocator<dragon::frameobject::SceneLightingInformation::PointLight,2,0,Core::CheckedRingBuffer<2,0> >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Core::CheckedRingBuffer<2,0> *` | mBufferInstance
 
 
 ### `cg::TextureMetaData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `cg::TextureMetaData::FilterMode` | mFilterMin
 4 | (4) `cg::TextureMetaData::FilterMode` | mFilterMag
 8 | (4) `cg::TextureMetaData::FilterMode` | mFilterMip
@@ -2258,12 +2258,12 @@ Offset | Type | Name
 
 ### `ChunkRenderObjectCollection::addToChunkQueue::__l2::<lambda_4669a033a94b2cbc882de43740c3bcf3>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ChunkRenderData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (12) `glm::tvec3<int,0>` | mPosition
 16 | (8) `long double` | mReadyTimeDiff
 24 | (24) `const std::variant<std::monostate,std::shared_ptr<mce::IndexBufferContainer>,std::shared_ptr<RenderChunkDirectIndexData> >` | mChunkIndices
@@ -2273,20 +2273,20 @@ Offset | Type | Name
 
 ### `CameraShakeEvent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float` | mIntensity
 4 | (4) `float` | mDuration
 
 
 ### `CameraShakeSystem::tick::__l2::<lambda_ff1179873d2d698a099b81d15231fa79>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `CameraShakeSystem *const` | __this
 
 
 ### `CommandParameterData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `typeid_t<CommandRegistry>` | mTypeIndex
 8 | (8) `bool (__fastcall *)(CommandRegistry *this, void *, const CommandRegistry::ParseToken *, const CommandOrigin *, int, std::string *, std::vector<std::string> *)` | mParse
 16 | (32) `std::string` | mName
@@ -2301,20 +2301,20 @@ Offset | Type | Name
 
 ### `CommandSelectorResults<Player>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<std::vector<Actor *> >` | mTargets
 
 
 ### `CommandOutputParameter`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | mString
 32 | (4) `int` | mCount
 
 
 ### `ChunkLoadedRequest`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `AreaType` | mAreaType
 4 | (48) `Bounds` | mBounds
 56 | (32) `std::string` | mTickingAreaName
@@ -2324,13 +2324,13 @@ Offset | Type | Name
 
 ### `CommandAreaFactory`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Dimension *` | mDimension
 
 
 ### `cg::TextureSetLayerDefinition`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `Bedrock::EnableNonOwnerReferences` | baseclass_0
 16 | (208) `std::variant<ResourceLocationPair,ColorChannel,mce::Color>` | mData
 224 | (4) `cg::TextureSetLayerType` | mLayerType
@@ -2338,126 +2338,126 @@ Offset | Type | Name
 
 ### `ComponentItem::_validateServerSchemaAndInitItem::__l2::<lambda_8fbf7210d948bc9a2c7c196ed13498ff>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ComponentItem *const` | __this
 8 | (112) `SemVersion` | version
 
 
 ### `ComponentItem::_validateClientSchemaAndInitItem::__l2::<lambda_e04caa0b9c3fce21a3adffae430565da>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ComponentItem *const` | __this
 8 | (112) `SemVersion` | version
 
 
 ### `CerealItemComponentFactory::registerComponent::__l2::<lambda_4b0d6bde792ed619e67322018f9b43c7>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `CerealItemComponentFactory::registerComponent::__l2::<lambda_646300c760a21a5dee87bd50ffc76f84>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `CerealItemComponentFactory::registerComponent::__l2::<lambda_bde458400d5e0c936f319b6fbc51f7ea>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `CerealItemComponentFactory::registerComponent::__l2::<lambda_08a8fb2c819f7557ca2eb39a18b10555>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `CerealItemComponentFactory::registerComponent::__l2::<lambda_7ac0608cb5cbb757eac814257996d998>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `CerealItemComponentFactory::registerComponent::__l2::<lambda_27740b06e312776918dffed8bff42b16>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `CerealItemComponentFactory::registerComponent::__l2::<lambda_6bba8aa0feff95e899fc6a8a254ef7bc>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `CerealItemComponentFactory::registerComponent::__l2::<lambda_700e819f7949a3cf2c4a087a7587af4f>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `CerealItemComponentFactory::registerComponent::__l2::<lambda_cb4ad2fefaa769f49c3ee0dd42da1168>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `CerealItemComponentFactory::registerComponent::__l2::<lambda_5d561c02c26be577f9c5dd22c1d3cc29>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `CerealItemComponentFactory::registerComponent::__l2::<lambda_d887d12a5e8c683324eafb3aff797194>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `CerealItemComponentFactory::registerComponent::__l2::<lambda_2ae06341078d5910279305cbe94f0403>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `CerealItemComponentFactory::registerComponent::__l2::<lambda_d430a32fa966086497fdee2689d5f072>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `CerealItemComponentFactory::registerComponent::__l2::<lambda_2e61ce2ecee42b8c801d2a0fce372345>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `CerealItemComponentFactory::registerComponent::__l2::<lambda_f11da43554209a966dd612f49a500c13>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `CerealItemComponentFactory::registerComponent::__l2::<lambda_d138d2cc7881ec912693e17053aa36d3>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `CerealItemComponentFactory::registerComponent::__l2::<lambda_08c154647375c28c098b616470505c81>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `CerealItemComponentFactory::registerComponent::__l2::<lambda_8d2b9f4c977ef7bcf18b00933e8d133c>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `CerealItemComponentFactory::registerComponent::__l2::<lambda_720d686375472b328e72c11b0a4529c9>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `CerealItemComponentFactory::registerComponent::__l2::<lambda_f00f608ba659db531edffcb30f33581b>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `CerealItemComponentFactory::registerComponent::__l2::<lambda_4f2170e72cbb54e6a6a019874716cd58>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `CappedSurfaceAttributes`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<CappedSurfaceAttributes::MaterialLayer>` | mFloorMaterials
 24 | (24) `std::vector<CappedSurfaceAttributes::MaterialLayer>` | mCeilingMaterials
 48 | (8) `const Block *` | mSeaMaterial
@@ -2468,7 +2468,7 @@ Offset | Type | Name
 
 ### `CommandRegistry::Parser`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const CommandRegistry *` | mRegistry
 8 | (8) `const CommandRegistry::ParseTable *` | mParseTable
 16 | (40) `std::deque<std::pair<CommandRegistry::Symbol,CommandRegistry::ParseToken *>>` | mStack
@@ -2484,7 +2484,7 @@ Offset | Type | Name
 
 ### `CommandRegistry::LexicalToken`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const char *` | mText
 8 | (4) `unsigned int` | mLength
 12 | (4) `CommandRegistry::Symbol` | mType
@@ -2494,25 +2494,25 @@ Offset | Type | Name
 
 ### `ContextAccessor`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `unsigned __int16` | mTypeId
 8 | (8) `std::unique_ptr<ContextAccessor::TypeBase>` | mContext
 
 
 ### `CompoundTagVariant`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (48) `std::variant<EndTag,ByteTag,ShortTag,IntTag,Int64Tag,FloatTag,DoubleTag,ByteArrayTag,StringTag,ListTag,CompoundTag,IntArrayTag>` | mTagStorage
 
 
 ### `CompoundTagVariant::copy::__l2::<lambda_847acbaa2673dfafb4b947487bdf32fd>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ClassroomModeNetworkHandler::onWebsocketRequest::__l13::<lambda_f8f06f33a691ac69d078ed77b77cf8f8>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ClassroomModeNetworkHandler *const` | __this
 8 | (32) `const std::string` | serverAddress
 40 | (64) `std::function<void __cdecl(void)>` | errorCallback
@@ -2520,14 +2520,14 @@ Offset | Type | Name
 
 ### `ClassroomModeNetworkHandler::_connect::__l2::<lambda_4c552053559105a51c96d1cc72ebc426>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ClassroomModeNetworkHandler *const` | __this
 8 | (32) `const std::string` | address
 
 
 ### `CommandOriginData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `CommandOriginType` | mType
 8 | (16) `mce::UUID` | mUUID
 24 | (32) `std::string` | mRequestId
@@ -2536,7 +2536,7 @@ Offset | Type | Name
 
 ### `CommandOutputMessage`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `CommandOutputMessageType` | mType
 8 | (32) `std::string` | mMessageId
 40 | (24) `std::vector<std::string>` | mParams
@@ -2544,7 +2544,7 @@ Offset | Type | Name
 
 ### `CraftingDataEntry`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::unique_ptr<Recipe>` | mRecipe
 8 | (4) `int` | mItemData
 12 | (4) `int` | mItemAux
@@ -2555,7 +2555,7 @@ Offset | Type | Name
 
 ### `CreativeItemEntry`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `Bedrock::EnableNonOwnerReferences` | baseclass_0
 16 | (8) `CreativeItemRegistry *` | mRegistry
 24 | (4) `unsigned int` | mGroupIndex
@@ -2566,7 +2566,7 @@ Offset | Type | Name
 
 ### `ConnectionDefinition`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `unsigned __int16` | ipv4Port
 2 | (2) `unsigned __int16` | ipv6Port
 4 | (4) `ConnectionDefinition::PortBusyFallbackPolicy` | fallback
@@ -2576,7 +2576,7 @@ Offset | Type | Name
 
 ### `Connector::NatPunchInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | isValid
 1 | (1) `bool` | addressIsDirty
 2 | (1) `bool` | succeeded
@@ -2589,7 +2589,7 @@ Offset | Type | Name
 
 ### `CommandBlockUpdatePacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `Packet` | baseclass_0
 40 | (12) `NetworkBlockPosition` | mBlockPos
 52 | (2) `_BYTE[2]` | mMode
@@ -2607,7 +2607,7 @@ Offset | Type | Name
 
 ### `ClientboundMapItemDataPacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `Packet` | baseclass_0
 40 | (24) `std::vector<ActorUniqueID>` | mMapIds
 64 | (1) `char` | mScale
@@ -2625,7 +2625,7 @@ Offset | Type | Name
 
 ### `ConditionalBandwidthOptimization`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float` | mMaxOptimizedDistance
 8 | (8) `unsigned __int64` | mMaxDroppedTicks
 16 | (1) `bool` | mUseMotionPredictionHints
@@ -2634,7 +2634,7 @@ Offset | Type | Name
 
 ### `ConditionalBandwidthOptimizationComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (88) `ConditionalBandwidthOptimization` | mDefaultValues
 88 | (24) `std::vector<ConditionalBandwidthOptimization>` | mConditionalValues
 112 | (8) `Tick` | mLastRequestedValuesTick
@@ -2643,34 +2643,34 @@ Offset | Type | Name
 
 ### `ContentTierManager::ValidatorRegistry::ValidatorRegistryValidators`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::function<ContentTierIncompatibleReason __cdecl(PackInstance const &,ContentTierInfo const &)>` | mFuncPackValidator
 64 | (64) `std::function<ContentTierIncompatibleReason __cdecl(SubpackInfo const &,ContentTierInfo const &)>` | mFuncSubpackValidator
 
 
 ### `Crypto::Symmetric::Symmetric`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Crypto::Symmetric::ISystemInterface` | baseclass_0
 8 | (8) `std::unique_ptr<Crypto::Symmetric::ISystemInterface>` | mInterface
 
 
 ### `Crypto::Symmetric::ISystemInterface`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Crypto::Symmetric::ISystemInterface_vtbl *` | __vftable
 
 
 ### `Core::ExcludedPath`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `Core::PathBuffer<std::string >` | mPath
 32 | (1) `bool` | mCopyLooseFile
 
 
 ### `Core::ZipUtils::ZipSettings`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (48) `Core::ZipUtils::ZipFileRestrictions` | mRestrictions
 48 | (1) `bool` | mZipDirectoryContents
 49 | (1) `bool` | mSkipInaccessibleFiles
@@ -2682,26 +2682,26 @@ Offset | Type | Name
 
 ### `Core::FileSystem::copyFile::__l2::<lambda_98acb2cebb3139e7dcaf8bae69363f0a>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `Core::UnzipFile`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::unique_ptr<ZlibFileAccessWrapper>` | mZipFileSystemWrapper
 8 | (8) `std::unique_ptr<Core::UnzipInternals>` | mZipFile
 
 
 ### `ClientBlobCache::Server::Blob`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const unsigned __int64` | id
 8 | (32) `const std::string` | data
 
 
 ### `CommandIntegerRange`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mMinValue
 4 | (4) `int` | mMaxValue
 8 | (1) `bool` | mInvert
@@ -2709,13 +2709,13 @@ Offset | Type | Name
 
 ### `CommandRegistry::parseSelector::__l243::<lambda_c6bfa6ab44c8dc5137236fba12271e1d>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::pair<float,float>` | xRotation
 
 
 ### `CommandRegistry::Signature`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | name
 32 | (32) `std::string` | description
 64 | (24) `std::vector<CommandRegistry::Overload>` | overloads
@@ -2731,14 +2731,14 @@ Offset | Type | Name
 
 ### `CommandLexer`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const std::string *` | mInput
 8 | (16) `CommandLexer::Token` | mToken
 
 
 ### `CommandLexer::Token`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const char *` | text
 8 | (4) `unsigned int` | length
 12 | (4) `CommandLexer::TokenType` | type
@@ -2746,7 +2746,7 @@ Offset | Type | Name
 
 ### `CommandRegistry::RegistryState`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | signatureCount
 4 | (4) `unsigned int` | enumValueCount
 8 | (4) `unsigned int` | postfixCount
@@ -2762,13 +2762,13 @@ Offset | Type | Name
 
 ### `CommandItem`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `$F8070BC88C1447D17F82F88E7F729FB1` | ___u0
 
 
 ### `CloneCommand::execute::__l2::CloneBlockInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (12) `BlockPos` | mPos
 16 | (8) `const Block *` | mState
 24 | (8) `std::unique_ptr<CompoundTag>` | mTag
@@ -2776,13 +2776,13 @@ Offset | Type | Name
 
 ### `ClientBlobCache::Server::TransferBuilder`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (224) `ClientBlobCache::Server::ActiveTransfer` | mTransfer
 
 
 ### `ClientBlobCache::Server::ActiveTransfer`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ClientBlobCache::Server::ActiveTransfersManager *` | mCache
 8 | (152) `NetworkIdentifier` | mOwner
 160 | (64) `std::unordered_map<unsigned __int64,std::shared_ptr<ClientBlobCache::Server::Blob>>` | mIdsWaitingForACK
@@ -2790,14 +2790,14 @@ Offset | Type | Name
 
 ### `ChunkPositionAndDimension`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ChunkPos` | mPos
 8 | (4) `AutomaticID<Dimension,int>` | mType
 
 
 ### `ContainerDescription`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ComponentDescription` | baseclass_0
 8 | (4) `int` | mSize
 12 | (1) `bool` | mCanBesiphonedFrom
@@ -2809,7 +2809,7 @@ Offset | Type | Name
 
 ### `CrashDumpEventData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `_BYTE[2]` | mTag0
 2 | (2) `_BYTE[2]` | mTag1
 4 | (4) `int` | mEventThreadId
@@ -2817,47 +2817,47 @@ Offset | Type | Name
 
 ### `CompoundTagUpdaterBuilder::match::__l2::<lambda_d6e645fd0760b5869a1c1fbc97f375e0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `const std::string` | tagName
 32 | (32) `std::string` | pattern
 
 
 ### `CompoundTagUpdaterBuilder::tryEdit::__l2::<lambda_331080c9253f49c0e39d20a115988e3c>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `const std::string` | tagName
 32 | (64) `std::function<void __cdecl(CompoundTagEditHelper &)>` | update
 
 
 ### `CompoundTagUpdaterBuilder::rename::__l2::<lambda_4bed7a15ca03b6882a582c4103e2a48e>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `const std::string` | tagName
 32 | (32) `const std::string` | newTagName
 
 
 ### `Core::ZipUtils::ZipProgressList`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<std::shared_ptr<Core::ZipUtils::ZipProgress>>` | mZipProgress
 24 | (80) `std::mutex` | mProgressLock
 
 
 ### `ClientParticleInitializationComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<ParticleInitializationData>` | mParticleInitializationData
 
 
 ### `ContainerValidation::assignValidationDelegates::__l12::<lambda_f3de1f01db6586c03466a09e7bf05768>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `const ContainerScreenContext` | screenContext
 
 
 ### `CraftableCompounds`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `CraftableCompounds_vtbl *` | __vftable
 8 | (64) `std::unordered_map<std::string,ItemStack>` | mComponentsToCompound
 72 | (64) `std::unordered_map<int,std::vector<ItemStack>>` | mCompoundToComponents
@@ -2867,13 +2867,13 @@ Offset | Type | Name
 
 ### `ChemistryIngredient`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (240) `ItemInstance` | mItem
 
 
 ### `CreateContainerItemScope`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const SlotData *const` | mSrcSlot
 8 | (16) `std::shared_ptr<ContainerController>` | mCreatedItemContainerController
 24 | (16) `ItemStackRequestScope` | mItemStackRequestScope
@@ -2881,7 +2881,7 @@ Offset | Type | Name
 
 ### `Container`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Container_vtbl *` | __vftable
 8 | (1) `ContainerType` | mContainerType
 9 | (1) `ContainerType` | mGameplayContainerType
@@ -2895,7 +2895,7 @@ Offset | Type | Name
 
 ### `ContainerManagerController`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ContainerManagerController_vtbl *` | __vftable
 8 | (16) `std::enable_shared_from_this<ContainerManagerController>` | baseclass_8
 24 | (16) `std::weak_ptr<ContainerManagerModel>` | mContainerManagerModel
@@ -2908,7 +2908,7 @@ Offset | Type | Name
 
 ### `ChestBlockTryPairEvent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `const std::shared_ptr<BlockSourceHandle>` | mBlockSourceHandle
 16 | (12) `const Vec3` | mBlockPos
 28 | (12) `const Vec3` | mOtherBlockPos
@@ -2916,7 +2916,7 @@ Offset | Type | Name
 
 ### `CraftingContainer`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (224) `Container` | baseclass_0
 224 | (24) `std::vector<ItemStack>` | mItems
 248 | (4) `int` | mWidth
@@ -2924,7 +2924,7 @@ Offset | Type | Name
 
 ### `ContainerWeakRef`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ActorUniqueID` | mContainerActor
 8 | (4) `ActorContainerType` | mActorContainerType
 12 | (12) `BlockPos` | mBlockPosition
@@ -2933,7 +2933,7 @@ Offset | Type | Name
 
 ### `ContainerWeakRefData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Container *` | mContainer
 8 | (8) `Actor *` | mActor
 16 | (8) `BlockActor *` | mBlockActor
@@ -2941,31 +2941,31 @@ Offset | Type | Name
 
 ### `ContainerScreenContextComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `ContainerScreenContext` | mContext
 
 
 ### `ConnectionComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::set<HashedString>` | mConnection
 
 
 ### `CompoundTagUpdaterBuilder`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `CompoundTagUpdater *` | mUpdater
 
 
 ### `CommandSoftEnumRegistry`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `CommandRegistry *` | mRegistry
 
 
 ### `CachedComponentData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float` | mFriction
 4 | (4) `float` | mDestroySpeed
 8 | (4) `int` | mBurnOdds
@@ -2977,7 +2977,7 @@ Offset | Type | Name
 
 ### `ChunkViewSource`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (56) `ChunkSource` | baseclass_0
 56 | (4) `_BYTE[4]` | mParentLoadMode
 64 | (296) `GridArea<std::shared_ptr<LevelChunk> >` | mArea
@@ -2986,14 +2986,14 @@ Offset | Type | Name
 
 ### `ColumnCachedData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | grassColor
 4 | (4) `int` | waterColor
 
 
 ### `ConsoleChunkBlender`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `SpinLock` | mSpinLock
 32 | (16) `float[2][2]` | mInterpCorners
 48 | (1024) `float[16][16]` | mInterpTable
@@ -3001,7 +3001,7 @@ Offset | Type | Name
 
 ### `CircuitComponentList::Item`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `BaseCircuitComponent *` | mComponent
 8 | (4) `int` | mDampening
 12 | (12) `BlockPos` | mPos
@@ -3012,7 +3012,7 @@ Offset | Type | Name
 
 ### `CircuitSceneGraph::PendingEntry`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `BaseCircuitComponent *` | mRawComponentPtr
 8 | (8) `std::unique_ptr<BaseCircuitComponent>` | mComponent
 16 | (12) `BlockPos` | mPos
@@ -3020,7 +3020,7 @@ Offset | Type | Name
 
 ### `CircuitTrackingInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `CircuitTrackingInfo::Entry` | mCurrent
 32 | (32) `CircuitTrackingInfo::Entry` | mPower
 64 | (32) `CircuitTrackingInfo::Entry` | mNearest
@@ -3032,7 +3032,7 @@ Offset | Type | Name
 
 ### `CircuitTrackingInfo::Entry`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `BaseCircuitComponent *` | mComponent
 8 | (12) `BlockPos` | mPos
 20 | (1) `unsigned __int8` | mDirection
@@ -3041,13 +3041,13 @@ Offset | Type | Name
 
 ### `CircuitComponentList`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<CircuitComponentList::Item>` | mComponents
 
 
 ### `Concurrency::task_options`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `Concurrency::scheduler_ptr` | _M_Scheduler
 24 | (8) `Concurrency::cancellation_token` | _M_CancellationToken
 32 | (16) `Concurrency::task_continuation_context` | _M_ContinuationContext
@@ -3058,54 +3058,54 @@ Offset | Type | Name
 
 ### `Concurrency::scheduler_ptr`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<Concurrency::scheduler_interface>` | _M_sharedScheduler
 16 | (8) `Concurrency::scheduler_interface *` | _M_scheduler
 
 
 ### `Concurrency::cancellation_token`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Concurrency::details::_CancellationTokenState *` | _M_Impl
 
 
 ### `Concurrency::task_continuation_context`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Concurrency::details::_ContextCallback` | baseclass_0
 8 | (1) `bool` | _M_RunInline
 
 
 ### `Concurrency::details::_ContextCallback`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Concurrency::details::_ContextCallback::<unnamed_type__M_context>` | _M_context
 
 
 ### `Concurrency::details::_ContextCallback::<unnamed_type__M_context>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `void *` | _M_pContextCallback
 1 | (8) `unsigned __int64` | _M_captureMethod
 
 
 ### `Concurrency::details::_Internal_task_options`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | _M_hasPresetCreationCallstack
 8 | (32) `Concurrency::details::_TaskCreationCallstack` | _M_presetCreationCallstack
 
 
 ### `Concurrency::details::_TaskCreationCallstack`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `void *` | _M_SingleFrame
 8 | (24) `std::vector<void *>` | _M_frames
 
 
 ### `ChangeModelPacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `Packet` | baseclass_0
 40 | (8) `ActorUniqueID` | mEntityId
 48 | (32) `std::string` | mModelName
@@ -3113,7 +3113,7 @@ Offset | Type | Name
 
 ### `ChangeModelTexturePacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `Packet` | baseclass_0
 40 | (8) `ActorUniqueID` | mEntityId
 48 | (32) `std::string` | mModelTexture
@@ -3123,14 +3123,14 @@ Offset | Type | Name
 
 ### `CustomPacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `Packet` | baseclass_0
 40 | (32) `std::string` | mContent
 
 
 ### `Crypto::Hash::md5`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Crypto::Hash::IHash` | baseclass_0
 8 | (4) `unsigned int` | _lo
 12 | (4) `unsigned int` | _hi
@@ -3144,7 +3144,7 @@ Offset | Type | Name
 
 ### `ConfirmSkinPacket::ConfirmSkinEntry`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | mValid
 8 | (16) `mce::UUID` | mUUID
 24 | (32) `std::string` | mSkinImageData
@@ -3152,7 +3152,7 @@ Offset | Type | Name
 
 ### `Core::FilePathManager`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | mIsDedicatedServer
 8 | (32) `Core::PathBuffer<std::string >` | mLibraryRoot
 40 | (32) `Core::PathBuffer<std::string >` | mDocumentRoot
@@ -3167,58 +3167,58 @@ Offset | Type | Name
 
 ### `Core::Cache<unsigned __int64,dragon::rendering::BufferResourceManager<dragon::mesh::IndexBufferType>::BufferResource,std::shared_ptr<dragon::rendering::BufferResourceManager<dragon::mesh::IndexBufferType>::BufferResource> >::CacheDefaultFactory<dragon::rendering::BufferResourceManager<dragon::mesh::IndexBufferType>::BufferResource,std::shared_ptr<dragon::rendering::BufferResourceManager<dragon::mesh::IndexBufferType>::BufferResource> >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `Core::Cache<unsigned __int64,dragon::rendering::BufferResourceManager<dragon::mesh::VertexBufferType>::BufferResource,std::shared_ptr<dragon::rendering::BufferResourceManager<dragon::mesh::VertexBufferType>::BufferResource> >::CacheDefaultFactory<dragon::rendering::BufferResourceManager<dragon::mesh::VertexBufferType>::BufferResource,std::shared_ptr<dragon::rendering::BufferResourceManager<dragon::mesh::VertexBufferType>::BufferResource> >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `Core::CpuRingBufferAllocator<std::_Tree_node<std::pair<dragon::framegraph::detail::AbstractPass<dragon::rendering::RenderContext> const * const,std::unique_ptr<dragon::framegraph::detail::AbstractPass<dragon::rendering::RenderContext>,std::default_delete<dragon::framegraph::detail::AbstractPass<dragon::rendering::RenderContext> > > >,void *>,2,0,Core::CheckedRingBuffer<2,0> >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Core::CheckedRingBuffer<2,0> *` | mBufferInstance
 
 
 ### `Core::CpuRingBufferAllocator<std::_Tree_node<int,void *>,2,0,Core::CheckedRingBuffer<2,0> >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Core::CheckedRingBuffer<2,0> *` | mBufferInstance
 
 
 ### `Core::CpuRingBufferAllocator<dragon::framegraph::detail::AbstractPass<dragon::rendering::RenderContext> const *,2,0,Core::CheckedRingBuffer<2,0> >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Core::CheckedRingBuffer<2,0> *` | mBufferInstance
 
 
 ### `Core::CpuRingBufferAllocator<std::_Tree_node<std::pair<dragon::framegraph::detail::AbstractResource<dragon::rendering::RenderContext> const * const,dragon::res::ServerTexture>,void *>,2,0,Core::CheckedRingBuffer<2,0> >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Core::CheckedRingBuffer<2,0> *` | mBufferInstance
 
 
 ### `cg::details::ScopedFrame<cg::TaskDispatcher<cg::TaskScheduler<cg::LambdaExecutor<dragon::rendering::RenderContext,cg::TaskPoolGroupExecutionPolicy<dragon::rendering::RenderContext,1>,std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &,std::vector<cg::GroupPoolDescription,std::allocator<cg::GroupPoolDescription> > const &> > >::TaskDispatcherExecution,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `cg::TaskDispatcher<cg::TaskScheduler<cg::LambdaExecutor<dragon::rendering::RenderContext,cg::TaskPoolGroupExecutionPolicy<dragon::rendering::RenderContext,1>,std::string const &,std::vector<cg::GroupPoolDescription> const &> > > *` | mDispatcher
 
 
 ### `cg::TaskPoolGroupExecutionPolicy<dragon::rendering::RenderContext,1>::{ctor}::__l2::<lambda_38b95ff2bedc8501d3bbf586eabb0e1e>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `cg::TaskPoolGroupExecutionPolicy<dragon::rendering::RenderContext,1> *const` | __this
 
 
 ### `Core::Cache<unsigned __int64,dragon::rendering::BufferResourceManager<dragon::rendering::TextureResourceType>::BufferResource,std::shared_ptr<dragon::rendering::BufferResourceManager<dragon::rendering::TextureResourceType>::BufferResource> >::CacheDefaultFactory<dragon::rendering::BufferResourceManager<dragon::rendering::TextureResourceType>::BufferResource,std::shared_ptr<dragon::rendering::BufferResourceManager<dragon::rendering::TextureResourceType>::BufferResource> >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ClimateAttributes`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float` | mTemperature
 4 | (4) `float` | mDownfall
 8 | (4) `float` | mRedSporeDensity
@@ -3231,20 +3231,20 @@ Offset | Type | Name
 
 ### `CanopyVariantBuilder::buildCanopyVariant::__l2::<lambda_d70ff2a45c19225400bf0b1fd63f432d>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::function<ITreeCanopyWrapper & __cdecl(FeatureLoading::ConcreteFeatureHolder<VanillaTreeFeature> *)>` | canopyAccessor
 
 
 ### `CachedBiomeSource<VanillaOverworldBiomeSource>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `VanillaOverworldBiomeSource` | baseclass_0
 40 | (16) `std::shared_ptr<BiomeSourceGetBiomeCache>` | mCache
 
 
 ### `CameraItemComponentLegacy`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ICameraItemComponent` | baseclass_0
 8 | (4) `float` | mBlackBarsDuration
 12 | (4) `float` | mBlackBarsScreenRatio
@@ -3260,7 +3260,7 @@ Offset | Type | Name
 
 ### `CustomBlob`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IDxcBlob` | baseclass_0
 8 | (8) `void *` | data
 16 | (8) `unsigned __int64` | size
@@ -3268,25 +3268,25 @@ Offset | Type | Name
 
 ### `CaretLocationData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | location
 
 
 ### `ConnectionStateData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | isConnected
 
 
 ### `ChangeUserData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | restrictToControllerIdChange
 
 
 ### `compression_state`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const unsigned __int8 *` | input
 8 | (8) `unsigned __int64` | input_len
 16 | (4) `unsigned int` | output_len
@@ -3295,13 +3295,13 @@ Offset | Type | Name
 
 ### `Core::FileStorageArea::_beginTransaction::__l5::<lambda_299c7b1db8373c80435acd53fe6c3bdb>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Core::FileStorageArea *const` | __this
 
 
 ### `Core::TransactionFrame`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<Core::FileSystemImpl>` | msptTransaction
 16 | (1040) `Core::PathBuffer<Core::StackString<char,1024> >` | mCleanPath
 1056 | (72) `Core::Result` | mResult
@@ -3309,14 +3309,14 @@ Offset | Type | Name
 
 ### `Core::FileSystemImpl::renameFileOrDirectory::__l15::<lambda_455282c5f2c9971e330b5e9517f1b8d0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `const Core::Path` | sourceEntryPath
 32 | (32) `const Core::Path` | targetEntryPath
 
 
 ### `Core::FileSystemImpl::renameFileOrDirectory::__l18::<lambda_a88ce22f21287b4119b5de040b24fbd2>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<Core::PathPart>` | sourceDirectoryRelativeFiles
 24 | (32) `const Core::Path` | sourceEntryPath
 56 | (32) `const Core::Path` | targetEntryPath
@@ -3324,21 +3324,21 @@ Offset | Type | Name
 
 ### `Core::FlatFileSearchResult`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<Core::FlatFileManifest const >` | mManifest
 16 | (8) `const Core::FlatFileManifestInfo *` | mManifestInfoEntry
 
 
 ### `Core::Result::either::__l2::<lambda_febe3dbf8fbc4fa631ce502a657ef1ea>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (72) `Core::Result` | r1
 72 | (72) `Core::Result` | r2
 
 
 ### `CrashDump_AllData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int64` | mStartSentinel
 8 | (4) `int` | mFormatSize
 12 | (4) `int` | mDataBlobCount
@@ -3357,7 +3357,7 @@ Offset | Type | Name
 
 ### `CrashDumpGlobalData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `CrashDumpLogBlobHeader` | baseclass_0
 16 | (32) `char[32]` | mPlatform
 48 | (32) `char[32]` | mGameVersion
@@ -3374,7 +3374,7 @@ Offset | Type | Name
 
 ### `CrashDumpLogBlobHeader`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `CrashDumpLogSectionType` | mType
 4 | (4) `unsigned int` | mSize
 8 | (4) `unsigned int` | mIndex
@@ -3383,28 +3383,28 @@ Offset | Type | Name
 
 ### `CrashDumpEventDataArray`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `CrashDumpLogBlobHeader` | baseclass_0
 16 | (32768) `CrashDumpEventData[4096]` | mEventData
 
 
 ### `CrashDumpKeyValueDataArray`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `CrashDumpLogBlobHeader` | baseclass_0
 16 | (8192) `CrashDumpKeyValueData[512]` | mKeyValueData
 
 
 ### `CrashDumpFrameDataArray`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `CrashDumpLogBlobHeader` | baseclass_0
 16 | (256) `CrashDumpFrameData[8]` | mFrameData
 
 
 ### `CrashDumpFrameData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | mNumControllers
 4 | (4) `unsigned int` | mPrimaryControllerId
 8 | (8) `unsigned __int64` | mFreeMemory
@@ -3416,21 +3416,21 @@ Offset | Type | Name
 
 ### `CrashDumpGameplayDataArray`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `CrashDumpLogBlobHeader` | baseclass_0
 16 | (1536) `CrashDumpGameplayData[128]` | mGameplayData
 
 
 ### `CrashDumpRenderDataArray`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `CrashDumpLogBlobHeader` | baseclass_0
 16 | (1024) `CrashDumpRenderData[128]` | mRenderData
 
 
 ### `CrashDumpRenderData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `_BYTE[2]` | mTag
 2 | (2) `__int16` | mPad
 4 | (4) `int` | mObjectId
@@ -3438,40 +3438,40 @@ Offset | Type | Name
 
 ### `CrashDumpPlayerDataArray`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `CrashDumpLogBlobHeader` | baseclass_0
 16 | (256) `CrashDumpPlayerData[4]` | mPlayerData
 
 
 ### `CrashDumpPlayerData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `char[64]` | mSceneStack
 
 
 ### `CrashDumpFirstAssertsDataArray`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `CrashDumpLogBlobHeader` | baseclass_0
 16 | (384) `CrashDumpAssertData[3]` | mAssertData
 
 
 ### `CrashDumpAssertData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (128) `char[128]` | mAssertMessage
 
 
 ### `CrashDumpLastAssertsDataArray`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `CrashDumpLogBlobHeader` | baseclass_0
 16 | (384) `CrashDumpAssertData[3]` | mAssertData
 
 
 ### `CFF_ParserRec_`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `FT_LibraryRec_ *` | library
 8 | (8) `unsigned __int8 *` | start
 16 | (8) `unsigned __int8 *` | limit
@@ -3487,7 +3487,7 @@ Offset | Type | Name
 
 ### `CFF_IndexRec_`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `FT_StreamRec_ *` | stream
 8 | (4) `unsigned int` | start
 12 | (4) `unsigned int` | hdr_size
@@ -3501,7 +3501,7 @@ Offset | Type | Name
 
 ### `CID_Parser_`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (144) `PS_ParserRec_` | root
 144 | (8) `FT_StreamRec_ *` | stream
 152 | (8) `unsigned __int8 *` | postscript
@@ -3514,7 +3514,7 @@ Offset | Type | Name
 
 ### `CF2_Matrix_`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | a
 4 | (4) `int` | b
 8 | (4) `int` | c
@@ -3525,7 +3525,7 @@ Offset | Type | Name
 
 ### `CF2_BufferRec_`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `int *` | error
 8 | (8) `const unsigned __int8 *` | start
 16 | (8) `const unsigned __int8 *` | end
@@ -3534,7 +3534,7 @@ Offset | Type | Name
 
 ### `CF2_HintMaskRec_`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `int *` | error
 8 | (1) `unsigned __int8` | isValid
 9 | (1) `unsigned __int8` | isNew
@@ -3545,7 +3545,7 @@ Offset | Type | Name
 
 ### `CF2_HintRec_`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | flags
 8 | (8) `unsigned __int64` | index
 16 | (4) `int` | csCoord
@@ -3555,7 +3555,7 @@ Offset | Type | Name
 
 ### `CF2_GlyphPathRec_`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `CF2_FontRec_ *` | font
 8 | (8) `CF2_OutlineCallbacksRec_ *` | callbacks
 16 | (6184) `CF2_HintMapRec_` | hintMap
@@ -3594,7 +3594,7 @@ Offset | Type | Name
 
 ### `CF2_HintMapRec_`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `CF2_FontRec_ *` | font
 8 | (8) `CF2_HintMapRec_ *` | initialHintMap
 16 | (8) `CF2_ArrStackRec_ *` | hintMoves
@@ -3608,7 +3608,7 @@ Offset | Type | Name
 
 ### `CF2_ArrStackRec_`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `FT_MemoryRec_ *` | memory
 8 | (8) `int *` | error
 16 | (8) `unsigned __int64` | sizeItem
@@ -3621,7 +3621,7 @@ Offset | Type | Name
 
 ### `cookie_type`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int64` | start_pos
 8 | (4) `int` | dec_flags
 12 | (4) `int` | bytes_to_feed
@@ -3631,7 +3631,7 @@ Offset | Type | Name
 
 ### `compiling`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `char *` | c_encoding
 8 | (4) `int` | c_future_unicode
 16 | (8) `_arena *` | c_arena
@@ -3640,7 +3640,7 @@ Offset | Type | Name
 
 ### `compiler`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const char *` | c_filename
 8 | (8) `symtable *` | c_st
 16 | (8) `?` | c_future
@@ -3654,7 +3654,7 @@ Offset | Type | Name
 
 ### `Core::CpuRingBufferAllocator<dragon::platform::registry::BasicRenderRegistry<dragon::frameobject::components::ComputeDispatch,dragon::frameobject::components::ViewSetId,dragon::frameobject::components::defaultpasses::AlphaTest,dragon::frameobject::components::defaultpasses::Blit,dragon::frameobject::components::defaultpasses::Opaque,dragon::frameobject::components::defaultpasses::StencilWrite,dragon::frameobject::components::defaultpasses::Transparent,dragon::frameobject::components::defaultpasses::PostFX,dragon::frameobject::components::defaultpasses::UI,dragon::frameobject::components::LightParameters,dragon::frameobject::components::DirectionalLight,dragon::frameobject::components::AmbientLight,dragon::frameobject::components::PointLight,dragon::frameobject::components::MeshFilter,dragon::frameobject::components::MaterialFilter,dragon::frameobject::components::ParticleObject,dragon::frameobject::components::PassState,dragon::frameobject::components::PostEffect,dragon::frameobject::components::RenderTarget,dragon::frameobject::components::SceneObject,dragon::frameobject::components::SceneOverlayObject,dragon::frameobject::components::SceneSky,dragon::frameobject::components::SceneSkyObject,dragon::frameobject::components::SelectionOverlayObject,dragon::frameobject::components::Cubemap,dragon::frameobject::components::ShadowSource,dragon::frameobject::components::ShadowCaster,dragon::frameobject::components::ShadowOverlay,dragon::frameobject::components::ShadowVolume,dragon::frameobject::components::SortIndex,dragon::frameobject::components::SortOrigin,dragon::frameobject::components::Transform,dragon::frameobject::components::UIElement,dragon::frameobject::components::ForceRasterization,dragon::frameobject::components::ForceRasterizationWithMultiply,dragon::frameobject::components::RaytraceObject,mce::framebuilder::gamecomponents::AlphaTestCracks,mce::framebuilder::gamecomponents::Atmosphere,mce::framebuilder::gamecomponents::BlendedCracksObject,mce::framebuilder::gamecomponents::EnvironmentalText,mce::framebuilder::gamecomponents::Gameface,mce::framebuilder::gamecomponents::InLevelCubeMapObject,mce::framebuilder::gamecomponents::ItemInHandObject,mce::framebuilder::gamecomponents::SceneObjectActors,mce::framebuilder::gamecomponents::TransparentItemInWorldObject,mce::framebuilder::gamecomponents::WaterHoleObject,mce::framebuilder::gamecomponents::PlayerUI,mce::framebuilder::gamecomponents::PlayerVision,mce::framebuilder::gamecomponents::OverlayUI,mce::framebuilder::gamecomponents::VrConfiguration,mce::framebuilder::gamecomponents::VrPresenceObject,mce::framebuilder::gamecomponents::LivingRoomViewFilter,mce::framebuilder::gamecomponents::LivingRoomTransitionFilter,mce::framebuilder::gamecomponents::LivingRoomSceneObject,mce::framebuilder::gamecomponents::VrFloatingUiQuad,mce::framebuilder::gamecomponents::FadeToBlackEffect,mce::framebuilder::bgfxbridge::RTXMinecraftFrameRendererResources,mce::framebuilder::bgfxbridge::VanillaMinecraftFrameRendererResources,mce::framebuilder::bgfxbridge::HolographicMinecraftFrameRendererResources>::SortedView::Sortable,2,0,Core::CheckedRingBuffer<2,0> >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Core::CheckedRingBuffer<2,0> *` | mBufferInstance
 
 

@@ -1,14 +1,14 @@
 # W
 ### `WhitelistFile`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `const Core::HeapPathBuffer` | mFilePath
 32 | (8) `std::unique_ptr<Whitelist>` | mWhitelist
 
 
 ### `WorldTemplateManager`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `PackManifestFactory *` | mPackManifestFactory
 8 | (8) `const IContentKeyProvider *` | mKeyProvider
 16 | (8) `PackSourceFactory *` | mPackSourceFactory
@@ -28,14 +28,14 @@ Offset | Type | Name
 
 ### `WorldTemplatePackManifest`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (992) `PackManifest` | baseclass_0
 992 | (4) `GameType` | mGameType
 
 
 ### `WorldTemplateInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | mName
 32 | (32) `std::string` | mDescription
 64 | (32) `std::string` | mAuthors
@@ -50,14 +50,14 @@ Offset | Type | Name
 
 ### `WorldTemplateManager::SortMethod`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<bool (const std::unique_ptr<WorldTemplateInfo> &,const std::unique_ptr<WorldTemplateInfo> &)>::_Invoker_type` | _M_invoker
 
 
 ### `WorldTemplateLevelData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `ContentIdentity` | mPremiumTemplateContentIdentity
 24 | (136) `PackIdVersion` | mWorldTemplateIdentity
 160 | (112) `BaseGameVersion` | mBaseGameVersion
@@ -67,7 +67,7 @@ Offset | Type | Name
 
 ### `WhitelistEntry`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IJsonSerializable` | baseclass_0
 8 | (32) `std::string` | mName
 40 | (16) `mce::UUID` | mUuid
@@ -77,32 +77,32 @@ Offset | Type | Name
 
 ### `WeakPtr<Item>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<Item> *` | pc
 
 
 ### `WeakRef<IFeature>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `FeatureRefTraits::WeakStorage` | baseclass_0
 
 
 ### `WeakPtr<BlockLegacy>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<BlockLegacy> *` | pc
 
 
 ### `WorldBlockTarget`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IBlockPlacementTarget` | baseclass_0
 8 | (8) `BlockSource *` | mBlockSource
 
 
 ### `WebToken`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | mHeader
 32 | (16) `Json::Value` | mHeaderInfo
 48 | (32) `std::string` | mData
@@ -112,25 +112,25 @@ Offset | Type | Name
 
 ### `Weak<Village>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::__weak_ptr<Village,__gnu_cxx::_S_atomic>` | baseclass_0
 
 
 ### `WeightedChoices<float>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<WeightedChoice<float>>` | mChoices
 
 
 ### `WebSocketPacketData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | mIP
 
 
 ### `WorkerConfiguration`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (28) `ThreadConfiguration:224` | baseclass_0
 28 | (4) `uint32_t` | NumWorkers
 32 | (1) `bool` | SuppressProfiling
@@ -138,7 +138,7 @@ Offset | Type | Name
 
 ### `WorldPackHistory`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (136) `PackIdVersion` | mPackIdVersion
 136 | (32) `std::string` | mUnlocalizedName
 168 | (56) `std::unordered_map<std::string,std::string>` | mLocalizedNames
@@ -149,105 +149,105 @@ Offset | Type | Name
 
 ### `WorldTemplateManagerProxyCallbacks`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::function<int (const std::string &)>` | mFindTemplateIndexWithName
 
 
 ### `Whitelist::WhitelistEntryMatcher`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | mName
 32 | (32) `std::string` | mXuid
 
 
 ### `WaterMovementComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float` | mDragFactor
 
 
 ### `Weak<POIInstance>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::__weak_ptr<POIInstance,__gnu_cxx::_S_atomic>` | baseclass_0
 
 
 ### `Weak<Village>_0`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::__weak_ptr<Village,__gnu_cxx::_S_atomic>_0` | baseclass_0
 
 
 ### `WitherBoss::canDestroy::$FE6D2CA3CB829B3D63F7D33F5A8B933E`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const BlockLegacy *` | legacyBlock
 
 
 ### `WeakPtr<BlockItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<BlockItem> *` | pc
 
 
 ### `WeighedRandom::WeighedRandomItem`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mRandomWeight
 
 
 ### `WeightedBiomeVector`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Vector_base<std::pair<Biome *,unsigned int>>` | baseclass_0
 
 
 ### `WeightedBiomeAttributes<HillsTransformation>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `WeightedBiomeVector` | mBiomes
 
 
 ### `WeightedBiomeAttributes<MutateBiomeTransformation>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `WeightedBiomeVector` | mBiomes
 
 
 ### `WorldGenClimateMappingAttributes`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<WorldGenClimateMappingAttributes::WeightedTemperatureCategory>` | mClimateMappings
 
 
 ### `WeightedBiomeAttributes<RiverTransformation>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `WeightedBiomeVector` | mBiomes
 
 
 ### `WeightedBiomeAttributes<ShoreTransformation>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `WeightedBiomeVector` | mBiomes
 
 
 ### `WorldChangeTransaction`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `BlockSource *` | mSource
 8 | (8) `std::unique_ptr<WorldChangeTransaction::Data>` | mData
 
 
 ### `WeakRef<PerlinSimplexNoise>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `SharePtrRefTraits<PerlinSimplexNoise>::WeakStorage` | baseclass_0
 
 
 ### `WoodlandMansionPieces::PlacementData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `Rotation_0` | mRotation
 4 | (12) `BlockPos` | mPosition
 16 | (32) `std::string` | mWallType
@@ -255,7 +255,7 @@ Offset | Type | Name
 
 ### `WellKnownBiomeTags`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `WellKnownTagID` | MONSTER_TAG_ID
 16 | (16) `WellKnownTagID` | ANIMAL_TAG_ID
 32 | (16) `WellKnownTagID` | OCEAN_TAG_ID
@@ -301,32 +301,32 @@ Offset | Type | Name
 
 ### `WellKnownTagID`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `TagID` | mTagID
 8 | (8) `TagRegistry *` | mTagRegistry
 
 
 ### `Weak<RopeSystem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::__weak_ptr<RopeSystem,__gnu_cxx::_S_atomic>` | baseclass_0
 
 
 ### `WebviewObserver`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `Core::Observer<WebviewObserver,Core::SingleThreadedLock>` | baseclass_0
 
 
 ### `WeakRefT<FeatureRefTraits>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `FeatureRefTraits::WeakStorage` | baseclass_0
 
 
 ### `WanderingTraderScheduler`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Level *` | mLevel
 8 | (8) `uint64_t` | mTickToCheckIfSpawning
 16 | (1) `bool` | mSpawnWanderingTrader
@@ -336,7 +336,7 @@ Offset | Type | Name
 
 ### `WorkerPool`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `const bool` | mAsync
 8 | (24) `std::vector<std::unique_ptr<BackgroundWorker>>` | mWorkers
 32 | (32) `std::string` | mName
@@ -354,472 +354,472 @@ Offset | Type | Name
 
 ### `WorkerPool::PendingJobQueue`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `MovePriorityQueue<std::shared_ptr<BackgroundTask>,BackgroundTask::PendingComparer>::Base` | mC
 
 
 ### `Wolf::normalTick::$7EF7C94BEAB75C6CEF4ADFB99B570420`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `WitherBoss::aiStep::$7EF7C94BEAB75C6CEF4ADFB99B570420`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `WeightedChoice<DefinitionTrigger>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (128) `DefinitionTrigger` | mValue
 128 | (4) `WeighedRandom::WeighedRandomItem` | mRandomItem
 
 
 ### `Witch::updateEntitySpecificMolangVariables::$7EF7C94BEAB75C6CEF4ADFB99B570420`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `WeakPtr<ShovelItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<ShovelItem> *` | pc
 
 
 ### `WeakPtr<PickaxeItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<PickaxeItem> *` | pc
 
 
 ### `WeakPtr<HatchetItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<HatchetItem> *` | pc
 
 
 ### `WeakPtr<FlintAndSteelItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<FlintAndSteelItem> *` | pc
 
 
 ### `WeakPtr<BowItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<BowItem> *` | pc
 
 
 ### `WeakPtr<ArrowItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<ArrowItem> *` | pc
 
 
 ### `WeakPtr<CoalItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<CoalItem> *` | pc
 
 
 ### `WeakPtr<WeaponItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<WeaponItem> *` | pc
 
 
 ### `WeakPtr<BlockPlanterItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<BlockPlanterItem> *` | pc
 
 
 ### `WeakPtr<HoeItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<HoeItem> *` | pc
 
 
 ### `WeakPtr<ShieldItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<ShieldItem> *` | pc
 
 
 ### `WeakPtr<BucketItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<BucketItem> *` | pc
 
 
 ### `WeakPtr<MinecartItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<MinecartItem> *` | pc
 
 
 ### `WeakPtr<RedStoneDustItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<RedStoneDustItem> *` | pc
 
 
 ### `WeakPtr<SnowballItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<SnowballItem> *` | pc
 
 
 ### `WeakPtr<BoatItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<BoatItem> *` | pc
 
 
 ### `WeakPtr<EnchantedBookItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<EnchantedBookItem> *` | pc
 
 
 ### `WeakPtr<EggItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<EggItem> *` | pc
 
 
 ### `WeakPtr<CompassItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<CompassItem> *` | pc
 
 
 ### `WeakPtr<FishingRodItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<FishingRodItem> *` | pc
 
 
 ### `WeakPtr<ClockItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<ClockItem> *` | pc
 
 
 ### `WeakPtr<DyePowderItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<DyePowderItem> *` | pc
 
 
 ### `WeakPtr<BedItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<BedItem> *` | pc
 
 
 ### `WeakPtr<MapItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<MapItem> *` | pc
 
 
 ### `WeakPtr<ShearsItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<ShearsItem> *` | pc
 
 
 ### `WeakPtr<EnderpearlItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<EnderpearlItem> *` | pc
 
 
 ### `WeakPtr<PotionItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<PotionItem> *` | pc
 
 
 ### `WeakPtr<BottleItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<BottleItem> *` | pc
 
 
 ### `WeakPtr<EnderEyeItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<EnderEyeItem> *` | pc
 
 
 ### `WeakPtr<MobPlacerItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<MobPlacerItem> *` | pc
 
 
 ### `WeakPtr<ExperiencePotionItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<ExperiencePotionItem> *` | pc
 
 
 ### `WeakPtr<FireChargeItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<FireChargeItem> *` | pc
 
 
 ### `WeakPtr<WritableBookItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<WritableBookItem> *` | pc
 
 
 ### `WeakPtr<WrittenBookItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<WrittenBookItem> *` | pc
 
 
 ### `WeakPtr<EmptyMapItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<EmptyMapItem> *` | pc
 
 
 ### `WeakPtr<SkullItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<SkullItem> *` | pc
 
 
 ### `WeakPtr<CarrotOnAStickItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<CarrotOnAStickItem> *` | pc
 
 
 ### `WeakPtr<FireworksItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<FireworksItem> *` | pc
 
 
 ### `WeakPtr<TridentItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<TridentItem> *` | pc
 
 
 ### `WeakPtr<ArmorStandItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<ArmorStandItem> *` | pc
 
 
 ### `WeakPtr<DoorItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<DoorItem> *` | pc
 
 
 ### `WeakPtr<SplashPotionItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<SplashPotionItem> *` | pc
 
 
 ### `WeakPtr<ArmorItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<ArmorItem> *` | pc
 
 
 ### `WeakPtr<BannerItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<BannerItem> *` | pc
 
 
 ### `WeakPtr<SuspiciousStewItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<SuspiciousStewItem> *` | pc
 
 
 ### `WeakPtr<CameraItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<CameraItem> *` | pc
 
 
 ### `WeakPtr<CompoundItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<CompoundItem> *` | pc
 
 
 ### `WeakPtr<IceBombItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<IceBombItem> *` | pc
 
 
 ### `WeakPtr<BalloonItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<BalloonItem> *` | pc
 
 
 ### `WeakPtr<MedicineItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<MedicineItem> *` | pc
 
 
 ### `WeakPtr<SparklerItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<SparklerItem> *` | pc
 
 
 ### `WeakPtr<GlowStickItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<GlowStickItem> *` | pc
 
 
 ### `WeakPtr<AuxDataBlockItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<AuxDataBlockItem> *` | pc
 
 
 ### `WeakPtr<ClothBlockItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<ClothBlockItem> *` | pc
 
 
 ### `WeakPtr<StoneSlabBlockItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<StoneSlabBlockItem> *` | pc
 
 
 ### `WeakPtr<CoralFanBlockItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<CoralFanBlockItem> *` | pc
 
 
 ### `WeakPtr<SeaPickleBlockItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<SeaPickleBlockItem> *` | pc
 
 
 ### `WeakPtr<SaplingBlockItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<SaplingBlockItem> *` | pc
 
 
 ### `WeakPtr<LeafBlockItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<LeafBlockItem> *` | pc
 
 
 ### `WeakPtr<WoodSlabBlockItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<WoodSlabBlockItem> *` | pc
 
 
 ### `WeakPtr<WaterLilyBlockItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<WaterLilyBlockItem> *` | pc
 
 
 ### `WeakPtr<TopSnowBlockItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<TopSnowBlockItem> *` | pc
 
 
 ### `WeakPtr<ShulkerBoxBlockItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<ShulkerBoxBlockItem> *` | pc
 
 
 ### `WeakPtr<BambooBlockItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<BambooBlockItem> *` | pc
 
 
 ### `WeakPtr<ScaffoldingBlockItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<ScaffoldingBlockItem> *` | pc
 
 
 ### `WeakPtr<BellBlockItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<BellBlockItem> *` | pc
 
 
 ### `WeakPtr<ChemistryAuxDataBlockItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<ChemistryAuxDataBlockItem> *` | pc
 
 
 ### `WeakRefT<SharePtrRefTraits<PerlinSimplexNoise> >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `SharePtrRefTraits<PerlinSimplexNoise>::WeakStorage` | baseclass_0
 
 
 ### `WeightedRandomFeature::WeightedFeatureReference`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `WeakRef<IFeature>` | mFeature
 24 | (4) `float` | mWeight
 
 
 ### `WeightedChoice<float>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float` | mValue
 4 | (4) `WeighedRandom::WeighedRandomItem` | mRandomItem
 
 
 ### `WeakRefT<EntityRegistryRefTraits>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `EntityRegistryRefTraits::WeakStorage` | baseclass_0
 
 
 ### `WildcardCommandSelector<Actor>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (168) `CommandSelectorBase` | baseclass_0
 
 
 ### `WanderingTrader::updateEntitySpecificMolangVariables::$7EF7C94BEAB75C6CEF4ADFB99B570420`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 

@@ -1,7 +1,7 @@
 # S
 ### `SemVersion`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `uint16_t` | mMajor
 2 | (2) `uint16_t` | mMinor
 4 | (2) `uint16_t` | mPatch
@@ -14,13 +14,13 @@ Offset | Type | Name
 
 ### `Shared<CommandContext>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::__shared_ptr<CommandContext,__gnu_cxx::_S_atomic>` | baseclass_0
 
 
 ### `sysinfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__kernel_long_t` | uptime
 8 | (24) `__kernel_ulong_t[3]` | loads
 32 | (8) `__kernel_ulong_t` | totalram
@@ -39,46 +39,46 @@ Offset | Type | Name
 
 ### `string_span`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `gsl::basic_string_span<const char,-1>::impl_type` | span_
 
 
 ### `StringKey`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `HashedString` | baseclass_0
 40 | (8) `const StringKey *` | mMatch
 
 
 ### `SHPortalRoom::postProcess::$A4BF091F36AB25C4BAD93320DD623D59`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const Block **` | endPortalEye
 8 | (8) `const Block **` | endPortalNoEye
 
 
 ### `SelectorIterator<Player>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `CommandResultVector` | mTargets
 16 | (8) `std::vector<Actor *>::iterator` | mIndex
 
 
 ### `StackRefResultT<FeatureRefTraits>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `FeatureRefTraits::StackResultStorage` | baseclass_0
 
 
 ### `ShouldTransformData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::unique_ptr<char []>` | mResult
 
 
 ### `SpinLock`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `std::hash<std::thread::id>` | mThreadHasher
 8 | (8) `const size_t` | mNoThreadId
 16 | (8) `std::atomic<unsigned long>` | mOwnerThread
@@ -87,14 +87,14 @@ Offset | Type | Name
 
 ### `StrongholdFeature::StrongholdResult`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | success
 8 | (8) `ChunkPos` | location
 
 
 ### `statvfs`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `unsigned __int64` | f_bsize
 8 | (8) `unsigned __int64` | f_frsize
 16 | (8) `__fsblkcnt_t` | f_blocks
@@ -111,7 +111,7 @@ Offset | Type | Name
 
 ### `Social::Events::Event`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `const Social::LocalUserId` | mUserId
 8 | (32) `const std::string` | mName
 40 | (1) `bool` | mShouldAggregate
@@ -125,14 +125,14 @@ Offset | Type | Name
 
 ### `Social::Events::Property`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | mName
 32 | (16) `Json::Value` | mValue
 
 
 ### `Social::Events::Measurement`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | mName
 32 | (16) `Json::Value` | mValue
 48 | (4) `int` | mValueDivisorForAverage
@@ -141,52 +141,52 @@ Offset | Type | Name
 
 ### `SkinData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::optional<int>` | mVariant
 8 | (8) `std::optional<int>` | mMarkVariant
 
 
 ### `Shared<MoveControl>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::__shared_ptr<MoveControl,__gnu_cxx::_S_atomic>` | baseclass_0
 
 
 ### `ScaffoldingClimberComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `IEntityComponent` | baseclass_0
 
 
 ### `ScaleByAgeComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float` | mStartScale
 4 | (4) `float` | mEndScale
 
 
 ### `SchedulerComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mCurrentEventIndex
 
 
 ### `SensingComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (56) `SensingComponent::ActorSet` | mSeen
 56 | (56) `SensingComponent::ActorSet` | mUnseen
 
 
 ### `SensingComponent::ActorSet`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (56) `std::unordered_set<ActorUniqueID>::_Hashtable` | _M_h
 
 
 ### `SpawnActorParameters`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | mSpawnsItemStack
 4 | (4) `int` | mSpawnTimeMin
 8 | (4) `int` | mSpawnTimeMax
@@ -203,13 +203,13 @@ Offset | Type | Name
 
 ### `SpawnActorComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<SpawnActorEntry>` | mSpawnEntries
 
 
 ### `sockaddr_storage`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `sa_family_t` | ss_family
 2 | (118) `char[118]` | __ss_padding
 120 | (8) `unsigned __int64` | __ss_align
@@ -217,7 +217,7 @@ Offset | Type | Name
 
 ### `Social::GameConnectionInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `Social::ConnectionType` | mType
 8 | (32) `std::string` | mHostIpAddress
 40 | (32) `std::string` | mUnresolvedUrl
@@ -228,7 +228,7 @@ Offset | Type | Name
 
 ### `sockaddr_in6`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `sa_family_t` | sin6_family
 2 | (2) `in_port_t` | sin6_port
 4 | (4) `uint32_t` | sin6_flowinfo
@@ -238,7 +238,7 @@ Offset | Type | Name
 
 ### `sockaddr_in`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `sa_family_t` | sin_family
 2 | (2) `in_port_t` | sin_port
 4 | (4) `in_addr` | sin_addr
@@ -247,14 +247,14 @@ Offset | Type | Name
 
 ### `ServerToClientHandshakePacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `Packet` | baseclass_0
 40 | (32) `std::string` | mData
 
 
 ### `ServerNetworkHandler::handle::$3CDCE61CA261A057C80CC046802E365C`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ServerNetworkHandler *` | this
 8 | (8) `const NetworkIdentifier *` | source
 16 | (8) `std::set<std::string> *` | downloading
@@ -262,7 +262,7 @@ Offset | Type | Name
 
 ### `StartGamePacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `Packet` | baseclass_0
 40 | (704) `LevelSettings_0` | mSettings
 744 | (8) `ActorUniqueID` | mEntityId
@@ -285,7 +285,7 @@ Offset | Type | Name
 
 ### `SetSpawnPositionPacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (36) `Packet:288` | baseclass_0
 36 | (12) `NetworkBlockPosition` | mPos
 48 | (4) `SpawnPositionType` | mSpawnPosType
@@ -294,28 +294,28 @@ Offset | Type | Name
 
 ### `SetTimePacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (36) `Packet:288` | baseclass_0
 36 | (4) `int` | mTime
 
 
 ### `SetDifficultyPacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (36) `Packet:288` | baseclass_0
 36 | (4) `Difficulty` | mDifficulty
 
 
 ### `SetCommandsEnabledPacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (36) `Packet:288` | baseclass_0
 36 | (1) `bool` | mCommandsEnabled
 
 
 ### `ServerNetworkHandler::handle::$088F7A8FB772A70189C6E679C36D5276`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ServerNetworkHandler *` | this
 8 | (152) `const NetworkIdentifier` | source
 160 | (16) `std::shared_ptr<BlockActorDataPacket>` | packet
@@ -324,21 +324,21 @@ Offset | Type | Name
 
 ### `ServerNetworkHandler::handle::$ED428D87CD11B947B517AB43C0D6E540`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ServerNetworkHandler *` | this
 8 | (152) `const NetworkIdentifier` | source
 
 
 ### `ServerPlayer::OnPlayerLoadedCallback`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<void (ServerPlayer &)>::_Invoker_type` | _M_invoker
 
 
 ### `SerializedSkin`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | mId
 32 | (32) `std::string` | fullId
 64 | (32) `std::string` | mResourcePatch
@@ -362,7 +362,7 @@ Offset | Type | Name
 
 ### `StructureTemplateDataResponsePacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `Packet` | baseclass_0
 40 | (32) `std::string` | mStructureName
 72 | (8) `std::unique_ptr<CompoundTag>` | mStructureTag
@@ -371,14 +371,14 @@ Offset | Type | Name
 
 ### `StructureTemplate`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | mName
 32 | (168) `StructureTemplateData` | mStructureTemplateData
 
 
 ### `StructureTemplateData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `int (**)(void)` | _vptr$StructureTemplateData
 8 | (4) `int` | mFormatVersion
 12 | (12) `BlockPos` | mSize
@@ -391,13 +391,13 @@ Offset | Type | Name
 
 ### `ServerNetworkHandler::_onClientAuthenticated::$40782884DF021EB8A0B68AECF65B4504`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ServerNetworkHandler *` | this
 
 
 ### `ServerNetworkHandler::_getActiveAndInProgressPlayerCount::$0EBB06E09BB4D485483DF06B22BB4AE5`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const ServerNetworkHandler *` | this
 8 | (8) `mce::UUID *` | excludePlayer
 16 | (8) `int *` | numPlayers
@@ -405,7 +405,7 @@ Offset | Type | Name
 
 ### `StringByteInput`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `BytesDataInput` | baseclass_0
 8 | (8) `size_t` | mIdx
 16 | (16) `string_span` | mBuffer
@@ -413,14 +413,14 @@ Offset | Type | Name
 
 ### `StringByteOutput`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `BytesDataOutput` | baseclass_0
 8 | (8) `std::string *` | mBuffer
 
 
 ### `SyncedAttribute`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | mName
 32 | (4) `float` | mMinValue
 36 | (4) `float` | mCurrentValue
@@ -429,33 +429,33 @@ Offset | Type | Name
 
 ### `SynchedActorData::DataList`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Vector_base<std::unique_ptr<DataItem>>` | baseclass_0
 
 
 ### `ScoreboardId`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `int64_t` | mRawID
 8 | (8) `IdentityDefinition *` | mIdentityDef
 
 
 ### `ScoreboardIdentityPacketInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `ScoreboardId` | mScoreboardId
 16 | (8) `PlayerScoreboardId` | mPlayerId
 
 
 ### `StartGamePacket::write::$5498B64B1945F9BCA5158804213C50F5`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::unique_ptr<ListTag> *` | blockPaletteList
 
 
 ### `StructureEditorData_0`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | mStructureName
 32 | (32) `std::string` | mDataField
 64 | (1) `bool` | mIncludePlayers
@@ -467,7 +467,7 @@ Offset | Type | Name
 
 ### `StructureSettings_0`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | mPaletteName
 32 | (1) `bool` | mIgnoreEntities
 33 | (1) `bool` | mIgnoreBlocks
@@ -483,7 +483,7 @@ Offset | Type | Name
 
 ### `SubpackInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | mFolderName
 32 | (32) `std::string` | mName
 64 | (4) `MemoryTier` | mMemoryTier
@@ -491,13 +491,13 @@ Offset | Type | Name
 
 ### `stdext::reference_wrapper<const Localization>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const Localization *` | ptr
 
 
 ### `Stopwatch`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `int (**)(void)` | _vptr$Stopwatch
 8 | (8) `double` | _st
 16 | (8) `double` | _tt
@@ -509,14 +509,14 @@ Offset | Type | Name
 
 ### `ServerInstance::initializeServer::$1AF53268373D8F94D8C5F1843C50C698`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::unordered_map<PackIdVersion,std::string> *` | packIdToContentKey
 8 | (8) `ResourcePackRepository *` | resourcePackRepository
 
 
 ### `Semaphore`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (48) `Bedrock::Threading::ConditionVariable` | mCondition
 48 | (40) `Bedrock::Threading::Mutex` | mMutex
 88 | (4) `std::atomic<unsigned int>` | mCount
@@ -524,33 +524,33 @@ Offset | Type | Name
 
 ### `ScopedAutoreleasePool`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `SimpleEventPacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (36) `Packet:288` | baseclass_0
 36 | (4) `SimpleEventPacket::Subtype` | mSubtype
 
 
 ### `SetActorLinkPacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `Packet` | baseclass_0
 40 | (32) `ActorLink` | mLink
 
 
 ### `ServerPlayer::recoverR5LostInventoryAndXP::$566869B8F3A3697DD8479CC05753D205`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<BlockPos>` | chestPositions
 
 
 ### `ShowCreditsPacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `Packet` | baseclass_0
 40 | (8) `ActorRuntimeID` | mPlayerID
 48 | (4) `ShowCreditsPacket::CreditsState` | mCreditsState
@@ -558,33 +558,33 @@ Offset | Type | Name
 
 ### `SetPlayerGameTypePacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (36) `Packet:288` | baseclass_0
 36 | (4) `GameType` | mPlayerGameType
 
 
 ### `SelectorIterator<Actor>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `CommandResultVector` | mTargets
 16 | (8) `std::vector<Actor *>::iterator` | mIndex
 
 
 ### `ScriptApi::ScriptObjectHandle`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `ScriptApi::EMPTYObjectHandle` | baseclass_0
 
 
 ### `ScriptApi::EMPTYObjectHandle`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `ScriptEngineWithContext<ScriptServerContext>::createEntity::$C3475C4D5343D48D4C7832305B127EAE`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ScriptEngineWithContext<ScriptServerContext> *` | this
 8 | (8) `ScriptApi::ScriptObjectHandle *` | entityHandle
 16 | (8) `const std::string *` | templateName
@@ -593,7 +593,7 @@ Offset | Type | Name
 
 ### `ScriptCommandCallbackData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `ScriptApi::ScriptObjectHandle` | mFunction
 8 | (32) `std::string` | mCommand
 40 | (1) `bool` | mCallbackReceived
@@ -602,13 +602,13 @@ Offset | Type | Name
 
 ### `ScriptOnlyComponents<ScriptServerContext>::ScriptOnly`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (48) `std::map<std::string,Json::Value>` | mLookup
 
 
 ### `ShooterDescription`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ComponentDescription` | baseclass_0
 8 | (168) `ActorDefinitionIdentifier` | mActorDef
 176 | (4) `int` | mAuxValue
@@ -616,14 +616,14 @@ Offset | Type | Name
 
 ### `SpawnActorDescription`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ComponentDescription` | baseclass_0
 8 | (24) `std::vector<SpawnActorParameters>` | mSpawnParameters
 
 
 ### `ScriptServerActorAttackEvent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `ScriptEventData` | baseclass_0
 40 | (8) `ActorUniqueID` | mActorID
 48 | (8) `ActorUniqueID` | mTargetID
@@ -631,14 +631,14 @@ Offset | Type | Name
 
 ### `ScriptEventData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `int (**)(void)` | _vptr$ScriptEventData
 8 | (32) `std::string` | mEventName
 
 
 ### `ScriptServerPlayerAttackedActorEvent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `ScriptEventData` | baseclass_0
 40 | (8) `ActorUniqueID` | mPlayerID
 48 | (8) `ActorUniqueID` | mAttackedActorID
@@ -646,7 +646,7 @@ Offset | Type | Name
 
 ### `ScriptServerActorHurtEvent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `ScriptEventData` | baseclass_0
 40 | (4) `int` | mHurtBy
 44 | (4) `int` | mDamage
@@ -660,14 +660,14 @@ Offset | Type | Name
 
 ### `ScriptServerActorTickEvent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `ScriptEventData` | baseclass_0
 40 | (8) `ActorUniqueID` | mActorID
 
 
 ### `ScriptServerActorSneakChangedEvent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `ScriptEventData` | baseclass_0
 40 | (8) `ActorUniqueID` | mActorID
 48 | (1) `bool` | mIsSneaking
@@ -675,7 +675,7 @@ Offset | Type | Name
 
 ### `ScriptServerActorStartRidingEvent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `ScriptEventData` | baseclass_0
 40 | (8) `ActorUniqueID` | mActorID
 48 | (8) `ActorUniqueID` | mRideID
@@ -683,7 +683,7 @@ Offset | Type | Name
 
 ### `ScriptServerActorStopRidingEvent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `ScriptEventData` | baseclass_0
 40 | (8) `ActorUniqueID` | mActorID
 48 | (1) `bool` | mExitFromRider
@@ -693,7 +693,7 @@ Offset | Type | Name
 
 ### `ScriptServerActorDeathEvent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `ScriptEventData` | baseclass_0
 40 | (8) `ActorUniqueID` | mActorID
 48 | (1) `bool` | mKiller
@@ -707,14 +707,14 @@ Offset | Type | Name
 
 ### `ScriptServerActorRemovedEvent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `ScriptEventData` | baseclass_0
 40 | (8) `ActorUniqueID` | mActorID
 
 
 ### `ScriptServerActorDefinitionEventTriggeredEvent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `ScriptEventData` | baseclass_0
 40 | (8) `ActorUniqueID` | mActorID
 48 | (32) `std::string` | mEvent
@@ -722,14 +722,14 @@ Offset | Type | Name
 
 ### `ScriptServerActorCreatedEvent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `ScriptEventData` | baseclass_0
 40 | (8) `ActorUniqueID` | mActorID
 
 
 ### `ScriptServerActorUseItemEvent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `ScriptEventData` | baseclass_0
 40 | (8) `ActorUniqueID` | mActorID
 48 | (136) `ItemInstance` | mItemUsed
@@ -738,7 +738,7 @@ Offset | Type | Name
 
 ### `ScriptServerActorAcquiredItemEvent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `ScriptEventData` | baseclass_0
 40 | (8) `ActorUniqueID` | mActorID
 48 | (8) `ActorUniqueID` | mSecondaryActorID
@@ -749,7 +749,7 @@ Offset | Type | Name
 
 ### `ScriptServerActorDroppedItemEvent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `ScriptEventData` | baseclass_0
 40 | (8) `ActorUniqueID` | mActorID
 48 | (136) `ItemInstance` | mItem
@@ -757,7 +757,7 @@ Offset | Type | Name
 
 ### `ScriptServerActorCarriedItemChangedEvent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `ScriptEventData` | baseclass_0
 40 | (8) `ActorUniqueID` | mActorID
 48 | (136) `ItemInstance` | mPreviousCarriedItem
@@ -767,7 +767,7 @@ Offset | Type | Name
 
 ### `ScriptServerActorEquippedArmorEvent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `ScriptEventData` | baseclass_0
 40 | (8) `ActorUniqueID` | mActorId
 48 | (136) `ItemInstance` | mItem
@@ -776,7 +776,7 @@ Offset | Type | Name
 
 ### `ScriptServerProjectileHitEvent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `ScriptEventData` | baseclass_0
 40 | (8) `ActorUniqueID` | mProjectileID
 48 | (8) `ActorUniqueID` | mOwnerID
@@ -786,7 +786,7 @@ Offset | Type | Name
 
 ### `ScriptServerPlayerPlacedBlockEvent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `ScriptEventData` | baseclass_0
 40 | (8) `ActorUniqueID` | mActorID
 48 | (12) `BlockPos` | mPos
@@ -794,7 +794,7 @@ Offset | Type | Name
 
 ### `ScriptServerPlayerDestroyedBlockEvent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `ScriptEventData` | baseclass_0
 40 | (8) `ActorUniqueID` | mActorID
 48 | (12) `BlockPos` | mPos
@@ -803,7 +803,7 @@ Offset | Type | Name
 
 ### `ScriptServerBlockMovedByPistonEvent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `ScriptEventData` | baseclass_0
 40 | (12) `BlockPos` | mPistonPos
 52 | (12) `BlockPos` | mBlockPos
@@ -812,7 +812,7 @@ Offset | Type | Name
 
 ### `ScriptServerBlockDestructionStoppedEvent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `ScriptEventData` | baseclass_0
 40 | (8) `ActorUniqueID` | mActorID
 48 | (12) `BlockPos` | mPos
@@ -821,7 +821,7 @@ Offset | Type | Name
 
 ### `ScriptServerBlockDestructionStartedEvent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `ScriptEventData` | baseclass_0
 40 | (8) `ActorUniqueID` | mActorID
 48 | (12) `BlockPos` | mPos
@@ -829,7 +829,7 @@ Offset | Type | Name
 
 ### `ScriptServerBlockInteractedWithEvent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `ScriptEventData` | baseclass_0
 40 | (8) `ActorUniqueID` | mActorID
 48 | (12) `BlockPos` | mPos
@@ -837,7 +837,7 @@ Offset | Type | Name
 
 ### `ScriptServerBlockExplodedEvent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `ScriptEventData` | baseclass_0
 40 | (1) `bool` | mActor
 48 | (8) `ActorUniqueID` | mActorID
@@ -848,7 +848,7 @@ Offset | Type | Name
 
 ### `ScriptCustomEventPacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `Packet` | baseclass_0
 40 | (32) `std::string` | mEventName
 72 | (16) `Json::Value` | mData
@@ -856,14 +856,14 @@ Offset | Type | Name
 
 ### `SaveTransactionManager::ShowIconFunction`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<void (bool)>::_Invoker_type` | _M_invoker
 
 
 ### `SetActorDataPacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `Packet` | baseclass_0
 40 | (8) `ActorRuntimeID` | mId
 48 | (24) `SynchedActorData::DataList` | mPackedItems
@@ -871,7 +871,7 @@ Offset | Type | Name
 
 ### `SetActorMotionPacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `Packet` | baseclass_0
 40 | (8) `ActorRuntimeID` | mRuntimeId
 48 | (12) `Vec3` | mMotion
@@ -879,20 +879,20 @@ Offset | Type | Name
 
 ### `ShooterComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (168) `ActorDefinitionIdentifier` | mActorDef
 168 | (4) `int` | mAuxValue
 
 
 ### `SitComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `IEntityComponent` | baseclass_0
 
 
 ### `StackStats`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `PackType` | mStackType
 4 | (4) `uint32_t` | mPackCount
 8 | (8) `double` | mParseTime
@@ -900,14 +900,14 @@ Offset | Type | Name
 
 ### `ScopedLock`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::unique_lock<std::mutex>::mutex_type *` | _M_device
 8 | (1) `bool` | _M_owns
 
 
 ### `SummonSpellData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float` | minActivationRange
 4 | (4) `float` | maxActivationRange
 8 | (4) `int` | cooldownTime
@@ -922,7 +922,7 @@ Offset | Type | Name
 
 ### `SummonSpellStage`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `SummonShape` | shape
 4 | (4) `SummonTarget` | target
 8 | (4) `float` | size
@@ -939,7 +939,7 @@ Offset | Type | Name
 
 ### `SendEventData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float` | minActivationRange
 4 | (4) `float` | maxActivationRange
 8 | (4) `int` | cooldownTime
@@ -954,7 +954,7 @@ Offset | Type | Name
 
 ### `SendEventStage`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | delay
 8 | (32) `std::string` | eventName
 40 | (4) `LevelSoundEvent` | stageSoundEvent
@@ -962,66 +962,66 @@ Offset | Type | Name
 
 ### `Shared<Village>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::__shared_ptr<Village,__gnu_cxx::_S_atomic>` | baseclass_0
 
 
 ### `Shared<POIInstance>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::__shared_ptr<POIInstance,__gnu_cxx::_S_atomic>` | baseclass_0
 
 
 ### `SolidityChecker`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<bool (BlockPos &)>::_Invoker_type` | _M_invoker
 
 
 ### `Shared<Village>_0`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::__shared_ptr<Village,__gnu_cxx::_S_atomic>_0` | baseclass_0
 
 
 ### `SlotDropChance`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `EquipmentSlot` | mSlot
 4 | (4) `float` | mDropChance
 
 
 ### `Shared<const Potion>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::__shared_ptr<const Potion,__gnu_cxx::_S_atomic>` | baseclass_0
 
 
 ### `SkinHash`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `size_t` | geoLength
 8 | (64) `uint64_t[8]` | shaData
 
 
 ### `SetLastHurtByPacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (36) `Packet:288` | baseclass_0
 36 | (4) `ActorType` | mLastHurtBy
 
 
 ### `SetHealthPacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (36) `Packet:288` | baseclass_0
 36 | (4) `int` | mHealth
 
 
 ### `SpawnExperienceOrbPacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (36) `Packet:288` | baseclass_0
 36 | (12) `Vec3` | mPos
 48 | (4) `int` | mCount
@@ -1029,14 +1029,14 @@ Offset | Type | Name
 
 ### `SlotData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | mCollectionName
 32 | (4) `int` | mCollectionIndex
 
 
 ### `ScriptServerWeatherEventData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `ScriptEventData` | baseclass_0
 40 | (32) `std::string` | mDimension
 72 | (1) `bool` | mRaining
@@ -1045,538 +1045,538 @@ Offset | Type | Name
 
 ### `SharedPtr<AirBlockItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<AirBlockItem> *` | pc
 
 
 ### `SharedPtr<Item>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<Item> *` | pc
 
 
 ### `SharedPtr<BlockItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<BlockItem> *` | pc
 
 
 ### `SuspiciousStewItem::StewEffects`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (280) `std::__array_traits<MobEffectInstance,10>::_Type` | _M_elems
 
 
 ### `SharedPtr<ShovelItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<ShovelItem> *` | pc
 
 
 ### `SharedPtr<PickaxeItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<PickaxeItem> *` | pc
 
 
 ### `SharedPtr<HatchetItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<HatchetItem> *` | pc
 
 
 ### `SharedPtr<FlintAndSteelItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<FlintAndSteelItem> *` | pc
 
 
 ### `SharedPtr<BowItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<BowItem> *` | pc
 
 
 ### `SharedPtr<ArrowItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<ArrowItem> *` | pc
 
 
 ### `SharedPtr<CoalItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<CoalItem> *` | pc
 
 
 ### `SharedPtr<WeaponItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<WeaponItem> *` | pc
 
 
 ### `SharedPtr<BlockPlanterItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<BlockPlanterItem> *` | pc
 
 
 ### `SharedPtr<HoeItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<HoeItem> *` | pc
 
 
 ### `SharedPtr<ArmorItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<ArmorItem> *` | pc
 
 
 ### `SharedPtr<ShieldItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<ShieldItem> *` | pc
 
 
 ### `SharedPtr<HangingActorItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<HangingActorItem> *` | pc
 
 
 ### `SharedPtr<SignItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<SignItem> *` | pc
 
 
 ### `SharedPtr<DoorItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<DoorItem> *` | pc
 
 
 ### `SharedPtr<BucketItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<BucketItem> *` | pc
 
 
 ### `SharedPtr<MinecartItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<MinecartItem> *` | pc
 
 
 ### `SharedPtr<RedStoneDustItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<RedStoneDustItem> *` | pc
 
 
 ### `SharedPtr<SnowballItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<SnowballItem> *` | pc
 
 
 ### `SharedPtr<BoatItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<BoatItem> *` | pc
 
 
 ### `SharedPtr<EnchantedBookItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<EnchantedBookItem> *` | pc
 
 
 ### `SharedPtr<EggItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<EggItem> *` | pc
 
 
 ### `SharedPtr<CompassItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<CompassItem> *` | pc
 
 
 ### `SharedPtr<FishingRodItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<FishingRodItem> *` | pc
 
 
 ### `SharedPtr<ClockItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<ClockItem> *` | pc
 
 
 ### `SharedPtr<DyePowderItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<DyePowderItem> *` | pc
 
 
 ### `SharedPtr<BedItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<BedItem> *` | pc
 
 
 ### `SharedPtr<MapItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<MapItem> *` | pc
 
 
 ### `SharedPtr<ShearsItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<ShearsItem> *` | pc
 
 
 ### `SharedPtr<EnderpearlItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<EnderpearlItem> *` | pc
 
 
 ### `SharedPtr<PotionItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<PotionItem> *` | pc
 
 
 ### `SharedPtr<BottleItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<BottleItem> *` | pc
 
 
 ### `SharedPtr<EnderEyeItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<EnderEyeItem> *` | pc
 
 
 ### `SharedPtr<MobPlacerItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<MobPlacerItem> *` | pc
 
 
 ### `SharedPtr<ExperiencePotionItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<ExperiencePotionItem> *` | pc
 
 
 ### `SharedPtr<FireChargeItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<FireChargeItem> *` | pc
 
 
 ### `SharedPtr<WritableBookItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<WritableBookItem> *` | pc
 
 
 ### `SharedPtr<WrittenBookItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<WrittenBookItem> *` | pc
 
 
 ### `SharedPtr<EmptyMapItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<EmptyMapItem> *` | pc
 
 
 ### `SharedPtr<SkullItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<SkullItem> *` | pc
 
 
 ### `SharedPtr<CarrotOnAStickItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<CarrotOnAStickItem> *` | pc
 
 
 ### `SharedPtr<FireworksItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<FireworksItem> *` | pc
 
 
 ### `SharedPtr<FireworkChargeItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<FireworkChargeItem> *` | pc
 
 
 ### `SharedPtr<HorseArmorItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<HorseArmorItem> *` | pc
 
 
 ### `SharedPtr<RecordItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<RecordItem> *` | pc
 
 
 ### `SharedPtr<TridentItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<TridentItem> *` | pc
 
 
 ### `SharedPtr<LeadItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<LeadItem> *` | pc
 
 
 ### `SharedPtr<ArmorStandItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<ArmorStandItem> *` | pc
 
 
 ### `SharedPtr<EndCrystalItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<EndCrystalItem> *` | pc
 
 
 ### `SharedPtr<SplashPotionItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<SplashPotionItem> *` | pc
 
 
 ### `SharedPtr<LingeringPotionItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<LingeringPotionItem> *` | pc
 
 
 ### `SharedPtr<BannerItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<BannerItem> *` | pc
 
 
 ### `SharedPtr<CrossbowItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<CrossbowItem> *` | pc
 
 
 ### `SharedPtr<BannerPatternItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<BannerPatternItem> *` | pc
 
 
 ### `SharedPtr<SuspiciousStewItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<SuspiciousStewItem> *` | pc
 
 
 ### `SharedPtr<CameraItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<CameraItem> *` | pc
 
 
 ### `SharedPtr<CompoundItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<CompoundItem> *` | pc
 
 
 ### `SharedPtr<IceBombItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<IceBombItem> *` | pc
 
 
 ### `SharedPtr<ChemistryItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<ChemistryItem> *` | pc
 
 
 ### `SharedPtr<RapidFertilizerItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<RapidFertilizerItem> *` | pc
 
 
 ### `SharedPtr<BalloonItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<BalloonItem> *` | pc
 
 
 ### `SharedPtr<MedicineItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<MedicineItem> *` | pc
 
 
 ### `SharedPtr<SparklerItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<SparklerItem> *` | pc
 
 
 ### `SharedPtr<GlowStickItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<GlowStickItem> *` | pc
 
 
 ### `SharedPtr<AuxDataBlockItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<AuxDataBlockItem> *` | pc
 
 
 ### `SharedPtr<ClothBlockItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<ClothBlockItem> *` | pc
 
 
 ### `SharedPtr<StoneSlabBlockItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<StoneSlabBlockItem> *` | pc
 
 
 ### `SharedPtr<CoralFanBlockItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<CoralFanBlockItem> *` | pc
 
 
 ### `SharedPtr<SeaPickleBlockItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<SeaPickleBlockItem> *` | pc
 
 
 ### `SharedPtr<SaplingBlockItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<SaplingBlockItem> *` | pc
 
 
 ### `SharedPtr<LeafBlockItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<LeafBlockItem> *` | pc
 
 
 ### `SharedPtr<WoodSlabBlockItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<WoodSlabBlockItem> *` | pc
 
 
 ### `SharedPtr<WaterLilyBlockItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<WaterLilyBlockItem> *` | pc
 
 
 ### `SharedPtr<TopSnowBlockItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<TopSnowBlockItem> *` | pc
 
 
 ### `SharedPtr<ShulkerBoxBlockItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<ShulkerBoxBlockItem> *` | pc
 
 
 ### `SharedPtr<BambooBlockItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<BambooBlockItem> *` | pc
 
 
 ### `SharedPtr<ScaffoldingBlockItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<ScaffoldingBlockItem> *` | pc
 
 
 ### `SharedPtr<BellBlockItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<BellBlockItem> *` | pc
 
 
 ### `SharedPtr<ChemistryAuxDataBlockItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<ChemistryAuxDataBlockItem> *` | pc
 
 
 ### `SharedPtr<ElementBlockItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<ElementBlockItem> *` | pc
 
 
 ### `ShapedRecipeConstructor`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<std::unique_ptr<ShapedRecipe> (std::string,int,int,const std::vector<RecipeIngredient> &,const std::vector<ItemInstance> &,Util::HashString)>::_Invoker_type` | _M_invoker
 
 
 ### `ShapelessRecipeConstructor`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<std::unique_ptr<ShapelessRecipe> (std::string,const std::vector<RecipeIngredient> &,const std::vector<ItemInstance> &,Util::HashString)>::_Invoker_type` | _M_invoker
 
 
 ### `static_vector<Actor *,1>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::aligned_storage<8,8>::type[1]` | mArray
 8 | (8) `size_t` | mSize
 
 
 ### `serialize<EducationLevelSettings>::write::$5D3ECE175654F4C4336B6523D3249746`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const EducationLevelSettings *` | val
 
 
 ### `SpawnParticleEffectPacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (36) `Packet:288` | baseclass_0
 36 | (1) `unsigned __int8` | mVanillaDimensionId
 40 | (8) `ActorUniqueID` | mActorId
@@ -1586,13 +1586,13 @@ Offset | Type | Name
 
 ### `SmallSet<Actor *>::const_iterator`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Actor *const *` | _M_current
 
 
 ### `SpawnConditions`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | isOnSurface
 1 | (1) `bool` | isInWater
 2 | (1) `bool` | isInLava
@@ -1604,13 +1604,13 @@ Offset | Type | Name
 
 ### `SurfaceBuilderComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ISurfaceBuilder *` | mSurfaceBuilder
 
 
 ### `SurfaceMaterialAttributes`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const Block *` | mTop
 8 | (8) `const Block *` | mMid
 16 | (8) `const Block *` | mFloor
@@ -1620,13 +1620,13 @@ Offset | Type | Name
 
 ### `SurfaceMaterialAdjustmentAttributes`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<SurfaceMaterialAdjustmentAttributes::Element>` | mAdjustments
 
 
 ### `ScatterParams::ScatteredPositions`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `RenderParams *` | mMolangParams
 8 | (8) `Random *` | mRandom
 16 | (8) `const ScatterParams *` | mScatterParams
@@ -1636,19 +1636,19 @@ Offset | Type | Name
 
 ### `SlabBlockItem::_useOn::$7EF7C94BEAB75C6CEF4ADFB99B570420`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `SmallSet<ActorUniqueID>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<ActorUniqueID>` | c
 
 
 ### `SignBlockActor::CachedMessageData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (160) `SignBlockActor::CachedLineData[4]` | lineData
 160 | (4) `unsigned int` | numLines
 168 | (32) `std::string` | filteredMessage
@@ -1658,1154 +1658,1154 @@ Offset | Type | Name
 
 ### `SignBlockActor::CachedLineData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | text
 32 | (4) `int` | lineLength
 
 
 ### `SharedPtr<BlockLegacy>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<BlockLegacy> *` | pc
 
 
 ### `SharedPtr<AirBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<AirBlock> *` | pc
 
 
 ### `SharedPtr<StoneBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<StoneBlock> *` | pc
 
 
 ### `SharedPtr<GrassBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<GrassBlock> *` | pc
 
 
 ### `SharedPtr<DirtBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<DirtBlock> *` | pc
 
 
 ### `SharedPtr<PlanksBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<PlanksBlock> *` | pc
 
 
 ### `SharedPtr<Sapling>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<Sapling> *` | pc
 
 
 ### `SharedPtr<BedrockBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<BedrockBlock> *` | pc
 
 
 ### `SharedPtr<LiquidBlockDynamic>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<LiquidBlockDynamic> *` | pc
 
 
 ### `SharedPtr<LiquidBlockStatic>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<LiquidBlockStatic> *` | pc
 
 
 ### `SharedPtr<SandBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<SandBlock> *` | pc
 
 
 ### `SharedPtr<GravelBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<GravelBlock> *` | pc
 
 
 ### `SharedPtr<OreBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<OreBlock> *` | pc
 
 
 ### `SharedPtr<OldLogBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<OldLogBlock> *` | pc
 
 
 ### `SharedPtr<OldLeafBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<OldLeafBlock> *` | pc
 
 
 ### `SharedPtr<SpongeBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<SpongeBlock> *` | pc
 
 
 ### `SharedPtr<GlassBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<GlassBlock> *` | pc
 
 
 ### `SharedPtr<DispenserBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<DispenserBlock> *` | pc
 
 
 ### `SharedPtr<SandStoneBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<SandStoneBlock> *` | pc
 
 
 ### `SharedPtr<NoteBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<NoteBlock> *` | pc
 
 
 ### `SharedPtr<BedBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<BedBlock> *` | pc
 
 
 ### `SharedPtr<PoweredRailBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<PoweredRailBlock> *` | pc
 
 
 ### `SharedPtr<DetectorRailBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<DetectorRailBlock> *` | pc
 
 
 ### `SharedPtr<PistonBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<PistonBlock> *` | pc
 
 
 ### `SharedPtr<WebBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<WebBlock> *` | pc
 
 
 ### `SharedPtr<TallGrass>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<TallGrass> *` | pc
 
 
 ### `SharedPtr<DeadBush>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<DeadBush> *` | pc
 
 
 ### `SharedPtr<PistonArmBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<PistonArmBlock> *` | pc
 
 
 ### `SharedPtr<ClothBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<ClothBlock> *` | pc
 
 
 ### `SharedPtr<FlowerBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<FlowerBlock> *` | pc
 
 
 ### `SharedPtr<MushroomBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<MushroomBlock> *` | pc
 
 
 ### `SharedPtr<MetalBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<MetalBlock> *` | pc
 
 
 ### `SharedPtr<StoneSlabBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<StoneSlabBlock> *` | pc
 
 
 ### `SharedPtr<TntBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<TntBlock> *` | pc
 
 
 ### `SharedPtr<BookshelfBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<BookshelfBlock> *` | pc
 
 
 ### `SharedPtr<ObsidianBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<ObsidianBlock> *` | pc
 
 
 ### `SharedPtr<TorchBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<TorchBlock> *` | pc
 
 
 ### `SharedPtr<MobSpawnerBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<MobSpawnerBlock> *` | pc
 
 
 ### `SharedPtr<StairBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<StairBlock> *` | pc
 
 
 ### `SharedPtr<ChestBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<ChestBlock> *` | pc
 
 
 ### `SharedPtr<RedStoneWireBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<RedStoneWireBlock> *` | pc
 
 
 ### `SharedPtr<WorkbenchBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<WorkbenchBlock> *` | pc
 
 
 ### `SharedPtr<CropBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<CropBlock> *` | pc
 
 
 ### `SharedPtr<FarmBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<FarmBlock> *` | pc
 
 
 ### `SharedPtr<FurnaceBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<FurnaceBlock> *` | pc
 
 
 ### `SharedPtr<SignBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<SignBlock> *` | pc
 
 
 ### `SharedPtr<DoorBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<DoorBlock> *` | pc
 
 
 ### `SharedPtr<LadderBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<LadderBlock> *` | pc
 
 
 ### `SharedPtr<RailBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<RailBlock> *` | pc
 
 
 ### `SharedPtr<LeverBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<LeverBlock> *` | pc
 
 
 ### `SharedPtr<PressurePlateBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<PressurePlateBlock> *` | pc
 
 
 ### `SharedPtr<RedStoneOreBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<RedStoneOreBlock> *` | pc
 
 
 ### `SharedPtr<RedstoneTorchBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<RedstoneTorchBlock> *` | pc
 
 
 ### `SharedPtr<StoneButtonBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<StoneButtonBlock> *` | pc
 
 
 ### `SharedPtr<TopSnowBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<TopSnowBlock> *` | pc
 
 
 ### `SharedPtr<IceBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<IceBlock> *` | pc
 
 
 ### `SharedPtr<SnowBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<SnowBlock> *` | pc
 
 
 ### `SharedPtr<CactusBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<CactusBlock> *` | pc
 
 
 ### `SharedPtr<ClayBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<ClayBlock> *` | pc
 
 
 ### `SharedPtr<ReedBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<ReedBlock> *` | pc
 
 
 ### `SharedPtr<JukeboxBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<JukeboxBlock> *` | pc
 
 
 ### `SharedPtr<FenceBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<FenceBlock> *` | pc
 
 
 ### `SharedPtr<PumpkinBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<PumpkinBlock> *` | pc
 
 
 ### `SharedPtr<SoulSandBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<SoulSandBlock> *` | pc
 
 
 ### `SharedPtr<LightGemBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<LightGemBlock> *` | pc
 
 
 ### `SharedPtr<PortalBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<PortalBlock> *` | pc
 
 
 ### `SharedPtr<CakeBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<CakeBlock> *` | pc
 
 
 ### `SharedPtr<RepeaterBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<RepeaterBlock> *` | pc
 
 
 ### `SharedPtr<InvisibleBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<InvisibleBlock> *` | pc
 
 
 ### `SharedPtr<TrapDoorBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<TrapDoorBlock> *` | pc
 
 
 ### `SharedPtr<MonsterEggBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<MonsterEggBlock> *` | pc
 
 
 ### `SharedPtr<StoneBrickBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<StoneBrickBlock> *` | pc
 
 
 ### `SharedPtr<HugeMushroomBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<HugeMushroomBlock> *` | pc
 
 
 ### `SharedPtr<ThinFenceBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<ThinFenceBlock> *` | pc
 
 
 ### `SharedPtr<MelonBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<MelonBlock> *` | pc
 
 
 ### `SharedPtr<StemBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<StemBlock> *` | pc
 
 
 ### `SharedPtr<VineBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<VineBlock> *` | pc
 
 
 ### `SharedPtr<FenceGateBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<FenceGateBlock> *` | pc
 
 
 ### `SharedPtr<MyceliumBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<MyceliumBlock> *` | pc
 
 
 ### `SharedPtr<WaterlilyBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<WaterlilyBlock> *` | pc
 
 
 ### `SharedPtr<NetherWartBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<NetherWartBlock> *` | pc
 
 
 ### `SharedPtr<EnchantingTableBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<EnchantingTableBlock> *` | pc
 
 
 ### `SharedPtr<BrewingStandBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<BrewingStandBlock> *` | pc
 
 
 ### `SharedPtr<CauldronBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<CauldronBlock> *` | pc
 
 
 ### `SharedPtr<EndPortalBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<EndPortalBlock> *` | pc
 
 
 ### `SharedPtr<EndPortalFrameBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<EndPortalFrameBlock> *` | pc
 
 
 ### `SharedPtr<DragonEggBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<DragonEggBlock> *` | pc
 
 
 ### `SharedPtr<RedstoneLampBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<RedstoneLampBlock> *` | pc
 
 
 ### `SharedPtr<DropperBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<DropperBlock> *` | pc
 
 
 ### `SharedPtr<ActivatorRailBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<ActivatorRailBlock> *` | pc
 
 
 ### `SharedPtr<CocoaBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<CocoaBlock> *` | pc
 
 
 ### `SharedPtr<EnderChestBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<EnderChestBlock> *` | pc
 
 
 ### `SharedPtr<TripWireHookBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<TripWireHookBlock> *` | pc
 
 
 ### `SharedPtr<TripWireBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<TripWireBlock> *` | pc
 
 
 ### `SharedPtr<CommandBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<CommandBlock> *` | pc
 
 
 ### `SharedPtr<BeaconBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<BeaconBlock> *` | pc
 
 
 ### `SharedPtr<WallBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<WallBlock> *` | pc
 
 
 ### `SharedPtr<FlowerPotBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<FlowerPotBlock> *` | pc
 
 
 ### `SharedPtr<CarrotBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<CarrotBlock> *` | pc
 
 
 ### `SharedPtr<PotatoBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<PotatoBlock> *` | pc
 
 
 ### `SharedPtr<WoodButtonBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<WoodButtonBlock> *` | pc
 
 
 ### `SharedPtr<SkullBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<SkullBlock> *` | pc
 
 
 ### `SharedPtr<AnvilBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<AnvilBlock> *` | pc
 
 
 ### `SharedPtr<WeightedPressurePlateBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<WeightedPressurePlateBlock> *` | pc
 
 
 ### `SharedPtr<ComparatorBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<ComparatorBlock> *` | pc
 
 
 ### `SharedPtr<DaylightDetectorBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<DaylightDetectorBlock> *` | pc
 
 
 ### `SharedPtr<RedstoneBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<RedstoneBlock> *` | pc
 
 
 ### `SharedPtr<HopperBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<HopperBlock> *` | pc
 
 
 ### `SharedPtr<QuartzBlockBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<QuartzBlockBlock> *` | pc
 
 
 ### `SharedPtr<WoodSlabBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<WoodSlabBlock> *` | pc
 
 
 ### `SharedPtr<ColoredBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<ColoredBlock> *` | pc
 
 
 ### `SharedPtr<StainedGlassPaneBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<StainedGlassPaneBlock> *` | pc
 
 
 ### `SharedPtr<NewLeafBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<NewLeafBlock> *` | pc
 
 
 ### `SharedPtr<NewLogBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<NewLogBlock> *` | pc
 
 
 ### `SharedPtr<SlimeBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<SlimeBlock> *` | pc
 
 
 ### `SharedPtr<PrismarineBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<PrismarineBlock> *` | pc
 
 
 ### `SharedPtr<SeaLanternBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<SeaLanternBlock> *` | pc
 
 
 ### `SharedPtr<HayBlockBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<HayBlockBlock> *` | pc
 
 
 ### `SharedPtr<WoolCarpetBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<WoolCarpetBlock> *` | pc
 
 
 ### `SharedPtr<DoublePlantBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<DoublePlantBlock> *` | pc
 
 
 ### `SharedPtr<BannerBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<BannerBlock> *` | pc
 
 
 ### `SharedPtr<StoneSlabBlock2>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<StoneSlabBlock2> *` | pc
 
 
 ### `SharedPtr<GrassPathBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<GrassPathBlock> *` | pc
 
 
 ### `SharedPtr<ItemFrameBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<ItemFrameBlock> *` | pc
 
 
 ### `SharedPtr<ChorusFlowerBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<ChorusFlowerBlock> *` | pc
 
 
 ### `SharedPtr<UndyedShulkerBoxBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<UndyedShulkerBoxBlock> *` | pc
 
 
 ### `SharedPtr<FrostedIceBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<FrostedIceBlock> *` | pc
 
 
 ### `SharedPtr<EndRodBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<EndRodBlock> *` | pc
 
 
 ### `SharedPtr<EndGatewayBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<EndGatewayBlock> *` | pc
 
 
 ### `SharedPtr<MagmaBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<MagmaBlock> *` | pc
 
 
 ### `SharedPtr<RotatedPillarBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<RotatedPillarBlock> *` | pc
 
 
 ### `SharedPtr<StructureVoid>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<StructureVoid> *` | pc
 
 
 ### `SharedPtr<ShulkerBoxBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<ShulkerBoxBlock> *` | pc
 
 
 ### `SharedPtr<GlazedTerracottaBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<GlazedTerracottaBlock> *` | pc
 
 
 ### `SharedPtr<ConcreteBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<ConcreteBlock> *` | pc
 
 
 ### `SharedPtr<ConcretePowderBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<ConcretePowderBlock> *` | pc
 
 
 ### `SharedPtr<ChorusPlantBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<ChorusPlantBlock> *` | pc
 
 
 ### `SharedPtr<StainedGlassBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<StainedGlassBlock> *` | pc
 
 
 ### `SharedPtr<CameraBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<CameraBlock> *` | pc
 
 
 ### `SharedPtr<PodzolBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<PodzolBlock> *` | pc
 
 
 ### `SharedPtr<BeetrootBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<BeetrootBlock> *` | pc
 
 
 ### `SharedPtr<StonecutterBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<StonecutterBlock> *` | pc
 
 
 ### `SharedPtr<NetherReactorBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<NetherReactorBlock> *` | pc
 
 
 ### `SharedPtr<MovingBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<MovingBlock> *` | pc
 
 
 ### `SharedPtr<ObserverBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<ObserverBlock> *` | pc
 
 
 ### `SharedPtr<StructureBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<StructureBlock> *` | pc
 
 
 ### `SharedPtr<StrippedLogBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<StrippedLogBlock> *` | pc
 
 
 ### `SharedPtr<BlueIceBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<BlueIceBlock> *` | pc
 
 
 ### `SharedPtr<FireBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<FireBlock> *` | pc
 
 
 ### `SharedPtr<ChemistryTableBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<ChemistryTableBlock> *` | pc
 
 
 ### `SharedPtr<UnderwaterTorchBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<UnderwaterTorchBlock> *` | pc
 
 
 ### `SharedPtr<ChemicalHeatBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<ChemicalHeatBlock> *` | pc
 
 
 ### `SharedPtr<ColoredTorchBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<ColoredTorchBlock> *` | pc
 
 
 ### `SharedPtr<ElementBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<ElementBlock> *` | pc
 
 
 ### `SharedPtr<Coral>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<Coral> *` | pc
 
 
 ### `SharedPtr<CoralBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<CoralBlock> *` | pc
 
 
 ### `SharedPtr<CoralFan>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<CoralFan> *` | pc
 
 
 ### `SharedPtr<CoralFanHang>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<CoralFanHang> *` | pc
 
 
 ### `SharedPtr<KelpBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<KelpBlock> *` | pc
 
 
 ### `SharedPtr<DriedKelpBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<DriedKelpBlock> *` | pc
 
 
 ### `SharedPtr<SeaGrass>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<SeaGrass> *` | pc
 
 
 ### `SharedPtr<SeaPickle>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<SeaPickle> *` | pc
 
 
 ### `SharedPtr<ConduitBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<ConduitBlock> *` | pc
 
 
 ### `SharedPtr<BubbleColumnBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<BubbleColumnBlock> *` | pc
 
 
 ### `SharedPtr<TurtleEggBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<TurtleEggBlock> *` | pc
 
 
 ### `SharedPtr<BarrierBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<BarrierBlock> *` | pc
 
 
 ### `SharedPtr<ScaffoldingBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<ScaffoldingBlock> *` | pc
 
 
 ### `SharedPtr<BambooBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<BambooBlock> *` | pc
 
 
 ### `SharedPtr<BambooSapling>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<BambooSapling> *` | pc
 
 
 ### `SharedPtr<StoneSlabBlock3>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<StoneSlabBlock3> *` | pc
 
 
 ### `SharedPtr<StoneSlabBlock4>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<StoneSlabBlock4> *` | pc
 
 
 ### `SharedPtr<LecternBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<LecternBlock> *` | pc
 
 
 ### `SharedPtr<GrindstoneBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<GrindstoneBlock> *` | pc
 
 
 ### `SharedPtr<BlastFurnaceBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<BlastFurnaceBlock> *` | pc
 
 
 ### `SharedPtr<SmokerBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<SmokerBlock> *` | pc
 
 
 ### `SharedPtr<CartographyTableBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<CartographyTableBlock> *` | pc
 
 
 ### `SharedPtr<BarrelBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<BarrelBlock> *` | pc
 
 
 ### `SharedPtr<LoomBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<LoomBlock> *` | pc
 
 
 ### `SharedPtr<BellBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<BellBlock> *` | pc
 
 
 ### `SharedPtr<SweetBerryBushBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<SweetBerryBushBlock> *` | pc
 
 
 ### `SharedPtr<LanternBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<LanternBlock> *` | pc
 
 
 ### `SharedPtr<CampfireBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<CampfireBlock> *` | pc
 
 
 ### `SharedPtr<JigsawBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<JigsawBlock> *` | pc
 
 
 ### `SharedPtr<WoodBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<WoodBlock> *` | pc
 
 
 ### `SharedPtr<ComposterBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<ComposterBlock> *` | pc
 
 
 ### `SharedPtr<LightBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<LightBlock> *` | pc
 
 
 ### `SharedPtr<WitherRoseBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<WitherRoseBlock> *` | pc
 
 
 ### `SharedPtr<BeehiveBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<BeehiveBlock> *` | pc
 
 
 ### `SharedPtr<HoneyBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<HoneyBlock> *` | pc
 
 
 ### `SharedPtr<HoneycombBlock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<HoneycombBlock> *` | pc
 
 
 ### `SubChunkRelighter`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | mNeedToResetToDoBits
 8 | (24576) `std::bitset<196608>` | mToDo
 24584 | (4096) `std::array<unsigned char,4096>` | mOldAbsorption
@@ -2827,45 +2827,45 @@ Offset | Type | Name
 
 ### `SubChunkRelighter::LightPair`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `SubChunkBrightnessStorage::LightPair::$C82CAE701F9C96804622E94D041F6011` | _anon_0
 
 
 ### `SubChunkBrightnessStorage::LightPair::$C82CAE701F9C96804622E94D041F6011`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `SubChunkBrightnessStorage::LightPair::$C82CAE701F9C96804622E94D041F6011::$FEA8D14758525B4BCA5C0100E71C9EA7` | _anon_0
 1 | (1) `uint8_t` | raw
 
 
 ### `SubChunkBrightnessStorage::LightPair::$C82CAE701F9C96804622E94D041F6011::$FEA8D14758525B4BCA5C0100E71C9EA7`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8` | _bf_0
 
 
 ### `SubChunkBrightnessStorage::LightPair`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `SubChunkBrightnessStorage::LightPair::$C82CAE701F9C96804622E94D041F6011` | _anon_0
 
 
 ### `SubChunkBlockPos`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `SubChunkBlockPos::$F507DBCC95B5F1F0349D6A6FBF2E560F` | _anon_0
 
 
 ### `SubChunkBlockPos::$F507DBCC95B5F1F0349D6A6FBF2E560F`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (3) `SubChunkBlockPos::$F507DBCC95B5F1F0349D6A6FBF2E560F::$E23C018BDD51DA9542B42FDC09D6AA49` | _anon_0
 1 | (4) `uint32_t` | packed
 
 
 ### `SubChunkBlockPos::$F507DBCC95B5F1F0349D6A6FBF2E560F::$E23C018BDD51DA9542B42FDC09D6AA49`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `uint8_t` | x
 1 | (1) `uint8_t` | y
 2 | (1) `uint8_t` | z
@@ -2873,142 +2873,142 @@ Offset | Type | Name
 
 ### `static_vector<const Block *,4096>::iterator`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const Block **` | mPtr
 
 
 ### `SubChunkBlockStorage::GenericPalette`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32768) `std::aligned_storage<8,8>::type[4096]` | mArray
 32768 | (8) `size_t` | mSize
 
 
 ### `SubChunkStorageFormat`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `SubChunkStorageFormat::$4A48E9E2C062D44B94D66378C25E9D86` | _anon_0
 1 | (1) `char` | raw
 
 
 ### `SubChunkStorageFormat::$4A48E9E2C062D44B94D66378C25E9D86`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8` | _bf_0
 
 
 ### `SubChunkBlockStoragePaletted<1,SubChunkBlockStorage::Type::Paletted1>::SubChunkBlockStoragePaletted::$7EF7C94BEAB75C6CEF4ADFB99B570420`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `SubChunkBlockStoragePaletted<1,SubChunkBlockStorage::Type::Paletted1>::makePrunedCopy::$5C37BA6189407DC409FF9D08D5F65A9E`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::array<unsigned long,2> *` | remappingLookup
 
 
 ### `SubChunkBlockStoragePaletted<2,SubChunkBlockStorage::Type::Paletted2>::SubChunkBlockStoragePaletted::$7EF7C94BEAB75C6CEF4ADFB99B570420`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `SubChunkBlockStoragePaletted<2,SubChunkBlockStorage::Type::Paletted2>::makePrunedCopy::$97D49D667F65B59D64A1CF6C21EF1D86`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::array<unsigned long,4> *` | remappingLookup
 
 
 ### `SubChunkBlockStoragePaletted<3,SubChunkBlockStorage::Type::Paletted3>::SubChunkBlockStoragePaletted::$7EF7C94BEAB75C6CEF4ADFB99B570420`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `SubChunkBlockStoragePaletted<3,SubChunkBlockStorage::Type::Paletted3>::makePrunedCopy::$9D7F1A052824D1DF666118F69FC3070A`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::array<unsigned long,8> *` | remappingLookup
 
 
 ### `SubChunkBlockStoragePaletted<4,SubChunkBlockStorage::Type::Paletted4>::SubChunkBlockStoragePaletted::$7EF7C94BEAB75C6CEF4ADFB99B570420`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `SubChunkBlockStoragePaletted<4,SubChunkBlockStorage::Type::Paletted4>::makePrunedCopy::$05DA6B700FA0222B559606B9A00A1F7D`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::array<unsigned long,16> *` | remappingLookup
 
 
 ### `SubChunkBlockStoragePaletted<5,SubChunkBlockStorage::Type::Paletted5>::SubChunkBlockStoragePaletted::$7EF7C94BEAB75C6CEF4ADFB99B570420`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `SubChunkBlockStoragePaletted<5,SubChunkBlockStorage::Type::Paletted5>::makePrunedCopy::$CC93A48B8F76E12549E857D7142C04AB`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::array<unsigned long,32> *` | remappingLookup
 
 
 ### `SubChunkBlockStoragePaletted<6,SubChunkBlockStorage::Type::Paletted6>::SubChunkBlockStoragePaletted::$7EF7C94BEAB75C6CEF4ADFB99B570420`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `SubChunkBlockStoragePaletted<6,SubChunkBlockStorage::Type::Paletted6>::makePrunedCopy::$B8D88B99E42BC318262126A78F11A7E5`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::array<unsigned long,64> *` | remappingLookup
 
 
 ### `SubChunkBlockStoragePaletted<8,SubChunkBlockStorage::Type::Paletted8>::SubChunkBlockStoragePaletted::$7EF7C94BEAB75C6CEF4ADFB99B570420`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `SubChunkBlockStoragePaletted<8,SubChunkBlockStorage::Type::Paletted8>::makePrunedCopy::$3817DFAD228892A6745DC344E6C4662F`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::array<unsigned long,256> *` | remappingLookup
 
 
 ### `SubChunkBlockStoragePaletted<16,SubChunkBlockStorage::Type::Paletted16>::SubChunkBlockStoragePaletted::$7EF7C94BEAB75C6CEF4ADFB99B570420`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `SubChunkBlockStoragePaletted<16,SubChunkBlockStorage::Type::Paletted16>::makePrunedCopy::$2185D287A3144BABD0B238662BD24236`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::array<unsigned long,4096> *` | remappingLookup
 
 
 ### `SubChunkBrightnessStorage::reset::$7B0383690E49E4B7542F6080AC16EED4`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `SubChunkBrightnessStorage::LightPair` | lp
 1 | (1) `uint8_t` | b
 
 
 ### `SubChunkLightIndex`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `SubChunkLightIndex::$D642419CEF3A4ECC892D938F72F5EEEF` | _anon_0
 
 
 ### `SubChunkLightIndex::$D642419CEF3A4ECC892D938F72F5EEEF`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `SubChunkLightIndex::$D642419CEF3A4ECC892D938F72F5EEEF::$C5E0CE72C99D254AFB51B3E72BF5B343` | _anon_0
 1 | (4) `SubChunkLightIndex::$D642419CEF3A4ECC892D938F72F5EEEF::$1B14A3B4ACC00D53AE1F0B03F21ED5AD` | _anon_1
 2 | (4) `uint32_t` | mData
@@ -3016,7 +3016,7 @@ Offset | Type | Name
 
 ### `SubChunkLightIndex::$D642419CEF3A4ECC892D938F72F5EEEF::$C5E0CE72C99D254AFB51B3E72BF5B343`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `__int16` | _bf_0
 2 | (1) `__int8` | _bf_2
 3 | (1) `__int8` | _padding_3
@@ -3024,13 +3024,13 @@ Offset | Type | Name
 
 ### `SubChunkLightIndex::$D642419CEF3A4ECC892D938F72F5EEEF::$1B14A3B4ACC00D53AE1F0B03F21ED5AD`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `__int32` | _bf_0
 
 
 ### `SpikeFeature`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `Feature` | baseclass_0
 24 | (8) `const SpikeFeature::EndSpike *` | mSpike
 32 | (12) `BlockPos` | mCrystalBeamTarget
@@ -3039,7 +3039,7 @@ Offset | Type | Name
 
 ### `ScatterParams`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (264) `ScatterParams::CoordinateRange` | mX
 264 | (264) `ScatterParams::CoordinateRange` | mZ
 528 | (264) `ScatterParams::CoordinateRange` | mHeight
@@ -3050,7 +3050,7 @@ Offset | Type | Name
 
 ### `ScatterParams::CoordinateRange`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (128) `ExpressionNode` | mMinOrSingleValue
 128 | (128) `ExpressionNode` | mMax
 256 | (4) `uint32_t` | mGridStepCount
@@ -3059,7 +3059,7 @@ Offset | Type | Name
 
 ### `ScatterParams::ChanceInformation`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (128) `ExpressionNode` | mChancePercent
 128 | (4) `int` | mNumerator
 132 | (4) `int` | mDenominator
@@ -3067,58 +3067,58 @@ Offset | Type | Name
 
 ### `SharePtrRefTraits<PerlinSimplexNoise>::WeakStorage`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<PerlinSimplexNoise>` | mHandle
 
 
 ### `StackRefResultT<SharePtrRefTraits<PerlinSimplexNoise> >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `SharePtrRefTraits<PerlinSimplexNoise>::StackResultStorage` | baseclass_0
 
 
 ### `SharePtrRefTraits<PerlinSimplexNoise>::StackResultStorage`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<PerlinSimplexNoise>` | mValue
 
 
 ### `StackRefResult<IFeature>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `FeatureRefTraits::StackResultStorage` | baseclass_0
 
 
 ### `Shared<RoomDefinition>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::__shared_ptr<RoomDefinition,__gnu_cxx::_S_atomic>` | baseclass_0
 
 
 ### `SharedLock`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::shared_lock<std::shared_timed_mutex>::mutex_type *` | _M_pm
 8 | (1) `bool` | _M_owns
 
 
 ### `StructureIntegrityProcessor`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float` | mIntegrity
 4 | (4) `RandomSeed` | mStartSeed
 
 
 ### `StructureBlockPalette`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<std::unique_ptr<CompoundTag>>` | mStructurePaletteIdToSerializationId
 24 | (56) `std::unordered_map<unsigned long,StructureBlockPalette::BlockPositionData>` | mBlockPositionData
 
 
 ### `StructureTemplate::_fillBlockInfo::$2FA47CEBC638377704193C5643AD3DC1`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::map<const Block *,int> *` | blockToIndex
 8 | (8) `StructureBlockPalette *` | structureBlockPalette
 16 | (8) `const Block *` | voidBlock
@@ -3126,14 +3126,14 @@ Offset | Type | Name
 
 ### `StructureBlockPalette::BlockPositionData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::unique_ptr<CompoundTag>` | mBlockEntityData
 8 | (24) `std::vector<StructureBlockPalette::TickingQueueData>` | mTickData
 
 
 ### `StructureDataLoadHelper`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `DataLoadHelper` | baseclass_0
 8 | (12) `BlockPos` | mStructurePlacementLocation
 20 | (12) `BlockPos` | mStructureWorldOrigin
@@ -3147,32 +3147,32 @@ Offset | Type | Name
 
 ### `Shared<SaveTransactionManager>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::__shared_ptr<SaveTransactionManager,__gnu_cxx::_S_atomic>` | baseclass_0
 
 
 ### `Shared<Core::FileStorageArea>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::__shared_ptr<Core::FileStorageArea,__gnu_cxx::_S_atomic>` | baseclass_0
 
 
 ### `SpecificEnchantFunction::EnchantInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `Enchant::Type` | enchantment
 4 | (4) `int` | level
 
 
 ### `Shared<RopeSystem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::__shared_ptr<RopeSystem,__gnu_cxx::_S_atomic>` | baseclass_0
 
 
 ### `ScoreInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const Objective *` | mObjective
 8 | (1) `bool` | mValid
 12 | (4) `int` | mValue
@@ -3180,7 +3180,7 @@ Offset | Type | Name
 
 ### `ScoreInfoRef`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const Objective *` | mObjective
 8 | (1) `bool` | mValid
 16 | (8) `int *` | mValue
@@ -3188,48 +3188,48 @@ Offset | Type | Name
 
 ### `ServerScoreboard::unit_test_ctor_t`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `ServerScoreboard::ScoreChangedLevelCallback`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<void (const ScoreboardId &)>::_Invoker_type` | _M_invoker
 
 
 ### `ServerScoreboard::ScoreRemovedLevelCallback`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<void (const ScoreboardId &)>::_Invoker_type` | _M_invoker
 
 
 ### `ServerScoreboard::SetDisplayObjectiveLevelCallback`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<void (const std::string &,const DisplayObjective &)>::_Invoker_type` | _M_invoker
 
 
 ### `ServerScoreboard::ClearDisplayObjectiveLevelCallback`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<void (const std::string &,const DisplayObjective &)>::_Invoker_type` | _M_invoker
 
 
 ### `ServerScoreboard::IdentityUpdatedLevelCallback`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<void (const ScoreboardId &)>::_Invoker_type` | _M_invoker
 
 
 ### `SlotDescriptor`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mSlot
 8 | (24) `std::vector<ItemInstance>` | mAcceptedItems
 32 | (8) `const Item *` | mItem
@@ -3240,7 +3240,7 @@ Offset | Type | Name
 
 ### `SeatDescription`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (12) `Vec3` | mPosition
 12 | (4) `int` | mMinSeatCount
 16 | (4) `int` | mMaxSeatCount
@@ -3251,7 +3251,7 @@ Offset | Type | Name
 
 ### `Shareable`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | itemId
 4 | (4) `int` | itemAux
 8 | (4) `int` | wantAmount
@@ -3264,13 +3264,13 @@ Offset | Type | Name
 
 ### `StackRefResultT<EntityRegistryRefTraits>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `EntityRegistryRefTraits::StackResultStorage` | baseclass_0
 
 
 ### `StackedGraphBars`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<std::array<float,2>>` | mData
 24 | (24) `std::vector<StackedGraphBars::ColorKey>` | mColors
 48 | (4) `float` | mHeight
@@ -3280,20 +3280,20 @@ Offset | Type | Name
 
 ### `ScriptApi::ScriptVersionInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int32_t` | mMajorVersion
 4 | (4) `int32_t` | mMinVerssion
 
 
 ### `ScriptApi::EventTracking`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `ScriptApi::ScriptObjectHandle` | mFunctionObject
 
 
 ### `ScriptCommand`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `ScriptCommandId` | mId
 8 | (32) `std::string` | mCommand
 40 | (1) `ScriptApi::ScriptObjectHandle` | mCallback
@@ -3301,7 +3301,7 @@ Offset | Type | Name
 
 ### `ScriptApi::ScriptSystemInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | mInitialized
 8 | (32) `std::string` | mSystemName
 40 | (1) `ScriptApi::ScriptObjectHandle` | mSystemObject
@@ -3310,7 +3310,7 @@ Offset | Type | Name
 
 ### `ScriptEngine::ScriptQueueData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `Core::HeapPathBuffer` | mScriptPath
 32 | (32) `std::string` | mScriptName
 64 | (32) `std::string` | mScriptContent
@@ -3321,7 +3321,7 @@ Offset | Type | Name
 
 ### `ScriptQueryComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (56) `std::unordered_set<std::string>` | mFilters
 56 | (4) `ScriptQueryComponent::ViewType` | mType
 64 | (32) `std::string` | mSpatialTag
@@ -3330,19 +3330,19 @@ Offset | Type | Name
 
 ### `ScriptApi::WORKAROUNDS::tempActorComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ActorUniqueID` | mID
 
 
 ### `ScriptApi::WORKAROUNDS::tempLevelComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `ScoreboardCommand::SetScoreOutput`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mSuccessCount
 4 | (4) `int` | mFirstNewScore
 8 | (32) `std::string` | mFirstSuccess
@@ -3350,7 +3350,7 @@ Offset | Type | Name
 
 ### `StopSoundPacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `Packet` | baseclass_0
 40 | (32) `std::string` | mName
 72 | (1) `bool` | mStopAll
@@ -3358,7 +3358,7 @@ Offset | Type | Name
 
 ### `SetTitlePacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (36) `Packet:288` | baseclass_0
 36 | (4) `SetTitlePacket::TitleType` | mType
 40 | (32) `std::string` | mTitleText
@@ -3369,51 +3369,51 @@ Offset | Type | Name
 
 ### `ShareableComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `IEntityComponent` | baseclass_0
 
 
 ### `StompBlockGoal::OptionalBlockPos`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::_Optional_base<BlockPos>` | baseclass_0
 
 
 ### `SubtreeDefinition::load::$2A59718DDDE9B252D2E2D9E1042A23A6`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SubtreeDefinition *` | this
 
 
 ### `StructureBlockPalette::TickingQueueData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mTickDelay
 
 
 ### `sched_param`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | sched_priority
 
 
 ### `sockaddr`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `sa_family_t` | sa_family
 2 | (14) `char[14]` | sa_data
 
 
 ### `StrAndBool`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `char *` | str
 8 | (1) `bool` | b
 
 
 ### `stat`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__dev_t` | st_dev
 8 | (8) `__ino_t` | st_ino
 16 | (8) `__nlink_t` | st_nlink
@@ -3433,19 +3433,19 @@ Offset | Type | Name
 
 ### `StringToPackTypeMap_t`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (56) `std::unordered_map<std::string,PackType>::_Hashtable` | _M_h
 
 
 ### `SemVersion::any_version_constructor`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `ScheduledCallback`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `time_t` | mTime
 8 | (16) `std::weak_ptr<bool>` | mExistenceTracker
 24 | (32) `std::function<void ()>` | mCallback
@@ -3454,7 +3454,7 @@ Offset | Type | Name
 
 ### `stack_t`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `void *` | ss_sp
 8 | (4) `int` | ss_flags
 16 | (8) `size_t` | ss_size
@@ -3462,7 +3462,7 @@ Offset | Type | Name
 
 ### `sigaction`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `sigaction::$A264F945D93E77C42166F8517888D535` | __sigaction_handler
 8 | (128) `__sigset_t` | sa_mask
 136 | (4) `int` | sa_flags
@@ -3471,14 +3471,14 @@ Offset | Type | Name
 
 ### `sigaction::$A264F945D93E77C42166F8517888D535`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__sighandler_t` | sa_handler
 1 | (8) `void (*)(int, siginfo_t *, void *)` | sa_sigaction
 
 
 ### `siginfo_t`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | si_signo
 4 | (4) `int` | si_errno
 8 | (4) `int` | si_code
@@ -3488,7 +3488,7 @@ Offset | Type | Name
 
 ### `siginfo_t::$9514A1E9F77EB70C94BB89C64268A47A`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (112) `int[28]` | _pad
 1 | (8) `siginfo_t::$9514A1E9F77EB70C94BB89C64268A47A::$34A68472B6FD99AB74EBE1055AA656AE` | _kill
 2 | (16) `siginfo_t::$9514A1E9F77EB70C94BB89C64268A47A::$CCD53A48A999AABAD7234802D7894EC3` | _timer
@@ -3501,14 +3501,14 @@ Offset | Type | Name
 
 ### `siginfo_t::$9514A1E9F77EB70C94BB89C64268A47A::$34A68472B6FD99AB74EBE1055AA656AE`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `__pid_t` | si_pid
 4 | (4) `__uid_t` | si_uid
 
 
 ### `siginfo_t::$9514A1E9F77EB70C94BB89C64268A47A::$CCD53A48A999AABAD7234802D7894EC3`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | si_tid
 4 | (4) `int` | si_overrun
 8 | (8) `__sigval_t` | si_sigval
@@ -3516,7 +3516,7 @@ Offset | Type | Name
 
 ### `siginfo_t::$9514A1E9F77EB70C94BB89C64268A47A::$1083567770C9944ECE9586E3D60D7164`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `__pid_t` | si_pid
 4 | (4) `__uid_t` | si_uid
 8 | (8) `__sigval_t` | si_sigval
@@ -3524,7 +3524,7 @@ Offset | Type | Name
 
 ### `siginfo_t::$9514A1E9F77EB70C94BB89C64268A47A::$269BD37B8033F496E0DA26224222815C`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `__pid_t` | si_pid
 4 | (4) `__uid_t` | si_uid
 8 | (4) `int` | si_status
@@ -3534,7 +3534,7 @@ Offset | Type | Name
 
 ### `siginfo_t::$9514A1E9F77EB70C94BB89C64268A47A::$9E99AB014780417E3FB416F9C93D05FB`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `void *` | si_addr
 8 | (2) `__int16` | si_addr_lsb
 16 | (16) `siginfo_t::$9514A1E9F77EB70C94BB89C64268A47A::$9E99AB014780417E3FB416F9C93D05FB::$5BC825E6F32707B864090E1402CAE52B` | _bounds
@@ -3542,28 +3542,28 @@ Offset | Type | Name
 
 ### `siginfo_t::$9514A1E9F77EB70C94BB89C64268A47A::$9E99AB014780417E3FB416F9C93D05FB::$5BC825E6F32707B864090E1402CAE52B`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `siginfo_t::$9514A1E9F77EB70C94BB89C64268A47A::$9E99AB014780417E3FB416F9C93D05FB::$5BC825E6F32707B864090E1402CAE52B::$500E99076578AD283C95318D41ACB4BA` | _addr_bnd
 1 | (4) `__uint32_t` | _pkey
 
 
 ### `siginfo_t::$9514A1E9F77EB70C94BB89C64268A47A::$9E99AB014780417E3FB416F9C93D05FB::$5BC825E6F32707B864090E1402CAE52B::$500E99076578AD283C95318D41ACB4BA`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `void *` | _lower
 8 | (8) `void *` | _upper
 
 
 ### `siginfo_t::$9514A1E9F77EB70C94BB89C64268A47A::$8332D0DE0C0D8B400D7F5CB203041E7E`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int64` | si_band
 8 | (4) `int` | si_fd
 
 
 ### `siginfo_t::$9514A1E9F77EB70C94BB89C64268A47A::$5BF7061F11A02461448786E25380AC9A`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `void *` | _call_addr
 8 | (4) `int` | _syscall
 12 | (4) `unsigned int` | _arch
@@ -3571,13 +3571,13 @@ Offset | Type | Name
 
 ### `sigset_t`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (128) `unsigned __int64[16]` | __val
 
 
 ### `SubChunk`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `DirtyTicksCounter` | mDirtyTicksCounter
 8 | (8) `std::unique_ptr<SubChunkBrightnessStorage>` | mLight
 16 | (16) `std::unique_ptr<SubChunkBlockStorage>[2]` | mBlocks
@@ -3587,14 +3587,14 @@ Offset | Type | Name
 
 ### `ScoreboardIdentityRef`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `uint32_t` | mObjectiveReferences
 8 | (16) `ScoreboardId` | mScoreboardId
 
 
 ### `SparklerItem::ColorInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `ItemColor` | mDyeId
 1 | (1) `CompoundType` | mColorCompound
 4 | (4) `int` | mVariantIndex
@@ -3603,20 +3603,20 @@ Offset | Type | Name
 
 ### `SmallSet<WorkerPool *>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<WorkerPool *>` | c
 
 
 ### `ServiceOverrider<bool (*)(const char *,const char *,const char *,bool,int,const char *,const char *,bool)>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (104) `ThreadLocal<bool (**)(const char *,const char *,const char *,bool,int,const char *,const char *,bool)>` | mService
 104 | (8) `bool (**)(const char *, const char *, const char *, bool, int, const char *, const char *, bool)` | mDefaultService
 
 
 ### `ServerMetricsImpl`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ServerMetrics` | baseclass_0
 8 | (8) `std::chrono::_V2::steady_clock::time_point` | mLastPeriodicSend
 16 | (56) `std::unordered_map<NetworkIdentifier,ServerMetricsImpl::DataTransferred>` | mLastMeasured
@@ -3627,19 +3627,19 @@ Offset | Type | Name
 
 ### `ServerMetrics`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `int (**)(void)` | _vptr$ServerMetrics
 
 
 ### `SmoothStoneSelector`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `BlockSelector` | baseclass_0
 
 
 ### `SavedData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `int (**)(void)` | _vptr$SavedData
 8 | (1) `bool` | mDirty
 16 | (32) `std::string` | mId
@@ -3647,7 +3647,7 @@ Offset | Type | Name
 
 ### `StructureManager`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (56) `SharedMutex` | mRepositoryMutex
 56 | (56) `std::unordered_map<std::string,std::unique_ptr<LegacyStructureTemplate>>` | mLegacyStructureRepository
 112 | (56) `std::unordered_map<std::string,std::unique_ptr<StructureTemplate>>` | mStructureRepository
@@ -3657,19 +3657,19 @@ Offset | Type | Name
 
 ### `SharedMutex`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (56) `std::__shared_timed_mutex_base` | baseclass_0
 
 
 ### `SharePtrRefTraits<PerlinSimplexNoise>::OwnerStorage`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<PerlinSimplexNoise>` | mValue
 
 
 ### `Scheduler`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `uint32_t` | mTotalFrames
 4 | (4) `uint32_t` | mStarvedFrames
 8 | (4) `uint32_t` | mPromotionFrames
@@ -3687,7 +3687,7 @@ Offset | Type | Name
 
 ### `SubClientConnectionRequest`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Unique<UnverifiedCertificate>` | mCertificateData
 8 | (8) `Unique<Certificate>` | mCertificate
 16 | (8) `Unique<WebToken>` | mRawToken
@@ -3695,7 +3695,7 @@ Offset | Type | Name
 
 ### `ScorePacketInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `ScoreboardId` | mScoreboardId
 16 | (32) `std::string` | mObjectiveName
 48 | (4) `int` | mScoreValue
@@ -3707,7 +3707,7 @@ Offset | Type | Name
 
 ### `ScriptEngineWithContext<ScriptServerContext>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (416) `ScriptEngine` | baseclass_0
 416 | (16) `const string_span` | SCRIPT_FILE_EXTENSION
 432 | (32) `const std::string` | SCRIPT_ENTITY_TYPE
@@ -3724,7 +3724,7 @@ Offset | Type | Name
 
 ### `ScriptEngine`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (48) `ScriptApi::ScriptFramework` | baseclass_0
 48 | (8) `ScriptApi::ScriptCallbackInterface` | baseclass_30
 56 | (56) `std::unordered_map<std::string,std::vector<ScriptApi::EventTracking>>` | mListeningEvents
@@ -3741,7 +3741,7 @@ Offset | Type | Name
 
 ### `ScriptApi::ScriptFramework`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `int (**)(void)` | _vptr$ScriptFramework
 8 | (8) `std::unique_ptr<ScriptApi::ScriptLanguageInterface>` | mLanguageInterface
 16 | (24) `std::vector<ScriptApi::ScriptSystemInfo>` | mScriptSystems
@@ -3750,31 +3750,31 @@ Offset | Type | Name
 
 ### `ScriptApi::ScriptCallbackInterface`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `int (**)(void)` | _vptr$ScriptCallbackInterface
 
 
 ### `ScriptEngine::ScriptSet_t`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (56) `std::unordered_set<std::string>::_Hashtable` | _M_h
 
 
 ### `ScriptEngine::ScriptQueue_t`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (80) `std::deque<ScriptEngine::ScriptQueueData>` | c
 
 
 ### `ScriptLoggerConfig`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EnumBitset<ScriptLogType,3>` | baseclass_0
 
 
 ### `ScriptServerContext`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Level *` | mLevel
 8 | (8) `Minecraft *` | mMinecraft
 16 | (8) `PacketSender *` | mPacketSender
@@ -3784,7 +3784,7 @@ Offset | Type | Name
 
 ### `ScriptTemplateFactory<ScriptServerContext>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (56) `ScriptTemplateFactory<ScriptServerContext>::Entries<ScriptTemplateFactory<ScriptServerContext>::Entity>` | mEntities
 56 | (56) `ScriptTemplateFactory<ScriptServerContext>::Entries<ScriptTemplateFactory<ScriptServerContext>::Entity>` | mItemEntities
 112 | (56) `ScriptTemplateFactory<ScriptServerContext>::Entries<ScriptTemplateFactory<ScriptServerContext>::Component>` | mComponents
@@ -3795,97 +3795,97 @@ Offset | Type | Name
 
 ### `ScriptTemplateFactory<ScriptServerContext>::Entries<ScriptTemplateFactory<ScriptServerContext>::Entity>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (56) `std::unordered_map<unsigned long,std::shared_ptr<ScriptTemplateFactory<ScriptServerContext>::Entity>>` | mTemplates
 
 
 ### `ScriptTemplateFactory<ScriptServerContext>::Entries<ScriptTemplateFactory<ScriptServerContext>::Component>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (56) `std::unordered_map<unsigned long,std::shared_ptr<ScriptTemplateFactory<ScriptServerContext>::Component>>` | mTemplates
 
 
 ### `ScriptTemplateFactory<ScriptServerContext>::Entries<ScriptTemplateFactory<ScriptServerContext>::ReceivedEvent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (56) `std::unordered_map<unsigned long,std::shared_ptr<ScriptTemplateFactory<ScriptServerContext>::ReceivedEvent>>` | mTemplates
 
 
 ### `ScriptTemplateFactory<ScriptServerContext>::HashedEntries`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (56) `std::unordered_set<unsigned long>` | mHashes
 
 
 ### `ScriptTemplateFactory<ScriptServerContext>::Entry<ScriptTemplateFactory<ScriptServerContext>::ReceivedEvent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::__shared_ptr<ScriptTemplateFactory<ScriptServerContext>::ReceivedEvent,__gnu_cxx::_S_atomic>` | baseclass_0
 
 
 ### `ScriptOnlyComponents<ScriptServerContext>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (48) `std::map<std::string,Json::Value>` | mScriptOnlyComponentDefs
 
 
 ### `ScriptOnlyEventsData<ScriptServerContext>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (48) `std::map<std::string,Json::Value>` | mScriptOnlyEventsData
 
 
 ### `ScriptCommandCallbackQueue`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (56) `std::unordered_map<unsigned int,ScriptCommandCallbackData>::_Hashtable` | _M_h
 
 
 ### `ScriptQueries`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (112) `entt::DefaultRegistry` | mRegistryView
 
 
 ### `ServerInstanceEventListener`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `int (**)(void)` | _vptr$ServerInstanceEventListener
 
 
 ### `Squid::spawnInkParticles::$7EF7C94BEAB75C6CEF4ADFB99B570420`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `Squid::aiStep::$7EF7C94BEAB75C6CEF4ADFB99B570420`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `Squid::updateEntitySpecificMolangVariables::$7EF7C94BEAB75C6CEF4ADFB99B570420`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `Shulker::updateEntitySpecificMolangVariables::$7EF7C94BEAB75C6CEF4ADFB99B570420`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `Silverfish::spawnAnim::$7EF7C94BEAB75C6CEF4ADFB99B570420`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `SynchedActorData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `SynchedActorData::DataList` | mItemsArray
 24 | (2) `SynchedActorData::ID` | minIdxDirty
 26 | (2) `SynchedActorData::ID` | maxIdxDirty
@@ -3893,7 +3893,7 @@ Offset | Type | Name
 
 ### `SimpleContainer`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (244) `__int8[244]` | baseclass_0
 244 | (4) `int` | mSize
 248 | (24) `std::vector<ItemStack>` | mItems
@@ -3901,35 +3901,35 @@ Offset | Type | Name
 
 ### `SimpleBoolFilterTest`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (12) `FilterTest:96` | baseclass_0
 12 | (1) `bool` | mValue
 
 
 ### `SimpleFloatFilterTest`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (12) `FilterTest:96` | baseclass_0
 12 | (4) `float` | mValue
 
 
 ### `SimpleHashStringFilterTest`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `FilterTest` | baseclass_0
 16 | (40) `Util::HashString` | mValueString
 
 
 ### `SimpleIntFilterTest`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (12) `FilterTest:96` | baseclass_0
 12 | (4) `int` | mValue
 
 
 ### `SimpleTagIDFilterTest`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `FilterTest` | baseclass_0
 16 | (16) `std::optional<IDType<TagIDType> >` | mCachedIDValue
 32 | (40) `Util::HashString` | mValueString
@@ -3937,13 +3937,13 @@ Offset | Type | Name
 
 ### `SortItemInstanceIdAux`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `SpawnData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `int (**)(void)` | _vptr$SpawnData
 8 | (4) `WeighedRandom::WeighedRandomItem` | baseclass_8
 16 | (168) `ActorDefinitionIdentifier` | mActorId
@@ -3952,19 +3952,19 @@ Offset | Type | Name
 
 ### `StackRefResultT<EntityRefTraits>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `EntityRefTraits::StackResultStorage` | baseclass_0
 
 
 ### `SubChunkBlockStorage`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `int (**)(void)` | _vptr$SubChunkBlockStorage
 
 
 ### `SubChunkBlockStoragePaletted<1,SubChunkBlockStorage::Type::Paletted1>::fetchBlocksInCylinder::$40F19BD02D6D15FED988956B86A67BFC`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `uint32_t` | height
 4 | (4) `uint32_t` | radius
 8 | (8) `const BlockPos *` | pos
@@ -3972,19 +3972,19 @@ Offset | Type | Name
 
 ### `SubChunkBlockStoragePaletted<1,SubChunkBlockStorage::Type::Paletted1>::fetchBlocksInBox::$C6B2610503636021CCB9EBE3476F26BC`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const BoundingBox *` | box
 
 
 ### `SubChunkBlockStoragePaletted<1,SubChunkBlockStorage::Type::Paletted1>::findUsedIndices::$89D4AD7C0CE71E5C121270538A6F6D8C`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::bitset<2> *` | existing
 
 
 ### `SubChunkBlockStoragePaletted<1,SubChunkBlockStorage::Type::Paletted1>::_fetchBlocksInShape<(lambda at _Minecraftpe_handheld_src_common_world_level_chunk_SubChunkBlockStoragePaletted_h:357:64)>::$242ED9D411BD064A57C4553B835CD0FE`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const std::bitset<2> *` | indices
 8 | (8) `const BlockPos *` | positionOfChunk
 16 | (8) `const BlockPos *` | pos
@@ -3996,7 +3996,7 @@ Offset | Type | Name
 
 ### `SubChunkBlockStoragePaletted<1,SubChunkBlockStorage::Type::Paletted1>::_fetchBlocksInShape<(lambda at _Minecraftpe_handheld_src_common_world_level_chunk_SubChunkBlockStoragePaletted_h:371:67)>::$633D66453D3F5664A26EE59CDFD22959`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const std::bitset<2> *` | indices
 8 | (8) `const BlockPos *` | positionOfChunk
 16 | (8) `const BlockPos *` | pos
@@ -4008,7 +4008,7 @@ Offset | Type | Name
 
 ### `SubChunkBlockStoragePaletted<1,SubChunkBlockStorage::Type::Paletted1>::_zeroIndicesGreaterEqualThan::$BF7C779BDE86076AE2754C92A6BC7645`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `uint16_t *` | max
 8 | (8) `std::vector<unsigned short> *` | outOfBoundSlots
 16 | (8) `size_t *` | idx
@@ -4016,7 +4016,7 @@ Offset | Type | Name
 
 ### `SubChunkBlockStoragePaletted<2,SubChunkBlockStorage::Type::Paletted2>::fetchBlocksInCylinder::$40F19BD02D6D15FED988956B86A67BFC`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `uint32_t` | height
 4 | (4) `uint32_t` | radius
 8 | (8) `const BlockPos *` | pos
@@ -4024,19 +4024,19 @@ Offset | Type | Name
 
 ### `SubChunkBlockStoragePaletted<2,SubChunkBlockStorage::Type::Paletted2>::fetchBlocksInBox::$C6B2610503636021CCB9EBE3476F26BC`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const BoundingBox *` | box
 
 
 ### `SubChunkBlockStoragePaletted<2,SubChunkBlockStorage::Type::Paletted2>::findUsedIndices::$D3A89A71AD77E1A6A761C588139D92F8`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::bitset<4> *` | existing
 
 
 ### `SubChunkBlockStoragePaletted<2,SubChunkBlockStorage::Type::Paletted2>::_fetchBlocksInShape<(lambda at _Minecraftpe_handheld_src_common_world_level_chunk_SubChunkBlockStoragePaletted_h:357:64)>::$66FA6D0B33FF0D79D1FAEF5E715B6A50`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const std::bitset<4> *` | indices
 8 | (8) `const BlockPos *` | positionOfChunk
 16 | (8) `const BlockPos *` | pos
@@ -4048,7 +4048,7 @@ Offset | Type | Name
 
 ### `SubChunkBlockStoragePaletted<2,SubChunkBlockStorage::Type::Paletted2>::_fetchBlocksInShape<(lambda at _Minecraftpe_handheld_src_common_world_level_chunk_SubChunkBlockStoragePaletted_h:371:67)>::$5D469001403E80B2A426E4718973955B`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const std::bitset<4> *` | indices
 8 | (8) `const BlockPos *` | positionOfChunk
 16 | (8) `const BlockPos *` | pos
@@ -4060,7 +4060,7 @@ Offset | Type | Name
 
 ### `SubChunkBlockStoragePaletted<2,SubChunkBlockStorage::Type::Paletted2>::_zeroIndicesGreaterEqualThan::$BF7C779BDE86076AE2754C92A6BC7645`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `uint16_t *` | max
 8 | (8) `std::vector<unsigned short> *` | outOfBoundSlots
 16 | (8) `size_t *` | idx
@@ -4068,7 +4068,7 @@ Offset | Type | Name
 
 ### `SubChunkBlockStoragePaletted<3,SubChunkBlockStorage::Type::Paletted3>::fetchBlocksInCylinder::$40F19BD02D6D15FED988956B86A67BFC`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `uint32_t` | height
 4 | (4) `uint32_t` | radius
 8 | (8) `const BlockPos *` | pos
@@ -4076,19 +4076,19 @@ Offset | Type | Name
 
 ### `SubChunkBlockStoragePaletted<3,SubChunkBlockStorage::Type::Paletted3>::fetchBlocksInBox::$C6B2610503636021CCB9EBE3476F26BC`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const BoundingBox *` | box
 
 
 ### `SubChunkBlockStoragePaletted<3,SubChunkBlockStorage::Type::Paletted3>::findUsedIndices::$5D1D4294B57C53DD4C7D10D4AE89381A`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::bitset<8> *` | existing
 
 
 ### `SubChunkBlockStoragePaletted<3,SubChunkBlockStorage::Type::Paletted3>::_fetchBlocksInShape<(lambda at _Minecraftpe_handheld_src_common_world_level_chunk_SubChunkBlockStoragePaletted_h:357:64)>::$C26F408D3D152A4098209C2CE9387EF2`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const std::bitset<8> *` | indices
 8 | (8) `const BlockPos *` | positionOfChunk
 16 | (8) `const BlockPos *` | pos
@@ -4100,7 +4100,7 @@ Offset | Type | Name
 
 ### `SubChunkBlockStoragePaletted<3,SubChunkBlockStorage::Type::Paletted3>::_fetchBlocksInShape<(lambda at _Minecraftpe_handheld_src_common_world_level_chunk_SubChunkBlockStoragePaletted_h:371:67)>::$09FE199C713A938B3B17002F6F47058A`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const std::bitset<8> *` | indices
 8 | (8) `const BlockPos *` | positionOfChunk
 16 | (8) `const BlockPos *` | pos
@@ -4112,7 +4112,7 @@ Offset | Type | Name
 
 ### `SubChunkBlockStoragePaletted<3,SubChunkBlockStorage::Type::Paletted3>::_zeroIndicesGreaterEqualThan::$BF7C779BDE86076AE2754C92A6BC7645`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `uint16_t *` | max
 8 | (8) `std::vector<unsigned short> *` | outOfBoundSlots
 16 | (8) `size_t *` | idx
@@ -4120,7 +4120,7 @@ Offset | Type | Name
 
 ### `SubChunkBlockStoragePaletted<4,SubChunkBlockStorage::Type::Paletted4>::fetchBlocksInCylinder::$40F19BD02D6D15FED988956B86A67BFC`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `uint32_t` | height
 4 | (4) `uint32_t` | radius
 8 | (8) `const BlockPos *` | pos
@@ -4128,19 +4128,19 @@ Offset | Type | Name
 
 ### `SubChunkBlockStoragePaletted<4,SubChunkBlockStorage::Type::Paletted4>::fetchBlocksInBox::$C6B2610503636021CCB9EBE3476F26BC`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const BoundingBox *` | box
 
 
 ### `SubChunkBlockStoragePaletted<4,SubChunkBlockStorage::Type::Paletted4>::findUsedIndices::$900FAD5FCE8D58777B797CA0B7FA2138`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::bitset<16> *` | existing
 
 
 ### `SubChunkBlockStoragePaletted<4,SubChunkBlockStorage::Type::Paletted4>::_fetchBlocksInShape<(lambda at _Minecraftpe_handheld_src_common_world_level_chunk_SubChunkBlockStoragePaletted_h:357:64)>::$4917742FCBCB7D234EAD1B5E3DA1DE4E`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const std::bitset<16> *` | indices
 8 | (8) `const BlockPos *` | positionOfChunk
 16 | (8) `const BlockPos *` | pos
@@ -4152,7 +4152,7 @@ Offset | Type | Name
 
 ### `SubChunkBlockStoragePaletted<4,SubChunkBlockStorage::Type::Paletted4>::_fetchBlocksInShape<(lambda at _Minecraftpe_handheld_src_common_world_level_chunk_SubChunkBlockStoragePaletted_h:371:67)>::$28E5234A30BDDE39C7BEB7FA929ADF5A`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const std::bitset<16> *` | indices
 8 | (8) `const BlockPos *` | positionOfChunk
 16 | (8) `const BlockPos *` | pos
@@ -4164,7 +4164,7 @@ Offset | Type | Name
 
 ### `SubChunkBlockStoragePaletted<4,SubChunkBlockStorage::Type::Paletted4>::_zeroIndicesGreaterEqualThan::$BF7C779BDE86076AE2754C92A6BC7645`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `uint16_t *` | max
 8 | (8) `std::vector<unsigned short> *` | outOfBoundSlots
 16 | (8) `size_t *` | idx
@@ -4172,7 +4172,7 @@ Offset | Type | Name
 
 ### `SubChunkBlockStoragePaletted<5,SubChunkBlockStorage::Type::Paletted5>::fetchBlocksInCylinder::$40F19BD02D6D15FED988956B86A67BFC`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `uint32_t` | height
 4 | (4) `uint32_t` | radius
 8 | (8) `const BlockPos *` | pos
@@ -4180,19 +4180,19 @@ Offset | Type | Name
 
 ### `SubChunkBlockStoragePaletted<5,SubChunkBlockStorage::Type::Paletted5>::fetchBlocksInBox::$C6B2610503636021CCB9EBE3476F26BC`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const BoundingBox *` | box
 
 
 ### `SubChunkBlockStoragePaletted<5,SubChunkBlockStorage::Type::Paletted5>::findUsedIndices::$C463AA8D3B7416B6EACBAB570E768265`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::bitset<32> *` | existing
 
 
 ### `SubChunkBlockStoragePaletted<5,SubChunkBlockStorage::Type::Paletted5>::_fetchBlocksInShape<(lambda at _Minecraftpe_handheld_src_common_world_level_chunk_SubChunkBlockStoragePaletted_h:357:64)>::$AAA3ED88E6F951360D315A860A822F3A`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const std::bitset<32> *` | indices
 8 | (8) `const BlockPos *` | positionOfChunk
 16 | (8) `const BlockPos *` | pos
@@ -4204,7 +4204,7 @@ Offset | Type | Name
 
 ### `SubChunkBlockStoragePaletted<5,SubChunkBlockStorage::Type::Paletted5>::_fetchBlocksInShape<(lambda at _Minecraftpe_handheld_src_common_world_level_chunk_SubChunkBlockStoragePaletted_h:371:67)>::$ED58595EF437FEAFABE4C940374EA69A`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const std::bitset<32> *` | indices
 8 | (8) `const BlockPos *` | positionOfChunk
 16 | (8) `const BlockPos *` | pos
@@ -4216,7 +4216,7 @@ Offset | Type | Name
 
 ### `SubChunkBlockStoragePaletted<5,SubChunkBlockStorage::Type::Paletted5>::_zeroIndicesGreaterEqualThan::$BF7C779BDE86076AE2754C92A6BC7645`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `uint16_t *` | max
 8 | (8) `std::vector<unsigned short> *` | outOfBoundSlots
 16 | (8) `size_t *` | idx
@@ -4224,7 +4224,7 @@ Offset | Type | Name
 
 ### `SubChunkBlockStoragePaletted<6,SubChunkBlockStorage::Type::Paletted6>::fetchBlocksInCylinder::$40F19BD02D6D15FED988956B86A67BFC`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `uint32_t` | height
 4 | (4) `uint32_t` | radius
 8 | (8) `const BlockPos *` | pos
@@ -4232,19 +4232,19 @@ Offset | Type | Name
 
 ### `SubChunkBlockStoragePaletted<6,SubChunkBlockStorage::Type::Paletted6>::fetchBlocksInBox::$C6B2610503636021CCB9EBE3476F26BC`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const BoundingBox *` | box
 
 
 ### `SubChunkBlockStoragePaletted<6,SubChunkBlockStorage::Type::Paletted6>::findUsedIndices::$2990B7D608F6D64D2C15233EADEB07CB`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::bitset<64> *` | existing
 
 
 ### `SubChunkBlockStoragePaletted<6,SubChunkBlockStorage::Type::Paletted6>::_fetchBlocksInShape<(lambda at _Minecraftpe_handheld_src_common_world_level_chunk_SubChunkBlockStoragePaletted_h:357:64)>::$B5E2A92EF98D0403FD7DBC5576FA3DFE`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const std::bitset<64> *` | indices
 8 | (8) `const BlockPos *` | positionOfChunk
 16 | (8) `const BlockPos *` | pos
@@ -4256,7 +4256,7 @@ Offset | Type | Name
 
 ### `SubChunkBlockStoragePaletted<6,SubChunkBlockStorage::Type::Paletted6>::_fetchBlocksInShape<(lambda at _Minecraftpe_handheld_src_common_world_level_chunk_SubChunkBlockStoragePaletted_h:371:67)>::$704CDF7438A6CF9DB4A498AA560B0A22`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const std::bitset<64> *` | indices
 8 | (8) `const BlockPos *` | positionOfChunk
 16 | (8) `const BlockPos *` | pos
@@ -4268,7 +4268,7 @@ Offset | Type | Name
 
 ### `SubChunkBlockStoragePaletted<6,SubChunkBlockStorage::Type::Paletted6>::_zeroIndicesGreaterEqualThan::$BF7C779BDE86076AE2754C92A6BC7645`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `uint16_t *` | max
 8 | (8) `std::vector<unsigned short> *` | outOfBoundSlots
 16 | (8) `size_t *` | idx
@@ -4276,7 +4276,7 @@ Offset | Type | Name
 
 ### `SubChunkBlockStoragePaletted<8,SubChunkBlockStorage::Type::Paletted8>::fetchBlocksInCylinder::$40F19BD02D6D15FED988956B86A67BFC`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `uint32_t` | height
 4 | (4) `uint32_t` | radius
 8 | (8) `const BlockPos *` | pos
@@ -4284,19 +4284,19 @@ Offset | Type | Name
 
 ### `SubChunkBlockStoragePaletted<8,SubChunkBlockStorage::Type::Paletted8>::fetchBlocksInBox::$C6B2610503636021CCB9EBE3476F26BC`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const BoundingBox *` | box
 
 
 ### `SubChunkBlockStoragePaletted<8,SubChunkBlockStorage::Type::Paletted8>::findUsedIndices::$34AB7F28A08EB8CC59CD205CAB614B75`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::bitset<256> *` | existing
 
 
 ### `SubChunkBlockStoragePaletted<8,SubChunkBlockStorage::Type::Paletted8>::_fetchBlocksInShape<(lambda at _Minecraftpe_handheld_src_common_world_level_chunk_SubChunkBlockStoragePaletted_h:357:64)>::$1AEE232A0E96F160F80275F43A812658`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const std::bitset<256> *` | indices
 8 | (8) `const BlockPos *` | positionOfChunk
 16 | (8) `const BlockPos *` | pos
@@ -4308,7 +4308,7 @@ Offset | Type | Name
 
 ### `SubChunkBlockStoragePaletted<8,SubChunkBlockStorage::Type::Paletted8>::_fetchBlocksInShape<(lambda at _Minecraftpe_handheld_src_common_world_level_chunk_SubChunkBlockStoragePaletted_h:371:67)>::$40981709DD800CB46A7EC240DF9DEAFC`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const std::bitset<256> *` | indices
 8 | (8) `const BlockPos *` | positionOfChunk
 16 | (8) `const BlockPos *` | pos
@@ -4320,7 +4320,7 @@ Offset | Type | Name
 
 ### `SubChunkBlockStoragePaletted<8,SubChunkBlockStorage::Type::Paletted8>::_zeroIndicesGreaterEqualThan::$BF7C779BDE86076AE2754C92A6BC7645`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `uint16_t *` | max
 8 | (8) `std::vector<unsigned short> *` | outOfBoundSlots
 16 | (8) `size_t *` | idx
@@ -4328,7 +4328,7 @@ Offset | Type | Name
 
 ### `SubChunkBlockStoragePaletted<16,SubChunkBlockStorage::Type::Paletted16>::fetchBlocksInCylinder::$40F19BD02D6D15FED988956B86A67BFC`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `uint32_t` | height
 4 | (4) `uint32_t` | radius
 8 | (8) `const BlockPos *` | pos
@@ -4336,19 +4336,19 @@ Offset | Type | Name
 
 ### `SubChunkBlockStoragePaletted<16,SubChunkBlockStorage::Type::Paletted16>::fetchBlocksInBox::$C6B2610503636021CCB9EBE3476F26BC`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const BoundingBox *` | box
 
 
 ### `SubChunkBlockStoragePaletted<16,SubChunkBlockStorage::Type::Paletted16>::findUsedIndices::$6336BD0E2483FB0EFB3F76DC3EBC5309`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::bitset<4096> *` | existing
 
 
 ### `SubChunkBlockStoragePaletted<16,SubChunkBlockStorage::Type::Paletted16>::_fetchBlocksInShape<(lambda at _Minecraftpe_handheld_src_common_world_level_chunk_SubChunkBlockStoragePaletted_h:357:64)>::$6F135F9B09AF7761430A35C180173A8C`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const std::bitset<4096> *` | indices
 8 | (8) `const BlockPos *` | positionOfChunk
 16 | (8) `const BlockPos *` | pos
@@ -4360,7 +4360,7 @@ Offset | Type | Name
 
 ### `SubChunkBlockStoragePaletted<16,SubChunkBlockStorage::Type::Paletted16>::_fetchBlocksInShape<(lambda at _Minecraftpe_handheld_src_common_world_level_chunk_SubChunkBlockStoragePaletted_h:371:67)>::$290B4DE2DB2BE431220A17F6F7E7C4F0`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const std::bitset<4096> *` | indices
 8 | (8) `const BlockPos *` | positionOfChunk
 16 | (8) `const BlockPos *` | pos
@@ -4372,7 +4372,7 @@ Offset | Type | Name
 
 ### `SubChunkBlockStoragePaletted<16,SubChunkBlockStorage::Type::Paletted16>::_zeroIndicesGreaterEqualThan::$BF7C779BDE86076AE2754C92A6BC7645`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `uint16_t *` | max
 8 | (8) `std::vector<unsigned short> *` | outOfBoundSlots
 16 | (8) `size_t *` | idx
@@ -4380,7 +4380,7 @@ Offset | Type | Name
 
 ### `StructurePoolElement`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `int (**)(void)` | _vptr$StructurePoolElement
 8 | (4) `std::once_flag` | mTemplateOnceFlag
 16 | (40) `std::optional<StructurePoolElement::LazyTemplate>` | mTemplate
@@ -4395,7 +4395,7 @@ Offset | Type | Name
 
 ### `SetScorePacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (36) `Packet:288` | baseclass_0
 36 | (1) `ScorePacketType` | mType
 40 | (24) `std::vector<ScorePacketInfo>` | mScoreInfo
@@ -4403,7 +4403,7 @@ Offset | Type | Name
 
 ### `SetScoreboardIdentityPacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (36) `Packet:288` | baseclass_0
 36 | (1) `ScoreboardIdentityPacketType` | mType
 40 | (24) `std::vector<ScoreboardIdentityPacketInfo>` | mIdentityInfo
@@ -4411,7 +4411,7 @@ Offset | Type | Name
 
 ### `SetDisplayObjectivePacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `Packet` | baseclass_0
 40 | (32) `std::string` | mDisplaySlotName
 72 | (32) `std::string` | mObjectiveName
@@ -4422,7 +4422,7 @@ Offset | Type | Name
 
 ### `ServerScoreboard`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (472) `Scoreboard` | baseclass_0
 472 | (8) `std::unique_ptr<BasicTimer>` | mSaveTimer
 480 | (8) `LevelStorage *` | mLevelStorage
@@ -4439,7 +4439,7 @@ Offset | Type | Name
 
 ### `Scoreboard`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `int (**)(void)` | _vptr$Scoreboard
 8 | (8) `CommandSoftEnumRegistry` | mRegistry
 16 | (56) `std::unordered_map<std::string,DisplayObjective>` | mDisplayObjectives
@@ -4452,31 +4452,31 @@ Offset | Type | Name
 
 ### `ScoreboardCommand::InitProxy`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Scoreboard *` | mScoreboard
 
 
 ### `ScatterParams::_getPos::$7EF7C94BEAB75C6CEF4ADFB99B570420`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `ScatterParams::initMolangParams::$7EF7C94BEAB75C6CEF4ADFB99B570420`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `SpongeBlock::_spawnAbsorbParticles::$7EF7C94BEAB75C6CEF4ADFB99B570420`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `SnapshotEnv::DeleteFileEntry`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `Core::HeapPathBuffer` | mFileName
 32 | (1) `bool` | mWasRename
 

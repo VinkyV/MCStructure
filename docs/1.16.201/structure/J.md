@@ -1,14 +1,14 @@
 # J
 ### `Json::Value`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Json::Value::ValueHolder` | value_
 8 | (2) `__int16` | _bf_8
 
 
 ### `Json::Value::ValueHolder`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int64` | int_
 1 | (8) `unsigned __int64` | uint_
 2 | (8) `long double` | real_
@@ -19,7 +19,7 @@ Offset | Type | Name
 
 ### `JWTCrypto`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `Crypto::Asymmetric::System` | mKeyType
 8 | (32) `std::string` | mAlgorithm
 40 | (4) `Crypto::Hash::HashType` | mHashType
@@ -28,14 +28,14 @@ Offset | Type | Name
 
 ### `JoinCodeIconData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | toolTip
 32 | (32) `std::string` | texture
 
 
 ### `Json::Reader`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `std::stack<Json::Value *>` | nodes_
 40 | (40) `std::deque<Json::Reader::ErrorInfo>` | errors_
 80 | (32) `std::string` | document_
@@ -51,21 +51,21 @@ Offset | Type | Name
 
 ### `Json::Features`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | allowComments_
 1 | (1) `bool` | strictRoot_
 
 
 ### `Json::Value::CZString`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const char *` | cstr_
 8 | (4) `unsigned int` | index_
 
 
 ### `Json::FastWriter`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Json::Writer` | baseclass_0
 8 | (32) `std::string` | document_
 40 | (1) `bool` | yamlCompatiblityEnabled_
@@ -73,26 +73,26 @@ Offset | Type | Name
 
 ### `Json::Writer`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Json::Writer_vtbl *` | __vftable
 
 
 ### `JoincodeEntryScreenController::{ctor}::__l2::<lambda_3950b1ac9c64f8a3989189fcb749af71>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `JoincodeEntryScreenController *const` | __this
 
 
 ### `JoincodeEntryScreenController::_requestJoinServer::__l2::<lambda_ecf16ffa0c4f61ef22be7767f15d5b0a>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<JoincodeEntryScreenController>` | weakThis
 16 | (64) `std::function<void __cdecl(std::shared_ptr<JoincodeEntryScreenController>,EDUDiscovery::JoinServerQueryState const &)>` | joinCallback
 
 
 ### `JsonValidator::Property`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<enum Json::ValueType>` | mTypes
 24 | (1) `bool` | mIsRequired
 25 | (1) `bool` | mRequiresConditionalProperty
@@ -105,14 +105,14 @@ Offset | Type | Name
 
 ### `Json::ValueIteratorBase`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<Json::Value::CZString const ,Json::Value> > > >` | current_
 8 | (1) `bool` | isNull_
 
 
 ### `Json::StyledStreamWriter`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<std::string>` | childValues_
 24 | (8) `std::ostream *` | document_
 32 | (32) `std::string` | indentString_
@@ -123,13 +123,13 @@ Offset | Type | Name
 
 ### `Json::ValueConstIterator`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `Json::ValueIteratorBase` | baseclass_0
 
 
 ### `JsonValueHierarchyNode`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Json::Value *` | mValue
 8 | (112) `SemVersion` | mVersion
 120 | (32) `std::string` | mSourceFileName
@@ -137,19 +137,19 @@ Offset | Type | Name
 
 ### `JsonUtil::SchemaConverterCollection`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<JsonUtil::SchemaConverterNode>` | mCollection
 
 
 ### `JsonValueHierarchy`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<JsonValueHierarchyNode>` | mJson
 
 
 ### `Json::StyledWriter`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Json::Writer` | baseclass_0
 8 | (24) `std::vector<std::string>` | childValues_
 32 | (32) `std::string` | document_
@@ -161,7 +161,7 @@ Offset | Type | Name
 
 ### `JsonMergeStrategy`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ResourcePackMergeStrategy` | baseclass_0
 8 | (32) `std::string` | mFileName
 40 | (8) `Json::Value *` | mRoot
@@ -170,14 +170,14 @@ Offset | Type | Name
 
 ### `JsonLoader`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `Serializer` | baseclass_0
 64 | (8) `JsonInternalData *` | mData
 
 
 ### `JigsawPlacement`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `const int` | mMaxDepth
 4 | (4) `const int` | mGlobalContextSize
 8 | (64) `const std::function<std::unique_ptr<PoolElementStructurePiece> __cdecl(StructurePoolElement const &,BlockPos const &,enum Rotation const &,int,JigsawJunction &,BoundingBox const &,BlockPos const &)>` | mFactory
@@ -194,7 +194,7 @@ Offset | Type | Name
 
 ### `JigsawEditorData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | mName
 32 | (32) `std::string` | mTarget
 64 | (32) `std::string` | mTargetPool
@@ -204,7 +204,7 @@ Offset | Type | Name
 
 ### `JigsawBlockInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (12) `BlockPos` | mPos
 16 | (8) `const Block *` | mBlock
 24 | (8) `const Block *` | mFinalBlock
@@ -213,77 +213,77 @@ Offset | Type | Name
 
 ### `JsonUtil::addMemberSetter::__l2::<lambda_5e7219008c93c09fe80b5bbb5ba71ef5>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `void (__fastcall *)(AreaAttackDefinition *this, const std::string *)` | memberSetter
 8 | (32) `const std::string` | defaultValue
 
 
 ### `JsonUtil::addMember::__l2::<lambda_29fe8bd269779b023f9e609e42ac6518>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `std::string *__ptr32` | member
 8 | (32) `const std::string` | defaultValue
 
 
 ### `JsonUtil::addMemberSetter::__l2::<lambda_05c8167d9ccf3715fbba2faa051b0b66>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `void (__fastcall *)(DamageSensorTrigger *this, const std::string *)` | memberSetter
 8 | (32) `const std::string` | defaultValue
 
 
 ### `JsonUtil::addMemberSetter::__l2::<lambda_4f729a4716877eb58d39bfea4513dfab>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `void (__fastcall *)(DamageSensorTrigger *this, const std::string *)` | memberSetter
 8 | (32) `const std::string` | defaultValue
 
 
 ### `JsonUtil::addMemberSetter::__l2::<lambda_5ede91cee34c3c52fe17f984f217c9d7>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `void (__fastcall *)(MobEffectDefinition *this, const std::string *)` | memberSetter
 8 | (32) `const std::string` | defaultValue
 
 
 ### `JsonUtil::addMemberSetter::__l2::<lambda_79c6e42dd0a096560cd10a29e0923ee0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `void (__fastcall *)(Interaction *this, const std::string *)` | memberSetter
 8 | (32) `const std::string` | defaultValue
 
 
 ### `JsonUtil::addMemberSetter::__l2::<lambda_48ff0a5d9661010224ed23056519ffad>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `void (__fastcall *)(Interaction *this, const std::string *)` | memberSetter
 8 | (32) `const std::string` | defaultValue
 
 
 ### `JsonUtil::addMemberSetter::__l2::<lambda_0fcae12d2687c2ac4c81468f9a8250a7>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `void (__fastcall *)(ShooterDefinition *this, const std::string *)` | memberSetter
 8 | (32) `const std::string` | defaultValue
 
 
 ### `JsonUtil::addMemberSetter::__l2::<lambda_d7fc8ed681bda1a01ddac3af94dcfb24>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `void (__fastcall *)(SpawnActorParameters *this, const std::string *)` | memberSetter
 8 | (32) `const std::string` | defaultValue
 
 
 ### `JsonUtil::addMemberSetter::__l2::<lambda_47c502abe1c314c21f1d468f91740e7c>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `void (__fastcall *)(SpawnActorParameters *this, const std::string *)` | memberSetter
 8 | (32) `const std::string` | defaultValue
 
 
 ### `JumpControlComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | mJumping
 1 | (1) `bool` | mSwimming
 4 | (4) `float` | mJumpPower
@@ -294,7 +294,7 @@ Offset | Type | Name
 
 ### `JumpInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mAnimDuration
 4 | (4) `int` | mJumpDelay
 8 | (4) `float` | mDistanceScale
@@ -303,7 +303,7 @@ Offset | Type | Name
 
 ### `jpeg_common_struct`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `jpeg_error_mgr *` | err
 8 | (8) `jpeg_memory_mgr *` | mem
 16 | (8) `jpeg_progress_mgr *` | progress
@@ -314,14 +314,14 @@ Offset | Type | Name
 
 ### `JsonUtil::addMember::__l2::<lambda_5efc4c547cd8b372b16de44f9629e759>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `std::string *__ptr32` | member
 8 | (32) `const std::string` | defaultValue
 
 
 ### `JournaledFile`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `Core::PathBuffer<std::string >` | mFilePath
 32 | (16) `Core::File` | mFile
 48 | (64) `std::function<Core::Result __cdecl(Core::Path)>` | mValidationCallback
@@ -330,14 +330,14 @@ Offset | Type | Name
 
 ### `JsonUtil::addMemberSetter::__l2::<lambda_1cfa46a954465c3ef3ff5c3f6f8a96e0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `void (__fastcall *)(AvoidBlockGoal::Definition *this, const std::string *)` | memberSetter
 8 | (32) `const std::string` | defaultValue
 
 
 ### `Json::Reader::Token`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `Json::Reader::TokenType` | type_
 8 | (8) `const char *` | start_
 16 | (8) `const char *` | end_
@@ -345,7 +345,7 @@ Offset | Type | Name
 
 ### `jmp_buf`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `unsigned __int64[2]` | Part
 
 

@@ -1,20 +1,20 @@
 # Q
 ### `QueryManifestDocument`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (584) `CommonDocument` | mCommon
 584 | (24) `QueryManifestCustom` | mCustom
 
 
 ### `QueryManifestCustom`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<std::shared_ptr<StoreVisualStyle>>` | mStoreScreenLayout
 
 
 ### `QueryDocument`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<std::string>` | mContentTypes
 24 | (32) `std::string` | mSearchString
 56 | (24) `std::vector<std::string>` | mOrTags

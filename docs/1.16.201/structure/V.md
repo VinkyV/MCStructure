@@ -1,7 +1,7 @@
 # V
 ### `Vec3`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float` | x
 4 | (4) `float` | y
 8 | (4) `float` | z
@@ -9,77 +9,77 @@ Offset | Type | Name
 
 ### `Vec2`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float` | x
 4 | (4) `float` | y
 
 
 ### `VanillaBlockStateTransformUtils::CommonDirectionMapping<enum CoralDirection>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<std::pair<enum CoralDirection,enum CommonDirection>>` | mToRight
 24 | (24) `std::vector<std::pair<enum CommonDirection,enum CoralDirection>>` | mToLeft
 
 
 ### `VanillaBlockStateTransformUtils::CommonDirectionMapping<enum LeverDirection>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<std::pair<enum LeverDirection,enum CommonDirection>>` | mToRight
 24 | (24) `std::vector<std::pair<enum CommonDirection,enum LeverDirection>>` | mToLeft
 
 
 ### `VanillaBlockStateTransformUtils::CommonDirectionMapping<enum Facing::Name>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<std::pair<enum Facing::Name,enum CommonDirection>>` | mToRight
 24 | (24) `std::vector<std::pair<enum CommonDirection,enum Facing::Name>>` | mToLeft
 
 
 ### `VanillaBlockStateTransformUtils::CommonDirectionMapping<enum PillarAxis>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<std::pair<enum PillarAxis,enum CommonDirection>>` | mToRight
 24 | (24) `std::vector<std::pair<enum CommonDirection,enum PillarAxis>>` | mToLeft
 
 
 ### `VanillaBlockStateTransformUtils::CommonDirectionMapping<enum PortalAxis>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<std::pair<enum PortalAxis,enum CommonDirection>>` | mToRight
 24 | (24) `std::vector<std::pair<enum CommonDirection,enum PortalAxis>>` | mToLeft
 
 
 ### `VanillaBlockStateTransformUtils::CommonDirectionMapping<enum RailDirection>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<std::pair<enum RailDirection,enum CommonDirection>>` | mToRight
 24 | (24) `std::vector<std::pair<enum CommonDirection,enum RailDirection>>` | mToLeft
 
 
 ### `VanillaBlockStateTransformUtils::CommonDirectionMapping<enum TorchFacing>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<std::pair<enum TorchFacing,enum CommonDirection>>` | mToRight
 24 | (24) `std::vector<std::pair<enum CommonDirection,enum TorchFacing>>` | mToLeft
 
 
 ### `VanillaBlockStateTransformUtils::CommonDirectionMapping<enum Direction::Type>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<std::pair<enum Direction::Type,enum CommonDirection>>` | mToRight
 24 | (24) `std::vector<std::pair<enum CommonDirection,enum Direction::Type>>` | mToLeft
 
 
 ### `VanillaBlockStateTransformUtils::CommonDirectionMapping<enum WeirdoDirection>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<std::pair<enum WeirdoDirection,enum CommonDirection>>` | mToRight
 24 | (24) `std::vector<std::pair<enum CommonDirection,enum WeirdoDirection>>` | mToLeft
 
 
 ### `Vec4`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float` | x
 4 | (4) `float` | y
 8 | (4) `float` | z
@@ -88,7 +88,7 @@ Offset | Type | Name
 
 ### `VkPhysicalDeviceProperties`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | apiVersion
 4 | (4) `unsigned int` | driverVersion
 8 | (4) `unsigned int` | vendorID
@@ -102,7 +102,7 @@ Offset | Type | Name
 
 ### `VkPhysicalDeviceLimits`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | maxImageDimension1D
 4 | (4) `unsigned int` | maxImageDimension2D
 8 | (4) `unsigned int` | maxImageDimension3D
@@ -213,7 +213,7 @@ Offset | Type | Name
 
 ### `VkPhysicalDeviceSparseProperties`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | residencyStandard2DBlockShape
 4 | (4) `unsigned int` | residencyStandard2DMultisampleBlockShape
 8 | (4) `unsigned int` | residencyStandard3DBlockShape
@@ -223,7 +223,7 @@ Offset | Type | Name
 
 ### `VkPhysicalDeviceMemoryProperties`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | memoryTypeCount
 4 | (256) `VkMemoryType[32]` | memoryTypes
 260 | (4) `unsigned int` | memoryHeapCount
@@ -232,21 +232,21 @@ Offset | Type | Name
 
 ### `VkMemoryType`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | propertyFlags
 4 | (4) `unsigned int` | heapIndex
 
 
 ### `VkMemoryHeap`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `unsigned __int64` | size
 8 | (4) `unsigned int` | flags
 
 
 ### `VkPhysicalDeviceFeatures`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | robustBufferAccess
 4 | (4) `unsigned int` | fullDrawIndexUint32
 8 | (4) `unsigned int` | imageCubeArray
@@ -306,7 +306,7 @@ Offset | Type | Name
 
 ### `VkSwapchainCreateInfoKHR`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `VkStructureType` | sType
 8 | (8) `const void *` | pNext
 16 | (4) `unsigned int` | flags
@@ -329,14 +329,14 @@ Offset | Type | Name
 
 ### `VkExtent2D`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | width
 4 | (4) `unsigned int` | height
 
 
 ### `VkDescriptorSetLayoutBinding`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | binding
 4 | (4) `VkDescriptorType` | descriptorType
 8 | (4) `unsigned int` | descriptorCount
@@ -346,7 +346,7 @@ Offset | Type | Name
 
 ### `VanillaBlockTessellation::Config`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | mGenerateNormals
 1 | (1) `bool` | mFaceDimming
 2 | (1) `bool` | mSmoothLighting
@@ -358,7 +358,7 @@ Offset | Type | Name
 
 ### `VariableRef`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `void *` | mUnsafePointer
 8 | (16) `std::weak_ptr<UIControl>` | mControl
 24 | (8) `LayoutComponent *` | mLayoutComponent
@@ -367,19 +367,19 @@ Offset | Type | Name
 
 ### `VisualTree::getControlsWith::__l2::<lambda_da9a91086bedb4a14722c91a3300ac8e>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::function<bool __cdecl(SliderComponent const &)> *` | predicate
 
 
 ### `VisualTree::getControlsWith::__l2::<lambda_d30ec14a27792ea22ada7beefee6cabf>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::function<bool __cdecl(ToggleComponent const &)> *` | predicate
 
 
 ### `VisualTree`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ControlScreenAction` | baseclass_0
 8 | (16) `std::shared_ptr<UIControl>` | mRootControl
 24 | (16) `std::weak_ptr<UIControl>` | mInitialSelectedControl
@@ -402,13 +402,13 @@ Offset | Type | Name
 
 ### `VanillaBiomeTypeAttributes`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `VanillaBiomeTypes` | mBiomeType
 
 
 ### `ViewRenderData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (12) `glm::tvec3<float,0>` | mCameraPos
 12 | (12) `glm::tvec3<float,0>` | mCameraTargetPos
 24 | (16) `mce::Color` | mFogColor
@@ -437,13 +437,13 @@ Offset | Type | Name
 
 ### `VisibilityNode`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (6) `ByteMask[6]` | mVisibility
 
 
 ### `ViewRenderObject`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (108) `ViewRenderData` | mViewData
 108 | (1) `ClientRenderData` | mClientData
 112 | (56) `CloudRenderObject` | mCloudState
@@ -458,7 +458,7 @@ Offset | Type | Name
 
 ### `VertIndices`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | vrt_i
 4 | (4) `int` | tex_i
 8 | (4) `int` | nrm_i
@@ -466,62 +466,62 @@ Offset | Type | Name
 
 ### `ViewedEntityContextT<EntityContext,FlagComponent<ActorTickedFlag>,ActorComponent,HomeComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `EntityContext` | baseclass_0
 16 | (8) `entt::basic_view<EntityId,entt::exclude_t<>,FlagComponent<ActorTickedFlag>,ActorComponent,HomeComponent> *` | mView
 
 
 ### `VariantParameterList`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (160) `VariantParameterList::Parameter[10]` | parameters
 
 
 ### `VariantParameterList::Parameter`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `unsigned __int64` | type
 8 | (8) `void *` | data
 
 
 ### `ViewedEntityContextT<EntityContext,PlayerTickComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `EntityContext` | baseclass_0
 16 | (8) `entt::basic_view<EntityId,entt::exclude_t<>,PlayerTickComponent> *` | mView
 
 
 ### `ViewedEntityContextT<EntityContext,FlagComponent<ActorTickedFlag>,ActorComponent,AngryComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `EntityContext` | baseclass_0
 16 | (8) `entt::basic_view<EntityId,entt::exclude_t<>,FlagComponent<ActorTickedFlag>,ActorComponent,AngryComponent> *` | mView
 
 
 ### `ViewedEntityContextT<EntityContext,FlagComponent<ActorTickedFlag>,ActorComponent,AreaAttackComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `EntityContext` | baseclass_0
 16 | (8) `entt::basic_view<EntityId,entt::exclude_t<>,FlagComponent<ActorTickedFlag>,ActorComponent,AreaAttackComponent> *` | mView
 
 
 ### `ViewedEntityContextT<EntityContext,FlagComponent<ActorTickedFlag>,ActorComponent,DespawnComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `EntityContext` | baseclass_0
 16 | (8) `entt::basic_view<EntityId,entt::exclude_t<>,FlagComponent<ActorTickedFlag>,ActorComponent,DespawnComponent> *` | mView
 
 
 ### `ViewedEntityContextT<EntityContext,FlagComponent<ActorTickedFlag>,ActorComponent,ProjectileComponent>::ViewedComponentWrapper<ProjectileComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `entt::basic_view<EntityId,entt::exclude_t<>,FlagComponent<ActorTickedFlag>,ActorComponent,ProjectileComponent> *` | mView
 8 | (4) `const EntityId` | mEntity
 
 
 ### `VanillaActorData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `ActorType` | mActorType
 4 | (1) `bool` | mAllowSummon
 8 | (8) `std::unique_ptr<Actor> *(__fastcall *)(std::unique_ptr<Actor> *result, ActorDefinitionGroup *, const ActorDefinitionIdentifier *)` | mFactory
@@ -530,233 +530,233 @@ Offset | Type | Name
 
 ### `Village::DwellerData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Tick` | mTimeSinceTicked
 8 | (12) `BlockPos` | mLastSavedPosition
 
 
 ### `VanillaItems::registerItems::__l2::<lambda_4b88ce55f1a38b6079b1ba725a247c08>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `VanillaItems::registerItems::__l2::<lambda_1b2b284bc54314f149d601649aa8e0ff>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `VanillaItems::registerItems::__l2::<lambda_90559bbe7914be5dfc7a8af4a5c45b24>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `VanillaItems::registerItems::__l2::<lambda_5938727f1e17a4e879a8035bbdf207af>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `VanillaItems::registerItems::__l2::<lambda_729a425f61fbcace02e2572ce428d37d>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `VanillaItems::registerItems::__l2::<lambda_451496a4b1ff6a1f836e00dcfea4e6ee>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `VanillaItems::serverInitCreativeItemsCallback::__l13::<lambda_1005507c92b4817a6c1c75fa5110c130>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `BlockDefinitionGroup *` | blockDefinitionGroup
 8 | (8) `std::vector<Item *> (*)[9]` | ?
 
 
 ### `VanillaItems::serverInitCreativeItemsCallback::__l10::<lambda_94b7dd7becc4c0111f54db02f1989d76>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::vector<Item *> (*)[9]` | ?
 
 
 ### `VanillaItems::serverInitCreativeItemsCallback::__l88::<lambda_d3cb99921afe1d27e5c2a37346fc8ddd>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `VanillaBlockUpdater::addUpdaters_1_10_0::__l2::<lambda_85a5e292953b459ff467f05dbb43fb8f>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `VanillaBlockUpdater::addUpdaters_1_10_0::__l2::<lambda_e76d4e139a4c12dfe2c683002d04ac4a>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `VanillaBlockUpdater::addUpdaters_1_10_0::__l2::<lambda_159ed9db1e6e04fa24571a6bf01ce997>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `VanillaBlockUpdater::addUpdaters_1_10_0::__l2::<lambda_d6e89f84f17c6e5e0fc6aac99310013a>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `VanillaBlockUpdater::addUpdaters_1_10_0::__l2::<lambda_ea2d55cb57a08505c53e7d4068b908c1>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `VanillaBlockUpdater::addUpdaters_1_10_0::__l2::<lambda_2a78babea562bd96e7e7530b178e95e4>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `VanillaBlockUpdater::addUpdaters_1_10_0::__l2::<lambda_cab8ced90b4aac3e488cf4beb555b00b>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `VanillaBlockUpdater::addUpdaters_1_10_0::__l2::<lambda_95e2ab41ec42d49ff06910f7a0fc546b>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `VanillaBlockUpdater::addUpdaters_1_10_0::__l2::<lambda_cc53562d5e2589732fa072e8fa5762e6>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `VanillaBlockUpdater::addUpdaters_1_10_0::__l2::<lambda_80a0e944d92891bf7315ccf189b1f176>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `VanillaBlockUpdater::addUpdaters_1_10_0::__l2::<lambda_e4caf359e392ba1f8d4eb04dba1823c1>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `VanillaBlockUpdater::addUpdaters_1_10_0::__l2::<lambda_9468b49344527a2abbb205e1510f5b53>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `VanillaBlockUpdater::addUpdaters_1_10_0::__l2::<lambda_02e58e6f5516c205d02adf8fe1f3e3df>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `VanillaBlockUpdater::addUpdaters_1_10_0::__l2::<lambda_ac242902225f6a77e2e2224318853024>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `VanillaBlockUpdater::addUpdaters_1_10_0::__l2::<lambda_ed22c1cd52f95a9ba0dd1a8bdba60bcd>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `VanillaBlockUpdater::addUpdaters_1_10_0::__l2::<lambda_b8111d24a693bb149ae55c666516eea9>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `VanillaBlockUpdater::addUpdaters_1_10_0::__l2::<lambda_5ea5d76a9ead2e294b8b630cb0de7f93>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `VanillaBlockUpdater::addUpdaters_1_10_0::__l2::<lambda_3d9502ed95115c72d83bf2561a140435>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `VanillaBlockUpdater::addUpdaters_1_10_0::__l2::<lambda_dd636c355907df6ce357692719cde7a7>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `VanillaBlockUpdater::addUpdaters_1_10_0::__l2::<lambda_52de2e93c5b82e00f5a76791cf4fbd9e>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `VanillaBlockUpdater::addUpdaters_1_10_0::__l2::<lambda_221f570a648cfe7e7642e232b2f6fd30>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `VanillaBlockUpdater::addUpdaters_1_10_0::__l2::<lambda_0086d5b34401320a1fb2a444f822e051>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `VanillaBlockUpdater::addUpdaters_1_10_0::__l2::<lambda_b3d3b2b7492ac7d28f1adaf2654c830b>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `VanillaBlockUpdater::addUpdaters_1_10_0::__l2::<lambda_f025e7b657409b0df2fa094407858914>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `VanillaBlockUpdater::addUpdaters_1_10_0::__l2::<lambda_f822381505ee32fc6277bc0577a26c3b>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `VanillaBlockUpdater::addUpdaters_1_10_0::__l2::<lambda_6fb3d2ac11c17c3145092ff9d2ba8297>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `VanillaBlockUpdater::addUpdaters_1_10_0::__l2::<lambda_2bff6345ccfb1ca571d86cf4bc15a17e>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `VanillaBlockUpdater::addUpdaters_1_10_0::__l2::<lambda_fd645048ae3a850382f64f182a3e0363>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `VanillaBlockUpdater::addUpdaters_1_10_0::__l2::<lambda_5a273132f08e7a148f968fe1a95c9b9b>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `VanillaBlockUpdater::addUpdaters_1_10_0::__l2::<lambda_1de1c8e051bc1e75d774da84c556aba4>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `VanillaBlockUpdater::addUpdaters_1_10_0::__l2::<lambda_7c2f9fe258c150723abc11a7ca06d18f>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `VanillaBlockUpdater::addUpdaters_1_10_0::__l2::<lambda_eaeb7c0ac14a3f2ea45ecf190db5d70e>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `VanillaBlockUpdater::addUpdaters_1_13_0::__l2::<lambda_d8cddec96da93d1fcb89e6872195e657>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `VoiceScreenController::setUpCallbacksForBooleanOption::__l2::<lambda_3e5719820ab0f90dfc7613d37a124f51>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::function<bool __cdecl(void)>` | getValue
 
 
 ### `VoiceScreenController::setUpCallbacksForBooleanOption::__l2::<lambda_a399d8dd5fd94eab242f091b2d1d0cce>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::function<void __cdecl(bool)>` | setValue
 64 | (64) `std::function<bool __cdecl(void)>` | isEnabled
 128 | (32) `const std::string` | toggleName
@@ -764,7 +764,7 @@ Offset | Type | Name
 
 ### `VConnectionPacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `Packet` | baseclass_0
 40 | (4) `unsigned int` | mPacketUid
 48 | (16) `std::shared_ptr<VConnBaseCtrlCMD>` | mVConnCmd
@@ -772,21 +772,21 @@ Offset | Type | Name
 
 ### `ViewedEntityContextT<EntityContext,FlagComponent<ActorTickedFlag>,ActorComponent,RailActivatorComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `EntityContext` | baseclass_0
 16 | (8) `entt::basic_view<EntityId,entt::exclude_t<>,FlagComponent<ActorTickedFlag>,ActorComponent,RailActivatorComponent> *` | mView
 
 
 ### `VanillaOverworldBiomeSource`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `LayerBiomeSource` | baseclass_0
 24 | (16) `std::shared_ptr<Layer<Biome *> const >` | m4x4ResolutionLayer
 
 
 ### `VectorEventData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `__int16` | id
 4 | (4) `float` | x
 8 | (4) `float` | y
@@ -795,14 +795,14 @@ Offset | Type | Name
 
 ### `VkExtensionProperties`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (256) `char[256]` | extensionName
 256 | (4) `unsigned int` | specVersion
 
 
 ### `VkLayerProperties`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (256) `char[256]` | layerName
 256 | (4) `unsigned int` | specVersion
 260 | (4) `unsigned int` | implementationVersion
@@ -811,7 +811,7 @@ Offset | Type | Name
 
 ### `VkImageMemoryBarrier`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `VkStructureType` | sType
 8 | (8) `const void *` | pNext
 16 | (4) `unsigned int` | srcAccessMask
@@ -826,7 +826,7 @@ Offset | Type | Name
 
 ### `VkImageSubresourceRange`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | aspectMask
 4 | (4) `unsigned int` | baseMipLevel
 8 | (4) `unsigned int` | levelCount
@@ -836,7 +836,7 @@ Offset | Type | Name
 
 ### `VkImageCreateInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `VkStructureType` | sType
 8 | (8) `const void *` | pNext
 16 | (4) `unsigned int` | flags
@@ -856,7 +856,7 @@ Offset | Type | Name
 
 ### `VkExtent3D`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | width
 4 | (4) `unsigned int` | height
 8 | (4) `unsigned int` | depth
@@ -864,7 +864,7 @@ Offset | Type | Name
 
 ### `VkMemoryRequirements`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `unsigned __int64` | size
 8 | (8) `unsigned __int64` | alignment
 16 | (4) `unsigned int` | memoryTypeBits
@@ -872,7 +872,7 @@ Offset | Type | Name
 
 ### `VkMemoryAllocateInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `VkStructureType` | sType
 8 | (8) `const void *` | pNext
 16 | (8) `unsigned __int64` | allocationSize
@@ -881,7 +881,7 @@ Offset | Type | Name
 
 ### `VkImageViewCreateInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `VkStructureType` | sType
 8 | (8) `const void *` | pNext
 16 | (4) `unsigned int` | flags
@@ -894,7 +894,7 @@ Offset | Type | Name
 
 ### `VkComponentMapping`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `VkComponentSwizzle` | r
 4 | (4) `VkComponentSwizzle` | g
 8 | (4) `VkComponentSwizzle` | b
@@ -903,7 +903,7 @@ Offset | Type | Name
 
 ### `VkFramebufferCreateInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `VkStructureType` | sType
 8 | (8) `const void *` | pNext
 16 | (4) `unsigned int` | flags
@@ -917,7 +917,7 @@ Offset | Type | Name
 
 ### `VkInstanceCreateInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `VkStructureType` | sType
 8 | (8) `const void *` | pNext
 16 | (4) `unsigned int` | flags
@@ -930,7 +930,7 @@ Offset | Type | Name
 
 ### `VkDebugReportCallbackCreateInfoEXT`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `VkStructureType` | sType
 8 | (8) `const void *` | pNext
 16 | (4) `unsigned int` | flags
@@ -940,7 +940,7 @@ Offset | Type | Name
 
 ### `VkImageFormatProperties`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (12) `VkExtent3D` | maxExtent
 12 | (4) `unsigned int` | maxMipLevels
 16 | (4) `unsigned int` | maxArrayLayers
@@ -950,7 +950,7 @@ Offset | Type | Name
 
 ### `VkDeviceCreateInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `VkStructureType` | sType
 8 | (8) `const void *` | pNext
 16 | (4) `unsigned int` | flags
@@ -965,7 +965,7 @@ Offset | Type | Name
 
 ### `VkWin32SurfaceCreateInfoKHR`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `VkStructureType` | sType
 8 | (8) `const void *` | pNext
 16 | (4) `unsigned int` | flags
@@ -975,7 +975,7 @@ Offset | Type | Name
 
 ### `VkSurfaceCapabilitiesKHR`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | minImageCount
 4 | (4) `unsigned int` | maxImageCount
 8 | (8) `VkExtent2D` | currentExtent
@@ -990,14 +990,14 @@ Offset | Type | Name
 
 ### `VkSurfaceFormatKHR`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `VkFormat` | format
 4 | (4) `VkColorSpaceKHR` | colorSpace
 
 
 ### `VkSemaphoreCreateInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `VkStructureType` | sType
 8 | (8) `const void *` | pNext
 16 | (4) `unsigned int` | flags
@@ -1005,7 +1005,7 @@ Offset | Type | Name
 
 ### `VkRenderPassCreateInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `VkStructureType` | sType
 8 | (8) `const void *` | pNext
 16 | (4) `unsigned int` | flags
@@ -1019,7 +1019,7 @@ Offset | Type | Name
 
 ### `VkFenceCreateInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `VkStructureType` | sType
 8 | (8) `const void *` | pNext
 16 | (4) `unsigned int` | flags
@@ -1027,7 +1027,7 @@ Offset | Type | Name
 
 ### `VkCommandPoolCreateInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `VkStructureType` | sType
 8 | (8) `const void *` | pNext
 16 | (4) `unsigned int` | flags
@@ -1036,7 +1036,7 @@ Offset | Type | Name
 
 ### `VkPipelineCacheCreateInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `VkStructureType` | sType
 8 | (8) `const void *` | pNext
 16 | (4) `unsigned int` | flags
@@ -1046,7 +1046,7 @@ Offset | Type | Name
 
 ### `VkPresentInfoKHR`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `VkStructureType` | sType
 8 | (8) `const void *` | pNext
 16 | (4) `unsigned int` | waitSemaphoreCount
@@ -1059,7 +1059,7 @@ Offset | Type | Name
 
 ### `VkViewport`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float` | x
 4 | (4) `float` | y
 8 | (4) `float` | width
@@ -1070,21 +1070,21 @@ Offset | Type | Name
 
 ### `VkRect2D`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `VkOffset2D` | offset
 8 | (8) `VkExtent2D` | extent
 
 
 ### `VkOffset2D`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | x
 4 | (4) `int` | y
 
 
 ### `VkDescriptorSetAllocateInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `VkStructureType` | sType
 8 | (8) `const void *` | pNext
 16 | (8) `VkDescriptorPool_T *` | descriptorPool
@@ -1094,7 +1094,7 @@ Offset | Type | Name
 
 ### `VkWriteDescriptorSet`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `VkStructureType` | sType
 8 | (8) `const void *` | pNext
 16 | (8) `VkDescriptorSet_T *` | dstSet
@@ -1109,7 +1109,7 @@ Offset | Type | Name
 
 ### `VkSamplerCreateInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `VkStructureType` | sType
 8 | (8) `const void *` | pNext
 16 | (4) `unsigned int` | flags
@@ -1132,7 +1132,7 @@ Offset | Type | Name
 
 ### `VkComputePipelineCreateInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `VkStructureType` | sType
 8 | (8) `const void *` | pNext
 16 | (4) `unsigned int` | flags
@@ -1144,7 +1144,7 @@ Offset | Type | Name
 
 ### `VkPipelineShaderStageCreateInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `VkStructureType` | sType
 8 | (8) `const void *` | pNext
 16 | (4) `unsigned int` | flags
@@ -1156,7 +1156,7 @@ Offset | Type | Name
 
 ### `VkPipelineColorBlendStateCreateInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `VkStructureType` | sType
 8 | (8) `const void *` | pNext
 16 | (4) `unsigned int` | flags
@@ -1169,7 +1169,7 @@ Offset | Type | Name
 
 ### `VkPipelineVertexInputStateCreateInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `VkStructureType` | sType
 8 | (8) `const void *` | pNext
 16 | (4) `unsigned int` | flags
@@ -1181,7 +1181,7 @@ Offset | Type | Name
 
 ### `VkGraphicsPipelineCreateInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `VkStructureType` | sType
 8 | (8) `const void *` | pNext
 16 | (4) `unsigned int` | flags
@@ -1205,7 +1205,7 @@ Offset | Type | Name
 
 ### `VkClearAttachment`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | aspectMask
 4 | (4) `unsigned int` | colorAttachment
 8 | (16) `VkClearValue` | clearValue
@@ -1213,14 +1213,14 @@ Offset | Type | Name
 
 ### `VkClearValue`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `VkClearColorValue` | color
 1 | (8) `VkClearDepthStencilValue` | depthStencil
 
 
 ### `VkClearColorValue`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `float[4]` | float32
 1 | (16) `int[4]` | int32
 2 | (16) `unsigned int[4]` | uint32
@@ -1228,14 +1228,14 @@ Offset | Type | Name
 
 ### `VkClearDepthStencilValue`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float` | depth
 4 | (4) `unsigned int` | stencil
 
 
 ### `VkClearRect`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `VkRect2D` | rect
 16 | (4) `unsigned int` | baseArrayLayer
 20 | (4) `unsigned int` | layerCount
@@ -1243,7 +1243,7 @@ Offset | Type | Name
 
 ### `VkCommandBufferAllocateInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `VkStructureType` | sType
 8 | (8) `const void *` | pNext
 16 | (8) `VkCommandPool_T *` | commandPool
@@ -1253,7 +1253,7 @@ Offset | Type | Name
 
 ### `VkCommandBufferBeginInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `VkStructureType` | sType
 8 | (8) `const void *` | pNext
 16 | (4) `unsigned int` | flags
@@ -1262,7 +1262,7 @@ Offset | Type | Name
 
 ### `VkSubmitInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `VkStructureType` | sType
 8 | (8) `const void *` | pNext
 16 | (4) `unsigned int` | waitSemaphoreCount
@@ -1276,7 +1276,7 @@ Offset | Type | Name
 
 ### `VkBufferCreateInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `VkStructureType` | sType
 8 | (8) `const void *` | pNext
 16 | (4) `unsigned int` | flags
@@ -1289,7 +1289,7 @@ Offset | Type | Name
 
 ### `VkBufferCopy`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `unsigned __int64` | srcOffset
 8 | (8) `unsigned __int64` | dstOffset
 16 | (8) `unsigned __int64` | size
@@ -1297,7 +1297,7 @@ Offset | Type | Name
 
 ### `VkShaderModuleCreateInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `VkStructureType` | sType
 8 | (8) `const void *` | pNext
 16 | (4) `unsigned int` | flags
@@ -1307,7 +1307,7 @@ Offset | Type | Name
 
 ### `VkDescriptorSetLayoutCreateInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `VkStructureType` | sType
 8 | (8) `const void *` | pNext
 16 | (4) `unsigned int` | flags
@@ -1317,7 +1317,7 @@ Offset | Type | Name
 
 ### `VkPipelineLayoutCreateInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `VkStructureType` | sType
 8 | (8) `const void *` | pNext
 16 | (4) `unsigned int` | flags
@@ -1329,7 +1329,7 @@ Offset | Type | Name
 
 ### `VkBufferImageCopy`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `unsigned __int64` | bufferOffset
 8 | (4) `unsigned int` | bufferRowLength
 12 | (4) `unsigned int` | bufferImageHeight
@@ -1340,7 +1340,7 @@ Offset | Type | Name
 
 ### `VkImageSubresourceLayers`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | aspectMask
 4 | (4) `unsigned int` | mipLevel
 8 | (4) `unsigned int` | baseArrayLayer
@@ -1349,7 +1349,7 @@ Offset | Type | Name
 
 ### `VkOffset3D`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | x
 4 | (4) `int` | y
 8 | (4) `int` | z
@@ -1357,7 +1357,7 @@ Offset | Type | Name
 
 ### `VkImageBlit`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `VkImageSubresourceLayers` | srcSubresource
 16 | (24) `VkOffset3D[2]` | srcOffsets
 40 | (16) `VkImageSubresourceLayers` | dstSubresource
@@ -1366,7 +1366,7 @@ Offset | Type | Name
 
 ### `VkRenderPassBeginInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `VkStructureType` | sType
 8 | (8) `const void *` | pNext
 16 | (8) `VkRenderPass_T *` | renderPass
@@ -1378,7 +1378,7 @@ Offset | Type | Name
 
 ### `VkMappedMemoryRange`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `VkStructureType` | sType
 8 | (8) `const void *` | pNext
 16 | (8) `VkDeviceMemory_T *` | memory

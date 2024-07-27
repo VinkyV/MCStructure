@@ -1,7 +1,7 @@
 # G
 ### `glm::tvec3<float,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `$D6EC15B927D7F6093279F9000A61AE1B` | ___u0
 4 | (4) `$FCA921BEFA95D44D60D784C4D8D7ED2C` | ___u1
 8 | (4) `$9B996AAE057415E4B0A10C768262D912` | ___u2
@@ -9,56 +9,56 @@ Offset | Type | Name
 
 ### `GameStates`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::unordered_map<std::string,std::variant<std::string,int,bool,float,double>>` | states
 
 
 ### `glm::tvec2<float,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `$D6EC15B927D7F6093279F9000A61AE1B` | ___u0
 4 | (4) `$FCA921BEFA95D44D60D784C4D8D7ED2C` | ___u1
 
 
 ### `GeneralSettingsScreenController::_initLanguageList::__l2::<lambda_33dc1399bc4810b931d2d21893cb3876>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `GameVersion`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (20) `unsigned int[5]` | mDigit
 24 | (32) `std::string` | mString
 
 
 ### `glm::tmat4x4<float,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `glm::tvec4<float,0>[4]` | value
 
 
 ### `glm::tvec4<float,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `$6314C8CD613830F8484DA188117CC97D` | ___u0
 
 
 ### `glm::detail::storage<float,16,0>::type`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `unsigned __int8[16]` | data
 
 
 ### `GameRenderer::_extractFrame::__l5::<lambda_66c49b5011f688feb0a3b751971e3cda>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ScreenContext *` | screenContext
 
 
 ### `GameControllerHandler_Windows`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (280) `GameControllerHandler` | baseclass_0
 280 | (64) `GameControllerHandler_Windows::InputState_Windows` | mAllPadStates
 344 | (80) `SPSCQueue<GameControllerHandler_Windows::InputState_Windows,512>` | mInputQueue
@@ -66,7 +66,7 @@ Offset | Type | Name
 
 ### `GameControllerHandler`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `GameControllerHandler_vtbl *` | __vftable
 8 | (64) `std::unordered_map<unsigned int,int>` | mButtonMap
 72 | (24) `std::vector<std::unordered_map<unsigned int,enum GameControllerButtonState>>` | mButtonState
@@ -82,26 +82,26 @@ Offset | Type | Name
 
 ### `GameControllerHandler_Windows::InputState_Windows`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `_XINPUT_STATE[4]` | mInputState
 
 
 ### `GameServer`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `GameServer_vtbl *` | __vftable
 8 | (8) `ServerInstance *` | mServerInstance
 
 
 ### `GameRuleId`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `NewType<int>` | baseclass_0
 
 
 ### `GlobalRegistration`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `void (__fastcall *)(RakNet::BitStream *, RakNet::Packet *)` | registerFunctionPointer
 8 | (8) `void (__fastcall *)(RakNet::BitStream *, RakNet::BitStream *, RakNet::Packet *)` | registerBlockingFunctionPointer
 16 | (48) `char[48]` | functionName
@@ -111,7 +111,7 @@ Offset | Type | Name
 
 ### `gc_generation`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `_gc_head` | head
 24 | (4) `int` | threshold
 28 | (4) `int` | count
@@ -119,7 +119,7 @@ Offset | Type | Name
 
 ### `grammar`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | g_ndfas
 8 | (8) `dfa *` | g_dfa
 16 | (16) `labellist` | g_ll
@@ -129,7 +129,7 @@ Offset | Type | Name
 
 ### `GUID`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | Data1
 4 | (2) `unsigned __int16` | Data2
 6 | (2) `unsigned __int16` | Data3
@@ -138,7 +138,7 @@ Offset | Type | Name
 
 ### `GameControllerManager`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IGameControllerManager` | baseclass_0
 8 | (24) `std::vector<std::shared_ptr<GameController>>` | mGameControllers
 32 | (8) `unsigned __int64` | mMaxGameControllerButtons
@@ -152,13 +152,13 @@ Offset | Type | Name
 
 ### `GlobalTags`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<std::string>` | mNotTags
 
 
 ### `glm::tvec3<int,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `$A293B79558BF338540E1F5C0688B11E7` | ___u0
 4 | (4) `$939912DDF64FF6D2D4C7648C131EFFDB` | ___u1
 8 | (4) `$65B41681DBFB7735E325E5971806959E` | ___u2
@@ -166,19 +166,19 @@ Offset | Type | Name
 
 ### `GeometryPtr`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<GeometryInfo>` | mGeometryInfoPtr
 
 
 ### `glm::tquat<float,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `$49D23D25C9A4C920027AFE1D96E7D964` | ___u0
 
 
 ### `glTF::Texture`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `glTF::OptionalField<enum glTF::Texture::Format>` | format
 8 | (8) `glTF::OptionalField<enum glTF::Texture::Format>` | internalFormat
 16 | (8) `glTF::ObjectID` | sampler
@@ -191,35 +191,35 @@ Offset | Type | Name
 
 ### `glTF::OptionalField<enum glTF::Texture::Format>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | mValid
 4 | (4) `glTF::Texture::Format` | mValue
 
 
 ### `glTF::ObjectID`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | mValid
 4 | (4) `int` | mID
 
 
 ### `glTF::OptionalField<enum glTF::Texture::Target>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | mValid
 4 | (4) `glTF::Texture::Target` | mValue
 
 
 ### `glTF::OptionalField<enum glTF::Texture::Type>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | mValid
 4 | (4) `glTF::Texture::Type` | mValue
 
 
 ### `glTF::Node`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | camera
 32 | (24) `std::vector<int>` | children
 56 | (24) `std::vector<int>` | skeleton
@@ -236,28 +236,28 @@ Offset | Type | Name
 
 ### `glTF::OptionalField<glm::tmat4x4<float,0> >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | mValid
 4 | (64) `glm::tmat4x4<float,0>` | mValue
 
 
 ### `glTF::OptionalField<glm::tvec4<float,0> >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | mValid
 4 | (16) `glm::tvec4<float,0>` | mValue
 
 
 ### `glTF::OptionalField<glm::tvec3<float,0> >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | mValid
 4 | (12) `glm::tvec3<float,0>` | mValue
 
 
 ### `glTF::Accessor`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `glTF::ObjectID` | bufferView
 8 | (4) `int` | byteOffset
 12 | (8) `glTF::OptionalField<int>` | byteStride
@@ -272,14 +272,14 @@ Offset | Type | Name
 
 ### `glTF::OptionalField<int>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | mValid
 4 | (4) `int` | mValue
 
 
 ### `glTF::BufferView`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `glTF::ObjectID` | buffer
 8 | (4) `int` | byteOffset
 12 | (4) `int` | byteLength
@@ -289,7 +289,7 @@ Offset | Type | Name
 
 ### `glTF::Material`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | technique
 32 | (16) `Json::Value` | values
 48 | (16) `Json::Value` | extensions
@@ -301,7 +301,7 @@ Offset | Type | Name
 
 ### `glTF::Mesh::Primitive`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `Json::Value` | attributes
 16 | (8) `glTF::ObjectID` | indices
 24 | (8) `glTF::ObjectID` | material
@@ -310,20 +310,20 @@ Offset | Type | Name
 
 ### `glm::tmat3x3<float,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (36) `glm::tvec3<float,0>[3]` | value
 
 
 ### `GameArguments::_onUri::__l52::<lambda_f3877d629a90262d9db07e4c779ee301>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `GameArguments *const` | __this
 8 | (32) `const std::string` | creatorId
 
 
 ### `GameArguments::_tryImport_RequestPermission::__l2::<lambda_cae3f5a7339e66e2c27cf99b89a61ae5>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<DefaultImportContext>` | context
 16 | (32) `Core::PathBuffer<std::string >` | mcContentHeapPath
 48 | (1) `bool` | fromTemp
@@ -333,20 +333,20 @@ Offset | Type | Name
 
 ### `GameRules`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<GameRule>` | mGameRules
 
 
 ### `glm::tvec2<int,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `$A293B79558BF338540E1F5C0688B11E7` | ___u0
 4 | (4) `$939912DDF64FF6D2D4C7648C131EFFDB` | ___u1
 
 
 ### `GuiMessage`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `_BYTE[4]` | mType
 8 | (32) `std::string` | mMessage
 40 | (32) `std::string` | mTTSMessage
@@ -359,7 +359,7 @@ Offset | Type | Name
 
 ### `GridArea<std::shared_ptr<LevelChunk> >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::function<void __cdecl(buffer_span_mut<std::shared_ptr<LevelChunk> >)>` | destroy
 64 | (64) `std::function<void __cdecl(buffer_span<Pos>,buffer_span_mut<std::shared_ptr<LevelChunk> >)>` | generate
 128 | (64) `std::function<void __cdecl(buffer_span_mut<std::shared_ptr<LevelChunk> >,buffer_span<unsigned int>)>` | add
@@ -373,7 +373,7 @@ Offset | Type | Name
 
 ### `GeneralSettingsScreenControllerProxyCallbacks`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::function<int __cdecl(void)>` | mGetCurrentLanguageIndex
 64 | (64) `std::function<int __cdecl(void)>` | mGetNumLanguages
 128 | (64) `std::function<std::vector<std::pair<std::string,std::string >> __cdecl(void)>` | mGetLanguages
@@ -383,174 +383,174 @@ Offset | Type | Name
 
 ### `GeneralSettingsScreenController::_registerControllerCallbacks::__l2::<lambda_d4ab045c0ba8654b90f3c26ccc1fb19f>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `GeneralSettingsScreenController *const` | __this
 
 
 ### `GeneralSettingsScreenController::_registerControllerCallbacks::__l2::<lambda_a2f75c3d0c5507430a70e7c735ae59c4>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `GeneralSettingsScreenController *const` | __this
 
 
 ### `GeneralSettingsScreenController::_registerControllerCallbacks::__l2::<lambda_6095b08f65ca6283ff91616f26f1ee11>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `GeneralSettingsScreenController::_registerControllerCallbacks::__l2::<lambda_5ef691e838f73d29d1236f0f374fdfcd>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Option *` | crossPlatformOption
 
 
 ### `GeneralSettingsScreenController::_registerControllerCallbacks::__l2::<lambda_544e4745d968c2d79bc6dd83024e9e17>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `GeneralSettingsScreenController *const` | __this
 
 
 ### `GeneralSettingsScreenController::_registerControllerCallbacks::__l2::<lambda_5910a7c7e964f8fce6fc83f7d0959703>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `GeneralSettingsScreenController::_registerControllerCallbacks::__l2::<lambda_fec65089e120d46096f56cc932709bdd>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `GeneralSettingsScreenController::_registerControllerCallbacks::__l2::<lambda_8b9d07fba3b37985d05747d08e02d829>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `GeneralSettingsScreenController::_registerControllerCallbacks::__l2::<lambda_6bf365de754ac30e72427a022446f753>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `GeneralSettingsScreenController *const` | __this
 
 
 ### `GeneralSettingsScreenController::_registerControllerCallbacks::__l2::<lambda_571a98d75569e7e58d586d03fc71eb82>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `GeneralSettingsScreenController *const` | __this
 
 
 ### `GeneralSettingsScreenController::_registerControllerCallbacks::__l2::<lambda_0fd794229b6dcf82c3c2dff8f8f547f4>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `GeneralSettingsScreenController *const` | __this
 
 
 ### `GeneralSettingsScreenController::_registerControllerCallbacks::__l2::<lambda_34c1213e53373d9c0710b91d9c42355b>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `GeneralSettingsScreenController *const` | __this
 
 
 ### `GeneralSettingsScreenController::_registerControllerCallbacks::__l2::<lambda_5935f54f9b6a233fcfda3f3e8eea6123>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `GeneralSettingsScreenController::_registerControllerCallbacks::__l2::<lambda_099e32c65cd60b98bde0f0df5dfec5d3>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `GeneralSettingsScreenController::_registerControllerCallbacks::__l14::<lambda_51f45b8d50d1d1c86665687c14b9e9ad>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Option *` | rayTracingOption
 
 
 ### `GeneralSettingsScreenController::_registerControllerCallbacks::__l14::<lambda_f1697f3a11285a7013672781c8afe73b>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Option *` | rayTracingOption
 
 
 ### `GeneralSettingsScreenController::_registerControllerCallbacks::__l2::<lambda_77f19575cc2783dd88963a20a61cc55d>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `GeneralSettingsScreenController::_registerControllerCallbacks::__l2::<lambda_011e72837715ce60663e8d35e92fccfd>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `GeneralSettingsScreenController::_registerControllerCallbacks::__l2::<lambda_ca70dccea1f789c97b83687ca5ffd5db>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `GeneralSettingsScreenController::_registerControllerCallbacks::__l2::<lambda_80c3bae7177e7222c6623c0ef820bd17>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `GeneralSettingsScreenController::_registerControllerCallbacks::__l2::<lambda_c2eb30cff0a3aff87843ad9c1baaa1b9>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Option *` | textureHotReloaderOption
 
 
 ### `GeneralSettingsScreenController::_registerControllerCallbacks::__l2::<lambda_77faca43f8f22db93dec5bfa32bd2e59>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Option *` | textureHotReloaderOption
 
 
 ### `GeneralSettingsScreenController::_registerControllerCallbacks::__l2::<lambda_96e8f65078131582e8e2e5741d21ba28>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `GeneralSettingsScreenController::_registerControllerCallbacks::__l2::<lambda_95e834eee4400f79962c22cdd3e69ff1>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Option *` | interfaceOpacityOption
 
 
 ### `GeneralSettingsScreenController::_registerControllerCallbacks::__l2::<lambda_6e83b579f643b25832eec406367dda38>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `GeneralSettingsScreenController::_registerControllerCallbacks::__l2::<lambda_fba135e4c0c424d22a36368ee2045ac9>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Option *` | interfaceOpacitySplitscreenOption
 
 
 ### `GeneralSettingsScreenController::_registerControllerCallbacks::__l2::<lambda_38c627201a2f3fc876bf417e93421e94>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `GeneralSettingsScreenController::_registerControllerCallbacks::__l2::<lambda_4483cd7c217c0e4206043ddf23f1621f>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Option *` | textBackgroundOpacityOption
 
 
 ### `GeneralSettingsScreenController::_registerControllerCallbacks::__l2::<lambda_9d97543565157045750487d23042c921>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `GeneralSettingsScreenController::_registerEventHandlers::__l6::<lambda_2823966488ed2c7c76688dfc7fb92a0b>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `GeneralSettingsScreenController *const` | __this
 8 | (32) `const std::string` | volumeSlider
 
 
 ### `GeneralSettingsScreenController::_handleLanguageChoiceClick::__l8::<lambda_c337a072ff7ddec318c84ca8bddb0440>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `GeneralSettingsScreenController *const` | __this
 8 | (32) `const std::string` | selectedLanguageCode
 40 | (4) `int` | i
@@ -558,7 +558,7 @@ Offset | Type | Name
 
 ### `GamepadCursorData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | mEnabled
 1 | (1) `bool` | mTempDisabled
 4 | (4) `float` | mSensitivity
@@ -566,7 +566,7 @@ Offset | Type | Name
 
 ### `GameControllerMapper::GamepadStickTurnData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | turnStickActive
 4 | (8) `glm::tvec2<float,0>` | lastTurnStickPos
 12 | (4) `int` | controllerId
@@ -574,7 +574,7 @@ Offset | Type | Name
 
 ### `Geometry::NodeVertex`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | mPositionIndex
 4 | (4) `unsigned int` | mNormalIndex
 8 | (4) `unsigned int` | mUVIndex
@@ -582,7 +582,7 @@ Offset | Type | Name
 
 ### `GeometryGroup::addGeometries::__l5::<lambda_26224e9023beb42bfe5dc8bb122f2e89>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `GeometryGroup *const` | __this
 8 | (16) `std::shared_ptr<GeometryInheritanceTree>` | inheritance
 24 | (8) `ResourceLoadManager *` | resourceLoadManager
@@ -591,7 +591,7 @@ Offset | Type | Name
 
 ### `GeometryGroup::loadGeometriesAsync::__l2::<lambda_dc702485f766a53d6093827c408e76c0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<GeometryInheritanceTree>` | inheritance
 16 | (8) `ResourcePackManager *` | resourcePackManager
 24 | (8) `ResourceLoadManager *` | resourceLoadManager
@@ -601,7 +601,7 @@ Offset | Type | Name
 
 ### `GeometryGroup::loadGeometriesAsync::__l2::<lambda_85e9c86508f88dae86a2a1c25921877e>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `GeometryGroup *const` | __this
 8 | (16) `std::shared_ptr<GeometryInheritanceTree>` | inheritance
 24 | (8) `ResourceLoadManager *` | resourceLoadManager
@@ -610,7 +610,7 @@ Offset | Type | Name
 
 ### `GeometryGroup::loadGeometriesAsync::__l2::<lambda_dc702485f766a53d6093827c408e76c0>::()::__l4::<lambda_df1fb1247c02491ca14ca3838db4c6b3>::()::__l2::<lambda_4fc4ea1a1a6a82223f42b33031651ca3>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<GeometryInheritanceTree>` | inheritance
 16 | (64) `std::function<void __cdecl(Json::Value &)>` | postLoadFixup
 80 | (32) `const Core::Path` | fileWithExtension
@@ -621,7 +621,7 @@ Offset | Type | Name
 
 ### `Geometry::NodePolyMesh`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<Vec3>` | mPositions
 24 | (24) `std::vector<Vec3>` | mNormals
 48 | (24) `std::vector<Vec2>` | mUVs
@@ -632,13 +632,13 @@ Offset | Type | Name
 
 ### `glm::tmat2x3<float,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `glm::tvec3<float,0>[2]` | value
 
 
 ### `GridArea<std::shared_ptr<RenderChunkInstanced> >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::function<void __cdecl(buffer_span_mut<std::shared_ptr<RenderChunkInstanced> >)>` | destroy
 64 | (64) `std::function<void __cdecl(buffer_span<Pos>,buffer_span_mut<std::shared_ptr<RenderChunkInstanced> >)>` | generate
 128 | (64) `std::function<void __cdecl(buffer_span_mut<std::shared_ptr<RenderChunkInstanced> >,buffer_span<unsigned int>)>` | add
@@ -652,7 +652,7 @@ Offset | Type | Name
 
 ### `GridArea<std::shared_ptr<RenderChunkInstanced> >::Definition`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | chunkSide
 4 | (2) `__int16` | minHeight
 6 | (2) `__int16` | maxHeight
@@ -664,21 +664,21 @@ Offset | Type | Name
 
 ### `GameSaveSystem::isSettingsOutOfDate::__l2::<lambda_105ecdbfe54d5ac2abcd0e6224f7f9f9>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::function<void __cdecl(Core::Result,bool)>` | callback
 64 | (32) `const Core::PathBuffer<std::string >` | cloudSyncFile
 
 
 ### `GameSaveSystem::syncSettings::__l2::<lambda_087ab1ad463405e9bdd7b7c6c815050d>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<SaveContainer>` | wptrSettingsContainer
 16 | (64) `std::function<void __cdecl(Core::Result)>` | callback
 
 
 ### `GameSaveSystem::syncSettings::__l2::<lambda_af7b59bc0574b72beedf639a0a9c9cd6>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<Core::RemoteStorageProvider>` | wptrRemoteStorage
 16 | (16) `std::weak_ptr<SaveContainer>` | wptrSettingsContainer
 32 | (16) `std::shared_ptr<CallbackTokenContext<std::function<void __cdecl(Core::Result)> > >` | syncContext
@@ -688,55 +688,55 @@ Offset | Type | Name
 
 ### `GameSaveSystem::syncSettings::__l2::<lambda_c2a3e921cc377171e610bc4d778f3c75>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<SaveContainer>` | wptrSettingsContainer
 
 
 ### `GameSaveSystem::syncSettingsMeta::__l5::<lambda_7d226060555da2f475a95af52f639023>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<SaveContainer>` | wptrSettingsContainer
 16 | (64) `std::function<void __cdecl(Core::Result)>` | callback
 
 
 ### `GameSaveSystem::syncWorldManifest::__l16::<lambda_db61e1f5b0cf47ee576841b259520437>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<SaveContainer>` | wptrWorldContainer
 16 | (64) `std::function<void __cdecl(Core::Result)>` | callback
 
 
 ### `GameSaveSystem::syncWorldsMeta::__l5::<lambda_7f3fc24b0b1656b289448225bd9f02e9>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<SaveContainer>` | wptrWorldsContainer
 16 | (64) `std::function<void __cdecl(Core::Result)>` | callback
 
 
 ### `GameSaveSystem::syncWorld::__l5::<lambda_4ed66249c0727f6b70239698a8759237>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<SaveContainer>` | wptrWorldContainer
 16 | (64) `std::function<void __cdecl(Core::Result)>` | callback
 
 
 ### `glm::tvec2<unsigned short,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `$AA0D9C0E645A4C46932A70C129AAE1AB` | ___u0
 2 | (2) `$2042176E05E2A5B53562E58BCDFC4679` | ___u1
 
 
 ### `glm::tvec2<unsigned int,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `$A6A78DDC903BEAF524B7DB4CBBB586E3` | ___u0
 4 | (4) `$CBCDD465F132EF09A2AEEB3FEE02687F` | ___u1
 
 
 ### `GiveableTrigger`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<ItemDescriptor>` | mGiveableItems
 24 | (320) `DefinitionTrigger` | mOnGive
 344 | (4) `float` | mCoolDown
@@ -744,7 +744,7 @@ Offset | Type | Name
 
 ### `GiveableComponent::getInteraction::__l30::<lambda_e19672d2e3496da46afdf667e255c2e8>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Player *` | player
 8 | (8) `Actor *` | owner
 16 | (248) `ItemStack` | originalItem
@@ -755,13 +755,13 @@ Offset | Type | Name
 
 ### `GroupSizeSystem::tick::__l2::<lambda_9ba22c967da17c1c226bddf83c81b323>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `GroupSizeSystem *const` | __this
 
 
 ### `GameRule`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | mShouldSave
 1 | (1) `_BYTE[1]` | mType
 4 | (4) `GameRule::Value` | mValue
@@ -775,7 +775,7 @@ Offset | Type | Name
 
 ### `GameRule::Value`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | boolVal
 1 | (4) `int` | intVal
 2 | (4) `float` | floatVal
@@ -783,13 +783,13 @@ Offset | Type | Name
 
 ### `GameRuleCommand::InitProxy`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `GameRules *` | mGameRules
 
 
 ### `GoalDefinition`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | mName
 32 | (4) `int` | mPriority
 36 | (4) `int` | mRequiredControlFlags
@@ -990,7 +990,7 @@ Offset | Type | Name
 
 ### `GoalDefinition::<unnamed_type_mMoveToBlockGoalData>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float` | speedModifier
 4 | (4) `int` | searchRange
 8 | (4) `int` | searchHeight
@@ -1007,14 +1007,14 @@ Offset | Type | Name
 
 ### `GroupSizeComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mCount
 8 | (8) `Tick` | mNextTick
 
 
 ### `GridArea<std::shared_ptr<LevelChunk> >::Definition`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | chunkSide
 4 | (2) `__int16` | minHeight
 6 | (2) `__int16` | maxHeight
@@ -1026,13 +1026,13 @@ Offset | Type | Name
 
 ### `GameRulesChangedPacketData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<GameRule>` | mRules
 
 
 ### `GameControllerInputMapping`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<GameControllerButtonBinding>` | buttonBindings
 24 | (24) `std::vector<GameControllerStickBinding>` | stickBindings
 48 | (24) `std::vector<GameControllerTriggerBinding>` | triggerBindings
@@ -1042,7 +1042,7 @@ Offset | Type | Name
 
 ### `GGVInputMapping`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<GGVectorBinding>` | gazeBindings
 24 | (24) `std::vector<GGVectorBinding>` | handBindings
 48 | (24) `std::vector<GGVEventBinding>` | eventBindings
@@ -1051,27 +1051,27 @@ Offset | Type | Name
 
 ### `GlowStoneFeature`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `Feature` | baseclass_0
 
 
 ### `GameController::EventQueue`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const void *` | mToken
 8 | (40) `std::queue<GameControllerEvent>` | mEvents
 
 
 ### `GameControllerMapper::ButtonAttributes`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | nameId
 4 | (4) `float` | repeatInterval
 
 
 ### `GameControllerButtonEvent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | id
 4 | (4) `GameControllerButtonState` | state
 8 | (1) `bool` | allowRemapping
@@ -1079,7 +1079,7 @@ Offset | Type | Name
 
 ### `GameControllerMapper::GameControllerMappingData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::unordered_multimap<int,GameControllerMapper::ButtonAttributes>` | mGamePadButtonToButtonIdMap
 64 | (64) `std::unordered_multimap<int,GameControllerMapper::TriggerState>` | mTriggerToButtonIdMap
 128 | (64) `std::unordered_multimap<int,GameControllerMapper::DirectionAttributes>` | mStickToDirectionIdMap
@@ -1089,7 +1089,7 @@ Offset | Type | Name
 
 ### `g72x_state`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | yl
 4 | (2) `__int16` | yu
 6 | (2) `__int16` | dms
@@ -1105,7 +1105,7 @@ Offset | Type | Name
 
 ### `gray_TWorker_`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (256) `_SETJMP_FLOAT128[16]` | jump_buffer
 256 | (4) `int` | ex
 260 | (4) `int` | ey

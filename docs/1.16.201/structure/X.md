@@ -1,14 +1,14 @@
 # X
 ### `xtime`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int64` | sec
 8 | (4) `int` | nsec
 
 
 ### `XforgeGameVersion`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (20) `unsigned int[5]` | mDigit
 24 | (32) `std::string` | mString
 

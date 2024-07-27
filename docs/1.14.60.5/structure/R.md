@@ -1,7 +1,7 @@
 # R
 ### `ResourcePackRepository`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Core::FilePathManager *` | mFilePathManager
 8 | (24) `std::vector<std::unique_ptr<ResourcePack>>` | mAllResourcePacks
 32 | (8) `std::unique_ptr<CompositePackSource>` | mPackSource
@@ -38,13 +38,13 @@ Offset | Type | Name
 
 ### `ResourcePackRepository::KnownPackContainer`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<ResourcePackRepository::KnownPackInfo>` | mPacks
 
 
 ### `ResourceLocation`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `ResourceFileSystem` | mFileSystem
 8 | (32) `Core::HeapPathBuffer` | mPath
 40 | (8) `HashType64` | mPathHash
@@ -53,7 +53,7 @@ Offset | Type | Name
 
 ### `ResourceMetadata`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<std::string>` | mAuthors
 24 | (32) `std::string` | mUrl
 56 | (32) `std::string` | mLicense
@@ -61,7 +61,7 @@ Offset | Type | Name
 
 ### `ResourcePackStack`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `int (**)(void)` | _vptr$ResourcePackStack
 8 | (24) `ResourcePackStack::PackInstanceStack` | mStack
 32 | (8) `std::unique_ptr<PackSourceReport>` | mPackSourceReport
@@ -69,37 +69,37 @@ Offset | Type | Name
 
 ### `ResourcePackStack::PackInstanceStack`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Vector_base<PackInstance>` | baseclass_0
 
 
 ### `Random`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2516) `Bedrock::Application::ThreadOwner<Core::Random>` | mRandom
 
 
 ### `Range<int,-1>::iterator`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mIndex
 
 
 ### `Range<int,1>::iterator`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mIndex
 
 
 ### `Range<unsigned int,1>::iterator`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | mIndex
 
 
 ### `RootLayer<LayerValues::Terrain>::LayerData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `LayerDetails::Storage` | baseclass_0
 32 | (16) `const LayerDetails::BufferAccessor<char>` | mParentArea
 48 | (16) `LayerDetails::BufferAccessor<LayerValues::Terrain>` | mResult
@@ -107,7 +107,7 @@ Offset | Type | Name
 
 ### `RootLayer<BiomeTemperatureCategory>::LayerData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `LayerDetails::Storage` | baseclass_0
 32 | (16) `const LayerDetails::BufferAccessor<char>` | mParentArea
 48 | (16) `LayerDetails::BufferAccessor<BiomeTemperatureCategory>` | mResult
@@ -115,13 +115,13 @@ Offset | Type | Name
 
 ### `Realms::RealmId`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `NewType<long>` | baseclass_0
 
 
 ### `RaidBossComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `Weak<Village>` | mVillage
 16 | (8) `ActorUniqueID` | mOwnerID
 24 | (32) `std::string` | mName
@@ -137,20 +137,20 @@ Offset | Type | Name
 
 ### `RailActivatorComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `RakNet::RakNetGUID`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `uint64_t` | g
 8 | (2) `RakNet::SystemIndex` | systemIndex
 
 
 ### `ReadOnlyBinaryStream`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `int (**)(void)` | _vptr$ReadOnlyBinaryStream
 8 | (8) `size_t` | mReadPointer
 16 | (32) `const std::string` | mOwnedBuffer
@@ -159,13 +159,13 @@ Offset | Type | Name
 
 ### `Range<unsigned long,1>::iterator`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `unsigned __int64` | mIndex
 
 
 ### `RakNet::RakNetStatistics`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (56) `uint64_t[7]` | valueOverLastSecond
 56 | (56) `uint64_t[7]` | runningTotal
 112 | (8) `RakNet::TimeUS` | connectionStartTime
@@ -183,7 +183,7 @@ Offset | Type | Name
 
 ### `RakNet::SystemAddress`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (128) `RakNet::SystemAddress::$17DEBC484162A322D6AFC648B0CB992A` | address
 128 | (2) `unsigned __int16` | debugPort
 130 | (2) `RakNet::SystemIndex` | systemIndex
@@ -191,7 +191,7 @@ Offset | Type | Name
 
 ### `RakNet::SystemAddress::$17DEBC484162A322D6AFC648B0CB992A`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (128) `sockaddr_storage` | sa_stor
 1 | (28) `sockaddr_in6` | addr6
 2 | (16) `sockaddr_in` | addr4
@@ -199,13 +199,13 @@ Offset | Type | Name
 
 ### `RakNetInstance::_storeLocalIP::$7EF7C94BEAB75C6CEF4ADFB99B570420`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `RakNetInstance::NatConnectionInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (136) `RakNet::SystemAddress` | remoteAddress
 136 | (4) `RakNet::TimeMS` | lastNatPingSendTime
 140 | (4) `uint32_t` | natPingSendCount
@@ -214,7 +214,7 @@ Offset | Type | Name
 
 ### `RakNet::BitStream`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `RakNet::BitSize_t` | numberOfBitsUsed
 4 | (4) `RakNet::BitSize_t` | numberOfBitsAllocated
 8 | (4) `RakNet::BitSize_t` | readOffset
@@ -225,19 +225,19 @@ Offset | Type | Name
 
 ### `RakNet::RakString`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `RakNet::RakString::SharedString *` | sharedString
 
 
 ### `RakNetServerLocator::ScopeLock`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::lock_guard<std::recursive_mutex>::mutex_type *` | _M_device
 
 
 ### `RakNet::SocketDescriptor`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `unsigned __int16` | port
 2 | (32) `char[32]` | hostAddress
 34 | (2) `__int16` | socketFamily
@@ -249,7 +249,7 @@ Offset | Type | Name
 
 ### `ResourcePackStackPacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `Packet` | baseclass_0
 40 | (24) `std::vector<PackInstanceId>` | mAddOnIdsAndVersions
 64 | (24) `std::vector<PackInstanceId>` | mTexturePackIdsAndVersions
@@ -260,21 +260,21 @@ Offset | Type | Name
 
 ### `Recipes::FurnaceRecipeKey`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mID
 8 | (40) `Util::HashString` | mTag
 
 
 ### `ResourcePacksInfoPacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `Packet` | baseclass_0
 40 | (56) `ResourcePacksInfoData` | mData
 
 
 ### `ResourcePacksInfoData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | mTexturePackRequired
 1 | (1) `bool` | mHasScripts
 2 | (1) `bool` | mHasExceptions
@@ -284,13 +284,13 @@ Offset | Type | Name
 
 ### `Recipe::ResultList`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Vector_base<ItemInstance>` | baseclass_0
 
 
 ### `ResourceInformation`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | mDescription
 32 | (112) `SemVersion` | mVersion
 144 | (16) `mce::UUID` | mUUID
@@ -300,28 +300,28 @@ Offset | Type | Name
 
 ### `ResourceTaskCallback`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<TaskResult ()>::_Invoker_type` | _M_invoker
 
 
 ### `ResourceMainThreadCallback`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<void ()>::_Invoker_type` | _M_invoker
 
 
 ### `ResourcePack::Callback`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<void (const Core::Path &)>::_Invoker_type` | _M_invoker
 
 
 ### `ResourcePackContents`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `uint32_t` | mUIJson
 4 | (4) `uint32_t` | mUITextures
 8 | (4) `uint32_t` | mSound
@@ -337,7 +337,7 @@ Offset | Type | Name
 
 ### `ResourcePackRepository::KnownPackInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | mDiscoveredOnDisk
 8 | (56) `ResourceLocation` | mResourceLocation
 64 | (24) `std::vector<std::string>` | mPastHashes
@@ -346,27 +346,27 @@ Offset | Type | Name
 
 ### `RemoveActorPacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `Packet` | baseclass_0
 40 | (8) `ActorUniqueID` | mEntityId
 
 
 ### `RotationDescription`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Description` | baseclass_0
 8 | (8) `Vec2` | mRot
 
 
 ### `Range<unsigned short,1>::iterator`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `unsigned __int16` | mIndex
 
 
 ### `ResourcePackDataInfoPacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `Packet` | baseclass_0
 40 | (32) `std::string` | mResourceName
 72 | (4) `uint32_t` | mChunkSize
@@ -379,7 +379,7 @@ Offset | Type | Name
 
 ### `ResourcePackChunkDataPacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `Packet` | baseclass_0
 40 | (32) `std::string` | mResourceName
 72 | (4) `int` | mChunkID
@@ -389,13 +389,13 @@ Offset | Type | Name
 
 ### `Range<short,1>::iterator`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `__int16` | mIndex
 
 
 ### `RopeParams`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float` | mNodeDist
 4 | (4) `float` | mNodeSize
 8 | (4) `float` | mGravity
@@ -415,106 +415,106 @@ Offset | Type | Name
 
 ### `RideableComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `IEntityComponent` | baseclass_0
 
 
 ### `RaidTriggerComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `IEntityComponent` | baseclass_0
 
 
 ### `RuntimeIdentifierDescription`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `DefintionDescription` | baseclass_0
 8 | (32) `std::string` | mRuntimeId
 
 
 ### `Raid::ActorIDCollection`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (56) `std::unordered_set<ActorUniqueID>::_Hashtable` | _M_h
 
 
 ### `ReverseableIterator::Iterator`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mI
 4 | (1) `bool` | mReversed
 
 
 ### `ResourcePackMergeStrategy`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `int (**)(void)` | _vptr$ResourcePackMergeStrategy
 
 
 ### `RecipeIngredient`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `ItemDescriptorCount` | baseclass_0
 
 
 ### `RecipeMap`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (48) `std::map<std::string,std::unique_ptr<Recipe>>::_Rep_type` | _M_t
 
 
 ### `Range<unsigned char,'_x01'>::iterator`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `unsigned __int8` | mIndex
 
 
 ### `Recipes::addShapedRecipe::Map`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (48) `std::map<char,RecipeIngredient>::_Rep_type` | _M_t
 
 
 ### `Recipes::addShapedRecipe::$7EF7C94BEAB75C6CEF4ADFB99B570420`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `Recipe::Ingredients`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Vector_base<RecipeIngredient>` | baseclass_0
 
 
 ### `Recipes::TypeList`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Vector_base<Recipes::Type>` | baseclass_0
 
 
 ### `RowList`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Vector_base<std::string>` | baseclass_0
 
 
 ### `Recipes::addShapelessRecipe::$7EF7C94BEAB75C6CEF4ADFB99B570420`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `RakDataInput`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `BytesDataInput` | baseclass_0
 8 | (8) `RakNet::BitStream *` | mBitStream
 
 
 ### `RenderParams`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `BaseActorRenderContext *` | mBaseActorRenderContext
 8 | (8) `MolangVariableMap *` | mVariables
 16 | (8) `AnimationComponent *` | mAnimationComponent
@@ -534,20 +534,20 @@ Offset | Type | Name
 
 ### `RenderParams::$3D9EB0E7A2790D70080124A37CC6ABC8`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `RenderParams::$3D9EB0E7A2790D70080124A37CC6ABC8::$7CDB70B13784CF5DCA20C1417F11D194` | _anon_0
 1 | (4) `uint32_t` | _data
 
 
 ### `RenderParams::$3D9EB0E7A2790D70080124A37CC6ABC8::$7CDB70B13784CF5DCA20C1417F11D194`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8` | _bf_0
 
 
 ### `RoomDefinition`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::enable_shared_from_this<RoomDefinition>` | baseclass_0
 16 | (4) `int` | mIndex
 24 | (24) `std::vector<std::shared_ptr<RoomDefinition>>` | mConnections
@@ -559,28 +559,28 @@ Offset | Type | Name
 
 ### `RakDataOutput`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `BytesDataOutput` | baseclass_0
 8 | (8) `RakNet::BitStream *` | mBitStream
 
 
 ### `RandomValueBounds`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float` | mMin
 4 | (4) `float` | mMax
 
 
 ### `RequeueAreaFunc`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<void (const ITickingArea &)>::_Invoker_type` | _M_invoker
 
 
 ### `RopeWave`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (12) `Vec3` | mForce
 12 | (4) `float` | mSpeed
 16 | (4) `float` | mDamping
@@ -591,19 +591,19 @@ Offset | Type | Name
 
 ### `RailMovementComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float` | mMaxSpeed
 
 
 ### `ResourceSignature`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (56) `std::unordered_map<std::string,std::string>` | mSignatureFileContents
 
 
 ### `ResourcePackChunkRequestPacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `Packet` | baseclass_0
 40 | (32) `std::string` | mResourceName
 72 | (4) `int` | mChunk
@@ -611,14 +611,14 @@ Offset | Type | Name
 
 ### `RegisteredTagFilter`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `TagSetID` | mIncludeSet
 8 | (8) `TagSetID` | mExcludeSet
 
 
 ### `RuntimeLightingManager::RelightingChunkElement`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float` | mDist
 8 | (8) `ChunkPos` | mChunkPos
 16 | (8) `size_t` | mSubChunkIndex
@@ -627,14 +627,14 @@ Offset | Type | Name
 
 ### `RoleChecker::OnRoleAcquired`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<void (ADRole,const std::string &,const std::string &)>::_Invoker_type` | _M_invoker
 
 
 ### `RakNet::RNS2_SendParameters`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `char *` | data
 8 | (4) `int` | length
 16 | (136) `RakNet::SystemAddress` | systemAddress
@@ -643,7 +643,7 @@ Offset | Type | Name
 
 ### `RakNet::RNS2_BerkleyBindParameters`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `unsigned __int16` | port
 8 | (8) `char *` | hostAddress
 16 | (2) `unsigned __int16` | addressFamily
@@ -660,38 +660,38 @@ Offset | Type | Name
 
 ### `RakNet::AddressOrGUID`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `RakNet::RakNetGUID` | rakNetGuid
 16 | (136) `RakNet::SystemAddress` | systemAddress
 
 
 ### `RakNet::SimpleMutex`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `pthread_mutex_t` | hMutex
 
 
 ### `RakNet::uint24_t`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `uint32_t` | val
 
 
 ### `RakNet::MessageNumberType`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `uint32_t` | val
 
 
 ### `RakNet::OrderingIndexType`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `uint32_t` | val
 
 
 ### `RakNet::InternalPacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `RakNet::InternalPacketFixedSizeTransmissionHeader` | baseclass_0
 32 | (4) `RakNet::MessageNumberType` | messageInternalOrder
 36 | (1) `bool` | messageNumberAssigned
@@ -714,7 +714,7 @@ Offset | Type | Name
 
 ### `RakNet::InternalPacketFixedSizeTransmissionHeader`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `RakNet::MessageNumberType` | reliableMessageNumber
 4 | (4) `RakNet::OrderingIndexType` | orderingIndex
 8 | (4) `RakNet::OrderingIndexType` | sequencingIndex
@@ -728,7 +728,7 @@ Offset | Type | Name
 
 ### `RakNet::Packet`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (136) `RakNet::SystemAddress` | systemAddress
 136 | (16) `RakNet::RakNetGUID` | guid
 152 | (4) `unsigned int` | length
@@ -740,7 +740,7 @@ Offset | Type | Name
 
 ### `RakNet::NetworkAdapter`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | attributeFlags
 4 | (4) `int` | interfaceIndex
 8 | (1) `bool` | isDisabled
@@ -749,7 +749,7 @@ Offset | Type | Name
 
 ### `r_debug`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | r_version
 8 | (8) `link_map *` | r_map
 16 | (8) `Elf64_Addr` | r_brk
@@ -759,13 +759,13 @@ Offset | Type | Name
 
 ### `ResourcePackListener`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `int (**)(void)` | _vptr$ResourcePackListener
 
 
 ### `RakNet::RakNetRandom`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2500) `unsigned int[625]` | state
 2504 | (8) `unsigned int *` | next
 2512 | (4) `int` | left
@@ -773,7 +773,7 @@ Offset | Type | Name
 
 ### `RakNet::RakString::SharedString`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `RakNet::SimpleMutex *` | refCountMutex
 8 | (4) `unsigned int` | refCount
 16 | (8) `size_t` | bytesUsed
@@ -784,34 +784,34 @@ Offset | Type | Name
 
 ### `RakStringCleanup`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `Range<int,-1>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `const int` | mBeginIDX
 4 | (4) `const int` | mEndIDX
 
 
 ### `Range<int,1>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `const int` | mBeginIDX
 4 | (4) `const int` | mEndIDX
 
 
 ### `Range<unsigned int,1>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `const unsigned int` | mBeginIDX
 4 | (4) `const unsigned int` | mEndIDX
 
 
 ### `ResourceLoadManager`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Scheduler *` | mScheduler
 8 | (8) `WorkerPool *` | mWorkerPool
 16 | (48) `std::map<ResourceLoadType,std::unique_ptr<ResourceLoadManager::ResourceLoadTaskGroup>>` | mResourceLoadTaskGroups
@@ -820,13 +820,13 @@ Offset | Type | Name
 
 ### `RakNetInstance::ConnectionCallbacks`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `int (**)(void)` | _vptr$ConnectionCallbacks
 
 
 ### `RakNetInstance`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Connector` | baseclass_0
 8 | (8) `RakNetInstance::ConnectionCallbacks *` | mCallbacks
 16 | (152) `NetworkIdentifier` | mNATPunchServerId
@@ -854,7 +854,7 @@ Offset | Type | Name
 
 ### `RakPeerHelper`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `RakNet::StartupResult` | mResult
 4 | (8) `int[2]` | mConnectionIndices
 12 | (4) `uint16_t[2]` | mBoundPorts
@@ -863,20 +863,20 @@ Offset | Type | Name
 
 ### `Range<unsigned long,1>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const unsigned __int64` | mBeginIDX
 8 | (8) `const unsigned __int64` | mEndIDX
 
 
 ### `RakPeerHelper::IPSupportInterface`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `int (**)(void)` | _vptr$IPSupportInterface
 
 
 ### `ResourcePackInfoData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (136) `PackIdVersion` | mPackIdVersion
 136 | (8) `uint64_t` | mPackSize
 144 | (32) `std::string` | mContentKey
@@ -888,7 +888,7 @@ Offset | Type | Name
 
 ### `ResourceLoadManager::ResourceLoadTaskGroup`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `ResourceLoadType` | mLoadType
 8 | (8) `std::unique_ptr<TaskGroup>` | mTaskGroup
 16 | (24) `std::vector<ResourceLoadType>` | mDependencies
@@ -898,35 +898,35 @@ Offset | Type | Name
 
 ### `ResourceLoadManager::TaskGroupState`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | mRunning
 8 | (8) `size_t` | mPaused
 
 
 ### `ResourcePath`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | mPackId
 32 | (32) `std::string` | mPath
 
 
 ### `Range<unsigned short,1>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `const unsigned __int16` | mBeginIDX
 2 | (2) `const unsigned __int16` | mEndIDX
 
 
 ### `Range<short,1>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `const __int16` | mBeginIDX
 2 | (2) `const __int16` | mEndIDX
 
 
 ### `RandomHoverGoal`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `Goal` | baseclass_0
 16 | (8) `Mob *` | mMob
 24 | (4) `const float` | mSpeedModifier
@@ -940,7 +940,7 @@ Offset | Type | Name
 
 ### `Raid`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `Raid::RaidState` | mCurrentRaidState
 4 | (1) `Raid::GroupNumberType` | mCurrentGroupNumber
 5 | (1) `Raid::GroupNumberType` | mNumGroupsInRaid
@@ -966,41 +966,41 @@ Offset | Type | Name
 
 ### `Raid::PickSpawnPointCallback`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<bool (unsigned long,Vec3 &)>::_Invoker_type` | _M_invoker
 
 
 ### `Raid::SpawnGroupCallback`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<bool (unsigned long,Vec3,unsigned char,std::unordered_set<ActorUniqueID> &)>::_Invoker_type` | _M_invoker
 
 
 ### `Raid::DoesActorExistCallback`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<bool (const ActorUniqueID &)>::_Invoker_type` | _M_invoker
 
 
 ### `Raid::NotificationCallback`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<void (const Raid &)>::_Invoker_type` | _M_invoker
 
 
 ### `Rabbit::updateEntitySpecificMolangVariables::$7EF7C94BEAB75C6CEF4ADFB99B570420`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `RespawnPacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (36) `Packet:288` | baseclass_0
 36 | (12) `Vec3` | mPos
 48 | (1) `PlayerRespawnState` | mState
@@ -1009,7 +1009,7 @@ Offset | Type | Name
 
 ### `ReverseableIterator`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `const int` | mStartValue
 4 | (4) `const int` | mEndValue
 8 | (1) `const bool` | mReversed
@@ -1017,7 +1017,7 @@ Offset | Type | Name
 
 ### `Recipes::Type`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Item *` | mItem
 8 | (8) `const Block *` | mBlock
 16 | (24) `RecipeIngredient` | mIngredient
@@ -1026,14 +1026,14 @@ Offset | Type | Name
 
 ### `Range<unsigned char,'_x01'>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `const unsigned __int8` | mBeginIDX
 1 | (1) `const unsigned __int8` | mEndIDX
 
 
 ### `ResourcePackManager`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `ResourceLoader` | baseclass_0
 40 | (56) `std::unordered_set<ResourcePackListener *>` | mListeners
 96 | (8) `std::unique_ptr<ResourcePackStack>` | mAddonStack
@@ -1055,21 +1055,21 @@ Offset | Type | Name
 
 ### `ResourceLoader`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `int (**)(void)` | _vptr$ResourceLoader
 8 | (32) `std::function<Core::PathBuffer<std::string > ()>` | mGetPath
 
 
 ### `RopePoint`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (12) `Vec3` | mOldPos
 12 | (12) `Vec3` | mToNewPos
 
 
 ### `RopeNode`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (12) `Vec3` | mPos
 12 | (12) `Vec3` | mPrevPos
 24 | (1) `char` | mFrictionAxis
@@ -1077,28 +1077,28 @@ Offset | Type | Name
 
 ### `RopeAABB`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (28) `AABB` | mBB
 28 | (1) `bool` | mBlacklisted
 
 
 ### `RemoveObjectivePacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `Packet` | baseclass_0
 40 | (32) `std::string` | mObjectiveName
 
 
 ### `RelativeFloat`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float` | mOffset
 4 | (1) `bool` | mRelative
 
 
 ### `RakNet::CCRakNetSlidingWindow`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `uint32_t` | MAXIMUM_MTU_INCLUDING_UDP_HEADER
 8 | (8) `double` | cwnd
 16 | (8) `double` | ssThresh
@@ -1116,14 +1116,14 @@ Offset | Type | Name
 
 ### `RakNet::ReliabilityLayer::DatagramHistoryNode`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `RakNet::ReliabilityLayer::MessageNumberNode *` | head
 8 | (8) `CCTimeType` | timeSent
 
 
 ### `RakNet::BPSTracker::TimeAndValue2`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `uint64_t` | value1
 8 | (8) `CCTimeType` | time
 

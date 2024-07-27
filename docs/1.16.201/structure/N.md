@@ -1,13 +1,13 @@
 # N
 ### `NotifyManagerClient`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (232) `NotifyManager` | baseclass_0
 
 
 ### `NotifyManager`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `NotifyManager_vtbl *` | __vftable
 8 | (1) `bool` | _nextDtZero
 16 | (64) `std::unordered_map<std::string,std::list<std::shared_ptr<NotifyHandler>>>` | mTempAddMap
@@ -20,14 +20,14 @@ Offset | Type | Name
 
 ### `NotifyManagerServer`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (232) `NotifyManager` | baseclass_0
 232 | (8) `std::chrono::duration<__int64,std::ratio<1,1000000000> >` | mLastFrameTime
 
 
 ### `NetworkWorldInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `WorldInfo` | baseclass_0
 8 | (32) `std::string` | mPlayerCount
 40 | (32) `std::string` | mOwnerName
@@ -43,42 +43,42 @@ Offset | Type | Name
 
 ### `NewType<unsigned char>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `unsigned __int8` | value
 
 
 ### `NetworkHandler::runEvents::__l2::<lambda_548e329923228af3a9c05419563beac9>::()::__l2::<lambda_86aa690d2a07e32c745202fcad9767d8>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `NetworkChunkPublisher::sendQueuedChunks::__l2::<lambda_94ae8e063655f414397d243cf2bdb40c>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `NullSoundPlayer`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `SoundPlayerInterface` | baseclass_0
 
 
 ### `NewType<int>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | value
 
 
 ### `NetherLightTextureImageBuilder::AmbientLevels`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float` | height
 4 | (4) `float` | ambient
 
 
 ### `NetworkIdentifier`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `RakNet::RakNetGUID` | mGuid
 16 | (128) `sockaddr_storage` | mSock
 144 | (4) `NetworkIdentifier::Type` | mType
@@ -86,13 +86,13 @@ Offset | Type | Name
 
 ### `NullLogger`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `leveldb::Logger` | baseclass_0
 
 
 ### `NamedPipeObject`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `NamedPipeObject_vtbl *` | __vftable
 8 | (32) `std::string` | recvBuffer
 40 | (8) `void *` | hPipe
@@ -101,19 +101,19 @@ Offset | Type | Name
 
 ### `NewType<__int64>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int64` | value
 
 
 ### `NetworkBlockPosition`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (12) `BlockPos` | baseclass_0
 
 
 ### `NavigationComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | mAvoidDamageBlocks
 1 | (1) `bool` | mAvoidPortals
 2 | (1) `bool` | mAvoidSun
@@ -148,7 +148,7 @@ Offset | Type | Name
 
 ### `NinePatchFactory`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `mce::TextureGroup *` | textures
 8 | (56) `ResourceLocation` | mResourceLocation
 64 | (4) `int` | width
@@ -157,7 +157,7 @@ Offset | Type | Name
 
 ### `NinesliceInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `ImageInfo` | mTopLeft
 32 | (32) `ImageInfo` | mTopRight
 64 | (32) `ImageInfo` | mBottomLeft
@@ -172,14 +172,14 @@ Offset | Type | Name
 
 ### `NestedButtonScreenController::setUpCallbacksForNestedButtonInCollection::__l2::<lambda_f718c084a1f26651d2ecf46c8f151872>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `NestedButtonScreenController *const` | __this
 8 | (64) `std::function<int __cdecl(UIPropertyBag &)>` | indexFunc
 
 
 ### `NpcComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `NpcComponent_vtbl *` | __vftable
 8 | (4) `int` | mCurrentSkin
 12 | (36) `NpcGUIOffset` | mPortraitOffsets
@@ -194,7 +194,7 @@ Offset | Type | Name
 
 ### `NpcGUIOffset`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (12) `Vec3` | mTranslation
 12 | (12) `Vec3` | mRotation
 24 | (12) `Vec3` | mScale
@@ -202,13 +202,13 @@ Offset | Type | Name
 
 ### `NewType<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | value
 
 
 ### `NameTagInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | mPrefix
 32 | (32) `std::string` | mPrefixColor
 64 | (32) `std::string` | mNameColor
@@ -220,14 +220,14 @@ Offset | Type | Name
 
 ### `NetworkChunkInserter::PendingChunk`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `unsigned __int64` | sequenceID
 8 | (8) `std::unique_ptr<LevelChunk>` | chunk
 
 
 ### `NameTagRenderObject`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | mNameTag
 32 | (16) `std::shared_ptr<mce::Mesh>` | mMesh
 48 | (8) `mce::MaterialPtr *` | mTagMat
@@ -239,26 +239,26 @@ Offset | Type | Name
 
 ### `NameTagRenderObjectCollection`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `std::vector<NameTagRenderObject,LinearAllocator<NameTagRenderObject> >` | mNameTags
 
 
 ### `NetworkHandler::runEvents::__l2::<lambda_548e329923228af3a9c05419563beac9>::()::__l2::KillListData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (152) `NetworkIdentifier` | id
 152 | (8) `unsigned __int64` | index
 
 
 ### `NetworkComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `EntityNetId` | mEntityNetId
 
 
 ### `NameableDefinition`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<NameAction>` | mNameActions
 24 | (320) `DefinitionTrigger` | mDefaultActionTrigger
 344 | (1) `bool` | mAlwaysShow
@@ -267,26 +267,26 @@ Offset | Type | Name
 
 ### `NamedMolangScript`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (48) `HashedString` | mName
 48 | (216) `ExpressionNode` | mScript
 
 
 ### `NewBlockID`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `NewType<unsigned short>` | baseclass_0
 
 
 ### `NewType<unsigned short>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `unsigned __int16` | value
 
 
 ### `NetworkHookAdapter::handleBreakVConnRequest::__l13::<lambda_5e83fe1dfa301b636a4c9a66ea9c3390>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `NetworkHookAdapter *const` | __this
 8 | (152) `const NetworkIdentifier` | source
 160 | (64) `const VConnectionPacket` | packet
@@ -294,13 +294,13 @@ Offset | Type | Name
 
 ### `NetherFortressPiece`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `StructurePiece` | baseclass_0
 
 
 ### `NumberFieldWidths`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int64` | n_lpadding
 8 | (8) `__int64` | n_prefix
 16 | (8) `__int64` | n_spadding
@@ -316,7 +316,7 @@ Offset | Type | Name
 
 ### `NVSDK_NGX_D3D12_DLSS_Eval_Params`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `NVSDK_NGX_D3D12_Feature_Eval_Params` | Feature
 24 | (8) `ID3D12Resource *` | pInDepth
 32 | (8) `ID3D12Resource *` | pInMotionVectors
@@ -352,7 +352,7 @@ Offset | Type | Name
 
 ### `NVSDK_NGX_D3D12_Feature_Eval_Params`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ID3D12Resource *` | pInColor
 8 | (8) `ID3D12Resource *` | pInOutput
 16 | (4) `float` | InSharpness
@@ -360,27 +360,27 @@ Offset | Type | Name
 
 ### `NVSDK_NGX_Dimensions`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | Width
 4 | (4) `unsigned int` | Height
 
 
 ### `NVSDK_NGX_Coordinates`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | X
 4 | (4) `unsigned int` | Y
 
 
 ### `NVSDK_NGX_D3D12_GBuffer`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (128) `ID3D12Resource *[16]` | pInAttrib
 
 
 ### `NVSDK_NGX_DLSS_Create_Params`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (20) `NVSDK_NGX_Feature_Create_Params` | Feature
 20 | (4) `int` | InFeatureCreateFlags
 24 | (1) `bool` | InEnableOutputSubrects
@@ -388,7 +388,7 @@ Offset | Type | Name
 
 ### `NVSDK_NGX_Feature_Create_Params`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | InWidth
 4 | (4) `unsigned int` | InHeight
 8 | (4) `unsigned int` | InTargetWidth

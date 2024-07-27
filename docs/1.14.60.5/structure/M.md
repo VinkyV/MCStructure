@@ -1,25 +1,25 @@
 # M
 ### `mce::UUID`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `uint64_t[2]` | Data
 
 
 ### `MovePriorityQueue<BlockTickingQueue::BlockTick,std::greater<BlockTickingQueue::BlockTick> >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `MovePriorityQueue<BlockTickingQueue::BlockTick,std::greater<BlockTickingQueue::BlockTick> >::Base` | mC
 
 
 ### `MovePriorityQueue<BlockTickingQueue::BlockTick,std::greater<BlockTickingQueue::BlockTick> >::Base`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Vector_base<BlockTickingQueue::BlockTick>` | baseclass_0
 
 
 ### `MixerLayer<LayerValues::Terrain,LayerValues::Terrain>::LayerData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `LayerDetails::Storage` | baseclass_0
 32 | (16) `const LayerDetails::BufferAccessor<LayerValues::Terrain>` | mParentArea
 48 | (16) `LayerDetails::BufferAccessor<LayerValues::Terrain>` | mResult
@@ -27,7 +27,7 @@ Offset | Type | Name
 
 ### `MixerLayer<LayerValues::PreBiome,LayerValues::Terrain>::LayerData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `LayerDetails::Storage` | baseclass_0
 32 | (16) `const LayerDetails::BufferAccessor<LayerValues::Terrain>` | mParentArea
 48 | (16) `LayerDetails::BufferAccessor<LayerValues::PreBiome>` | mResult
@@ -35,7 +35,7 @@ Offset | Type | Name
 
 ### `MixerLayer<LayerValues::PreBiome,LayerValues::PreBiome>::LayerData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `LayerDetails::Storage` | baseclass_0
 32 | (16) `const LayerDetails::BufferAccessor<LayerValues::PreBiome>` | mParentArea
 48 | (16) `LayerDetails::BufferAccessor<LayerValues::PreBiome>` | mResult
@@ -43,7 +43,7 @@ Offset | Type | Name
 
 ### `MixerLayer<Biome *,LayerValues::PreBiome>::LayerData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `LayerDetails::Storage` | baseclass_0
 32 | (16) `const LayerDetails::BufferAccessor<LayerValues::PreBiome>` | mParentArea
 48 | (16) `LayerDetails::BufferAccessor<Biome *>` | mResult
@@ -51,7 +51,7 @@ Offset | Type | Name
 
 ### `MixerLayer<Biome *,Biome *>::LayerData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `LayerDetails::Storage` | baseclass_0
 32 | (16) `const LayerDetails::BufferAccessor<Biome *>` | mParentArea
 48 | (16) `LayerDetails::BufferAccessor<Biome *>` | mResult
@@ -59,7 +59,7 @@ Offset | Type | Name
 
 ### `MixerLayer<int,Biome *>::LayerData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `LayerDetails::Storage` | baseclass_0
 32 | (16) `const LayerDetails::BufferAccessor<Biome *>` | mParentArea
 48 | (16) `LayerDetails::BufferAccessor<int>` | mResult
@@ -67,7 +67,7 @@ Offset | Type | Name
 
 ### `MixerLayer<int,int>::LayerData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `LayerDetails::Storage` | baseclass_0
 32 | (16) `const LayerDetails::BufferAccessor<int>` | mParentArea
 48 | (16) `LayerDetails::BufferAccessor<int>` | mResult
@@ -75,7 +75,7 @@ Offset | Type | Name
 
 ### `MixerLayer<bool,int>::LayerData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `LayerDetails::Storage` | baseclass_0
 32 | (16) `const LayerDetails::BufferAccessor<int>` | mParentArea
 48 | (16) `LayerDetails::BufferAccessor<bool>` | mResult
@@ -83,7 +83,7 @@ Offset | Type | Name
 
 ### `MixerLayer<bool,bool>::LayerData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `LayerDetails::Storage` | baseclass_0
 32 | (16) `const LayerDetails::BufferAccessor<bool>` | mParentArea
 48 | (16) `LayerDetails::BufferAccessor<bool>` | mResult
@@ -91,7 +91,7 @@ Offset | Type | Name
 
 ### `MixerLayer<Biome *,Biome *,bool>::LayerData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `LayerDetails::Storage` | baseclass_0
 32 | (16) `const LayerDetails::BufferAccessor<Biome *>` | mParentArea
 48 | (16) `LayerDetails::BufferAccessor<Biome *>` | mResult
@@ -99,7 +99,7 @@ Offset | Type | Name
 
 ### `MixerLayer<BiomeTemperatureCategory,BiomeTemperatureCategory>::LayerData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `LayerDetails::Storage` | baseclass_0
 32 | (16) `const LayerDetails::BufferAccessor<BiomeTemperatureCategory>` | mParentArea
 48 | (16) `LayerDetails::BufferAccessor<BiomeTemperatureCategory>` | mResult
@@ -107,7 +107,7 @@ Offset | Type | Name
 
 ### `MobSpawnRules`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mMinBrightness
 4 | (4) `int` | mMaxBrightness
 8 | (4) `float` | mMinMoonBrightness
@@ -146,31 +146,31 @@ Offset | Type | Name
 
 ### `MobPermutationList`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Vector_base<MobSpawnerPermutation>` | baseclass_0
 
 
 ### `MobGuaranteedPermutationList`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Vector_base<MobSpawnerPermutation>` | baseclass_0
 
 
 ### `MinecraftEventing::fireEventMultiplayerSessionUpdate::$7EF7C94BEAB75C6CEF4ADFB99B570420`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `MeasurementList`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (56) `std::unordered_map<std::string,Social::Events::Measurement>::_Hashtable` | _M_h
 
 
 ### `MerchantRecipe`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (136) `ItemInstance` | mBuyA
 136 | (136) `ItemInstance` | mBuyB
 272 | (136) `ItemInstance` | mSell
@@ -188,7 +188,7 @@ Offset | Type | Name
 
 ### `MobEffectComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float` | mEffectRange
 4 | (4) `unsigned int` | mEffectId
 8 | (4) `int` | mEffectTime
@@ -197,7 +197,7 @@ Offset | Type | Name
 
 ### `MountTamingComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mTemper
 4 | (4) `int` | mCounter
 8 | (4) `int` | mTemperMod
@@ -206,7 +206,7 @@ Offset | Type | Name
 
 ### `MoveControlComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | mHasWanted
 4 | (12) `Vec3` | mWantedPosition
 16 | (1) `bool` | mShouldBreach
@@ -217,7 +217,7 @@ Offset | Type | Name
 
 ### `mce::Image`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `mce::ImageFormat` | imageFormat
 4 | (4) `uint32_t` | mWidth
 8 | (4) `uint32_t` | mHeight
@@ -227,14 +227,14 @@ Offset | Type | Name
 
 ### `mce::Image::Storage`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::unique_ptr<unsigned char []>` | mBlob
 8 | (8) `size_t` | mSize
 
 
 ### `MobEquipmentPacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `Packet` | baseclass_0
 40 | (8) `ActorRuntimeID` | mRuntimeId
 48 | (136) `ItemStack` | mItem
@@ -249,7 +249,7 @@ Offset | Type | Name
 
 ### `MobArmorEquipmentPacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `Packet` | baseclass_0
 40 | (8) `ActorRuntimeID` | mRuntimeId
 48 | (136) `ItemStack` | mHead
@@ -261,7 +261,7 @@ Offset | Type | Name
 
 ### `MovePlayerPacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `Packet` | baseclass_0
 40 | (8) `ActorRuntimeID` | mPlayerID
 48 | (12) `Vec3` | mPos
@@ -276,7 +276,7 @@ Offset | Type | Name
 
 ### `MoveActorAbsoluteData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ActorRuntimeID` | mRuntimeId
 8 | (1) `MoveActorAbsoluteData::Header` | mHeader
 12 | (12) `Vec3` | mPos
@@ -287,20 +287,20 @@ Offset | Type | Name
 
 ### `MoveActorAbsoluteData::Header`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `uint8_t` | mRaw
 1 | (1) `MoveActorAbsoluteData::Header::$1C528A707D3385C2A7E4697785F3087B` | _anon_0
 
 
 ### `MoveActorAbsoluteData::Header::$1C528A707D3385C2A7E4697785F3087B`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8` | _bf_0
 
 
 ### `MoveActorDeltaData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ActorRuntimeID` | mRuntimeId
 8 | (2) `MoveActorDeltaData::Header` | mHeader
 12 | (4) `int32_t` | mDeltaPositionX
@@ -314,35 +314,35 @@ Offset | Type | Name
 
 ### `MoveActorDeltaData::Header`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `uint16_t` | mRaw
 1 | (2) `MoveActorDeltaData::Header::$37FEEDC365990D64A8C0F1A90869C4B6` | _anon_0
 
 
 ### `MoveActorDeltaData::Header::$37FEEDC365990D64A8C0F1A90869C4B6`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8` | _bf_0
 1 | (1) `__int8` | _bf_1
 
 
 ### `MoveActorDeltaPacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `Packet` | baseclass_0
 40 | (64) `MoveActorDeltaData` | mMoveData
 
 
 ### `MoveActorAbsolutePacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `Packet` | baseclass_0
 40 | (32) `MoveActorAbsoluteData` | mMoveData
 
 
 ### `MapItemTrackedActor::UniqueId`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `MapItemTrackedActor::Type` | type
 8 | (8) `ActorUniqueID` | keyEntityId
 16 | (12) `BlockPos` | keyBlockPos
@@ -350,13 +350,13 @@ Offset | Type | Name
 
 ### `MessageMap`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (56) `std::unordered_map<int,std::string>::_Hashtable` | _M_h
 
 
 ### `MobEffectPacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `Packet` | baseclass_0
 40 | (8) `ActorRuntimeID` | mRuntimeId
 48 | (4) `int` | mEffectDurationTicks
@@ -368,7 +368,7 @@ Offset | Type | Name
 
 ### `MCRESULT`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | mSuccess
 1 | (1) `MCCATEGORY` | mCategory
 2 | (2) `uint16_t` | mCode
@@ -376,25 +376,25 @@ Offset | Type | Name
 
 ### `MolangVariableMap`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (56) `std::unordered_map<unsigned long,MolangVariable>` | mVariables
 
 
 ### `Matrix`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `glm::mat4x4` | _m
 
 
 ### `ManagedWanderingTraderComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `MobEffectInstance`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | mId
 4 | (4) `int` | mDuration
 8 | (4) `int` | mDurationEasy
@@ -409,20 +409,20 @@ Offset | Type | Name
 
 ### `Mob::hurtEffects::$7EF7C94BEAB75C6CEF4ADFB99B570420`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `Mob::JumpPreventionResult`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | mJumpIsPrevented
 4 | (12) `BlockPos` | mPreventingBlockBlockPos
 
 
 ### `MobDescriptor`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `ActorFilterGroup` | mTargetFilter
 64 | (4) `float` | mMaxDist
 68 | (4) `float` | mMaxHeight
@@ -437,7 +437,7 @@ Offset | Type | Name
 
 ### `MingleComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `MingleComponent::MingleState` | mMingleState
 8 | (8) `ActorUniqueID` | mPartnerId
 16 | (8) `ActorUniqueID` | mPreviousPartnerId
@@ -445,45 +445,45 @@ Offset | Type | Name
 
 ### `MoveControlDolphinDescription`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `MoveControlDescription` | baseclass_0
 
 
 ### `MoveControlDescription`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ComponentDescription` | baseclass_0
 8 | (4) `float` | mMaxTurn
 
 
 ### `MolangScriptArg`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (56) `MolangScriptArgData` | mData
 
 
 ### `MolangScriptArgData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (56) `std::__detail::__variant::_Variant_base<float,HashedString,MolangArrayVariable,MolangEntityVariable,MolangGeometryVariable,MolangMaterialVariable,MolangTempVariable,MolangTextureVariable,MaterialVariants,MolangDataDrivenGeometry,MolangQueryFunctionPtr,MolangGenericQueryFunctionPtr,std::vector<ExpressionNode> *>` | baseclass_0
 
 
 ### `MaterialVariants`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `mce::MaterialPtr` | mSkinningMaterialPtr
 1 | (1) `mce::MaterialPtr` | mSkinningColorMaterialPtr
 
 
 ### `mce::MaterialPtr`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `mce::Image_0`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `mce::ImageFormat` | imageFormat
 4 | (4) `uint32_t` | mWidth
 8 | (4) `uint32_t` | mHeight
@@ -493,13 +493,13 @@ Offset | Type | Name
 
 ### `MobEffectInstanceList`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Vector_base<MobEffectInstance>` | baseclass_0
 
 
 ### `MapItemSavedData::ChunkBounds`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `uint32_t` | x0
 4 | (4) `uint32_t` | z0
 8 | (4) `uint32_t` | x1
@@ -508,7 +508,7 @@ Offset | Type | Name
 
 ### `MapSample`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `Color` | mColor
 16 | (8) `const Block *` | mBlock
 24 | (2) `Height` | mHeight
@@ -516,26 +516,26 @@ Offset | Type | Name
 
 ### `MobList`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Vector_base<MobSpawnerData>` | baseclass_0
 
 
 ### `MovePriorityQueue<BlockTickingQueue::BlockTick,std::greater<BlockTickingQueue::BlockTick> >::const_iterator`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const BlockTickingQueue::BlockTick *` | _M_current
 
 
 ### `MapInfoRequestPacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `Packet` | baseclass_0
 40 | (8) `ActorUniqueID` | mMapId
 
 
 ### `MapCreateLockedCopyPacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `Packet` | baseclass_0
 40 | (8) `ActorUniqueID` | mOriginalMapId
 48 | (8) `ActorUniqueID` | mNewMapId
@@ -543,14 +543,14 @@ Offset | Type | Name
 
 ### `MobSpawnerPermutation`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `WeighedRandom::WeighedRandomItem` | baseclass_0
 8 | (168) `ActorDefinitionIdentifier` | mId
 
 
 ### `MobSpawnHerdInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `uint32_t` | mMinCount
 4 | (4) `uint32_t` | mMaxCount
 8 | (4) `uint32_t` | mHerdEventSkipCount
@@ -561,7 +561,7 @@ Offset | Type | Name
 
 ### `MesaSurfaceAttributes`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const Block *` | mClayMaterial
 8 | (8) `const Block *` | mHardClayMaterial
 16 | (1) `bool` | mBrycePillars
@@ -570,7 +570,7 @@ Offset | Type | Name
 
 ### `MineshaftData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const Block *` | mWoodBlock
 8 | (8) `const Block *` | mFenceBlock
 16 | (4) `float` | roomChance
@@ -578,7 +578,7 @@ Offset | Type | Name
 
 ### `MixerLayer<Biome *,Biome *,BiomeTemperatureCategory>::LayerData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `LayerDetails::Storage` | baseclass_0
 32 | (16) `const LayerDetails::BufferAccessor<Biome *>` | mParentArea
 48 | (16) `LayerDetails::BufferAccessor<Biome *>` | mResult
@@ -586,7 +586,7 @@ Offset | Type | Name
 
 ### `MutationFactorData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float` | mVariant
 4 | (4) `float` | mExtraVariant
 8 | (4) `float` | mColor
@@ -594,7 +594,7 @@ Offset | Type | Name
 
 ### `MobSpawnerData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `WeighedRandom::WeighedRandomItem` | baseclass_0
 8 | (168) `ActorDefinitionIdentifier` | mIdentifier
 176 | (304) `MobSpawnRules` | mSpawnRules
@@ -604,40 +604,40 @@ Offset | Type | Name
 
 ### `MobSpawnerData::OnSpawnHerd`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<void (std::vector<Mob *> &,Random &)>::_Invoker_type` | _M_invoker
 
 
 ### `MobSpawnerData::OnSelectActor`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<ActorDefinitionIdentifier (Random &)>::_Invoker_type` | _M_invoker
 
 
 ### `mce::Radian`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `type_safe::strong_typedef<mce::Radian,float>` | baseclass_0
 
 
 ### `mce::Blob`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::unique_ptr<unsigned char []>` | mBlob
 8 | (8) `size_t` | mSize
 
 
 ### `mce::Degree`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `type_safe::strong_typedef<mce::Degree,float>` | baseclass_0
 
 
 ### `mcontext_t`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (184) `gregset_t` | gregs
 184 | (8) `fpregset_t` | fpregs
 192 | (64) `unsigned __int64[8]` | __reserved1
@@ -645,21 +645,21 @@ Offset | Type | Name
 
 ### `MDLocationDescriptor`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `uint32_t` | data_size
 4 | (4) `MDRVA` | rva
 
 
 ### `MDRawDirectory`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `uint32_t` | stream_type
 4 | (8) `MDLocationDescriptor` | location
 
 
 ### `MDRawThread`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `uint32_t` | thread_id
 4 | (4) `uint32_t` | suspend_count
 8 | (4) `uint32_t` | priority_class
@@ -671,14 +671,14 @@ Offset | Type | Name
 
 ### `MDMemoryDescriptor`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `uint64_t` | start_of_memory_range
 8 | (8) `MDLocationDescriptor` | memory
 
 
 ### `MDRawContextAMD64`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `uint64_t` | p1_home
 8 | (8) `uint64_t` | p2_home
 16 | (8) `uint64_t` | p3_home
@@ -729,14 +729,14 @@ Offset | Type | Name
 
 ### `MDRawContextAMD64::$D520141881593523D1DB94D2DAC55DA9`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (512) `MDXmmSaveArea32AMD64` | flt_save
 1 | (416) `MDRawContextAMD64::$D520141881593523D1DB94D2DAC55DA9::$9C157CD774907A924DA545D68DEB0CD6` | sse_registers
 
 
 ### `MDXmmSaveArea32AMD64`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `uint16_t` | control_word
 2 | (2) `uint16_t` | status_word
 4 | (1) `uint8_t` | tag_word
@@ -757,7 +757,7 @@ Offset | Type | Name
 
 ### `MDRawContextAMD64::$D520141881593523D1DB94D2DAC55DA9::$9C157CD774907A924DA545D68DEB0CD6`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `uint128_struct[2]` | header
 32 | (128) `uint128_struct[8]` | legacy
 160 | (16) `uint128_struct` | _xmm0
@@ -780,7 +780,7 @@ Offset | Type | Name
 
 ### `MDRawModule`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `uint64_t` | base_of_image
 8 | (4) `uint32_t` | size_of_image
 12 | (4) `uint32_t` | checksum
@@ -795,7 +795,7 @@ Offset | Type | Name
 
 ### `MDVSFixedFileInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `uint32_t` | signature
 4 | (4) `uint32_t` | struct_version
 8 | (4) `uint32_t` | file_version_hi
@@ -813,7 +813,7 @@ Offset | Type | Name
 
 ### `MDException`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `uint32_t` | exception_code
 4 | (4) `uint32_t` | exception_flags
 8 | (8) `uint64_t` | exception_record
@@ -825,7 +825,7 @@ Offset | Type | Name
 
 ### `MDRawSystemInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `uint16_t` | processor_architecture
 2 | (2) `uint16_t` | processor_level
 4 | (2) `uint16_t` | processor_revision
@@ -843,7 +843,7 @@ Offset | Type | Name
 
 ### `MDCPUInformation`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `MDCPUInformation::$506F9874F29A8F83AA6970C5F347F260` | x86_cpu_info
 1 | (8) `MDCPUInformation::$67D17742F1A1285D3D22720ACA1D139F` | arm_cpu_info
 2 | (16) `MDCPUInformation::$0748DD84010D68691F5D57D46D5A06CC` | other_cpu_info
@@ -851,7 +851,7 @@ Offset | Type | Name
 
 ### `MDCPUInformation::$506F9874F29A8F83AA6970C5F347F260`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (12) `uint32_t[3]` | vendor_id
 12 | (4) `uint32_t` | version_information
 16 | (4) `uint32_t` | feature_information
@@ -860,20 +860,20 @@ Offset | Type | Name
 
 ### `MDCPUInformation::$67D17742F1A1285D3D22720ACA1D139F`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `uint32_t` | cpuid
 4 | (4) `uint32_t` | elf_hwcaps
 
 
 ### `MDCPUInformation::$0748DD84010D68691F5D57D46D5A06CC`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `uint64_t[2]` | processor_features
 
 
 ### `MDRawLinkMap64`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `uint64_t` | addr
 8 | (4) `MDRVA` | name
 16 | (8) `uint64_t` | ld
@@ -881,7 +881,7 @@ Offset | Type | Name
 
 ### `MDGUID`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `uint32_t` | data1
 4 | (2) `uint16_t` | data2
 6 | (2) `uint16_t` | data3
@@ -890,7 +890,7 @@ Offset | Type | Name
 
 ### `Motive`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `const std::string` | mName
 32 | (4) `const int` | mWidth
 36 | (4) `const int` | mHeight
@@ -901,70 +901,70 @@ Offset | Type | Name
 
 ### `MolangArrayVariable`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `HashedString` | baseclass_0
 
 
 ### `MolangEntityVariable`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `HashedString` | baseclass_0
 
 
 ### `MolangGeometryVariable`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `HashedString` | baseclass_0
 
 
 ### `MolangMaterialVariable`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `HashedString` | baseclass_0
 
 
 ### `MolangTempVariable`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `HashedString` | baseclass_0
 
 
 ### `MolangTextureVariable`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `HashedString` | baseclass_0
 
 
 ### `MolangDataDrivenGeometry`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `DataDrivenGeometry *` | mGeometry
 8 | (40) `HashedString` | mName
 
 
 ### `MolangQueryFunctionPtr`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const QueryFunctionAccessor *` | mQueryFunctionPtr
 8 | (40) `HashedString` | mName
 
 
 ### `MolangGenericQueryFunctionPtr`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const GenericQueryFunctionAccessor *` | mGenericQueryFunctionPtr
 8 | (40) `HashedString` | mName
 
 
 ### `mce::`anonymous namespace'::MathInitializer`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `MinecraftEventing`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `IMinecraftEventing` | baseclass_0
 32 | (8) `std::unique_ptr<Social::Events::EventManager>` | mEventManager
 40 | (8) `std::unique_ptr<TelemetryInfo>` | mTelemetryInfo
@@ -985,7 +985,7 @@ Offset | Type | Name
 
 ### `moodycamel::ConcurrentQueue<std::unique_ptr<com::mojang::clacks::protocol::MetricReport,std::default_delete<com::mojang::clacks::protocol::MetricReport> >,moodycamel::ConcurrentQueueDefaultTraits>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::atomic<moodycamel::ConcurrentQueue<std::unique_ptr<com::mojang::clacks::protocol::MetricReport>,moodycamel::ConcurrentQueueDefaultTraits>::ProducerBase *>` | producerListTail
 8 | (4) `std::atomic<unsigned int>` | producerCount
 16 | (8) `std::atomic<unsigned long>` | initialBlockPoolIndex
@@ -1003,13 +1003,13 @@ Offset | Type | Name
 
 ### `moodycamel::ConcurrentQueue<std::unique_ptr<com::mojang::clacks::protocol::MetricReport,std::default_delete<com::mojang::clacks::protocol::MetricReport> >,moodycamel::ConcurrentQueueDefaultTraits>::FreeList<moodycamel::ConcurrentQueue<std::unique_ptr<com::mojang::clacks::protocol::MetricReport,std::default_delete<com::mojang::clacks::protocol::MetricReport> >,moodycamel::ConcurrentQueueDefaultTraits>::Block>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::atomic<moodycamel::ConcurrentQueue<std::unique_ptr<com::mojang::clacks::protocol::MetricReport>,moodycamel::ConcurrentQueueDefaultTraits>::Block *>` | freeListHead
 
 
 ### `moodycamel::ConcurrentQueue<std::unique_ptr<com::mojang::clacks::protocol::MetricReport,std::default_delete<com::mojang::clacks::protocol::MetricReport> >,moodycamel::ConcurrentQueueDefaultTraits>::ImplicitProducerHash`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `moodycamel::ConcurrentQueue<std::unique_ptr<com::mojang::clacks::protocol::MetricReport>,moodycamel::ConcurrentQueueDefaultTraits>::size_t` | capacity
 8 | (8) `moodycamel::ConcurrentQueue<std::unique_ptr<com::mojang::clacks::protocol::MetricReport>,moodycamel::ConcurrentQueueDefaultTraits>::ImplicitProducerKVP *` | entries
 16 | (8) `moodycamel::ConcurrentQueue<std::unique_ptr<com::mojang::clacks::protocol::MetricReport>,moodycamel::ConcurrentQueueDefaultTraits>::ImplicitProducerHash *` | prev
@@ -1017,7 +1017,7 @@ Offset | Type | Name
 
 ### `msghdr`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `void *` | msg_name
 8 | (4) `socklen_t` | msg_namelen
 16 | (8) `iovec *` | msg_iov
@@ -1029,13 +1029,13 @@ Offset | Type | Name
 
 ### `MPMCQueue<std::unique_ptr<LevelChunk,LevelChunkFinalDeleter> >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (616) `moodycamel::ConcurrentQueue<std::unique_ptr<LevelChunk,LevelChunkFinalDeleter>,moodycamel::ConcurrentQueueDefaultTraits>` | mQueue
 
 
 ### `moodycamel::ConcurrentQueue<std::unique_ptr<LevelChunk,LevelChunkFinalDeleter>,moodycamel::ConcurrentQueueDefaultTraits>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::atomic<moodycamel::ConcurrentQueue<std::unique_ptr<LevelChunk,LevelChunkFinalDeleter>,moodycamel::ConcurrentQueueDefaultTraits>::ProducerBase *>` | producerListTail
 8 | (4) `std::atomic<unsigned int>` | producerCount
 16 | (8) `std::atomic<unsigned long>` | initialBlockPoolIndex
@@ -1053,13 +1053,13 @@ Offset | Type | Name
 
 ### `moodycamel::ConcurrentQueue<std::unique_ptr<LevelChunk,LevelChunkFinalDeleter>,moodycamel::ConcurrentQueueDefaultTraits>::FreeList<moodycamel::ConcurrentQueue<std::unique_ptr<LevelChunk,LevelChunkFinalDeleter>,moodycamel::ConcurrentQueueDefaultTraits>::Block>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::atomic<moodycamel::ConcurrentQueue<std::unique_ptr<LevelChunk,LevelChunkFinalDeleter>,moodycamel::ConcurrentQueueDefaultTraits>::Block *>` | freeListHead
 
 
 ### `moodycamel::ConcurrentQueue<std::unique_ptr<LevelChunk,LevelChunkFinalDeleter>,moodycamel::ConcurrentQueueDefaultTraits>::ImplicitProducerHash`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `moodycamel::ConcurrentQueue<std::unique_ptr<LevelChunk,LevelChunkFinalDeleter>,moodycamel::ConcurrentQueueDefaultTraits>::size_t` | capacity
 8 | (8) `moodycamel::ConcurrentQueue<std::unique_ptr<LevelChunk,LevelChunkFinalDeleter>,moodycamel::ConcurrentQueueDefaultTraits>::ImplicitProducerKVP *` | entries
 16 | (8) `moodycamel::ConcurrentQueue<std::unique_ptr<LevelChunk,LevelChunkFinalDeleter>,moodycamel::ConcurrentQueueDefaultTraits>::ImplicitProducerHash *` | prev
@@ -1067,19 +1067,19 @@ Offset | Type | Name
 
 ### `MovePriorityQueue<std::shared_ptr<BackgroundTask>,BackgroundTask::PendingComparer>::Base`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Vector_base<std::shared_ptr<BackgroundTask>>` | baseclass_0
 
 
 ### `MovePriorityQueue<std::shared_ptr<BackgroundTask>,BackgroundTask::PriorityComparer>::Base`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Vector_base<std::shared_ptr<BackgroundTask>>` | baseclass_0
 
 
 ### `MapItemSavedData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `size_t` | mUpdateInterval
 8 | (8) `ActorUniqueID` | mMapId
 16 | (8) `ActorUniqueID` | mParentMapId
@@ -1098,13 +1098,13 @@ Offset | Type | Name
 
 ### `MapItemSavedData::DecorationCollection`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Vector_base<std::pair<MapItemTrackedActor::UniqueId,std::shared_ptr<MapDecoration> >>` | baseclass_0
 
 
 ### `MapDecoration`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | mLabel
 32 | (1) `MapDecoration::Type` | mImage
 33 | (1) `int8_t` | mX
@@ -1115,7 +1115,7 @@ Offset | Type | Name
 
 ### `MinecraftServerScriptEngine`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1184) `ScriptEngineWithContext<ScriptServerContext>` | baseclass_0
 1184 | (8) `ServerInstanceEventListener` | baseclass_4a0
 1192 | (8) `std::unique_ptr<ScriptServerActorEventListener>` | mEntityEventListener
@@ -1130,19 +1130,19 @@ Offset | Type | Name
 
 ### `Mob::tickEffects::$7EF7C94BEAB75C6CEF4ADFB99B570420`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `Mob::updateEntitySpecificMolangVariables::$7EF7C94BEAB75C6CEF4ADFB99B570420`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `MovingBlockActor`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (208) `BlockActor` | baseclass_0
 208 | (8) `const Block *` | mBlock
 216 | (8) `const Block *` | mExtraBlock
@@ -1152,19 +1152,19 @@ Offset | Type | Name
 
 ### `MossStoneSelector`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `BlockSelector` | baseclass_0
 
 
 ### `MobEventCommand::InitProxy`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `MobEvents *` | mMobEvents
 
 
 ### `MolangQueryFunction`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `QueryFunctionAccessor` | mAccessor
 32 | (32) `std::string` | mDocumentation
 64 | (8) `size_t` | mMinArgumentCount
@@ -1173,7 +1173,7 @@ Offset | Type | Name
 
 ### `MolangGenericQueryFunction`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `GenericQueryFunctionAccessor` | mAccessor
 32 | (32) `std::string` | mDocumentation
 64 | (8) `size_t` | mMinArgumentCount
@@ -1182,14 +1182,14 @@ Offset | Type | Name
 
 ### `MemoryMappedFileAccess::StreamHandle`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `MemoryMappedFileAccess::StreamDetails *` | mStream
 8 | (8) `size_t` | mPosition
 
 
 ### `MemoryMappedFileAccess::StreamDetails`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `ByteVector` | mStream
 24 | (1) `bool` | mReadAllowed
 25 | (1) `bool` | mWriteAllowed
@@ -1199,13 +1199,13 @@ Offset | Type | Name
 
 ### `MovePriorityQueue<std::shared_ptr<BackgroundTask>,BackgroundTask::PendingComparer>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `MovePriorityQueue<std::shared_ptr<BackgroundTask>,BackgroundTask::PendingComparer>::Base` | mC
 
 
 ### `MovePriorityQueue<std::shared_ptr<BackgroundTask>,BackgroundTask::PriorityComparer>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `MovePriorityQueue<std::shared_ptr<BackgroundTask>,BackgroundTask::PriorityComparer>::Base` | mC
 
 

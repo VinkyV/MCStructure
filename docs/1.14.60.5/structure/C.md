@@ -1,13 +1,13 @@
 # C
 ### `Core::HeapPathBuffer`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | mContainer
 
 
 ### `Core::FilePathManager`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | mIsDedicatedServer
 8 | (32) `Core::HeapPathBuffer` | mRoot
 40 | (32) `Core::HeapPathBuffer` | mPackagePath
@@ -20,47 +20,47 @@ Offset | Type | Name
 
 ### `ContentTierManager`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `MemoryTier` | mMemoryTier
 
 
 ### `ContentKeyMap`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (56) `std::unordered_map<ContentIdentity,std::string>::_Hashtable` | _M_h
 
 
 ### `ContentIdentity`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `mce::UUID` | mUUID
 16 | (1) `bool` | mValid
 
 
 ### `CompoundTag`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Tag` | baseclass_0
 8 | (48) `TagMap` | mTags
 
 
 ### `Core::Result`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `Core::Result::MessageResolver` | mMessageResolver
 32 | (1) `__int8` | _bf_20
 
 
 ### `Core::Result::MessageResolver`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<const char *(std::string *)>::_Invoker_type` | _M_invoker
 
 
 ### `ConnectionDefinition`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `uint16_t` | ipv4Port
 2 | (2) `uint16_t` | ipv6Port
 4 | (4) `ConnectionDefinition::PortBusyFallbackPolicy` | fallback
@@ -70,13 +70,13 @@ Offset | Type | Name
 
 ### `Core::StackPathBuffer`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1040) `Core::StackString<char,1024>` | mContainer
 
 
 ### `Core::StackString<char,1024>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const size_t` | MAX_LENGTH
 8 | (1024) `std::array<char,1024>` | mBuf
 1032 | (8) `size_t` | mLength
@@ -84,20 +84,20 @@ Offset | Type | Name
 
 ### `Core::File`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::unique_ptr<Core::FileImpl>` | muptFile
 8 | (8) `std::unique_ptr<Core::FileSystemImpl>` | muptTransaction
 
 
 ### `Core::InputFileStream`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (416) `Core::FileStream` | baseclass_0
 
 
 ### `Core::FileStream`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::iostream:192` | baseclass_0
 24 | (120) `Core::FileStdStreamBuf` | mStreamBuffer
 144 | (1) `bool` | mLoggingEnabled
@@ -106,7 +106,7 @@ Offset | Type | Name
 
 ### `Core::FileStdStreamBuf`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `__int8[64]` | baseclass_0
 64 | (16) `Core::File` | mFile
 80 | (1) `Core::FileOpenMode` | mFileOpenMode
@@ -116,44 +116,44 @@ Offset | Type | Name
 
 ### `Core::FileOpenMode`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8` | _bf_0
 
 
 ### `CommandRegistry::DefaultIdConverter<ChangeSettingCommand::Setting>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `CommandVersion`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mFrom
 4 | (4) `int` | mTo
 
 
 ### `CommandRegistry::DefaultIdConverter<SaveCommand::Mode>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `CommandRegistry::DefaultIdConverter<WhitelistCommand::Action>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `Core::PathBuffer<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char> > >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | mContainer
 
 
 ### `com::mojang::clacks::protocol::Empty`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 8 | (8) `google::protobuf::internal::InternalMetadataWithArena` | _internal_metadata_
 16 | (4) `google::protobuf::internal::CachedSize` | _cached_size_
@@ -161,7 +161,7 @@ Offset | Type | Name
 
 ### `com::mojang::clacks::protocol::LevelFileAndSize`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 8 | (8) `google::protobuf::internal::InternalMetadataWithArena` | _internal_metadata_
 16 | (8) `google::protobuf::internal::ArenaStringPtr` | value_
@@ -170,7 +170,7 @@ Offset | Type | Name
 
 ### `com::mojang::clacks::protocol::PlayerInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 8 | (8) `google::protobuf::internal::InternalMetadataWithArena` | _internal_metadata_
 16 | (8) `com::mojang::clacks::protocol::Xuid *` | xuid_
@@ -181,7 +181,7 @@ Offset | Type | Name
 
 ### `com::mojang::clacks::protocol::PlayerName`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 8 | (8) `google::protobuf::internal::InternalMetadataWithArena` | _internal_metadata_
 16 | (8) `google::protobuf::internal::ArenaStringPtr` | value_
@@ -190,7 +190,7 @@ Offset | Type | Name
 
 ### `com::mojang::clacks::protocol::Xuid`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 8 | (8) `google::protobuf::internal::InternalMetadataWithArena` | _internal_metadata_
 16 | (8) `google::protobuf::internal::ArenaStringPtr` | value_
@@ -199,7 +199,7 @@ Offset | Type | Name
 
 ### `com::mojang::clacks::protocol::PlayerList`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 8 | (8) `google::protobuf::internal::InternalMetadataWithArena` | _internal_metadata_
 16 | (24) `google::protobuf::RepeatedPtrField<com::mojang::clacks::protocol::PlayerInfo>` | player_
@@ -208,7 +208,7 @@ Offset | Type | Name
 
 ### `com::mojang::clacks::protocol::SaveQueryResult`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 8 | (8) `google::protobuf::internal::InternalMetadataWithArena` | _internal_metadata_
 16 | (24) `google::protobuf::RepeatedPtrField<com::mojang::clacks::protocol::LevelFileAndSize>` | files_
@@ -217,7 +217,7 @@ Offset | Type | Name
 
 ### `com::mojang::clacks::protocol::SaveStateResult`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 8 | (8) `google::protobuf::internal::InternalMetadataWithArena` | _internal_metadata_
 16 | (4) `int` | savestate_
@@ -226,26 +226,26 @@ Offset | Type | Name
 
 ### `Core::SplitPath`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2048) `std::array<Core::Path,64>` | mParts
 2048 | (8) `size_t` | mNumParts
 
 
 ### `Core::PathPart`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | mUtf8StdString
 
 
 ### `Core::StringSpan`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `string_span` | mStringSpan
 
 
 ### `Core::SplitPathT<1024,64>::SplitPathT::$1CC25A583192B38B92CA1589E23791C2`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Core::SplitPathT<1024,64> *` | this
 8 | (8) `__gnu_cxx::__normal_iterator<const char *,std::string > *` | splitEnd
 16 | (8) `__gnu_cxx::__normal_iterator<const char *,std::string > *` | splitStart
@@ -254,7 +254,7 @@ Offset | Type | Name
 
 ### `Core::Random`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `RandomSeed` | mSeed
 4 | (2496) `uint32_t[624]` | _mt
 2500 | (4) `int` | _mti
@@ -265,52 +265,52 @@ Offset | Type | Name
 
 ### `Core::Profile::CPUProfileToken`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `MicroProfileToken` | mMicroProfileToken
 8 | (4) `uint32_t` | mColor
 
 
 ### `Core::Profile::ProfileSectionCPU`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const Core::Profile::CPUProfileToken *` | mToken
 
 
 ### `CommandSelectorResults<Player>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `CommandResultVector` | mTargets
 
 
 ### `CommandResultVector`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::__shared_ptr<std::vector<Actor *>,__gnu_cxx::_S_atomic>` | baseclass_0
 
 
 ### `ChunkPos`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ChunkPos::$9F8988CC0F9198BEB3D9C07F7FC1F2E7` | _anon_0
 
 
 ### `ChunkPos::$9F8988CC0F9198BEB3D9C07F7FC1F2E7`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `int64_t` | packed
 1 | (8) `ChunkPos::$9F8988CC0F9198BEB3D9C07F7FC1F2E7::$71D3E18752AF5CECAE552A00ECF6483C` | _anon_0
 
 
 ### `ChunkPos::$9F8988CC0F9198BEB3D9C07F7FC1F2E7::$71D3E18752AF5CECAE552A00ECF6483C`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | x
 4 | (4) `int` | z
 
 
 ### `ChunkBlockPos`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `uint8_t` | x
 1 | (1) `uint8_t` | z
 2 | (2) `Height` | y
@@ -318,27 +318,27 @@ Offset | Type | Name
 
 ### `CachedBiomeSource<VanillaOverworldBiomeSource>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `VanillaOverworldBiomeSource` | baseclass_0
 40 | (16) `std::shared_ptr<BiomeSourceGetBiomeCache>` | mCache
 
 
 ### `ConstLayerPtr<Biome *>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::__shared_ptr<const Layer<Biome *>,__gnu_cxx::_S_atomic>` | baseclass_0
 
 
 ### `CommandOrigin`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `int (**)(void)` | _vptr$CommandOrigin
 8 | (16) `mce::UUID` | mUUID
 
 
 ### `CommandOutput`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `CommandOutputType` | mType
 8 | (8) `std::unique_ptr<CommandPropertyBag>` | mBag
 16 | (24) `std::vector<CommandOutputMessage>` | mMessages
@@ -347,7 +347,7 @@ Offset | Type | Name
 
 ### `CommandRegistry::Parser`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const CommandRegistry *` | mRegistry
 8 | (8) `const CommandRegistry::ParseTable *` | mParseTable
 16 | (80) `std::deque<std::pair<CommandRegistry::Symbol,CommandRegistry::ParseToken *>>` | mStack
@@ -363,7 +363,7 @@ Offset | Type | Name
 
 ### `CommandRegistry::LexicalToken`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const char *` | mText
 8 | (4) `uint32_t` | mLength
 12 | (4) `CommandRegistry::Terminal` | mType
@@ -373,13 +373,13 @@ Offset | Type | Name
 
 ### `CommandRegistry::Terminal`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mValue
 
 
 ### `CommandBlockComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (152) `BaseCommandBlock` | mBaseCommandBlock
 152 | (4) `int` | mCurrentTickCount
 156 | (1) `bool` | mTicking
@@ -387,25 +387,25 @@ Offset | Type | Name
 
 ### `Core::PathFileNamePart`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | mUtf8StdString
 
 
 ### `Core::PathExtensionWithDotPart`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | mUtf8StdString
 
 
 ### `Core::PathBuffer<Core::StackString<char,1024> >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1040) `Core::StackString<char,1024>` | mContainer
 
 
 ### `CraftingDataPacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `Packet` | baseclass_0
 40 | (24) `std::vector<CraftingDataEntry>` | mCraftingEntries
 64 | (24) `std::vector<PotionMixDataEntry>` | mPotionMixEntries
@@ -415,7 +415,7 @@ Offset | Type | Name
 
 ### `CraftingDataEntry`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Unique<Recipe>` | mRecipe
 8 | (4) `int` | mItemData
 12 | (4) `int` | mItemAux
@@ -426,7 +426,7 @@ Offset | Type | Name
 
 ### `ContainerMixDataEntry`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | fromItemId
 4 | (4) `int` | reagentItemId
 8 | (4) `int` | toItemId
@@ -434,7 +434,7 @@ Offset | Type | Name
 
 ### `Color`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float` | r
 4 | (4) `float` | g
 8 | (4) `float` | b
@@ -443,7 +443,7 @@ Offset | Type | Name
 
 ### `ClientboundMapItemDataPacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `Packet` | baseclass_0
 40 | (24) `std::vector<ActorUniqueID>` | mMapIds
 64 | (1) `int8_t` | mScale
@@ -461,7 +461,7 @@ Offset | Type | Name
 
 ### `CommandOriginData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `CommandOriginType` | mType
 8 | (16) `mce::UUID` | mUUID
 24 | (32) `std::string` | mRequestId
@@ -470,25 +470,25 @@ Offset | Type | Name
 
 ### `Core::Path`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `Core::PathPart` | mPathPart
 
 
 ### `ContentTierInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `MemoryTier` | mMemoryTier
 
 
 ### `Core::OutputFileStream`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (416) `Core::FileStream` | baseclass_0
 
 
 ### `Core::ZipUtils::ZipProgress`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `std::atomic_uint` | mFilesDone
 4 | (4) `std::atomic_uint` | mFilesSkipped
 8 | (4) `std::atomic_uint` | mTotalFiles
@@ -496,7 +496,7 @@ Offset | Type | Name
 
 ### `Core::ZipUtils::UnzipSettings`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (144) `Core::ZipUtils::ZipFileRestrictions` | mRestrictions
 144 | (1) `bool` | mDeleteZipOnSuccess
 145 | (1) `bool` | mPreventOverwrites
@@ -507,7 +507,7 @@ Offset | Type | Name
 
 ### `Core::ZipUtils::ZipFileRestrictions`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (48) `std::set<std::string>` | mForbiddenExtensions
 48 | (48) `std::set<std::string>` | mRestrictedExtensions
 96 | (48) `std::set<std::string>` | mForbiddenFilenames
@@ -515,7 +515,7 @@ Offset | Type | Name
 
 ### `Core::ZipUtils::ZipSettings`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (144) `Core::ZipUtils::ZipFileRestrictions` | mRestrictions
 144 | (1) `bool` | mZipDirectoryContents
 145 | (1) `bool` | mSkipInaccessibleFiles
@@ -527,40 +527,40 @@ Offset | Type | Name
 
 ### `ConstPackCallback`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<void (const Pack &)>::_Invoker_type` | _M_invoker
 
 
 ### `const_iterator`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::_Bit_iterator_base` | baseclass_0
 
 
 ### `CriticalSyncSaveCallback`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<void ()>::_Invoker_type` | _M_invoker
 
 
 ### `Core::LevelStorageResult`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `Core::LevelStorageState` | state
 8 | (32) `std::string` | telemetryMsg
 
 
 ### `Core::Profile::ProfileThread`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `ContainerOpenPacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (36) `Packet:288` | baseclass_0
 36 | (1) `ContainerID` | mContainerId
 37 | (1) `ContainerType` | mType
@@ -570,21 +570,21 @@ Offset | Type | Name
 
 ### `ContainerClosePacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (36) `Packet:288` | baseclass_0
 36 | (1) `ContainerID` | mContainerId
 
 
 ### `ChunkRadiusUpdatedPacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (36) `Packet:288` | baseclass_0
 36 | (4) `int` | mChunkRadius
 
 
 ### `ContainerSetDataPacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (36) `Packet:288` | baseclass_0
 36 | (4) `int` | mId
 40 | (4) `int` | mValue
@@ -593,31 +593,31 @@ Offset | Type | Name
 
 ### `CommandFlag`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `uint8_t` | flag
 
 
 ### `CommandSelectorResults<Actor>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `CommandResultVector` | mTargets
 
 
 ### `CommandAreaFactory`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Dimension *` | mDimension
 
 
 ### `CommandOutputParameter::CommandOutputParameter::$7EF7C94BEAB75C6CEF4ADFB99B570420`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `CommandPosition`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (12) `Vec3` | mOffset
 12 | (1) `bool` | mRelativeX
 13 | (1) `bool` | mRelativeY
@@ -627,13 +627,13 @@ Offset | Type | Name
 
 ### `CommandRegistry::Symbol`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mValue
 
 
 ### `CommandIntegerRange`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mMinValue
 4 | (4) `int` | mMaxValue
 8 | (1) `bool` | mInvert
@@ -641,14 +641,14 @@ Offset | Type | Name
 
 ### `CommandRegistry::ProcessFunction`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<CommandRegistry::ParseToken *(CommandRegistry::ParseToken &,CommandRegistry::Symbol)>::_Invoker_type` | _M_invoker
 
 
 ### `CommandRegistry::SemanticInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | mIsValid
 8 | (24) `std::vector<CommandRegistry::Symbol>` | mConstrainedParams
 32 | (32) `std::string` | mSoftEnumText
@@ -658,13 +658,13 @@ Offset | Type | Name
 
 ### `CommandRegistry::ParseTreeVisitor<(lambda at _Minecraftpe_handheld_src_common_server_commands_CommandRegistry_cpp:3364:3),(lambda at _Minecraftpe_handheld_src_common_server_commands_CommandRegistry_cpp:3365:3),(lambda at _Minecraftpe_handheld_src_common_server_commands_CommandRegistry_cpp:3366:3)>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (56) `std::remove_reference<(lambda at _Minecraftpe_handheld_src_common_server_commands_CommandRegistry_cpp:3366:3) &>::type` | baseclass_0
 
 
 ### `CommandSyntaxInformation`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | isValid
 8 | (32) `std::string` | description
 40 | (24) `std::vector<OverloadSyntaxInformation>` | possibilities
@@ -672,58 +672,58 @@ Offset | Type | Name
 
 ### `CommandRegistry::ParseTreeVisitor<(lambda at _Minecraftpe_handheld_src_common_server_commands_CommandRegistry_cpp:3909:4),(lambda at _Minecraftpe_handheld_src_common_server_commands_CommandRegistry_cpp:3910:4),(lambda at _Minecraftpe_handheld_src_common_server_commands_CommandRegistry_cpp:3920:4)>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::remove_reference<(lambda at _Minecraftpe_handheld_src_common_server_commands_CommandRegistry_cpp:3910:4) &>::type` | baseclass_0
 8 | (16) `std::remove_reference<(lambda at _Minecraftpe_handheld_src_common_server_commands_CommandRegistry_cpp:3920:4) &>::type` | baseclass_8
 
 
 ### `CommandRegistry::DefaultIdConverter<GameType>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `CommandRegistry::DefaultIdConverter<bool>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `CommandRegistry::DefaultIdConverter<int>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `CommandRegistry::NonTerminal`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mValue
 
 
 ### `CommandRegistry::CommandOverrideFunctor`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<void (CommandFlag &,const std::string &)>::_Invoker_type` | _M_invoker
 
 
 ### `CommandRegistry::SymbolVector`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Vector_base<CommandRegistry::Symbol>` | baseclass_0
 
 
 ### `CommandLexer`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const std::string *` | mInput
 8 | (16) `CommandLexer::Token` | mToken
 
 
 ### `CommandLexer::Token`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const char *` | text
 8 | (4) `uint32_t` | length
 12 | (4) `CommandLexer::TokenType` | type
@@ -731,13 +731,13 @@ Offset | Type | Name
 
 ### `CommandRegistry::DefaultIdConverter<const Block *>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `CommandRegistry::RegistryState`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `uint32_t` | signatureCount
 4 | (4) `uint32_t` | enumValueCount
 8 | (4) `uint32_t` | postfixCount
@@ -753,59 +753,59 @@ Offset | Type | Name
 
 ### `CommandRegistry::ConstrainedValueLookupKey`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `unsigned __int64` | first
 8 | (4) `unsigned int` | second
 
 
 ### `CommandRegistry::ScoreboardScoreAccessor`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<int (bool &,const std::string &,const Actor &)>::_Invoker_type` | _M_invoker
 
 
 ### `CommandRegistry::CommandVisitCallback`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<bool (const CommandRegistry::ParseToken *,const CommandOrigin &)>::_Invoker_type` | _M_invoker
 
 
 ### `CommandSelectorBase::FilterFunc`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<bool (const CommandOrigin &,const Actor &)>::_Invoker_type` | _M_invoker
 
 
 ### `CommandRegistry::DefaultIdConverter<const ActorDefinitionIdentifier *>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `CommandRegistry::DefaultIdConverter<CommandItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `CommandRegistry::DefaultIdConverter<StructureFeatureType>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `CommandRegistry::DefaultIdConverter<Enchant::Type>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `CommandRequestPacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `Packet` | baseclass_0
 40 | (32) `std::string` | mCommand
 72 | (64) `CommandOriginData` | mOrigin
@@ -814,7 +814,7 @@ Offset | Type | Name
 
 ### `ContainerDescription`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ComponentDescription` | baseclass_0
 8 | (4) `int` | mSize
 12 | (1) `bool` | mCanBesiphonedFrom
@@ -826,27 +826,27 @@ Offset | Type | Name
 
 ### `ComponentDescription`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Description` | baseclass_0
 
 
 ### `CommandItem`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mVersion
 4 | (4) `int` | mId
 
 
 ### `Core::ZipUtils::ZipProgressList`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<std::shared_ptr<Core::ZipUtils::ZipProgress>>` | mZipProgress
 24 | (40) `Bedrock::Threading::Mutex` | mProgressLock
 
 
 ### `ContainerComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ContainerContentChangeListener` | baseclass_0
 8 | (8) `Unique<Container>` | mContainer
 16 | (8) `Mob *` | mListenerShim
@@ -859,13 +859,13 @@ Offset | Type | Name
 
 ### `ContainerContentChangeListener`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `int (**)(void)` | _vptr$ContainerContentChangeListener
 
 
 ### `CameraPacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `Packet` | baseclass_0
 40 | (8) `ActorUniqueID` | mCameraId
 48 | (8) `ActorUniqueID` | mTargetPlayerId
@@ -873,7 +873,7 @@ Offset | Type | Name
 
 ### `CompletedUsingItemPacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (36) `Packet:288` | baseclass_0
 36 | (2) `__int16` | mItemId
 40 | (4) `int` | mItemUseMethod
@@ -881,14 +881,14 @@ Offset | Type | Name
 
 ### `ContainerItemStack`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (136) `ItemStack` | itemStackInstance
 136 | (136) `ItemInstance` | itemInstance
 
 
 ### `ClockSpriteCalculator`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mFrame
 4 | (4) `float` | mRot
 8 | (4) `float` | mRotA
@@ -896,7 +896,7 @@ Offset | Type | Name
 
 ### `CompassSpriteCalculator`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mFrame
 4 | (4) `float` | mRot
 8 | (4) `float` | mRotA
@@ -904,14 +904,14 @@ Offset | Type | Name
 
 ### `Core::UnzipFile`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::unique_ptr<ZlibFileAccessWrapper>` | mZipFileSystemWrapper
 8 | (8) `std::unique_ptr<Core::UnzipInternals>` | mZipFile
 
 
 ### `ChangeDimensionPacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (36) `Packet:288` | baseclass_0
 36 | (4) `DimensionType` | mDimensionId
 40 | (12) `Vec3` | mPos
@@ -920,7 +920,7 @@ Offset | Type | Name
 
 ### `ClimateAttributes`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float` | mTemperature
 4 | (4) `float` | mDownfall
 8 | (4) `float` | mSnowAccumulationMin
@@ -929,61 +929,61 @@ Offset | Type | Name
 
 ### `CustomDebugMapColorAttributes`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mDebugMapColor
 
 
 ### `CustomDebugMapColorOddAttributes`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mDebugMapOddColor
 
 
 ### `CustomHumidityAttributes`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | mIsHumid
 
 
 ### `ColorPaletteAttributes`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | mPaletteName
 
 
 ### `CustomMapFoliageColorAttributes`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mMapFoliageColor
 
 
 ### `CustomFoliageColorAttributes`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mFoliageColor
 
 
 ### `CustomGrassColorAttributes`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mGrassColor
 
 
 ### `CustomMapGrassColorAttributes`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mMapGrassColor
 
 
 ### `CustomSkyColorAttributes`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `Color` | mSkyColor
 
 
 ### `ChemistryTableBlock::isUIValidForPlayer::$253794F7C40A71086C2A1304B68E249E`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const BlockPos *` | pos
 8 | (8) `Player *` | player
 16 | (4) `ChemistryTableType` | expectedType
@@ -991,7 +991,7 @@ Offset | Type | Name
 
 ### `ChalkboardBlockActor::CachedMessageData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (640) `std::array<ChalkboardBlockActor::CachedLineData,16>` | lineData
 640 | (4) `unsigned int` | numLines
 648 | (32) `std::string` | filteredMessage
@@ -1001,19 +1001,19 @@ Offset | Type | Name
 
 ### `ChunkHeightmapCache`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (56) `std::unordered_map<ChunkPos,std::unique_ptr<std::vector<short>>>::_Hashtable` | _M_h
 
 
 ### `CircuitComponentList`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<CircuitComponentList::Item>` | mComponents
 
 
 ### `CircuitTrackingInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `CircuitTrackingInfo::Entry` | mCurrent
 32 | (32) `CircuitTrackingInfo::Entry` | mPower
 64 | (32) `CircuitTrackingInfo::Entry` | mNearest
@@ -1025,7 +1025,7 @@ Offset | Type | Name
 
 ### `CircuitTrackingInfo::Entry`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `BaseCircuitComponent *` | mComponent
 8 | (12) `BlockPos` | mPos
 20 | (1) `FacingID` | mDirection
@@ -1034,7 +1034,7 @@ Offset | Type | Name
 
 ### `CircuitComponentList::Item`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `BaseCircuitComponent *` | mComponent
 8 | (4) `int` | mDampening
 12 | (12) `BlockPos` | mPos
@@ -1045,28 +1045,28 @@ Offset | Type | Name
 
 ### `ContextAccessor`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `uint16_t` | mTypeId
 8 | (8) `std::unique_ptr<ContextAccessor::TypeBase>` | mContext
 
 
 ### `Core::SplitPathT<1024,64>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2048) `std::array<Core::Path,64>` | mParts
 2048 | (8) `size_t` | mNumParts
 
 
 ### `Crypto::encryptedFileHeader`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (256) `char[256]` | _data
 1 | (256) `Crypto::encryptedFileHeader::$5002CB87BB9EDBB12D0797D08A1D72BD` | _efheader
 
 
 ### `Crypto::encryptedFileHeader::$5002CB87BB9EDBB12D0797D08A1D72BD`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | _version
 4 | (4) `Crypto::signatureValue` | _efsignature
 8 | (4) `unsigned int` | _data1
@@ -1077,20 +1077,20 @@ Offset | Type | Name
 
 ### `Crypto::signatureValue`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | _value
 1 | (4) `unsigned __int8[4]` | _signatureBytes
 
 
 ### `ClientBlobCache::Server::TransferBuilder`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (216) `ClientBlobCache::Server::ActiveTransfer` | mTransfer
 
 
 ### `ClientBlobCache::Server::ActiveTransfer`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ClientBlobCache::Server::ActiveTransfersManager *` | mCache
 8 | (152) `NetworkIdentifier` | mOwner
 160 | (56) `std::unordered_map<unsigned long,std::shared_ptr<ClientBlobCache::Server::Blob>>` | mIdsWaitingForACK
@@ -1098,193 +1098,193 @@ Offset | Type | Name
 
 ### `CommandRegistry::DefaultIdConverter<CloneCommand::MaskMode>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `CommandRegistry::DefaultIdConverter<CloneCommand::CloneMode>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `CommandRegistry::DefaultIdConverter<Difficulty>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `CommandRegistry::DefaultIdConverter<EffectCommand::Mode>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `CommandRegistry::DefaultIdConverter<const MobEffect *>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `CommandRegistry::DefaultIdConverter<ExecuteCommand::Mode>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `CommandRegistry::DefaultIdConverter<FillCommand::FillMode>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `CommandRegistry::DefaultIdConverter<ListDCommand::DetailMode>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `CommandRegistry::DefaultIdConverter<PermissionCommand::Action>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `CommandRegistry::DefaultIdConverter<PermissionCommand::AvailableCommandPermissionPresets>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `CommandRegistry::DefaultIdConverter<BlockSlot>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `CommandRegistry::DefaultIdConverter<EquipmentSlot>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `CommandRegistry::DefaultIdConverter<ReplaceItemCommand::TargetType>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `CommandRegistry::DefaultIdConverter<ScoreboardCommand::Category>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `CommandRegistry::DefaultIdConverter<ScoreboardCommand::Action>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `CommandRegistry::DefaultIdConverter<ObjectiveSortOrder>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `CommandRegistry::DefaultIdConverter<SetBlockCommand::SetBlockMode>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `CommandRegistry::DefaultIdConverter<TagCommand::Action>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `CommandRegistry::DefaultIdConverter<TeleportCommand::FacingResult>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `CommandRegistry::DefaultIdConverter<TestForBlocksCommand::Mode>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `CommandRegistry::DefaultIdConverter<TickingAreaCommand::Mode>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `CommandRegistry::DefaultIdConverter<TickingAreaCommand::AddAreaType>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `CommandRegistry::DefaultIdConverter<TickingAreaCommand::TargetDimensions>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `CommandRegistry::DefaultIdConverter<TimeCommand::Mode>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `CommandRegistry::DefaultIdConverter<TimeCommand::Query>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `CommandRegistry::DefaultIdConverter<TimeCommand::TimeSpec>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `CommandRegistry::DefaultIdConverter<TitleCommand::Mode>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `CommandRegistry::DefaultIdConverter<TitleRawCommand::Mode>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `CommandRegistry::DefaultIdConverter<VideoStreamConnectPacket::Action>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `CommandRegistry::DefaultIdConverter<WeatherCommand::WeatherType>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `CommandRegistry::DefaultIdConverter<WeatherCommand::WeatherRequest>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `CompoundTagEditHelper`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Tag *` | mTag
 8 | (24) `std::vector<Tag *>` | mParentTag
 32 | (24) `std::vector<std::string>` | mTagName
@@ -1292,7 +1292,7 @@ Offset | Type | Name
 
 ### `ContextMessageLogger`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `int (**)(void)` | _vptr$ContextMessageLogger
 8 | (24) `std::vector<ContextMessage>` | mMessageBufferArray
 32 | (5) `bool[5]` | mReceivedMessages
@@ -1301,7 +1301,7 @@ Offset | Type | Name
 
 ### `ContextMessageLoggerOptions`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `bool[4]` | mStoreMessages
 4 | (4) `bool[4]` | mAssertIfMessageTypeWasReceived
 8 | (4) `bool[4]` | mAssertInDestructorIfMessageTypeWasReceived
@@ -1311,13 +1311,13 @@ Offset | Type | Name
 
 ### `ContainerEnumNameMap`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (56) `std::unordered_map<ContainerEnumName,std::string,ContainerEnumNameHasher,std::equal_to<ContainerEnumName>,std::allocator<std::pair<const ContainerEnumName,std::string > > >::_Hashtable` | _M_h
 
 
 ### `ChunkSource`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `int (**)(void)` | _vptr$ChunkSource
 8 | (4) `int` | mChunkSide
 16 | (8) `Level *` | mLevel
@@ -1329,38 +1329,38 @@ Offset | Type | Name
 
 ### `CommandBlock::_executeChain::$8760BA774438E6A855C8C1CB8DE2843F`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const CommandBlock *` | this
 
 
 ### `CompactionCallback`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<void (CompactionStatus)>::_Invoker_type` | _M_invoker
 
 
 ### `CommandRegistry::DefaultIdConverter<AgentCommands::Direction>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `CommandRegistry::DefaultIdConverter<AgentCommand::Mode>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `CommandRegistry::DefaultIdConverter<AgentCommands::CollectCommand::CollectionSpecification>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `ConsoleChunkBlender`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `SpinLock` | mSpinLock
 32 | (16) `float[2][2]` | mInterpCorners
 48 | (1024) `float[16][16]` | mInterpTable
@@ -1368,7 +1368,7 @@ Offset | Type | Name
 
 ### `CSHA1`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (20) `unsigned int[5]` | m_state
 20 | (8) `unsigned int[2]` | m_count
 28 | (4) `unsigned int[1]` | m_reserved0
@@ -1381,27 +1381,27 @@ Offset | Type | Name
 
 ### `Core::DiskAccessTracker::WriteOperation`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Core::FileSize` | writeAmount
 8 | (8) `std::chrono::_V2::steady_clock::time_point` | timePoint
 
 
 ### `Core::FileStorageArea::_beginTransaction::$A402370104E9C52EF545D733D86F5169`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Core::FileStorageArea *` | this
 
 
 ### `Core::DirectoryIterationFunction`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<Core::Result (const Core::DirectoryIterationItem &)>::_Invoker_type` | _M_invoker
 
 
 ### `Core::TransactionFrame`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<Core::FileSystemImpl>` | msptTransaction
 16 | (1040) `Core::StackPathBuffer` | mCleanPath
 1056 | (40) `Core::Result` | mResult
@@ -1409,7 +1409,7 @@ Offset | Type | Name
 
 ### `Core::TransactionFrameSourceTarget`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1040) `Core::StackPathBuffer` | mSource
 1040 | (1040) `Core::StackPathBuffer` | mTarget
 2080 | (1) `bool` | mSameStorageArea
@@ -1420,7 +1420,7 @@ Offset | Type | Name
 
 ### `Core::FileSystem::FileTransferProgress`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Core::FileSize` | mStartPosition
 8 | (8) `Core::FileSize` | mBytesWritten
 16 | (8) `Core::FileSize` | mBytesRemaining
@@ -1428,13 +1428,13 @@ Offset | Type | Name
 
 ### `Core::BufferedFileOperations::_copyFileSection<8192>::$7EF7C94BEAB75C6CEF4ADFB99B570420`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `Core::FlatFileOperations::createFlatFile::$A33D1747C0AB08CA482DA30473C7FFB8`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `bool *` | deleteTargetDirectory
 8 | (8) `Core::FileSystemImpl **` | targetTransaction
 16 | (8) `const Core::Path *` | targetDirectoryPath
@@ -1442,7 +1442,7 @@ Offset | Type | Name
 
 ### `Core::FlatFileOperations::createFlatFile::$B53007EAE32060CC4F6B30C0745D046E`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::unique_ptr<Core::FileImpl> *` | flatFile
 8 | (8) `std::vector<char> *` | writeBuffer
 16 | (8) `Core::FileSize *` | writeBufferSize
@@ -1450,7 +1450,7 @@ Offset | Type | Name
 
 ### `Core::FlatFileManifestInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `Core::HeapPathBuffer` | mPath
 32 | (8) `Core::FileSize` | mSeekPos
 40 | (8) `Core::FileSize` | mFileSize
@@ -1459,14 +1459,14 @@ Offset | Type | Name
 
 ### `Core::FlatFileSearchResult`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<const Core::FlatFileManifest>` | mManifest
 16 | (8) `const Core::FlatFileManifestInfo *` | mManifestInfoEntry
 
 
 ### `Core::DirectoryIterationItem`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `Core::HeapPathBuffer` | mFullPathName
 32 | (32) `Core::PathPart` | mName
 64 | (8) `Core::FileSize` | mFileSize
@@ -1478,20 +1478,20 @@ Offset | Type | Name
 
 ### `Core::`anonymous namespace'::TreeChildCompare`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `Core::ZipUtils::unzipToFlatFile::$50374A4BB464550A3A71B057536681BD`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Core::File *` | flatFileData
 8 | (8) `const Core::StackPathBuffer *` | flatFilePath
 
 
 ### `Core::ZipUtils::unzipToFlatFile::$FAF4479A2BA4AFA3BD422DA1BA9A6B87`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Core::File *` | flatFileData
 8 | (8) `Core::ZipUtils::unzipToFlatFile::$50374A4BB464550A3A71B057536681BD *` | cleanupFlatFile
 16 | (8) `const Core::StackPathBuffer *` | flatFilePath
@@ -1499,7 +1499,7 @@ Offset | Type | Name
 
 ### `Core::ZipUtils::unzipToFlatFile::$08149540B08F7C481DA597604321840B`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Core::File *` | flatFileData
 8 | (8) `std::vector<char> *` | flatFileWriteBuffer
 16 | (8) `Core::FileSize *` | flatFileWriteBufferSize
@@ -1509,13 +1509,13 @@ Offset | Type | Name
 
 ### `CompareScheduledCallback`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `curfile64_info`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (112) `z_stream` | stream
 112 | (4) `int` | stream_initialised
 116 | (4) `uInt` | pos_in_buffered_data
@@ -1539,20 +1539,20 @@ Offset | Type | Name
 
 ### `Core::Profile::CounterToken`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `MicroProfileToken` | mMicroProfileToken
 
 
 ### `com::mojang::clacks::protocol::Settings::SettingsUnion`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | difficultysetting_
 1 | (4) `int` | cheatssetting_
 
 
 ### `com::mojang::clacks::protocol::MetricReport::MetricUnion`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `com::mojang::clacks::protocol::MetricReport_BandwithMetric *` | bandwith_
 1 | (8) `com::mojang::clacks::protocol::MetricReport_LatencyMetric *` | latency_
 2 | (8) `google::protobuf::int64` | ticktime_
@@ -1560,21 +1560,21 @@ Offset | Type | Name
 
 ### `Core::StorageAreasTree`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `Core::StorageAreasTree::TreeNode` | mRoot
 32 | (24) `std::vector<Core::FileStorageArea *>` | mStorageAreas
 
 
 ### `Core::StorageAreasTree::TreeNode`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<Core::StorageAreasTree::TreeChild>` | mChildren
 24 | (8) `Core::FileStorageArea *` | mStorageArea
 
 
 ### `Core::FileStats`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::atomic<unsigned long>` | mNumSuccessfulWriteOperations
 8 | (8) `std::atomic<unsigned long>` | mNumBytesWritten
 16 | (8) `std::atomic<unsigned long>` | mNumFailedWriteOperations
@@ -1587,14 +1587,14 @@ Offset | Type | Name
 
 ### `Core::Observer<WebviewObserver,Core::SingleThreadedLock>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `int (**)(void)` | _vptr$Observer
 8 | (8) `Core::Observer<WebviewObserver,Core::SingleThreadedLock>::SubjectType *` | mpSubject
 
 
 ### `CommandParameterData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `typeid_t<CommandRegistry>` | mTypeIndex
 8 | (8) `CommandParameterData::ParseFunction` | mParse
 16 | (8) `_BYTE[8]` | gap10
@@ -1610,14 +1610,14 @@ Offset | Type | Name
 
 ### `CommandOutputParameter`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | mString
 32 | (4) `int` | mCount
 
 
 ### `CommandRegistry`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::function<void (const Packet &)>` | mNetworkUpdateCallback
 32 | (32) `CommandRegistry::ScoreboardScoreAccessor` | mGetScoreForObjective
 64 | (24) `std::vector<CommandRegistry::ParseRule>` | mRules
@@ -1646,13 +1646,13 @@ Offset | Type | Name
 
 ### `CommandRegistry::ParseTableMap`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (48) `std::map<unsigned int,CommandRegistry::ParseTable>::_Rep_type` | _M_t
 
 
 ### `CommandRegistry::ParamSymbols`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `CommandRegistry::Terminal` | x
 4 | (4) `CommandRegistry::Terminal` | y
 8 | (4) `CommandRegistry::Terminal` | z
@@ -1677,7 +1677,7 @@ Offset | Type | Name
 
 ### `Certificate`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (136) `UnverifiedCertificate` | mUnverifiedCertificate
 136 | (8) `Unique<Certificate>` | mParentCertificate
 144 | (1) `bool` | mIsValid
@@ -1685,25 +1685,25 @@ Offset | Type | Name
 
 ### `CompoundTagVariant`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `CompoundTagVariant::Variant` | mTagStorage
 
 
 ### `CompoundTagVariant::Variant`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::__detail::__variant::_Variant_base<EndTag,ByteTag,ShortTag,IntTag,Int64Tag,FloatTag,DoubleTag,ByteArrayTag,StringTag,ListTag,CompoundTag,IntArrayTag>` | baseclass_0
 
 
 ### `Connector`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `int (**)(void)` | _vptr$Connector
 
 
 ### `Connector::NatPunchInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | isValid
 1 | (1) `bool` | addressIsDirty
 2 | (1) `bool` | succeeded
@@ -1716,7 +1716,7 @@ Offset | Type | Name
 
 ### `ConnectionRequest`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Unique<UnverifiedCertificate>` | mCertificateData
 8 | (8) `Unique<Certificate>` | mCertificate
 16 | (8) `Unique<WebToken>` | mRawToken
@@ -1725,7 +1725,7 @@ Offset | Type | Name
 
 ### `ClientBlobCache::Server::ActiveTransfersManager`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (56) `std::unordered_map<NetworkIdentifier,std::unique_ptr<ClientBlobCache::Server::ActiveTransfersManager::TransferTracker>>` | mTransferTrackerMap
 56 | (48) `ClientBlobCache::Server::ActiveTransfersManager::CacheMap` | mSentBlobs
 104 | (8) `size_t` | mCacheSizeBytes
@@ -1733,13 +1733,13 @@ Offset | Type | Name
 
 ### `ClientBlobCache::Server::ActiveTransfersManager::CacheMap`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (48) `std::map<unsigned long,std::weak_ptr<ClientBlobCache::Server::Blob>>::_Rep_type` | _M_t
 
 
 ### `CommandOutputMessage`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `CommandOutputMessageType` | mType
 8 | (32) `std::string` | mMessageId
 40 | (24) `std::vector<std::string>` | mParams
@@ -1747,7 +1747,7 @@ Offset | Type | Name
 
 ### `CatalogPackManifest`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (992) `PackManifest` | baseclass_0
 992 | (32) `std::string` | mProductId
 1024 | (4) `DlcPerformanceTier` | mPerfTier
@@ -1755,20 +1755,20 @@ Offset | Type | Name
 
 ### `Core::ExcludedPath`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `Core::HeapPathBuffer` | mPath
 32 | (1) `bool` | mCopyLooseFile
 
 
 ### `CommandSoftEnumRegistry`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `CommandRegistry *` | mRegistry
 
 
 ### `CommandRegistry::Signature`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | name
 32 | (32) `std::string` | description
 64 | (24) `std::vector<CommandRegistry::Overload>` | overloads
@@ -1784,7 +1784,7 @@ Offset | Type | Name
 
 ### `CommandRegistry::Enum`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | name
 32 | (2) `typeid_t<CommandRegistry>` | type
 40 | (8) `CommandRegistry::ParseFunction` | parse
@@ -1794,13 +1794,13 @@ Offset | Type | Name
 
 ### `CommandRegistry::Factorization`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `CommandRegistry::Terminal` | commandSymbol
 
 
 ### `CommandRegistry::ParseToken`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::unique_ptr<CommandRegistry::ParseToken>` | child
 8 | (8) `std::unique_ptr<CommandRegistry::ParseToken>` | next
 16 | (8) `CommandRegistry::ParseToken *` | parent
@@ -1811,7 +1811,7 @@ Offset | Type | Name
 
 ### `CommandSelectorBase`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mVersion
 4 | (4) `CommandSelectionType` | mType
 8 | (4) `CommandSelectionOrder` | mOrder
@@ -1834,7 +1834,7 @@ Offset | Type | Name
 
 ### `CommandOutputPacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `Packet` | baseclass_0
 40 | (64) `CommandOriginData` | mOriginData
 104 | (48) `CommandOutput` | mOutput
@@ -1842,55 +1842,55 @@ Offset | Type | Name
 
 ### `Cat::updateEntitySpecificMolangVariables::$7EF7C94BEAB75C6CEF4ADFB99B570420`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `Chicken::updateEntitySpecificMolangVariables::$7EF7C94BEAB75C6CEF4ADFB99B570420`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `ContainerSizeChangeListener`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `int (**)(void)` | _vptr$ContainerSizeChangeListener
 
 
 ### `CauldronBlock::spawnPotionParticles::$7EF7C94BEAB75C6CEF4ADFB99B570420`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `CauldronBlock::spawnSplashParticles::$7EF7C94BEAB75C6CEF4ADFB99B570420`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `CompoundTagUpdaterBuilder`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `CompoundTagUpdater *` | mUpdater
 
 
 ### `ConduitBlockActor::_animateTick::$7EF7C94BEAB75C6CEF4ADFB99B570420`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `CoralCrustFeature`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `Feature` | baseclass_0
 
 
 ### `CircuitSceneGraph::PendingEntry`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `BaseCircuitComponent *` | mRawComponentPtr
 8 | (8) `std::unique_ptr<BaseCircuitComponent>` | mComponent
 16 | (12) `BlockPos` | mPos
@@ -1898,44 +1898,44 @@ Offset | Type | Name
 
 ### `CommandPositionFloat`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `CommandPosition` | baseclass_0
 
 
 ### `commands::SoftEnum`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const char *` | name
 
 
 ### `CommandWildcardInt`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | mIsWildcard
 4 | (4) `int` | mValue
 
 
 ### `CommandSelector<Actor>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (168) `CommandSelectorBase` | baseclass_0
 
 
 ### `commands::Postfix`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const char *` | postfix
 
 
 ### `ChemistryIngredient`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (136) `ItemInstance` | mItem
 
 
 ### `Core::FileStorageArea`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `int (**)(void)` | _vptr$FileStorageArea
 8 | (16) `std::enable_shared_from_this<Core::FileStorageArea>` | baseclass_8
 24 | (40) `Bedrock::Threading::RecursiveMutex` | mLock
@@ -1959,20 +1959,20 @@ Offset | Type | Name
 
 ### `Core::Observer<Core::FileStorageAreaObserver,Core::SingleThreadedLock>::SubjectType`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `Core::SingleThreadedLock` | mLock
 8 | (24) `std::vector<Core::FileStorageAreaObserver *>` | mObservers
 
 
 ### `Core::SingleThreadedLock`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `Core::StorageAreaState`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `Bedrock::Threading::Mutex` | mMutex
 40 | (32) `Core::HeapPathBuffer` | mStorageAreaRootPath
 72 | (1) `std::atomic<bool>` | mIsExtendDiskSpaceEvent
@@ -1984,21 +1984,21 @@ Offset | Type | Name
 
 ### `Core::FileSystem::BasicFileData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `Core::HeapPathBuffer` | mPath
 32 | (8) `Core::FileSize` | mSize
 
 
 ### `Core::FlatFileSystemImpl`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Core::FileSystemImpl *` | mFileSystemImpl
 8 | (16) `std::shared_ptr<Core::FlatFileManifestTracker>` | mFlatFileManifestTracker
 
 
 ### `Core::StorageAreasTree::TreeChild`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `HashedString` | mKey
 40 | (8) `std::unique_ptr<Core::StorageAreasTree::TreeNode>` | mNode
 

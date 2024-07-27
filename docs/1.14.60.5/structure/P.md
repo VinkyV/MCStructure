@@ -1,7 +1,7 @@
 # P
 ### `ProfilerLite::ScopedData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const char *` | mName
 8 | (4) `ProfilerLite::ScopeTag` | mScope
 12 | (4) `ProfilerLite::ScopeTag` | mBaseScope
@@ -16,7 +16,7 @@ Offset | Type | Name
 
 ### `PropertiesSettings`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | mLevelSeed
 32 | (32) `std::string` | mLevelName
 64 | (32) `std::string` | mLevelType
@@ -59,13 +59,13 @@ Offset | Type | Name
 
 ### `PackManifestFactory`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPackTelemetry *` | mEventing
 
 
 ### `PackSourceFactory`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<std::unique_ptr<ContentCatalogPackSource>>` | mContentCatalogPackSources
 24 | (24) `std::vector<std::unique_ptr<TreatmentPackSource>>` | mTreatmentPackSources
 48 | (24) `std::vector<std::unique_ptr<DirectoryPackSource>>` | mDirectoryPackSources
@@ -78,14 +78,14 @@ Offset | Type | Name
 
 ### `PackSourceFactory::RealmsUnknownPackSources`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::unique_ptr<RealmsUnknownPackSource>` | realmsUnknownResourcePackSource
 8 | (8) `std::unique_ptr<RealmsUnknownPackSource>` | realmsUnknownBehaviorPackSource
 
 
 ### `PackManifest`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `int (**)(void)` | _vptr$PackManifest
 8 | (56) `ResourceLocation` | mLocation
 64 | (136) `PackIdVersion` | mIdentity
@@ -129,7 +129,7 @@ Offset | Type | Name
 
 ### `PackIdVersion`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `mce::UUID` | mId
 16 | (112) `SemVersion` | mVersion
 128 | (1) `PackType` | mPackType
@@ -137,7 +137,7 @@ Offset | Type | Name
 
 ### `Packet:288`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `int (**)(void)` | _vptr$Packet
 8 | (4) `PacketPriority` | mPriority
 12 | (4) `NetworkPeer::Reliability` | mReliability
@@ -149,7 +149,7 @@ Offset | Type | Name
 
 ### `Packet`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `int (**)(void)` | _vptr$Packet
 8 | (4) `PacketPriority` | mPriority
 12 | (4) `NetworkPeer::Reliability` | mReliability
@@ -160,27 +160,27 @@ Offset | Type | Name
 
 ### `PostprocessingManager::Owns`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ChunkPos` | mPosition
 8 | (8) `PostprocessingManager *` | mPpm
 
 
 ### `PropertyList`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (56) `std::unordered_map<std::string,Social::Events::Property>::_Hashtable` | _M_h
 
 
 ### `PeekComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | mHadTarget
 4 | (4) `int` | mDuration
 
 
 ### `ProjectileComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | mWasOnGround
 1 | (1) `bool` | mNoPhysics
 8 | (8) `ActorUniqueID` | mOwnerId
@@ -254,878 +254,878 @@ Offset | Type | Name
 
 ### `PacketHeader`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `PacketHeader::$1CBC6A59FA6FE466C7E4A934B3AAA5AD` | mData
 
 
 ### `PacketHeader::$1CBC6A59FA6FE466C7E4A934B3AAA5AD`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `uint32_t` | mRaw
 1 | (4) `PacketHeader::$1CBC6A59FA6FE466C7E4A934B3AAA5AD::$51D560F567CE4629B2B28E9C1CA63A03` | mBits
 
 
 ### `PacketHeader::$1CBC6A59FA6FE466C7E4A934B3AAA5AD::$51D560F567CE4629B2B28E9C1CA63A03`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `__int16` | _bf_0
 
 
 ### `PacketHandlerDispatcherInstance<LoginPacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<PlayStatusPacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<ServerToClientHandshakePacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<ClientToServerHandshakePacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<ClientCacheStatusPacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<ClientCacheBlobStatusPacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<ClientCacheMissResponsePacket,true>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<ResourcePacksInfoPacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<ResourcePackStackPacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<ResourcePackClientResponsePacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<DisconnectPacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<SetTimePacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<TextPacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<StartGamePacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<AddActorPacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<AddEntityPacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<AddItemActorPacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<TakeItemActorPacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<AddPlayerPacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<MoveActorAbsolutePacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<MoveActorDeltaPacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<MovePlayerPacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<RiderJumpPacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<RespawnPacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<RemoveActorPacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<RemoveEntityPacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<UpdateBlockPacket,true>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<UpdateBlockSyncedPacket,true>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<SpawnParticleEffectPacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<LevelSoundEventPacketV2,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<LevelSoundEventPacketV1,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<LevelSoundEventPacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<LevelEventPacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<LevelEventGenericPacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<BlockEventPacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<BlockPickRequestPacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<ActorPickRequestPacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<GuiDataPickItemPacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<ActorEventPacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<MobEffectPacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<MobEquipmentPacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<MobArmorEquipmentPacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<InteractPacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<PlayerActionPacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<ActorFallPacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<HurtArmorPacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<SetActorDataPacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<SetActorMotionPacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<SetHealthPacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<SetSpawnPositionPacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<AnimatePacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<InventoryTransactionPacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<ItemFrameDropItemPacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<ContainerOpenPacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<ContainerClosePacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<ContainerSetDataPacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<PlayerHotbarPacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<InventoryContentPacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<InventorySlotPacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<CraftingDataPacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<CraftingEventPacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<AddPaintingPacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<AdventureSettingsPacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<SetActorLinkPacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<BlockActorDataPacket,true>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<PlayerInputPacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<PlayerAuthInputPacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<LevelChunkPacket,true>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<SetCommandsEnabledPacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<SetDifficultyPacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<ChangeDimensionPacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<SetPlayerGameTypePacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<SetDefaultGameTypePacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<UpdateAttributesPacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<PlayerListPacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<SimpleEventPacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<EventPacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<SpawnExperienceOrbPacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<RequestChunkRadiusPacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<ChunkRadiusUpdatedPacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<ClientboundMapItemDataPacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<MapCreateLockedCopyPacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<MapInfoRequestPacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<UpdateTradePacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<UpdateEquipPacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<BossEventPacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<AvailableCommandsPacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<CommandRequestPacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<CommandOutputPacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<CommandBlockUpdatePacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<CameraPacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<GameRulesChangedPacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<ShowCreditsPacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<ResourcePackDataInfoPacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<ResourcePackChunkDataPacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<ResourcePackChunkRequestPacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<NetworkChunkPublisherUpdatePacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<StructureBlockUpdatePacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<StructureTemplateDataRequestPacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<StructureTemplateDataResponsePacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<TransferPacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<AddBehaviorTreePacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<SetTitlePacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<PlaySoundPacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<StopSoundPacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<ShowStoreOfferPacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<RemoveObjectivePacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<SetDisplayObjectivePacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<PurchaseReceiptPacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<PlayerSkinPacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<SetScorePacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<SetScoreboardIdentityPacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<SubClientLoginPacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<SetLastHurtByPacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<BookEditPacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<NpcRequestPacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<AutomationClientConnectPacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<VideoStreamConnectPacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<ModalFormRequestPacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<ModalFormResponsePacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<OnScreenTextureAnimationPacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<ServerSettingsRequestPacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<ServerSettingsResponsePacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<PhotoTransferPacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<ShowProfilePacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<LabTablePacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<NetworkStackLatencyPacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<UpdateSoftEnumPacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<SetLocalPlayerAsInitializedPacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<ScriptCustomEventPacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<BiomeDefinitionListPacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<AvailableActorIdentifiersPacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<LecternUpdatePacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<UpdateBlockPropertiesPacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<EducationSettingsPacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<SettingsCommandPacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<EmotePacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<MultiplayerSettingsPacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<AnvilDamagePacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<TickSyncPacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<NetworkSettingsPacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<CompletedUsingItemPacket,false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int8[8]` | baseclass_0
 
 
 ### `PingedCompatibleServer`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | name
 32 | (32) `std::string` | worldName
 64 | (4) `GameType` | gameType
@@ -1142,7 +1142,7 @@ Offset | Type | Name
 
 ### `PlayerStorageIds`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | MsaId
 32 | (32) `std::string` | PlatformId
 64 | (32) `std::string` | PlatformOnlineId
@@ -1153,7 +1153,7 @@ Offset | Type | Name
 
 ### `PlayerListPacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `Packet` | baseclass_0
 40 | (24) `std::vector<PlayerListEntry>` | mEntries
 64 | (1) `PlayerListPacketType` | mAction
@@ -1161,7 +1161,7 @@ Offset | Type | Name
 
 ### `PotionMixDataEntry`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | fromPotionId
 4 | (4) `int` | reagentItemId
 8 | (4) `int` | toPotionId
@@ -1169,7 +1169,7 @@ Offset | Type | Name
 
 ### `PlayerHotbarPacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (36) `Packet:288` | baseclass_0
 36 | (4) `uint32_t` | mSelectedSlot
 40 | (1) `bool` | mShouldSelectSlot
@@ -1178,7 +1178,7 @@ Offset | Type | Name
 
 ### `PlayerSkinPacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `Packet` | baseclass_0
 40 | (16) `mce::UUID` | mUUID
 56 | (448) `SerializedSkin` | mSkin
@@ -1188,7 +1188,7 @@ Offset | Type | Name
 
 ### `PageContent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | mText
 32 | (32) `std::string` | mParsedText
 64 | (32) `std::string` | mPhotoName
@@ -1196,7 +1196,7 @@ Offset | Type | Name
 
 ### `PlayerListEntry`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ActorUniqueID` | mId
 8 | (16) `mce::UUID` | mUUID
 24 | (32) `std::string` | mName
@@ -1210,34 +1210,34 @@ Offset | Type | Name
 
 ### `PackInstanceId`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (136) `PackIdVersion` | mPackId
 136 | (32) `std::string` | mSubpackName
 
 
 ### `PlayerScoreboardId`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `int64_t` | mActorUniqueId
 
 
 ### `PropertyFile::Property`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | first
 32 | (32) `std::string` | second
 
 
 ### `PackManifest::CapabilityRegistry`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (56) `std::unordered_set<std::string>` | mTrustedCapabilities
 56 | (56) `std::unordered_set<std::string>` | mCapabilities
 
 
 ### `PackReport`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (56) `ResourceLocation` | mLocation
 56 | (1) `bool` | mWasUpgraded
 57 | (1) `bool` | mAttemptedUpgrade
@@ -1252,52 +1252,52 @@ Offset | Type | Name
 
 ### `PackErrors`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Vector_base<std::shared_ptr<PackError>>` | baseclass_0
 
 
 ### `PackSourceReport`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (56) `std::unordered_map<PackIdVersion,PackReport>` | mReports
 
 
 ### `PackMover::PackMoverCallback`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<void (bool)>::_Invoker_type` | _M_invoker
 
 
 ### `PackCallback`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<void (Pack &)>::_Invoker_type` | _M_invoker
 
 
 ### `PackParseErrorTypeEventMap`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (56) `std::unordered_map<int,std::string>::_Hashtable` | _M_h
 
 
 ### `PackParseErrorTypeLOCMap`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (56) `std::unordered_map<int,std::string>::_Hashtable` | _M_h
 
 
 ### `PackInstance::Callback`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<void (const Core::Path &)>::_Invoker_type` | _M_invoker
 
 
 ### `PackInstance`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (432) `PackReport` | mPackReport
 432 | (8) `PackSettings *` | mPackSettings
 440 | (8) `ResourcePack *` | mPack
@@ -1307,7 +1307,7 @@ Offset | Type | Name
 
 ### `PackStats`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `uint32_t` | mOverriddenEntityCount
 4 | (4) `uint32_t` | mCustomEntityCount
 8 | (4) `uint32_t` | mCustomAnimationCount
@@ -1316,26 +1316,26 @@ Offset | Type | Name
 
 ### `PlayerInventoryProxy::SlotData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `ContainerID` | mContainerId
 4 | (4) `int` | mSlot
 
 
 ### `PrecompiledCommandOrigin`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `CommandOrigin` | baseclass_0
 
 
 ### `PropertyDescription`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Description` | baseclass_0
 
 
 ### `PlaySoundPacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `Packet` | baseclass_0
 40 | (32) `std::string` | mName
 72 | (12) `NetworkBlockPosition` | mPos
@@ -1345,19 +1345,19 @@ Offset | Type | Name
 
 ### `PackSettingsJsonValidator::getValidator::$7EF7C94BEAB75C6CEF4ADFB99B570420`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `PreferredPathComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `IEntityComponent` | baseclass_0
 
 
 ### `PushableComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | mIsPushable
 1 | (1) `bool` | mIsPushableByPiston
 4 | (4) `float` | mPushthrough
@@ -1365,14 +1365,14 @@ Offset | Type | Name
 
 ### `pair_type`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | first
 8 | (8) `unsigned __int64` | second
 
 
 ### `PushableDescription`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ComponentDescription` | baseclass_0
 8 | (1) `bool` | mIsPushable
 9 | (1) `bool` | mIsPushableByPiston
@@ -1380,7 +1380,7 @@ Offset | Type | Name
 
 ### `PathfinderNode`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (12) `const BlockPos` | pos
 12 | (4) `int` | heapIdx
 16 | (4) `float` | g
@@ -1396,13 +1396,13 @@ Offset | Type | Name
 
 ### `Path::NodeArray`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Vector_base<Path::Node>` | baseclass_0
 
 
 ### `PlayerActionPacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (36) `Packet:288` | baseclass_0
 36 | (12) `NetworkBlockPosition` | mPos
 48 | (4) `int` | mFace
@@ -1412,13 +1412,13 @@ Offset | Type | Name
 
 ### `Player::take::$1BEE5056AEB754170F0D74900712D0BE`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Player *` | this
 
 
 ### `PlayerRespawnTelemetryData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `uint32_t` | mSearchTimeMS
 4 | (4) `uint32_t` | mLongJumpCount
 8 | (4) `uint32_t` | mShortJumpCount
@@ -1429,7 +1429,7 @@ Offset | Type | Name
 
 ### `PlayerRespawnBlockRadiusRandomizer`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `uint32_t` | mSpawnRadius
 4 | (4) `uint32_t` | mPossibleOrigins
 8 | (4) `uint32_t` | mLargestPrime
@@ -1440,7 +1440,7 @@ Offset | Type | Name
 
 ### `Player::checkNeedAutoJump::$B52B8B35601F6FAF57FCDEA392569712`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `BlockSource *` | region
 8 | (8) `AABB *` | bufferAABB
 16 | (8) `Player *` | this
@@ -1448,7 +1448,7 @@ Offset | Type | Name
 
 ### `Player::checkNeedAutoJump::$6915C98F38B5DDADCE093124C9EFBE13`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `BlockPos *` | obstacleBlockPos
 8 | (8) `BlockSource *` | region
 16 | (8) `AABB *` | bufferAABB
@@ -1459,20 +1459,20 @@ Offset | Type | Name
 
 ### `PotionBrewing::Ingredient`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mItemId
 4 | (4) `int` | mData
 
 
 ### `Platform::RandomDevice`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (5000) `std::random_device::$C8F4996271C64D14C79A59260E815DB5` | _anon_0
 
 
 ### `PortalShape`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `PortalAxis` | mAxis
 4 | (1) `Facing::Name` | mRightDir
 5 | (1) `Facing::Name` | mLeftDir
@@ -1485,7 +1485,7 @@ Offset | Type | Name
 
 ### `PortalRecord`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (12) `BlockPos` | mBaseBlockPos
 12 | (1) `char` | mSpan
 13 | (1) `char` | mXInc
@@ -1494,7 +1494,7 @@ Offset | Type | Name
 
 ### `PerlinSimplexNoise`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `const int` | mLevels
 8 | (24) `std::vector<SimplexNoise>` | mNoiseLevels
 32 | (4) `float` | mNormalizationFactor
@@ -1502,7 +1502,7 @@ Offset | Type | Name
 
 ### `PosibleTransformation`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `WeightedBiomeVector` | mTransformsInto
 24 | (64) `BiomeFilterGroup` | mCondition
 88 | (4) `uint32_t` | mMinPassingNeighbors
@@ -1510,14 +1510,14 @@ Offset | Type | Name
 
 ### `PushableComponent::PushVectors`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (12) `Vec3` | first
 12 | (12) `Vec3` | second
 
 
 ### `ParticlesTeleportTrailEvent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (12) `Vec3` | mStart
 12 | (12) `Vec3` | mEnd
 24 | (8) `Vec2` | mVariation
@@ -1527,20 +1527,20 @@ Offset | Type | Name
 
 ### `PackAccessStrategy::EnumerationCallback`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<void (const Core::Path &)>::_Invoker_type` | _M_invoker
 
 
 ### `PhysicsComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `IEntityComponent` | baseclass_0
 
 
 ### `PathFinder`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `BlockSource *` | mRegion
 8 | (32) `BinaryHeap` | mOpenSet
 40 | (56) `std::unordered_map<BlockPos,PathfinderNode>` | mNodes
@@ -1567,21 +1567,21 @@ Offset | Type | Name
 
 ### `PatternEntry`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const Block *` | mBlock
 8 | (32) `PatternEntry::BlockEntryTester` | mBlockEntryTester
 
 
 ### `PatternEntry::BlockEntryTester`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<bool (BlockSource &,const BlockPos &,const Block &)>::_Invoker_type` | _M_invoker
 
 
 ### `ParticlesBlockExplosionEvent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float` | mRadius
 4 | (12) `Vec3` | mOrigin
 16 | (24) `std::vector<Vec3>` | mPositions
@@ -1589,7 +1589,7 @@ Offset | Type | Name
 
 ### `PistonArmBlock::neighborChanged::$20F33069935F666947F060F39ADB7AD4`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const BlockActor *` | blockActor
 8 | (8) `BlockPos *` | pistonBasePos
 16 | (8) `BlockSource *` | region
@@ -1598,13 +1598,13 @@ Offset | Type | Name
 
 ### `PieceList`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Vector_base<std::unique_ptr<StructurePiece>>` | baseclass_0
 
 
 ### `pthread_mutex_t`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `__pthread_mutex_s` | __data
 1 | (40) `char[40]` | __size
 2 | (8) `__int64` | __align
@@ -1612,14 +1612,14 @@ Offset | Type | Name
 
 ### `pthread_attr_t_0`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (56) `char[56]` | __size
 1 | (8) `__int64` | __align
 
 
 ### `pthread_cond_t`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (48) `__pthread_cond_s` | __data
 1 | (48) `char[48]` | __size
 2 | (8) `__int64` | __align
@@ -1627,13 +1627,13 @@ Offset | Type | Name
 
 ### `PackTypeToStringMap_t`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (56) `std::unordered_map<PackType,std::string>::_Hashtable` | _M_h
 
 
 ### `pthread_rwlock_t`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (56) `__pthread_rwlock_arch_t` | __data
 1 | (56) `char[56]` | __size
 2 | (8) `__int64` | __align
@@ -1641,7 +1641,7 @@ Offset | Type | Name
 
 ### `ProfilerLite`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (120) `std::array<ProfilerLite::ScopedData *,15>` | mCustomScopeDatas
 120 | (88) `ProfilerLite::ScopedData` | mUninitializedScopedData
 208 | (32) `Core::HeapPathBuffer` | mLogFileName
@@ -1681,7 +1681,7 @@ Offset | Type | Name
 
 ### `ProfilerLiteTelemetry`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float` | mAvgFps
 4 | (4) `float` | mAvgServerSimTickTimeMS
 8 | (4) `float` | mAvgClientSimTickTimeMS
@@ -1695,7 +1695,7 @@ Offset | Type | Name
 
 ### `ProfilerLite::RealtimeFrameData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | mFrames
 4 | (4) `float` | mFPS
 8 | (4) `float` | mFrameTime
@@ -1705,7 +1705,7 @@ Offset | Type | Name
 
 ### `PreferredPathDescription`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ComponentDescription` | baseclass_0
 8 | (4) `float` | mDefaultBlockCost
 12 | (4) `float` | mJumpCost
@@ -1715,27 +1715,27 @@ Offset | Type | Name
 
 ### `PropertyBag`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `Json::Value` | mJsonValue
 16 | (4) `int` | mChangeVersion
 
 
 ### `PackManifest::CapabilityRegisterer`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `persona::PersonaCharacterHandle`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | mSkinName
 32 | (4) `persona::ProfileType` | mType
 
 
 ### `Potion`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mId
 8 | (32) `std::string` | mNameId
 40 | (32) `std::string` | mPrefix
@@ -1746,13 +1746,13 @@ Offset | Type | Name
 
 ### `protobuf_main_2fproto_2fshared_2eproto::StaticDescriptorInitializer`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `PieceWeight`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | pieceClass
 32 | (4) `int` | weight
 36 | (4) `int` | placeCount
@@ -1763,13 +1763,13 @@ Offset | Type | Name
 
 ### `PackDiscoveryError`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `PackError` | baseclass_0
 
 
 ### `PackError`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `int (**)(void)` | _vptr$PackError
 8 | (24) `std::vector<std::string>` | mErrorParameters
 32 | (4) `int` | mErrorValue
@@ -1778,7 +1778,7 @@ Offset | Type | Name
 
 ### `PackAccessStrategy`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `int (**)(void)` | _vptr$PackAccessStrategy
 8 | (1) `bool` | mAssetSetPopulated
 16 | (56) `std::unordered_set<Core::PathBuffer<std::string >>` | mAssetSet
@@ -1786,14 +1786,14 @@ Offset | Type | Name
 
 ### `PackSetting`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Json::Value *` | mValue
 8 | (24) `std::vector<PackSettingObserver>` | mObservers
 
 
 ### `PerfTimer::Node`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const char *` | name
 8 | (8) `const char *` | function
 16 | (4) `int` | line
@@ -1805,45 +1805,45 @@ Offset | Type | Name
 
 ### `PacketSender`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `int (**)(void)` | _vptr$PacketSender
 8 | (1) `SubClientId` | mSenderSubId
 
 
 ### `Pufferfish::updateEntitySpecificMolangVariables::$7EF7C94BEAB75C6CEF4ADFB99B570420`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `Phantom::updateEntitySpecificMolangVariables::$7EF7C94BEAB75C6CEF4ADFB99B570420`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `Pillager::updateEntitySpecificMolangVariables::$7EF7C94BEAB75C6CEF4ADFB99B570420`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `PermissionsHandler`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `CommandPermissionLevel` | mCommandPermissions
 1 | (1) `PlayerPermissionLevel` | mPlayerPermissions
 
 
 ### `Player::Player::$7EF7C94BEAB75C6CEF4ADFB99B570420`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `PlayerInventoryProxy`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ContainerSizeChangeListener` | baseclass_0
 8 | (8) `ContainerContentChangeListener` | baseclass_8
 16 | (4) `int` | mSelected
@@ -1856,19 +1856,19 @@ Offset | Type | Name
 
 ### `PlayerUIContainer`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (272) `SimpleContainer` | baseclass_0
 
 
 ### `Player::updateSkin::$7EF7C94BEAB75C6CEF4ADFB99B570420`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `PerlinNoise`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `const int` | mLevels
 4 | (4) `const int` | mMinLevel
 8 | (24) `std::vector<ImprovedNoise>` | mNoiseLevels
@@ -1876,33 +1876,33 @@ Offset | Type | Name
 
 ### `PortalBlock::animateTick::$7EF7C94BEAB75C6CEF4ADFB99B570420`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `ptr_move<std::shared_ptr<LevelChunk> >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `PlayerScore`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `ScoreboardId` | mScoreboardId
 16 | (4) `int` | mScore
 
 
 ### `pthread_condattr_t`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `char[4]` | __size
 1 | (4) `int` | __align
 
 
 ### `pthread_attr_t`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (56) `char[56]` | __size
 1 | (8) `__int64` | __align
 

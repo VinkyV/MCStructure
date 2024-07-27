@@ -1,3 +1,4 @@
+
 name: Deploy Docs
 
 on:
@@ -5,6 +6,9 @@ on:
     branches:
       # make sure this is the branch you are using
       - main
+
+permissions:
+  contents: write
 
 jobs:
   deploy-gh-pages:
@@ -18,26 +22,22 @@ jobs:
           # submodules: true
 
 
-      - name: Install pnpm
-        uses: pnpm/action-setup@v2
-        with:
-          version: 7
-          run_install: true
-
 
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: 16
-          cache: pnpm
+          node-version: 20
+          cache: npm
 
       - name: Install Deps
-        run: pnpm install --frozen-lockfile
+        run: npm ci
 
       - name: Build Docs
         env:
-          NODE_OPTIONS: --max_old_space_size=4096
-        run: pnpm run docs:build
+          NODE_OPTIONS: --max_old_space_size=8192
+        run: |-
+          npm run docs:build
+          > docs/.vuepress/dist/.nojekyll
 
       - name: Deploy Docs
         uses: JamesIves/github-pages-deploy-action@v4

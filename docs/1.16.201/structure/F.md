@@ -1,31 +1,31 @@
 # F
 ### `FeatureToggles::_setupDependencies::__l2::<lambda_1633bc3e3e0c6c838cb408cbbb547288>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `FindTargetNode::_findTarget::__l2::<lambda_97f0b4bbc84cd3d862b3eb5dbefdcf18>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `frame_t`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `_object *` | filename
 8 | (4) `int` | lineno
 
 
 ### `FloatRange`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float` | rangeMin
 4 | (4) `float` | rangeMax
 
 
 ### `fsm_struct`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `__int16` | vocab_size
 2 | (2) `__int16` | num_transitions
 8 | (8) `const unsigned __int16 *` | transitions
@@ -33,28 +33,28 @@ Offset | Type | Name
 
 ### `FT_Service_PropertiesRec_`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `int (__fastcall *)(FT_ModuleRec_ *, const char *, const void *, unsigned __int8)` | set_property
 8 | (8) `int (__fastcall *)(FT_ModuleRec_ *, const char *, void *)` | get_property
 
 
 ### `FT_ServiceDescRec_`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const char *` | serv_id
 8 | (8) `const void *` | serv_data
 
 
 ### `ft_raccess_guess_rec_`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `int (__fastcall *)(FT_LibraryRec_ *, FT_StreamRec_ *, char *, char **, int *)` | func
 8 | (4) `FT_RFork_Rule_` | type
 
 
 ### `FT_Palette_Data_`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `unsigned __int16` | num_palettes
 8 | (8) `const unsigned __int16 *` | palette_name_ids
 16 | (8) `const unsigned __int16 *` | palette_flags
@@ -64,7 +64,7 @@ Offset | Type | Name
 
 ### `FT_Outline_`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `__int16` | n_contours
 2 | (2) `__int16` | n_points
 8 | (8) `FT_Vector_ *` | points
@@ -75,7 +75,7 @@ Offset | Type | Name
 
 ### `FT_Outline_Funcs_`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `int (__fastcall *)(const FT_Vector_ *, void *)` | move_to
 8 | (8) `int (__fastcall *)(const FT_Vector_ *, void *)` | line_to
 16 | (8) `int (__fastcall *)(const FT_Vector_ *, const FT_Vector_ *, void *)` | conic_to
@@ -86,7 +86,7 @@ Offset | Type | Name
 
 ### `FT_Bitmap_`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | rows
 4 | (4) `unsigned int` | width
 8 | (4) `int` | pitch
@@ -99,7 +99,7 @@ Offset | Type | Name
 
 ### `FT_Color_`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `unsigned __int8` | blue
 1 | (1) `unsigned __int8` | green
 2 | (1) `unsigned __int8` | red
@@ -108,14 +108,14 @@ Offset | Type | Name
 
 ### `FT_Service_BDFRec_`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `int (__fastcall *)(FT_FaceRec_ *, const char **, const char **)` | get_charset_id
 8 | (8) `int (__fastcall *)(FT_FaceRec_ *, const char *, BDF_PropertyRec_ *)` | get_property
 
 
 ### `FT_CMap_ClassRec_`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | size
 8 | (8) `int (__fastcall *)(FT_CMapRec_ *, void *)` | init
 16 | (8) `void (__fastcall *)(FT_CMapRec_ *)` | done
@@ -130,7 +130,7 @@ Offset | Type | Name
 
 ### `FTC_MruListClassRec_`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `unsigned __int64` | node_size
 8 | (8) `unsigned __int8 (__fastcall *)(FTC_MruNodeRec_ *, void *)` | node_compare
 16 | (8) `int (__fastcall *)(FTC_MruNodeRec_ *, void *, void *)` | node_init
@@ -140,7 +140,7 @@ Offset | Type | Name
 
 ### `FTC_SFamilyClassRec_`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `FTC_MruListClassRec_` | clazz
 40 | (8) `unsigned int (__fastcall *)(FTC_FamilyRec_ *, FTC_ManagerRec_ *)` | family_get_count
 48 | (8) `int (__fastcall *)(FTC_FamilyRec_ *, unsigned int, FTC_ManagerRec_ *, FT_FaceRec_ **)` | family_load_glyph
@@ -148,14 +148,14 @@ Offset | Type | Name
 
 ### `FTC_GCacheClassRec_`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `FTC_CacheClassRec_` | clazz
 64 | (8) `const FTC_MruListClassRec_ *` | family_class
 
 
 ### `FTC_CacheClassRec_`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `int (__fastcall *)(FTC_NodeRec_ **, void *, FTC_CacheRec_ *)` | node_new
 8 | (8) `unsigned __int64 (__fastcall *)(FTC_NodeRec_ *, FTC_CacheRec_ *)` | node_weight
 16 | (8) `unsigned __int8 (__fastcall *)(FTC_NodeRec_ *, void *, FTC_CacheRec_ *, unsigned __int8 *)` | node_compare
@@ -168,21 +168,21 @@ Offset | Type | Name
 
 ### `FTC_IFamilyClassRec_`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `FTC_MruListClassRec_` | clazz
 40 | (8) `int (__fastcall *)(FTC_FamilyRec_ *, unsigned int, FTC_CacheRec_ *, FT_GlyphRec_ **)` | family_load_glyph
 
 
 ### `FT_Service_GlyphDictRec_`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `int (__fastcall *)(FT_FaceRec_ *, unsigned int, void *, unsigned int)` | get_name
 8 | (8) `unsigned int (__fastcall *)(FT_FaceRec_ *, const char *)` | name_index
 
 
 ### `FT_Service_CIDRec_`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `int (__fastcall *)(FT_FaceRec_ *, const char **, const char **, int *)` | get_ros
 8 | (8) `int (__fastcall *)(FT_FaceRec_ *, unsigned __int8 *)` | get_is_cid
 16 | (8) `int (__fastcall *)(FT_FaceRec_ *, unsigned int, unsigned int *)` | get_cid_from_glyph_index
@@ -190,13 +190,13 @@ Offset | Type | Name
 
 ### `FT_Service_PsFontNameRec_`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const char *(__fastcall *)(FT_FaceRec_ *)` | get_ps_font_name
 
 
 ### `FT_Service_CFFLoadRec_`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `unsigned __int16 (__fastcall *)(unsigned int)` | get_standard_encoding
 8 | (8) `int (__fastcall *)(CFF_FontRec_ *, CFF_SubFontRec_ *, unsigned int, int *)` | load_private_dict
 16 | (8) `unsigned __int8 (__fastcall *)(CFF_FDSelectRec_ *, unsigned int)` | fd_select_get
@@ -206,13 +206,13 @@ Offset | Type | Name
 
 ### `FT_Service_TTCMapsRec_`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `int (__fastcall *)(FT_CharMapRec_ *, TT_CMapInfo_ *)` | get_cmap_info
 
 
 ### `FT_Service_MetricsVariationsRec_`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `int (__fastcall *)(FT_FaceRec_ *, unsigned int, int *)` | hadvance_adjust
 8 | (8) `int (__fastcall *)(FT_FaceRec_ *, unsigned int, int *)` | lsb_adjust
 16 | (8) `int (__fastcall *)(FT_FaceRec_ *, unsigned int, int *)` | rsb_adjust
@@ -225,7 +225,7 @@ Offset | Type | Name
 
 ### `FT_Service_MultiMastersRec_`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `int (__fastcall *)(FT_FaceRec_ *, FT_Multi_Master_ *)` | get_mm
 8 | (8) `int (__fastcall *)(FT_FaceRec_ *, unsigned int, int *)` | set_mm_design
 16 | (8) `int (__fastcall *)(FT_FaceRec_ *, unsigned int, int *)` | set_mm_blend
@@ -242,7 +242,7 @@ Offset | Type | Name
 
 ### `FT_Service_PsInfoRec_`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `int (__fastcall *)(FT_FaceRec_ *, PS_FontInfoRec_ *)` | ps_get_font_info
 8 | (8) `int (__fastcall *)(FT_FaceRec_ *, PS_FontExtraRec_ *)` | ps_get_font_extra
 16 | (8) `int (__fastcall *)(FT_FaceRec_ *)` | ps_has_glyph_names
@@ -252,7 +252,7 @@ Offset | Type | Name
 
 ### `FT_Frame_Field_`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `unsigned __int8` | value
 1 | (1) `unsigned __int8` | size
 2 | (2) `unsigned __int16` | offset
@@ -260,7 +260,7 @@ Offset | Type | Name
 
 ### `FT_Service_PfrMetricsRec_`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `int (__fastcall *)(FT_FaceRec_ *, unsigned int *, unsigned int *, int *, int *)` | get_metrics
 8 | (8) `int (__fastcall *)(FT_FaceRec_ *, unsigned int, unsigned int, FT_Vector_ *)` | get_kerning
 16 | (8) `int (__fastcall *)(FT_FaceRec_ *, unsigned int, int *)` | get_advance
@@ -268,7 +268,7 @@ Offset | Type | Name
 
 ### `FT_Service_PsCMapsRec_`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `unsigned int (__fastcall *)(const char *)` | unicode_value
 8 | (8) `int (__fastcall *)(FT_MemoryRec_ *, PS_UnicodesRec_ *, unsigned int, const char *(__fastcall *)(void *, unsigned int), void (__fastcall *)(void *, const char *), void *)` | unicodes_init
 16 | (8) `unsigned int (__fastcall *)(PS_UnicodesRec_ *, unsigned int)` | unicodes_char_index
@@ -281,7 +281,7 @@ Offset | Type | Name
 
 ### `FT_Service_SFNT_TableRec_`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `int (__fastcall *)(FT_FaceRec_ *, unsigned int, int, unsigned __int8 *, unsigned int *)` | load_table
 8 | (8) `void *(__fastcall *)(FT_FaceRec_ *, FT_Sfnt_Tag_)` | get_table
 16 | (8) `int (__fastcall *)(FT_FaceRec_ *, unsigned int, unsigned int *, unsigned int *, unsigned int *)` | table_info
@@ -289,31 +289,31 @@ Offset | Type | Name
 
 ### `FT_Service_TTGlyfRec_`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `unsigned int (__fastcall *)(FT_FaceRec_ *, unsigned int, unsigned int *)` | get_location
 
 
 ### `FT_Service_TrueTypeEngineRec_`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `FT_TrueTypeEngineType_` | engine_type
 
 
 ### `FT_Service_KerningRec_`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `int (__fastcall *)(FT_FaceRec_ *, int, int, int *)` | get_track
 
 
 ### `FT_Service_WinFntRec_`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `int (__fastcall *)(FT_FaceRec_ *, FT_WinFNT_HeaderRec_ *)` | get_header
 
 
 ### `filedescr`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `char *` | suffix
 8 | (8) `char *` | mode
 16 | (4) `filetype` | type
@@ -321,7 +321,7 @@ Offset | Type | Name
 
 ### `FogDefinition`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (48) `HashedString` | mIdentifier
 48 | (32) `std::optional<FogDistanceSetting>` | mDistanceAirSetting
 80 | (32) `std::optional<FogDistanceSetting>` | mDistanceWeatherSetting
@@ -340,7 +340,7 @@ Offset | Type | Name
 
 ### `FogDistanceSetting`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `mce::Color` | mColor
 16 | (4) `float` | mStart
 20 | (4) `float` | mEnd
@@ -349,7 +349,7 @@ Offset | Type | Name
 
 ### `FogVolumetricDensitySetting`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float` | mMaxDensity
 4 | (4) `float` | mMaxDensityHeight
 8 | (4) `float` | mZeroDensityHeight
@@ -358,14 +358,14 @@ Offset | Type | Name
 
 ### `FogVolumetricCoefficientSetting`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `mce::Color` | mScattering
 16 | (16) `mce::Color` | mAbsorption
 
 
 ### `FilterParamDefinition`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `FilterParamType` | mType
 4 | (4) `FilterParamRequirement` | mRequirement
 8 | (32) `std::string` | mDescription
@@ -376,7 +376,7 @@ Offset | Type | Name
 
 ### `FilterInput`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `FilterParamType` | mType
 8 | (32) `std::string` | mString
 40 | (4) `int` | mIValue
@@ -385,20 +385,20 @@ Offset | Type | Name
 
 ### `FilterStringMap`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::unordered_map<std::string,FilterInputDefinition>` | baseclass_0
 
 
 ### `FT_UnitVector_`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `__int16` | x
 2 | (2) `__int16` | y
 
 
 ### `FT_Driver_ClassRec_`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (56) `FT_Module_Class_` | root
 56 | (4) `int` | face_object_size
 60 | (4) `int` | size_object_size
@@ -419,7 +419,7 @@ Offset | Type | Name
 
 ### `FT_Module_Class_`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | module_flags
 4 | (4) `int` | module_size
 8 | (8) `const char *` | module_name
@@ -433,13 +433,13 @@ Offset | Type | Name
 
 ### `FlameOdds`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mChance
 
 
 ### `FontHandle`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<FontRepository>` | mFontRepository
 16 | (16) `std::shared_ptr<Font>` | mDefaultFont
 32 | (8) `unsigned __int64` | mFontId
@@ -448,7 +448,7 @@ Offset | Type | Name
 
 ### `FT_Renderer_Class_`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (56) `FT_Module_Class_` | root
 56 | (4) `FT_Glyph_Format_` | glyph_format
 64 | (8) `int (__fastcall *)(FT_RendererRec_ *, FT_GlyphSlotRec_ *, FT_Render_Mode_, const FT_Vector_ *)` | render_glyph
@@ -460,13 +460,13 @@ Offset | Type | Name
 
 ### `FileAccessTransforms`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `FileAccessTransforms_vtbl *` | __vftable
 
 
 ### `Frustum`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (96) `glm::tvec4<float,0>[6]` | mFrustumPlanes
 96 | (48) `FrustumEdges` | mNearClippingPlaneEdges
 144 | (48) `FrustumEdges` | mFarClippingPlaneEdges
@@ -474,7 +474,7 @@ Offset | Type | Name
 
 ### `FrustumEdges`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (12) `glm::tvec3<float,0>` | topLeft
 12 | (12) `glm::tvec3<float,0>` | topRight
 24 | (12) `glm::tvec3<float,0>` | bottomLeft
@@ -483,7 +483,7 @@ Offset | Type | Name
 
 ### `FT_Raster_Funcs_`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `FT_Glyph_Format_` | glyph_format
 8 | (8) `int (__fastcall *)(void *, struct FT_RasterRec_ **)` | raster_new
 16 | (8) `void (__fastcall *)(struct FT_RasterRec_ *, unsigned __int8 *, unsigned int)` | raster_reset
@@ -494,7 +494,7 @@ Offset | Type | Name
 
 ### `FT_Glyph_Class_`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | glyph_size
 4 | (4) `FT_Glyph_Format_` | glyph_format
 8 | (8) `int (__fastcall *)(FT_GlyphRec_ *, FT_GlyphSlotRec_ *)` | glyph_init
@@ -507,7 +507,7 @@ Offset | Type | Name
 
 ### `FT_AutoHinter_InterfaceRec_`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `void (__fastcall *)(FT_AutoHinterRec_ *, FT_FaceRec_ *)` | reset_face
 8 | (8) `void (__fastcall *)(FT_AutoHinterRec_ *, FT_FaceRec_ *, void **, int *)` | get_global_hints
 16 | (8) `void (__fastcall *)(FT_AutoHinterRec_ *, void *)` | done_global_hints
@@ -516,7 +516,7 @@ Offset | Type | Name
 
 ### `FuncInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `` | magicNumber
 4 | (4) `` | maxState
 8 | (4) `` | pUnwindMap
@@ -531,14 +531,14 @@ Offset | Type | Name
 
 ### `FileDownloadManager::downloadFile::__l13::<lambda_0e52f60533a747952835c01f8836253e>::()::__l8::<lambda_b7919b453013e6c018d3eb2079af3ac9>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<FileDownloadManager>` | weak_this
 16 | (64) `std::function<void __cdecl(Core::Path const &,enum DownloaderResult)>` | onCompleteCallback
 
 
 ### `FrameUpdateContext`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `mce::RenderContext *` | renderContext
 8 | (8) `MinecraftGameplayGraphicsResources *` | minecraftGameplayGraphicsResources
 16 | (8) `mce::TextureGroup *` | textureGroup
@@ -547,20 +547,20 @@ Offset | Type | Name
 
 ### `FocusMoveScreenEventData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `float[2]` | position
 
 
 ### `Font::SheetId`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const void *` | rawFontPtr
 8 | (4) `int` | index
 
 
 ### `Font::TextObject`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<Font::TextObject::Page>` | mPages
 24 | (16) `mce::Color` | mColor
 40 | (1) `bool` | mContainsUnicode
@@ -571,7 +571,7 @@ Offset | Type | Name
 
 ### `FontAlias::ReferenceData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (48) `FontHandle` | mFontHandle
 48 | (32) `std::string` | mLanguageCode
 80 | (24) `std::vector<std::pair<int,int>>` | mIncludedUnicodeRanges
@@ -579,7 +579,7 @@ Offset | Type | Name
 
 ### `FontRepository::loadDefaultFonts::__l2::<lambda_4f422798d8e19b20911552d15f97b207>::()::__l2::<lambda_9f7ee64e5f52351a246105fa89b76599>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `FontRepository *const` | __this
 8 | (32) `const std::string` | alias
 40 | (16) `std::shared_ptr<std::shared_ptr<BitmapFont> >` | loadedFont
@@ -587,7 +587,7 @@ Offset | Type | Name
 
 ### `FontRepository::loadDefaultFonts::__l2::<lambda_7fe000d9f42c358f49b7b7b1aeed026a>::()::__l2::<lambda_fb53307a4bf33dc8a2da341738d6f3d3>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `FontRepository *const` | __this
 8 | (32) `const std::string` | alias
 40 | (16) `std::shared_ptr<std::shared_ptr<MSDFFont> >` | loadedFont
@@ -595,7 +595,7 @@ Offset | Type | Name
 
 ### `Font::GlyphQuad`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float` | x
 4 | (4) `float` | y
 8 | (4) `float` | width
@@ -610,7 +610,7 @@ Offset | Type | Name
 
 ### `FileChunkInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | chunkID
 8 | (8) `unsigned __int64` | startByte
 16 | (8) `unsigned __int64` | endByte
@@ -618,14 +618,14 @@ Offset | Type | Name
 
 ### `FogCommandSettings`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | mFogIdentifier
 32 | (32) `std::string` | mUserProvidedId
 
 
 ### `framebuilderInsertTerrainCommandsForChunks::__l2::<lambda_c1fa93ce778fd992669707126a079fcb>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `CommandListQueue *` | commandListQueue
 8 | (2) `const dragon::frameobject::components::ViewSetId` | viewSetId
 16 | (8) `const ViewRenderData *` | viewData
@@ -637,14 +637,14 @@ Offset | Type | Name
 
 ### `FogManager::Layer`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `FogManager::LayerType` | mType
 8 | (24) `std::vector<WeakRefT<SharePtrRefTraits<FogDefinition const > >>` | mDefinitions
 
 
 ### `FlipbookTextureDescription`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (56) `ResourceLocation` | resourceLocation
 56 | (24) `std::vector<int>` | frames
 80 | (4) `int` | replicate
@@ -658,20 +658,20 @@ Offset | Type | Name
 
 ### `FlightingService::_fetch::__l2::<lambda_03023acb2b69c9a5fef635df5c64a11f>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<FlightingService>` | weakThis
 
 
 ### `FilePickerSettings::FileDescription`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | Extension
 32 | (32) `std::string` | Name
 
 
 ### `FilterFormattedStringContructor`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | mFormattedStr
 32 | (4) `const unsigned int` | mTotalSelected
 36 | (4) `unsigned int` | mFiltersAddedCount
@@ -680,14 +680,14 @@ Offset | Type | Name
 
 ### `FileArchiver::Result`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `FileArchiver::Outcome` | outcome
 8 | (32) `Core::PathBuffer<std::string >` | fileName
 
 
 ### `FencedRingBuffer<Core::CpuRingBufferAllocation_Buffer,0>::ScopedAllocation`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<Core::CpuRingBufferAllocation_Buffer::Buffer>` | mBuffer
 16 | (8) `const unsigned __int64` | mOffset
 24 | (8) `const unsigned __int64` | mSize
@@ -697,7 +697,7 @@ Offset | Type | Name
 
 ### `FilterGroup`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `FilterGroup_vtbl *` | __vftable
 8 | (4) `FilterGroup::CollectionType` | mCollectionType
 16 | (24) `std::vector<std::shared_ptr<FilterGroup>>` | mChildren
@@ -706,7 +706,7 @@ Offset | Type | Name
 
 ### `FlockingComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<ActorUniqueID>` | mNeighborhood
 24 | (12) `Vec3` | mCenterOfMass
 36 | (12) `Vec3` | mGroupVelocity
@@ -739,14 +739,14 @@ Offset | Type | Name
 
 ### `FloatTag`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Tag` | baseclass_0
 8 | (4) `float` | data
 
 
 ### `FeatureToggles::FeatureToggle`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `_BYTE[4]` | featureID
 4 | (4) `_BYTE[4]` | dependencyFeatureID
 8 | (8) `std::unique_ptr<Option>` | option
@@ -756,14 +756,14 @@ Offset | Type | Name
 
 ### `FunctionManager::OriginMapping`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::unique_ptr<CommandOrigin>` | mOrigin
 8 | (4) `unsigned int` | mRefCount
 
 
 ### `FullPlayerInventoryWrapper`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `PlayerInventory *` | mPlayerInventory
 8 | (8) `SimpleContainer *` | mArmorInventory
 16 | (8) `SimpleContainer *` | mHandInventory
@@ -773,14 +773,14 @@ Offset | Type | Name
 
 ### `FileDownloadManager::downloadFile::__l13::<lambda_0e52f60533a747952835c01f8836253e>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<FileDownloadManager>` | weak_this
 16 | (64) `std::function<void __cdecl(Core::Path const &,enum DownloaderResult)>` | onCompleteCallback
 
 
 ### `FileDownloadManager::_writeData::__l2::<lambda_6f81f195f94e9beac581973bed159d3c>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<FileDownloadManager>` | weak_this
 16 | (8) `unsigned __int64` | progress
 24 | (64) `std::function<void __cdecl(unsigned __int64,bool)>` | writeComplete
@@ -788,7 +788,7 @@ Offset | Type | Name
 
 ### `FileDownloadManager::_writeData::__l2::<lambda_e1119d03447226ec2640e6a1b57aad89>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<FileDownloadManager>` | weak_this
 16 | (24) `std::vector<unsigned char>` | data
 40 | (8) `unsigned __int64` | writeBytes
@@ -797,7 +797,7 @@ Offset | Type | Name
 
 ### `FileUploadManager::uploadFile::__l13::<lambda_74760951e5721fb9dafc828e7e1ca7c9>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<FileUploadManager>` | weak_this
 16 | (32) `const std::string` | uploadId
 48 | (1) `bool` | autoStartUpload
@@ -806,7 +806,7 @@ Offset | Type | Name
 
 ### `FileUploadManager::_uploadChunk::__l13::<lambda_beec154458228c4f1efa54daecb2bd49>::()::__l5::<lambda_b942687c99a128d38d4a3acdf5208e9b>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<FileUploadManager>` | weak_this
 16 | (24) `const FileChunkInfo` | chunk
 40 | (24) `std::vector<unsigned char>` | buffer
@@ -814,7 +814,7 @@ Offset | Type | Name
 
 ### `FileUploadManager::_uploadStream::__l2::<lambda_704199bdd8ef4b5e4b61022e06e9c849>::()::__l5::<lambda_159c837b6a142bd3dc90b4a04b18c5b4>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<FileUploadManager>` | weak_this
 16 | (16) `FileUploadManager::_uploadStream::__l2::<lambda_7c32c70c440907d77e4081b7aef620a1>` | fetchStreamDataCallback
 32 | (16) `FileUploadManager::_uploadStream::__l2::<lambda_ab8d111204de64d325c648c9d712e8ea>` | onStreamFinishedCallback
@@ -823,26 +823,26 @@ Offset | Type | Name
 
 ### `FileUploadManager::_uploadStream::__l2::<lambda_7c32c70c440907d77e4081b7aef620a1>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<FileUploadManager>` | weak_this
 
 
 ### `FileUploadManager::_uploadStream::__l2::<lambda_ab8d111204de64d325c648c9d712e8ea>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<FileUploadManager>` | weak_this
 
 
 ### `FileChunk`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<unsigned char>` | data
 24 | (24) `FileChunkInfo` | info
 
 
 ### `FileInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `Core::PathBuffer<std::string >` | filePath
 32 | (8) `unsigned __int64` | fileSize
 40 | (32) `std::string` | fileHash
@@ -850,7 +850,7 @@ Offset | Type | Name
 
 ### `FilterContext`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const Actor *` | mHost
 8 | (8) `const Actor *` | mSubject
 16 | (8) `const VariantParameterList *` | mParams
@@ -865,20 +865,20 @@ Offset | Type | Name
 
 ### `FilterInputDefinition`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (48) `FilterInput` | mInput
 48 | (32) `std::string` | mDescription
 
 
 ### `FilterTestDaytime`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `SimpleBoolFilterTest` | baseclass_0
 
 
 ### `FilterTest`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `FilterTest_vtbl *` | __vftable
 8 | (2) `_BYTE[2]` | mSubject
 10 | (2) `FilterOperator` | mOperator
@@ -886,7 +886,7 @@ Offset | Type | Name
 
 ### `FilterInputs`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `_BYTE[2]` | mSubject
 8 | (48) `FilterInput` | mDomain
 56 | (2) `FilterOperator` | mOperator
@@ -895,13 +895,13 @@ Offset | Type | Name
 
 ### `FilterTestDifficulty`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `SimpleIntFilterTest` | baseclass_0
 
 
 ### `FilterTestGameRule`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `FilterTest` | baseclass_0
 16 | (32) `std::string` | mGameRule
 48 | (1) `bool` | mValue
@@ -909,74 +909,74 @@ Offset | Type | Name
 
 ### `FilterTestHourlyClock`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `SimpleIntFilterTest` | baseclass_0
 24 | (4) `int` | mValue
 
 
 ### `FilterTestBiome`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `SimpleIntFilterTest` | baseclass_0
 
 
 ### `FilterTestBiomeHasTag`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (80) `SimpleTagIDFilterTest` | baseclass_0
 
 
 ### `FilterTestBiomeSnowCovered`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `SimpleBoolFilterTest` | baseclass_0
 
 
 ### `FilterTestBiomeHumid`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `SimpleBoolFilterTest` | baseclass_0
 
 
 ### `FilterTestTemperatureType`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `SimpleIntFilterTest` | baseclass_0
 
 
 ### `FilterTestTemperatureValue`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `SimpleFloatFilterTest` | baseclass_0
 
 
 ### `FilterTestBrightness`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `SimpleFloatFilterTest` | baseclass_0
 
 
 ### `FilterTestAltitude`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `SimpleIntFilterTest` | baseclass_0
 
 
 ### `FilterTestHasTradeSupply`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `SimpleBoolFilterTest` | baseclass_0
 
 
 ### `FilteredTransformationAttributes<PostShoreEdgeTransformation>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<PosibleTransformation>` | mTransformations
 
 
 ### `Feature`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IFeature` | baseclass_0
 8 | (8) `Actor *` | mPlacer
 16 | (8) `WorldChangeTransaction *` | mTransaction
@@ -984,7 +984,7 @@ Offset | Type | Name
 
 ### `FileArchiver::archivePack::__l2::<lambda_e4861c6342045bae76278851b5db2c79>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `FileArchiver *const` | __this
 8 | (64) `std::function<void __cdecl(FileArchiver::Result &)>` | exportCallback
 72 | (32) `const Core::Path` | path
@@ -993,7 +993,7 @@ Offset | Type | Name
 
 ### `FileArchiver::archiveLevel::__l2::<lambda_ef06c283a4b2b877a6778581d3ec778e>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `FileArchiver *const` | __this
 8 | (64) `std::function<void __cdecl(FileArchiver::Result &)>` | exportCallback
 72 | (1040) `Core::PathBuffer<Core::StackString<char,1024> >` | outputName
@@ -1004,7 +1004,7 @@ Offset | Type | Name
 
 ### `FileArchiver::archiveLevel::__l2::<lambda_ac943e513845c7fd6e6317395fc32783>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Level *` | level
 8 | (8) `FileArchiver *const` | __this
 16 | (1040) `Core::PathBuffer<Core::StackString<char,1024> >` | outputName
@@ -1015,7 +1015,7 @@ Offset | Type | Name
 
 ### `FileArchiver::archiveLevel::__l2::<lambda_ac943e513845c7fd6e6317395fc32783>::()::__l2::<lambda_f3dbac58284b04dc57297a0858a258fd>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `FileArchiver *const` | __this
 8 | (8) `Level *` | level
 16 | (64) `std::function<void __cdecl(FileArchiver::Result &)>` | exportCallback
@@ -1024,7 +1024,7 @@ Offset | Type | Name
 
 ### `FileArchiver::archiveLevel::__l2::<lambda_ac943e513845c7fd6e6317395fc32783>::()::__l2::<lambda_70145daf2eda0b02012b6d6f8f2ca40e>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Level *` | level
 8 | (8) `unsigned __int64` | numFiles
 16 | (8) `FileArchiver *const` | __this
@@ -1035,7 +1035,7 @@ Offset | Type | Name
 
 ### `FileArchiver::_importVanillaLevel::__l2::<lambda_982a8571ec925d774f47b3ea87936fc0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<FileArchiver>` | weak_this
 16 | (16) `std::shared_ptr<FileArchiver::Result>` | currentResult
 32 | (64) `std::function<void __cdecl(FileArchiver::Result &)>` | importCallback
@@ -1044,7 +1044,7 @@ Offset | Type | Name
 
 ### `FileArchiver::_importVanillaLevel::__l2::<lambda_17892f377568356bdd0cc70fc9fbd172>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<FileArchiver>` | weak_this
 16 | (16) `std::shared_ptr<FileArchiver::Result>` | currentResult
 32 | (1040) `Core::PathBuffer<Core::StackString<char,1024> >` | archivedWorldFile
@@ -1052,14 +1052,14 @@ Offset | Type | Name
 
 ### `FancyTreeTrunk::FoliageCoords`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (12) `BlockPos` | baseclass_0
 12 | (4) `int` | mBranchBase
 
 
 ### `FlatWorldGeneratorOptions`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mEncodingVersion
 8 | (24) `std::vector<BlockLayer>` | mBlockLayers
 32 | (4) `int` | mBiomeId
@@ -1069,27 +1069,27 @@ Offset | Type | Name
 
 ### `FixedBiomeSource`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `BiomeSource` | baseclass_0
 8 | (8) `const Biome *` | mFixedBiome
 
 
 ### `FoldMeuScreenController::setUpCallbacksForBooleanOption::__l2::<lambda_d700cb1b2a11b77f5ca7cb09e25db2b8>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::function<bool __cdecl(void)>` | getValue
 
 
 ### `fd_set`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | fd_count
 8 | (512) `unsigned __int64[64]` | fd_array
 
 
 ### `FurnaceScreenControllerProxyCallbacks`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::function<ContainerController * __cdecl(std::string const &)>` | mGetContainerController
 64 | (64) `std::function<int __cdecl(void)>` | mGetBurnProgress
 128 | (64) `std::function<int __cdecl(void)>` | mGetLitProgress
@@ -1098,19 +1098,19 @@ Offset | Type | Name
 
 ### `FlowerFeature`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `Feature` | baseclass_0
 24 | (8) `const Block *` | mBlock
 
 
 ### `FMOD::Sound`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `FT_Matrix_`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | xx
 4 | (4) `int` | xy
 8 | (4) `int` | yx
@@ -1119,14 +1119,14 @@ Offset | Type | Name
 
 ### `FT_Vector_`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | x
 4 | (4) `int` | y
 
 
 ### `FT_BBox_`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | xMin
 4 | (4) `int` | yMin
 8 | (4) `int` | xMax
@@ -1135,7 +1135,7 @@ Offset | Type | Name
 
 ### `FT_Open_Args_`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | flags
 8 | (8) `const unsigned __int8 *` | memory_base
 16 | (4) `int` | memory_size
@@ -1148,7 +1148,7 @@ Offset | Type | Name
 
 ### `FT_Size_RequestRec_`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `FT_Size_Request_Type_` | type
 4 | (4) `int` | width
 8 | (4) `int` | height
@@ -1158,7 +1158,7 @@ Offset | Type | Name
 
 ### `FT_Raster_Params_`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const FT_Bitmap_ *` | target
 8 | (8) `const void *` | source
 16 | (4) `int` | flags
@@ -1172,7 +1172,7 @@ Offset | Type | Name
 
 ### `FT_GlyphSlotRec_`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `FT_LibraryRec_ *` | library
 8 | (8) `FT_FaceRec_ *` | face
 16 | (8) `FT_GlyphSlotRec_ *` | next
@@ -1199,14 +1199,14 @@ Offset | Type | Name
 
 ### `FT_Generic_`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `void *` | data
 8 | (8) `void (__fastcall *)(void *)` | finalizer
 
 
 ### `FT_Glyph_Metrics_`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | width
 4 | (4) `int` | height
 8 | (4) `int` | horiBearingX
@@ -1219,14 +1219,14 @@ Offset | Type | Name
 
 ### `FT_Hashkey_`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | num
 1 | (8) `const char *` | str
 
 
 ### `FT_CharMapRec_`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `FT_FaceRec_ *` | face
 8 | (4) `FT_Encoding_` | encoding
 12 | (2) `unsigned __int16` | platform_id
@@ -1235,7 +1235,7 @@ Offset | Type | Name
 
 ### `FT_Span_`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `__int16` | x
 2 | (2) `unsigned __int16` | len
 4 | (1) `unsigned __int8` | coverage
@@ -1243,21 +1243,21 @@ Offset | Type | Name
 
 ### `FT_ListRec_`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `FT_ListNodeRec_ *` | head
 8 | (8) `FT_ListNodeRec_ *` | tail
 
 
 ### `FT_Data_`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const unsigned __int8 *` | pointer
 8 | (4) `int` | length
 
 
 ### `FieldNameIterator`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `SubString` | str
 16 | (8) `wchar_t *` | ptr
 

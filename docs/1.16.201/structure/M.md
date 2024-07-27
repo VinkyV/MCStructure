@@ -1,7 +1,7 @@
 # M
 ### `MovementInterpolator`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (12) `Vec3` | mPos
 12 | (8) `Vec2` | mRot
 20 | (4) `float` | mHeadYaw
@@ -13,7 +13,7 @@ Offset | Type | Name
 
 ### `mce::Color`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float` | r
 4 | (4) `float` | g
 8 | (4) `float` | b
@@ -22,54 +22,54 @@ Offset | Type | Name
 
 ### `mce::MaterialPtr`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<mce::RenderMaterialInfo>` | mRenderMaterialInfoPtr
 
 
 ### `mce::TexturePtr`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<BedrockTextureData const >` | mClientTexture
 16 | (56) `ResourceLocation` | mResourceLocation
 
 
 ### `mce::UUID`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `unsigned __int64[2]` | Data
 
 
 ### `MinecoinCatalogModel::fetchAndHydrate::__l2::<lambda_572de4bfa096cecd80e1e589d96c29d2>::()::__l5::<lambda_c052bc080a478cc323090c914d1fc70a>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `MinecoinCatalogModel::fetchAllCoinOffers::__l2::<lambda_635fb040fea347febb7d715b1cd27254>::()::__l5::<lambda_c2eb9aad96d78d40471c9b3ee69a3747>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `MinecoinCatalogModel::fetchAndHydrate::__l2::<lambda_572de4bfa096cecd80e1e589d96c29d2>::()::__l5::<lambda_fcc88562243a0d1882490080a4a4353a>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `MaterialVariants`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `mce::MaterialPtr` | mSkinningMaterialPtr
 16 | (16) `mce::MaterialPtr` | mSkinningColorMaterialPtr
 
 
 ### `MultiplayerLessonDiscovery::refreshLessonWorlds::__l2::<lambda_810ace89c32ee12eaa122e29901082c2>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const std::string *` | lessonTitle
 
 
 ### `MolangScriptArg`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `MolangScriptArgType` | mType
 8 | (8) `MolangScriptArgPOD` | mPOD
 16 | (72) `std::variant<MolangMatrix,MaterialVariants,MolangActorArrayPtr,MolangActorIdArrayPtr,MolangArrayVariable,MolangClientTexture,MolangContextVariable,MolangDataDrivenGeometry,MolangEntityVariable,MolangGeometryVariable,MolangMaterialVariable,MolangMemberAccessor,MolangMemberArray,MolangQueryFunctionPtr,MolangTempVariable,MolangTextureVariable>` | mData
@@ -77,7 +77,7 @@ Offset | Type | Name
 
 ### `MolangScriptArgPOD`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float` | mFloat
 1 | (8) `unsigned __int64` | mHashType64
 2 | (8) `Actor *` | mActorPtr
@@ -88,92 +88,92 @@ Offset | Type | Name
 
 ### `MolangLoopBreak`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `MolangLoopContinue`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `MolangMatrix`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `float[4][4]` | mMatrix
 
 
 ### `MolangActorArrayPtr`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<Actor *>` | mActors
 
 
 ### `MolangActorIdArrayPtr`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<ActorUniqueID>` | mActorIds
 
 
 ### `MolangArrayVariable`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (48) `HashedString` | baseclass_0
 
 
 ### `MolangClientTexture`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<std::pair<HashedString,mce::TexturePtr> >` | mData
 
 
 ### `MolangContextVariable`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (48) `HashedString` | baseclass_0
 48 | (2) `_BYTE[2]` | mMolangVariableIndex
 
 
 ### `MolangDataDrivenGeometry`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `DataDrivenGeometry *` | mGeometry
 8 | (48) `HashedString` | mName
 
 
 ### `MolangEntityVariable`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (48) `HashedString` | baseclass_0
 48 | (2) `_BYTE[2]` | mMolangVariableIndex
 
 
 ### `MolangGeometryVariable`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (48) `HashedString` | baseclass_0
 
 
 ### `MolangMaterialVariable`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (48) `HashedString` | baseclass_0
 
 
 ### `MolangMemberAccessor`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (48) `HashedString` | baseclass_0
 
 
 ### `MolangMemberArray`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::unique_ptr<std::vector<MolangMemberVariable>>` | mMembers
 
 
 ### `MolangQueryFunctionPtr`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `_BYTE[8]` | mReturnType
 8 | (8) `const std::function<MolangScriptArg const & __cdecl(RenderParams &,std::vector<ExpressionNode> const &)> *` | mQueryFunctionPtr
 16 | (48) `HashedString` | mName
@@ -181,26 +181,26 @@ Offset | Type | Name
 
 ### `MolangTempVariable`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (48) `HashedString` | baseclass_0
 48 | (2) `_BYTE[2]` | mMolangVariableIndex
 
 
 ### `MolangTextureVariable`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (48) `HashedString` | baseclass_0
 
 
 ### `mce::FileWatcherHandle`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<mce::detail::FileWatcherHandleInternal>` | mFileWatcherHandleInternal
 
 
 ### `mce::Image`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `_BYTE[4]` | imageFormat
 4 | (4) `unsigned int` | mWidth
 8 | (4) `unsigned int` | mHeight
@@ -211,20 +211,20 @@ Offset | Type | Name
 
 ### `mce::Blob`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::unique_ptr<unsigned char [0],mce::Blob::Deleter>` | mBlob
 16 | (8) `unsigned __int64` | mSize
 
 
 ### `mce::Blob::Deleter`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `void (__fastcall *)(unsigned __int8 *)` | m_func
 
 
 ### `MainWindow`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `HWND__ *` | mHWnd
 8 | (32) `std::string` | mWindowTitle
 40 | (8) `std::unique_ptr<MinecraftGame>` | mMinecraftGame
@@ -246,26 +246,26 @@ Offset | Type | Name
 
 ### `MoveControlDolphinDescription`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `MoveControlDescription` | baseclass_0
 
 
 ### `MoveControlDescription`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ComponentDescription` | baseclass_0
 8 | (4) `float` | mMaxTurn
 
 
 ### `Matrix`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `glm::tmat4x4<float,0>` | _m
 
 
 ### `MobEffectInstance`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | mModId
 4 | (1) `bool` | mIsRefreshed
 8 | (4) `unsigned int` | mId
@@ -282,7 +282,7 @@ Offset | Type | Name
 
 ### `MobSpawnHerdInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | mMinCount
 4 | (4) `unsigned int` | mMaxCount
 8 | (4) `unsigned int` | mHerdEventSkipCount
@@ -293,7 +293,7 @@ Offset | Type | Name
 
 ### `mce::MeshData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `mce::PrimitiveMode` | mMode
 1 | (1) `bool` | mMeshNotFree
 8 | (24) `std::vector<glm::tvec3<float,0>>` | mPositions
@@ -308,7 +308,7 @@ Offset | Type | Name
 
 ### `ModBlockPatternManager`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<std::unique_ptr<ModBlockPattern>>` | mBlockPatterns
 24 | (64) `std::unordered_map<unsigned __int64,ModBlockPattern const *>` | mBlockPatternHash
 88 | (64) `std::unordered_map<Block const *,std::vector<ModBlockPattern const *>>` | mBlockPatternMapping
@@ -316,7 +316,7 @@ Offset | Type | Name
 
 ### `ModeEntry`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const wchar_t *` | mCModeWide
 8 | (8) `const char *` | mCMode1
 16 | (8) `const char *` | mCMode2
@@ -327,7 +327,7 @@ Offset | Type | Name
 
 ### `MultibyteCodec`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const char *` | encoding
 8 | (8) `const void *` | config
 16 | (8) `int (__fastcall *)(const void *)` | codecinit
@@ -341,7 +341,7 @@ Offset | Type | Name
 
 ### `method_cache_entry`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | version
 8 | (8) `_object *` | name
 16 | (8) `_object *` | value
@@ -349,7 +349,7 @@ Offset | Type | Name
 
 ### `Motive`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `const std::string` | mName
 32 | (4) `const int` | mWidth
 36 | (4) `const int` | mHeight
@@ -360,7 +360,7 @@ Offset | Type | Name
 
 ### `mce::RenderMaterialGroup`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `AppPlatformListener` | baseclass_0
 16 | (8) `mce::RenderMaterialGroupBase` | baseclass_10
 24 | (64) `std::unordered_map<HashedString,std::shared_ptr<mce::RenderMaterialInfo>>` | mMaterials
@@ -376,19 +376,19 @@ Offset | Type | Name
 
 ### `mce::RenderMaterialGroupBase`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `mce::RenderMaterialGroupBase_vtbl *` | __vftable
 
 
 ### `mce::SamplerGroupCache`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::unordered_map<unsigned __int64,std::shared_ptr<mce::SamplerStateHeapEntry>>` | mCache
 
 
 ### `MCRESULT`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | mSuccess
 1 | (1) `MCCATEGORY` | mCategory
 2 | (2) `unsigned __int16` | mCode
@@ -396,13 +396,13 @@ Offset | Type | Name
 
 ### `MPMCQueue<std::variant<std::monostate,std::shared_ptr<mce::IndexBufferContainer>,std::shared_ptr<RenderChunkDirectIndexData> > >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (616) `moodycamel::ConcurrentQueue<std::variant<std::monostate,std::shared_ptr<mce::IndexBufferContainer>,std::shared_ptr<RenderChunkDirectIndexData> >,moodycamel::ConcurrentQueueDefaultTraits>` | mQueue
 
 
 ### `moodycamel::ConcurrentQueue<std::variant<std::monostate,std::shared_ptr<mce::IndexBufferContainer>,std::shared_ptr<RenderChunkDirectIndexData> >,moodycamel::ConcurrentQueueDefaultTraits>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::atomic<moodycamel::ConcurrentQueue<std::variant<std::monostate,std::shared_ptr<mce::IndexBufferContainer>,std::shared_ptr<RenderChunkDirectIndexData> >,moodycamel::ConcurrentQueueDefaultTraits>::ProducerBase *>` | producerListTail
 8 | (4) `std::atomic<unsigned int>` | producerCount
 16 | (8) `std::atomic<unsigned __int64>` | initialBlockPoolIndex
@@ -420,13 +420,13 @@ Offset | Type | Name
 
 ### `moodycamel::ConcurrentQueue<std::variant<std::monostate,std::shared_ptr<mce::IndexBufferContainer>,std::shared_ptr<RenderChunkDirectIndexData> >,moodycamel::ConcurrentQueueDefaultTraits>::FreeList<moodycamel::ConcurrentQueue<std::variant<std::monostate,std::shared_ptr<mce::IndexBufferContainer>,std::shared_ptr<RenderChunkDirectIndexData> >,moodycamel::ConcurrentQueueDefaultTraits>::Block>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::atomic<moodycamel::ConcurrentQueue<std::variant<std::monostate,std::shared_ptr<mce::IndexBufferContainer>,std::shared_ptr<RenderChunkDirectIndexData> >,moodycamel::ConcurrentQueueDefaultTraits>::Block *>` | freeListHead
 
 
 ### `moodycamel::ConcurrentQueue<std::variant<std::monostate,std::shared_ptr<mce::IndexBufferContainer>,std::shared_ptr<RenderChunkDirectIndexData> >,moodycamel::ConcurrentQueueDefaultTraits>::ImplicitProducerHash`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `unsigned __int64` | capacity
 8 | (8) `moodycamel::ConcurrentQueue<std::variant<std::monostate,std::shared_ptr<mce::IndexBufferContainer>,std::shared_ptr<RenderChunkDirectIndexData> >,moodycamel::ConcurrentQueueDefaultTraits>::ImplicitProducerKVP *` | entries
 16 | (8) `moodycamel::ConcurrentQueue<std::variant<std::monostate,std::shared_ptr<mce::IndexBufferContainer>,std::shared_ptr<RenderChunkDirectIndexData> >,moodycamel::ConcurrentQueueDefaultTraits>::ImplicitProducerHash *` | prev
@@ -434,21 +434,21 @@ Offset | Type | Name
 
 ### `moodycamel::ConcurrentQueue<std::variant<std::monostate,std::shared_ptr<mce::IndexBufferContainer>,std::shared_ptr<RenderChunkDirectIndexData> >,moodycamel::ConcurrentQueueDefaultTraits>::ImplicitProducerKVP`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `std::atomic<unsigned int>` | key
 8 | (8) `moodycamel::ConcurrentQueue<std::variant<std::monostate,std::shared_ptr<mce::IndexBufferContainer>,std::shared_ptr<RenderChunkDirectIndexData> >,moodycamel::ConcurrentQueueDefaultTraits>::ImplicitProducer *` | value
 
 
 ### `mce::ChipsetInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const char *` | chipsetName
 8 | (1) `bool` | brokenCentroidSampler
 
 
 ### `mce::VertexFormat`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `WideByteMask` | fieldMask
 2 | (24) `unsigned __int16[12]` | _fieldOffset
 26 | (2) `unsigned __int16` | vertexSize
@@ -457,13 +457,13 @@ Offset | Type | Name
 
 ### `MPMCQueue<std::variant<std::monostate,std::shared_ptr<mce::Mesh>,std::shared_ptr<RenderChunkDirectVertexData> > >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (616) `moodycamel::ConcurrentQueue<std::variant<std::monostate,std::shared_ptr<mce::Mesh>,std::shared_ptr<RenderChunkDirectVertexData> >,moodycamel::ConcurrentQueueDefaultTraits>` | mQueue
 
 
 ### `moodycamel::ConcurrentQueue<std::variant<std::monostate,std::shared_ptr<mce::Mesh>,std::shared_ptr<RenderChunkDirectVertexData> >,moodycamel::ConcurrentQueueDefaultTraits>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::atomic<moodycamel::ConcurrentQueue<std::variant<std::monostate,std::shared_ptr<mce::Mesh>,std::shared_ptr<RenderChunkDirectVertexData> >,moodycamel::ConcurrentQueueDefaultTraits>::ProducerBase *>` | producerListTail
 8 | (4) `std::atomic<unsigned int>` | producerCount
 16 | (8) `std::atomic<unsigned __int64>` | initialBlockPoolIndex
@@ -481,13 +481,13 @@ Offset | Type | Name
 
 ### `moodycamel::ConcurrentQueue<std::variant<std::monostate,std::shared_ptr<mce::Mesh>,std::shared_ptr<RenderChunkDirectVertexData> >,moodycamel::ConcurrentQueueDefaultTraits>::FreeList<moodycamel::ConcurrentQueue<std::variant<std::monostate,std::shared_ptr<mce::Mesh>,std::shared_ptr<RenderChunkDirectVertexData> >,moodycamel::ConcurrentQueueDefaultTraits>::Block>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::atomic<moodycamel::ConcurrentQueue<std::variant<std::monostate,std::shared_ptr<mce::Mesh>,std::shared_ptr<RenderChunkDirectVertexData> >,moodycamel::ConcurrentQueueDefaultTraits>::Block *>` | freeListHead
 
 
 ### `moodycamel::ConcurrentQueue<std::variant<std::monostate,std::shared_ptr<mce::Mesh>,std::shared_ptr<RenderChunkDirectVertexData> >,moodycamel::ConcurrentQueueDefaultTraits>::ImplicitProducerHash`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `unsigned __int64` | capacity
 8 | (8) `moodycamel::ConcurrentQueue<std::variant<std::monostate,std::shared_ptr<mce::Mesh>,std::shared_ptr<RenderChunkDirectVertexData> >,moodycamel::ConcurrentQueueDefaultTraits>::ImplicitProducerKVP *` | entries
 16 | (8) `moodycamel::ConcurrentQueue<std::variant<std::monostate,std::shared_ptr<mce::Mesh>,std::shared_ptr<RenderChunkDirectVertexData> >,moodycamel::ConcurrentQueueDefaultTraits>::ImplicitProducerHash *` | prev
@@ -495,14 +495,14 @@ Offset | Type | Name
 
 ### `moodycamel::ConcurrentQueue<std::variant<std::monostate,std::shared_ptr<mce::Mesh>,std::shared_ptr<RenderChunkDirectVertexData> >,moodycamel::ConcurrentQueueDefaultTraits>::ImplicitProducerKVP`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `std::atomic<unsigned int>` | key
 8 | (8) `moodycamel::ConcurrentQueue<std::variant<std::monostate,std::shared_ptr<mce::Mesh>,std::shared_ptr<RenderChunkDirectVertexData> >,moodycamel::ConcurrentQueueDefaultTraits>::ImplicitProducer *` | value
 
 
 ### `MouseDevice`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `__int16` | clickX
 2 | (2) `__int16` | clickY
 4 | (4) `int` | _index
@@ -519,7 +519,7 @@ Offset | Type | Name
 
 ### `mce::Mesh`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `mce::IndexBufferContainer` | baseclass_0
 32 | (24) `std::variant<std::monostate,unsigned __int64,glm::tvec3<int,0> >` | mCacheKey
 56 | (1) `bool` | mTemporary
@@ -535,7 +535,7 @@ Offset | Type | Name
 
 ### `mce::IndexBufferContainer`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `mce::ClientResourcePointer<mce::ResourcePointer<std::variant<std::monostate,mce::Buffer,mce::ClientResourcePointer<mce::ResourcePointer<dragon::mesh::ResolvedVertexBufferResource,mce::ResourceBlockTemplate<dragon::mesh::ResolvedVertexBufferResource,mce::UncheckedHandleTracker,dragon::BufferDescription>,std::shared_ptr> >,mce::ClientResourcePointer<mce::ResourcePointer<dragon::mesh::ResolvedIndexBufferResource,mce::ResourceBlockTemplate<dragon::mesh::ResolvedIndexBufferResource,mce::UncheckedHandleTracker,dragon::BufferDescription>,std::shared_ptr> > >,mce::ResourceBlockTemplate<std::variant<std::monostate,mce::Buffer,mce::ClientResourcePointer<mce::ResourcePointer<dragon::mesh::ResolvedVertexBufferResource,mce::ResourceBlockTemplate<dragon::mesh::ResolvedVertexBufferResource,mce::UncheckedHandleTracker,dragon::BufferDescription>,std::shared_ptr> >,mce::ClientResourcePointer<mce::ResourcePointer<dragon::mesh::ResolvedIndexBufferResource,mce::ResourceBlockTemplate<dragon::mesh::ResolvedIndexBufferResource,mce::UncheckedHandleTracker,dragon::BufferDescription>,std::shared_ptr> > >,mce::PerFrameHandleTracker,dragon::BufferDescription>,std::shared_ptr> >` | mIndexBuffer
 16 | (4) `unsigned int` | mIndexCount
 20 | (4) `unsigned int` | mIndexSize
@@ -544,19 +544,19 @@ Offset | Type | Name
 
 ### `mce::ClientResourcePointer<mce::ResourcePointer<std::variant<std::monostate,mce::Buffer,mce::ClientResourcePointer<mce::ResourcePointer<dragon::mesh::ResolvedVertexBufferResource,mce::ResourceBlockTemplate<dragon::mesh::ResolvedVertexBufferResource,mce::UncheckedHandleTracker,dragon::BufferDescription>,std::shared_ptr> >,mce::ClientResourcePointer<mce::ResourcePointer<dragon::mesh::ResolvedIndexBufferResource,mce::ResourceBlockTemplate<dragon::mesh::ResolvedIndexBufferResource,mce::UncheckedHandleTracker,dragon::BufferDescription>,std::shared_ptr> > >,mce::ResourceBlockTemplate<std::variant<std::monostate,mce::Buffer,mce::ClientResourcePointer<mce::ResourcePointer<dragon::mesh::ResolvedVertexBufferResource,mce::ResourceBlockTemplate<dragon::mesh::ResolvedVertexBufferResource,mce::UncheckedHandleTracker,dragon::BufferDescription>,std::shared_ptr> >,mce::ClientResourcePointer<mce::ResourcePointer<dragon::mesh::ResolvedIndexBufferResource,mce::ResourceBlockTemplate<dragon::mesh::ResolvedIndexBufferResource,mce::UncheckedHandleTracker,dragon::BufferDescription>,std::shared_ptr> > >,mce::PerFrameHandleTracker,dragon::BufferDescription>,std::shared_ptr> >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `mce::ResourcePointer<std::variant<std::monostate,mce::Buffer,mce::ClientResourcePointer<mce::ResourcePointer<dragon::mesh::ResolvedVertexBufferResource,mce::ResourceBlockTemplate<dragon::mesh::ResolvedVertexBufferResource,mce::UncheckedHandleTracker,dragon::BufferDescription>,std::shared_ptr> >,mce::ClientResourcePointer<mce::ResourcePointer<dragon::mesh::ResolvedIndexBufferResource,mce::ResourceBlockTemplate<dragon::mesh::ResolvedIndexBufferResource,mce::UncheckedHandleTracker,dragon::BufferDescription>,std::shared_ptr> > >,mce::ResourceBlockTemplate<std::variant<std::monostate,mce::Buffer,mce::ClientResourcePointer<mce::ResourcePointer<dragon::mesh::ResolvedVertexBufferResource,mce::ResourceBlockTemplate<dragon::mesh::ResolvedVertexBufferResource,mce::UncheckedHandleTracker,dragon::BufferDescription>,std::shared_ptr> >,mce::ClientResourcePointer<mce::ResourcePointer<dragon::mesh::ResolvedIndexBufferResource,mce::ResourceBlockTemplate<dragon::mesh::ResolvedIndexBufferResource,mce::UncheckedHandleTracker,dragon::BufferDescription>,std::shared_ptr> > >,mce::PerFrameHandleTracker,dragon::BufferDescription>,std::shared_ptr>` | baseclass_0
 
 
 ### `mce::ResourcePointer<std::variant<std::monostate,mce::Buffer,mce::ClientResourcePointer<mce::ResourcePointer<dragon::mesh::ResolvedVertexBufferResource,mce::ResourceBlockTemplate<dragon::mesh::ResolvedVertexBufferResource,mce::UncheckedHandleTracker,dragon::BufferDescription>,std::shared_ptr> >,mce::ClientResourcePointer<mce::ResourcePointer<dragon::mesh::ResolvedIndexBufferResource,mce::ResourceBlockTemplate<dragon::mesh::ResolvedIndexBufferResource,mce::UncheckedHandleTracker,dragon::BufferDescription>,std::shared_ptr> > >,mce::ResourceBlockTemplate<std::variant<std::monostate,mce::Buffer,mce::ClientResourcePointer<mce::ResourcePointer<dragon::mesh::ResolvedVertexBufferResource,mce::ResourceBlockTemplate<dragon::mesh::ResolvedVertexBufferResource,mce::UncheckedHandleTracker,dragon::BufferDescription>,std::shared_ptr> >,mce::ClientResourcePointer<mce::ResourcePointer<dragon::mesh::ResolvedIndexBufferResource,mce::ResourceBlockTemplate<dragon::mesh::ResolvedIndexBufferResource,mce::UncheckedHandleTracker,dragon::BufferDescription>,std::shared_ptr> > >,mce::PerFrameHandleTracker,dragon::BufferDescription>,std::shared_ptr>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<mce::ResourceBlockTemplate<std::variant<std::monostate,mce::Buffer,mce::ClientResourcePointer<mce::ResourcePointer<dragon::mesh::ResolvedVertexBufferResource,mce::ResourceBlockTemplate<dragon::mesh::ResolvedVertexBufferResource,mce::UncheckedHandleTracker,dragon::BufferDescription>,std::shared_ptr> >,mce::ClientResourcePointer<mce::ResourcePointer<dragon::mesh::ResolvedIndexBufferResource,mce::ResourceBlockTemplate<dragon::mesh::ResolvedIndexBufferResource,mce::UncheckedHandleTracker,dragon::BufferDescription>,std::shared_ptr> > >,mce::PerFrameHandleTracker,dragon::BufferDescription> >` | mResourcePointerBlock
 
 
 ### `mce::Camera`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (48) `MatrixStack` | viewMatrixStack
 48 | (48) `MatrixStack` | worldMatrixStack
 96 | (48) `MatrixStack` | projectionMatrixStack
@@ -588,39 +588,39 @@ Offset | Type | Name
 
 ### `MatrixStack`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `std::stack<Matrix>` | stack
 40 | (1) `bool` | _isDirty
 
 
 ### `msdfgen::SignedDistance`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `long double` | distance
 8 | (8) `long double` | dot
 
 
 ### `mce::ClientTexture`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `mce::ClientResourcePointer<mce::ResourcePointer<std::variant<std::monostate,mce::Texture,dragon::res::ClientTexture>,mce::ResourceBlockTemplate<std::variant<std::monostate,mce::Texture,dragon::res::ClientTexture>,mce::PerFrameHandleTracker,mce::ResourceServiceTextureDescription>,std::shared_ptr> >` | baseclass_0
 
 
 ### `mce::ClientResourcePointer<mce::ResourcePointer<std::variant<std::monostate,mce::Texture,dragon::res::ClientTexture>,mce::ResourceBlockTemplate<std::variant<std::monostate,mce::Texture,dragon::res::ClientTexture>,mce::PerFrameHandleTracker,mce::ResourceServiceTextureDescription>,std::shared_ptr> >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `mce::ResourcePointer<std::variant<std::monostate,mce::Texture,dragon::res::ClientTexture>,mce::ResourceBlockTemplate<std::variant<std::monostate,mce::Texture,dragon::res::ClientTexture>,mce::PerFrameHandleTracker,mce::ResourceServiceTextureDescription>,std::shared_ptr>` | baseclass_0
 
 
 ### `mce::ResourcePointer<std::variant<std::monostate,mce::Texture,dragon::res::ClientTexture>,mce::ResourceBlockTemplate<std::variant<std::monostate,mce::Texture,dragon::res::ClientTexture>,mce::PerFrameHandleTracker,mce::ResourceServiceTextureDescription>,std::shared_ptr>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<mce::ResourceBlockTemplate<std::variant<std::monostate,mce::Texture,dragon::res::ClientTexture>,mce::PerFrameHandleTracker,mce::ResourceServiceTextureDescription> >` | mResourcePointerBlock
 
 
 ### `mce::TextureDescription`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (72) `cg::TextureDescription` | baseclass_0
 72 | (8) `mce::SampleDescription` | mSampleDescription
 80 | (16) `mce::Color` | mClearColor
@@ -632,14 +632,14 @@ Offset | Type | Name
 
 ### `mce::SampleDescription`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | count
 4 | (4) `int` | quality
 
 
 ### `MagicSniffer::MagicSnifferHandler`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (72) `NamedPipeObject` | pipe
 72 | (8) `unsigned __int64` | frameCount
 80 | (32) `std::string` | savePath
@@ -656,21 +656,21 @@ Offset | Type | Name
 
 ### `MemoryMappedFileAccess::StreamHandle`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `MemoryMappedFileAccess::StreamDetails *` | mStream
 8 | (8) `unsigned __int64` | mPosition
 
 
 ### `moodycamel::ConcurrentQueue<std::shared_ptr<Bedrock::SignalBase>,moodycamel::ConcurrentQueueDefaultTraits>::ImplicitProducerKVP`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `std::atomic<unsigned int>` | key
 8 | (8) `moodycamel::ConcurrentQueue<std::shared_ptr<Bedrock::SignalBase>,moodycamel::ConcurrentQueueDefaultTraits>::ImplicitProducer *` | value
 
 
 ### `mce::TextureWrappingDescription`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `mce::TextureWrapping` | uAddress
 1 | (1) `mce::TextureWrapping` | vAddress
 2 | (1) `mce::TextureWrapping` | wAddress
@@ -678,7 +678,7 @@ Offset | Type | Name
 
 ### `ModalScreenData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | contentTitleId
 32 | (24) `std::vector<std::string>` | contentTitleParams
 56 | (32) `std::string` | contentLabelId
@@ -700,7 +700,7 @@ Offset | Type | Name
 
 ### `MovePlayerPacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `Packet` | baseclass_0
 40 | (8) `ActorRuntimeID` | mPlayerID
 48 | (12) `Vec3` | mPos
@@ -716,7 +716,7 @@ Offset | Type | Name
 
 ### `mce::MeshContext`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `mce::RenderContext *` | renderContext
 8 | (8) `mce::Camera *` | camera
 16 | (8) `mce::GlobalConstantBuffers *` | constantBuffers
@@ -737,26 +737,26 @@ Offset | Type | Name
 
 ### `mce::ServerResourcePointer<mce::ResourcePointer<mce::ImmediateBuffer,mce::ResourceBlockTemplate<mce::ImmediateBuffer,mce::PerFrameHandleTracker,dragon::BufferDescription>,std::shared_ptr>,mce::AssertResourceServiceErrorHandler>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `mce::ResourcePointer<mce::ImmediateBuffer,mce::ResourceBlockTemplate<mce::ImmediateBuffer,mce::PerFrameHandleTracker,dragon::BufferDescription>,std::shared_ptr>` | baseclass_0
 
 
 ### `mce::ResourcePointer<mce::ImmediateBuffer,mce::ResourceBlockTemplate<mce::ImmediateBuffer,mce::PerFrameHandleTracker,dragon::BufferDescription>,std::shared_ptr>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<mce::ResourceBlockTemplate<mce::ImmediateBuffer,mce::PerFrameHandleTracker,dragon::BufferDescription> >` | mResourcePointerBlock
 
 
 ### `MinecraftglTFExporter::_loadAsycModel::__l2::<lambda_a622c71abb5c40f0cf307f75912da47d>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `MinecraftglTFExporter *const` | __this
 8 | (64) `std::function<void __cdecl(Core::Path const &)>` | callback
 
 
 ### `MinecraftglTFExporter::ImageBakeData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mImageID
 4 | (1) `bool` | mAlpha
 5 | (1) `bool` | mBlend
@@ -764,7 +764,7 @@ Offset | Type | Name
 
 ### `MinecraftglTFExporter::AsyncModelMaterial`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | mMaterialName
 32 | (24) `std::vector<std::string>` | mTextureKeys
 56 | (16) `mce::Color` | mChangeColor
@@ -783,14 +783,14 @@ Offset | Type | Name
 
 ### `MinecraftglTFExporter::BakeData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | mAlpha
 1 | (1) `bool` | mBlend
 
 
 ### `MinecraftglTFExporter::_bakeMultiTextureImage::__l2::MultiTextureData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | alphaChannel
 4 | (4) `int` | bpp
 8 | (4) `int` | colorChannels
@@ -800,14 +800,14 @@ Offset | Type | Name
 
 ### `mce::TextureContainer`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<cg::ImageBuffer>` | mStorage
 24 | (112) `mce::TextureDescription` | mDescription
 
 
 ### `MolangVariableMap`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<short>` | mMapFromVariableIndexToVariableArrayOffset
 24 | (24) `std::vector<std::unique_ptr<MolangVariable>>` | mVariables
 48 | (1) `bool` | mHasPublicVariables
@@ -817,14 +817,14 @@ Offset | Type | Name
 
 ### `mce::CreateTextureFromOwnedImageTransaction`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (80) `mce::Image` | mImage
 80 | (32) `std::string` | mDebugName
 
 
 ### `mce::framebuilder::gamecomponents::PlayerVision`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | mNightVisionEnabled
 4 | (4) `float` | mNightVisionScale
 8 | (4) `float` | mBlindnessLevel
@@ -832,19 +832,19 @@ Offset | Type | Name
 
 ### `MinecraftGame::_initPostE::__l2::<lambda_82af75bef2ab9188506527c9f91b166c>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `MinecraftGame *const` | __this
 
 
 ### `MinecraftGame::_onInitRemoteSystem::__l5::<lambda_1fa9dcbfa9b3eaf2961dc9aea7c94d59>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (80) `MinecraftGame::_onInitRemoteSystem::__l5::<lambda_7c105b800501859cc3eef7b7b7109f87>` | completedCallback
 
 
 ### `MinecraftGame::_onInitRemoteSystem::__l5::<lambda_7c105b800501859cc3eef7b7b7109f87>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `MinecraftGame *const` | __this
 8 | (8) `SceneStack *` | sceneStack
 16 | (64) `std::function<void __cdecl(void)>` | syncCompleteCallback
@@ -852,14 +852,14 @@ Offset | Type | Name
 
 ### `MinecraftGame::_onInitRemoteSystem::__l5::<lambda_a2e2b143ebf49ce93012938fa0df5cda>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `MinecraftGame *const` | __this
 8 | (80) `MinecraftGame::_onInitRemoteSystem::__l5::<lambda_7c105b800501859cc3eef7b7b7109f87>` | completedCallback
 
 
 ### `MinecraftGame::_onInitRemoteSystem::__l5::<lambda_a2e2b143ebf49ce93012938fa0df5cda>::()::__l2::<lambda_4969cffd23c0de619ebdcf38260c48fe>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `MinecraftGame *const` | __this
 8 | (64) `std::function<void __cdecl(Core::Result)>` | syncCallback
 72 | (80) `MinecraftGame::_onInitRemoteSystem::__l5::<lambda_7c105b800501859cc3eef7b7b7109f87>` | completedCallback
@@ -867,7 +867,7 @@ Offset | Type | Name
 
 ### `MinecraftGame::_onInitRemoteSystem::__l5::<lambda_a2e2b143ebf49ce93012938fa0df5cda>::()::__l2::<lambda_d0933490929011ed15bac26ef215c31f>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `MinecraftGame *const` | __this
 8 | (64) `std::function<void __cdecl(Core::Result)>` | onSettingsSyncComplete
 72 | (64) `std::function<void __cdecl(Core::Result)>` | syncCallback
@@ -876,14 +876,14 @@ Offset | Type | Name
 
 ### `MinecraftGame::_onInitRemoteSystem::__l5::<lambda_a2e2b143ebf49ce93012938fa0df5cda>::()::__l2::<lambda_4969cffd23c0de619ebdcf38260c48fe>::()::__l2::<lambda_d5a8ab8a5f399a78caad968a8a644159>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::function<void __cdecl(Core::Result)>` | syncCallback
 64 | (80) `MinecraftGame::_onInitRemoteSystem::__l5::<lambda_7c105b800501859cc3eef7b7b7109f87>` | completedCallback
 
 
 ### `mce::framebuilder::FrameConfiguration::View`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `unsigned __int8` | mPlayerId
 4 | (16) `cg::math::Rect<float>` | mViewport
 20 | (4) `float` | mGuiScale
@@ -900,7 +900,7 @@ Offset | Type | Name
 
 ### `MinecraftGame::createAndUploadWorldToRealm::__l2::<lambda_2475416b9ef62271aa1fb47640725728>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `MinecraftGame *const` | __this
 8 | (32) `const std::string` | levelId
 40 | (32) `const std::string` | levelName
@@ -912,7 +912,7 @@ Offset | Type | Name
 
 ### `MinecraftGame::createAndUploadWorldToRealm::__l2::<lambda_2475416b9ef62271aa1fb47640725728>::()::__l2::<lambda_4ecb63bb7d1b9d1e5d76fcd4c4903f08>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `MinecraftGame *const` | __this
 8 | (248) `Realms::World` | world
 256 | (32) `const std::string` | levelId
@@ -921,35 +921,35 @@ Offset | Type | Name
 
 ### `MinecraftGame::joinRealmFromInvite::__l2::<lambda_b1d4de3648210e849651a316d0e3749c>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `MinecraftGame *const` | __this
 8 | (248) `const Realms::World` | world
 
 
 ### `MinecraftGame::joinRealm::__l2::<lambda_399b556339883ee7d2a7d7e7a44b3d71>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `MinecraftGame *const` | __this
 8 | (248) `const Realms::World` | world
 
 
 ### `MinecraftGame::joinRealm::__l2::<lambda_4ac3fc4eb40a62b081946ca2676863c4>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `MinecraftGame *const` | __this
 8 | (248) `const Realms::World` | world
 
 
 ### `MinecraftGame::joinRealm::__l2::<lambda_8f0bdb9c8e0d8b4db4a7d4e91c3ef521>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `MinecraftGame *const` | __this
 8 | (248) `const Realms::World` | world
 
 
 ### `MinecraftGame::joinMultiplayerGame::__l2::<lambda_1c75b99c6d2554e4f187ed6dc95de8f6>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `MinecraftGame *const` | __this
 8 | (32) `const std::string` | gameToJoinHandleId
 40 | (4) `const Social::MultiplayerServiceIdentifier` | gameServiceProvider
@@ -958,7 +958,7 @@ Offset | Type | Name
 
 ### `MinecraftGame::joinMultiplayerGame::__l2::<lambda_1c75b99c6d2554e4f187ed6dc95de8f6>::()::__l2::<lambda_bc24c93b5b833504820f406a6cbbd34b>::()::__l13::<lambda_0d9dbdbb0e544b81181d77306298c412>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `MinecraftGame *const` | __this
 8 | (256) `Social::GameConnectionInfo` | bestConnection
 264 | (256) `Social::GameConnectionInfo` | backupConnection
@@ -967,7 +967,7 @@ Offset | Type | Name
 
 ### `MinecraftGame::joinMultiplayer::__l2::<lambda_38398a33528211dd362e8aca3d955194>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `MinecraftGame *const` | __this
 8 | (256) `Social::GameConnectionInfo` | gameConnection
 264 | (1) `bool` | isNetworkGame
@@ -975,14 +975,14 @@ Offset | Type | Name
 
 ### `MinecraftGame::_initPerMachineOptionObservers::__l2::<lambda_b0964a1cd276ffac57e7a2f2eea6e19e>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `MinecraftGame *const` | __this
 8 | (16) `gsl::not_null<Bedrock::NonOwnerPointer<TrialManager> >` | trialManager
 
 
 ### `MinecraftGame::_finishReloadingResources::__l8::<lambda_e6c52f3752df22cf185d07fb7f98287f>::()::__l2::<lambda_41cc44f2cd0343f3b1dad873c4878dd4>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<FlipbookTextureDescription>` | flipbookTextureDescriptions
 24 | (24) `std::vector<FlipbookTextureDescription>` | flipbookItemTextureDescriptions
 48 | (8) `MinecraftGame *const` | __this
@@ -990,7 +990,7 @@ Offset | Type | Name
 
 ### `MinecraftGame::forceReloadResourcePack::__l8::<lambda_f74b718687c42612b201e499363815e5>::()::__l2::<lambda_96c534976d4764786d2638ddea2aa302>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<FlipbookTextureDescription>` | flipbookTextureDescriptions
 24 | (24) `std::vector<FlipbookTextureDescription>` | flipbookItemTextureDescriptions
 48 | (8) `MinecraftGame *const` | __this
@@ -998,13 +998,13 @@ Offset | Type | Name
 
 ### `MinecraftGame::_updateTextureAtlasPBRData::__l17::<lambda_2065e32731376600173fb4ea1bcbb9b4>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `unsigned __int16 *` | colorMipCount
 
 
 ### `MinecraftGame::_updateTextureAtlasPBRData::__l17::<lambda_bc8cc4a5e9bcd28e4962e401584e810c>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::optional<unsigned short> *` | normalOrHeightMipCount
 8 | (8) `std::optional<glm::tvec2<float,0> > *` | normalOrHeightUVScale
 16 | (8) `std::optional<glm::tvec2<float,0> > *` | normalOrHeightUVBias
@@ -1013,7 +1013,7 @@ Offset | Type | Name
 
 ### `MinecraftGame::_updateTextureAtlasPBRData::__l17::<lambda_d00193f480816348f3992a08441a80fb>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::optional<unsigned short> *` | normalOrHeightMipCount
 8 | (8) `std::optional<glm::tvec2<float,0> > *` | normalOrHeightUVScale
 16 | (8) `std::optional<glm::tvec2<float,0> > *` | normalOrHeightUVBias
@@ -1022,7 +1022,7 @@ Offset | Type | Name
 
 ### `MinecraftGame::_updateTextureAtlasPBRData::__l17::<lambda_19a39ca30a9c1cb36d3b066a66e079bf>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::optional<unsigned short> *` | merMipCount
 8 | (8) `std::optional<glm::tvec2<float,0> > *` | merUVScale
 16 | (8) `std::optional<glm::tvec2<float,0> > *` | merUVBias
@@ -1030,7 +1030,7 @@ Offset | Type | Name
 
 ### `MinecraftGame::_updateTextureAtlasPBRData::__l17::<lambda_b383a9617f3dde04ca8205eadd764394>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `float *` | uniformMetalness
 8 | (8) `float *` | uniformEmissive
 16 | (8) `float *` | uniformRoughness
@@ -1038,29 +1038,29 @@ Offset | Type | Name
 
 ### `MinecraftGame::_updateTextureAtlasPBRData::__l17::<lambda_7354503bf8e6830a096570bb83fb0ea9>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `MinecraftGame::_updateTextureAtlasPBRData::__l17::<lambda_de38cdb3b974332c0bb3c504ceb15d8d>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `mce::ServerTexture`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `mce::ServerResourcePointer<mce::ResourcePointer<std::variant<std::monostate,mce::Texture,dragon::res::ClientTexture>,mce::ResourceBlockTemplate<std::variant<std::monostate,mce::Texture,dragon::res::ClientTexture>,mce::PerFrameHandleTracker,mce::ResourceServiceTextureDescription>,std::shared_ptr>,mce::AssertResourceServiceErrorHandler>` | baseclass_0
 
 
 ### `mce::ServerResourcePointer<mce::ResourcePointer<std::variant<std::monostate,mce::Texture,dragon::res::ClientTexture>,mce::ResourceBlockTemplate<std::variant<std::monostate,mce::Texture,dragon::res::ClientTexture>,mce::PerFrameHandleTracker,mce::ResourceServiceTextureDescription>,std::shared_ptr>,mce::AssertResourceServiceErrorHandler>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `mce::ResourcePointer<std::variant<std::monostate,mce::Texture,dragon::res::ClientTexture>,mce::ResourceBlockTemplate<std::variant<std::monostate,mce::Texture,dragon::res::ClientTexture>,mce::PerFrameHandleTracker,mce::ResourceServiceTextureDescription>,std::shared_ptr>` | baseclass_0
 
 
 ### `mce::TransactionContainer<mce::CreateTextureFromOwnedImageTransaction,mce::TextureResourceService,mce::ImmediateExecutionPolicy>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `mce::ITransactionContainer` | baseclass_0
 8 | (16) `std::weak_ptr<mce::ResourceBlockTemplate<std::variant<std::monostate,mce::Texture,dragon::res::ClientTexture>,mce::PerFrameHandleTracker,mce::ResourceServiceTextureDescription> >` | mResourceTransactionPointer
 24 | (64) `std::function<void __cdecl(mce::CreateTextureFromOwnedImageTransaction &)>` | mDeferredPayload
@@ -1070,46 +1070,46 @@ Offset | Type | Name
 
 ### `mce::ITransactionContainer`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `mce::ITransactionContainer_vtbl *` | __vftable
 
 
 ### `mce::ImmediateExecutionPolicy`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `mce::ResourceServiceTextureDescription`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (112) `mce::TextureDescription` | baseclass_0
 112 | (32) `std::string` | mDebugName
 
 
 ### `mce::CreateTextureFromOwnedImageTransaction::apply::__l2::<lambda_75f76d1e026dc098f5e48ab88226c4f6>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `mce::CreateTextureFromOwnedImageTransaction *const` | __this
 8 | (8) `mce::TextureResourceServiceContext *` | textureResourceServiceContext
 
 
 ### `mce::CommandList`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `mce::RenderContext *` | mContext
 8 | (56) `mce::CommandListState` | mCommandListState
 
 
 ### `mce::CommandListState`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (52) `mce::RenderTargetState` | baseclass_0
 52 | (1) `mce::PrimitiveMode` | mLastPrimitiveMode
 
 
 ### `mce::RenderTargetState`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `mce::RenderTargetState::StencilOverride` | highStencilBitsOverride
 4 | (32) `std::array<enum mce::TextureFormat,8>` | renderTargetFormat
 36 | (4) `mce::TextureFormat` | depthTextureFormat
@@ -1122,24 +1122,24 @@ Offset | Type | Name
 
 ### `mce::RenderTargetState::StencilOverride`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8` | _bf_0
 1 | (1) `bool` | enabled
 
 
 ### `mce::RingBuffer`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `mce::RingBufferBase`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `mce::TimeStep`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `const float` | mDeltaTime
 4 | (4) `const float` | mDeltaTimeSquared
 8 | (4) `float` | mAlpha
@@ -1150,19 +1150,19 @@ Offset | Type | Name
 
 ### `mce::ServerResourcePointer<mce::ResourcePointer<dragon::res::ResolvedTextureResource,mce::ResourceBlockTemplate<dragon::res::ResolvedTextureResource,mce::PerFrameHandleTracker,dragon::res::TextureDescription>,std::shared_ptr>,mce::AssertResourceServiceErrorHandler>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `mce::ResourcePointer<dragon::res::ResolvedTextureResource,mce::ResourceBlockTemplate<dragon::res::ResolvedTextureResource,mce::PerFrameHandleTracker,dragon::res::TextureDescription>,std::shared_ptr>` | baseclass_0
 
 
 ### `mce::ResourcePointer<dragon::res::ResolvedTextureResource,mce::ResourceBlockTemplate<dragon::res::ResolvedTextureResource,mce::PerFrameHandleTracker,dragon::res::TextureDescription>,std::shared_ptr>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<mce::ResourceBlockTemplate<dragon::res::ResolvedTextureResource,mce::PerFrameHandleTracker,dragon::res::TextureDescription> >` | mResourcePointerBlock
 
 
 ### `MinecraftScreenModel`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IDlcBatcher` | baseclass_0
 8 | (16) `std::enable_shared_from_this<MinecraftScreenModel>` | baseclass_8
 24 | (8) `IMinecraftGame *` | mMinecraft
@@ -1188,7 +1188,7 @@ Offset | Type | Name
 
 ### `MinecraftScreenController`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2328) `ScreenController` | baseclass_0
 2328 | (16) `std::enable_shared_from_this<MinecraftScreenController>` | baseclass_918
 2344 | (16) `std::shared_ptr<MinecraftScreenModel>` | mMinecraftScreenModel
@@ -1209,28 +1209,28 @@ Offset | Type | Name
 
 ### `MainMenuScreenController::attemptUserSignIn::__l12::<lambda_d4e7ee1c5adff1550b5041560b452410>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<MainMenuScreenController>` | weakThis
 16 | (64) `std::function<void __cdecl(void)>` | adHocCallback
 
 
 ### `MainMenuScreenController::showPickCustomSkinDialog::__l5::<lambda_a4e2bdb233233a02453894c9a17595b4>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<MainMenuScreenController>` | weakThis
 16 | (64) `std::function<void __cdecl(enum PickCustomSkinResult)>` | callback
 
 
 ### `MainMenuScreenController::confirmationNoCrossPlatformMultiplayerSkinDialog::__l2::<lambda_661d23eabc432e83ee91010b2c308115>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<MainMenuScreenController>` | weakThis
 16 | (64) `std::function<void __cdecl(void)>` | callback
 
 
 ### `MainMenuScreenController::_startLocalWorldSubRoutine::__l5::<lambda_94583f83035eb769c7fe01832ec0681a>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<MainMenuScreenController>` | weakThis
 16 | (568) `const LocalWorldInfo` | world
 584 | (88) `MainMenuScreenController::_startLocalWorldSubRoutine::__l2::<lambda_aed306b9ae45d40861000344cc5f6fdf>` | startWorldCallback
@@ -1238,7 +1238,7 @@ Offset | Type | Name
 
 ### `MainMenuScreenController::_startLocalWorldSubRoutine::__l2::<lambda_aed306b9ae45d40861000344cc5f6fdf>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<MainMenuScreenController>` | weakThis
 16 | (8) `DlcUIWrapper *` | dlcUIWrapper
 24 | (64) `std::function<void __cdecl(LocalWorldInfo const &)>` | startLocalWorldCallback
@@ -1246,7 +1246,7 @@ Offset | Type | Name
 
 ### `MainMenuScreenController::_startLocalWorldSubRoutine::__l2::<lambda_aed306b9ae45d40861000344cc5f6fdf>::()::__l5::<lambda_49a08e8269771801e54a0cc23500ee1e>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<MainMenuScreenController>` | weakThis
 16 | (568) `const LocalWorldInfo` | world
 584 | (64) `std::function<void __cdecl(LocalWorldInfo const &)>` | startLocalWorldCallback
@@ -1254,7 +1254,7 @@ Offset | Type | Name
 
 ### `MainMenuScreenController::_displayReportWorldModalDialog::__l2::<lambda_4cf5b46cca09918886a9bd92fd4cfbbc>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<MainMenuScreenController>` | weakThis
 16 | (608) `const LegacyWorldInfo` | worldInfo
 624 | (1) `bool` | conversionFailed
@@ -1263,7 +1263,7 @@ Offset | Type | Name
 
 ### `MainMenuScreenController::startRealm::__l27::<lambda_bab6cb3dcfe66620a1773603f0d0c82d>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<MainMenuScreenController>` | weakThis
 16 | (248) `Realms::World` | world
 264 | (16) `std::shared_ptr<bool>` | joinComplete
@@ -1273,7 +1273,7 @@ Offset | Type | Name
 
 ### `MainMenuScreenController::startRealm::__l27::<lambda_8a1dd54eeb6e3b69a1429d063ff02918>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<MainMenuScreenController>` | weakThis
 16 | (248) `Realms::World` | world
 264 | (4) `IMinecraftEventing::RealmConnectionFlow` | fromFlow
@@ -1282,7 +1282,7 @@ Offset | Type | Name
 
 ### `MainMenuScreenController::startRealm::__l27::<lambda_14455c4014649d238c7e6a0cced5b49a>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<MainMenuScreenController>` | weakThis
 16 | (248) `Realms::World` | world
 264 | (4) `IMinecraftEventing::RealmConnectionFlow` | fromFlow
@@ -1295,7 +1295,7 @@ Offset | Type | Name
 
 ### `MainMenuScreenController::startRealm::__l27::<lambda_d05dfcd461241f102785287ff09185fa>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<MainMenuScreenController>` | weakThis
 16 | (16) `std::shared_ptr<bool>` | joinComplete
 32 | (4) `IMinecraftEventing::RealmConnectionFlow` | fromFlow
@@ -1304,14 +1304,14 @@ Offset | Type | Name
 
 ### `MainMenuScreenController::startRealm::__l27::<lambda_bab1efb03fdb6b4d13239fdb2a028e22>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<MainMenuScreenController>` | weakThis
 16 | (4) `IMinecraftEventing::RealmConnectionFlow` | fromFlow
 
 
 ### `MainMenuScreenController::startRealm::__l27::<lambda_69253f24756a895374ae9fbbc561a7ca>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<MainMenuScreenController>` | weakThis
 16 | (248) `Realms::World` | world
 264 | (4) `IMinecraftEventing::RealmConnectionFlow` | fromFlow
@@ -1322,20 +1322,20 @@ Offset | Type | Name
 
 ### `MainMenuScreenController::startRealm::__l27::<lambda_d05dfcd461241f102785287ff09185fa>::()::__l5::<lambda_f2297fd6cdff54fc728f1b9b6ff42190>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::function<void __cdecl(enum IMinecraftEventing::RealmConnectionResult)>` | callback
 64 | (4) `IMinecraftEventing::RealmConnectionResult` | result
 
 
 ### `MainMenuScreenController::startRealm::__l27::<lambda_14455c4014649d238c7e6a0cced5b49a>::()::__l8::<lambda_e0fa9b20346e881a4c77a1c989abe7e5>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::function<void __cdecl(enum IMinecraftEventing::RealmConnectionResult)>` | callback
 
 
 ### `MinecoinPurchaseDetails`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | foundPayload
 8 | (32) `std::string` | productSku
 40 | (32) `std::string` | originalXuid
@@ -1344,25 +1344,25 @@ Offset | Type | Name
 
 ### `MinecraftScreenController::_displayStandardModalPopup::__l2::<lambda_9df9b5978eca9995e58eed112de41c4a>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::function<void __cdecl(bool)>` | callback
 
 
 ### `MinecraftScreenController::setUpCallbacksForStackPanelGrid::__l2::<lambda_06d43f22d6c9f224142b6f47060d20ba>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::function<int __cdecl(void)>` | heightCallback
 
 
 ### `MinecraftScreenController::setUpCallbacksForFloatOption::__l5::<lambda_1432e15f7f202e95ad119dc38ce704bb>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::function<bool __cdecl(void)>` | isEnabled
 
 
 ### `MinecraftScreenController::setUpCallbacksForFloatOption::__l2::<lambda_a48d5a543a5e933dc9b2ff12cdf16317>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::function<float __cdecl(void)>` | getValue
 64 | (64) `std::function<void __cdecl(float)>` | setValue
 128 | (64) `std::function<float __cdecl(void)>` | getMin
@@ -1372,13 +1372,13 @@ Offset | Type | Name
 
 ### `MinecraftScreenController::setUpCallbacksForStepOption::__l5::<lambda_5e84b88f7dd95cdbcc340efebd78c9f6>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::function<bool __cdecl(void)>` | isEnabled
 
 
 ### `MinecraftScreenController::setUpCallbacksForStepOption::__l2::<lambda_d5331ec696dfdb985a5c5d1bf63ac924>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::function<std::vector<int> __cdecl(void)>` | getValues
 64 | (64) `std::function<int __cdecl(void)>` | getValue
 128 | (32) `const std::string` | valueBindingName
@@ -1388,21 +1388,21 @@ Offset | Type | Name
 
 ### `MinecraftScreenController::gateOnPlatformSignInForStoreAccess::__l8::<lambda_7931a47f7f18e525bc6af9c6166f89bb>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<MinecraftScreenController>` | weakThis
 16 | (64) `std::function<void __cdecl(void)>` | callback
 
 
 ### `MinecraftScreenController::promptConnect::__l11::<lambda_721b7bf62beaa7d2b5bb96f84d98bbd1>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<MinecraftScreenController>` | weakThis
 16 | (64) `std::function<void __cdecl(enum Social::UserPlatformConnectionResult)>` | signInCallback
 
 
 ### `MinecraftScreenController::_attemptSignIn::__l10::<lambda_d4b4d05ce3108da8c444f53df4362090>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<MinecraftScreenController>` | weakThis
 16 | (64) `std::function<void __cdecl(enum Social::SignInResult)>` | onResultCallback
 80 | (64) `std::function<void __cdecl(enum Social::SignInResult)>` | onPostFailCallback
@@ -1410,14 +1410,14 @@ Offset | Type | Name
 
 ### `MinecraftScreenController::_attemptConnect::__l2::<lambda_7a2dc6183b6fd73d19ad9fa528c3fe95>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<MinecraftScreenController>` | weakThis
 16 | (64) `std::function<void __cdecl(enum Social::UserPlatformConnectionResult)>` | callback
 
 
 ### `MinecraftScreenController::showPlayerProfile::__l5::<lambda_39aeb780af1cb1ba7606733638b96c5a>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<MinecraftScreenController>` | weakThis
 16 | (32) `const std::string` | xuid
 48 | (16) `mce::UUID` | uuid
@@ -1426,14 +1426,14 @@ Offset | Type | Name
 
 ### `MinecraftScreenController::exportPDF::__l13::<lambda_998f8d95f0c81e284ea8a93c630abe92>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::function<void __cdecl(bool)>` | onComplete
 64 | (16) `std::weak_ptr<MinecraftScreenController>` | weakThis
 
 
 ### `MainMenuScreenController`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2648) `MinecraftScreenController` | baseclass_0
 2648 | (16) `std::shared_ptr<MainMenuScreenModel>` | mMainMenuScreenModel
 2664 | (8) `std::unique_ptr<AsyncTracker>` | mAsyncTracker
@@ -1441,20 +1441,20 @@ Offset | Type | Name
 
 ### `MainMenuScreenModel::getToastFetcher::__l5::<lambda_8bc558fac96bf55cc3cb9ceb59f46c82>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `MainMenuScreenModel *const` | __this
 
 
 ### `MainMenuScreenModel::fetchNewStoreOfferContent::__l2::<lambda_c82750803de2756be39f425956566c06>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<MainMenuScreenModel>` | weakModel
 16 | (64) `std::function<void __cdecl(bool)>` | callback
 
 
 ### `MouseAction`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `__int16` | x
 2 | (2) `__int16` | y
 4 | (2) `__int16` | _dx
@@ -1467,7 +1467,7 @@ Offset | Type | Name
 
 ### `MainMenuScreenModel::instantiateTemplate::__l2::<lambda_f64d5ea1600bb3d2b2eef0a6c9730723>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<MainMenuScreenModel>` | weakThis
 16 | (32) `const Core::PathBuffer<std::string >` | newWorldDir
 48 | (32) `const std::string` | levelName
@@ -1483,7 +1483,7 @@ Offset | Type | Name
 
 ### `MainMenuScreenModel::instantiateTemplate::__l5::<lambda_2ec67d84188917943a8c48c18686d72c>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `MainMenuScreenModel *const` | __this
 8 | (32) `const Core::PathBuffer<std::string >` | newWorldDir
 40 | (24) `const ContentIdentity` | templateContentIdentity
@@ -1492,7 +1492,7 @@ Offset | Type | Name
 
 ### `MainMenuScreenModel::instantiateTemplate::__l2::<lambda_a1c74e951defb296eb47726f29c7afc8>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<MainMenuScreenModel>` | weakThis
 16 | (32) `const Core::PathBuffer<std::string >` | newWorldDir
 48 | (16) `std::shared_ptr<enum InstantiationResult>` | successTracker
@@ -1500,14 +1500,14 @@ Offset | Type | Name
 
 ### `MainMenuScreenModel::instantiateTemplate::__l2::<lambda_f19f7e8990b7db427d93a9295b1cf01f>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<enum InstantiationResult>` | successTracker
 16 | (440) `MainMenuScreenModel::instantiateTemplate::__l2::<lambda_f64d5ea1600bb3d2b2eef0a6c9730723>` | finalizeLevel
 
 
 ### `MainMenuScreenModel::navigateToFeaturedWorld::__l8::<lambda_377a05a3b8b6c737b072b8d7001def04>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<MainMenuScreenModel>` | weakThis
 16 | (16) `std::shared_ptr<std::shared_ptr<LibraryItem> >` | itemTracker
 32 | (32) `std::string` | worldId
@@ -1515,13 +1515,13 @@ Offset | Type | Name
 
 ### `MainMenuScreenModel::getStoreSalesTreatmentQuery::__l2::<lambda_bbaddeb19d2191f22b88b3b436951d98>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<MainMenuScreenModel>` | weakModel
 
 
 ### `MinecoinModel`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `MinecoinModel_vtbl *` | __vftable
 8 | (8) `Offer *` | mMinecoinOffer
 16 | (32) `std::string` | mProductId
@@ -1532,7 +1532,7 @@ Offset | Type | Name
 
 ### `MinecoinCatalogModel::fetchAndHydrate::__l2::<lambda_572de4bfa096cecd80e1e589d96c29d2>::()::__l15::<lambda_d395113aa232aadd9b41637a270f3051>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `MinecoinCatalogModel *const` | __this
 8 | (72) `HydrateParams` | params
 80 | (16) `std::weak_ptr<bool>` | weakTracker
@@ -1543,7 +1543,7 @@ Offset | Type | Name
 
 ### `MinecoinCatalogModel::fetchAndHydrate::__l2::<lambda_572de4bfa096cecd80e1e589d96c29d2>::()::__l15::<lambda_d395113aa232aadd9b41637a270f3051>::()::__l2::<lambda_e2fb793f22a037e39d281ac27856873a>::()::__l5::<lambda_7136880f20aafaa0e36e2b033512eec6>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `MinecoinCatalogModel *const` | __this
 8 | (16) `std::weak_ptr<bool>` | weakTracker
 24 | (32) `const std::string` | productId
@@ -1552,7 +1552,7 @@ Offset | Type | Name
 
 ### `MinecoinCatalogModel::fetchAndHydrate::__l2::<lambda_572de4bfa096cecd80e1e589d96c29d2>::()::__l15::<lambda_d395113aa232aadd9b41637a270f3051>::()::__l2::<lambda_e2fb793f22a037e39d281ac27856873a>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `MinecoinCatalogModel *const` | __this
 8 | (16) `std::weak_ptr<bool>` | weakTracker
 24 | (32) `const std::string` | productId
@@ -1563,7 +1563,7 @@ Offset | Type | Name
 
 ### `MinecraftScreenModel::navigateToOptionsScreen::__l2::<lambda_b90aae995a782c216c4c5f83ec086536>::()::__l5::<lambda_d0f5a644821eaf4d71be4f865ab0164d>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<MinecraftScreenModel>` | weakThis
 16 | (384) `LevelSummary` | levelSummary
 400 | (4) `SettingsTabIndex` | startingTabIndex
@@ -1573,7 +1573,7 @@ Offset | Type | Name
 
 ### `MinecraftScreenModel::_startLocalServerAsync::__l2::<lambda_6f9cde69521b7bb16bbc43429e7f65bf>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | hasRun
 8 | (16) `std::weak_ptr<MinecraftScreenModel>` | weakThis
 24 | (32) `std::string` | levelId
@@ -1584,7 +1584,7 @@ Offset | Type | Name
 
 ### `MinecraftScreenModel::generateFilePickerSettingsForExport::__l2::<lambda_f0261e3cb677b2caffbab08177b976be>::()::__l5::<lambda_a11fb195ffbab16b56df4de83a818d04>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `MinecraftScreenModel *const` | __this
 8 | (1096) `MinecraftScreenModel::generateFilePickerSettingsForExport::__l2::<lambda_f0261e3cb677b2caffbab08177b976be>::()::__l2::<lambda_c8dac7c0f833e525c0b191b85ab07bca>` | exportWorldFnc
 1104 | (16) `std::shared_ptr<FilePickerSettings>` | settings
@@ -1592,7 +1592,7 @@ Offset | Type | Name
 
 ### `MinecraftScreenModel::generateFilePickerSettingsForExport::__l2::<lambda_f0261e3cb677b2caffbab08177b976be>::()::__l2::<lambda_c8dac7c0f833e525c0b191b85ab07bca>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `MinecraftScreenModel *const` | __this
 8 | (32) `const std::string` | levelId
 40 | (1040) `Core::PathBuffer<Core::StackString<char,1024> >` | fileStackPath
@@ -1601,7 +1601,7 @@ Offset | Type | Name
 
 ### `MinecraftScreenModel::generateFilePickerSettingsForExport::__l2::<lambda_f0261e3cb677b2caffbab08177b976be>::()::__l2::<lambda_c8dac7c0f833e525c0b191b85ab07bca>::()::__l2::<lambda_e6f65051d3acc2c4ce6d89d9942f7127>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `MinecraftScreenModel *const` | __this
 8 | (16) `std::shared_ptr<FilePickerSettings>` | settings
 24 | (1040) `Core::PathBuffer<Core::StackString<char,1024> >` | completeFilePath
@@ -1609,14 +1609,14 @@ Offset | Type | Name
 
 ### `MinecraftScreenModel::_processWorldTemplate::__l13::<lambda_1524be1dfdf8a4ddc334d761b12f8da5>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::function<void __cdecl(bool)>` | callback
 64 | (16) `std::shared_ptr<LevelStorage>` | levelStorage
 
 
 ### `MinecraftScreenModel::_processWorldTemplate::__l2::<lambda_2a72f72cc8199a6a7f602d41ca233968>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `MinecraftScreenModel *const` | __this
 8 | (64) `std::function<void __cdecl(bool)>` | callback
 72 | (16) `std::shared_ptr<LevelStorage>` | levelStorage
@@ -1624,14 +1624,14 @@ Offset | Type | Name
 
 ### `MinecraftScreenModel::_processWorldTemplate::__l2::<lambda_2a72f72cc8199a6a7f602d41ca233968>::()::__l2::<lambda_ce75ffb60a5a14b2e3a42d89692a19b5>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::function<void __cdecl(bool)>` | callback
 64 | (16) `std::shared_ptr<LevelStorage>` | levelStorage
 
 
 ### `MinecraftScreenModel::connectToPlatformNetwork::__l2::<lambda_ae8223ad44e307d3b7f2b9a57f7e85d9>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<MinecraftScreenModel>` | weakThis
 16 | (8) `IMinecraftGame *` | minecraftGame
 24 | (64) `std::function<void __cdecl(enum Social::UserPlatformConnectionResult)>` | callback
@@ -1641,14 +1641,14 @@ Offset | Type | Name
 
 ### `MinecraftScreenModel::pickCustomSkin::__l2::<lambda_d332418f10b6aacb37321b48d4d75356>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::function<void __cdecl(enum PickCustomSkinResult)>` | callback
 64 | (8) `IClientInstance *` | client
 
 
 ### `MinecraftScreenModel::getThirdPartyDisplayPicture::__l2::<lambda_75b7f6c4734f15d209ecc133d2254e94>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<MinecraftScreenModel>` | weakThis
 16 | (32) `const std::string` | playerId
 48 | (1) `bool` | isLocal
@@ -1658,7 +1658,7 @@ Offset | Type | Name
 
 ### `MinecraftScreenModel::getThirdPartyDisplayPicture::__l2::<lambda_75b7f6c4734f15d209ecc133d2254e94>::()::__l2::<lambda_0114feb4e94d7cd6ef629f8df0572acc>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (56) `const ResourceLocation` | path
 56 | (16) `std::weak_ptr<MinecraftScreenModel>` | weakThis
 72 | (64) `std::function<void __cdecl(Core::Path const &)>` | callback
@@ -1666,7 +1666,7 @@ Offset | Type | Name
 
 ### `MinecraftScreenModel::_savePDF::__l2::<lambda_8d03e2209190b5e8be1a5f874ceb7bb1>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (88) `PDFOptions` | options
 88 | (16) `std::shared_ptr<PDFWriter>` | pdfWriter
 104 | (16) `std::weak_ptr<MinecraftScreenModel>` | weakModel
@@ -1675,7 +1675,7 @@ Offset | Type | Name
 
 ### `MinecraftScreenModel::generateFilePickerSettingsForExport::__l2::<lambda_f0261e3cb677b2caffbab08177b976be>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `MinecraftScreenModel *const` | __this
 8 | (32) `const std::string` | levelId
 40 | (32) `const std::string` | levelName
@@ -1684,14 +1684,14 @@ Offset | Type | Name
 
 ### `MinecraftScreenModel::generateFilePickerSettingsForPDF::__l2::<lambda_c897a00c9a03376a9c9b4864affeee51>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `MinecraftScreenModel *const` | __this
 8 | (88) `PDFOptions` | options
 
 
 ### `MinecraftUIRenderContext`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `UIRenderContext` | baseclass_0
 8 | (8) `IClientInstance *` | mClient
 16 | (8) `ScreenContext *` | mScreenContext
@@ -1713,14 +1713,14 @@ Offset | Type | Name
 
 ### `MinecraftUIMeasureStrategy`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `UIMeasureStrategy` | baseclass_0
 8 | (8) `const UIProfanityContext *` | mUIProfanityContext
 
 
 ### `MinecraftInputRenderContext`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `InputRenderContext` | baseclass_0
 8 | (16) `mce::Color` | mCurrentColor
 24 | (48) `FontHandle` | mFontHandle
@@ -1732,13 +1732,13 @@ Offset | Type | Name
 
 ### `MinecraftInputHandler::init::__l14::<lambda_ac238c1b3b5ae4fbed6d6c179fe617ef>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `MinecraftInputHandler *const` | __this
 
 
 ### `ModelPart`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (48) `HashedString` | mName
 48 | (12) `Vec3` | mPos
 60 | (12) `Vec3` | mOffset
@@ -1774,7 +1774,7 @@ Offset | Type | Name
 
 ### `MusicCommand::CommandData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `MusicCommand::Action` | mAction
 8 | (32) `std::string` | mTrackName
 40 | (4) `float` | mVolume
@@ -1784,7 +1784,7 @@ Offset | Type | Name
 
 ### `MoveActorAbsoluteData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ActorRuntimeID` | mRuntimeId
 8 | (1) `MoveActorAbsoluteData::Header` | mHeader
 12 | (12) `Vec3` | mPos
@@ -1795,14 +1795,14 @@ Offset | Type | Name
 
 ### `MoveActorAbsoluteData::Header`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `unsigned __int8` | mRaw
 1 | (1) `$47A40755A56C6625356F14B823F76499` | __s1
 
 
 ### `mce::GraphicsDeviceInformation`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (80) `mce::GraphicsAdapterDescription` | mAdapterDescription
 80 | (32) `std::string` | mChipsetVendorName
 112 | (32) `std::string` | mGraphicsVersion
@@ -1815,7 +1815,7 @@ Offset | Type | Name
 
 ### `mce::GraphicsAdapterDescription`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | mDescription
 32 | (4) `unsigned int` | mVendorId
 36 | (4) `unsigned int` | mDeviceId
@@ -1829,30 +1829,30 @@ Offset | Type | Name
 
 ### `MatrixStack::MatrixStackRef`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `MatrixStack *` | stack
 8 | (8) `Matrix *` | mat
 
 
 ### `MobRenderer::getClientTextureFromActorTextureVariant::__l2::ActorVariantVisitor`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `MovePriorityQueue<std::shared_ptr<BackgroundTaskBase>,BackgroundTaskBase::PendingComparer>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<std::shared_ptr<BackgroundTaskBase>>` | mC
 
 
 ### `mcr::MigrationTextureBinding`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `mce::FrameBufferAttachmentDescription`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (112) `mce::TextureDescription` | baseclass_0
 112 | (4) `mce::FrameBufferAttachmentType` | mFrameBufferAttachmentType
 116 | (1) `bool` | mAutomaticLatentResolve
@@ -1860,7 +1860,7 @@ Offset | Type | Name
 
 ### `mce::framebuilder::RenderItemInHandDescription`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const mce::Mesh *` | mMesh
 8 | (16) `const dragon::res::ServerTexture` | mTexture
 24 | (16) `const dragon::res::ServerTexture` | mGlintTexture
@@ -1885,7 +1885,7 @@ Offset | Type | Name
 
 ### `mce::framebuilder::FogDescription`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `glm::tvec4<float,0>` | mColor
 16 | (8) `glm::tvec2<float,0>` | mControl
 24 | (4) `float` | mRenderDistance
@@ -1893,7 +1893,7 @@ Offset | Type | Name
 
 ### `mce::ViewportInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `glm::tvec2<float,0>` | size
 8 | (8) `glm::tvec2<float,0>` | offset
 16 | (4) `float` | minDepth
@@ -1902,7 +1902,7 @@ Offset | Type | Name
 
 ### `MutableGraphicsFrame`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<MutableGraphicsFrame::Lifetime>` | mLifetime
 16 | (32) `ServiceReference<mce::framebuilder::FrameBuilder>` | mFrameBuilder
 48 | (40) `mce::framebuilder::FrameConfiguration` | mCurrentConfiguration
@@ -1910,7 +1910,7 @@ Offset | Type | Name
 
 ### `mce::framebuilder::FrameConfiguration`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<mce::framebuilder::FrameConfiguration::View>` | mViews
 24 | (1) `bool` | mIsRayTracingEnabled
 32 | (8) `cg::ImageBuffer *` | mTargetImage
@@ -1918,7 +1918,7 @@ Offset | Type | Name
 
 ### `mce::framebuilder::RenderAtmosphereDescription`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | mDimensionIdx
 4 | (4) `float` | mFogMaxDensity
 8 | (4) `float` | mFogMaxDensityHeight
@@ -1941,7 +1941,7 @@ Offset | Type | Name
 
 ### `mce::framebuilder::BlitFlipbookSingleTextureDescription`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const mce::Mesh *` | mMesh
 8 | (16) `const dragon::res::ServerTexture` | mBlitTexture
 24 | (4) `float` | mVBlendFrom
@@ -1953,7 +1953,7 @@ Offset | Type | Name
 
 ### `mce::framebuilder::RenderWeatherDescription`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const mce::Mesh *` | mMesh
 8 | (4) `unsigned int` | mIndexOffset
 12 | (4) `unsigned int` | mIndexCount
@@ -1975,33 +1975,33 @@ Offset | Type | Name
 
 ### `mce::SimpleDeferredResourceTracker<std::shared_ptr<mce::ResourceBlockTemplate<dragon::res::ResolvedTextureResource,mce::PerFrameHandleTracker,dragon::res::TextureDescription> >,std::weak_ptr<mce::ResourceBlockTemplate<dragon::res::ResolvedTextureResource,mce::PerFrameHandleTracker,dragon::res::TextureDescription> > >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<std::pair<std::weak_ptr<mce::ResourceBlockTemplate<dragon::res::ResolvedTextureResource,mce::PerFrameHandleTracker,dragon::res::TextureDescription> >,std::unique_ptr<mce::ITransactionContainer> >>` | mPendingTransactionHandles
 
 
 ### `mce::FlushedTransactions`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `unsigned __int64` | mCount
 8 | (24) `std::vector<std::unique_ptr<mce::IDeferredDebugUpdate>>` | mDeferredDebugUpdates
 
 
 ### `mce::Buffer`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `mce::BufferNull` | baseclass_0
 
 
 ### `mce::BufferNull`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (20) `mce::BufferBase` | baseclass_0
 24 | (8) `unsigned __int64` | mDataSize
 
 
 ### `mce::BufferBase`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `mce::BufferType` | mBufferType
 4 | (4) `unsigned int` | mStride
 8 | (4) `unsigned int` | mCount
@@ -2011,36 +2011,36 @@ Offset | Type | Name
 
 ### `mce::ResourceBase<mce::BufferNull>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `mce::ClientResourcePointer<mce::ResourcePointer<dragon::mesh::ResolvedVertexBufferResource,mce::ResourceBlockTemplate<dragon::mesh::ResolvedVertexBufferResource,mce::UncheckedHandleTracker,dragon::BufferDescription>,std::shared_ptr> >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `mce::ResourcePointer<dragon::mesh::ResolvedVertexBufferResource,mce::ResourceBlockTemplate<dragon::mesh::ResolvedVertexBufferResource,mce::UncheckedHandleTracker,dragon::BufferDescription>,std::shared_ptr>` | baseclass_0
 
 
 ### `mce::ResourcePointer<dragon::mesh::ResolvedVertexBufferResource,mce::ResourceBlockTemplate<dragon::mesh::ResolvedVertexBufferResource,mce::UncheckedHandleTracker,dragon::BufferDescription>,std::shared_ptr>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<mce::ResourceBlockTemplate<dragon::mesh::ResolvedVertexBufferResource,mce::UncheckedHandleTracker,dragon::BufferDescription> >` | mResourcePointerBlock
 
 
 ### `mce::ClientResourcePointer<mce::ResourcePointer<dragon::mesh::ResolvedIndexBufferResource,mce::ResourceBlockTemplate<dragon::mesh::ResolvedIndexBufferResource,mce::UncheckedHandleTracker,dragon::BufferDescription>,std::shared_ptr> >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `mce::ResourcePointer<dragon::mesh::ResolvedIndexBufferResource,mce::ResourceBlockTemplate<dragon::mesh::ResolvedIndexBufferResource,mce::UncheckedHandleTracker,dragon::BufferDescription>,std::shared_ptr>` | baseclass_0
 
 
 ### `mce::ResourcePointer<dragon::mesh::ResolvedIndexBufferResource,mce::ResourceBlockTemplate<dragon::mesh::ResolvedIndexBufferResource,mce::UncheckedHandleTracker,dragon::BufferDescription>,std::shared_ptr>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<mce::ResourceBlockTemplate<dragon::mesh::ResolvedIndexBufferResource,mce::UncheckedHandleTracker,dragon::BufferDescription> >` | mResourcePointerBlock
 
 
 ### `mce::Texture`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (120) `mce::TextureNull` | baseclass_0
 120 | (16) `std::shared_ptr<mce::DragonLifetime>` | mDragonTextureLifetime
 136 | (16) `std::optional<unsigned __int64>` | mRenderDragonTexture
@@ -2048,13 +2048,13 @@ Offset | Type | Name
 
 ### `mce::TextureNull`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (120) `mce::TextureBase` | baseclass_0
 
 
 ### `mce::TextureBase`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (112) `mce::TextureDescription` | textureDescription
 112 | (1) `bool` | created
 113 | (1) `bool` | mOwnsResource
@@ -2062,18 +2062,18 @@ Offset | Type | Name
 
 ### `mce::ResourceBase<mce::TextureNull>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `mce::ClientResourcePointer<mce::ResourcePointer<dragon::res::ResolvedTextureResource,mce::ResourceBlockTemplate<dragon::res::ResolvedTextureResource,mce::PerFrameHandleTracker,dragon::res::TextureDescription>,std::shared_ptr> >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `mce::ResourcePointer<dragon::res::ResolvedTextureResource,mce::ResourceBlockTemplate<dragon::res::ResolvedTextureResource,mce::PerFrameHandleTracker,dragon::res::TextureDescription>,std::shared_ptr>` | baseclass_0
 
 
 ### `mce::TransactionContainer<mce::CreateTextureTransaction,mce::TextureResourceService,mce::ImmediateExecutionPolicy>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `mce::ITransactionContainer` | baseclass_0
 8 | (16) `std::weak_ptr<mce::ResourceBlockTemplate<std::variant<std::monostate,mce::Texture,dragon::res::ClientTexture>,mce::PerFrameHandleTracker,mce::ResourceServiceTextureDescription> >` | mResourceTransactionPointer
 24 | (64) `std::function<void __cdecl(mce::CreateTextureTransaction &)>` | mDeferredPayload
@@ -2083,14 +2083,14 @@ Offset | Type | Name
 
 ### `mce::CreateTextureTransaction`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (112) `mce::TextureDescription` | mTextureDescription
 112 | (16) `gsl::basic_string_span<char const ,-1>` | mDebugName
 
 
 ### `mce::TransactionContainer<mce::CreateImmediateBufferTransaction,mce::ImmediateBufferResourceService,mce::ImmediateExecutionPolicy>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `mce::ITransactionContainer` | baseclass_0
 8 | (16) `std::weak_ptr<mce::ResourceBlockTemplate<mce::ImmediateBuffer,mce::PerFrameHandleTracker,dragon::BufferDescription> >` | mResourceTransactionPointer
 24 | (64) `std::function<void __cdecl(mce::CreateImmediateBufferTransaction &)>` | mDeferredPayload
@@ -2100,7 +2100,7 @@ Offset | Type | Name
 
 ### `mce::CreateImmediateBufferTransaction`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `cg::BufferSpan` | mBufferSpan
 16 | (1) `mce::BufferType` | mBufferType
 24 | (16) `gsl::basic_string_span<char const ,-1>` | mDebugName
@@ -2108,7 +2108,7 @@ Offset | Type | Name
 
 ### `mce::RenderMaterial`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (448) `cg::RenderMaterialBase` | baseclass_0
 448 | (16) `std::optional<unsigned __int64>` | mCacheKey
 464 | (8) `mce::SamplerGroupCache *` | mSamplerGroupCache
@@ -2136,30 +2136,30 @@ Offset | Type | Name
 
 ### `mce::StencilRefObject`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `_BYTE` | gap0
 
 
 ### `mce::ResourceBase<mce::StencilRefObjectNull>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `mce::SamplerStateGroup`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (228) `mce::SamplerStateGroupNull` | baseclass_0
 
 
 ### `mce::SamplerStateGroupNull`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (228) `mce::SamplerStateGroupBase` | baseclass_0
 
 
 ### `mce::SamplerStateGroupBase`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (128) `mce::SamplerState[8]` | mSamplerStates
 128 | (96) `mce::SamplerStateDescription[8]` | mSamplerStateDescriptions
 224 | (2) `unsigned __int16` | mSamplerCount
@@ -2167,26 +2167,26 @@ Offset | Type | Name
 
 ### `mce::SamplerState`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `mce::SamplerStateNull` | baseclass_0
 
 
 ### `mce::SamplerStateNull`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `mce::SamplerStateBase` | baseclass_0
 
 
 ### `mce::SamplerStateBase`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (12) `mce::SamplerStateDescription` | mSamplerStateDescription
 12 | (2) `unsigned __int16` | mSamplerIndex
 
 
 ### `mce::SamplerStateDescription`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `mce::TextureFiltering` | textureFilter
 1 | (3) `mce::TextureWrappingDescription` | textureWrappingDescription
 4 | (4) `unsigned int` | shaderStagesBits
@@ -2196,17 +2196,17 @@ Offset | Type | Name
 
 ### `mce::ResourceBase<mce::SamplerStateNull>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `mce::ResourceBase<mce::SamplerStateGroupNull>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `mce::BlendStateDescription`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `_BYTE[1]` | blendSource
 1 | (1) `_BYTE[1]` | blendDestination
 2 | (1) `_BYTE[1]` | alphaSource
@@ -2218,7 +2218,7 @@ Offset | Type | Name
 
 ### `mce::DepthStencilStateDescription`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | depthTestEnabled
 1 | (1) `bool` | stencilTestEnabled
 2 | (1) `_BYTE[1]` | depthFunc
@@ -2234,7 +2234,7 @@ Offset | Type | Name
 
 ### `mce::StencilFaceDescription`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `_BYTE[1]` | stencilFunc
 1 | (1) `mce::StencilOp` | stencilDepthFailOp
 2 | (1) `mce::StencilOp` | stencilPassOp
@@ -2243,7 +2243,7 @@ Offset | Type | Name
 
 ### `mce::RasterizerStateDescription`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float` | depthBias
 4 | (4) `float` | slopeScaledDepthBias
 8 | (1) `mce::CullMode` | cullMode
@@ -2252,7 +2252,7 @@ Offset | Type | Name
 
 ### `mce::TextureGroup::loadTextureSetAsync::__l2::<lambda_a38e5105e4d5277da6834ce3f755e58e>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `mce::TextureGroup *const` | __this
 8 | (16) `std::shared_ptr<`mce::TextureGroup::loadTextureSetAsync'::`2'::TextureSetDefinitionHolder>` | asyncTextureSetHolder
 24 | (64) `const std::pair<ResourceLocation,enum TextureLoadMode>` | textureQueueKey
@@ -2262,14 +2262,14 @@ Offset | Type | Name
 
 ### `mce::PendingTexture`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `gsl::not_null<enum TextureLoadState *>` | mTextureLoadState
 8 | (4) `TextureLoadMode` | mTextureLoadMode
 
 
 ### `mce::TextureGroup::loadTextureSetAsync::__l2::<lambda_1b0dc13e9546238bebba0e3929a83843>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `mce::TextureGroup *const` | __this
 8 | (16) `std::shared_ptr<`mce::TextureGroup::loadTextureSetAsync'::`2'::TextureSetDefinitionHolder>` | asyncTextureSetHolder
 24 | (64) `const std::pair<ResourceLocation,enum TextureLoadMode>` | textureQueueKey
@@ -2279,7 +2279,7 @@ Offset | Type | Name
 
 ### `MinecoinTransactionHandler::transactFulfillment::__l2::<lambda_0c66dafc28dfff5f9d4507cf911e69c4>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `MinecoinTransactionHandler *const` | __this
 8 | (8) `Offer *` | offer
 16 | (16) `std::shared_ptr<Purchase>` | purchase
@@ -2289,7 +2289,7 @@ Offset | Type | Name
 
 ### `mce::ShaderConstantBase`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `mce::ShaderConstantBase_vtbl *` | __vftable
 8 | (32) `std::string` | name
 40 | (4) `unsigned int` | numberOfElements
@@ -2300,19 +2300,19 @@ Offset | Type | Name
 
 ### `mce::ServerResourcePointer<mce::ResourcePointer<dragon::mesh::ResolvedVertexBufferResource,mce::ResourceBlockTemplate<dragon::mesh::ResolvedVertexBufferResource,mce::UncheckedHandleTracker,dragon::BufferDescription>,std::shared_ptr>,mce::AssertResourceServiceErrorHandler>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `mce::ResourcePointer<dragon::mesh::ResolvedVertexBufferResource,mce::ResourceBlockTemplate<dragon::mesh::ResolvedVertexBufferResource,mce::UncheckedHandleTracker,dragon::BufferDescription>,std::shared_ptr>` | baseclass_0
 
 
 ### `mce::ServerResourcePointer<mce::ResourcePointer<dragon::mesh::ResolvedIndexBufferResource,mce::ResourceBlockTemplate<dragon::mesh::ResolvedIndexBufferResource,mce::UncheckedHandleTracker,dragon::BufferDescription>,std::shared_ptr>,mce::AssertResourceServiceErrorHandler>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `mce::ResourcePointer<dragon::mesh::ResolvedIndexBufferResource,mce::ResourceBlockTemplate<dragon::mesh::ResolvedIndexBufferResource,mce::UncheckedHandleTracker,dragon::BufferDescription>,std::shared_ptr>` | baseclass_0
 
 
 ### `mce::framebuilder::bgfxbridge::RayTraceableMeshKey`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const __int64` | mMeshGroupId
 8 | (2) `const unsigned __int16` | mSubSpanId
 16 | (8) `const mce::Mesh *const` | mMeshPtr
@@ -2320,7 +2320,7 @@ Offset | Type | Name
 
 ### `mce::framebuilder::bgfxbridge::rtxutils::tryGetRayTraceableMesh::__l2::<lambda_4b615ff85ae31d212785fad20d849080>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const mce::Mesh *` | staticMesh
 8 | (8) `const mce::framebuilder::bgfxbridge::EntityCreationContext *` | entityContext
 16 | (8) `dragon::rendering::BgfxPrimitiveIndexBuffer *` | quadIndexBuffer
@@ -2328,58 +2328,58 @@ Offset | Type | Name
 
 ### `mce::framebuilder::bgfxbridge::RayTraceableMeshMetadata`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `mce::ServerResourcePointer<mce::ResourcePointer<dragon::mesh::ResolvedAccelerationStructureResource,mce::ResourceBlockTemplate<dragon::mesh::ResolvedAccelerationStructureResource,mce::UncheckedHandleTracker,dragon::BufferDescription>,std::shared_ptr>,mce::AssertResourceServiceErrorHandler>` | mAccelerationStructureHandle
 
 
 ### `mce::ServerResourcePointer<mce::ResourcePointer<dragon::mesh::ResolvedAccelerationStructureResource,mce::ResourceBlockTemplate<dragon::mesh::ResolvedAccelerationStructureResource,mce::UncheckedHandleTracker,dragon::BufferDescription>,std::shared_ptr>,mce::AssertResourceServiceErrorHandler>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `mce::ResourcePointer<dragon::mesh::ResolvedAccelerationStructureResource,mce::ResourceBlockTemplate<dragon::mesh::ResolvedAccelerationStructureResource,mce::UncheckedHandleTracker,dragon::BufferDescription>,std::shared_ptr>` | baseclass_0
 
 
 ### `mce::ResourcePointer<dragon::mesh::ResolvedAccelerationStructureResource,mce::ResourceBlockTemplate<dragon::mesh::ResolvedAccelerationStructureResource,mce::UncheckedHandleTracker,dragon::BufferDescription>,std::shared_ptr>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<mce::ResourceBlockTemplate<dragon::mesh::ResolvedAccelerationStructureResource,mce::UncheckedHandleTracker,dragon::BufferDescription> >` | mResourcePointerBlock
 
 
 ### `mce::framebuilder::bgfxbridge::rtxutils::tryGetRayTraceableMesh::__l2::<lambda_896978dc0f97ed275fa58bf51ecb582e>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const mce::framebuilder::RenderSkinnedMeshDescription *` | skinnedMeshDescription
 
 
 ### `mce::framebuilder::bgfxbridge::DefineFlags`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | mFlags
 
 
 ### `mce::framebuilder::gamecomponents::PlayerUI`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `mce::framebuilder::gamecomponents::ItemInHandObject`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `mce::framebuilder::gamecomponents::TransparentItemInWorldObject`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `mce::framebuilder::bgfxbridge::BgfxFrameExtractor::_createStaticMeshes::__l2::<lambda_4247d7e55abdc363c5b66aae36ab0825>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `const unsigned int` | vertexStride
 
 
 ### `mce::framebuilder::bgfxbridge::BgfxFrameExtractor::_createStaticMeshes::__l2::<lambda_7b50bd49a243c4d56d9bfb5f0e1c28cb>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `const unsigned int` | indexStride
 4 | (72) `const std::array<unsigned short,36>` | cubeIndices
 76 | (4) `const unsigned int` | numCubeIndices
@@ -2387,7 +2387,7 @@ Offset | Type | Name
 
 ### `MixerLayer<Biome *,Biome *,bool>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `Layer<Biome *>` | baseclass_0
 24 | (16) `std::shared_ptr<Layer<Biome *> >` | mFirstParent
 40 | (16) `std::tuple<std::shared_ptr<Layer<bool> > >` | mMoreParents
@@ -2395,39 +2395,39 @@ Offset | Type | Name
 
 ### `mce::framebuilder::bgfxbridge::RenderMaterialHandle`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `unsigned __int64` | mKey
 
 
 ### `mce::framebuilder::bgfxbridge::MaterialKey`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `mce::framebuilder::bgfxbridge::ShaderType` | mType
 4 | (4) `mce::framebuilder::bgfxbridge::DefineFlags` | mDefines
 
 
 ### `mce::framebuilder::bgfxbridge::BgfxFrameExtractor::createExternalTexture::__l7::<lambda_8c81b13bcd5d75ab3d73ea62009230c1>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `dragon::rendering::TextureResourceManager *` | textureManager
 8 | (8) `cg::TextureDescription *` | defaultDesc
 
 
 ### `mce::framebuilder::bgfxbridge::BgfxFrameExtractor::createExternalTexture::__l7::<lambda_bb8beb4409003096d51127f9ebf87e1e>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `dragon::rendering::TextureResourceManager *` | textureManager
 8 | (8) `cg::TextureDescription *` | defaultDesc
 
 
 ### `mce::framebuilder::bgfxbridge::BgfxFrameExtractor::createExternalTexture::__l7::<lambda_99d0f8f794ca1b18902a8edf76995a3b>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `mce::framebuilder::bgfxbridge::BgfxFrameExtractor::updateExternalTexture::__l8::<lambda_090298dbd3dcf9d6e3aefc43d02d6da7>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `dragon::rendering::TextureResourceManager *` | textureManager
 8 | (16) `dragon::rendering::DeferredResult<dragon::rendering::SharedTextureHandle>` | texture
 24 | (64) `std::function<void __cdecl(dragon::rendering::SharedTextureHandle)>` | rendererCallbackUpdateDelegate
@@ -2435,7 +2435,7 @@ Offset | Type | Name
 
 ### `mce::framebuilder::bgfxbridge::BgfxFrameExtractor::generateRenderChunkVertexData::__l2::<lambda_1e31737a4636a062c61b82c2159bc65d>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (176) `const dragon::mesh::VertexFormat` | dragonFormat
 176 | (8) `const unsigned __int64` | vertexCount
 184 | (24) `std::vector<unsigned char>` | data
@@ -2443,7 +2443,7 @@ Offset | Type | Name
 
 ### `mce::framebuilder::bgfxbridge::BgfxFrameExtractor::generateRenderChunkIndexData::__l2::<lambda_686396822c9997e5f56f739d624345a4>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `const unsigned int` | indexSizeInBytes
 4 | (4) `const unsigned int` | indexCount
 8 | (24) `std::vector<unsigned char>` | data
@@ -2451,22 +2451,22 @@ Offset | Type | Name
 
 ### `mce::framebuilder::bgfxbridge::BgfxFrameExtractor::_insert::__l2::<lambda_43d630b5188acfc25f19f26a18357d3c>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `mce::framebuilder::bgfxbridge::BgfxFrameExtractor::_insert::__l2::<lambda_6cf1c25155f42c1baaf07050dffdd3ae>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `mce::framebuilder::gamecomponents::Gameface`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `mce::framebuilder::bgfxbridge::BgfxFrameExtractor::_insert::__l2::<lambda_29fa73eaeaaf8daefd40d7a5950a900a>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (176) `dragon::mesh::VertexFormat` | dragonFormat
 176 | (4) `unsigned int` | vertexCount
 184 | (24) `std::vector<unsigned char>` | data
@@ -2474,54 +2474,54 @@ Offset | Type | Name
 
 ### `mce::framebuilder::gamecomponents::SceneObjectActors`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `mce::ServerResourcePointer<mce::ResourcePointer<std::variant<std::monostate,mce::Buffer,mce::ClientResourcePointer<mce::ResourcePointer<dragon::mesh::ResolvedVertexBufferResource,mce::ResourceBlockTemplate<dragon::mesh::ResolvedVertexBufferResource,mce::UncheckedHandleTracker,dragon::BufferDescription>,std::shared_ptr> >,mce::ClientResourcePointer<mce::ResourcePointer<dragon::mesh::ResolvedIndexBufferResource,mce::ResourceBlockTemplate<dragon::mesh::ResolvedIndexBufferResource,mce::UncheckedHandleTracker,dragon::BufferDescription>,std::shared_ptr> > >,mce::ResourceBlockTemplate<std::variant<std::monostate,mce::Buffer,mce::ClientResourcePointer<mce::ResourcePointer<dragon::mesh::ResolvedVertexBufferResource,mce::ResourceBlockTemplate<dragon::mesh::ResolvedVertexBufferResource,mce::UncheckedHandleTracker,dragon::BufferDescription>,std::shared_ptr> >,mce::ClientResourcePointer<mce::ResourcePointer<dragon::mesh::ResolvedIndexBufferResource,mce::ResourceBlockTemplate<dragon::mesh::ResolvedIndexBufferResource,mce::UncheckedHandleTracker,dragon::BufferDescription>,std::shared_ptr> > >,mce::PerFrameHandleTracker,dragon::BufferDescription>,std::shared_ptr>,mce::AssertResourceServiceErrorHandler>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `mce::ResourcePointer<std::variant<std::monostate,mce::Buffer,mce::ClientResourcePointer<mce::ResourcePointer<dragon::mesh::ResolvedVertexBufferResource,mce::ResourceBlockTemplate<dragon::mesh::ResolvedVertexBufferResource,mce::UncheckedHandleTracker,dragon::BufferDescription>,std::shared_ptr> >,mce::ClientResourcePointer<mce::ResourcePointer<dragon::mesh::ResolvedIndexBufferResource,mce::ResourceBlockTemplate<dragon::mesh::ResolvedIndexBufferResource,mce::UncheckedHandleTracker,dragon::BufferDescription>,std::shared_ptr> > >,mce::ResourceBlockTemplate<std::variant<std::monostate,mce::Buffer,mce::ClientResourcePointer<mce::ResourcePointer<dragon::mesh::ResolvedVertexBufferResource,mce::ResourceBlockTemplate<dragon::mesh::ResolvedVertexBufferResource,mce::UncheckedHandleTracker,dragon::BufferDescription>,std::shared_ptr> >,mce::ClientResourcePointer<mce::ResourcePointer<dragon::mesh::ResolvedIndexBufferResource,mce::ResourceBlockTemplate<dragon::mesh::ResolvedIndexBufferResource,mce::UncheckedHandleTracker,dragon::BufferDescription>,std::shared_ptr> > >,mce::PerFrameHandleTracker,dragon::BufferDescription>,std::shared_ptr>` | baseclass_0
 
 
 ### `mce::framebuilder::gamecomponents::VrPresenceObject`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `mce::framebuilder::gamecomponents::WaterHoleObject`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `mce::framebuilder::gamecomponents::InLevelCubeMapObject`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `mce::framebuilder::gamecomponents::EnvironmentalText`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `mce::framebuilder::bgfxbridge::BgfxFrameExtractor::_insert::__l134::<lambda_dcd123cbf890429ae58c1f10ebaf9f6c>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const mce::framebuilder::bgfxbridge::BgfxFrameExtractor::_insert::__l2::<lambda_64f122915bcebd7da889f016004036d3> *` | layerChunkTransaction
 
 
 ### `mce::framebuilder::gamecomponents::BlendedCracksObject`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `mce::framebuilder::gamecomponents::LivingRoomSceneObject`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `mce::framebuilder::bgfxbridge::BgfxFrameExtractor::_insert::__l2::<lambda_42c898a68a2556d8029159b58af0e944>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (176) `const dragon::mesh::VertexFormat` | dragonFormat
 176 | (4) `const int` | vertexCount
 184 | (24) `std::vector<unsigned char>` | data
@@ -2529,7 +2529,7 @@ Offset | Type | Name
 
 ### `mce::framebuilder::gamecomponents::Atmosphere`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `mce::Color` | mSkyColor
 16 | (16) `dragon::res::ServerTexture` | mSkyTexture
 32 | (8) `glm::tvec2<float,0>` | mSkyUVScale
@@ -2552,27 +2552,27 @@ Offset | Type | Name
 
 ### `mce::framebuilder::RenderBannerDescription`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (120) `boost::container::static_vector<glm::tvec4<float,0>,7>` | mBannerColors
 120 | (120) `boost::container::static_vector<glm::tvec4<float,0>,7>` | mBannerUVOffsetsAndScales
 
 
 ### `mce::framebuilder::RenderCracksOverlayBlockEntityDescription`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const mce::framebuilder::RenderSkinnedMeshDescription *` | mSkinnedMeshDescription
 8 | (8) `glm::tvec2<float,0>` | mUVScale
 
 
 ### `mce::framebuilder::RenderBlockSelectionOverlayBlockEntityDescription`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const mce::framebuilder::RenderSkinnedMeshDescription *` | mSkinnedMeshDescription
 
 
 ### `mce::Font::RenderingParameters`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float` | mGlyphSmoothRadius
 4 | (4) `float` | mGlyphCutoff
 8 | (4) `float` | mOutlineCutoff
@@ -2586,14 +2586,14 @@ Offset | Type | Name
 
 ### `mce::framebuilder::gamecomponents::LivingRoomViewFilter`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `unsigned __int16` | mViewWidth
 2 | (2) `unsigned __int16` | mViewHeight
 
 
 ### `mce::framebuilder::bgfxbridge::makeMeshFilter::__l8::<lambda_1e5621da2dd3d5f393a9a062234977a9>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (176) `const dragon::mesh::VertexFormat` | dragonFormat
 176 | (4) `const int` | vertexCount
 184 | (24) `std::vector<unsigned char>` | data
@@ -2601,19 +2601,19 @@ Offset | Type | Name
 
 ### `mce::ClientResourcePointer<mce::ResourcePointer<dragon::mesh::ResolvedAccelerationStructureResource,mce::ResourceBlockTemplate<dragon::mesh::ResolvedAccelerationStructureResource,mce::UncheckedHandleTracker,dragon::BufferDescription>,std::shared_ptr> >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `mce::ResourcePointer<dragon::mesh::ResolvedAccelerationStructureResource,mce::ResourceBlockTemplate<dragon::mesh::ResolvedAccelerationStructureResource,mce::UncheckedHandleTracker,dragon::BufferDescription>,std::shared_ptr>` | baseclass_0
 
 
 ### `mce::framebuilder::modules::declareTerrainAtlasBlitTask::__l5::<lambda_39f8040220cedd22130c1d3ce5ea5193>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `dragon::materials::MaterialUniformOverrides` | overrides
 
 
 ### `mce::framebuilder::bgfxbridge::GraphicsFrameContext`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `dragon::rendering::GraphicsFrame *` | mGfx
 8 | (8) `dragon::framegraph::Declarator<dragon::rendering::RenderContext> *` | mDecl
 16 | (8) `dragon::materials::MaterialUniformOverrides *` | mGlobalUniformOverrides
@@ -2626,56 +2626,56 @@ Offset | Type | Name
 
 ### `mce::framebuilder::bgfxbridge::PassCamera`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (280) `const dragon::rendering::Camera` | mCamera
 280 | (24) `const dragon::rendering::ViewSet` | mViewSet
 
 
 ### `mce::SimpleDeferredResourceTracker<std::shared_ptr<mce::ResourceBlockTemplate<std::variant<std::monostate,mce::Buffer,mce::ClientResourcePointer<mce::ResourcePointer<dragon::mesh::ResolvedVertexBufferResource,mce::ResourceBlockTemplate<dragon::mesh::ResolvedVertexBufferResource,mce::UncheckedHandleTracker,dragon::BufferDescription>,std::shared_ptr> >,mce::ClientResourcePointer<mce::ResourcePointer<dragon::mesh::ResolvedIndexBufferResource,mce::ResourceBlockTemplate<dragon::mesh::ResolvedIndexBufferResource,mce::UncheckedHandleTracker,dragon::BufferDescription>,std::shared_ptr> > >,mce::PerFrameHandleTracker,dragon::BufferDescription> >,std::weak_ptr<mce::ResourceBlockTemplate<std::variant<std::monostate,mce::Buffer,mce::ClientResourcePointer<mce::ResourcePointer<dragon::mesh::ResolvedVertexBufferResource,mce::ResourceBlockTemplate<dragon::mesh::ResolvedVertexBufferResource,mce::UncheckedHandleTracker,dragon::BufferDescription>,std::shared_ptr> >,mce::ClientResourcePointer<mce::ResourcePointer<dragon::mesh::ResolvedIndexBufferResource,mce::ResourceBlockTemplate<dragon::mesh::ResolvedIndexBufferResource,mce::UncheckedHandleTracker,dragon::BufferDescription>,std::shared_ptr> > >,mce::PerFrameHandleTracker,dragon::BufferDescription> > >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<std::pair<std::weak_ptr<mce::ResourceBlockTemplate<std::variant<std::monostate,mce::Buffer,mce::ClientResourcePointer<mce::ResourcePointer<dragon::mesh::ResolvedVertexBufferResource,mce::ResourceBlockTemplate<dragon::mesh::ResolvedVertexBufferResource,mce::UncheckedHandleTracker,dragon::BufferDescription>,std::shared_ptr> >,mce::ClientResourcePointer<mce::ResourcePointer<dragon::mesh::ResolvedIndexBufferResource,mce::ResourceBlockTemplate<dragon::mesh::ResolvedIndexBufferResource,mce::UncheckedHandleTracker,dragon::BufferDescription>,std::shared_ptr> > >,mce::PerFrameHandleTracker,dragon::BufferDescription> >,std::unique_ptr<mce::ITransactionContainer> >>` | mPendingTransactionHandles
 
 
 ### `mce::SimpleDeferredResourceTracker<std::shared_ptr<mce::ResourceBlockTemplate<std::variant<std::monostate,mce::Texture,dragon::res::ClientTexture>,mce::PerFrameHandleTracker,mce::ResourceServiceTextureDescription> >,std::weak_ptr<mce::ResourceBlockTemplate<std::variant<std::monostate,mce::Texture,dragon::res::ClientTexture>,mce::PerFrameHandleTracker,mce::ResourceServiceTextureDescription> > >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<std::pair<std::weak_ptr<mce::ResourceBlockTemplate<std::variant<std::monostate,mce::Texture,dragon::res::ClientTexture>,mce::PerFrameHandleTracker,mce::ResourceServiceTextureDescription> >,std::unique_ptr<mce::ITransactionContainer> >>` | mPendingTransactionHandles
 
 
 ### `mce::SimpleDeferredResourceTracker<std::shared_ptr<mce::ResourceBlockTemplate<dragon::mesh::ResolvedVertexBufferResource,mce::UncheckedHandleTracker,dragon::BufferDescription> >,std::weak_ptr<mce::ResourceBlockTemplate<dragon::mesh::ResolvedVertexBufferResource,mce::UncheckedHandleTracker,dragon::BufferDescription> > >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<std::pair<std::weak_ptr<mce::ResourceBlockTemplate<dragon::mesh::ResolvedVertexBufferResource,mce::UncheckedHandleTracker,dragon::BufferDescription> >,std::unique_ptr<mce::ITransactionContainer> >>` | mPendingTransactionHandles
 
 
 ### `mce::SimpleDeferredResourceTracker<std::shared_ptr<mce::ResourceBlockTemplate<dragon::mesh::ResolvedIndexBufferResource,mce::UncheckedHandleTracker,dragon::BufferDescription> >,std::weak_ptr<mce::ResourceBlockTemplate<dragon::mesh::ResolvedIndexBufferResource,mce::UncheckedHandleTracker,dragon::BufferDescription> > >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<std::pair<std::weak_ptr<mce::ResourceBlockTemplate<dragon::mesh::ResolvedIndexBufferResource,mce::UncheckedHandleTracker,dragon::BufferDescription> >,std::unique_ptr<mce::ITransactionContainer> >>` | mPendingTransactionHandles
 
 
 ### `mce::SimpleDeferredResourceTracker<std::shared_ptr<mce::ResourceBlockTemplate<dragon::res::ResolvedShaderBufferResource,mce::UncheckedHandleTracker,dragon::BufferDescription> >,std::weak_ptr<mce::ResourceBlockTemplate<dragon::res::ResolvedShaderBufferResource,mce::UncheckedHandleTracker,dragon::BufferDescription> > >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<std::pair<std::weak_ptr<mce::ResourceBlockTemplate<dragon::res::ResolvedShaderBufferResource,mce::UncheckedHandleTracker,dragon::BufferDescription> >,std::unique_ptr<mce::ITransactionContainer> >>` | mPendingTransactionHandles
 
 
 ### `mce::SimpleDeferredResourceTracker<std::shared_ptr<mce::ResourceBlockTemplate<dragon::mesh::ResolvedAccelerationStructureResource,mce::UncheckedHandleTracker,dragon::BufferDescription> >,std::weak_ptr<mce::ResourceBlockTemplate<dragon::mesh::ResolvedAccelerationStructureResource,mce::UncheckedHandleTracker,dragon::BufferDescription> > >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<std::pair<std::weak_ptr<mce::ResourceBlockTemplate<dragon::mesh::ResolvedAccelerationStructureResource,mce::UncheckedHandleTracker,dragon::BufferDescription> >,std::unique_ptr<mce::ITransactionContainer> >>` | mPendingTransactionHandles
 
 
 ### `mpmc::Sender<std::function<void __cdecl(void)> >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<MPMCQueue<std::function<void __cdecl(void)> > >` | mQueue
 
 
 ### `mce::framebuilder::bgfxbridge::PlayerView`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (280) `const dragon::rendering::Camera` | mSceneCamera
 280 | (280) `const dragon::rendering::Camera` | mPlayerItemInHandCamera
 560 | (288) `const std::optional<dragon::rendering::Camera>` | mUICamera
@@ -2684,13 +2684,13 @@ Offset | Type | Name
 
 ### `mce::framebuilder::bgfxbridge::HolographicMinecraftFrameRendererResources`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (192) `mce::framebuilder::bgfxbridge::VanillaMinecraftFrameRendererResources` | baseclass_0
 
 
 ### `mce::framebuilder::bgfxbridge::VanillaMinecraftFrameRendererResources`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `dragon::frameobject::FrameRendererResources` | baseclass_0
 64 | (8) `const cg::math::Rect<unsigned short>` | mScreenViewport
 72 | (24) `const std::vector<mce::framebuilder::bgfxbridge::PlayerView>` | mPlayerViews
@@ -2703,21 +2703,21 @@ Offset | Type | Name
 
 ### `mce::framebuilder::bgfxbridge::UITarget`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `dragon::res::ServerTexture` | mColor
 16 | (16) `dragon::res::ServerTexture` | mDepth
 
 
 ### `mce::framebuilder::bgfxbridge::RTXMinecraftFrameRendererResources`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (192) `mce::framebuilder::bgfxbridge::VanillaMinecraftFrameRendererResources` | baseclass_0
 192 | (8) `const dragon::rendering::RayTracingResources *` | mRayTracingResources
 
 
 ### `mce::framebuilder::BgfxFrameBuilder::endFrame::__l2::<lambda_cbdc984cb883648ce5a643aae63d5422>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Core::CpuRingBufferAllocator<unsigned char,2,0,Core::CheckedRingBuffer<2,0> > *` | allocator
 8 | (16) `std::shared_ptr<dragon::frameobject::Frame<mce::framebuilder::gamecomponents::AlphaTestCracks,mce::framebuilder::gamecomponents::Atmosphere,mce::framebuilder::gamecomponents::BlendedCracksObject,mce::framebuilder::gamecomponents::EnvironmentalText,mce::framebuilder::gamecomponents::Gameface,mce::framebuilder::gamecomponents::InLevelCubeMapObject,mce::framebuilder::gamecomponents::ItemInHandObject,mce::framebuilder::gamecomponents::SceneObjectActors,mce::framebuilder::gamecomponents::TransparentItemInWorldObject,mce::framebuilder::gamecomponents::WaterHoleObject,mce::framebuilder::gamecomponents::PlayerUI,mce::framebuilder::gamecomponents::PlayerVision,mce::framebuilder::gamecomponents::OverlayUI,mce::framebuilder::gamecomponents::VrConfiguration,mce::framebuilder::gamecomponents::VrPresenceObject,mce::framebuilder::gamecomponents::LivingRoomViewFilter,mce::framebuilder::gamecomponents::LivingRoomTransitionFilter,mce::framebuilder::gamecomponents::LivingRoomSceneObject,mce::framebuilder::gamecomponents::VrFloatingUiQuad,mce::framebuilder::gamecomponents::FadeToBlackEffect,mce::framebuilder::bgfxbridge::RTXMinecraftFrameRendererResources,mce::framebuilder::bgfxbridge::VanillaMinecraftFrameRendererResources,mce::framebuilder::bgfxbridge::HolographicMinecraftFrameRendererResources> >` | frame
 24 | (8) `std::unique_ptr<dragon::platform::BgfxContext> *` | context
@@ -2727,14 +2727,14 @@ Offset | Type | Name
 
 ### `mce::framebuilder::BgfxFrameBuilder::setTerrainAtlasTexture::__l2::<lambda_f66434dd3ba885a057ef1298c806b300>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `mce::framebuilder::BgfxFrameBuilder *const` | __this
 8 | (16) `const mce::ClientTexture` | texture
 
 
 ### `mce::framebuilder::bgfxbridge::EntityCreationContext`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Core::CpuRingBufferAllocator<unsigned char,2,0,Core::CheckedRingBuffer<2,0> > *` | mAllocator
 8 | (1) `dragon::rendering::ClipSpaceOrigin` | clipSaceOrigin
 16 | (8) `dragon::frameobject::Frame<mce::framebuilder::gamecomponents::AlphaTestCracks,mce::framebuilder::gamecomponents::Atmosphere,mce::framebuilder::gamecomponents::BlendedCracksObject,mce::framebuilder::gamecomponents::EnvironmentalText,mce::framebuilder::gamecomponents::Gameface,mce::framebuilder::gamecomponents::InLevelCubeMapObject,mce::framebuilder::gamecomponents::ItemInHandObject,mce::framebuilder::gamecomponents::SceneObjectActors,mce::framebuilder::gamecomponents::TransparentItemInWorldObject,mce::framebuilder::gamecomponents::WaterHoleObject,mce::framebuilder::gamecomponents::PlayerUI,mce::framebuilder::gamecomponents::PlayerVision,mce::framebuilder::gamecomponents::OverlayUI,mce::framebuilder::gamecomponents::VrConfiguration,mce::framebuilder::gamecomponents::VrPresenceObject,mce::framebuilder::gamecomponents::LivingRoomViewFilter,mce::framebuilder::gamecomponents::LivingRoomTransitionFilter,mce::framebuilder::gamecomponents::LivingRoomSceneObject,mce::framebuilder::gamecomponents::VrFloatingUiQuad,mce::framebuilder::gamecomponents::FadeToBlackEffect,mce::framebuilder::bgfxbridge::RTXMinecraftFrameRendererResources,mce::framebuilder::bgfxbridge::VanillaMinecraftFrameRendererResources,mce::framebuilder::bgfxbridge::HolographicMinecraftFrameRendererResources> *` | mFrame
@@ -2751,49 +2751,49 @@ Offset | Type | Name
 
 ### `mce::framebuilder::bgfxbridge::BgfxFrameExtractor::insert::__l2::<lambda_865bec86ccfdea79ed88812b7f77021f>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `mce::framebuilder::bgfxbridge::BgfxFrameExtractor *` | frameExtractor
 8 | (8) `const mce::framebuilder::bgfxbridge::EntityCreationContext *` | entityContext
 
 
 ### `mce::framebuilder::bgfxbridge::BgfxFrameExtractor::insert::__l2::<lambda_c8d72bf576c9c8a362542257df972acd>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `mce::framebuilder::bgfxbridge::BgfxFrameExtractor *` | frameExtractor
 8 | (8) `const mce::framebuilder::bgfxbridge::EntityCreationContext *` | entityContext
 
 
 ### `mce::framebuilder::bgfxbridge::BgfxFrameExtractor::insert::__l2::<lambda_ad4f63a451bb7c5eccdca3106916db60>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `mce::framebuilder::bgfxbridge::BgfxFrameExtractor *` | frameExtractor
 8 | (8) `const mce::framebuilder::bgfxbridge::EntityCreationContext *` | entityContext
 
 
 ### `mce::framebuilder::bgfxbridge::BgfxFrameExtractor::insert::__l2::<lambda_6baa1b05e36fe68fda960d68fee6c12e>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `mce::framebuilder::bgfxbridge::BgfxFrameExtractor *` | frameExtractor
 8 | (8) `const mce::framebuilder::bgfxbridge::EntityCreationContext *` | entityContext
 
 
 ### `mce::framebuilder::bgfxbridge::BgfxFrameExtractor::insert::__l2::<lambda_a1ac28a76ec46cf23bda31dc03cba3f0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `mce::framebuilder::bgfxbridge::BgfxFrameExtractor *` | frameExtractor
 8 | (8) `const mce::framebuilder::bgfxbridge::EntityCreationContext *` | entityContext
 
 
 ### `mce::CreateTextureFromUnownedContainerTransaction`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::reference_wrapper<mce::TextureContainer const >` | mContainer
 8 | (16) `gsl::basic_string_span<char const ,-1>` | mDebugName
 
 
 ### `mce::TransactionContainer<mce::CreateTextureFromOwnedContainerTransaction,mce::TextureResourceService,mce::ImmediateExecutionPolicy>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `mce::ITransactionContainer` | baseclass_0
 8 | (16) `std::weak_ptr<mce::ResourceBlockTemplate<std::variant<std::monostate,mce::Texture,dragon::res::ClientTexture>,mce::PerFrameHandleTracker,mce::ResourceServiceTextureDescription> >` | mResourceTransactionPointer
 24 | (64) `std::function<void __cdecl(mce::CreateTextureFromOwnedContainerTransaction &)>` | mDeferredPayload
@@ -2803,14 +2803,14 @@ Offset | Type | Name
 
 ### `mce::CreateTextureFromOwnedContainerTransaction`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (136) `mce::TextureContainer` | mContainer
 136 | (32) `std::string` | mDebugName
 
 
 ### `mce::TransactionContainer<mce::CreateTextureFromUnownedContainerTransaction,mce::TextureResourceService,mce::ImmediateExecutionPolicy>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `mce::ITransactionContainer` | baseclass_0
 8 | (16) `std::weak_ptr<mce::ResourceBlockTemplate<std::variant<std::monostate,mce::Texture,dragon::res::ClientTexture>,mce::PerFrameHandleTracker,mce::ResourceServiceTextureDescription> >` | mResourceTransactionPointer
 24 | (64) `std::function<void __cdecl(mce::CreateTextureFromUnownedContainerTransaction &)>` | mDeferredPayload
@@ -2820,7 +2820,7 @@ Offset | Type | Name
 
 ### `mce::Mesh::_loadRawData::__l2::<lambda_c509ec6bac3b65e68e4de08430a60571>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const mce::Mesh *const` | __this
 8 | (8) `const unsigned int *` | vertexCount
 16 | (8) `unsigned __int8 *const *` | rawData
@@ -2829,7 +2829,7 @@ Offset | Type | Name
 
 ### `mce::framebuilder::RenderMeshFallbackDescription`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const mce::Mesh *` | mMesh
 8 | (136) `boost::container::static_vector<dragon::res::ServerTexture,8>` | mTextures
 144 | (64) `glm::tmat4x4<float,0>` | mWorldMatrix
@@ -2852,7 +2852,7 @@ Offset | Type | Name
 
 ### `mce::TransactionContainer<mce::CreateBufferTransaction,mce::BufferResourceService,mce::ImmediateExecutionPolicy>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `mce::ITransactionContainer` | baseclass_0
 8 | (16) `std::weak_ptr<mce::ResourceBlockTemplate<std::variant<std::monostate,mce::Buffer,mce::ClientResourcePointer<mce::ResourcePointer<dragon::mesh::ResolvedVertexBufferResource,mce::ResourceBlockTemplate<dragon::mesh::ResolvedVertexBufferResource,mce::UncheckedHandleTracker,dragon::BufferDescription>,std::shared_ptr> >,mce::ClientResourcePointer<mce::ResourcePointer<dragon::mesh::ResolvedIndexBufferResource,mce::ResourceBlockTemplate<dragon::mesh::ResolvedIndexBufferResource,mce::UncheckedHandleTracker,dragon::BufferDescription>,std::shared_ptr> > >,mce::PerFrameHandleTracker,dragon::BufferDescription> >` | mResourceTransactionPointer
 24 | (64) `std::function<void __cdecl(mce::CreateBufferTransaction &)>` | mDeferredPayload
@@ -2862,7 +2862,7 @@ Offset | Type | Name
 
 ### `mce::CreateBufferTransaction`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `cg::BufferDescription` | mBufferDescription
 8 | (24) `std::vector<unsigned char>` | mBufferData
 32 | (1) `mce::BufferType` | mBufferType
@@ -2872,7 +2872,7 @@ Offset | Type | Name
 
 ### `mce::UpdateBufferTransaction`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `cg::BufferDescription` | mBufferDescription
 8 | (24) `std::vector<unsigned char>` | mBufferData
 32 | (32) `std::string` | mDebugName
@@ -2880,38 +2880,38 @@ Offset | Type | Name
 
 ### `mce::RenderMaterial::PipelineStateObjectVariantPair`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `mce::PipelineStateObjectVariantKey` | key
 16 | (16) `std::shared_ptr<mce::PipelineStateObject>` | pso
 
 
 ### `mce::PipelineStateObjectVariantKey`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `mce::PipelineStateObjectVariantKeyNull` | baseclass_0
 
 
 ### `mce::PipelineStateObjectVariantKeyNull`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `mce::PipelineStateObjectVariantKeyBase` | baseclass_0
 
 
 ### `mce::PipelineStateObjectVariantKeyBase`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `$AA70263B83BB5476A8C7C7860796DC53` | ___u0
 8 | (2) `__int16` | sampleDescriptionCount
 
 
 ### `mce::ResourceBase<mce::PipelineStateObjectVariantKeyNull>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `mce::CreateBufferTransaction::apply::__l15::<lambda_89ff1010936644b0319320dbb7511a4e>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `cg::BufferDescription` | bufferDescription
 8 | (24) `std::vector<unsigned char>` | bufferData
 32 | (32) `std::string` | debugName
@@ -2919,7 +2919,7 @@ Offset | Type | Name
 
 ### `mce::CreateBufferTransaction::apply::__l14::<lambda_f49f49f8ced5468e7e17ea028dc2ea86>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `cg::BufferDescription` | bufferDescription
 8 | (30) `mce::VertexFormat` | vertexFormat
 40 | (24) `std::vector<unsigned char>` | bufferData
@@ -2928,7 +2928,7 @@ Offset | Type | Name
 
 ### `mce::IndexBufferContainer::loadIndexBuffer::__l29::<lambda_6311c026061ac77b741722eff3b8f476>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const unsigned int *` | stride
 8 | (8) `const unsigned int *` | count
 16 | (8) `const unsigned __int8 *const *` | data
@@ -2937,7 +2937,7 @@ Offset | Type | Name
 
 ### `MolangQueryFunction`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::function<MolangScriptArg const & __cdecl(RenderParams &,std::vector<ExpressionNode> const &)>` | mAccessor
 64 | (32) `std::string` | mDocumentation
 96 | (8) `unsigned __int64` | mMinArgumentCount
@@ -2948,7 +2948,7 @@ Offset | Type | Name
 
 ### `MobEffectComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float` | mEffectRange
 4 | (4) `int` | mEffectId
 8 | (4) `int` | mEffectTime
@@ -2957,13 +2957,13 @@ Offset | Type | Name
 
 ### `MobEffectSystem::tick::__l2::<lambda_b598a11a07d52c4b9e84cd2d7c890e69>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `MobEffectSystem *const` | __this
 
 
 ### `MoveControlComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | mHasWanted
 4 | (12) `Vec3` | mWantedPosition
 16 | (1) `bool` | mShouldBreach
@@ -2974,7 +2974,7 @@ Offset | Type | Name
 
 ### `MapItemTrackedActor::UniqueId`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `_BYTE[4]` | type
 8 | (8) `ActorUniqueID` | keyEntityId
 16 | (12) `BlockPos` | keyBlockPos
@@ -2982,7 +2982,7 @@ Offset | Type | Name
 
 ### `MoveActorDeltaData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ActorRuntimeID` | mRuntimeId
 8 | (2) `MoveActorDeltaData::Header` | mHeader
 12 | (4) `float` | mNewPositionX
@@ -2996,14 +2996,14 @@ Offset | Type | Name
 
 ### `MoveActorDeltaData::Header`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `unsigned __int16` | mRaw
 1 | (2) `$F6B22BA5FFEFB0263AA7B63FD39E3332` | __s1
 
 
 ### `MobEquipmentPacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `Packet` | baseclass_0
 40 | (8) `ActorRuntimeID` | mRuntimeId
 48 | (248) `ItemStack` | mItem
@@ -3018,7 +3018,7 @@ Offset | Type | Name
 
 ### `ModEffectPacket::ModEffectEntry`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mModId
 4 | (4) `float` | mColorR
 8 | (4) `float` | mColorG
@@ -3029,7 +3029,7 @@ Offset | Type | Name
 
 ### `MapSample`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `mce::Color` | mColor
 16 | (8) `const Block *` | mBlock
 24 | (2) `__int16` | mHeight
@@ -3037,7 +3037,7 @@ Offset | Type | Name
 
 ### `MobArmorEquipmentPacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `Packet` | baseclass_0
 40 | (8) `ActorRuntimeID` | mRuntimeId
 48 | (248) `ItemStack` | mHead
@@ -3048,7 +3048,7 @@ Offset | Type | Name
 
 ### `MolangProgramBuildState`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `unsigned __int64` | mUsedRegCount
 8 | (1) `bool` | mStoreStackState
 16 | (24) `std::vector<std::function<void __cdecl(MolangEvalParams &)>>` | mDestProgram
@@ -3056,7 +3056,7 @@ Offset | Type | Name
 
 ### `MolangVariable`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (48) `HashedString` | mName
 48 | (88) `MolangScriptArg` | mValue
 136 | (88) `MolangScriptArg` | mPublicValue
@@ -3065,7 +3065,7 @@ Offset | Type | Name
 
 ### `MolangVariableSettings`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `_BYTE[2]` | mIndex
 4 | (4) `MolangVariableSetting_AccessSpecifier` | mAccessSpecifier
 8 | (4) `_BYTE[4]` | mShouldSync
@@ -3074,12 +3074,12 @@ Offset | Type | Name
 
 ### `MolangUpdateSystem::tick::__l5::<lambda_acb985f9c150c7ab03f991a539dcac19>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `MobSpawnRules`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mMinBrightness
 4 | (4) `int` | mMaxBrightness
 8 | (4) `float` | mMinMoonBrightness
@@ -3119,7 +3119,7 @@ Offset | Type | Name
 
 ### `MobSpawnerData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `WeighedRandom::WeighedRandomItem` | baseclass_0
 8 | (176) `ActorDefinitionIdentifier` | mIdentifier
 184 | (376) `MobSpawnRules` | mSpawnRules
@@ -3129,34 +3129,34 @@ Offset | Type | Name
 
 ### `Mob::JumpPreventionResult`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | mJumpIsPrevented
 4 | (12) `BlockPos` | mPreventingBlockBlockPos
 
 
 ### `MaterialReducerInputValidationState::getAllowedInSlotCallback::__l2::<lambda_712f226a04b1f0d9adf965ed2f0fa152>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (336) `MaterialReducerInputValidationState` | state
 
 
 ### `MaterialReducerInputValidationState`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (72) `BlockReducer` | mBlockReducer
 72 | (264) `CraftableCompounds` | mCraftableCompounds
 
 
 ### `MountTamingEvent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `WeakRefT<EntityRefTraits>` | mRider
 24 | (24) `WeakRefT<EntityRefTraits>` | mMount
 
 
 ### `MapItem::_scheduleMapChunkRendering::__l2::<lambda_14c9cbcd8873e01715361a180f9da00a>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Dimension *` | dimension
 8 | (16) `std::shared_ptr<std::vector<unsigned int> >` | pixels
 24 | (8) `ActorUniqueID` | uuid
@@ -3166,7 +3166,7 @@ Offset | Type | Name
 
 ### `MapItemSavedData::ChunkBounds`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | x0
 4 | (4) `unsigned int` | z0
 8 | (4) `unsigned int` | x1
@@ -3175,7 +3175,7 @@ Offset | Type | Name
 
 ### `MapItem::_scheduleMapChunkRendering::__l2::<lambda_acc1ef23d8ccb53aae72c55e69d8c265>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Dimension *` | dimension
 8 | (16) `std::shared_ptr<std::vector<unsigned int> >` | pixels
 24 | (12) `BlockPos` | origin
@@ -3185,19 +3185,19 @@ Offset | Type | Name
 
 ### `MovePriorityQueue<BlockTickingQueue::BlockTick,std::greater<BlockTickingQueue::BlockTick> >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<BlockTickingQueue::BlockTick>` | mC
 
 
 ### `MobileAuthenticateScreenController::setupCallbacksForStringOption::__l2::<lambda_31836c078e3d35786732ec89b9d0f39e>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::function<std::string __cdecl(void)>` | getValue
 
 
 ### `MobileAuthenticateScreenController::setupCallbacksForStringOption::__l2::<lambda_8245dd556b6f5c0926ed70600b52b3a7>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::function<void __cdecl(std::string const &)>` | setValue
 64 | (64) `std::function<bool __cdecl(std::string const &)>` | changedValidator
 128 | (64) `std::function<bool __cdecl(void)>` | isEnabled
@@ -3205,7 +3205,7 @@ Offset | Type | Name
 
 ### `mce::TransactionContainer<dragon::res::CreatePoolTextureTransaction,dragon::TextureResourceService,mce::ImmediateExecutionPolicy>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `mce::ITransactionContainer` | baseclass_0
 8 | (16) `std::weak_ptr<mce::ResourceBlockTemplate<dragon::res::ResolvedTextureResource,mce::PerFrameHandleTracker,dragon::res::TextureDescription> >` | mResourceTransactionPointer
 24 | (64) `std::function<void __cdecl(dragon::res::CreatePoolTextureTransaction &)>` | mDeferredPayload
@@ -3215,7 +3215,7 @@ Offset | Type | Name
 
 ### `MouseInputMapping`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<MouseButtonBinding>` | buttonBindings
 24 | (24) `std::vector<std::string>` | wheelUpButtonNames
 48 | (24) `std::vector<std::string>` | wheelDownButtonNames
@@ -3224,7 +3224,7 @@ Offset | Type | Name
 
 ### `MesaSurfaceAttributes`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (112) `BlockDescriptor` | mClayMaterial
 112 | (112) `BlockDescriptor` | mHardClayMaterial
 224 | (1) `bool` | mBrycePillars
@@ -3233,17 +3233,17 @@ Offset | Type | Name
 
 ### `MegaTreeTrunk::_buildSchema::__l4::<lambda_8234dfabad7939141cb7e102ba0eb4d5>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `MegaTreeTrunk::_buildSchema::__l7::<lambda_f5fcd0fac45f65f4ed833f4a16e89794>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `MemoryMappedFileAccess::StreamDetails`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<unsigned char>` | mStream
 24 | (1) `bool` | mReadAllowed
 25 | (1) `bool` | mWriteAllowed
@@ -3253,7 +3253,7 @@ Offset | Type | Name
 
 ### `moodycamel::ConcurrentQueue<std::shared_ptr<Bedrock::SignalBase>,moodycamel::ConcurrentQueueDefaultTraits>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::atomic<moodycamel::ConcurrentQueue<std::shared_ptr<Bedrock::SignalBase>,moodycamel::ConcurrentQueueDefaultTraits>::ProducerBase *>` | producerListTail
 8 | (4) `std::atomic<unsigned int>` | producerCount
 16 | (8) `std::atomic<unsigned __int64>` | initialBlockPoolIndex
@@ -3271,13 +3271,13 @@ Offset | Type | Name
 
 ### `moodycamel::ConcurrentQueue<std::shared_ptr<Bedrock::SignalBase>,moodycamel::ConcurrentQueueDefaultTraits>::FreeList<moodycamel::ConcurrentQueue<std::shared_ptr<Bedrock::SignalBase>,moodycamel::ConcurrentQueueDefaultTraits>::Block>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::atomic<moodycamel::ConcurrentQueue<std::shared_ptr<Bedrock::SignalBase>,moodycamel::ConcurrentQueueDefaultTraits>::Block *>` | freeListHead
 
 
 ### `moodycamel::ConcurrentQueue<std::shared_ptr<Bedrock::SignalBase>,moodycamel::ConcurrentQueueDefaultTraits>::ImplicitProducerHash`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `unsigned __int64` | capacity
 8 | (8) `moodycamel::ConcurrentQueue<std::shared_ptr<Bedrock::SignalBase>,moodycamel::ConcurrentQueueDefaultTraits>::ImplicitProducerKVP *` | entries
 16 | (8) `moodycamel::ConcurrentQueue<std::shared_ptr<Bedrock::SignalBase>,moodycamel::ConcurrentQueueDefaultTraits>::ImplicitProducerHash *` | prev
@@ -3285,7 +3285,7 @@ Offset | Type | Name
 
 ### `MultibyteEncodeBuffer`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const wchar_t *` | inbuf
 8 | (8) `const wchar_t *` | inbuf_top
 16 | (8) `const wchar_t *` | inbuf_end
@@ -3297,7 +3297,7 @@ Offset | Type | Name
 
 ### `MultibyteCodec_State`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `void *` | p
 1 | (4) `int` | i
 2 | (8) `unsigned __int8[8]` | c
@@ -3307,7 +3307,7 @@ Offset | Type | Name
 
 ### `MultibyteDecodeBuffer`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const unsigned __int8 *` | inbuf
 8 | (8) `const unsigned __int8 *` | inbuf_top
 16 | (8) `const unsigned __int8 *` | inbuf_end
@@ -3319,7 +3319,7 @@ Offset | Type | Name
 
 ### `md5_state_s`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `unsigned int[2]` | count
 8 | (16) `unsigned int[4]` | abcd
 24 | (64) `unsigned __int8[64]` | buf

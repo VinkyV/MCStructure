@@ -1,13 +1,13 @@
 # R
 ### `RealmsAllowListScreenController::_sortListModel::__l2::<lambda_c248b0cdd9fa8d24f3e9885441a6b79f>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `RealmsAllowListScreenController *const` | __this
 
 
 ### `ResourceLocation`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `ResourceFileSystem` | mFileSystem
 8 | (32) `Core::PathBuffer<std::string >` | mPath
 40 | (8) `unsigned __int64` | mPathHash
@@ -16,7 +16,7 @@ Offset | Type | Name
 
 ### `RectangleArea`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float` | _x0
 4 | (4) `float` | _x1
 8 | (4) `float` | _y0
@@ -25,7 +25,7 @@ Offset | Type | Name
 
 ### `RakNet::SystemAddress`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (128) `RakNet::SystemAddress::<unnamed_type_address>` | address
 128 | (2) `unsigned __int16` | debugPort
 130 | (2) `unsigned __int16` | systemIndex
@@ -33,7 +33,7 @@ Offset | Type | Name
 
 ### `RakNet::SystemAddress::<unnamed_type_address>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (128) `sockaddr_storage` | sa_stor
 1 | (28) `sockaddr_in6` | addr6
 2 | (16) `sockaddr_in` | addr4
@@ -41,37 +41,37 @@ Offset | Type | Name
 
 ### `RakNet::RakNetGUID`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `unsigned __int64` | g
 8 | (2) `unsigned __int16` | systemIndex
 
 
 ### `RealmsSettingsScreenController::_gatherSelectedContent::__l2::<lambda_cfa2356ba834150166845153293b2230>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `recreateCubemapTexture::__l2::<lambda_e7cd2127989a43aef6f308a4e684b501>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `bool *` | stillValid
 
 
 ### `Remapping::Action`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `Remapping::ActionEnum` | mAction
 8 | (8) `const char *` | mActionName
 
 
 ### `RenderChunkSorter::sortAndCullFaces::__l67::<lambda_8ad1514ed4cd016d6dc6c8ad4a7c706b>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `RatingData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float` | mAverageRating
 4 | (4) `int` | mTotalRatingsCount
 8 | (4) `int` | mFiveStarCount
@@ -83,7 +83,7 @@ Offset | Type | Name
 
 ### `ReviewModel`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::unique_ptr<ReviewSummaryData>` | mReviewSummary
 8 | (8) `std::unique_ptr<ReviewData>` | mReviewByUser
 16 | (28) `RatingData` | mPrefetchedRatingData
@@ -92,7 +92,7 @@ Offset | Type | Name
 
 ### `RenderParams`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `BaseActorRenderContext *` | mBaseActorRenderContext
 8 | (8) `MolangVariableMap *` | mVariables
 16 | (8) `AnimationComponent *` | mAnimationComponent
@@ -129,55 +129,55 @@ Offset | Type | Name
 
 ### `RenderParams::<unnamed_type_mFlags>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `$E505BEC45AB602A133511C2B9263C9DC` | __s0
 1 | (4) `unsigned int` | _data
 
 
 ### `RenderParams::<unnamed_type_mModParams>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `$8EE7526571220F033655C348230167E3` | __s0
 
 
 ### `ResourcePackRepository::_loadPacks::__l2::<lambda_2e98b8efac21cbcaf57148d7907a3e04>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `Random`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2516) `Bedrock::Application::ThreadOwner<Core::Random>` | mRandom
 
 
 ### `Recipes::sortRecipesByPriority::__l2::<lambda_fa6c4c313829428246aceaa48580a04c>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `Range<int,1>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `const int` | mBeginIDX
 4 | (4) `const int` | mEndIDX
 
 
 ### `Range<int,-1>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `const int` | mBeginIDX
 4 | (4) `const int` | mEndIDX
 
 
 ### `RuntimeLightingManager::_sortChunksToProcessByDistance::__l2::<lambda_833755c377e78ca9d63b7ad5a536fa2f>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ResetEventObj`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (72) `std::condition_variable` | mCondition
 72 | (80) `std::mutex` | mMutex
 152 | (1) `std::atomic<bool>` | mSet
@@ -186,7 +186,7 @@ Offset | Type | Name
 
 ### `RakNet::TCPInterface`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `RakNet::TCPInterface_vtbl *` | __vftable
 8 | (16) `DataStructures::List<RakNet::PluginInterface2 *>` | messageHandlerList
 24 | (4) `RakNet::LocklessUint32_t` | isStarted
@@ -216,19 +216,19 @@ Offset | Type | Name
 
 ### `RakNet::LocklessUint32_t`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `volatile int` | value
 
 
 ### `RakNet::SimpleMutex`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `_RTL_CRITICAL_SECTION` | criticalSection
 
 
 ### `RakNet::RakNetRandom`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2500) `unsigned int[625]` | state
 2504 | (8) `unsigned int *` | next
 2512 | (4) `int` | left
@@ -236,12 +236,12 @@ Offset | Type | Name
 
 ### `RakStringCleanup`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `RakNet::RakNetStatistics`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (56) `unsigned __int64[7]` | valueOverLastSecond
 56 | (56) `unsigned __int64[7]` | runningTotal
 112 | (8) `unsigned __int64` | connectionStartTime
@@ -259,25 +259,25 @@ Offset | Type | Name
 
 ### `RecipeIngredient`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (88) `ItemDescriptorCount` | baseclass_0
 
 
 ### `RenderControllerPtr`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<RenderControllerInfo>` | mRenderControllerInfoPtr
 
 
 ### `ResourcePackListener`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ResourcePackListener_vtbl *` | __vftable
 
 
 ### `Realms::ConfigInfo::Version`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | branch
 32 | (32) `std::string` | reference
 64 | (8) `unsigned __int64` | releaseDate
@@ -285,7 +285,7 @@ Offset | Type | Name
 
 ### `ReplayStateConfig`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `ReplayStateConfigThresholds` | mSupportedThresholds
 16 | (16) `ReplayStateConfigThresholds` | mUnsupportedThresholds
 32 | (1) `_BYTE[1]` | mMode
@@ -296,7 +296,7 @@ Offset | Type | Name
 
 ### `ReplayStateConfigThresholds`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float` | mPositionThreshold
 4 | (4) `float` | mVelocityThreshold
 8 | (4) `float` | mPositionAcceptance
@@ -305,7 +305,7 @@ Offset | Type | Name
 
 ### `RakNet::RakString::SharedString`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `RakNet::SimpleMutex *` | refCountMutex
 8 | (4) `unsigned int` | refCount
 16 | (8) `unsigned __int64` | bytesUsed
@@ -316,7 +316,7 @@ Offset | Type | Name
 
 ### `RUNTIME_FUNCTION`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `` | FunctionStart
 4 | (4) `` | FunctionEnd
 8 | (4) `` | UnwindInfo
@@ -324,21 +324,21 @@ Offset | Type | Name
 
 ### `ResourcePath`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | mPackId
 32 | (32) `std::string` | mPath
 
 
 ### `RealmsAllowListScreenController::_initializeLinkedAccounts::__l7::<lambda_441d0914016a9b6c305a20f36bc5f2f0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<RealmsAllowListScreenController>` | weakThis
 16 | (24) `const std::vector<Social::PlatformUserProfileData>` | platformProfiles
 
 
 ### `Realms::Player`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | name
 32 | (32) `std::string` | xuid
 64 | (32) `std::string` | realName
@@ -351,7 +351,7 @@ Offset | Type | Name
 
 ### `RealmPlayer`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (120) `Realms::Player` | baseclass_0
 120 | (4) `RealmsAPI::InviteAction` | mInviteAction
 124 | (4) `RealmsAPI::InviteAction` | mOperatorAction
@@ -362,20 +362,20 @@ Offset | Type | Name
 
 ### `RealmsAllowListScreenController::_registerBindings::__l2::<lambda_ffa8c62518328c288fb5859793a18aa7>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `RealmsAllowListScreenController *const` | __this
 
 
 ### `RealmsAllowListScreenController::_handleUpdateFailed::__l7::<lambda_23eaf5da90f5d5b82364d0cdbe959780>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<RealmsAllowListScreenController>` | weakThis
 16 | (64) `std::function<void __cdecl(void)>` | callback
 
 
 ### `RealmsAllowListScreenController::_clearMemberList::__l2::<lambda_695f03986dde6d536e9984c5aa9486cd>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<RealmsAllowListScreenController>` | weakThis
 16 | (16) `std::map<std::string,enum RealmsAPI::InviteAction>` | inviteActions
 32 | (4) `int` | numbersCleared
@@ -383,7 +383,7 @@ Offset | Type | Name
 
 ### `RealmsAllowListScreenController::sendInvites::__l2::<lambda_ca52ab4501a534a33414fe996c204035>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<RealmsAllowListScreenController>` | weakThis
 16 | (64) `std::function<void __cdecl(void)>` | callback
 80 | (16) `std::map<std::string,enum RealmsAPI::InviteAction>` | inviteActions
@@ -392,14 +392,14 @@ Offset | Type | Name
 
 ### `RealmsAllowListScreenController::sendInvites::__l2::<lambda_ca52ab4501a534a33414fe996c204035>::()::__l20::<lambda_8f0c218e3b3b6347718eea49b1047da9>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<RealmsAllowListScreenController>` | weakThis
 16 | (64) `std::function<void __cdecl(void)>` | callback
 
 
 ### `Realms::InviteLink`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | linkId
 32 | (32) `std::string` | profileUuid
 64 | (32) `std::string` | type
@@ -409,7 +409,7 @@ Offset | Type | Name
 
 ### `Realms::World`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Realms::RealmId` | id
 8 | (4) `Realms::World::State` | state
 16 | (32) `std::string` | name
@@ -435,13 +435,13 @@ Offset | Type | Name
 
 ### `Realms::RealmId`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `NewType<__int64>` | baseclass_0
 
 
 ### `ReplayStateComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::unique_ptr<ActorHistory>` | mHistory
 8 | (8) `std::unique_ptr<IReplayStatePolicy>` | mPolicy
 16 | (8) `unsigned __int64` | mCurrentTick
@@ -449,7 +449,7 @@ Offset | Type | Name
 
 ### `RenderChunkBuilder`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<ChunkViewSource>` | mLocalSource
 16 | (8) `std::unique_ptr<BlockTessellator>` | mBlockTessellator
 24 | (1) `bool` | mAllDark
@@ -474,14 +474,14 @@ Offset | Type | Name
 
 ### `RangeIndices`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mStart
 4 | (4) `int` | mCount
 
 
 ### `RenderChunkInstanced`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float` | mDistanceFromCamera2
 4 | (4) `float` | mChunkBuildPriority
 8 | (1) `__int8` | _bf_8
@@ -504,7 +504,7 @@ Offset | Type | Name
 
 ### `RenderChunkSorter`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<unsigned char>` | mRawIndexBytes
 24 | (112) `std::array<RangeIndices,14>` | mSortedLayers
 136 | (112) `std::array<RangeIndices,14>` | mLayers
@@ -517,7 +517,7 @@ Offset | Type | Name
 
 ### `RetryDelay`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mDelayMs
 4 | (4) `int` | mMaxDelayMs
 8 | (4) `int` | mRetryCount
@@ -529,14 +529,14 @@ Offset | Type | Name
 
 ### `ResourceLoaderLocationExpander`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IResourceLocationExpander` | baseclass_0
 8 | (8) `const ResourceLoader *` | mResourceLoader
 
 
 ### `ResourceLocationPair`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (56) `ResourceLocation` | mResourceLocation
 56 | (136) `PackIdVersion` | mPackId
 192 | (4) `int` | mPackPosition
@@ -544,7 +544,7 @@ Offset | Type | Name
 
 ### `RawInputScreenEventData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | id
 4 | (1) `RawInputType` | keyType
 5 | (1) `ButtonState` | state
@@ -553,7 +553,7 @@ Offset | Type | Name
 
 ### `RenderChunkRenderQueueParameters`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const TerrainLayer *` | mTerrainLayer
 8 | (8) `const std::vector<mce::ServerTexture> *` | mTextures
 16 | (2) `const unsigned __int16` | mInstanceCount
@@ -561,14 +561,14 @@ Offset | Type | Name
 
 ### `RopeAABB`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (28) `AABB` | mBB
 28 | (1) `bool` | mDenyListed
 
 
 ### `ResourcePackCopyProgressHandler::onStart::__l2::<lambda_d96584963d966b1b2f694c214afd8640>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `MinecraftScreenModel *` | minecraftScreenModel
 8 | (24) `const std::vector<PackInstance>` | resourcePackStack
 32 | (24) `const std::vector<PackInstance>` | behaviorPackStack
@@ -578,13 +578,13 @@ Offset | Type | Name
 
 ### `ResourceSignature`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::unordered_map<std::string,std::string>` | mSignatureFileContents
 
 
 ### `RealmsPurchaseDetails`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | foundPayload
 4 | (4) `RealmsOfferTier` | offerTier
 8 | (32) `std::string` | productSku
@@ -596,20 +596,20 @@ Offset | Type | Name
 
 ### `RealmsCreateScreenController::_verifyAppStoreReady::__l10::<lambda_a9a82af7daade8e888113d0905d8b9e8>::()::__l2::<lambda_7bbfac4acde520e62dcdb5f5174dc939>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<RealmsCreateScreenController>` | weakThis
 16 | (64) `std::function<void __cdecl(void)>` | readyCallback
 
 
 ### `RealmsCreateScreenController::_promptPrepareAppStore::__l2::<lambda_f91a03e943035590cb0def0c73cd449a>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::function<void __cdecl(bool)>` | callback
 
 
 ### `RealmsStoreOffer`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mPrice
 8 | (32) `std::string` | mProductId
 40 | (32) `std::string` | mSalesDocId
@@ -617,14 +617,14 @@ Offset | Type | Name
 
 ### `RealmsCreateScreenController::_promptForCoinsPurchaseFulfillment::__l2::<lambda_19594e823628c853cfd91f333e3e6917>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<RealmsCreateScreenController>` | weakThis
 16 | (72) `RealmsStoreOffer` | realmsStoreOffer
 
 
 ### `Realms::SubscriptionInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `Realms::SubscriptionInfo::PurchaseType` | purchaseType
 8 | (32) `std::string` | id
 40 | (32) `std::string` | storeId
@@ -634,14 +634,14 @@ Offset | Type | Name
 
 ### `RealmsPlusPDPScreenController::_getRealmSubscriptionFromWorld::__l2::<lambda_47ea2d851de30b3b20023f023d182025>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Realms::RealmId` | realmId
 8 | (16) `std::weak_ptr<RealmsPlusPDPScreenController>` | weakThis
 
 
 ### `RealmsSettingsScreenController::_updateWorld::__l2::<lambda_171cf9e84184033586cecc5fe1a1d0c1>::()::__l5::<lambda_87a6a684392dd938b2301e6a1aa7a585>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<RealmsSettingsScreenController>` | weakThis
 16 | (24) `std::vector<std::string>` | allXuids
 40 | (24) `std::vector<std::string>` | blockList
@@ -649,21 +649,21 @@ Offset | Type | Name
 
 ### `RealmsSettingsScreenController::_saveSettings::__l8::<lambda_5835d7f80d46f0f2012ffe2740db5e4d>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<RealmsSettingsScreenController>` | weakThis
 16 | (64) `std::function<void __cdecl(bool)>` | actionAfterSave
 
 
 ### `RealmsSettingsScreenController::_saveSettings::__l8::<lambda_5835d7f80d46f0f2012ffe2740db5e4d>::()::__l5::<lambda_80f517ed39e6e005aef8071f0428f0d6>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<RealmsSettingsScreenController>` | weakThis
 16 | (64) `std::function<void __cdecl(bool)>` | actionAfterSave
 
 
 ### `RealmsSettingsScreenController::_applyPacks::__l8::<lambda_61191b8658ecd12074656f8fe5f60426>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<RealmsSettingsScreenController>` | weakThis
 16 | (64) `std::function<void __cdecl(std::vector<Realms::Content>)>` | applyContentAction
 80 | (24) `std::vector<PackContentItem *>` | selectedContent
@@ -671,7 +671,7 @@ Offset | Type | Name
 
 ### `Realms::Content`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `_BYTE[4]` | type
 8 | (32) `std::string` | contentId
 40 | (32) `std::string` | parentPackId
@@ -679,7 +679,7 @@ Offset | Type | Name
 
 ### `RealmsSettingsScreenController::_addContentToBeAppliedAndUploadIfNeeded::__l31::<lambda_2b270bcc608b43c1b68344f25db856b1>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<RealmsSettingsScreenController>` | weakThis
 16 | (16) `std::shared_ptr<std::vector<Realms::Content> >` | contentToApply
 32 | (32) `Core::PathBuffer<std::string >` | contentPath
@@ -693,7 +693,7 @@ Offset | Type | Name
 
 ### `RealmsSettingsScreenController::_addContentToBeAppliedAndUploadIfNeeded::__l31::<lambda_2b270bcc608b43c1b68344f25db856b1>::()::__l10::<lambda_d0af041332319da85b8df0317b569e64>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<RealmsSettingsScreenController>` | weakThis
 16 | (16) `std::shared_ptr<std::vector<Realms::Content> >` | contentToApply
 32 | (1) `_BYTE[1]` | contentPackType
@@ -706,7 +706,7 @@ Offset | Type | Name
 
 ### `RealmsSettingsScreenController::_createApplyContentOnRealmProgressCallbackChain::__l2::<lambda_843dae073ea86557239b208b1e8c37d9>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<RealmsSettingsScreenController>` | weakThis
 16 | (16) `RealmsSettingsScreenController::_createApplyContentOnRealmProgressCallbackChain::__l2::<lambda_fd3ade5acd31013d2ac4022ef1975c3c>` | progressScreenTickCallback
 32 | (80) `RealmsSettingsScreenController::_createApplyContentOnRealmProgressCallbackChain::__l2::<lambda_c8677b5df21d203ed2364daaaae69e34>` | completedCallback
@@ -715,26 +715,26 @@ Offset | Type | Name
 
 ### `RealmsSettingsScreenController::_createApplyContentOnRealmProgressCallbackChain::__l2::<lambda_fd3ade5acd31013d2ac4022ef1975c3c>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<RealmsSettingsScreenController>` | weakThis
 
 
 ### `RealmsSettingsScreenController::_createApplyContentOnRealmProgressCallbackChain::__l2::<lambda_c8677b5df21d203ed2364daaaae69e34>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<RealmsSettingsScreenController>` | weakThis
 16 | (64) `std::function<void __cdecl(void)>` | packApplyCallback
 
 
 ### `RealmsSettingsScreenController::_createApplyContentOnRealmProgressCallbackChain::__l2::<lambda_f585f21c4e3e0ed09f0ca83ec317010c>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<RealmsSettingsScreenController>` | weakThis
 
 
 ### `RealmsSettingsScreenController::_resetRealm::__l2::<lambda_bdc441493f82719fda019cf5b35f47e9>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<RealmsSettingsScreenController>` | weakThis
 16 | (48) `RealmsSettingsScreenController::_resetRealm::__l2::<lambda_6f6d2264a14d664e267a21913c18593c>` | progressScreenTickCallback
 64 | (16) `RealmsSettingsScreenController::_resetRealm::__l2::<lambda_63c1c7606b648a8dc2ea0f9d90b31639>` | completedCallback
@@ -744,7 +744,7 @@ Offset | Type | Name
 
 ### `RealmsSettingsScreenController::_resetRealm::__l2::<lambda_6f6d2264a14d664e267a21913c18593c>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<RealmsSettingsScreenController>` | weakThis
 16 | (16) `RealmsSettingsScreenController::_resetRealm::__l2::<lambda_63c1c7606b648a8dc2ea0f9d90b31639>` | completedCallback
 32 | (16) `RealmsSettingsScreenController::_resetRealm::__l2::<lambda_ff7ea9bb12e7c65d2ee5ac36aa3d43b4>` | retryCallback
@@ -752,25 +752,25 @@ Offset | Type | Name
 
 ### `RealmsSettingsScreenController::_resetRealm::__l2::<lambda_63c1c7606b648a8dc2ea0f9d90b31639>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<RealmsSettingsScreenController>` | weakThis
 
 
 ### `RealmsSettingsScreenController::_resetRealm::__l2::<lambda_ff7ea9bb12e7c65d2ee5ac36aa3d43b4>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<RealmsSettingsScreenController>` | weakThis
 
 
 ### `RealmsSettingsScreenController::_resetRealm::__l2::<lambda_a1aec860c88407b4bb33eccf58e4b486>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<RealmsSettingsScreenController>` | weakThis
 
 
 ### `RealmsSettingsScreenController::_openCloseRealm::__l2::<lambda_90f93503afcb2150f364e9799f89ed0c>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<RealmsSettingsScreenController>` | weakThis
 16 | (1) `bool` | isRequestToOpen
 24 | (64) `RealmsSettingsScreenController::_openCloseRealm::__l2::<lambda_b71d30541d1b0e7712c9c0fe81f5c831>` | progressScreenTickCallback
@@ -781,7 +781,7 @@ Offset | Type | Name
 
 ### `RealmsSettingsScreenController::_openCloseRealm::__l2::<lambda_b71d30541d1b0e7712c9c0fe81f5c831>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<RealmsSettingsScreenController>` | weakThis
 16 | (24) `RealmsSettingsScreenController::_openCloseRealm::__l2::<lambda_7c914378f6e8cb75fbd63a0b27decab4>` | completedCallback
 40 | (16) `RealmsSettingsScreenController::_openCloseRealm::__l2::<lambda_fbeb9486a735f4eed9eccef9c594350d>` | retryCallback
@@ -790,26 +790,26 @@ Offset | Type | Name
 
 ### `RealmsSettingsScreenController::_openCloseRealm::__l2::<lambda_7c914378f6e8cb75fbd63a0b27decab4>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<RealmsSettingsScreenController>` | weakThis
 16 | (1) `bool` | isRequestToOpen
 
 
 ### `RealmsSettingsScreenController::_openCloseRealm::__l2::<lambda_fbeb9486a735f4eed9eccef9c594350d>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<RealmsSettingsScreenController>` | weakThis
 
 
 ### `RealmsSettingsScreenController::_openCloseRealm::__l2::<lambda_891faa9bc01efec95ba1d04b372bca1e>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<RealmsSettingsScreenController>` | weakThis
 
 
 ### `RealmsSettingsScreenController::_downloadWorld::__l2::<lambda_5adb1e206583e30faad1b80412e5fcaf>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<RealmsSettingsScreenController>` | weakThis
 16 | (80) `const Realms::Backup` | realmBackup
 96 | (16) `RealmsSettingsScreenController::_downloadWorld::__l2::<lambda_289f928b773cf1c3b7290561b1cf78a1>` | downloadFile
@@ -817,7 +817,7 @@ Offset | Type | Name
 
 ### `Realms::Backup`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | id
 32 | (8) `__int64` | timestamp
 40 | (8) `__int64` | worldSizeBytes
@@ -826,13 +826,13 @@ Offset | Type | Name
 
 ### `RealmsSettingsScreenController::_downloadWorld::__l2::<lambda_289f928b773cf1c3b7290561b1cf78a1>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<RealmsSettingsScreenController>` | weakThis
 
 
 ### `RealmsSettingsScreenController::_handleRealmBackupDownloadButtonClick::__l5::<lambda_c0ed1b3a441903df14dc6937b1f396b3>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<RealmsSettingsScreenController>` | weakThis
 16 | (80) `const Realms::Backup` | realmBackup
 96 | (8) `const __int64` | time
@@ -840,7 +840,7 @@ Offset | Type | Name
 
 ### `RealmsSettingsScreenController::_handleRealmBackupDownloadButtonClick::__l5::<lambda_c0ed1b3a441903df14dc6937b1f396b3>::()::__l5::<lambda_39edf9bcf95b2d1e730007042025a413>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<RealmsSettingsScreenController>` | weakThis
 16 | (80) `const Realms::Backup` | realmBackup
 96 | (8) `const __int64` | time
@@ -848,13 +848,13 @@ Offset | Type | Name
 
 ### `RealmsSettingsScreenController::_displayModalPopup::__l2::<lambda_75ea1a14d1c1a37dbf0107105d586bf3>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::function<void __cdecl(bool)>` | callback
 
 
 ### `ResourcePacksScreenController::_launchPlatformLockedDialog::__l5::<lambda_251eb84df17d9be97deade058ed4f799>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<ResourcePacksScreenController>` | weakThis
 16 | (8) `ContentView *` | contentView
 24 | (4) `int` | collectionIndex
@@ -866,13 +866,13 @@ Offset | Type | Name
 
 ### `ResourcePacksScreenController::_registerBindings::__l2::<lambda_b2fce6e6e34fd54c73ef0abd93d8e65a>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ResourcePacksScreenController *const` | __this
 
 
 ### `ResourceMetadata`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<std::string>` | mAuthors
 24 | (32) `std::string` | mUrl
 56 | (32) `std::string` | mLicense
@@ -880,7 +880,7 @@ Offset | Type | Name
 
 ### `ResourcePacksScreenController::_handleSelectedPackMoveClicked::__l25::<lambda_221c7c165bbd12366fc736ee34526b21>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<ResourcePacksScreenController>` | weakThis
 16 | (1008) `const PackManifest` | manifest
 1024 | (8) `ContentView *` | contentView
@@ -888,7 +888,7 @@ Offset | Type | Name
 
 ### `ResourcePackStack`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ResourcePackStack_vtbl *` | __vftable
 8 | (24) `std::vector<PackInstance>` | mStack
 32 | (8) `std::unique_ptr<PackSourceReport>` | mPackSourceReport
@@ -896,7 +896,7 @@ Offset | Type | Name
 
 ### `RealmsFileUploader::RealmUploadInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | worldId
 32 | (32) `std::string` | token
 64 | (32) `std::string` | uploadUrl
@@ -917,14 +917,14 @@ Offset | Type | Name
 
 ### `RealmsFileUploader::UploadResultBuilder`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | eventLine
 32 | (32) `std::string` | dataLine
 
 
 ### `ResourceInformation`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | mDescription
 32 | (112) `SemVersion` | mVersion
 144 | (16) `mce::UUID` | mUUID
@@ -934,7 +934,7 @@ Offset | Type | Name
 
 ### `RealmsCreateParams`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `const RealmsPurchaseIntent` | mPurchaseIntent
 8 | (32) `const std::string` | mWorldName
 40 | (32) `const std::string` | mSubscriptionId
@@ -948,7 +948,7 @@ Offset | Type | Name
 
 ### `RenderControlMetadata`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<UIControl>` | control
 16 | (40) `BatchClippingState` | clippingState
 56 | (8) `BatchVisualState` | visualState
@@ -956,7 +956,7 @@ Offset | Type | Name
 
 ### `ReadOnlyBinaryStream`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ReadOnlyBinaryStream_vtbl *` | __vftable
 8 | (8) `unsigned __int64` | mReadPointer
 16 | (1) `bool` | mHasOverflowed
@@ -966,7 +966,7 @@ Offset | Type | Name
 
 ### `ResourcePackDataInfoPacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `Packet` | baseclass_0
 40 | (32) `std::string` | mResourceName
 72 | (4) `unsigned int` | mChunkSize
@@ -979,21 +979,21 @@ Offset | Type | Name
 
 ### `RealmsAPI::initializeRealmsUserEventHandler::__l2::<lambda_fa9eb312a75ee33babb6c8319da8da7d>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<RealmsAPI>` | weakThis
 16 | (80) `RealmsAPI::initializeRealmsUserEventHandler::__l2::<lambda_b76fcd16b74697c64f8abe7e1fbd1833>` | trialCallback
 
 
 ### `RealmsAPI::initializeRealmsUserEventHandler::__l2::<lambda_b76fcd16b74697c64f8abe7e1fbd1833>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<RealmsAPI>` | weakThis
 16 | (64) `std::function<std::shared_ptr<Social::User> __cdecl(void)>` | _getPrimaryUser
 
 
 ### `Realms::SubscriptionService::SubscriptionQuery`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Realms::RealmId` | realmId
 8 | (4) `unsigned int` | queryAttemptsMade
 16 | (8) `std::chrono::time_point<std::chrono::steady_clock,std::chrono::duration<__int64,std::ratio<1,1000000000> > >` | lastRefreshAttemptTime
@@ -1004,14 +1004,14 @@ Offset | Type | Name
 
 ### `Realms::SubscriptionService::_performSubscriptionQuery::__l5::<lambda_6eeb4d705739d17df69ee46630d45e14>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<Realms::SubscriptionService>` | weakThis
 16 | (8) `Realms::RealmId` | realmId
 
 
 ### `Realms::SubscriptionService::CachedSubscription`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Realms::RealmId` | realmId
 8 | (80) `Realms::SubscriptionInfo` | subscriptionInfo
 88 | (8) `std::chrono::time_point<std::chrono::steady_clock,std::chrono::duration<__int64,std::ratio<1,1000000000> > >` | expirationTime
@@ -1019,7 +1019,7 @@ Offset | Type | Name
 
 ### `RemappingLayout`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `RemappingLayout_vtbl *` | __vftable
 8 | (24) `std::vector<Keymapping>` | mKeymappings
 32 | (24) `std::vector<Keymapping>` | mDefaultMappings
@@ -1027,7 +1027,7 @@ Offset | Type | Name
 
 ### `RemotePlayer::playEmote::__l18::<lambda_32ca8873dc8d58447c91938030c4f9b9>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<bool>` | weakExistence
 16 | (8) `PersonaRepository *` | personaRepository
 24 | (32) `const std::string` | pieceId
@@ -1035,7 +1035,7 @@ Offset | Type | Name
 
 ### `RopeWave`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (12) `Vec3` | mForce
 12 | (4) `float` | mSpeed
 16 | (4) `float` | mDamping
@@ -1046,19 +1046,19 @@ Offset | Type | Name
 
 ### `Range<int,-1>::iterator`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mIndex
 
 
 ### `RenderChunkBits`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (736) `std::bitset<5832>` | mBits
 
 
 ### `RenderChunkCoordinator::DirtyChunkData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | mImmediate
 1 | (1) `bool` | mChangesVisibility
 4 | (4) `std::bitset<6>` | mInterlockBitField
@@ -1066,7 +1066,7 @@ Offset | Type | Name
 
 ### `RenderChunkVisibilityBuilder`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | mAllDark
 1 | (1) `bool` | mSkyLit
 2 | (6) `VisibilityNode` | mVisibility
@@ -1076,57 +1076,57 @@ Offset | Type | Name
 
 ### `RenderChunkInstanced::createLayerRenderObject::__l2::<lambda_7625e103360d3e551555490519cd97c2>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `RenderChunkInstanced::createLayerRenderObject::__l2::<lambda_a9ff2fc524dc959b011c3f226a1ef25b>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `RenderChunkInstanced::promoteSortedGeometry::__l2::<lambda_5f8c4a4c624541123271290ae21b2013>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `RenderChunkInstanced::promoteSortedGeometry::__l2::<lambda_b559a75f772e7c4c981d41b43e1aabbe>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `RenderChunkInstanced::prefetchIndexBufferPtr::__l2::<lambda_e40dd031a90a08d6d5d2f9c21e88995c>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `RenderChunkInstanced::prefetchIndexBufferPtr::__l2::<lambda_8249f339d7b54daa285aa378ab1a26f3>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `RenderChunkShared::BlockActorBlockSyncMessageWithVersion`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `BlockActorBlockSyncMessage` | mBlockEntityBlockSyncMessage
 16 | (1) `unsigned __int8` | mRenderChunkGeometryVersion
 
 
 ### `rendergraph::RenderContext`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `BaseActorRenderContext *` | mEntityContext
 8 | (8) `const FrameRenderObject *` | mFrameRenderObject
 
 
 ### `rendergraph::DeclarationInterface`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `rendergraph::RenderOrder *` | mOwner
 
 
 ### `rendergraph::ResourceBinding`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `rendergraph::ResourceBinding::AccessType` | mAccessType
 4 | (4) `rendergraph::ResourceBinding::ResourceType` | mResourceType
 8 | (4) `rendergraph::ResourceBinding::ShaderStage` | mShaderStage
@@ -1135,14 +1135,14 @@ Offset | Type | Name
 
 ### `rendergraph::FrameBufferBuilder`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<rendergraph::FrameBufferBuilder::Packet>` | mColorAttachmentCreations
 24 | (16) `rendergraph::FrameBufferBuilder::Packet` | mDepthStencilAttachmentCreation
 
 
 ### `rendergraph::FrameBufferBuilder::Packet`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const mce::Texture *` | mAttachmentTexture
 8 | (1) `unsigned __int8` | mMipLevel
 9 | (1) `unsigned __int8` | mArrayIndex
@@ -1150,27 +1150,27 @@ Offset | Type | Name
 
 ### `rendergraph::PassBuilderInterface`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `rendergraph::RenderOrder *` | mOwner
 8 | (8) `rendergraph::Pass *` | mPass
 
 
 ### `ResourcePackMergeStrategy`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ResourcePackMergeStrategy_vtbl *` | __vftable
 
 
 ### `RealmsTransactionHandler::_checkReceiptFulfillment_WindowsOneStore::__l2::<lambda_6790c76a3f29e4af615f0784be2d3342>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `RealmsTransactionHandler *const` | __this
 8 | (24) `const std::vector<std::weak_ptr<Purchase>>` | unknownPurchases
 
 
 ### `ReceiptData_Google`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | mPackageName
 32 | (32) `std::string` | mPurchaseToken
 64 | (32) `std::string` | mProductId
@@ -1178,28 +1178,28 @@ Offset | Type | Name
 
 ### `RealmsTransactionHandler::_checkReceiptFulfillment_GooglePlayStore::__l2::<lambda_4fafaee95a15d3a567fa229153ed742a>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `RealmsTransactionHandler *const` | __this
 8 | (24) `const std::vector<std::weak_ptr<Purchase>>` | unknownPurchases
 
 
 ### `RealmsTransactionHandler::_checkReceiptFulfillment_AmazonAppStore::__l2::<lambda_e6db3824fe4812753fdb4658578d9e35>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `RealmsTransactionHandler *const` | __this
 8 | (24) `const std::vector<std::weak_ptr<Purchase>>` | unknownPurchases
 
 
 ### `RealmsTransactionHandler::_checkReceiptFulfillment_iOSAppStore::__l2::<lambda_110fe8f5092e23faf87fb453e1367a4e>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `RealmsTransactionHandler *const` | __this
 8 | (24) `const std::vector<std::weak_ptr<Purchase>>` | unknownPurchases
 
 
 ### `ReceiptData_ps4`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mEnvironment
 8 | (32) `std::string` | mUserId
 40 | (32) `std::string` | mAuthCode
@@ -1210,21 +1210,21 @@ Offset | Type | Name
 
 ### `RealmsTransactionHandler::_checkReceiptFulfillment_ps4Store::__l2::<lambda_8daddbaa5ebef602c18ed584dd01d91c>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `RealmsTransactionHandler *const` | __this
 8 | (24) `const std::vector<std::weak_ptr<Purchase>>` | unknownPurchases
 
 
 ### `RegistryKey`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `HKEY__ *` | mHandle
 8 | (4) `unsigned int` | mAccess
 
 
 ### `RECT`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | left
 4 | (4) `int` | top
 8 | (4) `int` | right
@@ -1233,7 +1233,7 @@ Offset | Type | Name
 
 ### `Renderers::InsertChunkLayer::__l14::<lambda_1c11bfcb28a4a2848ad13caa46ffc263>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `mce::framebuilder::FrameBuilder *` | frameBuilder
 8 | (8) `const std::vector<ChunkLayerRenderObject> *` | queue
 16 | (8) `const ChunkRenderObjectCollection *` | chunkState
@@ -1251,19 +1251,19 @@ Offset | Type | Name
 
 ### `rapidjson::GenericMemberIterator<0,rapidjson::UTF8<char>,rapidjson::MemoryPoolAllocator<rapidjson::CrtAllocator> >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `rapidjson::GenericMember<rapidjson::UTF8<char>,rapidjson::MemoryPoolAllocator<rapidjson::CrtAllocator> > *` | ptr_
 
 
 ### `rapidjson::GenericValue<rapidjson::UTF8<char>,rapidjson::MemoryPoolAllocator<rapidjson::CrtAllocator> >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `rapidjson::GenericValue<rapidjson::UTF8<char>,rapidjson::MemoryPoolAllocator<rapidjson::CrtAllocator> >::Data` | data_
 
 
 ### `rapidjson::GenericValue<rapidjson::UTF8<char>,rapidjson::MemoryPoolAllocator<rapidjson::CrtAllocator> >::Data`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `rapidjson::GenericValue<rapidjson::UTF8<char>,rapidjson::MemoryPoolAllocator<rapidjson::CrtAllocator> >::String` | s
 1 | (14) `rapidjson::GenericValue<rapidjson::UTF8<char>,rapidjson::MemoryPoolAllocator<rapidjson::CrtAllocator> >::ShortString` | _ss
 2 | (8) `rapidjson::GenericValue<rapidjson::UTF8<char>,rapidjson::MemoryPoolAllocator<rapidjson::CrtAllocator> >::Number` | n
@@ -1274,7 +1274,7 @@ Offset | Type | Name
 
 ### `rapidjson::GenericValue<rapidjson::UTF8<char>,rapidjson::MemoryPoolAllocator<rapidjson::CrtAllocator> >::String`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | length
 4 | (4) `unsigned int` | hashcode
 8 | (8) `const char *` | str
@@ -1282,13 +1282,13 @@ Offset | Type | Name
 
 ### `rapidjson::GenericValue<rapidjson::UTF8<char>,rapidjson::MemoryPoolAllocator<rapidjson::CrtAllocator> >::ShortString`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (14) `char[14]` | str
 
 
 ### `rapidjson::GenericValue<rapidjson::UTF8<char>,rapidjson::MemoryPoolAllocator<rapidjson::CrtAllocator> >::Number`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `rapidjson::GenericValue<rapidjson::UTF8<char>,rapidjson::MemoryPoolAllocator<rapidjson::CrtAllocator> >::Number::I` | i
 1 | (8) `rapidjson::GenericValue<rapidjson::UTF8<char>,rapidjson::MemoryPoolAllocator<rapidjson::CrtAllocator> >::Number::U` | u
 2 | (8) `__int64` | i64
@@ -1298,21 +1298,21 @@ Offset | Type | Name
 
 ### `rapidjson::GenericValue<rapidjson::UTF8<char>,rapidjson::MemoryPoolAllocator<rapidjson::CrtAllocator> >::Number::I`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | i
 4 | (4) `char[4]` | padding
 
 
 ### `rapidjson::GenericValue<rapidjson::UTF8<char>,rapidjson::MemoryPoolAllocator<rapidjson::CrtAllocator> >::Number::U`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | u
 4 | (4) `char[4]` | padding2
 
 
 ### `rapidjson::GenericValue<rapidjson::UTF8<char>,rapidjson::MemoryPoolAllocator<rapidjson::CrtAllocator> >::ObjectData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | size
 4 | (4) `unsigned int` | capacity
 8 | (8) `rapidjson::GenericMember<rapidjson::UTF8<char>,rapidjson::MemoryPoolAllocator<rapidjson::CrtAllocator> > *` | members
@@ -1320,7 +1320,7 @@ Offset | Type | Name
 
 ### `rapidjson::GenericValue<rapidjson::UTF8<char>,rapidjson::MemoryPoolAllocator<rapidjson::CrtAllocator> >::ArrayData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | size
 4 | (4) `unsigned int` | capacity
 8 | (8) `rapidjson::GenericValue<rapidjson::UTF8<char>,rapidjson::MemoryPoolAllocator<rapidjson::CrtAllocator> > *` | elements
@@ -1328,76 +1328,76 @@ Offset | Type | Name
 
 ### `rapidjson::GenericValue<rapidjson::UTF8<char>,rapidjson::MemoryPoolAllocator<rapidjson::CrtAllocator> >::Flag`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (14) `char[14]` | payload
 14 | (2) `unsigned __int16` | flags
 
 
 ### `reflection::factory<ArmorItemComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `rapidjson::GenericStringStream<rapidjson::UTF8<char> >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const char *` | src_
 8 | (8) `const char *` | head_
 
 
 ### `reflection::factory<CooldownItemComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `reflection::factory<DyePowderItemComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `reflection::factory<EntityPlacerItemComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `reflection::factory<FuelItemComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `reflection::factory<IconItemComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `reflection::factory<KnockbackResistanceItemComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `reflection::factory<OnUseItemComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `reflection::factory<OnUseOnItemComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `reflection::factory<PlanterItemComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `reflection::factory<ProjectileItemComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `RepairItemEntry`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<ItemDescriptor>` | mItems
 24 | (216) `ExpressionNode` | mRepairAmount
 240 | (320) `DefinitionTrigger` | mOnRepaired
@@ -1405,29 +1405,29 @@ Offset | Type | Name
 
 ### `reflection::factory<ThrowableItemComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `reflection::factory<WeaponItemComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `reflection::factory<WearableItemComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `RakNet::AddressOrGUID`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `RakNet::RakNetGUID` | rakNetGuid
 16 | (136) `RakNet::SystemAddress` | systemAddress
 
 
 ### `Recipe`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Recipe_vtbl *` | __vftable
 8 | (32) `std::string` | mRecipeId
 40 | (64) `ItemPack` | mMyItems
@@ -1442,7 +1442,7 @@ Offset | Type | Name
 
 ### `RakNet::BitStream`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | numberOfBitsUsed
 4 | (4) `unsigned int` | numberOfBitsAllocated
 8 | (4) `unsigned int` | readOffset
@@ -1453,20 +1453,20 @@ Offset | Type | Name
 
 ### `RakNetInstance::PingCallbackData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | mAddress
 32 | (64) `std::function<void __cdecl(unsigned int)>` | mAction
 
 
 ### `RakNet::RakString`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `RakNet::RakString::SharedString *` | sharedString
 
 
 ### `RakNet::SocketDescriptor`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `unsigned __int16` | port
 2 | (32) `char[32]` | hostAddress
 34 | (2) `__int16` | socketFamily
@@ -1478,7 +1478,7 @@ Offset | Type | Name
 
 ### `RaidBossComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<Village>` | mVillage
 16 | (8) `ActorUniqueID` | mOwnerID
 24 | (32) `std::string` | mName
@@ -1494,7 +1494,7 @@ Offset | Type | Name
 
 ### `ResourcePackManager::loadTextureAsync::__l2::<lambda_d648c6709fc7e9b003b9f23a71bf9694>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<Bedrock::Threading::AsyncDeferredResultT<std::shared_ptr<mce::Image> > >` | resultTask
 16 | (16) `std::shared_ptr<Bedrock::Threading::IAsyncResult<std::string > >` | ioTask
 32 | (56) `const ResourceLocation` | resourceLocation
@@ -1502,7 +1502,7 @@ Offset | Type | Name
 
 ### `ResourcePackManager::findAllTexturesInUse::__l16::<lambda_20abcbdebb5959da404419a98c2c5015>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::unordered_map<ResourceLocation,std::pair<PackIdVersion,int>> *` | resourceLocations
 8 | (8) `const mce::UUID *` | uuid
 16 | (8) `const SemVersion *` | version
@@ -1514,13 +1514,13 @@ Offset | Type | Name
 
 ### `ResourcePackRepository::KnownPackContainer`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<ResourcePackRepository::KnownPackInfo>` | mPacks
 
 
 ### `ResourcePackRepository::KnownPackInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | mDiscoveredOnDisk
 8 | (56) `ResourceLocation` | mResourceLocation
 64 | (24) `std::vector<std::string>` | mPastHashes
@@ -1529,13 +1529,13 @@ Offset | Type | Name
 
 ### `ResolvedTextObject`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `const Json::Value` | mResolvedTextObjectJson
 
 
 ### `ResourcePackFileDownloaderManager::chunkReceived::__l5::<lambda_32b39bae93a8eaf436cc6bd68d71d7d7>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<ResourcePackFileDownloaderManager>` | weak_this
 16 | (24) `const FileChunkInfo` | chunkInfo
 40 | (24) `const std::vector<unsigned char>` | data
@@ -1543,7 +1543,7 @@ Offset | Type | Name
 
 ### `ResourcePackFileUploadManager::_uploadResourcePackFolder::__l2::<lambda_5f2dbbb69b6702709f27fe51108f8156>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<FileUploadManager>` | weak_this
 16 | (32) `const std::string` | resourcePack
 48 | (56) `const ResourceLocation` | resourcePackLocation
@@ -1554,7 +1554,7 @@ Offset | Type | Name
 
 ### `ResourcePackFileUploadManager::_uploadResourcePackFolder::__l2::<lambda_5f2dbbb69b6702709f27fe51108f8156>::()::__l5::<lambda_f7032ed69da7612d4ac394703c48ab55>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<FileUploadManager>` | weak_this
 16 | (32) `const std::string` | resourcePack
 48 | (32) `Core::PathBuffer<std::string >` | resourceZipPath
@@ -1563,14 +1563,14 @@ Offset | Type | Name
 
 ### `ResourcePackFileUploadManager::_uploadPackToRealmStorage::__l13::<lambda_d92af86e17aab0123f091326a380549e>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<FileUploadManager>` | weakThis
 16 | (32) `const std::string` | uploadId
 
 
 ### `ResourcePackFileUploadManager::_uploadPackToRealmStorage::__l13::<lambda_d92af86e17aab0123f091326a380549e>::()::__l8::<lambda_d3574ee4bb62746b42fd7d072130a453>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<FileUploadManager>` | weakThis
 16 | (32) `const std::string` | uploadId
 48 | (40) `FileArchiver::Result` | result
@@ -1578,14 +1578,14 @@ Offset | Type | Name
 
 ### `RuntimeIdentifierDescription`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `DefintionDescription` | baseclass_0
 8 | (32) `std::string` | mRuntimeId
 
 
 ### `RecipeSearchResult`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const Recipe *` | mRecipe
 8 | (24) `std::vector<SearchInfo>` | mSearchList
 32 | (24) `std::vector<RecipeIngredient>` | mIngredients
@@ -1594,7 +1594,7 @@ Offset | Type | Name
 
 ### `Recipes::Type`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Item *` | mItem
 8 | (8) `const Block *` | mBlock
 16 | (88) `RecipeIngredient` | mIngredient
@@ -1603,27 +1603,27 @@ Offset | Type | Name
 
 ### `Range<unsigned char,1>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `const unsigned __int8` | mBeginIDX
 1 | (1) `const unsigned __int8` | mEndIDX
 
 
 ### `Range<unsigned char,1>::iterator`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `unsigned __int8` | mIndex
 
 
 ### `Recipes::FurnaceRecipeKey`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mID
 8 | (48) `HashedString` | mTag
 
 
 ### `Recipes::NormalizedRectangularRecipeResults`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mWidth
 4 | (4) `int` | mHeight
 8 | (32) `std::string` | mNormalizedResult
@@ -1632,7 +1632,7 @@ Offset | Type | Name
 
 ### `RopeNode`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (12) `Vec3` | mPos
 12 | (12) `Vec3` | mPrevPos
 24 | (1) `char` | mFrictionAxis
@@ -1640,7 +1640,7 @@ Offset | Type | Name
 
 ### `rapidjson::GenericDocument<rapidjson::UTF8<char>,rapidjson::MemoryPoolAllocator<rapidjson::CrtAllocator>,rapidjson::CrtAllocator>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `rapidjson::GenericValue<rapidjson::UTF8<char>,rapidjson::MemoryPoolAllocator<rapidjson::CrtAllocator> >` | baseclass_0
 16 | (8) `rapidjson::MemoryPoolAllocator<rapidjson::CrtAllocator> *` | allocator_
 24 | (8) `rapidjson::MemoryPoolAllocator<rapidjson::CrtAllocator> *` | ownAllocator_
@@ -1650,7 +1650,7 @@ Offset | Type | Name
 
 ### `rapidjson::internal::Stack<rapidjson::CrtAllocator>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `rapidjson::CrtAllocator *` | allocator_
 8 | (8) `rapidjson::CrtAllocator *` | ownAllocator_
 16 | (8) `char *` | stack_
@@ -1661,14 +1661,14 @@ Offset | Type | Name
 
 ### `rapidjson::ParseResult`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `rapidjson::ParseErrorCode` | code_
 8 | (8) `unsigned __int64` | offset_
 
 
 ### `rendergraph::BindInterface`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `rendergraph::RenderOrder *` | mOwner
 8 | (8) `rendergraph::RenderContext *` | mRenderContext
 16 | (8) `rendergraph::ResourceEvent *` | mResourceEvent
@@ -1677,7 +1677,7 @@ Offset | Type | Name
 
 ### `RestClient::Response`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | code
 8 | (32) `std::string` | body
 40 | (64) `std::unordered_map<std::string,std::string>` | headers
@@ -1686,7 +1686,7 @@ Offset | Type | Name
 
 ### `rapidjson::AutoUTFInputStream<unsigned int,rapidjson::MemoryStream>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `rapidjson::MemoryStream *` | is_
 8 | (4) `rapidjson::UTFType` | type_
 12 | (4) `unsigned int` | current_
@@ -1696,7 +1696,7 @@ Offset | Type | Name
 
 ### `rapidjson::GenericReader<rapidjson::AutoUTF<unsigned int>,rapidjson::UTF8<char>,rapidjson::CrtAllocator>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (48) `rapidjson::internal::Stack<rapidjson::CrtAllocator>` | stack_
 48 | (16) `rapidjson::ParseResult` | parseResult_
 64 | (4) `rapidjson::GenericReader<rapidjson::AutoUTF<unsigned int>,rapidjson::UTF8<char>,rapidjson::CrtAllocator>::IterativeParsingState` | state_
@@ -1704,27 +1704,27 @@ Offset | Type | Name
 
 ### `rapidjson::GenericReader<rapidjson::UTF8<char>,rapidjson::UTF8<char>,rapidjson::CrtAllocator>::StackStream<char>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `rapidjson::internal::Stack<rapidjson::CrtAllocator> *` | stack_
 8 | (4) `unsigned int` | length_
 
 
 ### `RailActivatorSystem::tick::__l2::<lambda_15ae3a1350f7883c8ebb00e0aabbf4ab>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `RailActivatorSystem *const` | __this
 
 
 ### `Range<unsigned int,1>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `const unsigned int` | mBeginIDX
 4 | (4) `const unsigned int` | mEndIDX
 
 
 ### `RawInputEventData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | id
 4 | (1) `ButtonState` | state
 5 | (1) `RawInputType` | keyType
@@ -1733,7 +1733,7 @@ Offset | Type | Name
 
 ### `RakNet::NetworkAdapter`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | attributeFlags
 4 | (4) `int` | interfaceIndex
 8 | (1) `bool` | isDisabled
@@ -1742,7 +1742,7 @@ Offset | Type | Name
 
 ### `RakNet::RNS2_SendParameters`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `char *` | data
 8 | (4) `int` | length
 16 | (136) `RakNet::SystemAddress` | systemAddress
@@ -1751,20 +1751,20 @@ Offset | Type | Name
 
 ### `RakNet::uint24_t`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | val
 
 
 ### `RakNet::ReliabilityLayer::DatagramHistoryNode`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `RakNet::ReliabilityLayer::MessageNumberNode *` | head
 8 | (8) `unsigned __int64` | timeSent
 
 
 ### `rapidjson::GenericReader<rapidjson::UTF8<char>,rapidjson::UTF8<char>,rapidjson::CrtAllocator>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (48) `rapidjson::internal::Stack<rapidjson::CrtAllocator>` | stack_
 48 | (16) `rapidjson::ParseResult` | parseResult_
 64 | (4) `rapidjson::GenericReader<rapidjson::UTF8<char>,rapidjson::UTF8<char>,rapidjson::CrtAllocator>::IterativeParsingState` | state_
@@ -1772,7 +1772,7 @@ Offset | Type | Name
 
 ### `rapidjson::BasicIStreamWrapper<std::basic_istream<char,std::char_traits<char> > >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::istream *` | stream_
 8 | (4) `char[4]` | peekBuffer_
 16 | (8) `char *` | buffer_
@@ -1786,26 +1786,26 @@ Offset | Type | Name
 
 ### `rapidjson::GenericReader<rapidjson::UTF8<char>,rapidjson::UTF8<char>,rapidjson::CrtAllocator>::ClearStackOnExit`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `rapidjson::GenericReader<rapidjson::UTF8<char>,rapidjson::UTF8<char>,rapidjson::CrtAllocator> *` | r_
 
 
 ### `rapidjson::GenericDocument<rapidjson::UTF8<char>,rapidjson::MemoryPoolAllocator<rapidjson::CrtAllocator>,rapidjson::CrtAllocator>::ClearStackOnExit`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `rapidjson::GenericDocument<rapidjson::UTF8<char>,rapidjson::MemoryPoolAllocator<rapidjson::CrtAllocator>,rapidjson::CrtAllocator> *` | d_
 
 
 ### `rapidjson::internal::StreamLocalCopy<rapidjson::GenericStringStream<rapidjson::UTF8<char> >,1>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `rapidjson::GenericStringStream<rapidjson::UTF8<char> >` | s
 16 | (8) `rapidjson::GenericStringStream<rapidjson::UTF8<char> > *` | original_
 
 
 ### `rangeobject`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int64` | ob_refcnt
 8 | (8) `_typeobject *` | ob_type
 16 | (4) `int` | start

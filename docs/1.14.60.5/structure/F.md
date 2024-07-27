@@ -1,34 +1,34 @@
 # F
 ### `FilteredTransformationAttributes<LegacyPreHillsEdgeTransformation>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<PosibleTransformation>` | mTransformations
 
 
 ### `Factory<Dimension,Level &,Scheduler &>::TypeCreator`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<std::unique_ptr<Dimension> (Level &,Scheduler &)>::_Invoker_type` | _M_invoker
 
 
 ### `FeatureRefTraits::StackResultStorage`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::optional<std::reference_wrapper<FeatureRegistry> >` | mRegistry
 16 | (8) `size_t` | mIndex
 
 
 ### `FeatureRefTraits::WeakStorage`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::optional<std::reference_wrapper<FeatureRegistry> >` | mRegistry
 16 | (8) `size_t` | mIndex
 
 
 ### `Feature`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IFeature` | baseclass_0
 8 | (8) `Actor *` | mPlacer
 16 | (8) `WorldChangeTransaction *` | mTransaction
@@ -36,21 +36,21 @@ Offset | Type | Name
 
 ### `FlowerFeature`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `Feature` | baseclass_0
 24 | (8) `const Block *` | mBlock
 
 
 ### `FixedBiomeSource`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `BiomeSource` | baseclass_0
 8 | (8) `const Biome *` | mFixedBiome
 
 
 ### `FilterLayer<LayerFilters::AddIsland>::ReaderType`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const LayerDetails::BufferAccessor<LayerValues::Terrain> *` | mSourceData
 8 | (4) `int32_t` | mTopLeft
 12 | (4) `int32_t` | mW
@@ -58,7 +58,7 @@ Offset | Type | Name
 
 ### `FilterLayer<LayerFilters::RemoveTooMuchOcean>::ReaderType`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const LayerDetails::BufferAccessor<LayerValues::Terrain> *` | mSourceData
 8 | (4) `int32_t` | mTopLeft
 12 | (4) `int32_t` | mW
@@ -66,7 +66,7 @@ Offset | Type | Name
 
 ### `FilterLayer<LayerFilters::AddSnow>::ReaderType`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const LayerDetails::BufferAccessor<LayerValues::Terrain> *` | mSourceData
 8 | (4) `int32_t` | mTopLeft
 12 | (4) `int32_t` | mW
@@ -74,7 +74,7 @@ Offset | Type | Name
 
 ### `FilterLayer<LayerFilters::AddIslandWithTemperature>::ReaderType`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const LayerDetails::BufferAccessor<LayerValues::PreBiome> *` | mSourceData
 8 | (4) `int32_t` | mTopLeft
 12 | (4) `int32_t` | mW
@@ -82,7 +82,7 @@ Offset | Type | Name
 
 ### `FilterLayer<LayerFilters::AddEdgeCoolWarm>::ReaderType`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const LayerDetails::BufferAccessor<LayerValues::PreBiome> *` | mSourceData
 8 | (4) `int32_t` | mTopLeft
 12 | (4) `int32_t` | mW
@@ -90,7 +90,7 @@ Offset | Type | Name
 
 ### `FilterLayer<LayerFilters::AddEdgeHeatIce>::ReaderType`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const LayerDetails::BufferAccessor<LayerValues::PreBiome> *` | mSourceData
 8 | (4) `int32_t` | mTopLeft
 12 | (4) `int32_t` | mW
@@ -98,7 +98,7 @@ Offset | Type | Name
 
 ### `FilterLayer<LayerFilters::AddEdgeSpecial>::ReaderType`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const LayerDetails::BufferAccessor<LayerValues::PreBiome> *` | mSourceData
 8 | (4) `int32_t` | mTopLeft
 12 | (4) `int32_t` | mW
@@ -106,7 +106,7 @@ Offset | Type | Name
 
 ### `FilterLayer<LayerFilters::BiomeInit>::ReaderType`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const LayerDetails::BufferAccessor<LayerValues::PreBiome> *` | mSourceData
 8 | (4) `int32_t` | mTopLeft
 12 | (4) `int32_t` | mW
@@ -114,7 +114,7 @@ Offset | Type | Name
 
 ### `FilterLayer<LayerFilters::AddMushroomIsland>::ReaderType`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const LayerDetails::BufferAccessor<Biome *> *` | mSourceData
 8 | (4) `int32_t` | mTopLeft
 12 | (4) `int32_t` | mW
@@ -122,7 +122,7 @@ Offset | Type | Name
 
 ### `FilterLayer<LayerFilters::PromoteCenter>::ReaderType`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const LayerDetails::BufferAccessor<Biome *> *` | mSourceData
 8 | (4) `int32_t` | mTopLeft
 12 | (4) `int32_t` | mW
@@ -130,7 +130,7 @@ Offset | Type | Name
 
 ### `FilterLayer<LayerFilters::RiverInit>::ReaderType`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const LayerDetails::BufferAccessor<Biome *> *` | mSourceData
 8 | (4) `int32_t` | mTopLeft
 12 | (4) `int32_t` | mW
@@ -138,7 +138,7 @@ Offset | Type | Name
 
 ### `FilterLayer<LayerFilters::River>::ReaderType`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const LayerDetails::BufferAccessor<int> *` | mSourceData
 8 | (4) `int32_t` | mTopLeft
 12 | (4) `int32_t` | mW
@@ -146,7 +146,7 @@ Offset | Type | Name
 
 ### `FilterLayer<LayerFilters::Smooth<bool> >::ReaderType`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const LayerDetails::BufferAccessor<bool> *` | mSourceData
 8 | (4) `int32_t` | mTopLeft
 12 | (4) `int32_t` | mW
@@ -154,7 +154,7 @@ Offset | Type | Name
 
 ### `FilterLayer<LayerFilters::RareBiomeSpot>::ReaderType`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const LayerDetails::BufferAccessor<Biome *> *` | mSourceData
 8 | (4) `int32_t` | mTopLeft
 12 | (4) `int32_t` | mW
@@ -162,7 +162,7 @@ Offset | Type | Name
 
 ### `FilterLayer<LayerFilters::FilteredTransformation<FilteredTransformationAttributes<PreHillsEdgeTransformation> > >::ReaderType`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const LayerDetails::BufferAccessor<Biome *> *` | mSourceData
 8 | (4) `int32_t` | mTopLeft
 12 | (4) `int32_t` | mW
@@ -170,13 +170,13 @@ Offset | Type | Name
 
 ### `FilterContextSet`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (616) `std::__array_traits<FilterContext,7>::_Type` | _M_elems
 
 
 ### `FilterLayer<LayerFilters::FilteredTransformation<FilteredTransformationAttributes<LegacyPreHillsEdgeTransformation> > >::ReaderType`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const LayerDetails::BufferAccessor<Biome *> *` | mSourceData
 8 | (4) `int32_t` | mTopLeft
 12 | (4) `int32_t` | mW
@@ -184,7 +184,7 @@ Offset | Type | Name
 
 ### `FilterLayer<LayerFilters::AddBiomeIsland>::ReaderType`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const LayerDetails::BufferAccessor<Biome *> *` | mSourceData
 8 | (4) `int32_t` | mTopLeft
 12 | (4) `int32_t` | mW
@@ -192,7 +192,7 @@ Offset | Type | Name
 
 ### `FilterLayer<LayerFilters::Shore>::ReaderType`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const LayerDetails::BufferAccessor<Biome *> *` | mSourceData
 8 | (4) `int32_t` | mTopLeft
 12 | (4) `int32_t` | mW
@@ -200,7 +200,7 @@ Offset | Type | Name
 
 ### `FilterLayer<LayerFilters::FilteredTransformation<FilteredTransformationAttributes<PostShoreEdgeTransformation> > >::ReaderType`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const LayerDetails::BufferAccessor<Biome *> *` | mSourceData
 8 | (4) `int32_t` | mTopLeft
 12 | (4) `int32_t` | mW
@@ -208,7 +208,7 @@ Offset | Type | Name
 
 ### `FilterLayer<LayerFilters::Smooth<Biome *> >::ReaderType`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const LayerDetails::BufferAccessor<Biome *> *` | mSourceData
 8 | (4) `int32_t` | mTopLeft
 12 | (4) `int32_t` | mW
@@ -216,7 +216,7 @@ Offset | Type | Name
 
 ### `FilterLayer<LayerFilters::AddOceanEdge>::ReaderType`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const LayerDetails::BufferAccessor<BiomeTemperatureCategory> *` | mSourceData
 8 | (4) `int32_t` | mTopLeft
 12 | (4) `int32_t` | mW
@@ -224,13 +224,13 @@ Offset | Type | Name
 
 ### `FlagComponent<ActorTickedFlag>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `IEntityComponent` | baseclass_0
 
 
 ### `FilterGroup`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `int (**)(void)` | _vptr$FilterGroup
 8 | (4) `FilterGroup::CollectionType` | mCollectionType
 16 | (24) `std::vector<std::shared_ptr<FilterGroup>>` | mChildren
@@ -239,7 +239,7 @@ Offset | Type | Name
 
 ### `FlockingComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<ActorUniqueID>` | mNeighborhood
 24 | (12) `Vec3` | mCenterOfMass
 36 | (12) `Vec3` | mGroupVelocity
@@ -272,21 +272,21 @@ Offset | Type | Name
 
 ### `FeatureToggles::SetupFunction`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<void (Option *)>::_Invoker_type` | _M_invoker
 
 
 ### `FeatureToggles::LockFunction`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<bool ()>::_Invoker_type` | _M_invoker
 
 
 ### `FeatureToggles::FeatureToggle`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `FeatureOptionID` | featureID
 4 | (4) `FeatureOptionID` | dependencyFeatureID
 8 | (8) `std::unique_ptr<Option>` | option
@@ -296,21 +296,21 @@ Offset | Type | Name
 
 ### `FunctionManager::QueuedCommand`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IFunctionEntry *` | mFunction
 8 | (8) `const CommandOrigin *` | mOrigin
 
 
 ### `FloatRange`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float` | rangeMin
 4 | (4) `float` | rangeMax
 
 
 ### `FileInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `Core::HeapPathBuffer` | filePath
 32 | (8) `uint64_t` | fileSize
 40 | (32) `std::string` | fileHash
@@ -318,7 +318,7 @@ Offset | Type | Name
 
 ### `FileChunkInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | chunkID
 8 | (8) `uint64_t` | startByte
 16 | (8) `uint64_t` | endByte
@@ -326,21 +326,21 @@ Offset | Type | Name
 
 ### `FileChunk`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<unsigned char>` | data
 24 | (24) `FileChunkInfo` | info
 
 
 ### `FileArchiver::Result`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `FileArchiver::Outcome` | outcome
 8 | (32) `Core::HeapPathBuffer` | fileName
 
 
 ### `FilterInputs`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `FilterSubject` | mSubject
 8 | (48) `FilterInput` | mDomain
 56 | (2) `FilterOperator` | mOperator
@@ -349,7 +349,7 @@ Offset | Type | Name
 
 ### `FilterInput`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `FilterParamType` | mType
 8 | (32) `std::string` | mString
 40 | (4) `int` | mIValue
@@ -358,25 +358,25 @@ Offset | Type | Name
 
 ### `floatArray`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Vector_base<float>` | baseclass_0
 
 
 ### `FilterStringMap`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (56) `std::unordered_map<std::string,FilterInputDefinition>` | baseclass_0
 
 
 ### `FilterGroup::Ptr`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::__shared_ptr<FilterGroup,__gnu_cxx::_S_atomic>` | baseclass_0
 
 
 ### `FoodItemComponent::Effect`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const char *` | descriptionId
 8 | (4) `int` | id
 12 | (4) `int` | duration
@@ -386,68 +386,68 @@ Offset | Type | Name
 
 ### `FileArchiver::OperationCallback`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<void (FileArchiver::Result &)>::_Invoker_type` | _M_invoker
 
 
 ### `FlagComponent<IgnoreAutomaticFeatureRules>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `IEntityComponent` | baseclass_0
 
 
 ### `FlagComponent<DataDrivenBiomeSurface>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `IEntityComponent` | baseclass_0
 
 
 ### `FlagComponent<SwampBiomeSurface>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `IEntityComponent` | baseclass_0
 
 
 ### `FlagComponent<OceanFrozenBiomeSurface>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `IEntityComponent` | baseclass_0
 
 
 ### `FlagComponent<NetherBiomeSurface>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `IEntityComponent` | baseclass_0
 
 
 ### `FlagComponent<TheEndBiomeSurface>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `IEntityComponent` | baseclass_0
 
 
 ### `FilteredTransformationAttributes<PreHillsEdgeTransformation>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<PosibleTransformation>` | mTransformations
 
 
 ### `FilteredTransformationAttributes<PostShoreEdgeTransformation>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<PosibleTransformation>` | mTransformations
 
 
 ### `FlagComponent<NoiseBasedColorPalette>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `IEntityComponent` | baseclass_0
 
 
 ### `FeatureLoading::FeatureRootParseContext`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::reference_wrapper<std::string >` | mFeatureName
 8 | (8) `std::reference_wrapper<IWorldRegistriesProvider>` | mRegistryProvider
 16 | (8) `std::unique_ptr<FeatureLoading::AbstractFeatureHolder>` | mFeatureHolder
@@ -455,7 +455,7 @@ Offset | Type | Name
 
 ### `FlatWorldGeneratorOptions`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mEncodingVersion
 8 | (24) `std::vector<BlockLayer>` | mBlockLayers
 32 | (4) `int` | mBiomeId
@@ -465,7 +465,7 @@ Offset | Type | Name
 
 ### `FeedItem`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const Item *` | mItem
 8 | (4) `int` | mValue
 16 | (24) `std::vector<FeedItem::Effect>` | mEffects
@@ -473,7 +473,7 @@ Offset | Type | Name
 
 ### `FeedItem::Effect`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | descriptionId
 32 | (4) `int` | id
 36 | (4) `int` | duration
@@ -483,7 +483,7 @@ Offset | Type | Name
 
 ### `FullPlayerInventoryWrapper`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `PlayerInventoryProxy *` | mPlayerInventory
 8 | (8) `SimpleContainer *` | mArmorInventory
 16 | (8) `SimpleContainer *` | mHandInventory
@@ -493,19 +493,19 @@ Offset | Type | Name
 
 ### `FoliageColor::Palette`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (262144) `std::__array_traits<int,65536>::_Type` | _M_elems
 
 
 ### `fd_set`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (128) `__fd_mask[16]` | fds_bits
 
 
 ### `FileSystemFileAccess`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IFileAccess` | baseclass_0
 8 | (4) `FileSystemMode` | mMode
 16 | (8) `FileSystemFileAccess::FileSystemFileReadAccess` | mReadInterface
@@ -514,19 +514,19 @@ Offset | Type | Name
 
 ### `FileSystemFileAccess::FileSystemFileReadAccess`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IFileReadAccess` | baseclass_0
 
 
 ### `FileSystemFileAccess::FileSystemFileWriteAccess`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IFileWriteAccess` | baseclass_0
 
 
 ### `FilterParamDefinition`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `FilterParamType` | mType
 4 | (4) `FilterParamRequirement` | mRequirement
 8 | (32) `std::string` | mDescription
@@ -537,26 +537,26 @@ Offset | Type | Name
 
 ### `FileAccessTransforms`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `int (**)(void)` | _vptr$FileAccessTransforms
 
 
 ### `FilterInputDefinition`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (48) `FilterInput` | mInput
 48 | (32) `std::string` | mDescription
 
 
 ### `FriendlySize`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `size_t` | bytes
 
 
 ### `FileArchiver`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::enable_shared_from_this<FileArchiver>` | baseclass_0
 16 | (12) `Core::ZipUtils::ZipProgress` | mProgress
 32 | (24) `std::promise<FileArchiver::Result>` | mLastResult
@@ -569,31 +569,31 @@ Offset | Type | Name
 
 ### `FishingHook::_fishPosEvent::$7EF7C94BEAB75C6CEF4ADFB99B570420`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `FishingHook::_fishhookEvent::$7EF7C94BEAB75C6CEF4ADFB99B570420`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `FishingHook::_fishTeaseEvent::$7EF7C94BEAB75C6CEF4ADFB99B570420`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `Fish::updateEntitySpecificMolangVariables::$7EF7C94BEAB75C6CEF4ADFB99B570420`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `FilterTest::Definition`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | mName
 32 | (32) `std::string` | mDescription
 64 | (8) `const FilterParamDefinition *` | mSubjectDefinition
@@ -605,13 +605,13 @@ Offset | Type | Name
 
 ### `FilterTestDaytime`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `SimpleBoolFilterTest` | baseclass_0
 
 
 ### `FilterTest:96`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `int (**)(void)` | _vptr$FilterTest
 8 | (2) `FilterSubject` | mSubject
 10 | (2) `FilterOperator` | mOperator
@@ -619,31 +619,31 @@ Offset | Type | Name
 
 ### `FilterTestClock`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `SimpleFloatFilterTest` | baseclass_0
 
 
 ### `FilterTestMoonIntensity`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `SimpleFloatFilterTest` | baseclass_0
 
 
 ### `FilterTestMoonPhase`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `SimpleFloatFilterTest` | baseclass_0
 
 
 ### `FilterTestDistanceToNearestPlayer`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `SimpleFloatFilterTest` | baseclass_0
 
 
 ### `FilterTest`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `int (**)(void)` | _vptr$FilterTest
 8 | (2) `FilterSubject` | mSubject
 10 | (2) `FilterOperator` | mOperator
@@ -651,13 +651,13 @@ Offset | Type | Name
 
 ### `FilterTestDifficulty`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `SimpleIntFilterTest` | baseclass_0
 
 
 ### `FilterTestGameRule`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `FilterTest` | baseclass_0
 16 | (32) `std::string` | mGameRule
 48 | (1) `bool` | mValue
@@ -665,75 +665,75 @@ Offset | Type | Name
 
 ### `FilterTestHourlyClock`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `SimpleIntFilterTest` | baseclass_0
 16 | (4) `int` | mValue
 
 
 ### `FilterTestBiome`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `SimpleIntFilterTest` | baseclass_0
 
 
 ### `FilterTestBiomeHasTag`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (72) `SimpleTagIDFilterTest` | baseclass_0
 
 
 ### `FilterTestBiomeSnowCovered`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `SimpleBoolFilterTest` | baseclass_0
 
 
 ### `FilterTestBiomeHumid`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `SimpleBoolFilterTest` | baseclass_0
 
 
 ### `FilterTestTemperatureType`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `SimpleIntFilterTest` | baseclass_0
 
 
 ### `FilterTestTemperatureValue`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `SimpleFloatFilterTest` | baseclass_0
 
 
 ### `FilterTestBrightness`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `SimpleFloatFilterTest` | baseclass_0
 
 
 ### `FilterTestAltitude`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `SimpleIntFilterTest` | baseclass_0
 
 
 ### `FilterTestHasTradeSupply`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `SimpleBoolFilterTest` | baseclass_0
 
 
 ### `FancyTreeFeature::FoliageCoords`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (12) `BlockPos` | baseclass_0
 12 | (4) `int` | mBranchBase
 
 
 ### `FeatureRefTraits::OwnerStorage`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::optional<std::reference_wrapper<FeatureRegistry> >` | mRegistry
 16 | (8) `size_t` | mIndex
 

@@ -1,50 +1,50 @@
 # G
 ### `GameRules`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `GameRules::GameRuleMap` | mGameRules
 
 
 ### `GameRules::GameRuleMap`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Vector_base<GameRule>` | baseclass_0
 
 
 ### `GameVersion`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (20) `uint32_t[5]` | mDigit
 24 | (32) `std::string` | mString
 
 
 ### `google::protobuf::internal::InternalMetadataWithArena`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `google::protobuf::internal::InternalMetadataWithArenaBase<google::protobuf::UnknownFieldSet,google::protobuf::internal::InternalMetadataWithArena>` | baseclass_0
 
 
 ### `google::protobuf::internal::InternalMetadataWithArenaBase<google::protobuf::UnknownFieldSet,google::protobuf::internal::InternalMetadataWithArena>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `void *` | ptr_
 
 
 ### `google::protobuf::internal::CachedSize`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `std::atomic<int>` | size_
 
 
 ### `google::protobuf::internal::ArenaStringPtr`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::string *` | ptr_
 
 
 ### `grpc_byte_buffer_reader_0`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `grpc_byte_buffer *` | buffer_in
 8 | (8) `grpc_byte_buffer *` | buffer_out
 16 | (4) `grpc_byte_buffer_reader::grpc_byte_buffer_reader_current` | current
@@ -52,41 +52,41 @@ Offset | Type | Name
 
 ### `grpc_byte_buffer_reader::grpc_byte_buffer_reader_current`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | index
 
 
 ### `grpc_slice_0`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `grpc_slice_refcount *` | refcount
 8 | (24) `grpc_slice::grpc_slice_data` | data
 
 
 ### `grpc_slice::grpc_slice_data`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `grpc_slice::grpc_slice_data::grpc_slice_refcounted` | refcounted
 1 | (24) `grpc_slice::grpc_slice_data::grpc_slice_inlined` | inlined
 
 
 ### `grpc_slice::grpc_slice_data::grpc_slice_refcounted`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `size_t` | length
 8 | (8) `uint8_t *` | bytes
 
 
 ### `grpc_slice::grpc_slice_data::grpc_slice_inlined`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `uint8_t` | length
 1 | (23) `uint8_t[23]` | bytes
 
 
 ### `grpc_op_0`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `grpc_op_type` | op
 4 | (4) `uint32_t` | flags
 8 | (8) `void *` | reserved
@@ -95,7 +95,7 @@ Offset | Type | Name
 
 ### `grpc_op::grpc_op_data`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `grpc_op::grpc_op_data::$34088C6F4DED15655F247FDBE876D1D9` | reserved
 1 | (24) `grpc_op::grpc_op_data::grpc_op_send_initial_metadata` | send_initial_metadata
 2 | (8) `grpc_op::grpc_op_data::grpc_op_send_message` | send_message
@@ -108,13 +108,13 @@ Offset | Type | Name
 
 ### `grpc_op::grpc_op_data::$34088C6F4DED15655F247FDBE876D1D9`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `void *[8]` | reserved
 
 
 ### `grpc_op::grpc_op_data::grpc_op_send_initial_metadata`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `size_t` | count
 8 | (8) `grpc_metadata_0 *` | metadata
 16 | (8) `grpc_op::grpc_op_data::grpc_op_send_initial_metadata::grpc_op_send_initial_metadata_maybe_compression_level` | maybe_compression_level
@@ -122,20 +122,20 @@ Offset | Type | Name
 
 ### `grpc_op::grpc_op_data::grpc_op_send_initial_metadata::grpc_op_send_initial_metadata_maybe_compression_level`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `uint8_t` | is_set
 4 | (4) `grpc_compression_level` | level
 
 
 ### `grpc_op::grpc_op_data::grpc_op_send_message`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `grpc_byte_buffer *` | send_message
 
 
 ### `grpc_op::grpc_op_data::grpc_op_send_status_from_server`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `size_t` | trailing_metadata_count
 8 | (8) `grpc_metadata_0 *` | trailing_metadata
 16 | (4) `grpc_status_code` | status
@@ -144,19 +144,19 @@ Offset | Type | Name
 
 ### `grpc_op::grpc_op_data::grpc_op_recv_initial_metadata`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `grpc_metadata_array *` | recv_initial_metadata
 
 
 ### `grpc_op::grpc_op_data::grpc_op_recv_message`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `grpc_byte_buffer **` | recv_message
 
 
 ### `grpc_op::grpc_op_data::grpc_op_recv_status_on_client`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `grpc_metadata_array *` | trailing_metadata
 8 | (8) `grpc_status_code *` | status
 16 | (8) `grpc_slice_0 *` | status_details
@@ -165,19 +165,19 @@ Offset | Type | Name
 
 ### `grpc_op::grpc_op_data::grpc_op_recv_close_on_server`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `int *` | cancelled
 
 
 ### `google::protobuf::RepeatedPtrField<com::mojang::clacks::protocol::PlayerInfo>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `google::protobuf::internal::RepeatedPtrFieldBase` | baseclass_0
 
 
 ### `google::protobuf::internal::RepeatedPtrFieldBase`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `google::protobuf::Arena *` | arena_
 8 | (4) `int` | current_size_
 12 | (4) `int` | total_size_
@@ -186,19 +186,19 @@ Offset | Type | Name
 
 ### `google::protobuf::RepeatedPtrField<com::mojang::clacks::protocol::LevelFileAndSize>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `google::protobuf::internal::RepeatedPtrFieldBase` | baseclass_0
 
 
 ### `GlowStoneFeature`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `Feature` | baseclass_0
 
 
 ### `glm::tvec2<float,glm::packed_highp>::$653A5DA555E3CFAB9106C77AB2FC5A13`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `glm::tvec2<float,glm::packed_highp>::$653A5DA555E3CFAB9106C77AB2FC5A13::$223F7A100DDAA8A38606B413750A9D11` | _anon_0
 1 | (8) `glm::tvec2<float,glm::packed_highp>::$653A5DA555E3CFAB9106C77AB2FC5A13::$625273C7149C08D0FA41CF9F848758A0` | _anon_1
 2 | (8) `glm::tvec2<float,glm::packed_highp>::$653A5DA555E3CFAB9106C77AB2FC5A13::$63CAF16A424834597E8390533F817872` | _anon_2
@@ -206,54 +206,54 @@ Offset | Type | Name
 
 ### `glm::tvec2<float,glm::packed_highp>::$653A5DA555E3CFAB9106C77AB2FC5A13::$223F7A100DDAA8A38606B413750A9D11`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float` | x
 4 | (4) `float` | y
 
 
 ### `glm::tvec2<float,glm::packed_highp>::$653A5DA555E3CFAB9106C77AB2FC5A13::$625273C7149C08D0FA41CF9F848758A0`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float` | r
 4 | (4) `float` | g
 
 
 ### `glm::tvec2<float,glm::packed_highp>::$653A5DA555E3CFAB9106C77AB2FC5A13::$63CAF16A424834597E8390533F817872`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float` | s
 4 | (4) `float` | t
 
 
 ### `glm::vec2`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `glm::tvec2<float,glm::packed_highp>::$653A5DA555E3CFAB9106C77AB2FC5A13` | _anon_0
 
 
 ### `glm::tvec2<float,glm::packed_highp>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `glm::tvec2<float,glm::packed_highp>::$653A5DA555E3CFAB9106C77AB2FC5A13` | _anon_0
 
 
 ### `GridPos`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | x
 4 | (4) `int` | z
 
 
 ### `GoalSelectorComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<PrioritizedGoal>` | mTargetGoals
 24 | (24) `std::vector<PrioritizedGoal>` | mNormalGoals
 
 
 ### `GrowsCropComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mCharges
 4 | (12) `BlockPos` | mTargetCrop
 16 | (12) `BlockPos` | mLastGrownCrop
@@ -261,13 +261,13 @@ Offset | Type | Name
 
 ### `GameRulesChangedPacketData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<GameRule>` | mRules
 
 
 ### `GameRule`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | mShouldSave
 1 | (1) `GameRule::Type` | mType
 4 | (4) `GameRule::Value` | mValue
@@ -281,7 +281,7 @@ Offset | Type | Name
 
 ### `GameRule::Value`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | boolVal
 1 | (4) `int` | intVal
 2 | (4) `float` | floatVal
@@ -289,27 +289,27 @@ Offset | Type | Name
 
 ### `GameRule::TagDataNotFoundCallback`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<void (GameRule &)>::_Invoker_type` | _M_invoker
 
 
 ### `GameRule::ValidateValueCallback`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<bool (const GameRule::Value &,GameRule::ValidationError *)>::_Invoker_type` | _M_invoker
 
 
 ### `glm::tvec3<float,glm::packed_highp>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (12) `glm::tvec3<float,glm::packed_highp>::$F38982D14A5409100D5FF2A83EAF7714` | _anon_0
 
 
 ### `glm::tvec3<float,glm::packed_highp>::$F38982D14A5409100D5FF2A83EAF7714`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (12) `glm::tvec3<float,glm::packed_highp>::$F38982D14A5409100D5FF2A83EAF7714::$814015060876AC9E96F7D0FEB9E123E1` | _anon_0
 1 | (12) `glm::tvec3<float,glm::packed_highp>::$F38982D14A5409100D5FF2A83EAF7714::$F8F36499DBCD326E4E26F9313F6D1F57` | _anon_1
 2 | (12) `glm::tvec3<float,glm::packed_highp>::$F38982D14A5409100D5FF2A83EAF7714::$8ACCFA9E7C10CD4A0EE49FAAFA620AD6` | _anon_2
@@ -317,7 +317,7 @@ Offset | Type | Name
 
 ### `glm::tvec3<float,glm::packed_highp>::$F38982D14A5409100D5FF2A83EAF7714::$814015060876AC9E96F7D0FEB9E123E1`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float` | x
 4 | (4) `float` | y
 8 | (4) `float` | z
@@ -325,7 +325,7 @@ Offset | Type | Name
 
 ### `glm::tvec3<float,glm::packed_highp>::$F38982D14A5409100D5FF2A83EAF7714::$F8F36499DBCD326E4E26F9313F6D1F57`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float` | r
 4 | (4) `float` | g
 8 | (4) `float` | b
@@ -333,7 +333,7 @@ Offset | Type | Name
 
 ### `glm::tvec3<float,glm::packed_highp>::$F38982D14A5409100D5FF2A83EAF7714::$8ACCFA9E7C10CD4A0EE49FAAFA620AD6`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float` | s
 4 | (4) `float` | t
 8 | (4) `float` | p
@@ -341,13 +341,13 @@ Offset | Type | Name
 
 ### `glm::vec3`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (12) `glm::tvec3<float,glm::packed_highp>::$F38982D14A5409100D5FF2A83EAF7714` | _anon_0
 
 
 ### `GuiDataPickItemPacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `Packet` | baseclass_0
 40 | (32) `std::string` | mItemName
 72 | (32) `std::string` | mItemEffectName
@@ -356,31 +356,31 @@ Offset | Type | Name
 
 ### `glm::mat3x3`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (36) `glm::tmat3x3<float,glm::packed_highp>::col_type[3]` | value
 
 
 ### `glm::tmat3x3<float,glm::packed_highp>::col_type`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (12) `glm::tvec3<float,glm::packed_highp>::$F38982D14A5409100D5FF2A83EAF7714` | _anon_0
 
 
 ### `glm::tmat4x4<float,glm::packed_highp>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `glm::tmat4x4<float,glm::packed_highp>::col_type[4]` | value
 
 
 ### `glm::tmat4x4<float,glm::packed_highp>::col_type`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `glm::tvec4<float,glm::packed_highp>::$36BDC9567EB6C00EB115CBFBA7286E59` | _anon_0
 
 
 ### `glm::tvec4<float,glm::packed_highp>::$36BDC9567EB6C00EB115CBFBA7286E59`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `glm::tvec4<float,glm::packed_highp>::$36BDC9567EB6C00EB115CBFBA7286E59::$805BBB767C835B4C3289FA801EA67DFE` | _anon_0
 1 | (16) `glm::tvec4<float,glm::packed_highp>::$36BDC9567EB6C00EB115CBFBA7286E59::$ACDA779F9D0E9BFAF3A3754F77F6D102` | _anon_1
 2 | (16) `glm::tvec4<float,glm::packed_highp>::$36BDC9567EB6C00EB115CBFBA7286E59::$3BEAE2AF5D9A925A3EBB2A45E96DF0DC` | _anon_2
@@ -389,7 +389,7 @@ Offset | Type | Name
 
 ### `glm::tvec4<float,glm::packed_highp>::$36BDC9567EB6C00EB115CBFBA7286E59::$805BBB767C835B4C3289FA801EA67DFE`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float` | x
 4 | (4) `float` | y
 8 | (4) `float` | z
@@ -398,7 +398,7 @@ Offset | Type | Name
 
 ### `glm::tvec4<float,glm::packed_highp>::$36BDC9567EB6C00EB115CBFBA7286E59::$ACDA779F9D0E9BFAF3A3754F77F6D102`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float` | r
 4 | (4) `float` | g
 8 | (4) `float` | b
@@ -407,7 +407,7 @@ Offset | Type | Name
 
 ### `glm::tvec4<float,glm::packed_highp>::$36BDC9567EB6C00EB115CBFBA7286E59::$3BEAE2AF5D9A925A3EBB2A45E96DF0DC`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float` | s
 4 | (4) `float` | t
 8 | (4) `float` | p
@@ -416,19 +416,19 @@ Offset | Type | Name
 
 ### `glm::detail::storage<float,16,false>::type_0`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `glm::detail::uint8[16]` | data
 
 
 ### `glm::mat4x4`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `glm::tmat4x4<float,glm::packed_highp>::col_type[4]` | value
 
 
 ### `GoalDefinition`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | mName
 32 | (4) `int` | mPriority
 36 | (4) `int` | mRequiredControlFlags
@@ -609,7 +609,7 @@ Offset | Type | Name
 
 ### `GoalDefinition::$A96817768A54EC800FE0CCD12036E025`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float` | speedModifier
 4 | (4) `int` | searchRange
 8 | (4) `int` | searchHeight
@@ -626,45 +626,45 @@ Offset | Type | Name
 
 ### `GoalDefinition_0::parse::$77030C46F7368D1C8A31176E7D1C3EB3`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `GoalDefinition_0 *` | this
 
 
 ### `glm::vec4`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `glm::tvec4<float,glm::packed_highp>::$36BDC9567EB6C00EB115CBFBA7286E59` | _anon_0
 
 
 ### `glm::mat4`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `glm::tmat4x4<float,glm::packed_highp>::col_type[4]` | value
 
 
 ### `GameMasterEntityServerCommandOrigin`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `ActorServerCommandOrigin` | baseclass_0
 
 
 ### `GetBlockFunction`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<const Block &(const BlockPos &)>::_Invoker_type` | _M_invoker
 
 
 ### `GridArea<std::shared_ptr<LevelChunk> >::AddCallback`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<void (buffer_span_mut<std::shared_ptr<LevelChunk> >,buffer_span<unsigned int>)>::_Invoker_type` | _M_invoker
 
 
 ### `GridArea<std::shared_ptr<LevelChunk> >::Definition`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | chunkSide
 4 | (2) `Height` | minHeight
 6 | (2) `Height` | maxHeight
@@ -676,33 +676,33 @@ Offset | Type | Name
 
 ### `GridArea<std::shared_ptr<LevelChunk> >::GenerateCallback`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<void (buffer_span<Pos>,buffer_span_mut<std::shared_ptr<LevelChunk> >)>::_Invoker_type` | _M_invoker
 
 
 ### `GridArea<std::shared_ptr<LevelChunk> >::DestroyCallback`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<void (buffer_span_mut<std::shared_ptr<LevelChunk> >)>::_Invoker_type` | _M_invoker
 
 
 ### `GameRules::_registerRules::$7EF7C94BEAB75C6CEF4ADFB99B570420`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `GameRuleId`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `NewType<int>` | baseclass_0
 
 
 ### `google_breakpad::MinidumpDescriptor`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `google_breakpad::MinidumpDescriptor::DumpMode` | mode_
 4 | (4) `int` | fd_
 8 | (32) `std::string` | directory_
@@ -714,7 +714,7 @@ Offset | Type | Name
 
 ### `google_breakpad::MicrodumpExtraInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const char *` | build_fingerprint
 8 | (8) `const char *` | product_info
 16 | (8) `const char *` | gpu_fingerprint
@@ -722,7 +722,7 @@ Offset | Type | Name
 
 ### `GeneticVariant`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IntRange` | mainAllele
 8 | (8) `IntRange` | hiddenAllele
 16 | (8) `IntRange` | eitherAllele
@@ -732,14 +732,14 @@ Offset | Type | Name
 
 ### `GeneticsComponent::Gene`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mainAllele
 4 | (4) `int` | hiddenAllele
 
 
 ### `GeneDefinition`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | mName
 32 | (8) `IntRange` | mAlleleRange
 40 | (24) `std::vector<GeneticVariant>` | mGeneticVariants
@@ -747,7 +747,7 @@ Offset | Type | Name
 
 ### `GiveableTrigger`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (48) `std::set<const Item *>` | mGiveableItems
 48 | (128) `DefinitionTrigger` | mOnGive
 176 | (4) `float` | mCoolDown
@@ -755,7 +755,7 @@ Offset | Type | Name
 
 ### `GameRule::ValidationError`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | mSuccess
 8 | (32) `std::string` | mErrorDescription
 40 | (24) `std::vector<std::string>` | mErrorParameters
@@ -763,14 +763,14 @@ Offset | Type | Name
 
 ### `GenericQueryFunctionAccessor`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<MolangScriptArg (RenderParams &,const std::vector<MolangScriptArg> &)>::_Invoker_type` | _M_invoker
 
 
 ### `GeneticsComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<GeneticsComponent::Gene>` | mGenes
 24 | (8) `const GeneticsDefinition *` | mGeneticsDescription
 32 | (8) `Random *` | mRandom
@@ -778,19 +778,19 @@ Offset | Type | Name
 
 ### `GiveableComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<unsigned long>` | mCoolDownTimeStamps
 
 
 ### `glm::tmat3x3<float,glm::packed_highp>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (36) `glm::tmat3x3<float,glm::packed_highp>::col_type[3]` | value
 
 
 ### `google_breakpad::PageAllocator`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const size_t` | page_size_
 8 | (8) `google_breakpad::PageAllocator::PageHeader *` | last_
 16 | (8) `uint8_t *` | current_page_
@@ -800,7 +800,7 @@ Offset | Type | Name
 
 ### `google_breakpad::ThreadArgument`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `pid_t` | pid
 8 | (8) `const google_breakpad::MinidumpDescriptor *` | minidump_descriptor
 16 | (8) `google_breakpad::ExceptionHandler *` | handler
@@ -810,7 +810,7 @@ Offset | Type | Name
 
 ### `google_breakpad::ExceptionHandler`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const google_breakpad::ExceptionHandler::FilterCallback` | filter_
 8 | (8) `const google_breakpad::ExceptionHandler::MinidumpCallback` | callback_
 16 | (8) `void *const` | callback_context_
@@ -824,25 +824,25 @@ Offset | Type | Name
 
 ### `google_breakpad::scoped_ptr<google_breakpad::CrashGenerationClient>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `google_breakpad::CrashGenerationClient *` | ptr_
 
 
 ### `google_breakpad::MappingList`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_List_base<google_breakpad::MappingEntry>` | baseclass_0
 
 
 ### `google_breakpad::AppMemoryList`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_List_base<google_breakpad::AppMemory>` | baseclass_0
 
 
 ### `google_breakpad::ExceptionHandler::CrashContext`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (128) `siginfo_t` | siginfo
 128 | (4) `pid_t` | tid
 136 | (936) `ucontext_t_0` | context
@@ -851,7 +851,7 @@ Offset | Type | Name
 
 ### `google_breakpad::fpstate_t`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `__uint16_t` | cwd
 2 | (2) `__uint16_t` | swd
 4 | (2) `__uint16_t` | ftw
@@ -867,7 +867,7 @@ Offset | Type | Name
 
 ### `google_breakpad::MappingInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `uintptr_t` | start_addr
 8 | (8) `size_t` | size
 16 | (8) `size_t` | offset
@@ -877,21 +877,21 @@ Offset | Type | Name
 
 ### `google_breakpad::MappingEntry`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (280) `google_breakpad::MappingInfo` | first
 280 | (16) `uint8_t[16]` | second
 
 
 ### `google_breakpad::AppMemory`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `void *` | ptr
 8 | (8) `size_t` | length
 
 
 ### `GUID`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `uint32_t` | data1
 4 | (2) `uint16_t` | data2
 6 | (2) `uint16_t` | data3
@@ -900,14 +900,14 @@ Offset | Type | Name
 
 ### `google_breakpad::LinuxPtraceDumper`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (224) `google_breakpad::LinuxDumper` | baseclass_0
 224 | (1) `bool` | threads_suspended_
 
 
 ### `google_breakpad::LinuxDumper`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `int (**)(void)` | _vptr$LinuxDumper
 8 | (4) `const pid_t` | pid_
 16 | (8) `const char *const` | root_prefix_
@@ -922,25 +922,25 @@ Offset | Type | Name
 
 ### `google_breakpad::wasteful_vector<int>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (48) `std::vector<int,google_breakpad::PageStdAllocator<int> >` | baseclass_0
 
 
 ### `google_breakpad::wasteful_vector<google_breakpad::MappingInfo *>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (48) `std::vector<google_breakpad::MappingInfo *,google_breakpad::PageStdAllocator<google_breakpad::MappingInfo *> >` | baseclass_0
 
 
 ### `google_breakpad::wasteful_vector<unsigned long>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (48) `std::vector<unsigned long,google_breakpad::PageStdAllocator<unsigned long> >` | baseclass_0
 
 
 ### `google_breakpad::MinidumpFileWriter`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | file_
 4 | (1) `bool` | close_file_when_destroyed_
 8 | (4) `MDRVA` | position_
@@ -949,13 +949,13 @@ Offset | Type | Name
 
 ### `google_breakpad::wasteful_vector<MDMemoryDescriptor>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (48) `std::vector<MDMemoryDescriptor,google_breakpad::PageStdAllocator<MDMemoryDescriptor> >` | baseclass_0
 
 
 ### `google_breakpad::UntypedMDRVA`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `google_breakpad::MinidumpFileWriter *` | writer_
 8 | (4) `MDRVA` | position_
 16 | (8) `size_t` | size_
@@ -963,7 +963,7 @@ Offset | Type | Name
 
 ### `google_breakpad::TypedMDRVA<MDRawDirectory>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `google_breakpad::UntypedMDRVA` | baseclass_0
 24 | (12) `MDRawDirectory` | data_
 36 | (4) `google_breakpad::TypedMDRVA<MDRawDirectory>::AllocationState` | allocation_state_
@@ -971,7 +971,7 @@ Offset | Type | Name
 
 ### `google_breakpad::TypedMDRVA<MDRawHeader>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `google_breakpad::UntypedMDRVA` | baseclass_0
 24 | (32) `$505B58DFE4F8194A15938BA4CDF168E6` | data_
 56 | (4) `google_breakpad::TypedMDRVA<MDRawHeader>::AllocationState` | allocation_state_
@@ -979,7 +979,7 @@ Offset | Type | Name
 
 ### `google_breakpad::TypedMDRVA<unsigned int>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `google_breakpad::UntypedMDRVA` | baseclass_0
 24 | (4) `unsigned int` | data_
 28 | (4) `google_breakpad::TypedMDRVA<unsigned int>::AllocationState` | allocation_state_
@@ -987,7 +987,7 @@ Offset | Type | Name
 
 ### `google_breakpad::TypedMDRVA<MDRawContextAMD64>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `google_breakpad::UntypedMDRVA` | baseclass_0
 24 | (1232) `MDRawContextAMD64` | data_
 1256 | (4) `google_breakpad::TypedMDRVA<MDRawContextAMD64>::AllocationState` | allocation_state_
@@ -995,7 +995,7 @@ Offset | Type | Name
 
 ### `google_breakpad::ThreadInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `pid_t` | tgid
 4 | (4) `pid_t` | ppid
 8 | (8) `uintptr_t` | stack_pointer
@@ -1006,7 +1006,7 @@ Offset | Type | Name
 
 ### `google_breakpad::TypedMDRVA<MDRawExceptionStream>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `google_breakpad::UntypedMDRVA` | baseclass_0
 24 | (168) `$2CCFF0E0CE8001A98FB5D6703B5EE6EF` | data_
 192 | (4) `google_breakpad::TypedMDRVA<MDRawExceptionStream>::AllocationState` | allocation_state_
@@ -1014,7 +1014,7 @@ Offset | Type | Name
 
 ### `google_breakpad::TypedMDRVA<MDRawSystemInfo>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `google_breakpad::UntypedMDRVA` | baseclass_0
 24 | (56) `MDRawSystemInfo` | data_
 80 | (4) `google_breakpad::TypedMDRVA<MDRawSystemInfo>::AllocationState` | allocation_state_
@@ -1022,7 +1022,7 @@ Offset | Type | Name
 
 ### `google_breakpad::TypedMDRVA<MDRawDebug64>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `google_breakpad::UntypedMDRVA` | baseclass_0
 24 | (40) `$7C6655196A4AF765C464D6B72AEFAD0C` | data_
 64 | (4) `google_breakpad::TypedMDRVA<MDRawDebug64>::AllocationState` | allocation_state_
@@ -1030,13 +1030,13 @@ Offset | Type | Name
 
 ### `google_breakpad::wasteful_vector<char>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (48) `std::vector<char,google_breakpad::PageStdAllocator<char> >` | baseclass_0
 
 
 ### `google_breakpad::TypedMDRVA<MDRawLinkMap64>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `google_breakpad::UntypedMDRVA` | baseclass_0
 24 | (24) `MDRawLinkMap64` | data_
 48 | (4) `google_breakpad::TypedMDRVA<MDRawLinkMap64>::AllocationState` | allocation_state_
@@ -1044,20 +1044,20 @@ Offset | Type | Name
 
 ### `google_breakpad::auto_wasteful_vector<unsigned char,20>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (48) `google_breakpad::wasteful_vector<unsigned char>` | baseclass_0
 48 | (20) `unsigned __int8[20]` | stackdata_
 
 
 ### `google_breakpad::wasteful_vector<unsigned char>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (48) `std::vector<unsigned char,google_breakpad::PageStdAllocator<unsigned char> >` | baseclass_0
 
 
 ### `google_breakpad::PageStdAllocator<unsigned char>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `google_breakpad::PageAllocator *` | allocator_
 8 | (8) `google_breakpad::PageStdAllocator<unsigned char>::pointer` | stackdata_
 16 | (8) `google_breakpad::PageStdAllocator<unsigned char>::size_type` | stackdata_size_
@@ -1065,27 +1065,27 @@ Offset | Type | Name
 
 ### `google_breakpad::MemoryMappedFile`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `google_breakpad::MemoryRange` | content_
 
 
 ### `google_breakpad::MemoryRange`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const uint8_t *` | data_
 8 | (8) `size_t` | length_
 
 
 ### `google_breakpad::elf_aux_entry`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `uint64_t` | a_type
 8 | (8) `Elf64_auxv_t::$218B18A37F77BA833A070E25C7DC6FF2` | a_un
 
 
 ### `google_breakpad::RawContextCPU`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `uint64_t` | p1_home
 8 | (8) `uint64_t` | p2_home
 16 | (8) `uint64_t` | p3_home
@@ -1136,7 +1136,7 @@ Offset | Type | Name
 
 ### `google_breakpad::TypedMDRVA<MDString>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `google_breakpad::UntypedMDRVA` | baseclass_0
 24 | (8) `$10AD719A749B48FD0C0A3351B1A2B499` | data_
 32 | (4) `google_breakpad::TypedMDRVA<MDString>::AllocationState` | allocation_state_
@@ -1144,32 +1144,32 @@ Offset | Type | Name
 
 ### `google_breakpad::scoped_array<unsigned short>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `unsigned __int16 *` | array_
 
 
 ### `google_breakpad::scoped_array<unsigned char>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `unsigned __int8 *` | array_
 
 
 ### `google::protobuf::internal::once_flag`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `std::once_flag::__native_type` | _M_once
 
 
 ### `google::protobuf::internal::ExtensionIdentifier<google::protobuf::FileOptions,google::protobuf::internal::StringTypeTraits,'_t',false>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `const int` | number_
 8 | (8) `google::protobuf::internal::StringTypeTraits::ConstType` | default_value_
 
 
 ### `gpr_timespec_0`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `int64_t` | tv_sec
 8 | (4) `int32_t` | tv_nsec
 12 | (4) `gpr_clock_type` | clock_type
@@ -1177,13 +1177,13 @@ Offset | Type | Name
 
 ### `google::protobuf::internal::ExplicitlyConstructed<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char> > >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `google::protobuf::internal::ExplicitlyConstructed<std::string >::AlignedUnion` | union_
 
 
 ### `google::protobuf::internal::ExplicitlyConstructed<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char> > >::AlignedUnion`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `char[32]` | space
 1 | (8) `google::protobuf::int64` | align_to_int64
 2 | (8) `void *` | align_to_ptr
@@ -1191,7 +1191,7 @@ Offset | Type | Name
 
 ### `grpc_completion_queue_attributes_0`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | version
 4 | (4) `grpc_cq_completion_type` | cq_completion_type
 8 | (4) `grpc_cq_polling_type` | cq_polling_type
@@ -1200,46 +1200,46 @@ Offset | Type | Name
 
 ### `glm::tvec4<float,glm::packed_highp>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `glm::tvec4<float,glm::packed_highp>::$36BDC9567EB6C00EB115CBFBA7286E59` | _anon_0
 
 
 ### `Goal:96`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `int (**)(void)` | _vptr$Goal
 8 | (4) `int` | mRequiredControlFlags
 
 
 ### `Goal`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `int (**)(void)` | _vptr$Goal
 8 | (4) `int` | mRequiredControlFlags
 
 
 ### `glm::tmat4x4<float,glm::packed_highp>::transpose_type`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `glm::tmat4x4<float,glm::packed_highp>::col_type[4]` | value
 
 
 ### `glm::tquat<float,glm::packed_highp>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `glm::tquat<float,glm::packed_highp>::$8B90D65E2B902F9818D8631C8F9DB935` | _anon_0
 
 
 ### `glm::tquat<float,glm::packed_highp>::$8B90D65E2B902F9818D8631C8F9DB935`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `glm::tquat<float,glm::packed_highp>::$8B90D65E2B902F9818D8631C8F9DB935::$805BBB767C835B4C3289FA801EA67DFE` | _anon_0
 1 | (16) `glm::detail::storage<float,16,false>::type_0` | data
 
 
 ### `glm::tquat<float,glm::packed_highp>::$8B90D65E2B902F9818D8631C8F9DB935::$805BBB767C835B4C3289FA801EA67DFE`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float` | x
 4 | (4) `float` | y
 8 | (4) `float` | z
@@ -1248,13 +1248,13 @@ Offset | Type | Name
 
 ### `Ghast::updateEntitySpecificMolangVariables::$7EF7C94BEAB75C6CEF4ADFB99B570420`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `GameMode`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `int (**)(void)` | _vptr$GameMode
 8 | (8) `Player *` | mPlayer
 16 | (12) `BlockPos` | mDestroyBlockPos
@@ -1282,13 +1282,13 @@ Offset | Type | Name
 
 ### `glm::tvec1<float,glm::packed_highp>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `glm::tvec1<float,glm::packed_highp>::$1F160FB999C380CA18558A34A1C7792D` | _anon_0
 
 
 ### `glm::tvec1<float,glm::packed_highp>::$1F160FB999C380CA18558A34A1C7792D`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float` | x
 1 | (4) `float` | r
 2 | (4) `float` | s
@@ -1296,13 +1296,13 @@ Offset | Type | Name
 
 ### `GameRuleCommand::InitProxy`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `GameRules *` | mGameRules
 
 
 ### `GoHomeGoal`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `Goal` | baseclass_0
 16 | (8) `Mob *` | mMob
 24 | (4) `float` | mSpeedMod
@@ -1315,7 +1315,7 @@ Offset | Type | Name
 
 ### `google_breakpad::PageStdAllocator<MDMemoryDescriptor>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `google_breakpad::PageAllocator *` | allocator_
 8 | (8) `google_breakpad::PageStdAllocator<MDMemoryDescriptor>::pointer` | stackdata_
 16 | (8) `google_breakpad::PageStdAllocator<MDMemoryDescriptor>::size_type` | stackdata_size_
@@ -1323,7 +1323,7 @@ Offset | Type | Name
 
 ### `google_breakpad::PageStdAllocator<char>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `google_breakpad::PageAllocator *` | allocator_
 8 | (8) `google_breakpad::PageStdAllocator<char>::pointer` | stackdata_
 16 | (8) `google_breakpad::PageStdAllocator<char>::size_type` | stackdata_size_
@@ -1331,7 +1331,7 @@ Offset | Type | Name
 
 ### `google_breakpad::PageStdAllocator<int>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `google_breakpad::PageAllocator *` | allocator_
 8 | (8) `google_breakpad::PageStdAllocator<int>::pointer` | stackdata_
 16 | (8) `google_breakpad::PageStdAllocator<int>::size_type` | stackdata_size_
@@ -1339,7 +1339,7 @@ Offset | Type | Name
 
 ### `google_breakpad::PageStdAllocator<google_breakpad::MappingInfo *>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `google_breakpad::PageAllocator *` | allocator_
 8 | (8) `google_breakpad::PageStdAllocator<google_breakpad::MappingInfo *>::pointer` | stackdata_
 16 | (8) `google_breakpad::PageStdAllocator<google_breakpad::MappingInfo *>::size_type` | stackdata_size_
@@ -1347,7 +1347,7 @@ Offset | Type | Name
 
 ### `google_breakpad::PageStdAllocator<unsigned long>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `google_breakpad::PageAllocator *` | allocator_
 8 | (8) `google_breakpad::PageStdAllocator<unsigned long>::pointer` | stackdata_
 16 | (8) `google_breakpad::PageStdAllocator<unsigned long>::size_type` | stackdata_size_
@@ -1355,7 +1355,7 @@ Offset | Type | Name
 
 ### `google::protobuf::internal::SCCInfoBase`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `std::atomic<int>` | visit_status
 4 | (4) `int` | num_deps
 8 | (8) `void (*)(void)` | init_func
@@ -1363,13 +1363,13 @@ Offset | Type | Name
 
 ### `google::protobuf::internal::ExplicitlyConstructed<com::mojang::clacks::protocol::PlayerInfo>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `google::protobuf::internal::ExplicitlyConstructed<com::mojang::clacks::protocol::PlayerInfo>::AlignedUnion` | union_
 
 
 ### `google::protobuf::internal::ExplicitlyConstructed<com::mojang::clacks::protocol::PlayerInfo>::AlignedUnion`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `char[40]` | space
 1 | (8) `google::protobuf::int64` | align_to_int64
 2 | (8) `void *` | align_to_ptr
@@ -1377,13 +1377,13 @@ Offset | Type | Name
 
 ### `google::protobuf::internal::ExplicitlyConstructed<com::mojang::clacks::protocol::PlayerAndMessage>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `google::protobuf::internal::ExplicitlyConstructed<com::mojang::clacks::protocol::PlayerAndMessage>::AlignedUnion` | union_
 
 
 ### `google::protobuf::internal::ExplicitlyConstructed<com::mojang::clacks::protocol::PlayerAndMessage>::AlignedUnion`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `char[40]` | space
 1 | (8) `google::protobuf::int64` | align_to_int64
 2 | (8) `void *` | align_to_ptr
@@ -1391,13 +1391,13 @@ Offset | Type | Name
 
 ### `google::protobuf::internal::ExplicitlyConstructed<com::mojang::clacks::protocol::MetricReport_BandwithMetric>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `google::protobuf::internal::ExplicitlyConstructed<com::mojang::clacks::protocol::MetricReport_BandwithMetric>::AlignedUnion` | union_
 
 
 ### `google::protobuf::internal::ExplicitlyConstructed<com::mojang::clacks::protocol::MetricReport_BandwithMetric>::AlignedUnion`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `char[64]` | space
 1 | (8) `google::protobuf::int64` | align_to_int64
 2 | (8) `void *` | align_to_ptr
@@ -1405,13 +1405,13 @@ Offset | Type | Name
 
 ### `google::protobuf::internal::ExplicitlyConstructed<com::mojang::clacks::protocol::MetricReport_LatencyMetric>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (48) `google::protobuf::internal::ExplicitlyConstructed<com::mojang::clacks::protocol::MetricReport_LatencyMetric>::AlignedUnion` | union_
 
 
 ### `google::protobuf::internal::ExplicitlyConstructed<com::mojang::clacks::protocol::MetricReport_LatencyMetric>::AlignedUnion`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (48) `char[48]` | space
 1 | (8) `google::protobuf::int64` | align_to_int64
 2 | (8) `void *` | align_to_ptr
@@ -1419,7 +1419,7 @@ Offset | Type | Name
 
 ### `google::protobuf::io::CodedInputStream`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const google::protobuf::uint8 *` | buffer_
 8 | (8) `const google::protobuf::uint8 *` | buffer_end_
 16 | (8) `google::protobuf::io::ZeroCopyInputStream *` | input_
@@ -1439,19 +1439,19 @@ Offset | Type | Name
 
 ### `google::protobuf::UnknownFieldSet`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::vector<google::protobuf::UnknownField> *` | fields_
 
 
 ### `google::protobuf::io::ZeroCopyInputStream`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `int (**)(void)` | _vptr$ZeroCopyInputStream
 
 
 ### `gpr_timespec`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `int64_t` | tv_sec
 8 | (4) `int32_t` | tv_nsec
 12 | (4) `gpr_clock_type` | clock_type
@@ -1459,14 +1459,14 @@ Offset | Type | Name
 
 ### `grpc_slice`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `grpc_slice_refcount *` | refcount
 8 | (24) `grpc_slice::grpc_slice_data` | data
 
 
 ### `google::protobuf::io::CodedOutputStream`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `google::protobuf::io::ZeroCopyOutputStream *` | output_
 8 | (8) `google::protobuf::uint8 *` | buffer_
 16 | (4) `int` | buffer_size_
@@ -1478,25 +1478,25 @@ Offset | Type | Name
 
 ### `google::protobuf::internal::WrappedMutex`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `std::mutex` | mu_
 
 
 ### `google::protobuf::internal::MutexLock`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `google::protobuf::internal::Mutex *const` | mu_
 
 
 ### `google::protobuf::internal::MutexLockMaybe`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `google::protobuf::internal::Mutex *const` | mu_
 
 
 ### `google::protobuf::internal::MigrationSchema`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `google::protobuf::int32` | offsets_index
 4 | (4) `google::protobuf::int32` | has_bit_indices_index
 8 | (4) `int` | object_size
@@ -1504,7 +1504,7 @@ Offset | Type | Name
 
 ### `google::protobuf::FieldDescriptor`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const std::string *` | name_
 8 | (8) `const std::string *` | full_name_
 16 | (8) `const std::string *` | lowercase_name_
@@ -1532,7 +1532,7 @@ Offset | Type | Name
 
 ### `google::protobuf::FieldDescriptor::$8BD136CD6D5A82A6D3B7D3BD04E134E0`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `google::protobuf::int32` | default_value_int32_
 1 | (8) `google::protobuf::int64` | default_value_int64_
 2 | (4) `google::protobuf::uint32` | default_value_uint32_
@@ -1546,7 +1546,7 @@ Offset | Type | Name
 
 ### `google::protobuf::UnknownField`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `google::protobuf::uint32` | number_
 4 | (4) `google::protobuf::uint32` | type_
 8 | (8) `google::protobuf::UnknownField::$C8C49B7DCE1DF5248C6FC4AAAED29219` | data_
@@ -1554,7 +1554,7 @@ Offset | Type | Name
 
 ### `google::protobuf::UnknownField::$C8C49B7DCE1DF5248C6FC4AAAED29219`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `google::protobuf::uint64` | varint_
 1 | (4) `google::protobuf::uint32` | fixed32_
 2 | (8) `google::protobuf::uint64` | fixed64_
@@ -1564,13 +1564,13 @@ Offset | Type | Name
 
 ### `google::protobuf::UnknownField::LengthDelimited`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::string *` | string_value_
 
 
 ### `grpc_slice_buffer`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `grpc_slice_0 *` | base_slices
 8 | (8) `grpc_slice_0 *` | slices
 16 | (8) `size_t` | count
@@ -1581,13 +1581,13 @@ Offset | Type | Name
 
 ### `google::protobuf::internal::WireFormatLite`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `google::protobuf::internal::ExtensionSet`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `google::protobuf::Arena *` | arena_
 8 | (2) `google::protobuf::uint16` | flat_capacity_
 10 | (2) `google::protobuf::uint16` | flat_size_
@@ -1596,14 +1596,14 @@ Offset | Type | Name
 
 ### `google::protobuf::internal::ExtensionSet::AllocatedData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `google::protobuf::internal::ExtensionSet::KeyValue *` | flat
 1 | (8) `google::protobuf::internal::ExtensionSet::LargeMap *` | large
 
 
 ### `google::protobuf::DescriptorPool`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `google::protobuf::internal::Mutex *` | mutex_
 8 | (8) `google::protobuf::DescriptorDatabase *` | fallback_database_
 16 | (8) `google::protobuf::DescriptorPool::ErrorCollector *` | default_error_collector_

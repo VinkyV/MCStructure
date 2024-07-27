@@ -1,7 +1,7 @@
 # A
 ### `Abilities`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::unique_ptr<PermissionsHandler>` | mPermissions
 8 | (216) `std::array<Ability,18>` | mAbilities
 224 | (96) `std::array<Ability,8>` | mCustomAbilityCache
@@ -9,14 +9,14 @@ Offset | Type | Name
 
 ### `Ability::Value`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | mBoolVal
 1 | (4) `float` | mFloatVal
 
 
 ### `AdventureSettings`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | noPvM
 1 | (1) `bool` | noMvP
 2 | (1) `bool` | immutableWorld
@@ -26,7 +26,7 @@ Offset | Type | Name
 
 ### `AdventureSettingsPacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (36) `Packet:288` | baseclass_0
 36 | (4) `uint32_t` | mFlags
 40 | (1) `CommandPermissionLevel` | mUserPermissions
@@ -39,13 +39,13 @@ Offset | Type | Name
 
 ### `ActorUniqueID`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `int64_t` | rawID
 
 
 ### `AABB`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (12) `Vec3` | min
 12 | (12) `Vec3` | max
 24 | (1) `bool` | empty
@@ -53,13 +53,13 @@ Offset | Type | Name
 
 ### `ActorList`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Vector_base<Actor *>` | baseclass_0
 
 
 ### `AppendOnlyAtomicLookupTable<SubChunk,16>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (896) `std::aligned_storage<56,8>::type[16]` | mArray
 896 | (8) `std::atomic_size_t` | mSize
 904 | (32) `SpinLock` | mAppendLock
@@ -67,7 +67,7 @@ Offset | Type | Name
 
 ### `ActorEventPacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `Packet` | baseclass_0
 40 | (8) `ActorRuntimeID` | mRuntimeId
 48 | (1) `ActorEvent` | mEventId
@@ -76,19 +76,19 @@ Offset | Type | Name
 
 ### `ActorRuntimeID`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `uint64_t` | rawID
 
 
 ### `ActorServerCommandOrigin`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `ActorCommandOrigin` | baseclass_0
 
 
 ### `ActorCommandOrigin`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `CommandOrigin` | baseclass_0
 24 | (8) `ActorUniqueID` | mEntityId
 32 | (8) `Level *` | mLevel
@@ -96,26 +96,26 @@ Offset | Type | Name
 
 ### `ActorComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Actor *` | mActor
 
 
 ### `AgeableComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mAge
 
 
 ### `AgentCommandComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Unique<AgentCommands::Command>` | mCurrentCommand
 8 | (4) `int` | mWaitForNextCommandTicks
 
 
 ### `AngryComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mDuration
 4 | (4) `int` | mDurationDelta
 8 | (1) `bool` | mHasTicked
@@ -126,13 +126,13 @@ Offset | Type | Name
 
 ### `ActorFilterGroup`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `FilterGroup` | baseclass_0
 
 
 ### `ActorDamageByActorSource`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `ActorDamageSource` | baseclass_0
 16 | (8) `BlockSource *` | mRegion
 24 | (1) `bool` | mIsWorldBuilder
@@ -145,14 +145,14 @@ Offset | Type | Name
 
 ### `ActorDamageSource`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `int (**)(void)` | _vptr$ActorDamageSource
 8 | (4) `ActorDamageCause` | mCause
 
 
 ### `AreaAttackComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float` | mDamageRange
 4 | (4) `int` | mDamagePerTick
 8 | (4) `ActorDamageCause` | mDamageCause
@@ -161,19 +161,19 @@ Offset | Type | Name
 
 ### `ActorFlagComponent<BurnsInDaylightFlag>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `IEntityComponent` | baseclass_0
 
 
 ### `ActorFlagComponent<EnvironmentSensorFlag>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `IEntityComponent` | baseclass_0
 
 
 ### `ActorDefinitionIdentifier`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | mNamespace
 32 | (32) `std::string` | mIdentifier
 64 | (32) `std::string` | mInitEvent
@@ -183,7 +183,7 @@ Offset | Type | Name
 
 ### `ActorLink`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `ActorLinkType` | type
 8 | (8) `ActorUniqueID` | A
 16 | (8) `ActorUniqueID` | B
@@ -192,7 +192,7 @@ Offset | Type | Name
 
 ### `ActorInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | mRuntimeId
 8 | (168) `ActorDefinitionIdentifier` | mIdentifier
 176 | (168) `ActorDefinitionIdentifier` | mBaseIdentifier
@@ -203,7 +203,7 @@ Offset | Type | Name
 
 ### `AvailableCommandsPacket::CommandData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | name
 32 | (32) `std::string` | description
 64 | (1) `uint8_t` | flags
@@ -214,13 +214,13 @@ Offset | Type | Name
 
 ### `AvailableCommandsPacket::OverloadData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<AvailableCommandsPacket::ParamData>` | params
 
 
 ### `AvailableCommandsPacket::ConstrainedValueData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `uint32_t` | enumValueSymbol
 4 | (4) `uint32_t` | enumSymbol
 8 | (24) `std::vector<unsigned char>` | constraints
@@ -228,7 +228,7 @@ Offset | Type | Name
 
 ### `AvailableCommandsPacket::ParamData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | name
 32 | (4) `uint32_t` | parseSymbol
 36 | (1) `bool` | optional
@@ -237,7 +237,7 @@ Offset | Type | Name
 
 ### `AllWorkerConfigurations`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `ThreadConfiguration` | MainThread
 32 | (32) `ThreadConfiguration` | ServerThread
 64 | (40) `WorkerConfiguration` | Async
@@ -252,7 +252,7 @@ Offset | Type | Name
 
 ### `AnimatePacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `Packet` | baseclass_0
 40 | (8) `ActorRuntimeID` | mRuntimeId
 48 | (4) `AnimatePacket::Action` | mAction
@@ -261,7 +261,7 @@ Offset | Type | Name
 
 ### `AutoCompleteOption`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | visualText
 32 | (32) `std::string` | tabCompleteText
 64 | (32) `std::string` | description
@@ -275,33 +275,33 @@ Offset | Type | Name
 
 ### `AutomaticID<Dimension,int>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | runtimeID
 
 
 ### `ActorDamageByBlockSource`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `ActorDamageSource` | baseclass_0
 16 | (8) `const Block *` | mBlock
 
 
 ### `ActorDefinitionPtr`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ActorDefinitionGroup *` | mGroup
 8 | (8) `ActorDefinition *` | mPtr
 
 
 ### `ActorLink::List`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Vector_base<ActorLink>` | baseclass_0
 
 
 ### `ActorFallPacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `Packet` | baseclass_0
 40 | (8) `ActorRuntimeID` | mEntityID
 48 | (4) `float` | mDistance
@@ -310,7 +310,7 @@ Offset | Type | Name
 
 ### `ActionEvent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mActionId
 4 | (4) `ActionEvent::ActionState` | mActionState
 8 | (1) `bool` | mIsExclusive
@@ -319,13 +319,13 @@ Offset | Type | Name
 
 ### `ActorFlagComponent<PersistentFlag>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `IEntityComponent` | baseclass_0
 
 
 ### `ActorDefinition::parseAttributes::$6BAFC40004D8C3E8E3A064C81F470774`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__gnu_cxx::__normal_iterator<std::string *,std::vector<std::string> > *` | iter
 8 | (8) `ActorDefinition *` | this
 16 | (8) `ActorDefinitionDescriptor *` | desc
@@ -333,7 +333,7 @@ Offset | Type | Name
 
 ### `ActorDefinition::parse::$AAE48C984D581248ECCF7B3C863DEC20`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::string *` | name
 8 | (8) `Json::Value *` | root
 16 | (8) `ActorDefinition *` | this
@@ -342,7 +342,7 @@ Offset | Type | Name
 
 ### `ActorDefinitionAttribute`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | name
 32 | (4) `float` | min
 36 | (4) `float` | max
@@ -351,7 +351,7 @@ Offset | Type | Name
 
 ### `ActorDefinitionDescriptor`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (56) `std::unordered_set<Util::HashString,Util::HashString::HashFunc,std::equal_to<Util::HashString>,std::allocator<Util::HashString> >` | mComponentNames
 56 | (40) `IdentifierDescription` | mIdentifier
 96 | (40) `RuntimeIdentifierDescription` | mRuntimeIdentifier
@@ -479,33 +479,33 @@ Offset | Type | Name
 
 ### `AnimationsDescription`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ComponentDescription` | baseclass_0
 8 | (56) `std::unordered_map<HashedString,HashedString>` | mActorAnimationMap
 
 
 ### `AnimationScriptsDescription`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ComponentDescription` | baseclass_0
 8 | (24) `std::vector<std::pair<HashedString,ExpressionNode>>` | mAnimateScript
 
 
 ### `ActorSkeletalAnimationPtr`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<ActorAnimationInfo>` | mActorAnimationInfoPtr
 
 
 ### `ActorAnimationControllerPtr`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<ActorAnimationControllerInfo>` | mActorAnimationControllerInfoPtr
 
 
 ### `ActorFactoryData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (168) `ActorDefinitionIdentifier` | mIdentifier
 168 | (168) `ActorDefinitionIdentifier` | mBaseIdentifier
 336 | (1) `bool` | mAllowSummon
@@ -517,20 +517,20 @@ Offset | Type | Name
 
 ### `ActorInteraction::OnInteraction`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<void ()>::_Invoker_type` | _M_invoker
 
 
 ### `ActorDataMap`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (56) `std::unordered_map<std::string,ActorFactoryData>::_Hashtable` | _M_h
 
 
 ### `ActorDamageByChildActorSource`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (80) `ActorDamageByActorSource` | baseclass_0
 80 | (1) `bool` | mDamagingActorIsWorldBuilder
 81 | (1) `bool` | mDamagingActorIsCreative
@@ -542,7 +542,7 @@ Offset | Type | Name
 
 ### `ActorParticleEffect`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `HashedString` | mParticleEffectName
 40 | (40) `HashedString` | mLocatorName
 80 | (128) `ExpressionNode` | mInitializationScripts
@@ -551,27 +551,27 @@ Offset | Type | Name
 
 ### `ActorSoundEffect`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `HashedString` | mSoundEffectName
 
 
 ### `ActorParticleEffectEvent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (216) `ActorParticleEffect` | mParticleEffect
 216 | (4) `float` | mTime
 
 
 ### `ActorSoundEffectEvent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `ActorSoundEffect` | mSoundEffect
 40 | (4) `float` | mTime
 
 
 ### `ActorAnimationEvent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (128) `ExpressionNode` | mExpression
 128 | (40) `HashedString` | mCommand
 168 | (4) `CurrentCmdVersion` | mCommandVersion
@@ -581,47 +581,47 @@ Offset | Type | Name
 
 ### `ActorAnimationControllerGroupParseMetaData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ActorAnimationControllerGroup *` | mActorAnimationControllerGroup
 8 | (4) `CurrentCmdVersion` | mCurrentCommandVersion
 
 
 ### `ActorAnimationGroupParseMetaData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ActorAnimationGroup *` | mActorAnimationGroup
 8 | (4) `CurrentCmdVersion` | mCurrentCommandVersion
 
 
 ### `AnimationComponentID`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `AnimationComponentID::$9FA17E7D7DCEEBB7713B7193F23D45BD` | mData
 
 
 ### `AnimationComponentID::$9FA17E7D7DCEEBB7713B7193F23D45BD`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `AnimationComponentID::$9FA17E7D7DCEEBB7713B7193F23D45BD::$65CCC15F238CE74967BBE3340E99BC94` | _anon_0
 1 | (8) `uint64_t` | mAllBits
 
 
 ### `AnimationComponentID::$9FA17E7D7DCEEBB7713B7193F23D45BD::$65CCC15F238CE74967BBE3340E99BC94`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int64` | _bf_0
 
 
 ### `ActorBlockSyncMessage`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ActorUniqueID` | mEntityUniqueID
 8 | (4) `ActorBlockSyncMessage::MessageId` | mMessage
 
 
 ### `AttributeInstance`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `int (**)(void)` | _vptr$AttributeInstance
 8 | (8) `BaseAttributeMap *` | mAttributeMap
 16 | (8) `const Attribute *` | mAttribute
@@ -635,20 +635,20 @@ Offset | Type | Name
 
 ### `AttributeInstance::$DA28B55148B6D6964D71615272628344`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (12) `AttributeInstance::$DA28B55148B6D6964D71615272628344::$CBA65015C8EB93BF42E3CAB5E288923D` | _anon_0
 1 | (12) `AttributeInstance::$DA28B55148B6D6964D71615272628344::$F2BAED747831077325874A72B2A106F3` | _anon_1
 
 
 ### `AttributeInstance::$DA28B55148B6D6964D71615272628344::$CBA65015C8EB93BF42E3CAB5E288923D`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (12) `float[3]` | mDefaultValues
 
 
 ### `AttributeInstance::$DA28B55148B6D6964D71615272628344::$F2BAED747831077325874A72B2A106F3`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float` | mDefaultMinValue
 4 | (4) `float` | mDefaultMaxValue
 8 | (4) `float` | mDefaultValue
@@ -656,7 +656,7 @@ Offset | Type | Name
 
 ### `ActorInteraction`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | mInteractText
 32 | (32) `ActorInteraction::OnInteraction` | mInteraction
 64 | (1) `bool` | mNoCapture
@@ -664,34 +664,34 @@ Offset | Type | Name
 
 ### `AttributeCollection`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (56) `std::unordered_map<StringKey,Attribute *>` | mAttributesMap
 56 | (4) `uint32_t` | mIDValueIndex
 
 
 ### `AttributeInstance::ModifierVector`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Vector_base<AttributeModifier>` | baseclass_0
 
 
 ### `AttributeInstanceHandle`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `uint32_t` | mAttributeID
 8 | (8) `BaseAttributeMap *` | mAttributeMap
 
 
 ### `AttributeBuffInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `AttributeBuffType` | type
 8 | (8) `ActorUniqueID` | source
 
 
 ### `AttributeBuff:672`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `int (**)(void)` | _vptr$AttributeBuff
 8 | (4) `float` | mAmount
 12 | (4) `_BYTE[4]` | gapC
@@ -706,7 +706,7 @@ Offset | Type | Name
 
 ### `AnvilDamagePacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (36) `Packet:288` | baseclass_0
 36 | (4) `int` | mDamage
 40 | (12) `NetworkBlockPosition` | mPosition
@@ -714,7 +714,7 @@ Offset | Type | Name
 
 ### `AttributeBuff`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `int (**)(void)` | _vptr$AttributeBuff
 8 | (4) `float` | mAmount
 16 | (16) `AttributeBuffInfo` | mInfo
@@ -728,20 +728,20 @@ Offset | Type | Name
 
 ### `ActorMap`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (56) `std::unordered_map<ActorUniqueID,Actor *>::_Hashtable` | _M_h
 
 
 ### `ArbitraryBiomeComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | mName
 32 | (16) `Json::Value` | mPayload
 
 
 ### `AABBContactPoint`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mNormalIndex
 4 | (4) `float` | mSignedPenetration
 8 | (12) `Vec3` | mNormal
@@ -749,55 +749,55 @@ Offset | Type | Name
 
 ### `ActorDefinitionFeedItem`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const Item *` | mItem
 8 | (4) `float` | mGrowth
 
 
 ### `AppConfigs::LeaveGameCallback`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<void (SceneStack &,SceneFactory &)>::_Invoker_type` | _M_invoker
 
 
 ### `AutomationClientConnectPacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `Packet` | baseclass_0
 40 | (32) `WebSocketPacketData` | mWebSocketData
 
 
 ### `AddRiderComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (168) `ActorDefinitionIdentifier` | mRiderType
 
 
 ### `AnimationValueCurveKeyFrame`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float` | mInputValue
 4 | (4) `float` | mOutputValue
 
 
 ### `AgentCommand::AgentCommandFunction`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<std::unique_ptr<AgentCommands::Command> (Player &)>::_Invoker_type` | _M_invoker
 
 
 ### `ActorSpawnRuleBase::SpawnRulesHandler`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<void (const std::string &,int,BiomeFilterGroup &,MobSpawnRules &)>::_Invoker_type` | _M_invoker
 
 
 ### `addrinfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | ai_flags
 4 | (4) `int` | ai_family
 8 | (4) `int` | ai_socktype
@@ -810,7 +810,7 @@ Offset | Type | Name
 
 ### `ArmorStand::Pose`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (12) `Vec3` | mHeadPose
 12 | (12) `Vec3` | mBodyPose
 24 | (12) `Vec3` | mRightArmPose
@@ -822,7 +822,7 @@ Offset | Type | Name
 
 ### `Attribute`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `RedefinitionMode` | mRedefinitionMode
 1 | (1) `bool` | mSyncable
 4 | (4) `uint32_t` | mIDValue
@@ -831,7 +831,7 @@ Offset | Type | Name
 
 ### `ArmorItem::ArmorMaterial`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mDurabilityMultiplier
 4 | (16) `int[4]` | slotProtections
 20 | (4) `int` | mEnchantmentValue
@@ -839,7 +839,7 @@ Offset | Type | Name
 
 ### `ActorMapping`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | mNamespace
 32 | (32) `std::string` | mPrimaryName
 64 | (32) `std::string` | mAlternateName
@@ -848,7 +848,7 @@ Offset | Type | Name
 
 ### `AvailableCommandsPacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `Packet` | baseclass_0
 40 | (24) `std::vector<std::string>` | mEnumValues
 64 | (24) `std::vector<std::string>` | mPostfixes
@@ -860,34 +860,34 @@ Offset | Type | Name
 
 ### `AvailableActorIdentifiersPacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `Packet` | baseclass_0
 40 | (24) `std::vector<ActorInfo>` | mIdentifierList
 
 
 ### `AvailableCommandsPacket::EnumData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | name
 32 | (24) `std::vector<unsigned int>` | values
 
 
 ### `AvailableCommandsPacket::SoftEnumData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | name
 32 | (24) `std::vector<std::string>` | values
 
 
 ### `Automation::AutomationClient`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `UriListener` | baseclass_0
 
 
 ### `ActorDefinitionDiffList`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ActorDefinitionGroup *` | mDefinitions
 8 | (24) `std::vector<std::pair<bool,ActorDefinitionPtr>>` | mDefinitionStack
 32 | (8) `Unique<ActorDefinitionDescriptor>` | mChangedDescription
@@ -898,25 +898,25 @@ Offset | Type | Name
 
 ### `Actor::baseTick::$7EF7C94BEAB75C6CEF4ADFB99B570420`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `Actor::spawnDeathParticles::$7EF7C94BEAB75C6CEF4ADFB99B570420`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `Actor::spawnTrailBubbles::$7EF7C94BEAB75C6CEF4ADFB99B570420`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `ActorFactory`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Level *` | mLevel
 8 | (16) `std::shared_ptr<IEntityInitializer>` | mEntityInitializer
 24 | (64) `ActorComponentFactory` | mComponentFactory
@@ -924,14 +924,14 @@ Offset | Type | Name
 
 ### `ActorComponentFactory`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (58) `EntityComponentFactory:464` | baseclass_0
 58 | (1) `bool` | mGenerateDoc
 
 
 ### `ActorFilterGroup::LegacyMapping`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `FilterGroup::CollectionType` | mType
 8 | (8) `const FilterTest::Definition *` | mFilterDef
 16 | (2) `FilterSubject` | mSubject
@@ -941,25 +941,25 @@ Offset | Type | Name
 
 ### `ArmorStand::updateEntitySpecificMolangVariables::$7EF7C94BEAB75C6CEF4ADFB99B570420`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `Agent::updateEntitySpecificMolangVariables::$7EF7C94BEAB75C6CEF4ADFB99B570420`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `ActorAnimationControllerGroup`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (56) `std::unordered_map<HashedString,std::shared_ptr<ActorAnimationControllerInfo>>` | mAnimationControllers
 
 
 ### `ActorAnimationGroup`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (56) `std::unordered_map<HashedString,std::shared_ptr<ActorAnimationInfo>>` | mAnimations
 56 | (40) `Bedrock::Threading::Mutex` | mActorAnimationLock
 96 | (1) `bool` | mIsExperimental
@@ -967,7 +967,7 @@ Offset | Type | Name
 
 ### `AnimationComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `size_t` | mLastReloadInitTimeStamp
 8 | (8) `const ActorAnimationControllerStatePlayer *` | mCurrentAnimationControllerStatePlayer
 16 | (24) `std::vector<std::unique_ptr<ActorAnimationPlayer>>` | mComponentAnimationPlayers
@@ -989,13 +989,13 @@ Offset | Type | Name
 
 ### `AnimationComponent::setInitializedScriptsRun::$7EF7C94BEAB75C6CEF4ADFB99B570420`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `Ability`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `Ability::Type` | mType
 4 | (4) `Ability::Value` | mValue
 8 | (1) `Ability::Options` | mOptions
@@ -1003,13 +1003,13 @@ Offset | Type | Name
 
 ### `Arrow::normalTick::$7EF7C94BEAB75C6CEF4ADFB99B570420`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `AttributeModifier`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `int (**)(void)` | _vptr$AttributeModifier
 8 | (4) `float` | mAmount
 12 | (4) `int` | mOperation
@@ -1021,7 +1021,7 @@ Offset | Type | Name
 
 ### `ActorHasEquipmentTest`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (12) `FilterTest:96` | baseclass_0
 12 | (4) `int` | mEquipmentSlot
 16 | (4) `int` | mItemID
@@ -1030,224 +1030,224 @@ Offset | Type | Name
 
 ### `ActorUndergroundTest`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `SimpleBoolFilterTest` | baseclass_0
 
 
 ### `ActorUnderwaterTest`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `SimpleBoolFilterTest` | baseclass_0
 
 
 ### `ActorInWaterTest`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `SimpleBoolFilterTest` | baseclass_0
 
 
 ### `ActorInWaterOrRainTest`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `SimpleBoolFilterTest` | baseclass_0
 
 
 ### `ActorOnGroundTest`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `SimpleBoolFilterTest` | baseclass_0
 
 
 ### `ActorInLavaTest`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `SimpleBoolFilterTest` | baseclass_0
 
 
 ### `ActorInCloudsTest`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `SimpleBoolFilterTest` | baseclass_0
 
 
 ### `ActorOnLadderTest`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `SimpleBoolFilterTest` | baseclass_0
 
 
 ### `ActorHasComponentTest`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (56) `SimpleHashStringFilterTest` | baseclass_0
 
 
 ### `ActorIsFamilyTest`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (56) `SimpleHashStringFilterTest` | baseclass_0
 
 
 ### `ActorHasAbilityTest`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `SimpleIntFilterTest` | baseclass_0
 
 
 ### `ActorHasDamageTest`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `SimpleIntFilterTest` | baseclass_0
 
 
 ### `ActorIsColorTest`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `SimpleIntFilterTest` | baseclass_0
 
 
 ### `ActorIsOwnerTest`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `SimpleBoolFilterTest` | baseclass_0
 
 
 ### `ActorIsTargetTest`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `SimpleBoolFilterTest` | baseclass_0
 
 
 ### `ActorIsImmobileTest`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `SimpleBoolFilterTest` | baseclass_0
 
 
 ### `ActorHasTargetTest`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `SimpleBoolFilterTest` | baseclass_0
 
 
 ### `ActorIsLeashedToTest`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `SimpleBoolFilterTest` | baseclass_0
 
 
 ### `ActorIsMovingTest`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `SimpleBoolFilterTest` | baseclass_0
 
 
 ### `ActorIsSneakingTest`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `SimpleBoolFilterTest` | baseclass_0
 
 
 ### `ActorIsClimbingTest`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `SimpleBoolFilterTest` | baseclass_0
 
 
 ### `ActorIsRidingTest`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `SimpleBoolFilterTest` | baseclass_0
 
 
 ### `ActorRiderCountTest`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `SimpleIntFilterTest` | baseclass_0
 
 
 ### `ActorInCaravanTest`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `SimpleBoolFilterTest` | baseclass_0
 
 
 ### `ActorIsLeashedTest`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `SimpleBoolFilterTest` | baseclass_0
 
 
 ### `ActorIsVariantTest`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `SimpleIntFilterTest` | baseclass_0
 
 
 ### `ActorIsMarkVariantTest`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `SimpleIntFilterTest` | baseclass_0
 
 
 ### `ActorIsSkinIDTest`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `SimpleIntFilterTest` | baseclass_0
 
 
 ### `ActorHasTagTest`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (56) `SimpleHashStringFilterTest` | baseclass_0
 
 
 ### `ActorTrustsSubjectTest`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `SimpleBoolFilterTest` | baseclass_0
 
 
 ### `ActorIsAvoidingMobsTest`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `SimpleBoolFilterTest` | baseclass_0
 
 
 ### `ActorInVillageTest`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `SimpleBoolFilterTest` | baseclass_0
 
 
 ### `ActorIsVisibleTest`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `SimpleBoolFilterTest` | baseclass_0
 
 
 ### `ActorHasMobEffect`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `FilterTest` | baseclass_0
 16 | (8) `MobEffect *` | mMobEffect
 
 
 ### `ActorIsSleepingTest`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `SimpleBoolFilterTest` | baseclass_0
 
 
 ### `AutomaticID<Dimension,int>::SELF`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | runtimeID
 
 
 ### `ActorTerrainInterlockData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `ActorTerrainInterlockData::VisibilityState` | mRenderVisibilityState
 8 | (8) `std::chrono::time_point<std::chrono::_V2::system_clock,std::chrono::duration<long,std::ratio<1,1000000000> > >` | mCreationTime
 16 | (1) `bool` | mHasBeenDelayedDeleted
@@ -1255,7 +1255,7 @@ Offset | Type | Name
 
 ### `Automation::Response`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `const Automation::Response::Type` | mType
 8 | (32) `const std::string` | mMessage
 40 | (32) `const std::string` | mId
@@ -1263,7 +1263,7 @@ Offset | Type | Name
 
 ### `Automation::MessageHeader`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | mRequestId
 32 | (1) `Automation::MessagePurpose` | mMessagePurpose
 36 | (4) `int` | mVersion

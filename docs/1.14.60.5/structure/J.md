@@ -1,7 +1,7 @@
 # J
 ### `Json::Value`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Json::Value::ValueHolder` | value_
 8 | (1) `__int8` | type_
 9 | (1) `__int8` | _bf_9
@@ -9,7 +9,7 @@ Offset | Type | Name
 
 ### `Json::Value::ValueHolder`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Json::Value::LargestInt` | int_
 1 | (8) `Json::Value::LargestUInt` | uint_
 2 | (8) `double` | real_
@@ -20,26 +20,26 @@ Offset | Type | Name
 
 ### `Json::ValueConstIterator`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `Json::ValueIteratorBase` | baseclass_0
 
 
 ### `Json::ValueIteratorBase`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::map<Json::Value::CZString,Json::Value>::iterator` | current_
 8 | (1) `bool` | isNull_
 
 
 ### `Json::ValueIterator`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `Json::ValueIteratorBase` | baseclass_0
 
 
 ### `Json::Reader`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (80) `Json::Reader::Nodes` | nodes_
 80 | (80) `Json::Reader::Errors` | errors_
 160 | (32) `std::string` | document_
@@ -55,26 +55,26 @@ Offset | Type | Name
 
 ### `Json::Reader::Nodes`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (80) `std::deque<Json::Value *>` | c
 
 
 ### `Json::Reader::Errors`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (80) `std::_Deque_base<Json::Reader::ErrorInfo>` | baseclass_0
 
 
 ### `Json::Features`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | allowComments_
 1 | (1) `bool` | strictRoot_
 
 
 ### `Json::FastWriter`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Json::Writer` | baseclass_0
 8 | (32) `std::string` | document_
 40 | (1) `bool` | yamlCompatiblityEnabled_
@@ -82,13 +82,13 @@ Offset | Type | Name
 
 ### `Json::Writer`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `int (**)(void)` | _vptr$Writer
 
 
 ### `JumpControlComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | mJumping
 1 | (1) `bool` | mSwimming
 4 | (4) `float` | mJumpPower
@@ -99,7 +99,7 @@ Offset | Type | Name
 
 ### `JumpInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mAnimDuration
 4 | (4) `int` | mJumpDelay
 8 | (4) `float` | mDistanceScale
@@ -108,7 +108,7 @@ Offset | Type | Name
 
 ### `JsonValidator::Property`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<Json::ValueType>` | mTypes
 24 | (1) `bool` | mIsRequired
 25 | (1) `bool` | mRequiresConditionalProperty
@@ -121,13 +121,13 @@ Offset | Type | Name
 
 ### `JsonValidator::Property::PropertyPtr`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::__shared_ptr<JsonValidator::Property,__gnu_cxx::_S_atomic>` | baseclass_0
 
 
 ### `Json::StyledWriter`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Json::Writer` | baseclass_0
 8 | (24) `Json::StyledWriter::ChildValues` | childValues_
 32 | (32) `std::string` | document_
@@ -139,13 +139,13 @@ Offset | Type | Name
 
 ### `Json::StyledWriter::ChildValues`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Vector_base<std::string>` | baseclass_0
 
 
 ### `Json::StyledStreamWriter`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `Json::StyledStreamWriter::ChildValues` | childValues_
 24 | (8) `std::ostream *` | document_
 32 | (32) `std::string` | indentString_
@@ -156,32 +156,32 @@ Offset | Type | Name
 
 ### `Json::StyledStreamWriter::ChildValues`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Vector_base<std::string>` | baseclass_0
 
 
 ### `Json::Value::Members`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Vector_base<std::string>` | baseclass_0
 
 
 ### `JsonUtil::SchemaConverterCollection`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<JsonUtil::SchemaConverterNode>` | mCollection
 
 
 ### `JsonUtil::details::BlockReference`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | mBlockType
 32 | (56) `CompoundTag` | mStates
 
 
 ### `JsonMergeStrategy`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ResourcePackMergeStrategy` | baseclass_0
 8 | (32) `std::string` | mFileName
 40 | (8) `Json::Value *` | mRoot
@@ -190,14 +190,14 @@ Offset | Type | Name
 
 ### `JsonMergeStrategy::PreMergeCallback`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<bool (Json::Value &,const Json::Value &)>::_Invoker_type` | _M_invoker
 
 
 ### `JigsawBlockInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (12) `BlockPos` | mPos
 16 | (8) `const Block *` | mBlock
 24 | (8) `const Block *` | mFinalBlock
@@ -207,7 +207,7 @@ Offset | Type | Name
 
 ### `JigsawJunction`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (12) `BlockPos` | mSourceBlockPos
 12 | (4) `int` | mDeltaSourceY
 16 | (4) `int` | mDeltaTargetY
@@ -217,7 +217,7 @@ Offset | Type | Name
 
 ### `JournaledFile`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `Core::HeapPathBuffer` | mFilePath
 32 | (16) `Core::File` | mFile
 48 | (32) `JournaledFile::ValidationCallback` | mValidationCallback
@@ -226,20 +226,20 @@ Offset | Type | Name
 
 ### `JournaledFile::ValidationCallback`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<Core::Result (Core::Path)>::_Invoker_type` | _M_invoker
 
 
 ### `JsonValidator::validate::$7EF7C94BEAB75C6CEF4ADFB99B570420`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `JsonValidator::validate::ValidationState`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const JsonValidator::Property *` | prop
 8 | (8) `const Json::Value *` | data
 16 | (8) `const Json::Value *` | parent
@@ -249,14 +249,14 @@ Offset | Type | Name
 
 ### `JsonValidator::generateDocs::DocumentationState`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const JsonValidator::Property *` | prop
 8 | (8) `Json::Value *` | data
 
 
 ### `Json::Reader::Token`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `Json::Reader::TokenType` | type_
 8 | (8) `Json::Reader::Location` | start_
 16 | (8) `Json::Reader::Location` | end_
@@ -264,7 +264,7 @@ Offset | Type | Name
 
 ### `Json::Reader::ErrorInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `Json::Reader::Token` | token_
 24 | (32) `std::string` | message_
 56 | (8) `Json::Reader::Location` | extra_
@@ -272,50 +272,50 @@ Offset | Type | Name
 
 ### `Json::Value::CZString`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const char *` | cstr_
 8 | (4) `Json::Value::ArrayIndex` | index_
 
 
 ### `Json::Path::InArgs`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Vector_base<const Json::PathArgument *>` | baseclass_0
 
 
 ### `jsonValConversion<int>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `jsonValConversion<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char> > >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `jsonValConversion<Json::Value>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `JukeboxBlockActor::tick::$7EF7C94BEAB75C6CEF4ADFB99B570420`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `Json::StaticString`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const char *` | str_
 
 
 ### `Json::PathArgument`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | key_
 32 | (4) `Json::ArrayIndex` | index_
 36 | (4) `Json::PathArgument::Kind` | kind_

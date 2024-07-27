@@ -1,7 +1,7 @@
 # E
 ### `ExternalServer`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (48) `AsynchronousIPResolver` | mFutureIP
 48 | (4) `int` | mId
 52 | (4) `int` | mPort
@@ -17,13 +17,13 @@ Offset | Type | Name
 
 ### `EducationEditionOfferValue`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `_BYTE[4]` | mValue
 
 
 ### `ElkLogHandler`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ElkLogHandler_vtbl *` | __vftable
 8 | (32) `std::string` | mElkUrl
 40 | (32) `std::string` | mProduct
@@ -39,7 +39,7 @@ Offset | Type | Name
 
 ### `EasyThread`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EasyThread_vtbl *` | __vftable
 8 | (1) `bool` | m_bRun
 16 | (16) `std::thread` | m_thread
@@ -47,7 +47,7 @@ Offset | Type | Name
 
 ### `EasyDownloader`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | mIsRunning
 8 | (32) `EasyThread` | mThread
 40 | (160) `Semaphore` | mSemphore
@@ -58,20 +58,20 @@ Offset | Type | Name
 
 ### `EntityExtension`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::unordered_map<std::string,std::string>` | mEntityExtensionCollection
 
 
 ### `encodefuncentry`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const char *` | name
 8 | (8) `_object *(__fastcall *)(_object *, _object *)` | encodefunc
 
 
 ### `EducationOptions`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ResourcePackListener` | baseclass_0
 8 | (16) `Bedrock::EnableNonOwnerReferences` | baseclass_8
 24 | (8) `ResourcePackManager *` | mPackMan
@@ -81,44 +81,44 @@ Offset | Type | Name
 
 ### `ExperimentStorage`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::vector<bool>` | mExperimentData
 32 | (1) `bool` | mExperimentsEverToggled
 
 
 ### `Experiments`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `ExperimentStorage` | baseclass_0
 
 
 ### `EntityId`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | mRawId
 
 
 ### `EntityContextBase`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistryBase *` | mRegistry
 8 | (4) `const EntityId` | mEntity
 
 
 ### `EntityContext`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `EntityContextBase` | baseclass_0
 
 
 ### `EnableGetWeakRef<EntityRefTraits>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `Entitlement`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `ContentIdentity` | mContentIdentity
 24 | (32) `std::string` | mProductId
 56 | (32) `std::string` | mName
@@ -136,7 +136,7 @@ Offset | Type | Name
 
 ### `ExpressionNode`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `_BYTE[4]` | mOp
 4 | (4) `float` | mMul
 8 | (4) `float` | mAdd
@@ -153,13 +153,13 @@ Offset | Type | Name
 
 ### `ExpressionOpBitField`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `unsigned __int64[2]` | mBits
 
 
 ### `EducationLevelSettings`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | codeBuilderDefaultUri
 32 | (32) `std::string` | codeBuilderTitle
 64 | (1) `bool` | canResizeCodeBuilder
@@ -169,14 +169,14 @@ Offset | Type | Name
 
 ### `EducationLocalLevelSettings`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `std::optional<std::string >` | codeBuilderOverrideUri
 40 | (1) `bool` | hasQuiz
 
 
 ### `EducationContentManagerScreenController::launchWorld::__l2::<lambda_9ec0a0a701853c2e37cee208edb1dde1>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EducationContentManagerScreenController *const` | __this
 8 | (64) `const std::function<void __cdecl(void)>` | onLaunchSucceeded
 72 | (64) `const std::function<void __cdecl(void)>` | onLaunchFailed
@@ -188,21 +188,21 @@ Offset | Type | Name
 
 ### `EDUScreenHelpers::TemplateWrapper`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `_BYTE[1]` | mType
 8 | (8) `$FF69CD063870CA30F025610930358A75` | ___u1
 
 
 ### `EDUDiscoveryDialogCallbacks`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::function<void __cdecl(void)>` | mToIpEntry
 64 | (64) `std::function<void __cdecl(void)>` | mToJoincodeEntry
 
 
 ### `EDULibraryCategoryParser::getCategories::__l45::<lambda_da8fe009fabed056b3ef467463815ed0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | newScreenTitle
 32 | (32) `std::string` | icon
 64 | (32) `std::string` | description
@@ -212,7 +212,7 @@ Offset | Type | Name
 
 ### `EDULibraryCategoryParser::getCategories::__l24::<lambda_bc64e7a9c0fc45231d5ae139738f745b>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | newScreenTitle
 32 | (32) `std::string` | icon
 64 | (32) `std::string` | description
@@ -225,7 +225,7 @@ Offset | Type | Name
 
 ### `ExprToken`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `Json::Value` | mValue
 16 | (32) `UiExpression` | mAsExpression
 48 | (4) `_BYTE[4]` | mOperatorType
@@ -235,7 +235,7 @@ Offset | Type | Name
 
 ### `EducationContentServices::getLibraryItem::__l7::<lambda_9d6d370868ed710c1f2db810e3661c1f>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<EducationContentServices>` | weakThis
 16 | (8) `LibraryService *` | service
 24 | (64) `std::function<void __cdecl(std::shared_ptr<LibraryItem>)>` | callback
@@ -243,7 +243,7 @@ Offset | Type | Name
 
 ### `EducationContentServices::_fetchLibraryItems::__l2::<lambda_e8c138023c5ae50adcdb015bd43b2444>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<EducationContentServices>` | weakThis
 16 | (8) `LibraryService *` | service
 24 | (16) `std::weak_ptr<InstructionalContentCollection>` | collection
@@ -253,7 +253,7 @@ Offset | Type | Name
 
 ### `EducationContentServices::_fetchChannelItems::__l2::<lambda_7494183596c58195619b3b2414670acb>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ChannelService *` | service
 8 | (16) `std::weak_ptr<InstructionalContentCollection>` | collection
 24 | (16) `std::shared_ptr<InstructionalContentQueryContext>` | context
@@ -262,27 +262,27 @@ Offset | Type | Name
 
 ### `EducationContentServices::_getLibraryImage::__l2::<lambda_e39421a97b773421d2dd913758e32443>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<LessonItem>` | weakItem
 16 | (64) `std::function<void __cdecl(void)>` | callback
 
 
 ### `EducationContentServices::_getChannelImage::__l2::<lambda_5c0ed10d2c4d4b28cc3a69c62f4957bd>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<LessonItem>` | weakItem
 16 | (64) `std::function<void __cdecl(void)>` | callback
 
 
 ### `EntityNetId`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | mRawId
 
 
 ### `ExternalContentManager::importContent::__l49::<lambda_d678ee9e8348c9fbc609068109e0c70f>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ExternalContentManager *const` | __this
 8 | (16) `std::shared_ptr<ImportContext>` | context
 24 | (16) `std::shared_ptr<std::unique_ptr<PackManifest> >` | manifestPtr
@@ -296,7 +296,7 @@ Offset | Type | Name
 
 ### `ExternalContentManager::importContent::__l49::<lambda_e1f4fe332ddbbeb8e782b45738314a25>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ExternalContentManager *const` | __this
 8 | (16) `std::shared_ptr<ImportContext>` | context
 24 | (16) `std::shared_ptr<std::unique_ptr<PackManifest> >` | manifestPtr
@@ -306,7 +306,7 @@ Offset | Type | Name
 
 ### `ExternalContentManager::importContent::__l49::<lambda_d678ee9e8348c9fbc609068109e0c70f>::()::__l49::<lambda_68c4c98f28c6aaccd5c3d405992a8f84>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ExternalContentManager *const` | __this
 8 | (16) `std::shared_ptr<ImportContext>` | context
 24 | (16) `std::shared_ptr<bool>` | attemptImport
@@ -321,7 +321,7 @@ Offset | Type | Name
 
 ### `ExternalContentManager::importContent::__l49::<lambda_d678ee9e8348c9fbc609068109e0c70f>::()::__l49::<lambda_da31632bf30fea9a62c7a413c1096b11>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<ImportContext>` | context
 16 | (16) `std::shared_ptr<bool>` | attemptImport
 32 | (56) `ResourceLocation` | contentLocation
@@ -332,14 +332,14 @@ Offset | Type | Name
 
 ### `ExternalContentManager::LoadingContentData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `_BYTE[1]` | packType
 8 | (56) `ResourceLocation` | packLocation
 
 
 ### `ExternalContentManager::_importMCPack::__l2::<lambda_0d815293ee69d5854edcdfb58e4d6129>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ExternalContentManager *const` | __this
 8 | (16) `std::shared_ptr<ImportContext>` | context
 24 | (1) `bool` | fromTemp
@@ -357,7 +357,7 @@ Offset | Type | Name
 
 ### `ExternalContentManager::_importMCAddon::__l2::<lambda_d9093fe1973220a7d352f71cbaa4bd85>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ExternalContentManager *const` | __this
 8 | (16) `std::shared_ptr<enum Core::ZipUtils::UnzipResult>` | unzipErrorCode
 24 | (16) `std::shared_ptr<ImportContext>` | context
@@ -367,7 +367,7 @@ Offset | Type | Name
 
 ### `ExternalContentManager::_importMCAddon::__l2::<lambda_79878216f9465baeda875fb6deec6338>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<ImportContext>` | context
 16 | (1040) `Core::PathBuffer<Core::StackString<char,1024> >` | mcAddonStackPath
 1056 | (16) `std::shared_ptr<enum Core::ZipUtils::UnzipResult>` | unzipErrorCode
@@ -376,7 +376,7 @@ Offset | Type | Name
 
 ### `EDUDiscovery::ServerID`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `EDUDiscovery::JoinCode` | joinCode
 16 | (32) `std::string` | passcode
 48 | (32) `std::string` | token
@@ -384,13 +384,13 @@ Offset | Type | Name
 
 ### `EDUDiscovery::JoinCode`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::array<int,4>` | code
 
 
 ### `EDUDiscovery::Dialog`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | mId
 32 | (56) `EDUDiscovery::LocKey` | mTitleText
 88 | (56) `EDUDiscovery::LocKey` | mBodyText
@@ -400,14 +400,14 @@ Offset | Type | Name
 
 ### `EDUDiscovery::LocKey`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | mKey
 32 | (24) `std::vector<std::string>` | mArgs
 
 
 ### `EDUDiscovery::QueryContextInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `gsl::basic_string_span<char const ,-1>` | name
 16 | (4) `int` | startTimeMS
 24 | (48) `std::optional<EDUDiscovery::Error>` | error
@@ -417,7 +417,7 @@ Offset | Type | Name
 
 ### `EDUDiscovery::Error`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `EDUDiscovery::ErrorType` | type
 4 | (4) `int` | code
 8 | (32) `std::string` | reason
@@ -425,1172 +425,1172 @@ Offset | Type | Name
 
 ### `EntityRegistryBase::View<EntityContext,EntityRegistry,FlagComponent<ActorTickedFlag>,ActorComponent,AnimationEventComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistry *` | mRegistry
 
 
 ### `EntityRegistryBase::View<EntityContext,EntityRegistry,FlagComponent<ActorTickedFlag>,ActorComponent,BlockPosTrackerComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistry *` | mRegistry
 
 
 ### `EntityRegistryBase::View<EntityContext,EntityRegistry,FlagComponent<ActorTickedFlag>,ActorComponent,BuoyancyComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistry *` | mRegistry
 
 
 ### `EntityRegistryBase::View<EntityContext,EntityRegistry,FlagComponent<ActorTickedFlag>,ActorComponent,InsideBlockNotifierComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistry *` | mRegistry
 
 
 ### `EntityRegistryBase::View<EntityContext,EntityRegistry,PlayerTickComponent,ServerPlayerMovementComponent,ActorComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistry *` | mRegistry
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_8c234082fa8512752ece3c5895984b5c>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_039b2ef269ab9e93320b05c26d51ec16>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_8354b77005621129856c83a4abd59c68>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_b916456e3405ecf363c220ac1a1e8b0e>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_eb6240e03bedb8f31b5d78ecbe73eda9>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_d12b4adb9a790e7f592ae21e555e08ef>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_3ebd2d3a068677cbd7710e659df66b21>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_b40481c0ece54810bab8f04b826cb7bf>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_5c3ef44fd4c772f22cf3e9a99f00d696>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_51a7e0953e78fabde5bf9078c5d0cc9e>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_19886a0c20e19a2c282a1db38755416a>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_2d275f74ca60156f12dfb75eb1405b87>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_f22b33fe71d63213a65e736e5f222092>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_4d2392b1fdbb1334df0918bcf4e51b5d>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_825673181dd772f8e5d9cd3b1501a4be>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_fa3e15dee22b1f75dff444b27af0a2a3>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_a10aa78aa36c08624160503b5812533b>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_65180b253ac0eacb04b5247fca63091d>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_7635aca3040657e427f73cc880ed1ab3>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_87b2fc2cb0b8f96135d6724244560256>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_6dd60b81050da2f5e3cf5eeacbe6a8f0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_cd7cf7323ea0d5dd2d065a4b9adfaa89>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_7d4439dd6e5a6d7dfd5e8d0fad018056>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_12abca9c3ffd26a3c3c7ac68a850fa85>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_e0a3522af07c9181bfd9090b77f7b59d>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_805fc43cec74705143c13ec044709dd9>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_7e3f984dd2320fb997bab8cc7a80fb5f>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_120356ac50d10250e66ebf4fcee2cf23>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_7dd9838119d72bcaed1e8ee7ff0f0121>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_cd8ad61e453d95172a4dd8c4049e7ab4>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_ef678ff496d5371a6db08740a705f63d>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_ac3298e6cbe5bf23ef42ebae5830d185>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_0e470e86d5cda176f8ff0059d9b5e564>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_bb9f14504eeced52d46635bde80ccb5c>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_60f26937fbe943fc8c18d3bed5a6ff72>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_31b2986231915a84dedde26d9e5dc398>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_8c742361b7252e03baa6080c61057d49>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_53d7ac56bd3f57323ad7fc5fe29a7842>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_d04a6b94dcacf36229b19f1f6013633f>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_6a9b826eb20b64e227e84db8c8466734>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_1b0405884ba7f6fe5416ea6a6e6bf847>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_60e80c44daf2741a7a2f01e7b4dc78aa>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_3feb88e75cf415da7280fa67d9241beb>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_b03528bfbc2de1067c9e6a08d0aea2f4>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_824b6fb5ba24f123d5a9afab4b895c4a>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_0c1ff660e1bf442cf4ec2b7b44b32994>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_8919c298b594b5b186d2bc971196cafa>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_03c63a3d310a72d982a90bfe82eda44b>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_585183d0c6f48c409b280e46ea1a5cc2>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_473f3cbb9bb25ab4fd439ae82453b631>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_79f821bb81b1eb25987b1225294dd7d1>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_7fd1845d86388b37df05f2cd63005b90>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_3e7882691e3087199b9e1d6a12feb1d3>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_ec190d035904c9337912ab705a11c30e>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_6b853ab8df9d498d8f73dfd99b901650>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_ecfaf119601e6f3a4fb4d9d50b56164f>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_da8390a562fafc91f77c35355911aa96>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_afed7556c9e22bbc481ed47922cbb93d>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_ab74f46805a8e55810ccb6763a3f0030>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_84eaaa59f1c6cde15780a765a7d21980>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_6142dc60f8810b40a070344f0b2ca592>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_08b5324dcc5b3c30882d726bcac28c02>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_761d2b4b9ce03d8c30953cccceae539b>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_7fb58a171d19ed2a9b213428191e6d93>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_5036acfc0552be699c55192f82544d13>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_61c1f8159bfddf5f7a4f939361ccf81f>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_4f8a0f098678e91be563744a56adc3c4>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_0a74aacb83e9c9743f2c96fef2e071a1>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_d7840b51b5dfa5d12d08c11839ad46c2>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_f7577b59b1e904b20416a27bedc42ccb>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_a934e1c2b0d737c356087c99879aabfc>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_b03edb3cafe9b18fc70c261d968cb5e1>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_8e6d237f4c569e82d4ffbb92e8d49fba>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_559f5a7edab576cc042e7f5c97b378ac>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_a3441893ca8fbf03f2a098f10328d3c2>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_b4bcb71761b0e38e59e84cc36f7a5968>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_38eeb76a6e13621de7dbbd9511fa8ff1>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_f9126d5e07d963c1daca58c577f0d4bb>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l10::<lambda_2dcf4ca741d4b785adfedb05f58620ab>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l10::<lambda_71bd68c6f367b0293e1fea7e7681a379>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l10::<lambda_9e502e9b7b99da08f013f53b788e1c5e>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l10::<lambda_f59c738732ec6f629e9b24902479f013>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l10::<lambda_1aed22607d19cfcc7453b64f79387464>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l10::<lambda_b785945ef2f51e690b67c4411dd8c3a6>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l10::<lambda_bc409238a5459d915239b795d6c179e2>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l10::<lambda_04a5f05e297c565f0a69e8e3472adc03>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l10::<lambda_647eec298d00e82e18184f2cc82211f1>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l10::<lambda_7fd407f0fb0233c78872ea8870c537b8>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l10::<lambda_84ed6e5ed3dd47b2f461bda639fa3269>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l10::<lambda_5d696e11742b83851411d2e1e5f20214>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l10::<lambda_50bbae78398e7166ea1dd9c2b9f8049d>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l10::<lambda_42600b42d146c496aebb6e80b0f02dac>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l10::<lambda_baddedb032330d404e3dd834ae293bd9>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l10::<lambda_05b9e1f1b6e1cf76f902f8b37ac5d230>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l10::<lambda_06096cf911be12e66f4b2499f8e04889>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l10::<lambda_413fdf6b10366ff8594baa58d313731c>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l10::<lambda_f08efa56d840b68784194e32978bb0eb>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l10::<lambda_f9964153463dceee0e3c8e111a9aad30>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l10::<lambda_2a3459f8b67ae6b24034c91c61429ba2>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l10::<lambda_39306b08482aa7b788ce0fc89bac3a9d>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l10::<lambda_17e920b275c1e774cdd76c0d61aa160c>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l10::<lambda_2fbb7c155a3d0302f70bc9baad5c7ad7>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l10::<lambda_f9194b295e2d237a7b71548145d4e757>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l10::<lambda_582a9d2e5fa0605a1667313a3da4581d>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l10::<lambda_5718923b81101c47ee2570ce379453a5>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l10::<lambda_9b59bb53219c48aa37add68bcbe2e817>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l10::<lambda_99b60402aa7c8b28db26ccb7e3db8841>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l10::<lambda_86635e0c3b739e9e8a3799aa15cf683b>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l10::<lambda_8ccfdd20985c850fb82ece1104f3512e>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l10::<lambda_995a3a26ac84c4a25e9f8718f9b5664f>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l10::<lambda_6bac4d2902db8e732f11c722fbfb2f5a>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l10::<lambda_ee08f67a7525a6dde59865838036cd0d>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l10::<lambda_f07234f6f9fdfd16ad93ecf6ed9492f2>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l10::<lambda_cf8f7e40e75ec817d9fbbe7a5c142c59>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l10::<lambda_ccae028b150f5bdbe49b912e98e981a4>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l10::<lambda_4d8ba46041b5d6c59d0918ac13964fa3>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l10::<lambda_d32c9f33de940d00c2d06c44098bca25>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l10::<lambda_af78ae829b1044a12f9454598528a76f>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l10::<lambda_1b1f69e2170c04b9f8eb727986efbc81>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l10::<lambda_2e5f206bd02bc3f15390c17101c0d318>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l10::<lambda_24360a8b8e865eb3dc4bac0b63bad42e>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l10::<lambda_1a6682370d167cc8692c8036b6e1c0b5>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l10::<lambda_092f9fc4b37e99e498751956bc2222a9>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l10::<lambda_03be2025787c4db35af809a13a6820d3>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l10::<lambda_6af83c5ef992db9e1b6d54ee1b90c13f>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l10::<lambda_bfee9bdc0c4c6b4ae54c7bb643179726>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l10::<lambda_6f5f7281cf09d55e6e6cf6143e1e2a9e>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l10::<lambda_045917ffcbcd02108669203ce030efe5>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l10::<lambda_e51309525026fb0b09b059e04e5fad0c>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l10::<lambda_4d83f513ccf6c488a8b33079a9726749>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l10::<lambda_89d3a68422909efbd8c93a33dcd622f4>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l10::<lambda_4710ef3404819d6729781aac9d1addfd>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l10::<lambda_a72b7e731a4191c7279856c0aafecc4c>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l10::<lambda_0154487a9930c1e326b9d0b582df3e09>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l10::<lambda_53443c4937fe447fb95dc385ce82d83a>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l10::<lambda_09a52275d6e47f799d9ca4b02903f606>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l10::<lambda_ec2c0f288833a71d3aece77be73dfa69>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l10::<lambda_a588a659ce2f9587d52767bbbc264a9e>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l10::<lambda_da065692803089f2da39de8fd2ac808e>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l10::<lambda_246b9119ee120f4617767802fb92158a>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l10::<lambda_6ecc0193ca3ca99c64a56c7c5c2b9017>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l10::<lambda_e3991fa4a2b21a8b568a0f5b2cb23bd9>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l10::<lambda_a09604f6cb14f37867fc059ca1f008ab>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l10::<lambda_d3cfc79e62f691cb8f3e5fbfed321e32>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l10::<lambda_60cec8ab9364e227829fce9a02633893>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l10::<lambda_75fbd8107e11f5e87bab78cc96ba2bcb>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l10::<lambda_a79d89762a0585d995ed0ed6ad9935f3>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l10::<lambda_684227ecbc44ebfdf793f5b7d47a9edf>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_4e04f48327e264b8a9ba4dcc83c9440d>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_841810ee30d8b3f42099ca016ed4c69a>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_60cf300ce907d79d593546835b956c1b>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_f6bb0bfc49f5ed3761ec9137aa0438ea>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_903af9f66256261f34874b338a4a4f7f>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_e13c7fd02a5e71a939e5ea74058cc49f>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_c2e2f99b1c6874083ddf7f39ac6182c7>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_1e75c7d5f30e211f721774c7511a2d88>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_8d7966a8f53bb669d64a03bdf019f5fa>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_4ae9e3171917cfd7619988c0e950188a>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_a516ce80e5ecf5e94019c75e8dde73a9>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_a8d09948e945fce7ffab47f01c7a302e>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_29f2b223a2461c40a1163c889fe6b87f>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_5e6ff7484bd5c646e243964e25d300a0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_8cac01a5220aac05c847f3e2cce82661>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_d4408c130bbd8a8b832d03dc953b9211>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_6cad7c4a472a880942d89d72a7cca62c>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_966b88a21697b6de4a2bdf28cec116b3>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_a79ecd2712ecf2e6b548111688dfe62d>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_8424208d67ec62437d9bf4eef8dcfbd7>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_d8992117c5f47c8041d4b8a4521098a4>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_819752221f21ae4318f7ac9b940dbbc7>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_22de6a610c1c1dec93e93c6fb2f006f0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_e5bd5bffd63655c9e798a5194a0aa271>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_bfe9148baaa3c02a2f0fe35a744c5f8e>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_3a13ea4aefd442cb5345de35687c1c85>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_f87a934996576160d3f855582ea7a69b>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_6d52c693f3d339a4bb3a6600d0195331>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_fb2e8da0186a7114dc9bbc3324ec7d59>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_f091da43aa53a73263ef6859a4e5e64a>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_bfaee7966b529e9759d07c821de93b8f>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_9bb843d4bd9b2dcc4a9da12f6d29b0af>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_fb52345b647cf4365cdfd00308ec629b>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_56d226e00364df4379ade620655b2e93>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_3354af0ff7f1a0679cde5676cc2ce810>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_00e065578a279ebe731ae7f711251003>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_6c12460af13f8a21bfbf0a330d5007d5>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_8270bb89b2a3058814424bf2095ed67e>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_ff9fb298ce6386db966c8e1928ed8346>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_7f8e798d45920d0cfcdf49440ac5c728>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_742d4c7673b95a9c27a7b5e2592ef834>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_7679a02d1433e29a186c3ee3f3d7db7f>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_c39ff35c9e29873c7907ce46a58d6222>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_7bf348e0b14c005c365ebd80e3c76e14>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_86ca3c8c7ed387d8b592e3039002c5b2>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_50893b6b2aed74ee1f40a306730358be>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_0b4abe01a88c3bb5b7958db64bc10679>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_f6ab757260a56989d611815c7fe7149d>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_ed462d6433a55329dbdaf29e3ed39028>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_1bf193f40ae65c42b29c4e7a9d78d15c>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_180880b5d8cbf1fa504082057e9d476c>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_1b2fdb4c0b427a54aafebcc71616309f>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_548f31616e4b0a980d309665f5f0860a>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_851ca10ea4160113879519e414b2c289>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_6dcf68998c0117383d5a400cc025e616>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_f6695b194d89c25e732a12cbf22da081>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_ccea425cb69625d0ead2c205de9bd34e>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_a333014e91706dbbe5416b709107f0e6>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_e02720ca3798caa120f3af0e187a6eac>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_5a5c30fc97496b068a58649ddaad43c7>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_ab8a24d305c867775025f06fa9f578f6>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_90f410c942ec23030b9340239c7c5094>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_b5f5606292cbdf6690faed347c7950f5>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_ce1967c1f2f87c5abaad01c60b55090b>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_5cce5c64ebec7c7d0ca36c3eb50e0076>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_187da0bb4d8eb8fffa2256adc8f44e78>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_38601fcfcac7c49a59e909a8d3e292cb>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_a71f270ec9f705a1f42a210c60e32828>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_075a47141d58348a882c7ee4f93b0af4>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_33378aa007acdda89eb831d542e7666b>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_b8db1893835474aec67416614d19d1ae>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_409bb526599a4c315ef8ff839e8f66e8>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_2201adf8fc1315e8800cd4b2a00c0bcb>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_1959bf99edd6a2c24fc6fccde58a0bb6>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_8c960fa7625b7f84b2a83d03c1957744>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_0452b4502f3dbdc9547f7381a805bc23>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_27ba812b4dbf429b63bf8a1b7473cefc>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_dc18206dcd7696f1945b14c7937d9490>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ExpressionNode::initializeMolang::__l6::<lambda_319c01756c23237ec5cc113c93ac2b0f>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `EventPacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `Packet` | baseclass_0
 40 | (8) `ActorUniqueID` | mPlayerId
 48 | (200) `EventPacket::Data` | mEventData
@@ -1598,7 +1598,7 @@ Offset | Type | Name
 
 ### `EventPacket::Data`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `EventPacket::Type` | mType
 4 | (1) `unsigned __int8` | mUsePlayerID
 8 | (32) `$ADDA9D19C5EE994A4AB78192967BF400` | ___u2
@@ -1611,13 +1611,13 @@ Offset | Type | Name
 
 ### `EventPacket::Data::<anonymous-tag>::<unnamed_type_Achievement>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `MinecraftEventing::AchievementIds` | mAchievementId
 
 
 ### `EventPacket::Data::<anonymous-tag>::<unnamed_type_Interaction>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mInteractedEntityType
 4 | (4) `MinecraftEventing::InteractionType` | mInteractionType
 8 | (4) `int` | mInteractedEntityVariant
@@ -1626,20 +1626,20 @@ Offset | Type | Name
 
 ### `EventPacket::Data::<anonymous-tag>::<unnamed_type_PortalCreated>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mBuiltInDimension
 
 
 ### `EventPacket::Data::<anonymous-tag>::<unnamed_type_PortalUsed>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mFromDimension
 4 | (4) `int` | mToDimension
 
 
 ### `EventPacket::Data::<anonymous-tag>::<unnamed_type_PetDied>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | mKilledByOwner
 8 | (8) `__int64` | mKillerEntityId
 16 | (8) `__int64` | mKilledMobId
@@ -1649,7 +1649,7 @@ Offset | Type | Name
 
 ### `EventPacket::Data::<anonymous-tag>::<unnamed_type_MobKilled>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int64` | mKillerEntityId
 8 | (8) `__int64` | mKilledMobId
 16 | (4) `ActorType` | mDamageChildType
@@ -1659,7 +1659,7 @@ Offset | Type | Name
 
 ### `EventPacket::Data::<anonymous-tag>::<unnamed_type_CauldronUsed>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `__int16` | mContentsType
 4 | (4) `unsigned int` | mContentsColor
 8 | (2) `__int16` | mFillLevel
@@ -1667,7 +1667,7 @@ Offset | Type | Name
 
 ### `EventPacket::Data::<anonymous-tag>::<unnamed_type_PlayerDied>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mKillerId
 4 | (4) `int` | mKillerVariant
 8 | (4) `int` | mDamageSource
@@ -1676,7 +1676,7 @@ Offset | Type | Name
 
 ### `EventPacket::Data::<anonymous-tag>::<unnamed_type_BossKilled>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mPartySize
 8 | (8) `__int64` | mBossUniqueId
 16 | (4) `int` | mBossType
@@ -1684,14 +1684,14 @@ Offset | Type | Name
 
 ### `EventPacket::Data::<anonymous-tag>::<unnamed_type_AgentCommand>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mResult
 4 | (4) `int` | mResultNumber
 
 
 ### `EventPacket::Data::<anonymous-tag>::<unnamed_type_PatternRemoved>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mItemId
 4 | (4) `int` | mItemAux
 8 | (4) `int` | mLayerIndex
@@ -1701,14 +1701,14 @@ Offset | Type | Name
 
 ### `EventPacket::Data::<anonymous-tag>::<unnamed_type_SlashCommand>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mSuccessCount
 4 | (4) `int` | mErrorCount
 
 
 ### `EventPacket::Data::<anonymous-tag>::<unnamed_type_MobBorn>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mBabyType
 4 | (4) `int` | mBabyVariant
 8 | (1) `unsigned __int8` | mBabyColor
@@ -1716,27 +1716,27 @@ Offset | Type | Name
 
 ### `EventPacket::Data::<anonymous-tag>::<unnamed_type_POICauldronUsed>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `__int16` | mItemId
 4 | (4) `_BYTE[4]` | mInteractionType
 
 
 ### `EventPacket::Data::<anonymous-tag>::<unnamed_type_ComposterUsed>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `__int16` | mItemId
 4 | (4) `_BYTE[4]` | mInteractionType
 
 
 ### `EventPacket::Data::<anonymous-tag>::<unnamed_type_BellUsed>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `__int16` | mItemId
 
 
 ### `EventPacket::Data::<anonymous-tag>::<unnamed_type_RaidUpdate>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mCurrentWave
 4 | (4) `int` | mTotalWaves
 8 | (1) `bool` | mSuccess
@@ -1744,7 +1744,7 @@ Offset | Type | Name
 
 ### `EventPacket::Data::<anonymous-tag>::<unnamed_type_PlayerMovementCorrected>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float` | mPositionDelta
 4 | (4) `float` | mObservedScore
 8 | (4) `float` | mThresholdDistance
@@ -1754,7 +1754,7 @@ Offset | Type | Name
 
 ### `EventPacket::Data::<anonymous-tag>::<unnamed_type_PlayerMovementAnomaly>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `MovementEventType` | mEventType
 4 | (4) `float` | mObservedScore
 8 | (4) `float` | mAveragePosDelta
@@ -1765,26 +1765,26 @@ Offset | Type | Name
 
 ### `EventPacket::Data::<anonymous-tag>::<unnamed_type_TargetBlockHit>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mRedstoneLevel
 
 
 ### `EventPacket::Data::<anonymous-tag>::<unnamed_type_PiglinBarter>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mItemId
 4 | (1) `bool` | mWasTargetingBarteringPlayer
 
 
 ### `EventResponseCollection`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<std::shared_ptr<EventResponse>>` | mResponses
 
 
 ### `Explosion`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (12) `Vec3` | mPos
 12 | (4) `float` | mRadius
 16 | (64) `std::unordered_set<BlockPos>` | mToBlow
@@ -1800,7 +1800,7 @@ Offset | Type | Name
 
 ### `EnchantResult`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `EnchantResultType` | result
 8 | (8) `unsigned __int64` | enchantIdx
 16 | (4) `int` | level
@@ -1808,80 +1808,80 @@ Offset | Type | Name
 
 ### `ExperienceRewardComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<ExpressionNode>` | mOnBred
 24 | (24) `std::vector<ExpressionNode>` | mOnDeath
 
 
 ### `EntityRegistryBase::View<EntityContext,EntityRegistry,FlagComponent<ActorTickedFlag>,ActorComponent,BehaviorComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistry *` | mRegistry
 
 
 ### `EntityRegistryBase::View<EntityContext,EntityRegistry,FlagComponent<ActorTickedFlag>,ActorComponent,BlockBreakSensorComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistry *` | mRegistry
 
 
 ### `EntityRegistryBase::View<EntityContext,EntityRegistry,FlagComponent<ActorTickedFlag>,ActorComponent,BodyControlComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistry *` | mRegistry
 
 
 ### `EntityRegistryBase::View<EntityContext,EntityRegistry,FlagComponent<ActorTickedFlag>,ActorComponent,BoostableComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistry *` | mRegistry
 
 
 ### `EntityRegistryBase::View<EntityContext,EntityRegistry,FlagComponent<ActorTickedFlag>,ActorComponent,BreakDoorAnnotationComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistry *` | mRegistry
 
 
 ### `EntityRegistryBase::View<EntityContext,EntityRegistry,FlagComponent<ActorTickedFlag>,ActorComponent,BreathableComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistry *` | mRegistry
 
 
 ### `EntityRegistryBase::View<EntityContext,EntityRegistry,FlagComponent<ActorTickedFlag>,ActorComponent,CelebrateHuntComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistry *` | mRegistry
 
 
 ### `EntityRegistryBase::View<EntityContext,EntityRegistry,FlagComponent<ActorTickedFlag>,ActorComponent,CommandBlockComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistry *` | mRegistry
 
 
 ### `EntityRegistryBase::View<EntityContext,EntityRegistry,FlagComponent<ActorTickedFlag>,ActorComponent,DamageOverTimeComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistry *` | mRegistry
 
 
 ### `EntityRegistryBase::View<EntityContext,EntityRegistry,FlagComponent<ActorTickedFlag>,ActorComponent,EntitySensorComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistry *` | mRegistry
 
 
 ### `EntityRegistryBase::View<EntityContext,EntityRegistry,FlagComponent<ActorTickedFlag>,ActorComponent,ActorFlagComponent<EnvironmentSensorFlag> >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistry *` | mRegistry
 
 
 ### `EntitySensorComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float` | mSensorRange
 4 | (1) `bool` | mRelativeRange
 8 | (4) `int` | mMinimumCount
@@ -1893,122 +1893,122 @@ Offset | Type | Name
 
 ### `EntityRegistryBase::View<EntityContext,EntityRegistry,FlagComponent<ActorTickedFlag>,ActorComponent,FlockingComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistry *` | mRegistry
 
 
 ### `EntityRegistryBase::View<EntityContext,EntityRegistry,FlagComponent<ActorTickedFlag>,ActorComponent,GoalSelectorComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistry *` | mRegistry
 
 
 ### `EntityRegistryBase::View<EntityContext,EntityRegistry,FlagComponent<ActorTickedFlag>,ActorComponent,GrowsCropComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistry *` | mRegistry
 
 
 ### `EntityRegistryBase::View<EntityContext,EntityRegistry,FlagComponent<ActorTickedFlag>,ActorComponent,HurtOnConditionComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistry *` | mRegistry
 
 
 ### `EntityRegistryBase::View<EntityContext,EntityRegistry,FlagComponent<ActorTickedFlag>,ActorComponent,InteractComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistry *` | mRegistry
 
 
 ### `EntityRegistryBase::View<EntityContext,EntityRegistry,FlagComponent<ActorTickedFlag>,ActorComponent,JumpControlComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistry *` | mRegistry
 
 
 ### `EntityRegistryBase::View<EntityContext,EntityRegistry,FlagComponent<ActorTickedFlag>,ActorComponent,LookAtComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistry *` | mRegistry
 
 
 ### `EntityRegistryBase::View<EntityContext,EntityRegistry,FlagComponent<ActorTickedFlag>,ActorComponent,LookControlComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistry *` | mRegistry
 
 
 ### `EntityRegistryBase::View<EntityContext,EntityRegistry,FlagComponent<ActorTickedFlag>,ActorComponent,MoveControlComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistry *` | mRegistry
 
 
 ### `EntityRegistryBase::View<EntityContext,EntityRegistry,FlagComponent<ActorTickedFlag>,ActorComponent,NavigationComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistry *` | mRegistry
 
 
 ### `EntityRegistryBase::View<EntityContext,EntityRegistry,FlagComponent<ActorTickedFlag>,ActorComponent,OpenDoorAnnotationComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistry *` | mRegistry
 
 
 ### `EntityRegistryBase::View<EntityContext,EntityRegistry,FlagComponent<ActorTickedFlag>,ActorComponent,ProjectileComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistry *` | mRegistry
 
 
 ### `EntityRegistryBase::View<EntityContext,EntityRegistry,FlagComponent<ActorTickedFlag>,ActorComponent,SchedulerComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistry *` | mRegistry
 
 
 ### `EntityRegistryBase::View<EntityContext,EntityRegistry,FlagComponent<ActorTickedFlag>,ActorComponent,SensingComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistry *` | mRegistry
 
 
 ### `EntityRegistryBase::View<EntityContext,EntityRegistry,FlagComponent<ActorTickedFlag>,ActorComponent,TargetNearbyComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistry *` | mRegistry
 
 
 ### `EntityRegistryBase::View<EntityContext,EntityRegistry,FlagComponent<ActorTickedFlag>,ActorComponent,TeleportComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistry *` | mRegistry
 
 
 ### `EntityRegistryBase::View<EntityContext,EntityRegistry,FlagComponent<ActorTickedFlag>,ActorComponent,TimerComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistry *` | mRegistry
 
 
 ### `ExtendedStreamReadResult`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `StreamReadResult` | result
 8 | (32) `std::string` | resultContext
 
 
 ### `EndTag`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Tag` | baseclass_0
 
 
 ### `EducationMetadata`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `EducationMetadata::ContentType` | mContentType
 4 | (4) `int` | mEstimatedTime
 8 | (32) `std::string` | mDescription
@@ -2022,26 +2022,26 @@ Offset | Type | Name
 
 ### `EducationMetadataError`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `PackError` | baseclass_0
 
 
 ### `ExecuteCommandPositionData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (12) `Vec3` | mActorPosition
 12 | (12) `BlockPos` | mDetectPosition
 
 
 ### `EquippableDefinition`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<SlotDescriptor>` | mSlots
 
 
 ### `ExplodeDefinition`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `FloatRange` | mFuseLength
 8 | (4) `float` | mExplosionPower
 12 | (4) `float` | mMaxResistance
@@ -2054,13 +2054,13 @@ Offset | Type | Name
 
 ### `ExpressionNode::_buildProgram::__l7::<lambda_ca7f7dcb23aab27a454ffdabf5c34517>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float` | addValue
 
 
 ### `EntityGoalUtility::NumericNodeData<int,std::less<int> >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | base
 4 | (4) `int` | defaultTo
 16 | (32) `std::string` | msg
@@ -2072,14 +2072,14 @@ Offset | Type | Name
 
 ### `EntityGoalUtility::addNode::__l2::<lambda_552f9f20b540ed5e3df8f839ca8542ca>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int *__ptr32` | member
 8 | (176) `EntityGoalUtility::NumericNodeData<int,std::less_equal<int> >` | data
 
 
 ### `EntityGoalUtility::NumericNodeData<int,std::less_equal<int> >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | base
 4 | (4) `int` | defaultTo
 16 | (32) `std::string` | msg
@@ -2091,7 +2091,7 @@ Offset | Type | Name
 
 ### `EntityGoalUtility::addNode::__l2::<lambda_c571084d3e07e5a8dc3424d66257fe50>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int *__ptr32` | member
 4 | (1) `bool` | jsonRequired
 8 | (176) `EntityGoalUtility::NumericNodeData<int,std::less_equal<int> >` | data
@@ -2099,14 +2099,14 @@ Offset | Type | Name
 
 ### `EntityGoalUtility::addNode::__l2::<lambda_063f0dba8f666f1e4c07c656bcab5592>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float *__ptr32` | member
 8 | (176) `EntityGoalUtility::NumericNodeData<float,std::less_equal<float> >` | data
 
 
 ### `EntityGoalUtility::NumericNodeData<float,std::less_equal<float> >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float` | base
 4 | (4) `float` | defaultTo
 16 | (32) `std::string` | msg
@@ -2118,7 +2118,7 @@ Offset | Type | Name
 
 ### `EntityGoalUtility::addNode::__l2::<lambda_42a2104b56a8472f16d1815baf0dc7df>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float *__ptr32` | member
 4 | (1) `bool` | jsonRequired
 8 | (176) `EntityGoalUtility::NumericNodeData<float,std::less_equal<float> >` | data
@@ -2126,20 +2126,20 @@ Offset | Type | Name
 
 ### `EntityTypes`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<MobDescriptor>` | mDescriptors
 
 
 ### `EntityGoalUtility::addNode::__l2::<lambda_0dd92dde9ac1a21c8c9b1726031654e4>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int *__ptr32` | member
 8 | (176) `EntityGoalUtility::NumericNodeData<int,std::less_equal<int> >` | data
 
 
 ### `EntityGoalUtility::addNode::__l2::<lambda_e06d1a12a5bdb7657af8701f035eed51>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int *__ptr32` | member
 4 | (1) `bool` | jsonRequired
 8 | (176) `EntityGoalUtility::NumericNodeData<int,std::less_equal<int> >` | data
@@ -2147,21 +2147,21 @@ Offset | Type | Name
 
 ### `EnchantmentInstance`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `Enchant::Type` | mEnchantType
 4 | (4) `int` | mLevel
 
 
 ### `ElementInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `ElementCategory` | mCategory
 8 | (8) `const char *` | mName
 
 
 ### `EndPortalShape`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `BlockSource *` | mSource
 8 | (4) `int` | mRightDir
 12 | (4) `int` | mLeftDir
@@ -2174,14 +2174,14 @@ Offset | Type | Name
 
 ### `EntityGoalUtility::addNode::__l2::<lambda_e8a44547e63ebbfac2555e65a2f456a1>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int *__ptr32` | member
 8 | (176) `EntityGoalUtility::NumericNodeData<int,std::less_equal<int> >` | data
 
 
 ### `EntityGoalUtility::addNode::__l2::<lambda_90b12e1219acd356d0be2dc1fcbf3981>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int *__ptr32` | member
 4 | (1) `bool` | jsonRequired
 8 | (176) `EntityGoalUtility::NumericNodeData<int,std::less_equal<int> >` | data
@@ -2189,140 +2189,140 @@ Offset | Type | Name
 
 ### `EntityRegistryBase::View<EntityContext,EntityRegistry,FlagComponent<ActorTickedFlag>,ActorComponent,AgeableComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistry *` | mRegistry
 
 
 ### `EntityRegistryBase::View<EntityContext,EntityRegistry,FlagComponent<ActorTickedFlag>,ActorComponent,AgentCommandComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistry *` | mRegistry
 
 
 ### `EntityRegistryBase::View<EntityContext,EntityRegistry,FlagComponent<ActorTickedFlag>,ActorComponent,AttackCooldownComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistry *` | mRegistry
 
 
 ### `EntityRegistryBase::View<EntityContext,EntityRegistry,FlagComponent<ActorTickedFlag>,ActorComponent,BalloonComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistry *` | mRegistry
 
 
 ### `EntityRegistryBase::View<EntityContext,EntityRegistry,FlagComponent<ActorTickedFlag>,ActorComponent,BossComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistry *` | mRegistry
 
 
 ### `EntityRegistryBase::View<EntityContext,EntityRegistry,FlagComponent<ActorTickedFlag>,ActorComponent,BreedableComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistry *` | mRegistry
 
 
 ### `EntityRegistryBase::View<EntityContext,EntityRegistry,FlagComponent<ActorTickedFlag>,ActorComponent,BribeableComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistry *` | mRegistry
 
 
 ### `EntityRegistryBase::View<EntityContext,EntityRegistry,FlagComponent<ActorTickedFlag>,ActorComponent,ActorFlagComponent<BurnsInDaylightFlag> >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistry *` | mRegistry
 
 
 ### `EntityRegistryBase::View<EntityContext,EntityRegistry,FlagComponent<ActorTickedFlag>,ActorComponent,DanceComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistry *` | mRegistry
 
 
 ### `EntityRegistryBase::View<EntityContext,EntityRegistry,FlagComponent<ActorTickedFlag>,ActorComponent,DwellerComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistry *` | mRegistry
 
 
 ### `EntityRegistryBase::View<EntityContext,EntityRegistry,FlagComponent<ActorTickedFlag>,ActorComponent,ExplodeComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistry *` | mRegistry
 
 
 ### `EntityRegistryBase::View<EntityContext,EntityRegistry,FlagComponent<ActorTickedFlag>,ActorComponent,HopperComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistry *` | mRegistry
 
 
 ### `EntityRegistryBase::View<EntityContext,EntityRegistry,FlagComponent<ActorTickedFlag>,ActorComponent,InsomniaComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistry *` | mRegistry
 
 
 ### `EntityRegistryBase::View<EntityContext,EntityRegistry,FlagComponent<ActorTickedFlag>,ActorComponent,LeashableComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistry *` | mRegistry
 
 
 ### `EntityRegistryBase::View<EntityContext,EntityRegistry,FlagComponent<ActorTickedFlag>,ActorComponent,MountTamingComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistry *` | mRegistry
 
 
 ### `EntityRegistryBase::View<EntityContext,EntityRegistry,FlagComponent<ActorTickedFlag>,ActorComponent,PeekComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistry *` | mRegistry
 
 
 ### `EntityRegistryBase::View<EntityContext,EntityRegistry,FlagComponent<ActorTickedFlag>,ActorComponent,RaidBossComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistry *` | mRegistry
 
 
 ### `EntityRegistryBase::View<EntityContext,EntityRegistry,FlagComponent<ActorTickedFlag>,ActorComponent,ScaffoldingClimberComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistry *` | mRegistry
 
 
 ### `EntityRegistryBase::View<EntityContext,EntityRegistry,FlagComponent<ActorTickedFlag>,ActorComponent,ScaleByAgeComponent,AgeableComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistry *` | mRegistry
 
 
 ### `EntityRegistryBase::View<EntityContext,EntityRegistry,FlagComponent<ActorTickedFlag>,ActorComponent,LegacyTradeableComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistry *` | mRegistry
 
 
 ### `EntityRegistryBase::View<EntityContext,EntityRegistry,FlagComponent<ActorTickedFlag>,ActorComponent,TransformationComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistry *` | mRegistry
 
 
 ### `EntityGoalUtility::addNode::__l2::<lambda_f580b598cc760f2d25b9907df3c331e2>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int *__ptr32` | member
 8 | (176) `EntityGoalUtility::NumericNodeData<int,std::less_equal<int> >` | data
 
 
 ### `EntityGoalUtility::addNode::__l2::<lambda_e56cccd53edfb12c21d39d0170b34617>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int *__ptr32` | member
 4 | (1) `bool` | jsonRequired
 8 | (176) `EntityGoalUtility::NumericNodeData<int,std::less_equal<int> >` | data
@@ -2330,14 +2330,14 @@ Offset | Type | Name
 
 ### `EntityGoalUtility::addNode::__l2::<lambda_492b48aeb63b952dc4c970df65f37e95>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float *__ptr32` | member
 8 | (176) `EntityGoalUtility::NumericNodeData<float,EntityGoalUtility::UnsignedRange<float> >` | data
 
 
 ### `EntityGoalUtility::NumericNodeData<float,EntityGoalUtility::UnsignedRange<float> >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float` | base
 4 | (4) `float` | defaultTo
 16 | (32) `std::string` | msg
@@ -2349,12 +2349,12 @@ Offset | Type | Name
 
 ### `EntityGoalUtility::UnsignedRange<float>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `EntityGoalUtility::addNode::__l2::<lambda_d0ffae376705822c61f33c86fd45420a>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float *__ptr32` | member
 4 | (1) `bool` | jsonRequired
 8 | (176) `EntityGoalUtility::NumericNodeData<float,EntityGoalUtility::UnsignedRange<float> >` | data
@@ -2362,14 +2362,14 @@ Offset | Type | Name
 
 ### `EntityGoalUtility::addNode::__l2::<lambda_f0e28672e6cb982d9e65ff17fa9aeba7>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int *__ptr32` | member
 8 | (176) `EntityGoalUtility::NumericNodeData<int,std::less_equal<int> >` | data
 
 
 ### `EntityGoalUtility::addNode::__l2::<lambda_2a15948f070248c10addc6f0f8ad5d92>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int *__ptr32` | member
 4 | (1) `bool` | jsonRequired
 8 | (176) `EntityGoalUtility::NumericNodeData<int,std::less_equal<int> >` | data
@@ -2377,7 +2377,7 @@ Offset | Type | Name
 
 ### `EntityGoalUtility::addNode::__l2::<lambda_05f720b33ad110bfaee78aa63b2bbe65>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `LevelSoundEvent *__ptr32` | member
 8 | (32) `std::string` | name
 40 | (4) `LevelSoundEvent` | defaultTo
@@ -2386,14 +2386,14 @@ Offset | Type | Name
 
 ### `EntityGoalUtility::addNode::__l2::<lambda_97e60a0638014e1bc886194686dcaba9>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int *__ptr32` | member
 8 | (176) `EntityGoalUtility::NumericNodeData<int,std::less_equal<int> >` | data
 
 
 ### `EntityGoalUtility::addNode::__l2::<lambda_de214653a437ae1c27a4529d11f95327>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int *__ptr32` | member
 4 | (1) `bool` | jsonRequired
 8 | (176) `EntityGoalUtility::NumericNodeData<int,std::less_equal<int> >` | data
@@ -2401,14 +2401,14 @@ Offset | Type | Name
 
 ### `EntityGoalUtility::addNode::__l2::<lambda_e76f38828430340aa80a24b6d0fe0b37>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int *__ptr32` | member
 8 | (176) `EntityGoalUtility::NumericNodeData<int,std::less_equal<int> >` | data
 
 
 ### `EntityGoalUtility::addNode::__l2::<lambda_5f5faf6d48f0aeaea68060a8c1619155>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int *__ptr32` | member
 4 | (1) `bool` | jsonRequired
 8 | (176) `EntityGoalUtility::NumericNodeData<int,std::less_equal<int> >` | data
@@ -2416,14 +2416,14 @@ Offset | Type | Name
 
 ### `EntityGoalUtility::addNode::__l2::<lambda_02398ad5b269ce057509f400a5afe2e6>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float *__ptr32` | member
 8 | (176) `EntityGoalUtility::NumericNodeData<float,EntityGoalUtility::UnsignedRange<float> >` | data
 
 
 ### `EntityGoalUtility::addNode::__l2::<lambda_09cfc25ecfda4a656e54d61b3cee780a>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float *__ptr32` | member
 4 | (1) `bool` | jsonRequired
 8 | (176) `EntityGoalUtility::NumericNodeData<float,EntityGoalUtility::UnsignedRange<float> >` | data
@@ -2431,14 +2431,14 @@ Offset | Type | Name
 
 ### `EntityGoalUtility::addNode::__l2::<lambda_45f45b7815677c096835ecb319311419>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int *__ptr32` | member
 8 | (176) `EntityGoalUtility::NumericNodeData<int,std::less_equal<int> >` | data
 
 
 ### `EntityGoalUtility::addNode::__l2::<lambda_54cc50192a1f0d4bcf62b30a60e1bc23>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int *__ptr32` | member
 4 | (1) `bool` | jsonRequired
 8 | (176) `EntityGoalUtility::NumericNodeData<int,std::less_equal<int> >` | data
@@ -2446,14 +2446,14 @@ Offset | Type | Name
 
 ### `EntityGoalUtility::addNode::__l2::<lambda_508f882e70b9c0eab56ffeee881d4cd6>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int *__ptr32` | member
 8 | (176) `EntityGoalUtility::NumericNodeData<int,std::less_equal<int> >` | data
 
 
 ### `EntityGoalUtility::addNode::__l2::<lambda_c2393d1fb1bf9460f3687a907112331f>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int *__ptr32` | member
 4 | (1) `bool` | jsonRequired
 8 | (176) `EntityGoalUtility::NumericNodeData<int,std::less_equal<int> >` | data
@@ -2461,14 +2461,14 @@ Offset | Type | Name
 
 ### `EntityGoalUtility::addNode::__l2::<lambda_e1b4ac295dc99e15c2090660255eebba>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float *__ptr32` | member
 8 | (176) `EntityGoalUtility::NumericNodeData<float,std::less_equal<float> >` | data
 
 
 ### `EntityGoalUtility::addNode::__l2::<lambda_7ac0bc18237b1b06bb6261365a087ca2>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float *__ptr32` | member
 4 | (1) `bool` | jsonRequired
 8 | (176) `EntityGoalUtility::NumericNodeData<float,std::less_equal<float> >` | data
@@ -2476,7 +2476,7 @@ Offset | Type | Name
 
 ### `EntityGoalUtility::addNode::__l2::<lambda_0b023014a775c0a951685a1866660a9b>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `LevelSoundEvent *__ptr32` | member
 8 | (32) `std::string` | name
 40 | (4) `LevelSoundEvent` | defaultTo
@@ -2485,14 +2485,14 @@ Offset | Type | Name
 
 ### `EntityGoalUtility::addNode::__l2::<lambda_f6901c242fa1953b7eb2c499325cf32e>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int *__ptr32` | member
 8 | (176) `EntityGoalUtility::NumericNodeData<int,std::less_equal<int> >` | data
 
 
 ### `EntityGoalUtility::addNode::__l2::<lambda_4bfc91417bbb07c27f9e3f5cdb13cef2>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int *__ptr32` | member
 4 | (1) `bool` | jsonRequired
 8 | (176) `EntityGoalUtility::NumericNodeData<int,std::less_equal<int> >` | data
@@ -2500,14 +2500,14 @@ Offset | Type | Name
 
 ### `EntityGoalUtility::addNode::__l2::<lambda_06115e46e8bce38b25a587de78f5a115>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int *__ptr32` | member
 8 | (176) `EntityGoalUtility::NumericNodeData<int,std::less_equal<int> >` | data
 
 
 ### `EntityGoalUtility::addNode::__l2::<lambda_dde3afbacd76ba3d1a850c5a026656bc>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int *__ptr32` | member
 4 | (1) `bool` | jsonRequired
 8 | (176) `EntityGoalUtility::NumericNodeData<int,std::less_equal<int> >` | data
@@ -2515,14 +2515,14 @@ Offset | Type | Name
 
 ### `EntityGoalUtility::addNode::__l2::<lambda_6314867dffdc86e5005ec099cf2fc8b0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int *__ptr32` | member
 8 | (176) `EntityGoalUtility::NumericNodeData<int,std::less<int> >` | data
 
 
 ### `EntityGoalUtility::addNode::__l2::<lambda_232f76154705c83e27ca9cf53d680ede>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int *__ptr32` | member
 4 | (1) `bool` | jsonRequired
 8 | (176) `EntityGoalUtility::NumericNodeData<int,std::less<int> >` | data
@@ -2530,7 +2530,7 @@ Offset | Type | Name
 
 ### `EntityGoalUtility::addNode::__l2::<lambda_59b631ec34c497e5e595d29ff1462458>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `std::string *__ptr32` | member
 8 | (32) `std::string` | defaultTo
 40 | (1) `bool` | jsonRequired
@@ -2539,14 +2539,14 @@ Offset | Type | Name
 
 ### `EntityGoalUtility::addNode::__l2::<lambda_324868e4f46e7bb7ce8d98ff14beae9f>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int *__ptr32` | member
 8 | (176) `EntityGoalUtility::NumericNodeData<int,std::less_equal<int> >` | data
 
 
 ### `EntityGoalUtility::addNode::__l2::<lambda_4d6f64563c4a35ab9a6b275f17eec78b>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int *__ptr32` | member
 4 | (1) `bool` | jsonRequired
 8 | (176) `EntityGoalUtility::NumericNodeData<int,std::less_equal<int> >` | data
@@ -2554,14 +2554,14 @@ Offset | Type | Name
 
 ### `EntityGoalUtility::addNode::__l2::<lambda_1ac188c21a1aa65a77e3307411c7bd6f>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int *__ptr32` | member
 8 | (176) `EntityGoalUtility::NumericNodeData<int,std::less_equal<int> >` | data
 
 
 ### `EntityGoalUtility::addNode::__l2::<lambda_e4a4b651dad3a077ec95f1ff54839250>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int *__ptr32` | member
 4 | (1) `bool` | jsonRequired
 8 | (176) `EntityGoalUtility::NumericNodeData<int,std::less_equal<int> >` | data
@@ -2569,7 +2569,7 @@ Offset | Type | Name
 
 ### `EntityGoalUtility::addNode::__l2::<lambda_bcda22fb5ef38a4c948ef475b0e1c13c>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `Vec3 *__ptr32` | member
 4 | (12) `Vec3` | defaultTo
 16 | (1) `bool` | jsonRequired
@@ -2578,14 +2578,14 @@ Offset | Type | Name
 
 ### `EntityGoalUtility::addNode::__l2::<lambda_b1a5fcc9229cf3aa2272b2b32dd9b3a7>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int *__ptr32` | member
 8 | (176) `EntityGoalUtility::NumericNodeData<int,std::less_equal<int> >` | data
 
 
 ### `EntityGoalUtility::addNode::__l2::<lambda_715b50fbbf3b994c6d4c590c045aa5a1>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int *__ptr32` | member
 4 | (1) `bool` | jsonRequired
 8 | (176) `EntityGoalUtility::NumericNodeData<int,std::less_equal<int> >` | data
@@ -2593,14 +2593,14 @@ Offset | Type | Name
 
 ### `EntityGoalUtility::addNode::__l2::<lambda_6d92e034cdb633e7e330ce8f13e174e2>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float *__ptr32` | member
 8 | (176) `EntityGoalUtility::NumericNodeData<float,std::less_equal<float> >` | data
 
 
 ### `EntityGoalUtility::addNode::__l2::<lambda_0dad914f5255f37b6bd6dedb8cae0ba4>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float *__ptr32` | member
 4 | (1) `bool` | jsonRequired
 8 | (176) `EntityGoalUtility::NumericNodeData<float,std::less_equal<float> >` | data
@@ -2608,14 +2608,14 @@ Offset | Type | Name
 
 ### `EntityGoalUtility::addNode::__l2::<lambda_fa9c1abc1c0c6697af96ba63c63d8fde>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int *__ptr32` | member
 8 | (176) `EntityGoalUtility::NumericNodeData<int,std::less_equal<int> >` | data
 
 
 ### `EntityGoalUtility::addNode::__l2::<lambda_0706e7c4c2dcbc502c83ef441e1808c3>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int *__ptr32` | member
 4 | (1) `bool` | jsonRequired
 8 | (176) `EntityGoalUtility::NumericNodeData<int,std::less_equal<int> >` | data
@@ -2623,14 +2623,14 @@ Offset | Type | Name
 
 ### `EntityGoalUtility::addNode::__l2::<lambda_e2a3622a02ee5b423bde5b542c5d007c>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int *__ptr32` | member
 8 | (176) `EntityGoalUtility::NumericNodeData<int,std::less_equal<int> >` | data
 
 
 ### `EntityGoalUtility::addNode::__l2::<lambda_7fc6d0ec80b3a95fb0ee7dad2ed93987>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int *__ptr32` | member
 4 | (1) `bool` | jsonRequired
 8 | (176) `EntityGoalUtility::NumericNodeData<int,std::less_equal<int> >` | data
@@ -2638,7 +2638,7 @@ Offset | Type | Name
 
 ### `EntityGoalUtility::addNode::__l2::<lambda_08d6b6a96918cdc6ee8d9a32d3ed2ee9>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `Vec3 *__ptr32` | member
 4 | (12) `Vec3` | defaultTo
 16 | (1) `bool` | jsonRequired
@@ -2647,14 +2647,14 @@ Offset | Type | Name
 
 ### `EntityGoalUtility::addNode::__l2::<lambda_50ef740bc426480560d6c0868ba4fab2>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int *__ptr32` | member
 8 | (176) `EntityGoalUtility::NumericNodeData<int,std::less_equal<int> >` | data
 
 
 ### `EntityGoalUtility::addNode::__l2::<lambda_f829994cdb7390eb433a43a4d4fc2a4d>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int *__ptr32` | member
 4 | (1) `bool` | jsonRequired
 8 | (176) `EntityGoalUtility::NumericNodeData<int,std::less_equal<int> >` | data
@@ -2662,14 +2662,14 @@ Offset | Type | Name
 
 ### `EntityGoalUtility::addNode::__l2::<lambda_d1d2c29caf949475babc4c8a2b342861>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int *__ptr32` | member
 8 | (176) `EntityGoalUtility::NumericNodeData<int,std::less_equal<int> >` | data
 
 
 ### `EntityGoalUtility::addNode::__l2::<lambda_183c95040d6fcfc727b53183bb622f7f>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int *__ptr32` | member
 4 | (1) `bool` | jsonRequired
 8 | (176) `EntityGoalUtility::NumericNodeData<int,std::less_equal<int> >` | data
@@ -2677,14 +2677,14 @@ Offset | Type | Name
 
 ### `EntityGoalUtility::addNode::__l2::<lambda_168654adce9bc4834475392bb02731f4>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int *__ptr32` | member
 8 | (176) `EntityGoalUtility::NumericNodeData<int,std::less_equal<int> >` | data
 
 
 ### `EntityGoalUtility::addNode::__l2::<lambda_928ff68ba4edfd618ddb9306d7361522>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int *__ptr32` | member
 4 | (1) `bool` | jsonRequired
 8 | (176) `EntityGoalUtility::NumericNodeData<int,std::less_equal<int> >` | data
@@ -2692,14 +2692,14 @@ Offset | Type | Name
 
 ### `EntityGoalUtility::addNode::__l2::<lambda_fb2c57d3f85512c3c330b0eb78eb7be3>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int *__ptr32` | member
 8 | (176) `EntityGoalUtility::NumericNodeData<int,std::less_equal<int> >` | data
 
 
 ### `EntityGoalUtility::addNode::__l2::<lambda_3d15eb5535c1fa38c00c0a531ecdecce>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int *__ptr32` | member
 4 | (1) `bool` | jsonRequired
 8 | (176) `EntityGoalUtility::NumericNodeData<int,std::less_equal<int> >` | data
@@ -2707,14 +2707,14 @@ Offset | Type | Name
 
 ### `EntityGoalUtility::addNode::__l2::<lambda_ec26b00e494c84fd473d7bedb9fe4e1c>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int *__ptr32` | member
 8 | (176) `EntityGoalUtility::NumericNodeData<int,std::less_equal<int> >` | data
 
 
 ### `EntityGoalUtility::addNode::__l2::<lambda_243d973a565c63e400a468c314e57852>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int *__ptr32` | member
 4 | (1) `bool` | jsonRequired
 8 | (176) `EntityGoalUtility::NumericNodeData<int,std::less_equal<int> >` | data
@@ -2722,14 +2722,14 @@ Offset | Type | Name
 
 ### `EntityGoalUtility::addNode::__l2::<lambda_4c1f52c85d014f71af6670bc8f46aa1d>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int *__ptr32` | member
 8 | (176) `EntityGoalUtility::NumericNodeData<int,std::less_equal<int> >` | data
 
 
 ### `EntityGoalUtility::addNode::__l2::<lambda_bcdc718fc59248479ed93392b2e45300>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int *__ptr32` | member
 4 | (1) `bool` | jsonRequired
 8 | (176) `EntityGoalUtility::NumericNodeData<int,std::less_equal<int> >` | data
@@ -2737,14 +2737,14 @@ Offset | Type | Name
 
 ### `EntityGoalUtility::addNode::__l2::<lambda_e7620ae38545f4856780c51464c7080b>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int *__ptr32` | member
 8 | (176) `EntityGoalUtility::NumericNodeData<int,std::less_equal<int> >` | data
 
 
 ### `EntityGoalUtility::addNode::__l2::<lambda_fdcbad9e2a75d5d411d4c8b4a1b4376c>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int *__ptr32` | member
 4 | (1) `bool` | jsonRequired
 8 | (176) `EntityGoalUtility::NumericNodeData<int,std::less_equal<int> >` | data
@@ -2752,14 +2752,14 @@ Offset | Type | Name
 
 ### `EntityGoalUtility::addNode::__l2::<lambda_f1c7ba150dff14bc4a7472a8501623c2>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int *__ptr32` | member
 8 | (176) `EntityGoalUtility::NumericNodeData<int,std::less_equal<int> >` | data
 
 
 ### `EntityGoalUtility::addNode::__l2::<lambda_23a080e0d086f1d6b0cc9c8a13e459ad>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int *__ptr32` | member
 4 | (1) `bool` | jsonRequired
 8 | (176) `EntityGoalUtility::NumericNodeData<int,std::less_equal<int> >` | data
@@ -2767,14 +2767,14 @@ Offset | Type | Name
 
 ### `EntityGoalUtility::addNode::__l2::<lambda_b784871b700e8c412e3864fd9c74e096>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int *__ptr32` | member
 8 | (176) `EntityGoalUtility::NumericNodeData<int,std::less_equal<int> >` | data
 
 
 ### `EntityGoalUtility::addNode::__l2::<lambda_39f4bba68f6f21aab85e5ea6b46b6c81>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int *__ptr32` | member
 4 | (1) `bool` | jsonRequired
 8 | (176) `EntityGoalUtility::NumericNodeData<int,std::less_equal<int> >` | data
@@ -2782,14 +2782,14 @@ Offset | Type | Name
 
 ### `EntityGoalUtility::addNode::__l2::<lambda_a9f7b76a5913b11b1bf9c5840cfde27c>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int *__ptr32` | member
 8 | (176) `EntityGoalUtility::NumericNodeData<int,std::less_equal<int> >` | data
 
 
 ### `EntityGoalUtility::addNode::__l2::<lambda_ecc4eb07b1c252ad2dd9cc2a3d24b9cc>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int *__ptr32` | member
 4 | (1) `bool` | jsonRequired
 8 | (176) `EntityGoalUtility::NumericNodeData<int,std::less_equal<int> >` | data
@@ -2797,14 +2797,14 @@ Offset | Type | Name
 
 ### `EntityGoalUtility::addNode::__l2::<lambda_c4e6d5bf6562e3e202e435eaf68d4807>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float *__ptr32` | member
 8 | (176) `EntityGoalUtility::NumericNodeData<float,std::less<float> >` | data
 
 
 ### `EntityGoalUtility::NumericNodeData<float,std::less<float> >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float` | base
 4 | (4) `float` | defaultTo
 16 | (32) `std::string` | msg
@@ -2816,7 +2816,7 @@ Offset | Type | Name
 
 ### `EntityGoalUtility::addNode::__l2::<lambda_c4da05db56432241cf15d3ec25ffbaad>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float *__ptr32` | member
 4 | (1) `bool` | jsonRequired
 8 | (176) `EntityGoalUtility::NumericNodeData<float,std::less<float> >` | data
@@ -2824,14 +2824,14 @@ Offset | Type | Name
 
 ### `EntityGoalUtility::addNode::__l2::<lambda_5baa277e93d00a42c36eaa0b92a33ba4>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int *__ptr32` | member
 8 | (176) `EntityGoalUtility::NumericNodeData<int,std::less_equal<int> >` | data
 
 
 ### `EntityGoalUtility::addNode::__l2::<lambda_a1dcb6b5ac743623854fe6c664ef4edd>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int *__ptr32` | member
 4 | (1) `bool` | jsonRequired
 8 | (176) `EntityGoalUtility::NumericNodeData<int,std::less_equal<int> >` | data
@@ -2839,14 +2839,14 @@ Offset | Type | Name
 
 ### `EntityGoalUtility::addNode::__l2::<lambda_8ca315d71145918e8c68bc79b96a319d>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int *__ptr32` | member
 8 | (176) `EntityGoalUtility::NumericNodeData<int,std::less_equal<int> >` | data
 
 
 ### `EntityGoalUtility::addNode::__l2::<lambda_44bc3aa970591d06e9adc72021107a9d>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int *__ptr32` | member
 4 | (1) `bool` | jsonRequired
 8 | (176) `EntityGoalUtility::NumericNodeData<int,std::less_equal<int> >` | data
@@ -2854,14 +2854,14 @@ Offset | Type | Name
 
 ### `EntityGoalUtility::addNode::__l2::<lambda_d38284478f0b8bd62bc82d50c6af7722>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int *__ptr32` | member
 8 | (176) `EntityGoalUtility::NumericNodeData<int,std::less_equal<int> >` | data
 
 
 ### `EntityGoalUtility::addNode::__l2::<lambda_ea48377fabd22651e2dfa9b21ff5a4c1>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int *__ptr32` | member
 4 | (1) `bool` | jsonRequired
 8 | (176) `EntityGoalUtility::NumericNodeData<int,std::less_equal<int> >` | data
@@ -2869,14 +2869,14 @@ Offset | Type | Name
 
 ### `EntityGoalUtility::addNode::__l2::<lambda_713a8b54513bdb758f976a360a49eeb6>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int *__ptr32` | member
 8 | (176) `EntityGoalUtility::NumericNodeData<int,std::less_equal<int> >` | data
 
 
 ### `EntityGoalUtility::addNode::__l2::<lambda_1a21a17d49b5c3847b51d8bd5fe38ead>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int *__ptr32` | member
 4 | (1) `bool` | jsonRequired
 8 | (176) `EntityGoalUtility::NumericNodeData<int,std::less_equal<int> >` | data
@@ -2884,14 +2884,14 @@ Offset | Type | Name
 
 ### `EntityGoalUtility::addNode::__l2::<lambda_2795266f84082388d965a8fb3eb7deda>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float *__ptr32` | member
 8 | (176) `EntityGoalUtility::NumericNodeData<float,std::less<float> >` | data
 
 
 ### `EntityGoalUtility::addNode::__l2::<lambda_1bc076dedb876c37f3593b9a7000e7b6>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float *__ptr32` | member
 4 | (1) `bool` | jsonRequired
 8 | (176) `EntityGoalUtility::NumericNodeData<float,std::less<float> >` | data
@@ -2899,14 +2899,14 @@ Offset | Type | Name
 
 ### `EntityGoalUtility::addNode::__l2::<lambda_efb4e981ac7bb8dfa62f134e13a203df>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int *__ptr32` | member
 8 | (176) `EntityGoalUtility::NumericNodeData<int,std::less_equal<int> >` | data
 
 
 ### `EntityGoalUtility::addNode::__l2::<lambda_d9bbf6b8dd24a3bc9337aad02669ce8e>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int *__ptr32` | member
 4 | (1) `bool` | jsonRequired
 8 | (176) `EntityGoalUtility::NumericNodeData<int,std::less_equal<int> >` | data
@@ -2914,14 +2914,14 @@ Offset | Type | Name
 
 ### `EntityGoalUtility::addNode::__l2::<lambda_7bb6ad087ffff13ca80f20a5bf977bb1>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int *__ptr32` | member
 8 | (176) `EntityGoalUtility::NumericNodeData<int,std::less_equal<int> >` | data
 
 
 ### `EntityGoalUtility::addNode::__l2::<lambda_641d07809c9f15731287e6a649e40da8>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int *__ptr32` | member
 4 | (1) `bool` | jsonRequired
 8 | (176) `EntityGoalUtility::NumericNodeData<int,std::less_equal<int> >` | data
@@ -2929,14 +2929,14 @@ Offset | Type | Name
 
 ### `EntityGoalUtility::addNode::__l2::<lambda_193f11f6da268d77b4e2579ad5e3721b>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float *__ptr32` | member
 8 | (176) `EntityGoalUtility::NumericNodeData<float,std::less_equal<float> >` | data
 
 
 ### `EntityGoalUtility::addNode::__l2::<lambda_e30bdee6b760248e95f8af700d778927>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float *__ptr32` | member
 4 | (1) `bool` | jsonRequired
 8 | (176) `EntityGoalUtility::NumericNodeData<float,std::less_equal<float> >` | data
@@ -2944,14 +2944,14 @@ Offset | Type | Name
 
 ### `EntityGoalUtility::addNode::__l2::<lambda_fa68f6657493a92543dfcd9d9efe6035>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float *__ptr32` | member
 8 | (176) `EntityGoalUtility::NumericNodeData<float,std::less<float> >` | data
 
 
 ### `EntityGoalUtility::addNode::__l2::<lambda_56a6871e78a9b32db6cd5c26f648e7dd>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float *__ptr32` | member
 4 | (1) `bool` | jsonRequired
 8 | (176) `EntityGoalUtility::NumericNodeData<float,std::less<float> >` | data
@@ -2959,14 +2959,14 @@ Offset | Type | Name
 
 ### `EntityGoalUtility::addNode::__l2::<lambda_bb6e0abf843a995dd5198c49e35566e9>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int *__ptr32` | member
 8 | (176) `EntityGoalUtility::NumericNodeData<int,std::less_equal<int> >` | data
 
 
 ### `EntityGoalUtility::addNode::__l2::<lambda_6608d62bd5c57cae7e67ffb6e78f762e>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int *__ptr32` | member
 4 | (1) `bool` | jsonRequired
 8 | (176) `EntityGoalUtility::NumericNodeData<int,std::less_equal<int> >` | data
@@ -2974,14 +2974,14 @@ Offset | Type | Name
 
 ### `EntityGoalUtility::addNode::__l2::<lambda_b2320732ad5b3c034bfae1a6d06b6a52>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float *__ptr32` | member
 8 | (176) `EntityGoalUtility::NumericNodeData<float,std::less<float> >` | data
 
 
 ### `EntityGoalUtility::addNode::__l2::<lambda_1c2c2396849f1fab2691c4031ad6236c>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float *__ptr32` | member
 4 | (1) `bool` | jsonRequired
 8 | (176) `EntityGoalUtility::NumericNodeData<float,std::less<float> >` | data
@@ -2989,14 +2989,14 @@ Offset | Type | Name
 
 ### `EntityGoalUtility::addNode::__l2::<lambda_9c87911e95e1e2e1bcde9dc2ab53e398>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int *__ptr32` | member
 8 | (176) `EntityGoalUtility::NumericNodeData<int,std::less_equal<int> >` | data
 
 
 ### `EntityGoalUtility::addNode::__l2::<lambda_77c40c55275dc20e1ddb154c226550a3>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int *__ptr32` | member
 4 | (1) `bool` | jsonRequired
 8 | (176) `EntityGoalUtility::NumericNodeData<int,std::less_equal<int> >` | data
@@ -3004,7 +3004,7 @@ Offset | Type | Name
 
 ### `EndDragonFight::GateWayGenerator`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | mPlaceNewBlocks
 8 | (8) `std::unique_ptr<ChunkViewSource>` | mSource
 16 | (12) `BlockPos` | mPosition
@@ -3012,19 +3012,19 @@ Offset | Type | Name
 
 ### `EndGatewayFeature`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `Feature` | baseclass_0
 
 
 ### `EndIslandFeature`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `Feature` | baseclass_0
 
 
 ### `EndPodiumFeature`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `Feature` | baseclass_0
 24 | (1) `bool` | mActive
 

@@ -1,7 +1,7 @@
 # L
 ### `LegacyWorldInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (568) `LocalWorldInfo` | baseclass_0
 568 | (32) `std::string` | mIdentifier
 600 | (1) `bool` | mIsBetaRetailSave
@@ -9,7 +9,7 @@ Offset | Type | Name
 
 ### `LocalWorldInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `WorldInfo` | baseclass_0
 8 | (32) `std::string` | mScreenshotTexture
 40 | (8) `unsigned __int64` | mFileSize
@@ -26,7 +26,7 @@ Offset | Type | Name
 
 ### `LevelSummary`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | mId
 32 | (32) `std::string` | mName
 64 | (8) `__int64` | mLastPlayed
@@ -54,33 +54,33 @@ Offset | Type | Name
 
 ### `LayoutRule::addStackPanelVisibilityTerm::__l2::<lambda_41e73def6e306693a2d0395c1cfcc6a2>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `LayoutManager::_update::__l2::<lambda_582f447c20f51f382c4eb7054a5dd98a>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `LevelBuilder::_prepareRenderChunkRenderList::__l2::<lambda_68215dddadd9af939d720f1d070375e1>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `LevelBuilder::_buildRenderChunks::__l2::<lambda_a08ac9d83425319e6a6e10392713a815>::()::__l2::<lambda_e21558297a2641a2000dbf4a718e58a4>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `Lockless::WeakAtomic<SPSCQueue<GameControllerHandler_Windows::InputState_Windows,512>::Block *>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::atomic<SPSCQueue<GameControllerHandler_Windows::InputState_Windows,512>::Block *>` | mValue
 
 
 ### `ListTag`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Tag` | baseclass_0
 8 | (24) `std::vector<std::unique_ptr<Tag>>` | mList
 32 | (1) `_BYTE[1]` | mType
@@ -88,28 +88,28 @@ Offset | Type | Name
 
 ### `LevelChunk::_fixupCorruptedBlockActors::__l2::<lambda_484ffdbe9c80c92eec14bddff882ab4a>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `Level::CompareLevelChunkQueuedSavingElement`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `LayerFilters::BackCompatSorter`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `LayerResult<enum BiomeTemperatureCategory>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::unique_ptr<char [0]>` | mResult
 
 
 ### `LoginStateMachine`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `LoginStateMachine_vtbl *` | __vftable
 8 | (16) `std::shared_ptr<BaseStage>` | mCurrent
 24 | (64) `std::function<void __cdecl(void)>` | mSuccCallback
@@ -177,32 +177,32 @@ Offset | Type | Name
 
 ### `Lockless::WeakAtomic<SPSCQueue<unsigned int,512>::Block *>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::atomic<SPSCQueue<unsigned int,512>::Block *>` | mValue
 
 
 ### `LayerResult<float>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::unique_ptr<char [0]>` | mResult
 
 
 ### `LayerValues::PreBiome`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `LayerValues::Terrain` | mTerrain
 1 | (1) `_BYTE[1]` | mTemperature
 
 
 ### `LayerResult<bool>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::unique_ptr<char [0]>` | mResult
 
 
 ### `LoopingSoundState`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (12) `glm::tvec3<float,0>` | position
 12 | (4) `float` | pitch
 16 | (4) `float` | volume
@@ -210,14 +210,14 @@ Offset | Type | Name
 
 ### `label`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | lb_type
 8 | (8) `char *` | lb_str
 
 
 ### `LegacySkinSerialization`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (112) `SkinHandle` | mSkinHandle
 112 | (4) `persona::ProfileType` | mLastUsedSlot
 116 | (1) `bool` | mBeingDeleted
@@ -225,14 +225,14 @@ Offset | Type | Name
 
 ### `labellist`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | ll_nlabels
 8 | (8) `label *` | ll_label
 
 
 ### `lexicon_struct`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `char *` | name
 8 | (4) `int` | num_entries
 16 | (8) `unsigned __int8 *` | data
@@ -250,19 +250,19 @@ Offset | Type | Name
 
 ### `leveldb::Logger`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `leveldb::Logger_vtbl *` | __vftable
 
 
 ### `LocalConnectivitySystem`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `LocalConnector *` | mHostConnector
 
 
 ### `Localization`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | mCommaSeperator
 8 | (32) `const std::string` | mCode
 40 | (16) `std::map<std::string,std::string>` | mStrings
@@ -271,7 +271,7 @@ Offset | Type | Name
 
 ### `LegacyOptionsConverterInternal::ConversionRule`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `LegacyOption` | mSourceOption
 4 | (4) `OptionID` | mTargetOption
 8 | (64) `std::function<bool __cdecl(enum LegacyOption,enum OptionID,LegacyOptionsParser const &,Options &)>` | mConversionRecipe
@@ -279,14 +279,14 @@ Offset | Type | Name
 
 ### `LodestoneCompassComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `PositionTrackingId` | mTrackingHandle
 8 | (64) `std::unordered_map<std::variant<ActorUniqueID,std::pair<BlockPos,AutomaticID<Dimension,int> > >,std::unique_ptr<LodestoneCompassComponentCalculator>,std::hash<std::variant<ActorUniqueID,std::pair<BlockPos,AutomaticID<Dimension,int> > > >,std::equal_to<std::variant<ActorUniqueID,std::pair<BlockPos,AutomaticID<Dimension,int> > > >,std::allocator<std::pair<std::variant<ActorUniqueID,std::pair<BlockPos,AutomaticID<Dimension,int> > > const ,std::unique_ptr<LodestoneCompassComponentCalculator> > > >` | mCalculators
 
 
 ### `LevelSoundEventPacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `Packet` | baseclass_0
 40 | (4) `LevelSoundEvent` | mEventId
 44 | (12) `Vec3` | mPos
@@ -298,14 +298,14 @@ Offset | Type | Name
 
 ### `LevelLoader::_importLevel::__l2::<lambda_ef1a8fc506d0b5dfc78e5f6835e03656>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `LevelLoader *const` | __this
 8 | (40) `const ImportLevelData` | levelData
 
 
 ### `LevelSettings`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | mSeed
 4 | (4) `GameType` | mGameType
 8 | (4) `Difficulty` | mGameDifficulty
@@ -356,14 +356,14 @@ Offset | Type | Name
 
 ### `LessonInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | courseId
 32 | (32) `std::string` | lessonId
 
 
 ### `LevelData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (5) `AdventureSettings` | mAdventureSettings
 8 | (280) `WorldTemplateLevelData` | mWorldTemplateLevelData
 288 | (24) `GameRules` | mGameRules
@@ -435,7 +435,7 @@ Offset | Type | Name
 
 ### `LARGE_INTEGER`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `$FAF74743FBE1C8632047CFB668F7028A` | __s0
 1 | (8) `struct {unsigned int LowPart;int HighPart;}` | u
 2 | (8) `__int64` | QuadPart
@@ -443,26 +443,26 @@ Offset | Type | Name
 
 ### `LockedStateEventData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | locked
 
 
 ### `LateJoinPreGameScreenController::_checkPremiumAccessAndShowUpsell::__l2::<lambda_2760d6c2b2b29a79ae8f23ce45c3a731>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<LateJoinPreGameScreenController>` | weakThis
 16 | (64) `std::function<void __cdecl(bool)>` | callback
 
 
 ### `leveldb::InternalKey`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | rep_
 
 
 ### `LevelRenderPreRenderUpdateParameters`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `FrustumCuller *` | leftCuller
 8 | (8) `FrustumCuller *` | rightCuller
 16 | (12) `glm::tvec3<float,0>` | cameraWorldPosition
@@ -483,7 +483,7 @@ Offset | Type | Name
 
 ### `LayoutRule::addDynamicGridItemGridPositionTerm::__l2::<lambda_f55cbd476301545fb1f583c0e70c270e>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<UIControl>` | weakParent
 16 | (4) `ui::OrientationType` | rescalingType
 20 | (1) `LayoutVariableType` | type
@@ -492,26 +492,26 @@ Offset | Type | Name
 
 ### `LayoutRule::addStackPanelItemPositionTerms::__l2::<lambda_7d7bffcfcabf3e69cd7e400ef5cc8ea5>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `UIControl *` | priorSibling
 
 
 ### `LayoutRule::addStackPanelVisibilityTerm::__l2::<lambda_65b4f493b8e36199de434873facedc43>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `UIControl *` | control
 8 | (1) `const LayoutVariableType` | sizeType
 
 
 ### `LayoutRule::addStackPanelItemRemainderSizeTerms::__l2::<lambda_db9e97e64f0225748868637354f669ba>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::function<float __cdecl(void)>` | calcFactorFunction
 
 
 ### `LecternUpdatePacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `Packet` | baseclass_0
 40 | (4) `int` | mPage
 44 | (4) `int` | mTotalPages
@@ -521,26 +521,26 @@ Offset | Type | Name
 
 ### `LevelDataValue`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `std::variant<int,bool,float,std::string,enum GeneratorType,enum GameType,BlockPos,unsigned int,LevelDataValue::Tag>` | mValue
 
 
 ### `LevelDataValue::Tag`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::unique_ptr<CompoundTag>` | mTag
 
 
 ### `LevelListCache::createBackupCopyOfWorld::__l5::<lambda_01ffea937a76700a6f61e699c9c52645>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `LevelListCache *const` | __this
 8 | (32) `const std::string` | newLevelId
 
 
 ### `LibraryItem`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (296) `LessonItem` | baseclass_0
 296 | (32) `std::string` | mSubtitle
 328 | (32) `std::string` | mDifficulty
@@ -558,7 +558,7 @@ Offset | Type | Name
 
 ### `LessonItem`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `LessonItem_vtbl *` | __vftable
 8 | (16) `std::enable_shared_from_this<LessonItem>` | baseclass_8
 24 | (32) `std::string` | mImageUri
@@ -577,19 +577,19 @@ Offset | Type | Name
 
 ### `LessonItemCache::createItem::__l2::<lambda_45b6fea0b32e146eac7eb8d3175611d0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<LessonItemCache>` | weakThis
 
 
 ### `LibraryCollection::refresh::__l12::<lambda_660a8991daf205c274a409143d346b65>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `LibraryCollection *const` | __this
 
 
 ### `Legacy::WorldImporter::importWorld::__l2::<lambda_ae938f074dd3a375f0777a73fbeb379e>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Legacy::WorldImporter *const` | __this
 8 | (16) `std::shared_ptr<Social::User>` | user
 24 | (16) `std::shared_ptr<Legacy::WorldProcessRequest>` | processRequest
@@ -598,39 +598,39 @@ Offset | Type | Name
 
 ### `Legacy::WorldImporter::importWorld::__l2::<lambda_366519f82ad483b9658c695262c21046>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<CallbackTokenContext<std::function<void __cdecl(enum Legacy::ImportStatus,float,std::shared_ptr<ImportResult>)> > >` | context
 
 
 ### `LegacyOptionsConverterInternal::_makeGenericRecipe::__l2::<lambda_9f36d3efb04074791ed7f3702039126e>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::function<void __cdecl(Option *,bool)>` | setOption
 
 
 ### `LegacyOptionsConverterInternal::_makeGenericRecipe::__l2::<lambda_3250100f958fa1f0f26c0275bd843c8d>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::function<void __cdecl(Option *,unsigned char)>` | setOption
 
 
 ### `Legacy::WorldImporter::retrieveWorldList::__l2::<lambda_c472bd97cd77568961a14503f1a05380>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Legacy::WorldImporter *const` | __this
 8 | (64) `std::function<void __cdecl(enum Legacy::RetrieveStatus)>` | fetchCompleteCB
 
 
 ### `Legacy::WorldImporter::importWorld::__l2::<lambda_b2029e45b00b21c59d0f455bcac15a46>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Legacy::WorldImporter *const` | __this
 8 | (64) `std::function<void __cdecl(enum Legacy::ImportStatus,float,std::shared_ptr<ImportResult>)>` | statusCallback
 
 
 ### `Legacy::WorldConversionReport`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `Legacy::WorldConverter::ConversionResult` | mResult
 8 | (32) `std::string` | mWorldName
 40 | (8) `std::chrono::duration<double,std::ratio<1,1> >` | mConversionDurationSeconds
@@ -642,7 +642,7 @@ Offset | Type | Name
 
 ### `LibraryDeeplinkListener::_navigateToLink::__l2::<lambda_d498d340354ce2f453ed38567f54fbc2>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<bool>` | existenceTracker
 16 | (16) `std::shared_ptr<AsyncTracker>` | timeoutTracker
 32 | (8) `const LibraryDeeplinkListener *const` | __this
@@ -652,7 +652,7 @@ Offset | Type | Name
 
 ### `LabTablePacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `Packet` | baseclass_0
 40 | (1) `LabTablePacket::Type` | mType
 44 | (12) `BlockPos` | mPos
@@ -661,13 +661,13 @@ Offset | Type | Name
 
 ### `LegacyClientNetworkHandler::handle::__l2::<lambda_fa967f588a1ce712e27d64a182893b8b>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `const BlockEventPacket` | packet
 
 
 ### `LegacyClientNetworkHandler::handle::__l2::<lambda_93d079b43c62f7e1248b34064f45323f>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `const ContainerOpenPacket` | packet
 64 | (8) `LocalPlayer *` | player
 72 | (8) `MultiPlayerLevel *` | level
@@ -675,7 +675,7 @@ Offset | Type | Name
 
 ### `LegacyClientNetworkHandler::handle::__l5::<lambda_89563cba18849588825a7327afbb76f5>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `LegacyClientNetworkHandler *const` | __this
 8 | (16) `std::shared_ptr<LevelChunkPacketHandler>` | handler
 24 | (152) `const NetworkIdentifier` | source
@@ -683,7 +683,7 @@ Offset | Type | Name
 
 ### `LegacyClientNetworkHandler::_applyPlayerSkin::__l7::<lambda_42405ada392c75a6c6b62314c754af1d>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<IClientInstance>` | weakClient
 16 | (16) `mce::UUID` | uuid
 32 | (640) `const SerializedSkin` | serializableSkin
@@ -694,7 +694,7 @@ Offset | Type | Name
 
 ### `LevelChunkPacketHandler::_addReuseFromCacheStep::__l2::<lambda_00c643ea340363bdff366ebe864def6e>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `LevelChunkPacketHandler *const` | __this
 8 | (8) `unsigned __int64` | i
 16 | (4) `float` | abortRequestTime
@@ -703,13 +703,13 @@ Offset | Type | Name
 
 ### `LinearAllocator<ViewRenderObject>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<AllocatorData>` | mData
 
 
 ### `LevelBuilder::scheduleChunkBuild::__l19::<lambda_72252b7199841403e2a415b3bd023c08>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | immediate
 8 | (16) `std::shared_ptr<RenderChunkInstanced>` | renderChunkInstancedShared
 24 | (16) `const std::shared_ptr<RenderChunkShared>` | renderChunkShared
@@ -723,7 +723,7 @@ Offset | Type | Name
 
 ### `LevelBuilder::scheduleChunkBuild::__l19::<lambda_06fe4843def8ec0a40648f31185946ab>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<RenderChunkInstanced>` | renderChunkInstancedShared
 16 | (16) `const std::shared_ptr<RenderChunkShared>` | renderChunkShared
 32 | (1) `const bool` | transparentLeaves
@@ -739,37 +739,37 @@ Offset | Type | Name
 
 ### `LinearAllocator<ActorShadowRenderObject>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<AllocatorData>` | mData
 
 
 ### `LinearAllocator<ParticleTypeRenderObject>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<AllocatorData>` | mData
 
 
 ### `LinearAllocator<mce::TexturePtr>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<AllocatorData>` | mData
 
 
 ### `LinearAllocator<CrackRenderObject>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<AllocatorData>` | mData
 
 
 ### `LinearAllocator<NameTagRenderObject>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<AllocatorData>` | mData
 
 
 ### `LevelCullerCachedBase::UpdateChunkData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (12) `SubChunkPos` | mRenderChunkPosition
 12 | (1) `bool` | mIsSkyLit
 13 | (6) `VisibilityNode` | mVisibilityNode
@@ -779,7 +779,7 @@ Offset | Type | Name
 
 ### `LevelRendererCamera::updatePerChunkFaceSortState::__l10::<lambda_d6963569be67244178665fa6230fe26b>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `LevelRendererCamera *const` | __this
 8 | (12) `const Vec3` | viewPos
 20 | (12) `BlockPos` | blockSortPos
@@ -792,20 +792,20 @@ Offset | Type | Name
 
 ### `LevelRendererCamera::RenderChunkPosBounds`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (12) `SubChunkPos` | min
 12 | (12) `SubChunkPos` | max
 
 
 ### `Layer<Biome *>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `LayerDetails::LayerBase` | baseclass_0
 
 
 ### `LayerDetails::LayerBase`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `LayerDetails::LayerBase_vtbl *` | __vftable
 8 | (8) `__int64` | mSeed
 16 | (8) `__int64` | mSeedMixup
@@ -813,7 +813,7 @@ Offset | Type | Name
 
 ### `LegacyTradeableComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | mAddRecipeOnUpdate
 1 | (1) `bool` | mResetLockedOnFirstTrade
 2 | (1) `bool` | mWillingToBreed
@@ -828,13 +828,13 @@ Offset | Type | Name
 
 ### `ListTagFloatAdder`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::unique_ptr<ListTag>` | mTag
 
 
 ### `LootTableContext`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float` | mLuck
 8 | (8) `Level *` | mLevel
 16 | (8) `BlockSource *` | mRegion
@@ -848,20 +848,20 @@ Offset | Type | Name
 
 ### `ListTagIntAdder`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::unique_ptr<ListTag>` | mTag
 
 
 ### `LocalConnector::LocalConnection`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `LocalConnector *` | mConnector
 8 | (152) `NetworkIdentifier` | mId
 
 
 ### `LookControlComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | mHasWantedPosition
 1 | (1) `bool` | mHasWantedRotation
 4 | (4) `float` | mYMax
@@ -873,13 +873,13 @@ Offset | Type | Name
 
 ### `leveldb::Status`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const char *` | state_
 
 
 ### `leveldb::Compressor`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `leveldb::Compressor_vtbl *` | __vftable
 8 | (8) `unsigned __int64` | inputBytes
 16 | (8) `unsigned __int64` | compressedBytes
@@ -888,7 +888,7 @@ Offset | Type | Name
 
 ### `leveldb::ZlibCompressorBase`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `leveldb::Compressor` | baseclass_0
 32 | (4) `const int` | compressionLevel
 36 | (1) `const bool` | raw
@@ -896,7 +896,7 @@ Offset | Type | Name
 
 ### `LocalConnector::connect::__l5::<lambda_53fd3492de6269a51add08adad05dd5f>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `LocalConnector *const` | __this
 8 | (152) `NetworkIdentifier` | hostId
 160 | (16) `std::shared_ptr<LocalNetworkPeer>` | newPeer
@@ -904,7 +904,7 @@ Offset | Type | Name
 
 ### `LocalConnector::createPeer::__l2::<lambda_ddc662792dc88affbd03064fa30cfc5e>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `LocalConnector *const` | __this
 8 | (152) `NetworkIdentifier` | clientId
 160 | (16) `std::shared_ptr<LocalNetworkPeer>` | newPeer
@@ -912,7 +912,7 @@ Offset | Type | Name
 
 ### `ListDCommand::execute::__l2::<lambda_b3cf132935515dc31340e61291b1a510>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Json::Value *` | playerList
 8 | (8) `std::basic_stringstream<char,std::char_traits<char>,std::allocator<char> > *` | stream
 16 | (8) `int *` | count
@@ -925,7 +925,7 @@ Offset | Type | Name
 
 ### `LookAtDefinition`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | mSetTarget
 4 | (4) `float` | mSearchRadius
 8 | (1) `bool` | mAllowInvulnerable
@@ -936,7 +936,7 @@ Offset | Type | Name
 
 ### `LevelEventCoordinator::sendLevelWeatherChanged::__l2::<lambda_33b11a197678339fe6beb420e10f4191>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `const std::string` | dimension
 32 | (1) `bool` | raining
 33 | (1) `bool` | lightning
@@ -944,27 +944,27 @@ Offset | Type | Name
 
 ### `LayerResult<Biome *>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::unique_ptr<char [0]>` | mResult
 
 
 ### `LevelChunk::HardcodedSpawningArea`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `BoundingBox` | aabb
 24 | (1) `HardcodedSpawnAreaType` | type
 
 
 ### `LevelChunkHashMapKey`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `LevelChunkTag` | mTag
 8 | (8) `unsigned __int64` | mIndex
 
 
 ### `Level::LevelChunkQueuedSavingElement`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mDist
 8 | (8) `ChunkPos` | mPosition
 16 | (4) `AutomaticID<Dimension,int>` | mDimensionId
@@ -972,7 +972,7 @@ Offset | Type | Name
 
 ### `Level::explode::__l5::<lambda_81dee22cf752cbc31af5429df6d1a2ac>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::string *` | sID
 8 | (8) `long double *` | x
 16 | (8) `long double *` | y
@@ -984,7 +984,7 @@ Offset | Type | Name
 
 ### `LegacyBlockPlacementProcessor`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float` | mChance
 4 | (2516) `Random` | mRandom
 2520 | (1) `bool` | mHasGravity
@@ -994,7 +994,7 @@ Offset | Type | Name
 
 ### `LegacyJigsawPlacement`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `const int` | mMaxDepth
 8 | (64) `std::function<std::unique_ptr<PoolElementStructurePiece> __cdecl(StructurePoolElement const &,BlockPos const &,enum Rotation const &,int,JigsawJunction &,BoundingBox const &,BlockPos const &)>` | mFactory
 72 | (64) `std::unordered_map<ChunkPos,std::unique_ptr<std::vector<short>>>` | mChunkHeightCache
@@ -1002,7 +1002,7 @@ Offset | Type | Name
 
 ### `LevelChunk`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (80) `std::mutex` | mBlockEntityAccessLock
 80 | (8) `Level *` | mLevel
 88 | (8) `Dimension *` | mDimension
@@ -1059,7 +1059,7 @@ Offset | Type | Name
 
 ### `LevelStorageWriteBatch`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `LevelStorageWriteBatch_vtbl *` | __vftable
 8 | (24) `std::vector<std::function<void __cdecl(void)>>` | mFlushCallbacks
 32 | (16) `std::map<std::string,LevelStorageWriteBatch::BatchEntry>` | mBatch
@@ -1068,7 +1068,7 @@ Offset | Type | Name
 
 ### `LevelLooseFileStorage::<lambda_243d65738535c465e89fa7d414db982c>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `Core::PathBuffer<std::string >` | root
 32 | (24) `const ContentIdentity` | contentIdentity
 56 | (8) `const IContentKeyProvider *` | keyProvider
@@ -1076,14 +1076,14 @@ Offset | Type | Name
 
 ### `leveldb::Slice`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const char *` | data_
 8 | (8) `unsigned __int64` | size_
 
 
 ### `LevelCache`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (384) `LevelSummary` | summary
 384 | (8) `std::unique_ptr<LevelData>` | data
 392 | (1) `bool` | dirtySummary
@@ -1092,7 +1092,7 @@ Offset | Type | Name
 
 ### `LoomScreenControllerProxyCallbacks`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::function<void __cdecl(int)>` | mAddItem
 64 | (64) `std::function<void __cdecl(int)>` | mAddDye
 128 | (64) `std::function<int __cdecl(BannerPattern const *)>` | mGetPatternIndex
@@ -1102,27 +1102,27 @@ Offset | Type | Name
 
 ### `LayerBiomeSource`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `BiomeSource` | baseclass_0
 8 | (16) `std::shared_ptr<Layer<Biome *> const >` | mBlockResolutionLayer
 
 
 ### `LayerDetails::RandomProviderT<<lambda_771016eb0f7e2748065ada6628a00507> >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `LayerDetails::LayerBase::initRandom::__l2::<lambda_771016eb0f7e2748065ada6628a00507>` | mNextRandom
 8 | (8) `__int64` | mRval
 
 
 ### `LayerDetails::LayerBase::initRandom::__l2::<lambda_771016eb0f7e2748065ada6628a00507>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int64` | seed
 
 
 ### `LakeFeature`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `Feature` | baseclass_0
 24 | (8) `const Block *` | mBlock
 32 | (8) `const Block *` | mEmptyBlock
@@ -1130,7 +1130,7 @@ Offset | Type | Name
 
 ### `LayerFilters::AddBiomeIsland::{ctor}::__l2::<lambda_d22b2d79a9b449dd8757e60c4491a3ad>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `LayerFilters::AddBiomeIsland *const` | __this
 8 | (224) `TagRegistry<IDType<BiomeTagIDType>,IDType<BiomeTagSetIDType> >` | tagRegistry
 232 | (1008) `WellKnownBiomeTags` | wellKnownBiomeTags
@@ -1138,7 +1138,7 @@ Offset | Type | Name
 
 ### `LayerFilters::RiverInit::{ctor}::__l2::<lambda_b3b651c19a7ac355c635e67204b20baa>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `LayerFilters::RiverInit *const` | __this
 8 | (224) `TagRegistry<IDType<BiomeTagIDType>,IDType<BiomeTagSetIDType> >` | tagRegistry
 232 | (1008) `WellKnownBiomeTags` | wellKnownBiomeTags
@@ -1146,13 +1146,13 @@ Offset | Type | Name
 
 ### `leveldb::MutexLock`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `leveldb::port::Mutex *const` | mu_
 
 
 ### `leveldb::ParsedInternalKey`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `leveldb::Slice` | user_key
 16 | (8) `unsigned __int64` | sequence
 24 | (4) `leveldb::ValueType` | type
@@ -1160,7 +1160,7 @@ Offset | Type | Name
 
 ### `leveldb::FileMetaData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | refs
 4 | (4) `int` | allowed_seeks
 8 | (8) `unsigned __int64` | number
@@ -1171,13 +1171,13 @@ Offset | Type | Name
 
 ### `leveldb::VersionSet::Builder::BySmallestKey`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const leveldb::InternalKeyComparator *` | internal_comparator
 
 
 ### `leveldb::VersionEdit`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | comparator_
 32 | (8) `unsigned __int64` | log_number_
 40 | (8) `unsigned __int64` | prev_log_number_
@@ -1195,7 +1195,7 @@ Offset | Type | Name
 
 ### `leveldb::log::Writer`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `leveldb::WritableFile *` | dest_
 8 | (4) `int` | block_offset_
 12 | (20) `unsigned int[5]` | type_crc_
@@ -1203,7 +1203,7 @@ Offset | Type | Name
 
 ### `leveldb::log::Reader`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `leveldb::SequentialFile *const` | file_
 8 | (8) `leveldb::log::Reader::Reporter *const` | reporter_
 16 | (1) `const bool` | checksum_
@@ -1218,7 +1218,7 @@ Offset | Type | Name
 
 ### `leveldb::DBImpl::CompactionState::Output`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `unsigned __int64` | number
 8 | (8) `unsigned __int64` | file_size
 16 | (32) `leveldb::InternalKey` | smallest
@@ -1227,7 +1227,7 @@ Offset | Type | Name
 
 ### `leveldb::ReadOptions`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | verify_checksums
 1 | (1) `bool` | fill_cache
 8 | (8) `const leveldb::Snapshot *` | snapshot
@@ -1236,7 +1236,7 @@ Offset | Type | Name
 
 ### `leveldb::LookupKey`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const char *` | start_
 8 | (8) `const char *` | kstart_
 16 | (8) `const char *` | end_
@@ -1245,20 +1245,20 @@ Offset | Type | Name
 
 ### `leveldb::Version::GetStats`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `leveldb::FileMetaData *` | seek_file
 8 | (4) `int` | seek_file_level
 
 
 ### `leveldb::WriteBatch::Handler`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `leveldb::WriteBatch::Handler_vtbl *` | __vftable
 
 
 ### `leveldb::Options`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const leveldb::Comparator *` | comparator
 8 | (1) `bool` | create_if_missing
 9 | (1) `bool` | error_if_exists
@@ -1278,33 +1278,33 @@ Offset | Type | Name
 
 ### `leveldb::InternalKeyComparator`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `leveldb::Comparator` | baseclass_0
 8 | (8) `const leveldb::Comparator *` | user_comparator_
 
 
 ### `leveldb::Comparator`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `leveldb::Comparator_vtbl *` | __vftable
 
 
 ### `leveldb::InternalFilterPolicy`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `leveldb::FilterPolicy` | baseclass_0
 8 | (8) `const leveldb::FilterPolicy *const` | user_policy_
 
 
 ### `leveldb::FilterPolicy`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `leveldb::FilterPolicy_vtbl *` | __vftable
 
 
 ### `leveldb::VersionSet::Builder`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `leveldb::VersionSet *` | vset_
 8 | (8) `leveldb::Version *` | base_
 16 | (168) `leveldb::VersionSet::Builder::LevelState[7]` | levels_
@@ -1312,28 +1312,28 @@ Offset | Type | Name
 
 ### `leveldb::VersionSet::Builder::LevelState`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::set<unsigned __int64>` | deleted_files
 16 | (8) `std::set<leveldb::FileMetaData *,leveldb::VersionSet::Builder::BySmallestKey,std::allocator<leveldb::FileMetaData *> > *` | added_files
 
 
 ### `leveldb::Footer`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `leveldb::BlockHandle` | metaindex_handle_
 16 | (16) `leveldb::BlockHandle` | index_handle_
 
 
 ### `leveldb::BlockHandle`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `unsigned __int64` | offset_
 8 | (8) `unsigned __int64` | size_
 
 
 ### `leveldb::BlockContents`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `leveldb::Slice` | data
 16 | (1) `bool` | cachable
 17 | (1) `bool` | heap_allocated
@@ -1341,7 +1341,7 @@ Offset | Type | Name
 
 ### `leveldb::BlockBuilder`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const leveldb::Options *` | options_
 8 | (32) `std::string` | buffer_
 40 | (24) `std::vector<unsigned int>` | restarts_
@@ -1352,13 +1352,13 @@ Offset | Type | Name
 
 ### `leveldb::port::AtomicPointer`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `void *` | rep_
 
 
 ### `LocaleInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `char *` | decimal_point
 8 | (8) `char *` | thousands_sep
 16 | (8) `char *` | grouping

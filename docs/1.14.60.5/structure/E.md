@@ -1,13 +1,13 @@
 # E
 ### `EducationLocalLevelSettings`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | hasQuiz
 
 
 ### `ExternalFileLevelStorageSource`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `LevelStorageSource` | baseclass_0
 8 | (16) `std::shared_ptr<SaveTransactionManager>` | msptSaveTransactionManager
 24 | (8) `Core::FilePathManager *` | mFilePathManager
@@ -15,13 +15,13 @@ Offset | Type | Name
 
 ### `EntityId`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `uint32_t` | mRawId
 
 
 ### `EventPacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `Packet` | baseclass_0
 40 | (8) `ActorUniqueID` | mPlayerId
 48 | (200) `EventPacket::Data` | mEventData
@@ -29,7 +29,7 @@ Offset | Type | Name
 
 ### `EventPacket::Data`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `EventPacket::Type` | mType
 4 | (1) `Util::Byte` | mUsePlayerID
 8 | (32) `EventPacket::Data::$A9B56BB2A8A14AFA32257D71180A3DDB` | _anon_0
@@ -42,7 +42,7 @@ Offset | Type | Name
 
 ### `EventPacket::Data::$A9B56BB2A8A14AFA32257D71180A3DDB`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `EventPacket::Data::$A9B56BB2A8A14AFA32257D71180A3DDB::$103E0A04995712B8D39AE343EA50817C` | Achievement
 1 | (16) `EventPacket::Data::$A9B56BB2A8A14AFA32257D71180A3DDB::$3EA7AF8D67CA2C237D54EACA0411C0BB` | Interaction
 2 | (4) `EventPacket::Data::$A9B56BB2A8A14AFA32257D71180A3DDB::$CFC5415F71714946B1482A4EA070D3F8` | PortalCreated
@@ -67,13 +67,13 @@ Offset | Type | Name
 
 ### `EventPacket::Data::$A9B56BB2A8A14AFA32257D71180A3DDB::$103E0A04995712B8D39AE343EA50817C`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `MinecraftEventing::AchievementIds` | mAchievementId
 
 
 ### `EventPacket::Data::$A9B56BB2A8A14AFA32257D71180A3DDB::$3EA7AF8D67CA2C237D54EACA0411C0BB`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mInteractedEntityType
 4 | (4) `MinecraftEventing::InteractionType` | mInteractionType
 8 | (4) `int` | mInteractedEntityVariant
@@ -82,20 +82,20 @@ Offset | Type | Name
 
 ### `EventPacket::Data::$A9B56BB2A8A14AFA32257D71180A3DDB::$CFC5415F71714946B1482A4EA070D3F8`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mBuiltInDimension
 
 
 ### `EventPacket::Data::$A9B56BB2A8A14AFA32257D71180A3DDB::$731817FF9A1D8A7F7DE35EC2646A852E`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mFromDimension
 4 | (4) `int` | mToDimension
 
 
 ### `EventPacket::Data::$A9B56BB2A8A14AFA32257D71180A3DDB::$43709AFFC502E7A13BA1073C610D8549`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | mKilledByOwner
 8 | (8) `int64_t` | mKillerEntityId
 16 | (8) `int64_t` | mKilledMobId
@@ -105,7 +105,7 @@ Offset | Type | Name
 
 ### `EventPacket::Data::$A9B56BB2A8A14AFA32257D71180A3DDB::$3E28A071213A0B2BC357FB8DFB040ECA`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `int64_t` | mKillerEntityId
 8 | (8) `int64_t` | mKilledMobId
 16 | (4) `ActorType` | mDamageChildType
@@ -115,7 +115,7 @@ Offset | Type | Name
 
 ### `EventPacket::Data::$A9B56BB2A8A14AFA32257D71180A3DDB::$8DB381A6CBFA50BDCCF821038DD76269`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `__int16` | mContentsType
 4 | (4) `uint32_t` | mContentsColor
 8 | (2) `__int16` | mFillLevel
@@ -123,7 +123,7 @@ Offset | Type | Name
 
 ### `EventPacket::Data::$A9B56BB2A8A14AFA32257D71180A3DDB::$FF0AE4D4703BAEB84232F79BCFC2EBCD`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int32_t` | mKillerId
 4 | (4) `int` | mKillerVariant
 8 | (4) `int32_t` | mDamageSource
@@ -132,7 +132,7 @@ Offset | Type | Name
 
 ### `EventPacket::Data::$A9B56BB2A8A14AFA32257D71180A3DDB::$63ED5E6F79A5C5C3A74CFCAA908DF8F1`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int32_t` | mPartySize
 8 | (8) `int64_t` | mBossUniqueId
 16 | (4) `int32_t` | mBossType
@@ -140,14 +140,14 @@ Offset | Type | Name
 
 ### `EventPacket::Data::$A9B56BB2A8A14AFA32257D71180A3DDB::$92C02C0BC48AA2105788421214C7C1B7`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int32_t` | mResult
 4 | (4) `int32_t` | mResultNumber
 
 
 ### `EventPacket::Data::$A9B56BB2A8A14AFA32257D71180A3DDB::$A01EA2DF6590CA7397A67CCFB21A7F86`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int32_t` | mItemId
 4 | (4) `int32_t` | mItemAux
 8 | (4) `int32_t` | mLayerIndex
@@ -157,14 +157,14 @@ Offset | Type | Name
 
 ### `EventPacket::Data::$A9B56BB2A8A14AFA32257D71180A3DDB::$EA4713E4A3566411BE29AE280F22E9DF`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int32_t` | mSuccessCount
 4 | (4) `int32_t` | mErrorCount
 
 
 ### `EventPacket::Data::$A9B56BB2A8A14AFA32257D71180A3DDB::$E47DE5B305D15144F0589DE3337858CF`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int32_t` | mPattern
 4 | (4) `int32_t` | mPreset
 8 | (4) `int32_t` | mType
@@ -173,7 +173,7 @@ Offset | Type | Name
 
 ### `EventPacket::Data::$A9B56BB2A8A14AFA32257D71180A3DDB::$FEA48FE64DE27FADBA89F8BAEC4B7A9C`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mBabyType
 4 | (4) `int` | mBabyVariant
 8 | (1) `unsigned __int8` | mBabyColor
@@ -181,20 +181,20 @@ Offset | Type | Name
 
 ### `EventPacket::Data::$A9B56BB2A8A14AFA32257D71180A3DDB::$A05CE60CF11B1B9B38674E8A09580618`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `__int16` | mItemId
 4 | (4) `MinecraftEventing::POIBlockInteractionType` | mInteractionType
 
 
 ### `EventPacket::Data::$A9B56BB2A8A14AFA32257D71180A3DDB::$5B316CCC98B60A95F92E231D823C7BE3`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `__int16` | mItemId
 
 
 ### `EventPacket::Data::$A9B56BB2A8A14AFA32257D71180A3DDB::$30DBAAB0C52B2A0F9E419B4088A015FC`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mCurrentWave
 4 | (4) `int` | mTotalWaves
 8 | (1) `bool` | mSuccess
@@ -202,7 +202,7 @@ Offset | Type | Name
 
 ### `EventPacket::Data::$A9B56BB2A8A14AFA32257D71180A3DDB::$61A09D83502661C769654363F1382707`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float` | mPositionDelta
 4 | (4) `float` | mObservedScore
 8 | (4) `float` | mThresholdDistance
@@ -212,7 +212,7 @@ Offset | Type | Name
 
 ### `EventPacket::Data::$A9B56BB2A8A14AFA32257D71180A3DDB::$922D880B3EFBF7F2063214579535BD95`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `MovementEventType` | mEventType
 4 | (4) `float` | mObservedScore
 8 | (4) `float` | mAveragePosDelta
@@ -223,7 +223,7 @@ Offset | Type | Name
 
 ### `EnchantResult`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `EnchantResultType` | result
 8 | (8) `size_t` | enchantIdx
 16 | (4) `int` | level
@@ -231,20 +231,20 @@ Offset | Type | Name
 
 ### `EntityContext`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `EntityContextBase` | baseclass_0
 
 
 ### `EntityContextBase`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistryBase *` | mRegistry
 8 | (4) `const EntityId` | mEntity
 
 
 ### `EntitySensorComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float` | mSensorRange
 4 | (4) `int` | mMinimumCount
 8 | (4) `int` | mMaximumCount
@@ -255,7 +255,7 @@ Offset | Type | Name
 
 ### `ExplodeComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mFuseLength
 4 | (4) `int` | mInitialFuseLength
 8 | (4) `float` | mExplosionPower
@@ -270,7 +270,7 @@ Offset | Type | Name
 
 ### `EmotePacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `Packet` | baseclass_0
 40 | (8) `ActorRuntimeID` | mRuntimeId
 48 | (32) `std::string` | mEmote
@@ -279,7 +279,7 @@ Offset | Type | Name
 
 ### `EducationLevelSettings`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | codeBuilderDefaultUri
 32 | (56) `std::unordered_map<std::string,CommandFlag>` | hiddenPlayerCommands
 88 | (1) `EducationLocalLevelSettings` | localSettings
@@ -287,19 +287,19 @@ Offset | Type | Name
 
 ### `ErrorPathStack`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::vector<std::string> *` | mErrorPath
 
 
 ### `EventInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | mEventName
 
 
 ### `EquipmentTableDescription`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `PropertyDescription` | baseclass_0
 8 | (32) `std::string` | mFilePath
 40 | (24) `std::vector<SlotDropChance>` | mDropChancesPerSlot
@@ -307,13 +307,13 @@ Offset | Type | Name
 
 ### `EquippableDefinition`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<SlotDescriptor>` | mSlots
 
 
 ### `ExplodeDefinition`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `FloatRange` | mFuseLength
 8 | (4) `float` | mExplosionPower
 12 | (4) `float` | mMaxResistance
@@ -326,13 +326,13 @@ Offset | Type | Name
 
 ### `EquippableComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<SlotDescriptor>` | mSlots
 
 
 ### `ExpressionNode`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `ExpressionOp` | mOp
 8 | (56) `MolangScriptArg` | mValue
 64 | (24) `std::vector<ExpressionNode>` | mChildren
@@ -342,33 +342,33 @@ Offset | Type | Name
 
 ### `ExpandoContainerModel::OnItemExpandedCallback`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<void (const std::string &,int,int)>::_Invoker_type` | _M_invoker
 
 
 ### `EnchantmentInstance`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `Enchant::Type` | mEnchantType
 4 | (4) `int` | mLevel
 
 
 ### `EntityNetId`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `uint32_t` | mRawId
 
 
 ### `EntityRefTraits::OwnerStorage`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::optional<OwnerStorageEntity::EntityContextOwned>` | mContext
 
 
 ### `Explosion`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (12) `Vec3` | mPos
 12 | (4) `float` | mRadius
 16 | (56) `BlockPosSet` | mToBlow
@@ -383,27 +383,27 @@ Offset | Type | Name
 
 ### `ExpressionNode::QueryLookupFunc`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<const std::function<float (RenderParams &,const std::vector<float> &)> *(const std::string &,bool)>::_Invoker_type` | _M_invoker
 
 
 ### `EndGatewayFeature`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `Feature` | baseclass_0
 
 
 ### `EndPodiumFeature`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `Feature` | baseclass_0
 24 | (1) `bool` | mActive
 
 
 ### `EndDragonFight::GateWayGenerator`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | mPlaceNewBlocks
 8 | (8) `Unique<ChunkViewSource>` | mSource
 16 | (12) `BlockPos` | mPosition
@@ -411,19 +411,19 @@ Offset | Type | Name
 
 ### `EndIslandFeature`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `Feature` | baseclass_0
 
 
 ### `EndDragonFight::_setEndGatewayBlockActorExitPosition::$7EF7C94BEAB75C6CEF4ADFB99B570420`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `EnvironmentRequirement`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (48) `std::set<const Block *>` | mBlockTypes
 48 | (4) `unsigned int` | mNumBlocksRequired
 52 | (4) `unsigned int` | mSearchRadius
@@ -431,27 +431,27 @@ Offset | Type | Name
 
 ### `EntityRegistryRefTraits::StackResultStorage`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<EntityRegistry>` | mValue
 
 
 ### `ExpressionNode::GenericQueryLookupFunc`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<const std::function<MolangScriptArg (RenderParams &,const std::vector<MolangScriptArg> &)> *(const std::string &,bool)>::_Invoker_type` | _M_invoker
 
 
 ### `ExperienceRewardComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<ExpressionNode>` | mOnBred
 24 | (24) `std::vector<ExpressionNode>` | mOnDeath
 
 
 ### `EndPortalShape`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `BlockSource *` | mSource
 8 | (4) `int` | mRightDir
 12 | (4) `int` | mLeftDir
@@ -464,13 +464,13 @@ Offset | Type | Name
 
 ### `EndCityPieces::Generators`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Vector_base<std::unique_ptr<EndCityPieces::SectionGenerator>>` | baseclass_0
 
 
 ### `EducationMetadata`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `EducationMetadata::ContentType` | mContentType
 4 | (4) `int` | mEstimatedTime
 8 | (32) `std::string` | mDescription
@@ -484,7 +484,7 @@ Offset | Type | Name
 
 ### `EducationOptions`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ResourcePackListener` | baseclass_0
 8 | (8) `ResourcePackManager *` | mPackMan
 16 | (1) `EducationFeature` | mFeatureFlags
@@ -492,14 +492,14 @@ Offset | Type | Name
 
 ### `epoll_event`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `uint32_t` | events
 4 | (8) `epoll_data_t` | data
 
 
 ### `epoll_data_t`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `void *` | ptr
 1 | (4) `int` | fd
 2 | (4) `uint32_t` | u32
@@ -508,350 +508,350 @@ Offset | Type | Name
 
 ### `EntityRegistryBase::View<EntityContext,EntityRegistry,FlagComponent<ActorTickedFlag>,ActorComponent,AgeableComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistry *` | mRegistry
 
 
 ### `EntityRegistryBase::View<EntityContext,EntityRegistry,FlagComponent<ActorTickedFlag>,ActorComponent,AgentCommandComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistry *` | mRegistry
 
 
 ### `EntityRegistryBase::View<EntityContext,EntityRegistry,FlagComponent<ActorTickedFlag>,ActorComponent,AngryComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistry *` | mRegistry
 
 
 ### `EntityRegistryBase::View<EntityContext,EntityRegistry,FlagComponent<ActorTickedFlag>,ActorComponent,AreaAttackComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistry *` | mRegistry
 
 
 ### `EntityRegistryBase::View<EntityContext,EntityRegistry,FlagComponent<ActorTickedFlag>,ActorComponent,BalloonComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistry *` | mRegistry
 
 
 ### `EntityRegistryBase::View<EntityContext,EntityRegistry,FlagComponent<ActorTickedFlag>,ActorComponent,BehaviorComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistry *` | mRegistry
 
 
 ### `EntityRegistryBase::View<EntityContext,EntityRegistry,FlagComponent<ActorTickedFlag>,ActorComponent,BlockBreakSensorComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistry *` | mRegistry
 
 
 ### `EntityRegistryBase::View<EntityContext,EntityRegistry,FlagComponent<ActorTickedFlag>,ActorComponent,BodyControlComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistry *` | mRegistry
 
 
 ### `EntityRegistryBase::View<EntityContext,EntityRegistry,FlagComponent<ActorTickedFlag>,ActorComponent,BoostableComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistry *` | mRegistry
 
 
 ### `EntityRegistryBase::View<EntityContext,EntityRegistry,FlagComponent<ActorTickedFlag>,ActorComponent,BossComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistry *` | mRegistry
 
 
 ### `EntityRegistryBase::View<EntityContext,EntityRegistry,FlagComponent<ActorTickedFlag>,ActorComponent,BreakBlocksComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistry *` | mRegistry
 
 
 ### `EntityRegistryBase::View<EntityContext,EntityRegistry,FlagComponent<ActorTickedFlag>,ActorComponent,BreakDoorAnnotationComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistry *` | mRegistry
 
 
 ### `EntityRegistryBase::View<EntityContext,EntityRegistry,FlagComponent<ActorTickedFlag>,ActorComponent,BreathableComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistry *` | mRegistry
 
 
 ### `EntityRegistryBase::View<EntityContext,EntityRegistry,FlagComponent<ActorTickedFlag>,ActorComponent,BreedableComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistry *` | mRegistry
 
 
 ### `EntityRegistryBase::View<EntityContext,EntityRegistry,FlagComponent<ActorTickedFlag>,ActorComponent,BribeableComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistry *` | mRegistry
 
 
 ### `EntityRegistryBase::View<EntityContext,EntityRegistry,FlagComponent<ActorTickedFlag>,ActorComponent,ActorFlagComponent<BurnsInDaylightFlag> >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistry *` | mRegistry
 
 
 ### `EntityRegistryBase::View<EntityContext,EntityRegistry,FlagComponent<ActorTickedFlag>,ActorComponent,CommandBlockComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistry *` | mRegistry
 
 
 ### `EntityRegistryBase::View<EntityContext,EntityRegistry,FlagComponent<ActorTickedFlag>,ActorComponent,DamageOverTimeComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistry *` | mRegistry
 
 
 ### `EntityRegistryBase::View<EntityContext,EntityRegistry,FlagComponent<ActorTickedFlag>,ActorComponent,DanceComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistry *` | mRegistry
 
 
 ### `EntityRegistryBase::View<EntityContext,EntityRegistry,FlagComponent<ActorTickedFlag>,ActorComponent,DespawnComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistry *` | mRegistry
 
 
 ### `EntityRegistryBase::View<EntityContext,EntityRegistry,FlagComponent<ActorTickedFlag>,ActorComponent,DwellerComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistry *` | mRegistry
 
 
 ### `EntityRegistryBase::View<EntityContext,EntityRegistry,FlagComponent<ActorTickedFlag>,ActorComponent,EntitySensorComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistry *` | mRegistry
 
 
 ### `EntityRegistryBase::View<EntityContext,EntityRegistry,FlagComponent<ActorTickedFlag>,ActorComponent,ActorFlagComponent<EnvironmentSensorFlag> >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistry *` | mRegistry
 
 
 ### `EntityRegistryBase::View<EntityContext,EntityRegistry,FlagComponent<ActorTickedFlag>,ActorComponent,ExplodeComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistry *` | mRegistry
 
 
 ### `EntityRegistryBase::View<EntityContext,EntityRegistry,FlagComponent<ActorTickedFlag>,ActorComponent,FlockingComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistry *` | mRegistry
 
 
 ### `EntityRegistryBase::View<EntityContext,EntityRegistry,FlagComponent<ActorTickedFlag>,ActorComponent,GoalSelectorComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistry *` | mRegistry
 
 
 ### `EntityRegistryBase::View<EntityContext,EntityRegistry,FlagComponent<ActorTickedFlag>,ActorComponent,GrowsCropComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistry *` | mRegistry
 
 
 ### `EntityRegistryBase::View<EntityContext,EntityRegistry,FlagComponent<ActorTickedFlag>,ActorComponent,HopperComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistry *` | mRegistry
 
 
 ### `EntityRegistryBase::View<EntityContext,EntityRegistry,FlagComponent<ActorTickedFlag>,ActorComponent,HurtOnConditionComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistry *` | mRegistry
 
 
 ### `EntityRegistryBase::View<EntityContext,EntityRegistry,FlagComponent<ActorTickedFlag>,ActorComponent,InsomniaComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistry *` | mRegistry
 
 
 ### `EntityRegistryBase::View<EntityContext,EntityRegistry,FlagComponent<ActorTickedFlag>,ActorComponent,InteractComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistry *` | mRegistry
 
 
 ### `EntityRegistryBase::View<EntityContext,EntityRegistry,FlagComponent<ActorTickedFlag>,ActorComponent,JumpControlComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistry *` | mRegistry
 
 
 ### `EntityRegistryBase::View<EntityContext,EntityRegistry,FlagComponent<ActorTickedFlag>,ActorComponent,LeashableComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistry *` | mRegistry
 
 
 ### `EntityRegistryBase::View<EntityContext,EntityRegistry,FlagComponent<ActorTickedFlag>,ActorComponent,LookAtComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistry *` | mRegistry
 
 
 ### `EntityRegistryBase::View<EntityContext,EntityRegistry,FlagComponent<ActorTickedFlag>,ActorComponent,LookControlComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistry *` | mRegistry
 
 
 ### `EntityRegistryBase::View<EntityContext,EntityRegistry,FlagComponent<ActorTickedFlag>,ActorComponent,MobEffectComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistry *` | mRegistry
 
 
 ### `EntityRegistryBase::View<EntityContext,EntityRegistry,FlagComponent<ActorTickedFlag>,ActorComponent,MountTamingComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistry *` | mRegistry
 
 
 ### `EntityRegistryBase::View<EntityContext,EntityRegistry,FlagComponent<ActorTickedFlag>,ActorComponent,MoveControlComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistry *` | mRegistry
 
 
 ### `EntityRegistryBase::View<EntityContext,EntityRegistry,FlagComponent<ActorTickedFlag>,ActorComponent,NavigationComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistry *` | mRegistry
 
 
 ### `EntityRegistryBase::View<EntityContext,EntityRegistry,FlagComponent<ActorTickedFlag>,ActorComponent,OpenDoorAnnotationComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistry *` | mRegistry
 
 
 ### `EntityRegistryBase::View<EntityContext,EntityRegistry,FlagComponent<ActorTickedFlag>,ActorComponent,PeekComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistry *` | mRegistry
 
 
 ### `EntityRegistryBase::View<EntityContext,EntityRegistry,FlagComponent<ActorTickedFlag>,ActorComponent,ProjectileComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistry *` | mRegistry
 
 
 ### `EntityRegistryBase::View<EntityContext,EntityRegistry,FlagComponent<ActorTickedFlag>,ActorComponent,RaidBossComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistry *` | mRegistry
 
 
 ### `EntityRegistryBase::View<EntityContext,EntityRegistry,FlagComponent<ActorTickedFlag>,ActorComponent,RailActivatorComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistry *` | mRegistry
 
 
 ### `EntityRegistryBase::View<EntityContext,EntityRegistry,FlagComponent<ActorTickedFlag>,ActorComponent,ScaffoldingClimberComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistry *` | mRegistry
 
 
 ### `EntityRegistryBase::View<EntityContext,EntityRegistry,FlagComponent<ActorTickedFlag>,ActorComponent,ScaleByAgeComponent,AgeableComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistry *` | mRegistry
 
 
 ### `EntityRegistryBase::View<EntityContext,EntityRegistry,FlagComponent<ActorTickedFlag>,ActorComponent,SchedulerComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistry *` | mRegistry
 
 
 ### `EntityRegistryBase::View<EntityContext,EntityRegistry,FlagComponent<ActorTickedFlag>,ActorComponent,SensingComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistry *` | mRegistry
 
 
 ### `EntityRegistryBase::View<EntityContext,EntityRegistry,FlagComponent<ActorTickedFlag>,ActorComponent,SpawnActorComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistry *` | mRegistry
 
 
 ### `EntityRegistryBase::View<EntityContext,EntityRegistry,FlagComponent<ActorTickedFlag>,ActorComponent,TargetNearbyComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistry *` | mRegistry
 
 
 ### `EntityRegistryBase::View<EntityContext,EntityRegistry,FlagComponent<ActorTickedFlag>,ActorComponent,TeleportComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistry *` | mRegistry
 
 
 ### `EntityRegistryBase::View<EntityContext,EntityRegistry,FlagComponent<ActorTickedFlag>,ActorComponent,TimerComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistry *` | mRegistry
 
 
 ### `EntityRegistryBase::View<EntityContext,EntityRegistry,FlagComponent<ActorTickedFlag>,ActorComponent,LegacyTradeableComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistry *` | mRegistry
 
 
 ### `EntityRegistryBase::View<EntityContext,EntityRegistry,FlagComponent<ActorTickedFlag>,ActorComponent,TrailComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistry *` | mRegistry
 
 
 ### `EntityRegistryBase::View<EntityContext,EntityRegistry,FlagComponent<ActorTickedFlag>,ActorComponent,TransformationComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistry *` | mRegistry
 
 
 ### `EducationLevelSettings::CommandOverrideFunctor`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::_Function_base` | baseclass_0
 24 | (8) `std::function<void (CommandFlag &,const std::string &)>::_Invoker_type` | _M_invoker
 
 
 ### `EnumBitset<ScriptLogType,3>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::bitset<3>` | mBitset
 
 
 ### `EntityComponentFactory:464`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (56) `std::unordered_map<HashedString,std::unique_ptr<IDefinitionSerializer>>` | mDefinitionSerializers
 56 | (1) `bool` | mErrorOnDuplicateAdd
 57 | (1) `bool` | mErrorOnAbsentRemove
@@ -859,19 +859,19 @@ Offset | Type | Name
 
 ### `EntityCanonicalName::$7EF7C94BEAB75C6CEF4ADFB99B570420`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `EyeOfEnder::normalTick::$7EF7C94BEAB75C6CEF4ADFB99B570420`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `ExpandoModelElement`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (272) `ContainerItemStack` | item
 272 | (4) `ContainerExpandStatus` | status
 280 | (32) `std::string` | groupName
@@ -879,19 +879,19 @@ Offset | Type | Name
 
 ### `EntityRefTraits::StackResultStorage`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::optional<EntityContext>` | mContext
 
 
 ### `EntityRegistryBase::View<EntityContext,EntityRegistry,SurfaceBuilderComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistry *` | mRegistry
 
 
 ### `EndGatewayBlockActor`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (204) `BlockActor:1632` | baseclass_0
 204 | (4) `int` | mAge
 208 | (4) `int` | mTeleportCooldown
@@ -904,14 +904,14 @@ Offset | Type | Name
 
 ### `EntityRegistry`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `EntityRegistryBase` | baseclass_0
 32 | (16) `std::enable_shared_from_this<EntityRegistry>` | baseclass_20
 
 
 ### `EntityRegistryBase`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `entt::Registry<EntityId> *` | mRegistry
 8 | (8) `std::optional<EntityId>` | mViewedEntity
 16 | (8) `std::unique_ptr<EntityRegistryBase::ICanModifyComponentPoolDuringView>` | mCanModifyDuringView
@@ -920,37 +920,37 @@ Offset | Type | Name
 
 ### `EntityRegistryRefTraits::WeakStorage`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<EntityRegistry>` | mHandle
 
 
 ### `EntityRegistryBase::View<EntityContext,EntityRegistry,ActorComponent,RailMovementComponent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `EntityRegistry *` | mRegistry
 
 
 ### `EducationMetadataError`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `PackError` | baseclass_0
 
 
 ### `EndGatewayBlock::animateTick::$7EF7C94BEAB75C6CEF4ADFB99B570420`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `__int8[1]` | gap0
 
 
 ### `EnumBitset<RenderCapability,14>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::bitset<14>` | mBitset
 
 
 ### `EndermanTakeBlockGoal`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `Goal` | baseclass_0
 16 | (8) `EnderMan *` | mEnderman
 

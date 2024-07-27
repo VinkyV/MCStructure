@@ -1,7 +1,7 @@
 # Z
 ### `z_stream_s`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `unsigned __int8 *` | next_in
 8 | (4) `unsigned int` | avail_in
 12 | (4) `unsigned int` | total_in
@@ -20,7 +20,7 @@ Offset | Type | Name
 
 ### `zlib_filefunc64_32_def_s`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `zlib_filefunc64_def_s` | zfile_func64
 64 | (8) `void *(__fastcall *)(void *, const char *, int)` | zopen32_file
 72 | (8) `int (__fastcall *)(void *, void *)` | ztell32_file
@@ -29,7 +29,7 @@ Offset | Type | Name
 
 ### `zlib_filefunc64_def_s`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `void *(__fastcall *)(void *, const void *, int)` | zopen64_file
 8 | (8) `unsigned int (__fastcall *)(void *, void *, void *, unsigned int)` | zread_file
 16 | (8) `unsigned int (__fastcall *)(void *, void *, const void *, unsigned int)` | zwrite_file
@@ -42,14 +42,14 @@ Offset | Type | Name
 
 ### `ZlibFileAccessWrapper`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::unique_ptr<zlib_filefunc64_32_def_s>` | mZipAPI
 8 | (8) `IFileAccess *` | mFileAccess
 
 
 ### `zip_fileinfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `tm_zip_s` | tmz_date
 24 | (4) `unsigned int` | dosDate
 28 | (4) `unsigned int` | internal_fa

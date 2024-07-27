@@ -1,32 +1,32 @@
 # I
 ### `IJsonSerializable`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IJsonSerializable_vtbl *` | __vftable
 
 
 ### `in6_addr`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `in6_addr::<unnamed_type_u>` | u
 
 
 ### `in6_addr::<unnamed_type_u>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `unsigned __int8[16]` | Byte
 1 | (16) `unsigned __int16[8]` | Word
 
 
 ### `in_addr`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `in_addr::<unnamed_type_S_un>` | S_un
 
 
 ### `in_addr::<unnamed_type_S_un>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `in_addr::<unnamed_type_S_un>::<unnamed_type_S_un_b>` | S_un_b
 1 | (4) `in_addr::<unnamed_type_S_un>::<unnamed_type_S_un_w>` | S_un_w
 2 | (4) `unsigned int` | S_addr
@@ -34,7 +34,7 @@ Offset | Type | Name
 
 ### `in_addr::<unnamed_type_S_un>::<unnamed_type_S_un_b>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `unsigned __int8` | s_b1
 1 | (1) `unsigned __int8` | s_b2
 2 | (1) `unsigned __int8` | s_b3
@@ -43,33 +43,33 @@ Offset | Type | Name
 
 ### `in_addr::<unnamed_type_S_un>::<unnamed_type_S_un_w>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `unsigned __int16` | s_w1
 2 | (2) `unsigned __int16` | s_w2
 
 
 ### `InstructionalContentCollection::refresh::__l12::<lambda_ddd06533d82909e9ae760a5097914e2f>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `InstructionalContentCollection *const` | __this
 
 
 ### `IStoreCatalogItem`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IStoreCatalogItem_vtbl *` | __vftable
 
 
 ### `InitOnce`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | mInitialized
 8 | (64) `std::function<void __cdecl(void)>` | mInitFunction
 
 
 ### `ItemDescriptor`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `WeakPtr<Item>` | mItem
 8 | (16) `std::shared_ptr<ExpressionNode>` | mTags
 24 | (8) `const Block *` | mBlock
@@ -83,13 +83,13 @@ Offset | Type | Name
 
 ### `IPacketHandlerDispatcher`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher_vtbl *` | __vftable
 
 
 ### `ImageInfo_t`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1025) `char[1025]` | FileName
 1026 | (6) `ImageInfo_t::<unnamed_type_JfifHeader>` | JfifHeader
 1032 | (32) `char[32]` | CameraMake
@@ -137,7 +137,7 @@ Offset | Type | Name
 
 ### `ImageInfo_t::<unnamed_type_JfifHeader>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `char` | Present
 1 | (1) `char` | ResolutionUnits
 2 | (2) `__int16` | XDensity
@@ -146,14 +146,14 @@ Offset | Type | Name
 
 ### `inflate_huft_s`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `union {struct {unsigned __int8 Exop;unsigned __int8 Bits;} what;unsigned int pad;}` | word
 4 | (4) `unsigned int` | base
 
 
 ### `ImGuiResizeGripDef`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ImVec2` | CornerPos
 8 | (8) `ImVec2` | InnerDir
 16 | (4) `int` | AngleMin12
@@ -162,14 +162,14 @@ Offset | Type | Name
 
 ### `ImVec2`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float` | x
 4 | (4) `float` | y
 
 
 ### `ImGuiStyleVarInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | Type
 4 | (4) `unsigned int` | Count
 8 | (4) `unsigned int` | Offset
@@ -177,7 +177,7 @@ Offset | Type | Name
 
 ### `ImGuiDataTypeInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `unsigned __int64` | Size
 8 | (8) `const char *` | PrintFmt
 16 | (8) `const char *` | ScanFmt
@@ -185,13 +185,13 @@ Offset | Type | Name
 
 ### `ItemStateVariant<enum NewLeafType>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (96) `ItemState` | baseclass_0
 
 
 ### `ItemState`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ItemState_vtbl *` | __vftable
 8 | (8) `const unsigned __int64` | mID
 16 | (8) `const unsigned __int64` | mVariationCount
@@ -201,7 +201,7 @@ Offset | Type | Name
 
 ### `ItemState::StateListNode`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ItemState::StateListNode *` | mNext
 8 | (8) `ItemState::StateListNode *` | mPrev
 16 | (8) `ItemState *` | mState
@@ -209,37 +209,37 @@ Offset | Type | Name
 
 ### `ItemStateVariant<bool>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (96) `ItemState` | baseclass_0
 
 
 ### `ItemStateVariant<int>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (96) `ItemState` | baseclass_0
 
 
 ### `ItemStateVariant<enum AttachmentType>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (96) `ItemState` | baseclass_0
 
 
 ### `ItemStateVariant<enum SeaGrassType>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (96) `ItemState` | baseclass_0
 
 
 ### `ItemStateVariant<enum MonsterEggStoneType>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (96) `ItemState` | baseclass_0
 
 
 ### `IntOption`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (488) `Option` | baseclass_0
 488 | (4) `const int` | VALUE_MAX
 492 | (4) `const int` | VALUE_MIN
@@ -252,49 +252,49 @@ Offset | Type | Name
 
 ### `ItemStateVariant<enum BlockColor>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (96) `ItemState` | baseclass_0
 
 
 ### `ItemStateVariant<enum LeverDirection>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (96) `ItemState` | baseclass_0
 
 
 ### `ItemStateVariant<enum WoodType>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (96) `ItemState` | baseclass_0
 
 
 ### `ItemStateVariant<enum OldLeafType>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (96) `ItemState` | baseclass_0
 
 
 ### `ItemStateVariant<enum PillarAxis>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (96) `ItemState` | baseclass_0
 
 
 ### `ItemStateVariant<enum StoneBrickType>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (96) `ItemState` | baseclass_0
 
 
 ### `ItemStateVariant<enum AnvilDamage>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (96) `ItemState` | baseclass_0
 
 
 ### `Item::Tier`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `const int` | mLevel
 4 | (4) `const int` | mUses
 8 | (4) `const float` | mSpeed
@@ -304,52 +304,52 @@ Offset | Type | Name
 
 ### `IGameControllerManager`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IGameControllerManager_vtbl *` | __vftable
 
 
 ### `ItemDescriptorCount`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (80) `ItemDescriptor` | baseclass_0
 80 | (2) `unsigned __int16` | mStackSize
 
 
 ### `ItemStateVariant<enum TorchFacing>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (96) `ItemState` | baseclass_0
 
 
 ### `ItemStateVariant<enum StructureVoidType>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (96) `ItemState` | baseclass_0
 
 
 ### `ItemStateVariant<enum StoneType>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (96) `ItemState` | baseclass_0
 
 
 ### `IsotropicFaceData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | mFaceTextureIsotropic
 4 | (4) `unsigned int` | mIsotropicFaceEnabled
 
 
 ### `ItemStack`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (240) `ItemStackBase` | baseclass_0
 240 | (8) `ItemStackNetIdVariant` | mNetIdVariant
 
 
 ### `ItemStackBase`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ItemStackBase_vtbl *` | __vftable
 8 | (8) `WeakPtr<Item>` | mItem
 16 | (8) `std::unique_ptr<CompoundTag>` | mUserData
@@ -372,127 +372,127 @@ Offset | Type | Name
 
 ### `ItemStackNetIdVariant`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::variant<TypedServerNetId<ItemStackNetIdTag,int,0>,TypedClientNetId<ItemStackRequestIdTag,int,0>,TypedClientNetId<ItemStackLegacyRequestIdTag,int,0> >` | mVariant
 
 
 ### `ItemStateVariant<enum SandType>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (96) `ItemState` | baseclass_0
 
 
 ### `ItemStateVariant<enum EggCount>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (96) `ItemState` | baseclass_0
 
 
 ### `ItemStateVariant<enum WallConnectionType>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (96) `ItemState` | baseclass_0
 
 
 ### `ItemStateVariant<enum NewLogType>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (96) `ItemState` | baseclass_0
 
 
 ### `ItemStateVariant<enum StoneSlabType2>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (96) `ItemState` | baseclass_0
 
 
 ### `ItemStateVariant<enum StoneSlabType3>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (96) `ItemState` | baseclass_0
 
 
 ### `ItemStateVariant<enum StoneSlabType4>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (96) `ItemState` | baseclass_0
 
 
 ### `ItemStateVariant<enum StoneSlabType>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (96) `ItemState` | baseclass_0
 
 
 ### `ItemStateVariant<enum SandStoneType>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (96) `ItemState` | baseclass_0
 
 
 ### `ItemStateVariant<enum CauldronLiquidType>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (96) `ItemState` | baseclass_0
 
 
 ### `InternalTaskGroup`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ITaskGroup` | baseclass_0
 
 
 ### `ITaskGroup`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ITaskGroup_vtbl *` | __vftable
 
 
 ### `ItemStateVariant<enum SaplingType>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (96) `ItemState` | baseclass_0
 
 
 ### `ItemStateVariant<enum PrismarineBlockType>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (96) `ItemState` | baseclass_0
 
 
 ### `ItemStateVariant<enum OldLogType>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (96) `ItemState` | baseclass_0
 
 
 ### `ItemInstance`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (240) `ItemStackBase` | baseclass_0
 
 
 ### `ItemStateVariant<enum SpongeType>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (96) `ItemState` | baseclass_0
 
 
 ### `ItemStateVariant<enum LeafSize>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (96) `ItemState` | baseclass_0
 
 
 ### `ItemStateVariant<enum CoralColor>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (96) `ItemState` | baseclass_0
 
 
 ### `IdentityDefinition`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `ScoreboardId` | mScoreboardId
 16 | (1) `bool` | mIsHiddenFakePlayer
 24 | (8) `PlayerScoreboardId` | mPlayerId
@@ -503,87 +503,87 @@ Offset | Type | Name
 
 ### `IntRange`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | rangeMin
 4 | (4) `int` | rangeMax
 
 
 ### `ItemStateVariant<enum DoublePlantType>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (96) `ItemState` | baseclass_0
 
 
 ### `ItemStateVariant<enum HatchLevel>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (96) `ItemState` | baseclass_0
 
 
 ### `ItemStateVariant<enum FlowerType>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (96) `ItemState` | baseclass_0
 
 
 ### `ItemStateVariant<enum TallGrassType>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (96) `ItemState` | baseclass_0
 
 
 ### `ItemStateVariant<enum StalkThickness>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (96) `ItemState` | baseclass_0
 
 
 ### `ItemStateVariant<enum DirtType>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (96) `ItemState` | baseclass_0
 
 
 ### `ItemStateVariant<enum StructureBlockType>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (96) `ItemState` | baseclass_0
 
 
 ### `ItemStateVariant<enum ChemistryTableType>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (96) `ItemState` | baseclass_0
 
 
 ### `ItemStateVariant<enum ChiselType>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (96) `ItemState` | baseclass_0
 
 
 ### `ItemStateVariant<enum WallBlockType>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (96) `ItemState` | baseclass_0
 
 
 ### `ItemStateVariant<enum PortalAxis>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (96) `ItemState` | baseclass_0
 
 
 ### `IPtoStateMap`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `` | pc
 4 | (4) `` | state
 
 
 ### `ItemUseInventoryTransaction`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (104) `ComplexInventoryTransaction` | baseclass_0
 104 | (4) `ItemUseInventoryTransaction::ActionType` | mActionType
 108 | (12) `NetworkBlockPosition` | mPos
@@ -597,20 +597,20 @@ Offset | Type | Name
 
 ### `InventoryTransaction`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::unordered_map<InventorySource,std::vector<InventoryAction>>` | mActions
 64 | (24) `std::vector<InventoryTransactionItemGroup>` | mContents
 
 
 ### `ITextObject`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ITextObject_vtbl *` | __vftable
 
 
 ### `ImportLevelData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `Core::PathBuffer<std::string >` | mLevelPath
 32 | (1) `bool` | mLoadLevel
 33 | (1) `bool` | mFromTempFile
@@ -619,13 +619,13 @@ Offset | Type | Name
 
 ### `IResourceLocationExpander`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IResourceLocationExpander_vtbl *` | __vftable
 
 
 ### `InputComponent::ScreenButtonMapping`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | fromButtonId
 4 | (4) `unsigned int` | toButtonId
 8 | (4) `ButtonMappingType` | type
@@ -641,13 +641,13 @@ Offset | Type | Name
 
 ### `InputModeChangeScreenEventData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `InputMode` | mode
 
 
 ### `InputComponent::PressStats`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | pressCount
 8 | (8) `std::chrono::time_point<std::chrono::steady_clock,std::chrono::duration<__int64,std::ratio<1,1000000000> > >` | lastPressTime
 16 | (8) `glm::tvec2<float,0>` | position
@@ -655,7 +655,7 @@ Offset | Type | Name
 
 ### `IntRectangle`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | x
 4 | (4) `int` | y
 8 | (4) `int` | w
@@ -664,7 +664,7 @@ Offset | Type | Name
 
 ### `ImageInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `glm::tvec2<float,0>` | mPosition
 8 | (8) `glm::tvec2<float,0>` | mSize
 16 | (8) `glm::tvec2<float,0>` | mUV
@@ -673,26 +673,26 @@ Offset | Type | Name
 
 ### `IDlcBatcher`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IDlcBatcher_vtbl *` | __vftable
 
 
 ### `ItemGroup`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (240) `ItemInstance` | mItemTemplate
 240 | (4) `int` | mCount
 
 
 ### `IScreenController`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IScreenController_vtbl *` | __vftable
 
 
 ### `InviteScreenController::LinkedUserEntryData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const Social::XboxLiveUserProfileData *` | mXboxUserProfileData
 8 | (152) `Social::PlatformUserProfileData` | mPlatformUserProfileData
 160 | (1) `bool` | mToggleState
@@ -700,24 +700,24 @@ Offset | Type | Name
 
 ### `IEntityComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `IScreenCapabilities`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IScreenCapabilities_vtbl *` | __vftable
 
 
 ### `IDlcBatchModel`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IDlcBatchModel_vtbl *` | __vftable
 
 
 ### `ItemListInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | mTitle
 32 | (64) `std::function<bool __cdecl(StoreCatalogItem const &)>` | mFilterFunction
 96 | (1) `bool` | mAllowSeeMoreBy
@@ -731,13 +731,13 @@ Offset | Type | Name
 
 ### `InputRenderContext`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `InputRenderContext_vtbl *` | __vftable
 
 
 ### `InventoryAction`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (12) `InventorySource` | mSource
 12 | (4) `unsigned int` | mSlot
 16 | (248) `ItemStack` | mFromItem
@@ -746,7 +746,7 @@ Offset | Type | Name
 
 ### `InventorySource`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `InventorySourceType` | mType
 4 | (1) `ContainerID` | mContainerId
 8 | (4) `InventorySource::InventorySourceFlags` | mFlags
@@ -754,13 +754,13 @@ Offset | Type | Name
 
 ### `IDataInput`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IDataInput_vtbl *` | __vftable
 
 
 ### `InventoryTransactionPacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `Packet` | baseclass_0
 40 | (4) `TypedClientNetId<ItemStackLegacyRequestIdTag,int,0>` | mLegacyRequestId
 48 | (24) `std::vector<std::pair<enum ContainerEnumName,std::vector<unsigned char> >>` | mLegacySetItemSlots
@@ -770,7 +770,7 @@ Offset | Type | Name
 
 ### `Item`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Item_vtbl *` | __vftable
 8 | (32) `std::string` | m_textureAtlasFile
 40 | (4) `int` | m_frameCount
@@ -821,14 +821,14 @@ Offset | Type | Name
 
 ### `ItemGraphics`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `DataDrivenRenderer *` | mDataDrivenRenderer
 8 | (72) `mce::TexturePtr` | mAtlasTexture
 
 
 ### `ItemInHandRenderer::FrameId`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | itemInstanceId
 4 | (4) `unsigned int` | chargedItemInstanceId
 8 | (1) `unsigned __int8` | entityId
@@ -837,7 +837,7 @@ Offset | Type | Name
 
 ### `ItemRenderCall`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mItemId
 8 | (432) `mce::Mesh` | mChunk
 440 | (4) `float` | mScale
@@ -852,13 +852,13 @@ Offset | Type | Name
 
 ### `ImageBufferResourceManager`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `cg::ResourceManager<std::shared_ptr<cg::ImageBuffer>,ResourceLocation,SharedImageBufferTracker,std::shared_ptr<cg::ImageBuffer>,std::map>` | baseclass_0
 
 
 ### `IdentifierResult`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | mValid
 8 | (32) `std::string` | mIdentifier
 40 | (32) `std::string` | mNamespace
@@ -866,14 +866,14 @@ Offset | Type | Name
 
 ### `InstalledPackDetails`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (136) `PackIdVersion` | mPackIdVersion
 136 | (4) `PackAccessStrategyType` | mAccessStrategyType
 
 
 ### `InsideBlockEventMap`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (320) `DefinitionTrigger` | mOnEnteredBlock
 320 | (320) `DefinitionTrigger` | mOnExitedBlock
 640 | (8) `gsl::not_null<Block const *>` | mBlock
@@ -886,26 +886,26 @@ Offset | Type | Name
 
 ### `InstantDespawnSystem::tick::__l2::<lambda_37d2f5ae49873a2bea62aea3559c4579>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `InstantDespawnSystem *const` | __this
 
 
 ### `ItemEnchants`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mSlot
 8 | (72) `std::vector<EnchantmentInstance>[3]` | mItemEnchants
 
 
 ### `IDataOutput`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IDataOutput_vtbl *` | __vftable
 
 
 ### `ItemStackRequestSlotInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `ContainerEnumName` | mOpenContainerNetId
 1 | (1) `unsigned __int8` | mSlot
 4 | (8) `ItemStackNetIdVariant` | mNetIdVariant
@@ -913,7 +913,7 @@ Offset | Type | Name
 
 ### `ItemStackRequestHandlerSlotInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `const ContainerEnumName` | mOpenContainerNetId
 1 | (1) `const unsigned __int8` | mRequestSlot
 2 | (1) `const unsigned __int8` | mSlot
@@ -924,21 +924,21 @@ Offset | Type | Name
 
 ### `ItemRegistry::ItemNameAuxAlias`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (48) `HashedString` | name
 48 | (4) `int` | aux
 
 
 ### `ItemDefinition`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | itemId
 4 | (4) `int` | auxValue
 
 
 ### `I18n::loadLanguages::__l2::<lambda_abe00045961746f1142d5d1f076a1207>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<std::unique_ptr<Localization> >` | fallbackLanguage
 16 | (32) `const std::string` | currentLanguageCode
 48 | (32) `const std::string` | initLang
@@ -947,34 +947,34 @@ Offset | Type | Name
 
 ### `IntTag`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Tag` | baseclass_0
 8 | (4) `int` | data
 
 
 ### `Int64Tag`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Tag` | baseclass_0
 8 | (8) `__int64` | data
 
 
 ### `IntArrayTag`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Tag` | baseclass_0
 8 | (24) `TagMemoryChunk` | data
 
 
 ### `ItemPack`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::unordered_map<ItemDescriptor,int,ItemPack::KeyHasher,std::equal_to<ItemDescriptor>,std::allocator<std::pair<ItemDescriptor const ,int> > >` | mIngredients
 
 
 ### `ItemStackResponseSlotInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `unsigned __int8` | mRequestedSlot
 1 | (1) `unsigned __int8` | mSlot
 2 | (1) `unsigned __int8` | mAmount
@@ -985,14 +985,14 @@ Offset | Type | Name
 
 ### `ItemStackResponseContainerInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `ContainerEnumName` | mOpenContainerNetId
 8 | (24) `std::vector<ItemStackResponseSlotInfo>` | mSlots
 
 
 ### `ItemStackResponseInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `_BYTE[1]` | mResult
 4 | (4) `TypedClientNetId<ItemStackRequestIdTag,int,0>` | mClientRequestId
 8 | (24) `std::vector<ItemStackResponseContainerInfo>` | mContainers
@@ -1000,7 +1000,7 @@ Offset | Type | Name
 
 ### `ItemEnchantOption`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mCost
 8 | (80) `ItemEnchants` | mEnchants
 88 | (32) `std::string` | mEnchantName
@@ -1009,7 +1009,7 @@ Offset | Type | Name
 
 ### `ItemData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (48) `HashedString` | mName
 48 | (2) `__int16` | mId
 50 | (1) `bool` | mIsComponentBased
@@ -1017,7 +1017,7 @@ Offset | Type | Name
 
 ### `InventoryContentPacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `Packet` | baseclass_0
 40 | (1) `ContainerID` | mInventoryId
 48 | (24) `std::vector<ItemStack>` | mSlots
@@ -1025,53 +1025,53 @@ Offset | Type | Name
 
 ### `InvertableFilter<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | value
 32 | (1) `bool` | inverted
 
 
 ### `IDType<BiomeTagIDType>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::optional<unsigned __int64>` | mID
 
 
 ### `InteractDefinition`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<Interaction>` | mInteractions
 
 
 ### `IdentifierDescription`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `DefintionDescription` | baseclass_0
 8 | (32) `std::string` | mId
 
 
 ### `IsSpawnableDescription`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `DefintionDescription` | baseclass_0
 8 | (1) `bool` | mIsSpawnable
 
 
 ### `IsSummonableDescription`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `DefintionDescription` | baseclass_0
 8 | (1) `bool` | mIsSummonable
 
 
 ### `IDType<LevelTagSetIDType>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::optional<unsigned __int64>` | mID
 
 
 ### `ItemTransferAmount`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `const ItemTransferAmount::ItemTransferAmountTag` | mTag
 4 | (4) `ItemTransferAmount::<unnamed_type_mData>` | mData
 8 | (1) `const bool` | mFromMax
@@ -1079,7 +1079,7 @@ Offset | Type | Name
 
 ### `ItemTransferAmount::<unnamed_type_mData>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | requestAmount
 1 | (4) `ItemTakeType` | takeType
 2 | (4) `ItemPlaceType` | placeType
@@ -1087,14 +1087,14 @@ Offset | Type | Name
 
 ### `ItemStackRequestScope`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ItemStackNetManagerClient *` | mItemStackNetManagerClient
 8 | (1) `bool` | mBeganRequest
 
 
 ### `ItemTransferRequest::Entry`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `SlotData` | mSlot
 40 | (4) `int` | mAmount
 44 | (4) `int` | mGroup
@@ -1102,41 +1102,41 @@ Offset | Type | Name
 
 ### `ItemTransferRequest`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<ItemTransferRequest::Entry>` | mInputs
 24 | (24) `std::vector<ItemTransferRequest::Entry>` | mOutputs
 
 
 ### `InstantaneousAttributeBuff`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (88) `AttributeBuff` | baseclass_0
 
 
 ### `ItemStackNetManagerClient::OpenSessionContainerData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `ContainerWeakRef` | mContainerWeakRef
 32 | (8) `ItemStackNetManagerClient::PredictiveContainer *` | mContainer
 
 
 ### `ItemStackNetManagerServer::_filterStrings::__l5::<lambda_9080a9d62b25eaa509aea3c18be8aedf>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ItemStackNetManagerServer *const` | __this
 8 | (4) `TypedClientNetId<ItemStackRequestIdTag,int,0>` | requestId
 
 
 ### `ItemStackRequestActionHandler::RequestSlotIdAssignment`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `unsigned __int8` | mSlot
 4 | (4) `TypedServerNetId<ItemStackNetIdTag,int,0>` | mServerNetId
 
 
 ### `ItemStackRequestActionHandler::ScreenData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::unique_ptr<ItemStackRequestActionCraftHandler>` | mCraftRequestHandler
 8 | (8) `std::unique_ptr<ScreenHandlerBase>` | mScreenHandler
 16 | (64) `std::unordered_map<enum ContainerEnumName,ContainerWeakRef>` | mAllowedContainers
@@ -1147,7 +1147,7 @@ Offset | Type | Name
 
 ### `ItemStackNetManagerClient::ClientScreenData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::unordered_map<enum ContainerEnumName,std::unordered_set<unsigned char>>` | mLegacyTransactionSetItemSlots
 64 | (64) `std::unordered_map<TypedClientNetId<ItemStackRequestIdTag,int,0>,std::vector<ItemStackNetManagerClient::PredictiveContainer *>,std::hash<TypedClientNetId<ItemStackRequestIdTag,int,0> >,std::equal_to<TypedClientNetId<ItemStackRequestIdTag,int,0> >,std::allocator<std::pair<TypedClientNetId<ItemStackRequestIdTag,int,0> const ,std::vector<ItemStackNetManagerClient::PredictiveContainer *> > > >` | mRequestContainers
 128 | (24) `std::vector<std::unique_ptr<ClientScratchContainer>>` | mClientScratchContainers
@@ -1159,7 +1159,7 @@ Offset | Type | Name
 
 ### `InventoryTransactionItemGroup`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mItemId
 4 | (4) `int` | mItemAux
 8 | (8) `std::unique_ptr<CompoundTag>` | mTag
@@ -1169,7 +1169,7 @@ Offset | Type | Name
 
 ### `ItemStack::useOn::__l16::<lambda_6a3c3d4fb57887618af65296ee1fb1f2>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Actor *` | entity
 8 | (8) `int *` | x
 16 | (8) `int *` | y
@@ -1183,7 +1183,7 @@ Offset | Type | Name
 
 ### `ItemStack::useOn::__l21::<lambda_5d28655329f938e0f82be3c45b1d0a60>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Actor *` | entity
 8 | (8) `int *` | x
 16 | (8) `int *` | y
@@ -1197,39 +1197,39 @@ Offset | Type | Name
 
 ### `IdPair`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `__int16` | id
 2 | (2) `__int16` | aux
 
 
 ### `IDType<BiomeTagSetIDType>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::optional<unsigned __int64>` | mID
 
 
 ### `IBlockWorldGenAPI`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IBlockWorldGenAPI_vtbl *` | __vftable
 
 
 ### `IFeature`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IFeature_vtbl *` | __vftable
 
 
 ### `InheritanceTree<BiomeRegistry::BiomeParent>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::unordered_map<std::string,InheritanceTree<BiomeRegistry::BiomeParent>::InheritanceTreeNode,std::hash<std::string >,std::equal_to<std::string >,std::allocator<std::pair<std::string const ,InheritanceTree<BiomeRegistry::BiomeParent>::InheritanceTreeNode> > >` | mNodes
 64 | (80) `std::recursive_mutex` | mNodeLock
 
 
 ### `InterpolableFrame<Urho3D::Color>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `InterpolableFrame<Urho3D::Color>_vtbl *` | __vftable
 8 | (16) `Urho3D::Color` | data_
 24 | (4) `float` | time_
@@ -1237,7 +1237,7 @@ Offset | Type | Name
 
 ### `InterpolableFrame<Urho3D::Vector3>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `InterpolableFrame<Urho3D::Vector3>_vtbl *` | __vftable
 8 | (12) `Urho3D::Vector3` | data_
 20 | (4) `float` | time_
@@ -1245,7 +1245,7 @@ Offset | Type | Name
 
 ### `InterpolableFrame<float>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `InterpolableFrame<float>_vtbl *` | __vftable
 8 | (4) `float` | data_
 12 | (4) `float` | time_
@@ -1253,47 +1253,47 @@ Offset | Type | Name
 
 ### `ITreeFeature::_buildSchema::__l2::<lambda_b3e451b66acf3c67623d6e418c105026>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ITreeFeature::_buildSchema::__l2::<lambda_f7da1aa707a8fc7d050610011f7047ed>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ITreeFeature::_buildSchema::__l2::<lambda_7ea8a8392f84ab44c08707303a7bea89>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `IndexSet`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<unsigned __int64>` | mPacked
 24 | (24) `std::vector<unsigned __int64>` | mSparse
 
 
 ### `ICameraItemComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ICameraItemComponent_vtbl *` | __vftable
 
 
 ### `IDxcBlob`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IUnknown` | baseclass_0
 
 
 ### `IUnknown`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IUnknown_vtbl *` | __vftable
 
 
 ### `InputEvent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `InputEventType` | type
 1 | (1) `FocusImpact` | focusImpact
 4 | (16) `InputEventData` | data
@@ -1304,7 +1304,7 @@ Offset | Type | Name
 
 ### `InputEventData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (12) `ButtonEventData` | button
 1 | (12) `PointerLocationEventData` | pointerLocation
 2 | (6) `TextCharEventData` | textChar
@@ -1320,7 +1320,7 @@ Offset | Type | Name
 
 ### `InputHandler::InputHandlerState`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `InputMode` | mCurrentInputMode
 4 | (4) `InputBindingMode` | mCurrentBindingMode
 8 | (24) `std::vector<std::string>` | mInputMappingStack
@@ -1331,13 +1331,13 @@ Offset | Type | Name
 
 ### `InputEventQueue`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `std::queue<InputEvent>` | mQueue
 
 
 ### `IUP_WorkerRec_`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `FT_Vector_ *` | orgs
 8 | (8) `FT_Vector_ *` | curs
 16 | (8) `FT_Vector_ *` | orus
@@ -1346,7 +1346,7 @@ Offset | Type | Name
 
 ### `InternalFormatSpec`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `char` | fill_char
 1 | (1) `char` | align
 4 | (4) `int` | alternate

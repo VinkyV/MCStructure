@@ -1,24 +1,24 @@
 # W
 ### `WorldInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `_BYTE[4]` | mWorldType
 4 | (4) `WorldInfo::Status` | mStatus
 
 
 ### `WorldSettingsScreenController::_createWorld::__l17::<lambda_30eacbc3767aa70fa725f906225512f7>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `WorldSeedCatalogModel::_filterWorldSeedModels::__l2::<lambda_1f94c8840b7eed1643578473f67d7bf3>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `WeatherRenderObject::WeatherParameters`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float` | fSpeed
 4 | (4) `float` | fLength
 8 | (4) `float` | fWidth
@@ -32,13 +32,13 @@ Offset | Type | Name
 
 ### `WeakPtr<Item>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<Item> *` | pc
 
 
 ### `WorkerConfiguration`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `ThreadConfiguration` | baseclass_0
 32 | (4) `unsigned int` | NumWorkers
 36 | (1) `bool` | SuppressProfiling
@@ -46,13 +46,13 @@ Offset | Type | Name
 
 ### `WeakPtr<BlockLegacy>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<BlockLegacy> *` | pc
 
 
 ### `wrapperbase`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `char *` | name
 8 | (4) `int` | offset
 16 | (8) `void *` | function
@@ -64,38 +64,38 @@ Offset | Type | Name
 
 ### `WideByteMask`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `unsigned __int16` | mask
 
 
 ### `WeakRefT<EntityRefTraits>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `WeakStorageEntity` | baseclass_0
 
 
 ### `WeakStorageEntity`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `WeakRefT<EntityRegistryRefTraits>` | mRegistry
 16 | (4) `EntityId` | mEntity
 
 
 ### `WeakRefT<EntityRegistryRefTraits>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `WeakStorageSharePtr<EntityRegistry>` | baseclass_0
 
 
 ### `WeakStorageSharePtr<EntityRegistry>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<EntityRegistry>` | mHandle
 
 
 ### `WorldTemplateLevelData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `ContentIdentity` | mPremiumTemplateContentIdentity
 24 | (136) `PackIdVersion` | mWorldTemplateIdentity
 160 | (112) `BaseGameVersion` | mBaseGameVersion
@@ -105,7 +105,7 @@ Offset | Type | Name
 
 ### `WorldTemplateInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | mName
 32 | (32) `std::string` | mDescription
 64 | (32) `std::string` | mAuthors
@@ -120,55 +120,55 @@ Offset | Type | Name
 
 ### `WorldConversionErrorReportScreenController::_registerReportReasonDropdown::__l2::<lambda_ae66c086c4017b718f91abcd596e1644>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `const std::string` | dropdownName
 32 | (8) `WorldConversionErrorReportScreenController *const` | __this
 
 
 ### `WorldSettingsScreenController::_registerControllerCallbacks::__l5::<lambda_4619b5e0188b36fe9f50cb3bc06c281f>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `WorldSettingsScreenController *const` | __this
 
 
 ### `WorldSettingsScreenController::_registerControllerCallbacks::__l2::<lambda_1a9419c082bd732c9cdabe3db6e7c7d2>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `WorldSettingsScreenController *const` | __this
 
 
 ### `WorldSettingsScreenController::_registerControllerCallbacks::__l2::<lambda_4a4111f343976fe3e70a853f8071ff93>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `WorldSettingsScreenController *const` | __this
 
 
 ### `WorldSettingsScreenController::_registerControllerCallbacks::__l2::<lambda_8fa18923b3c9b0352921c8507355935e>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `WorldSettingsScreenController *const` | __this
 
 
 ### `WorldSettingsScreenController::_registerControllerCallbacks::__l2::<lambda_df222c82b64efe052d4401ead3d855ac>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `WorldSettingsScreenController *const` | __this
 
 
 ### `WorldSettingsScreenController::_registerControllerCallbacks::__l2::<lambda_d27709ce8af69f27a742eebd131ebde2>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `WorldSettingsScreenController::_registerControllerCallbacks::__l2::<lambda_2a0d82b796cc03ef7e9ca7fff726c49b>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `WorldSettingsScreenController *const` | __this
 
 
 ### `WorldSettingsScreenController::_createWorld::__l50::<lambda_5b075de6973c3dbfbf70cd98c8dfe1e4>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<WorldSettingsScreenController>` | weakThis
 16 | (3360) `LevelSettings` | levelSettings
 3376 | (32) `const std::string` | levelId
@@ -176,7 +176,7 @@ Offset | Type | Name
 
 ### `WorldSettingsScreenController::_createWorld::__l50::<lambda_e7b026eda446f274701718f9837342db>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<WorldSettingsScreenController>` | weakThis
 16 | (3360) `LevelSettings` | levelSettings
 3376 | (32) `const std::string` | levelId
@@ -184,7 +184,7 @@ Offset | Type | Name
 
 ### `WorldSettingsScreenController::_createWorld::__l50::<lambda_5b075de6973c3dbfbf70cd98c8dfe1e4>::()::__l5::<lambda_e3bbb1bb2655f0c3f80e9f1248f13d11>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<WorldSettingsScreenController>` | weakThis
 16 | (3360) `LevelSettings` | levelSettings
 3376 | (32) `const std::string` | levelId
@@ -192,14 +192,14 @@ Offset | Type | Name
 
 ### `WorldSettingsScreenController::_createWorld::__l50::<lambda_5b075de6973c3dbfbf70cd98c8dfe1e4>::()::__l5::<lambda_e3bbb1bb2655f0c3f80e9f1248f13d11>::()::__l8::<lambda_448fe23cf5d2eb28baea85c687e5b921>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<WorldSettingsScreenController>` | weakThis
 16 | (32) `const std::string` | levelId
 
 
 ### `WorldSettingsScreenController::_deleteWorld::__l5::<lambda_bc4423b008cb0436831c7091689d60da>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<WorldSettingsScreenController>` | weakThis
 16 | (16) `std::weak_ptr<MainMenuScreenModel>` | weakModel
 32 | (32) `std::string` | levelId
@@ -207,7 +207,7 @@ Offset | Type | Name
 
 ### `WorldTemplatesScreenController::_createWorldTemplate::__l5::<lambda_a351f87cfd4833c37d179f3469c13f63>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `WorldTemplatesScreenController *const` | __this
 8 | (8) `const WorldTemplateInfo *` | level
 16 | (64) `std::function<void __cdecl(bool)>` | successCallback
@@ -215,13 +215,13 @@ Offset | Type | Name
 
 ### `WorldTemplatesScreenController::_createWorldTemplate::__l5::<lambda_a351f87cfd4833c37d179f3469c13f63>::()::__l5::<lambda_4dfc45f582529d3ed727b3945c94bf27>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::function<void __cdecl(bool)>` | successCallback
 
 
 ### `WorldTemplatesScreenController::_createWorldTemplate::__l5::<lambda_a351f87cfd4833c37d179f3469c13f63>::()::__l5::<lambda_af9feea12623906003f5ce55a09ccef2>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `WorldTemplatesScreenController *const` | __this
 8 | (8) `const WorldTemplateInfo *` | level
 16 | (64) `std::function<void __cdecl(bool)>` | successCallback
@@ -229,21 +229,21 @@ Offset | Type | Name
 
 ### `WorldTemplatesScreenController::_registerEventHandlers::__l2::<lambda_edcbed0e3f42203445918c7695c8684b>::()::__l8::<lambda_bc73e247c820d38008e0a4e5693880f1>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<WorldTemplatesScreenController>` | weakThis
 16 | (264) `const WorldTemplateInfo` | level
 
 
 ### `WorldTemplatesScreenController::_registerEventHandlers::__l2::<lambda_c82335fd1d8bab14ec8b416ff3685b1f>::()::__l8::<lambda_21a21ae3b0985dfbe01e5b781fae38d9>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<WorldTemplatesScreenController>` | weakThis
 16 | (264) `const WorldTemplateInfo` | level
 
 
 ### `WorldSeedCatalogModel::fetch::__l2::<lambda_55fb1a16544d2a415662441120666ac9>::()::__l9::<lambda_01c062cbc5d985f30c7ffd330cec1890>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `WorldSeedCatalogModel *const` | __this
 8 | (16) `std::weak_ptr<bool>` | weakTracker
 24 | (32) `std::string` | productId
@@ -251,7 +251,7 @@ Offset | Type | Name
 
 ### `WorldSeedCatalogModel::WorldSeedFilteredLookup`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | contentIndex
 8 | (8) `unsigned __int64` | startStringIndex
 16 | (32) `std::string` | matchedText
@@ -259,7 +259,7 @@ Offset | Type | Name
 
 ### `WebToken`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | mHeader
 32 | (16) `Json::Value` | mHeaderInfo
 48 | (32) `std::string` | mData
@@ -269,7 +269,7 @@ Offset | Type | Name
 
 ### `WeatherRenderObject`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<mce::Mesh>` | mParticleMesh
 16 | (72) `mce::TexturePtr` | mWeatherTexture
 88 | (16) `mce::ServerTexture` | mOcclusionTexture
@@ -297,14 +297,14 @@ Offset | Type | Name
 
 ### `WeatherRenderObject::RenderRuntimeSettings`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (72) `WeatherRenderObject::RuntimeValues` | t0
 72 | (72) `WeatherRenderObject::RuntimeValues` | t
 
 
 ### `WeatherRenderObject::RuntimeValues`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float` | m_fSpeedScale
 4 | (4) `float` | m_fWindScale
 8 | (12) `glm::tvec3<float,0>` | m_vWind
@@ -317,19 +317,19 @@ Offset | Type | Name
 
 ### `WeakRefT<SharePtrRefTraits<FogDefinition const > >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `WeakStorageSharePtr<FogDefinition const >` | baseclass_0
 
 
 ### `WeakStorageSharePtr<FogDefinition const >`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<FogDefinition const >` | mHandle
 
 
 ### `WorldFileDownloadManager::downloadArchivedFile::__l2::<lambda_1fd7857a6c54915173786814bb19a325>::()::__l5::<lambda_0afcd04c1373b2f5c9f5f644c8d1b5c7>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<WorldFileDownloadManager>` | weak_this
 16 | (32) `Core::PathBuffer<std::string >` | filePath
 48 | (4) `_BYTE[4]` | result
@@ -337,28 +337,28 @@ Offset | Type | Name
 
 ### `WorldFileDownloadManager::_transformLevel::__l19::<lambda_d7071557326ed3291a542974045ff48b>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::function<void __cdecl(void)>` | callback
 64 | (16) `std::shared_ptr<LevelStorage>` | levelStorage
 
 
 ### `WorldFileDownloadManager::_importLevel::__l13::<lambda_f751d7d2807b10c0b06e3015f280143d>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<WorldFileDownloadManager>` | weak_this
 16 | (32) `Core::PathBuffer<std::string >` | filePath
 
 
 ### `WorldFileUploadManager::_uploadLocalWorldLevel::__l25::<lambda_af1791171d63bd6d3087491c8d97b837>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (72) `WorldFileUploadManager::_uploadLocalWorldLevel::__l2::<lambda_cbed79c6109a3f718359bdd2758b2643>` | archiveLevel
 72 | (16) `std::shared_ptr<LevelStorage>` | levelStorage
 
 
 ### `WorldFileUploadManager::_uploadLocalWorldLevel::__l2::<lambda_cbed79c6109a3f718359bdd2758b2643>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `WorldFileUploadManager *const` | __this
 8 | (32) `const std::string` | worldID
 40 | (32) `const std::string` | uploadId
@@ -366,14 +366,14 @@ Offset | Type | Name
 
 ### `WorldFileUploadManager::_uploadLocalWorldLevel::__l2::<lambda_cbed79c6109a3f718359bdd2758b2643>::()::__l5::<lambda_417fcad9225de40cd3be2c3c42b18e59>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<FileUploadManager>` | weakThis
 16 | (32) `const std::string` | uploadId
 
 
 ### `WorldFileUploadManager::_uploadLocalWorldLevel::__l2::<lambda_cbed79c6109a3f718359bdd2758b2643>::()::__l5::<lambda_417fcad9225de40cd3be2c3c42b18e59>::()::__l8::<lambda_99eb832ba02257e8fca44c2455ddc9b7>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<FileUploadManager>` | weakThis
 16 | (32) `const std::string` | uploadId
 48 | (40) `FileArchiver::Result` | result
@@ -381,7 +381,7 @@ Offset | Type | Name
 
 ### `WINDOWPLACEMENT`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | length
 4 | (4) `unsigned int` | flags
 8 | (4) `unsigned int` | showCmd
@@ -392,37 +392,37 @@ Offset | Type | Name
 
 ### `WeakPtr<ActorPlacerItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<ActorPlacerItem> *` | pc
 
 
 ### `WeakPtr<ComponentItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<ComponentItem> *` | pc
 
 
 ### `WeakPtr<MicroBlockItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<MicroBlockItem> *` | pc
 
 
 ### `WeakPtr<BlockItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<BlockItem> *` | pc
 
 
 ### `WeightedChoices<float>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<WeightedChoice<float>>` | mChoices
 
 
 ### `WorldPackHistory`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (136) `PackIdVersion` | mPackIdVersion
 136 | (32) `std::string` | mUnlocalizedName
 168 | (64) `std::unordered_map<std::string,std::string>` | mLocalizedNames
@@ -433,576 +433,576 @@ Offset | Type | Name
 
 ### `WorldTemplateManager::postDeleteWorldTemplate::__l2::<lambda_0f606a778526b0f1aa838bcfccd6baae>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `WorldTemplateManager *const` | __this
 8 | (136) `const PackIdVersion` | packIdentity
 
 
 ### `WorldGenClimateMappingAttributes`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<WorldGenClimateMappingAttributes::WeightedTemperatureCategory>` | mClimateMappings
 
 
 ### `WeighedRandom::WeighedRandomItem`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mRandomWeight
 
 
 ### `WeakPtr<AirBlockItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<AirBlockItem> *` | pc
 
 
 ### `WeakPtr<ShovelItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<ShovelItem> *` | pc
 
 
 ### `WeakPtr<PickaxeItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<PickaxeItem> *` | pc
 
 
 ### `WeakPtr<HatchetItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<HatchetItem> *` | pc
 
 
 ### `WeakPtr<FlintAndSteelItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<FlintAndSteelItem> *` | pc
 
 
 ### `WeakPtr<BowItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<BowItem> *` | pc
 
 
 ### `WeakPtr<ArrowItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<ArrowItem> *` | pc
 
 
 ### `WeakPtr<CoalItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<CoalItem> *` | pc
 
 
 ### `WeakPtr<WeaponItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<WeaponItem> *` | pc
 
 
 ### `WeakPtr<BlockPlanterItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<BlockPlanterItem> *` | pc
 
 
 ### `WeakPtr<HoeItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<HoeItem> *` | pc
 
 
 ### `WeakPtr<ArmorItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<ArmorItem> *` | pc
 
 
 ### `WeakPtr<ShieldItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<ShieldItem> *` | pc
 
 
 ### `WeakPtr<HangingActorItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<HangingActorItem> *` | pc
 
 
 ### `WeakPtr<SignItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<SignItem> *` | pc
 
 
 ### `WeakPtr<DoorItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<DoorItem> *` | pc
 
 
 ### `WeakPtr<BucketItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<BucketItem> *` | pc
 
 
 ### `WeakPtr<MinecartItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<MinecartItem> *` | pc
 
 
 ### `WeakPtr<RedStoneDustItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<RedStoneDustItem> *` | pc
 
 
 ### `WeakPtr<SnowballItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<SnowballItem> *` | pc
 
 
 ### `WeakPtr<BoatItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<BoatItem> *` | pc
 
 
 ### `WeakPtr<EnchantedBookItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<EnchantedBookItem> *` | pc
 
 
 ### `WeakPtr<EggItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<EggItem> *` | pc
 
 
 ### `WeakPtr<CompassItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<CompassItem> *` | pc
 
 
 ### `WeakPtr<FishingRodItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<FishingRodItem> *` | pc
 
 
 ### `WeakPtr<ClockItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<ClockItem> *` | pc
 
 
 ### `WeakPtr<DyePowderItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<DyePowderItem> *` | pc
 
 
 ### `WeakPtr<BedItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<BedItem> *` | pc
 
 
 ### `WeakPtr<MapItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<MapItem> *` | pc
 
 
 ### `WeakPtr<ShearsItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<ShearsItem> *` | pc
 
 
 ### `WeakPtr<EnderpearlItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<EnderpearlItem> *` | pc
 
 
 ### `WeakPtr<PotionItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<PotionItem> *` | pc
 
 
 ### `WeakPtr<BottleItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<BottleItem> *` | pc
 
 
 ### `WeakPtr<EnderEyeItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<EnderEyeItem> *` | pc
 
 
 ### `WeakPtr<ExperiencePotionItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<ExperiencePotionItem> *` | pc
 
 
 ### `WeakPtr<FireChargeItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<FireChargeItem> *` | pc
 
 
 ### `WeakPtr<WritableBookItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<WritableBookItem> *` | pc
 
 
 ### `WeakPtr<WrittenBookItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<WrittenBookItem> *` | pc
 
 
 ### `WeakPtr<EmptyMapItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<EmptyMapItem> *` | pc
 
 
 ### `WeakPtr<SkullItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<SkullItem> *` | pc
 
 
 ### `WeakPtr<CarrotOnAStickItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<CarrotOnAStickItem> *` | pc
 
 
 ### `WeakPtr<FireworksItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<FireworksItem> *` | pc
 
 
 ### `WeakPtr<FireworkChargeItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<FireworkChargeItem> *` | pc
 
 
 ### `WeakPtr<HorseArmorItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<HorseArmorItem> *` | pc
 
 
 ### `WeakPtr<RecordItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<RecordItem> *` | pc
 
 
 ### `WeakPtr<TridentItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<TridentItem> *` | pc
 
 
 ### `WeakPtr<LeadItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<LeadItem> *` | pc
 
 
 ### `WeakPtr<ArmorStandItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<ArmorStandItem> *` | pc
 
 
 ### `WeakPtr<SplashPotionItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<SplashPotionItem> *` | pc
 
 
 ### `WeakPtr<LingeringPotionItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<LingeringPotionItem> *` | pc
 
 
 ### `WeakPtr<BannerItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<BannerItem> *` | pc
 
 
 ### `WeakPtr<CrossbowItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<CrossbowItem> *` | pc
 
 
 ### `WeakPtr<BannerPatternItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<BannerPatternItem> *` | pc
 
 
 ### `WeakPtr<SuspiciousStewItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<SuspiciousStewItem> *` | pc
 
 
 ### `WeakPtr<CameraItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<CameraItem> *` | pc
 
 
 ### `WeakPtr<CompoundItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<CompoundItem> *` | pc
 
 
 ### `WeakPtr<IceBombItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<IceBombItem> *` | pc
 
 
 ### `WeakPtr<ChemistryItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<ChemistryItem> *` | pc
 
 
 ### `WeakPtr<RapidFertilizerItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<RapidFertilizerItem> *` | pc
 
 
 ### `WeakPtr<BalloonItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<BalloonItem> *` | pc
 
 
 ### `WeakPtr<MedicineItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<MedicineItem> *` | pc
 
 
 ### `WeakPtr<SparklerItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<SparklerItem> *` | pc
 
 
 ### `WeakPtr<GlowStickItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<GlowStickItem> *` | pc
 
 
 ### `WeakPtr<LodestoneCompassItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<LodestoneCompassItem> *` | pc
 
 
 ### `WeakPtr<WarpedFungusOnAStickItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<WarpedFungusOnAStickItem> *` | pc
 
 
 ### `WeakPtr<SlabBlockItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<SlabBlockItem> *` | pc
 
 
 ### `WeakPtr<AuxDataBlockItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<AuxDataBlockItem> *` | pc
 
 
 ### `WeakPtr<ClothBlockItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<ClothBlockItem> *` | pc
 
 
 ### `WeakPtr<StoneSlabBlockItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<StoneSlabBlockItem> *` | pc
 
 
 ### `WeakPtr<CoralFanBlockItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<CoralFanBlockItem> *` | pc
 
 
 ### `WeakPtr<SeaPickleBlockItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<SeaPickleBlockItem> *` | pc
 
 
 ### `WeakPtr<SaplingBlockItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<SaplingBlockItem> *` | pc
 
 
 ### `WeakPtr<LeafBlockItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<LeafBlockItem> *` | pc
 
 
 ### `WeakPtr<WoodSlabBlockItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<WoodSlabBlockItem> *` | pc
 
 
 ### `WeakPtr<WaterLilyBlockItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<WaterLilyBlockItem> *` | pc
 
 
 ### `WeakPtr<TopSnowBlockItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<TopSnowBlockItem> *` | pc
 
 
 ### `WeakPtr<ShulkerBoxBlockItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<ShulkerBoxBlockItem> *` | pc
 
 
 ### `WeakPtr<BambooBlockItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<BambooBlockItem> *` | pc
 
 
 ### `WeakPtr<ScaffoldingBlockItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<ScaffoldingBlockItem> *` | pc
 
 
 ### `WeakPtr<BellBlockItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<BellBlockItem> *` | pc
 
 
 ### `WeakPtr<ChemistryAuxDataBlockItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<ChemistryAuxDataBlockItem> *` | pc
 
 
 ### `WeakPtr<PumpkinBlockItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<PumpkinBlockItem> *` | pc
 
 
 ### `WeakPtr<ElementBlockItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<ElementBlockItem> *` | pc
 
 
 ### `WeakRefT<FeatureRefTraits>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `WeakStorageFeature` | baseclass_0
 
 
 ### `WeakStorageFeature`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::optional<std::reference_wrapper<FeatureRegistry> >` | mRegistry
 16 | (8) `unsigned __int64` | mIndex
 
 
 ### `WireframeQuad`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (48) `std::array<Vec3,4>` | mQuad
 48 | (4) `int` | mColor
 
 
 ### `WorldChangeTransaction`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IBlockWorldGenAPI *` | mTarget
 8 | (8) `std::unique_ptr<WorldChangeTransaction::Data>` | mData
 
 
 ### `WeightedRandomFeature::WeightedFeatureReference`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `WeakRefT<FeatureRefTraits>` | mFeature
 24 | (4) `float` | mWeight
 
 
 ### `WeakPtr<CustomRangedWeaponItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<CustomRangedWeaponItem> *` | pc
 
 
 ### `WeakPtr<CustomProjectileItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<CustomProjectileItem> *` | pc
 
 
 ### `WeightedBiomeAttributes<ShoreTransformation>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<std::pair<Biome *,unsigned int>>` | mBiomes
 
 
 ### `WellKnownBiomeTags`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `WellKnownTagID` | MONSTER_TAG_ID
 24 | (24) `WellKnownTagID` | ANIMAL_TAG_ID
 48 | (24) `WellKnownTagID` | OCEAN_TAG_ID
@@ -1049,20 +1049,20 @@ Offset | Type | Name
 
 ### `WellKnownTagID`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `IDType<BiomeTagIDType>` | mTagID
 16 | (8) `TagRegistry<IDType<BiomeTagIDType>,IDType<BiomeTagSetIDType> > *` | mTagRegistry
 
 
 ### `WeakPtr<EndCrystalItem>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `SharedCounter<EndCrystalItem> *` | pc
 
 
 ### `working_state`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `unsigned __int8 *` | next_output_byte
 8 | (8) `unsigned __int64` | free_in_buffer
 16 | (20) `_BYTE[20]` | cur
@@ -1071,7 +1071,7 @@ Offset | Type | Name
 
 ### `WSAData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2) `unsigned __int16` | wVersion
 2 | (2) `unsigned __int16` | wHighVersion
 4 | (2) `unsigned __int16` | iMaxSockets
@@ -1083,7 +1083,7 @@ Offset | Type | Name
 
 ### `WFILE`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `_iobuf *` | fp
 8 | (4) `int` | error
 12 | (4) `int` | depth
@@ -1096,7 +1096,7 @@ Offset | Type | Name
 
 ### `WeightedBiomeAttributes<RiverTransformation>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<std::pair<Biome *,unsigned int>>` | mBiomes
 
 

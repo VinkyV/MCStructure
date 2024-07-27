@@ -1,7 +1,7 @@
 # P
 ### `PromotionItem`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const StoreCatalogItem *` | mCatalogItem
 8 | (36) `tm` | mDate
 44 | (1) `bool` | mIsWorld
@@ -9,7 +9,7 @@ Offset | Type | Name
 
 ### `ProfilerLite::ScopedData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const char *` | mName
 8 | (4) `_BYTE[4]` | mScope
 12 | (4) `_BYTE[4]` | mBaseScope
@@ -24,7 +24,7 @@ Offset | Type | Name
 
 ### `PingedCompatibleServer`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | name
 32 | (32) `std::string` | worldName
 64 | (4) `GameType` | gameType
@@ -41,42 +41,42 @@ Offset | Type | Name
 
 ### `PackManagerContentSource::repopulateReports::__l2::<lambda_337d7aae86f31fb18650be877a88b9d8>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `PackManagerContentSource::getSortedSelectedContent::__l2::<lambda_652fef03625f9a78b56bfe609d670c34>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `PackManagerContentSource::save::__l6::<lambda_ae6c280b23486c64081274d9f2bdbc9d>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `Pack::findBestPackMatchForPackIdVersion::__l2::<lambda_4d53c0240e5e0df9199466a39d524e5a>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `PlayScreenModel::updateNetworkWorldSorting::__l5::<lambda_1672d07fe5d156b3dc1ebf6bd11eaad8>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `PlayScreenModel::_populateNetworkWorlds::__l2::<lambda_91707d2b3e5424cd8b21495881c74abd>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `PlayScreenModel::_populateNetworkWorlds::__l2::<lambda_b9ddb615a14c453c5a1781ad05d43070>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `PlayerAchievementData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mAchievementsUnlocked
 4 | (4) `int` | mMaxAchievements
 8 | (4) `int` | mTimePlayed
@@ -87,33 +87,33 @@ Offset | Type | Name
 
 ### `personaScreen::PersonaScreenContext`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `personaScreen::NavigateToPersonaFrom` | mNavigatedFrom
 
 
 ### `ParticleSystem::ParticleAppearanceTintingComponent::_parseGradientBlock::__l16::<lambda_fa2dbc4ac937d455d7eeece644aa1252>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ParticleSystem::_extractNodeParseData::__l5::<lambda_72a7caeb89192be025a5a79dbdf13bc2>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ParticleSystem::ParticleMotionCollisionComponent::_processSweepList::__l2::<lambda_7bae63051b9a62f39823770b1b66d941>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `ParticleSystem::ParticleEffect::_sortEffectComponentsForExecutionOrder::__l2::<lambda_05527d0929d9b57df2fc474f5615a770>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `PackIdVersion`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `mce::UUID` | mId
 16 | (112) `SemVersion` | mVersion
 128 | (1) `_BYTE[1]` | mPackType
@@ -121,828 +121,828 @@ Offset | Type | Name
 
 ### `PacketHandlerDispatcherInstance<ActorEventPacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<ActorPickRequestPacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<AddBehaviorTreePacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<AddPaintingPacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<AdventureSettingsPacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<AnimateEntityPacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<AnimatePacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<AnvilDamagePacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<AutomationClientConnectPacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<AvailableActorIdentifiersPacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<AvailableCommandsPacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<BiomeDefinitionListPacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<BlockActorDataPacket,1>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<BlockEventPacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<BlockPickRequestPacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<BookEditPacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<BossEventPacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<CameraPacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<CameraShakePacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<ChangeDimensionPacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<ChangeModelBindPacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<ChangeModelOffsetPacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<ChangeModelPacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<ChangeModelTexturePacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<ChunkRadiusUpdatedPacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<ClientboundMapItemDataPacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<CodeBuilderPacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<CombinePacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<CommandBlockUpdatePacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<CommandOutputPacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<CommandRequestPacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<CompletedUsingItemPacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<ConfirmSkinPacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<ContainerClosePacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<ContainerOpenPacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<ContainerSetDataPacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<CorrectPlayerMovePredictionPacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<CraftingDataPacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<CraftingEventPacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<CreativeContentPacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<CustomPacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<DebugInfoPacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<EducationSettingsPacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<EmoteListPacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<EmotePacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<EventPacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<FilterTextPacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<GameRulesChangedPacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<GuiDataPickItemPacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<HungerAttrPacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<HurtArmorPacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<InteractPacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<InventoryContentPacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<InventorySlotPacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<InventoryTransactionPacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<ItemComponentPacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<ItemFrameDropItemPacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<ItemStackRequestPacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<ItemStackResponsePacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<LabTablePacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<LecternUpdatePacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<LevelChunkPacket,1>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<MapCreateLockedCopyPacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<MapInfoRequestPacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<MobArmorEquipmentPacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<MobEffectPacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<MobEquipmentPacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<ModalFormRequestPacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<ModalFormResponsePacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<MotionPredictionHintsPacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<MultiplayerSettingsPacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<NetworkChunkPublisherUpdatePacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<NetworkSettingsPacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<NetworkStackLatencyPacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<NpcRequestPacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<OnScreenTextureAnimationPacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<PacketViolationWarningPacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<PhotoTransferPacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<PlaySoundPacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<PlayerActionPacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<PlayerArmorDamagePacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<PlayerAuthInputPacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<PlayerEnchantOptionsPacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<PlayerFogPacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<PlayerHotbarPacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<PlayerInputPacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<PlayerListPacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<PlayerSkinPacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<PurchaseReceiptPacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<RemoveObjectivePacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<RequestChunkRadiusPacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<ResourcePackChunkDataPacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<ResourcePackChunkRequestPacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<ResourcePackDataInfoPacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<ResourcePackStackPacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<ScriptCustomEventPacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<ServerSettingsRequestPacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<ServerSettingsResponsePacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<SetActorDataPacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<SetActorLinkPacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<SetActorMotionPacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<SetCommandsEnabledPacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<SetDefaultGameTypePacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<SetDifficultyPacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<SetDisplayObjectivePacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<SetHealthPacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<SetLastHurtByPacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<SetLocalPlayerAsInitializedPacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<SetPlayerGameTypePacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<SetScorePacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<SetScoreboardIdentityPacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<SetSpawnPositionPacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<SetTitlePacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<SettingsCommandPacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<ShowCreditsPacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<ShowProfilePacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<ShowStoreOfferPacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<SimpleEventPacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<SpawnExperienceOrbPacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<StopSoundPacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<StoreBuySuccPacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<StructureBlockUpdatePacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<StructureTemplateDataRequestPacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<StructureTemplateDataResponsePacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<SubClientLoginPacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<TickSyncPacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<TransferPacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<TransportNoCompressPacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<TransportPacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<UpdateAttributesPacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<UpdateEquipPacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<UpdatePlayerGameTypePacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<UpdateSoftEnumPacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<UpdateTradePacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<VConnectionPacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PacketHandlerDispatcherInstance<WithdrawFurnaceXpPacket,0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `IPacketHandlerDispatcher` | baseclass_0
 
 
 ### `PackManifest::CapabilityRegisterer`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `PackManifest::CapabilityRegistry`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `Bedrock::EnableNonOwnerReferences` | baseclass_0
 16 | (64) `std::unordered_map<std::string,std::function<bool __cdecl(PackManifest &,PackReport &,bool)>>` | mTrustedCapabilities
 80 | (64) `std::unordered_map<std::string,std::function<bool __cdecl(PackManifest &,PackReport &,bool)>>` | mCapabilities
@@ -950,23 +950,23 @@ Offset | Type | Name
 
 ### `Pack::findBestPackMatchForPackIdVersion::__l2::<lambda_bd0e0325e88bc51d1e177e0241bc2b0f>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `Pack::findBestPackMatchForPackIdVersion::__l2::<lambda_8031843fcdefed2514241fd882f3d70f>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 
 
 ### `PrecompiledCommandOrigin`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `CommandOrigin` | baseclass_0
 
 
 ### `PerfContextTracker`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (80) `std::mutex` | mInternalLock
 80 | (1) `bool` | mActive
 88 | (32) `std::string` | mActiveContext
@@ -980,7 +980,7 @@ Offset | Type | Name
 
 ### `PerfContextTracker::Timer`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `PerfContextTracker::Duration` | baseclass_0
 16 | (1) `bool` | mRunning
 24 | (8) `std::chrono::time_point<std::chrono::steady_clock,std::chrono::duration<__int64,std::ratio<1,1000000000> > >` | mStart
@@ -988,14 +988,14 @@ Offset | Type | Name
 
 ### `PerfContextTracker::Duration`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::chrono::duration<__int64,std::ratio<1,1000000000> >` | mDuration
 8 | (8) `unsigned __int64` | mCount
 
 
 ### `PerfContextTrackerReport`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | mContext
 32 | (4) `float` | mContextSeconds
 40 | (8) `long double` | mAppUptimeSeconds
@@ -1010,13 +1010,13 @@ Offset | Type | Name
 
 ### `PistonBlockActor::_sortAttachedBlocks::__l2::<lambda_9b8dda18c825c80ce3baffb224a5ea51>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Vec3 *` | pistonDirection
 
 
 ### `PerlinSimplexNoise`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mLevels
 8 | (24) `std::vector<SimplexNoise>` | mNoiseLevels
 32 | (4) `float` | mNormalizationFactor
@@ -1024,7 +1024,7 @@ Offset | Type | Name
 
 ### `PreferredPathDescription`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ComponentDescription` | baseclass_0
 8 | (4) `float` | mDefaultBlockCost
 12 | (4) `float` | mJumpCost
@@ -1034,7 +1034,7 @@ Offset | Type | Name
 
 ### `png_xy`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | redx
 4 | (4) `int` | redy
 8 | (4) `int` | greenx
@@ -1047,14 +1047,14 @@ Offset | Type | Name
 
 ### `PFR_ExtraItemRec_`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | type
 8 | (8) `int (__fastcall *)(unsigned __int8 *, unsigned __int8 *, void *)` | parser
 
 
 ### `PSAux_ServiceRec_`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const PS_Table_FuncsRec_ *` | ps_table_funcs
 8 | (8) `const PS_Parser_FuncsRec_ *` | ps_parser_funcs
 16 | (8) `const T1_Builder_FuncsRec_ *` | t1_builder_funcs
@@ -1070,7 +1070,7 @@ Offset | Type | Name
 
 ### `PSHinter_Interface_`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `PSH_Globals_FuncsRec_ *(__fastcall *)(FT_ModuleRec_ *)` | get_globals_funcs
 8 | (8) `const T1_Hints_FuncsRec_ *(__fastcall *)(FT_ModuleRec_ *)` | get_t1_funcs
 16 | (8) `const T2_Hints_FuncsRec_ *(__fastcall *)(FT_ModuleRec_ *)` | get_t2_funcs
@@ -1078,7 +1078,7 @@ Offset | Type | Name
 
 ### `PS_Parser_FuncsRec_`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `void (__fastcall *)(PS_ParserRec_ *, unsigned __int8 *, unsigned __int8 *, FT_MemoryRec_ *)` | init
 8 | (8) `void (__fastcall *)(PS_ParserRec_ *)` | done
 16 | (8) `void (__fastcall *)(PS_ParserRec_ *)` | skip_spaces
@@ -1096,14 +1096,14 @@ Offset | Type | Name
 
 ### `PropertyBag`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `Json::Value` | mJsonValue
 16 | (4) `int` | mChangeVersion
 
 
 ### `PersonaPieceHandle`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `_BYTE[4]` | mPieceType
 8 | (16) `mce::UUID` | mPackId
 24 | (32) `std::string` | mPieceId
@@ -1116,7 +1116,7 @@ Offset | Type | Name
 
 ### `PersonaPieceHandle::SerializedExcessData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `_BYTE[4]` | mPieceSide
 4 | (64) `TintMapColor` | mTintingData
 68 | (1) `bool` | mUseTintColor
@@ -1124,7 +1124,7 @@ Offset | Type | Name
 
 ### `persona::FreeItemState`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | mIsFreeItem
 1 | (1) `bool` | mIsAchievementItem
 2 | (1) `bool` | mIsRedeemable
@@ -1132,21 +1132,21 @@ Offset | Type | Name
 
 ### `persona::PersonaCharacterHandle`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | mSkinName
 32 | (4) `persona::ProfileType` | mType
 
 
 ### `PS_Builder_FuncsRec_`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `void (__fastcall *)(PS_Builder_ *, void *, unsigned __int8)` | init
 8 | (8) `void (__fastcall *)(PS_Builder_ *)` | done
 
 
 ### `param_encode::EByte`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `param_encode::EValue` | baseclass_0
 40 | (2) `__int16` | id
 48 | (8) `char *` | data0
@@ -1157,7 +1157,7 @@ Offset | Type | Name
 
 ### `param_encode::EValue`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `param_encode::EValue_vtbl *` | __vftable
 8 | (16) `std::shared_ptr<std::mutex>` | m_lock
 24 | (16) `std::shared_ptr<std::vector<char *> >` | m_buffer
@@ -1165,7 +1165,7 @@ Offset | Type | Name
 
 ### `PersonaAppearance`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `PersonaAppearance_vtbl *` | __vftable
 8 | (24) `std::vector<PersonaPieceHandle>` | mPieceVector
 32 | (24) `std::vector<std::string>` | mUnsupportedPieces
@@ -1184,7 +1184,7 @@ Offset | Type | Name
 
 ### `param_encode::EAttributeInstance`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::unique_ptr<float>` | ?
 8 | (8) `std::unique_ptr<float>` | ?
 16 | (8) `std::unique_ptr<float>` | ?
@@ -1195,13 +1195,13 @@ Offset | Type | Name
 
 ### `PlayerScoreboardId`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `__int64` | mActorUniqueId
 
 
 ### `PersonaCharacter`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (112) `SkinHandle` | mCurrentSkinHandle
 112 | (32) `std::string` | mSkinName
 144 | (32) `std::string` | mGeoID
@@ -1232,7 +1232,7 @@ Offset | Type | Name
 
 ### `PersonaPiece`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | mPieceId
 32 | (16) `mce::UUID` | mPieceIdUUID
 48 | (16) `mce::UUID` | mPackId
@@ -1256,7 +1256,7 @@ Offset | Type | Name
 
 ### `PS_Table_FuncsRec_`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `int (__fastcall *)(PS_TableRec_ *, int, FT_MemoryRec_ *)` | init
 8 | (8) `void (__fastcall *)(PS_TableRec_ *)` | done
 16 | (8) `int (__fastcall *)(PS_TableRec_ *, int, const void *, unsigned int)` | add
@@ -1265,7 +1265,7 @@ Offset | Type | Name
 
 ### `PredictedMovementComponent::RuntimePredictionData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `PredictedMovementComponent::RuntimePredictionData_vtbl *` | __vftable
 8 | (4) `unsigned int` | mTotalHistoryItems
 16 | (8) `unsigned __int64` | mLastDataTickInterval
@@ -1281,7 +1281,7 @@ Offset | Type | Name
 
 ### `ProfilerLite`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (128) `std::array<ProfilerLite::ScopedData *,16>` | mCustomScopeDatas
 128 | (88) `ProfilerLite::ScopedData` | mUninitializedScopedData
 216 | (32) `Core::PathBuffer<std::string >` | mLogFileName
@@ -1319,7 +1319,7 @@ Offset | Type | Name
 
 ### `ProfilerLiteTelemetry`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float` | mAvgFps
 4 | (4) `float` | mAvgServerSimTickTimeMS
 8 | (4) `float` | mAvgClientSimTickTimeMS
@@ -1333,7 +1333,7 @@ Offset | Type | Name
 
 ### `ProfilerLite::RealtimeFrameData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | mFrames
 4 | (4) `float` | mFPS
 8 | (4) `float` | mFrameTime
@@ -1343,7 +1343,7 @@ Offset | Type | Name
 
 ### `PageContent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | mText
 32 | (32) `std::string` | mParsedText
 64 | (32) `std::string` | mPhotoName
@@ -1351,13 +1351,13 @@ Offset | Type | Name
 
 ### `PositionTrackingId`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | mRawId
 
 
 ### `PlayerMovementSettings`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `ServerAuthMovementMode` | AuthorityMode
 1 | (1) `bool` | CorrectionEnabled
 4 | (4) `float` | ScoreThreshold
@@ -1372,7 +1372,7 @@ Offset | Type | Name
 
 ### `PlayerTickConfig`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `PlayerTickConfig::TickPolicy` | mPolicy
 1 | (1) `unsigned __int8` | mMaxBatchedTicks
 8 | (8) `unsigned __int64` | mMaxTickCredits
@@ -1380,7 +1380,7 @@ Offset | Type | Name
 
 ### `persona::PersonaSubCategory`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | mTitle
 32 | (32) `std::string` | mDescription
 64 | (32) `std::string` | mImagePath
@@ -1394,7 +1394,7 @@ Offset | Type | Name
 
 ### `persona::CategoryCollectorInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | mHeader
 32 | (216) `persona::PersonaStoreItemCollector` | mCollector
 248 | (64) `std::unordered_map<mce::UUID,StoreCatalogItem *>` | mAchievementOffers
@@ -1403,7 +1403,7 @@ Offset | Type | Name
 
 ### `persona::PersonaStoreItemCollector`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `persona::PersonaStoreItemCollector_vtbl *` | __vftable
 8 | (24) `std::vector<persona::PersonaStoreItemCollector::QueryInfo>` | mQueries
 32 | (24) `std::vector<StoreCatalogItem *>` | mDiscoveredItems
@@ -1426,20 +1426,20 @@ Offset | Type | Name
 
 ### `ParticleEffectPtr`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<ParticleEffectInfo>` | mParticleEffectInfoPtr
 
 
 ### `persona::PieceOfferWrapper`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const StoreCatalogItem *` | mCatalogOffer
 8 | (8) `const PersonaPiece *` | mPersonaPiece
 
 
 ### `persona::PersonaCategory`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | mTitle
 32 | (32) `std::string` | mDescription
 64 | (32) `std::string` | mImagePath
@@ -1450,7 +1450,7 @@ Offset | Type | Name
 
 ### `PersonaAnimationDefinition`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | mAnimationName
 32 | (32) `std::string` | mAnimationFile
 64 | (16) `Json::Value` | mAnimationFileJson
@@ -1458,7 +1458,7 @@ Offset | Type | Name
 
 ### `Potion`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mId
 8 | (32) `std::string` | mNameId
 40 | (32) `std::string` | mPrefix
@@ -1469,7 +1469,7 @@ Offset | Type | Name
 
 ### `Packet`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Packet_vtbl *` | __vftable
 8 | (4) `PacketPriority` | mPriority
 12 | (4) `NetworkPeer::Reliability` | mReliability
@@ -1481,7 +1481,7 @@ Offset | Type | Name
 
 ### `PlayerSnapshot`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float` | mGravity
 4 | (4) `float` | mLevelGravity
 8 | (8) `std::optional<float>` | mWaterSpeed
@@ -1523,7 +1523,7 @@ Offset | Type | Name
 
 ### `param_encode::EBool`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `param_encode::EValue` | baseclass_0
 40 | (2) `__int16` | id
 48 | (8) `char *` | data0
@@ -1534,7 +1534,7 @@ Offset | Type | Name
 
 ### `PlayerActionComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `std::bitset<28>` | mPlayerActions
 8 | (448) `std::optional<PackedItemUseLegacyInventoryTransaction>` | mItemUseTransaction
 456 | (8) `std::unique_ptr<ItemStackRequestData>` | mItemStackRequest
@@ -1543,7 +1543,7 @@ Offset | Type | Name
 
 ### `PackedItemUseLegacyInventoryTransaction`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `TypedClientNetId<ItemStackLegacyRequestIdTag,int,0>` | mID
 8 | (24) `std::vector<std::pair<enum ContainerEnumName,std::vector<unsigned char> >>` | mSlots
 32 | (408) `ItemUseInventoryTransaction` | mTransaction
@@ -1551,13 +1551,13 @@ Offset | Type | Name
 
 ### `PlayerBlockActions`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<PlayerBlockActionData>` | mActions
 
 
 ### `Pos`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | x
 4 | (4) `int` | y
 8 | (4) `int` | z
@@ -1565,7 +1565,7 @@ Offset | Type | Name
 
 ### `PlayScreenModel::navigateToWorldSyncModalScreen::__l2::<lambda_5b1bdbb1f29c7cc64448708ddd70e61f>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<PlayScreenModel>` | weakThis
 16 | (32) `const std::string` | levelId
 48 | (64) `std::function<void __cdecl(Core::Result)>` | onCompleteCallback
@@ -1573,20 +1573,20 @@ Offset | Type | Name
 
 ### `ParticleTrackingSystem::tick::__l5::<lambda_9fa7a61bdfe457f6a795012b6e580c85>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ParticleSystemEngine *` | engine
 
 
 ### `PixelCalc`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float` | mPixelsPerMillimeter
 4 | (4) `float` | mMillimetersPerPixel
 
 
 ### `PointerLocationEventData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `InputMode` | inputMode
 4 | (2) `__int16` | x
 6 | (2) `__int16` | y
@@ -1595,7 +1595,7 @@ Offset | Type | Name
 
 ### `PlayerBlockActionData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `_BYTE[4]` | mPlayerActionType
 4 | (12) `BlockPos` | mPos
 16 | (4) `int` | mFacing
@@ -1603,14 +1603,14 @@ Offset | Type | Name
 
 ### `PerfContextTracker::EventScope`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `_BYTE[8]` | mEventType
 8 | (32) `PerfContextTracker::Timer` | mTimer
 
 
 ### `PackInstance`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (432) `PackReport` | mPackReport
 432 | (8) `PackSettings *` | mPackSettings
 440 | (8) `ResourcePack *` | mPack
@@ -1621,7 +1621,7 @@ Offset | Type | Name
 
 ### `PackReport`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (56) `ResourceLocation` | mLocation
 56 | (1) `bool` | mWasUpgraded
 57 | (1) `bool` | mAttemptedUpgrade
@@ -1636,7 +1636,7 @@ Offset | Type | Name
 
 ### `PackStats`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | mOverriddenEntityCount
 4 | (4) `unsigned int` | mCustomEntityCount
 8 | (4) `unsigned int` | mCustomAnimationCount
@@ -1645,21 +1645,21 @@ Offset | Type | Name
 
 ### `PendingScreenshotRequest`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (224) `ScreenshotOptions` | mOptions
 224 | (64) `std::function<void __cdecl(Core::PathBuffer<std::string >)>` | mCallback
 
 
 ### `PointerMoveScreenEventData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `float[2]` | cursorPosition
 8 | (8) `float[2]` | deltaPosition
 
 
 ### `PointerHeldScreenEventData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `float[2]` | position
 8 | (8) `float[2]` | relativePosition
 16 | (1) `bool` | moved
@@ -1667,7 +1667,7 @@ Offset | Type | Name
 
 ### `PointerHeldEdge`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::function<bool __cdecl(PointerHeldScreenEventData const &,std::string const &,int)>` | mRequirement
 64 | (4) `_BYTE[4]` | mTargetNode
 68 | (4) `int` | mPriority
@@ -1675,33 +1675,33 @@ Offset | Type | Name
 
 ### `PlatformStoreIconModel`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `unsigned __int8` | mSubClientId
 8 | (8) `std::unique_ptr<PlatformStoreIconModel::PlatformStoreIconVisibility>` | mIconVisibility
 
 
 ### `PlayScreenController::_registerBindings::__l2::<lambda_85a8ad764f0e7933a7cfd34d077466ab>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `PlayScreenController *const` | __this
 
 
 ### `PlayerInventory::SlotData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `ContainerID` | mContainerId
 4 | (4) `int` | mSlot
 
 
 ### `PackDiscoveryError`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `PackError` | baseclass_0
 
 
 ### `PackError`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `PackError_vtbl *` | __vftable
 8 | (24) `std::vector<std::string>` | mErrorParameters
 32 | (4) `int` | mErrorValue
@@ -1710,7 +1710,7 @@ Offset | Type | Name
 
 ### `PlayerListInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | mPlayerName
 32 | (8) `ActorUniqueID` | mId
 40 | (16) `mce::UUID` | mUUID
@@ -1732,21 +1732,21 @@ Offset | Type | Name
 
 ### `PermissionsScreenController::_registerEventHandlers::__l11::<lambda_7bebacee89ad03baefca936fb00946f8>::()::__l5::<lambda_e19bed6ef6721cd8c8d72df4c9ef2e82>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<PermissionsScreenController>` | weakThis
 16 | (272) `PlayerListInfo` | selectedPlayerInfo
 
 
 ### `PermissionsScreenController::_setPermissionLevelRealms::__l5::<lambda_c26cca5b4e31faad9e5e4836632d6c70>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<PermissionsScreenController>` | weakThis
 16 | (272) `PlayerListInfo` | selectedPlayerInfo
 
 
 ### `PersonaScreenController::_revertOrSavePersona::__l2::<lambda_aa432b6c09e50a5595f08013064f446a>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<bool>` | weakExistance
 16 | (8) `PersonaScreenController *const` | __this
 24 | (64) `std::function<void __cdecl(void)>` | cb
@@ -1754,7 +1754,7 @@ Offset | Type | Name
 
 ### `PersonaScreenController::_revertOrSavePersona::__l2::<lambda_bd60443a777f97abf702ab299a33f4ba>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<bool>` | weakExistance
 16 | (8) `PersonaScreenController *const` | __this
 24 | (64) `std::function<void __cdecl(void)>` | cb
@@ -1762,14 +1762,14 @@ Offset | Type | Name
 
 ### `PlayScreenController::_handleLeaveRealm::__l2::<lambda_502388f85e522d9c6bce8473494dad69>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<PlayScreenController>` | weakThis
 16 | (8) `Realms::RealmId` | worldId
 
 
 ### `PlayScreenController::_startLocalWorld::__l11::<lambda_3acae3efd1e785f91a99c085cf8db20c>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<PlayScreenController>` | weakThis
 16 | (568) `const LocalWorldInfo` | world
 584 | (8) `PlayScreenController::_startLocalWorld::__l2::<lambda_8e203efbf34e225efaac2cacba79e4c8>` | startWorldCallback
@@ -1777,19 +1777,19 @@ Offset | Type | Name
 
 ### `PlayScreenController::_startLocalWorld::__l2::<lambda_8e203efbf34e225efaac2cacba79e4c8>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `PlayScreenController *const` | __this
 
 
 ### `PlayScreenController::_registerEventHandlers::__l2::<lambda_b4c1ee076854f4c52b98eb2d53121b50>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `PlayScreenController *const` | __this
 
 
 ### `PlayScreenController::_registerEventHandlers::__l2::<lambda_45df4ea451acfc299137b2ae2281b9d3>::()::__l2::<lambda_a157bd2ea0807ff315c63e17e3e505e7>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<PlayScreenController>` | weakThis
 16 | (32) `const std::string` | collectionName
 48 | (4) `int` | index
@@ -1797,26 +1797,26 @@ Offset | Type | Name
 
 ### `PlayScreenController::_registerEventHandlers::__l2::<lambda_45df4ea451acfc299137b2ae2281b9d3>::()::__l11::<lambda_d34e92e1cd8e92307f5ea4b07ef8fb7b>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<PlayScreenController>` | weakThis
 16 | (64) `std::function<enum ui::ViewRequest __cdecl(void)>` | connectToSelectedThirdPartyServer
 
 
 ### `PlayScreenController::_registerBindings::__l2::<lambda_c2f73915e27e1708fdaf341c0a14446c>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `PlayScreenController *const` | __this
 
 
 ### `PlayScreenController::_registerBindings::__l5::<lambda_8f6b09fc8bb044637e9ccae013e4c3e4>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `unsigned __int64 *` | totalStorageSize
 
 
 ### `PlayScreenController`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (2672) `MainMenuScreenController` | baseclass_0
 2672 | (16) `std::shared_ptr<PlayScreenModel>` | mPlayScreenModel
 2688 | (8) `std::unique_ptr<DlcUIWrapper>` | mDlcUIWrapper
@@ -1850,7 +1850,7 @@ Offset | Type | Name
 
 ### `PlayScreenController::_getLegacyWorldConvertCallback::__l2::<lambda_7826e9c004e3684a81279305594feaf8>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<PlayScreenController>` | weakThis
 16 | (608) `const LegacyWorldInfo` | worldInfo
 624 | (32) `const std::string` | levelId
@@ -1858,7 +1858,7 @@ Offset | Type | Name
 
 ### `PlayScreenController::_onWorldConversionCompleted::__l2::<lambda_811b7a987c7c8d68d8053c7372993a82>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<PlayScreenController>` | weakThis
 16 | (32) `const std::string` | levelId
 48 | (16) `std::shared_ptr<ImportResult>` | result
@@ -1866,20 +1866,20 @@ Offset | Type | Name
 
 ### `PurchaseEnabledScreenController::_verifyAppStoreReady::__l10::<lambda_19652c0eb9195c6244670c4762c9adea>::()::__l5::<lambda_49a623e247def4af82a019dba1499aa0>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<PurchaseEnabledScreenController>` | weakThis
 16 | (64) `std::function<void __cdecl(void)>` | readyCallback
 
 
 ### `PurchaseEnabledScreenController::_promptPrepareAppStore::__l2::<lambda_cb9ae027d0cc494abd24ed13191d6b4a>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::function<void __cdecl(void)>` | callback
 
 
 ### `PortfolioScreenController::PhotoRecord`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `Core::PathBuffer<std::string >` | path
 32 | (32) `std::string` | desc
 64 | (4) `_BYTE[4]` | state
@@ -1887,7 +1887,7 @@ Offset | Type | Name
 
 ### `PortalComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | mParticleEastWest
 32 | (32) `std::string` | mParticleNorthSouth
 64 | (4) `int` | mTargetDimension
@@ -1895,7 +1895,7 @@ Offset | Type | Name
 
 ### `PackSettingsInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::unique_ptr<PackManifest>` | mPackManifest
 8 | (24) `SubpackInfoCollection` | mSubpackInfoCollection
 32 | (4) `int` | mSubpackIndex
@@ -1904,14 +1904,14 @@ Offset | Type | Name
 
 ### `PackMoveResult`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `PackSelectResult` | mState
 8 | (32) `std::string` | mMovedPack
 
 
 ### `PackManifest`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `PackManifest_vtbl *` | __vftable
 8 | (56) `ResourceLocation` | mLocation
 64 | (136) `PackIdVersion` | mIdentity
@@ -1955,14 +1955,14 @@ Offset | Type | Name
 
 ### `PlayerScore`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `ScoreboardId` | mScoreboardId
 16 | (4) `int` | mScore
 
 
 ### `PostOperation`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `LayoutComponent *` | mLayout
 8 | (8) `VariableRef *` | mVariableRef
 16 | (64) `std::function<void __cdecl(void)>` | mOperation
@@ -1970,21 +1970,21 @@ Offset | Type | Name
 
 ### `PatchNotesSearchResults`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (12) `CommonSearchResults` | baseclass_0
 16 | (24) `std::vector<PatchNotesDocument>` | mDocuments
 
 
 ### `PatchNotesDocument`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (584) `CommonDocument` | mCommon
 584 | (88) `PatchNotesCustom` | mCustom
 
 
 ### `PatchNotesCustom`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | mRevision
 32 | (24) `std::vector<std::string>` | mOffers
 56 | (32) `std::string` | mShowUpdatePromptDate
@@ -1992,14 +1992,14 @@ Offset | Type | Name
 
 ### `PackInstanceId`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (136) `PackIdVersion` | mPackId
 136 | (32) `std::string` | mSubpackName
 
 
 ### `PDFOptions`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<Core::PathBuffer<std::string >>` | orderedFilenames
 24 | (32) `Core::PathBuffer<std::string >` | destination
 56 | (32) `std::string` | title
@@ -2007,19 +2007,19 @@ Offset | Type | Name
 
 ### `ProductSku`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `NewType<std::string >` | baseclass_0
 
 
 ### `PackSourceReport`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::unordered_map<PackIdVersion,PackReport>` | mReports
 
 
 ### `PackModel`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `const Pack *` | mPack
 8 | (32) `std::string` | mDateAvailable
 40 | (432) `PackReport` | mPackReport
@@ -2029,7 +2029,7 @@ Offset | Type | Name
 
 ### `persona::SubCategoryDocument`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | mTitle
 32 | (32) `std::string` | mDescription
 64 | (32) `std::string` | mImagePath
@@ -2040,7 +2040,7 @@ Offset | Type | Name
 
 ### `persona::CategoryQueryDocument`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | mHeader
 32 | (4) `persona::OwnershipFilterType` | mOwnershipFilterType
 36 | (4) `int` | mCycleAmount
@@ -2049,14 +2049,14 @@ Offset | Type | Name
 
 ### `persona::PersonaSizeInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | mSizeString
 32 | (32) `std::string` | mSizeImage
 
 
 ### `persona::PersonaStoreItemCollector::QueryInfo`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<SearchQuery>` | mQuery
 16 | (4) `int` | mPossiblePackCount
 20 | (4) `int` | mNumPacksCollected
@@ -2066,7 +2066,7 @@ Offset | Type | Name
 
 ### `PlayScreenModel::navigateToWorldSyncModalScreen::__l2::<lambda_5b1bdbb1f29c7cc64448708ddd70e61f>::()::__l2::<lambda_5de8426d871a2cae8cea91a51c9b89f9>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<PlayScreenModel>` | weakThis
 16 | (64) `std::function<void __cdecl(Core::Result)>` | onCompleteCallback
 80 | (64) `std::function<void __cdecl(Core::Result)>` | progressSyncCallback
@@ -2075,7 +2075,7 @@ Offset | Type | Name
 
 ### `PlayScreenModel::navigateToWorldSyncModalScreen::__l2::<lambda_5b1bdbb1f29c7cc64448708ddd70e61f>::()::__l5::<lambda_367a2d7801f77691f9aab18191bd527b>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<PlayScreenModel>` | weakThis
 16 | (1) `bool` | priorManifestSyncRequiresWorldSync
 24 | (32) `const std::string` | levelId
@@ -2084,7 +2084,7 @@ Offset | Type | Name
 
 ### `PlayScreenModel::navigateToEditWorldScreen::__l14::<lambda_4d403d0c32019894b8c87b1125371cda>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<PlayScreenModel>` | weakThis
 16 | (8) `LocalWorldInfo *` | info
 24 | (64) `std::function<void __cdecl(Core::Path const &)>` | onErrorCallback
@@ -2092,21 +2092,21 @@ Offset | Type | Name
 
 ### `PlayScreenModel::_populateNetworkWorlds::__l97::<lambda_d572a438a99a6f2e256eb026276c41b8>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<PlayScreenModel>` | weakThis
 16 | (32) `const std::string` | ownerId
 
 
 ### `PlayScreenModel::_populateNetworkWorlds::__l99::<lambda_3868ce00ebe4bccdda287e34680d826b>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<PlayScreenModel>` | weakThis
 16 | (32) `const std::string` | ownerId
 
 
 ### `PlayScreenModel::_startLocalWorld::__l2::<lambda_ad0b048280eff8b14b8fe6a7d3d7d687>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<PlayScreenModel>` | weakThis
 16 | (384) `LevelSummary` | levelSummary
 400 | (3360) `LevelSettings` | levelSettings
@@ -2114,14 +2114,14 @@ Offset | Type | Name
 
 ### `PotionBrewing::Ingredient`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | mItemId
 4 | (4) `int` | mData
 
 
 ### `PlayerListEntry`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ActorUniqueID` | mId
 8 | (16) `mce::UUID` | mUUID
 24 | (32) `std::string` | mName
@@ -2141,7 +2141,7 @@ Offset | Type | Name
 
 ### `ParticleRenderContext`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ScreenContext *` | mScreenContext
 8 | (8) `Tessellator *` | mTessellator
 16 | (8) `const Vec3 *` | mCameraTargetPosition
@@ -2153,7 +2153,7 @@ Offset | Type | Name
 
 ### `ParticleTypeRenderObject`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<mce::Mesh>` | mLayerMesh
 16 | (72) `mce::TexturePtr` | mLayerTexture
 88 | (1) `bool` | mBlend
@@ -2161,20 +2161,20 @@ Offset | Type | Name
 
 ### `ParticleSystem::ParticleAppearanceTintingComponent::ColorFrame`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float` | mValue
 8 | (864) `std::array<ExpressionNode,4>` | mColorExpr
 
 
 ### `ParticleSystem::NodeParseData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<std::pair<float,ParticleSystem::NodeParseData::Node>>` | mNodeList
 
 
 ### `ParticleSystem::ParticleEvent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (272) `ParticleSystem::ParticleVisualEffectEvent` | mVisualEffect
 272 | (4) `ParticleSystem::ParticleSoundEffectEvent` | mSoundEffect
 280 | (216) `ExpressionNode` | mEventExpression
@@ -2183,7 +2183,7 @@ Offset | Type | Name
 
 ### `ParticleSystem::ParticleVisualEffectEvent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `_BYTE[4]` | mParticleEffectType
 8 | (48) `HashedString` | mEffect
 56 | (216) `ExpressionNode` | mEffectExpression
@@ -2191,13 +2191,13 @@ Offset | Type | Name
 
 ### `ParticleSystem::ParticleSoundEffectEvent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `LevelSoundEvent` | mEvent
 
 
 ### `ParticleSystem::ParticleEventNode`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `std::vector<std::unique_ptr<ParticleSystem::ParticleEventNode>>` | mSequenceNodes
 24 | (24) `std::vector<std::pair<float,std::unique_ptr<ParticleSystem::ParticleEventNode> >>` | mRandomNodes
 48 | (8) `std::unique_ptr<ParticleSystem::ParticleEvent>` | mEvent
@@ -2206,7 +2206,7 @@ Offset | Type | Name
 
 ### `ParticleSystem::ComponentAccessParticleEmitter::CollisionHelper`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (28) `AABB` | mHitShape
 28 | (4) `float` | mHitAlpha
 32 | (1) `unsigned __int8` | mHitAxis
@@ -2214,7 +2214,7 @@ Offset | Type | Name
 
 ### `PersonaRepository::_updatePersonaCharacter::__l5::<lambda_0dc42af7a8c769c98155089844906880>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<PersonaRepository>` | weakThis
 16 | (64) `std::function<void __cdecl(bool)>` | cb
 80 | (32) `std::string` | skinName
@@ -2222,7 +2222,7 @@ Offset | Type | Name
 
 ### `PersonaRepository::_updatePersonaCharacter::__l5::<lambda_0dc42af7a8c769c98155089844906880>::()::__l5::<lambda_744f5289394d3fc121cddf3fc7d76391>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<PersonaRepository>` | weakThis
 16 | (32) `std::string` | skinName
 48 | (1) `bool` | parsedTexturesResult
@@ -2231,7 +2231,7 @@ Offset | Type | Name
 
 ### `PersonaRepository::createPersonaOnUser::__l2::<lambda_fa698ab5277b725707db41b1f541b00b>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `PersonaRepository *const` | __this
 8 | (16) `std::weak_ptr<PersonaRepository>` | weakThis
 24 | (32) `std::string` | newSkinName
@@ -2241,7 +2241,7 @@ Offset | Type | Name
 
 ### `PersonaRepository::PendingPersonaAppearance`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1464) `PersonaAppearance` | mItems
 1464 | (64) `std::function<void __cdecl(std::string const &)>` | mCallback
 1528 | (4) `PersonaRepository::PendingPersonaAppearanceStatus` | mStatus
@@ -2253,7 +2253,7 @@ Offset | Type | Name
 
 ### `PersonaRepository::changePiece::__l2::<lambda_a434f4b7e65f777a66b06a869c83a78c>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<PersonaRepository>` | weakThis
 16 | (64) `std::function<void __cdecl(bool)>` | loadCallback
 80 | (40) `const persona::PersonaCharacterHandle` | currentCharacter
@@ -2261,7 +2261,7 @@ Offset | Type | Name
 
 ### `persona::PieceToChange`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `mce::UUID` | mId
 16 | (4) `_BYTE[4]` | mPieceType
 20 | (4) `_BYTE[4]` | mSide
@@ -2271,7 +2271,7 @@ Offset | Type | Name
 
 ### `PersonaRepository::_parseTextures::__l2::<lambda_10f0bd2c25131a7c83c7167248bb7003>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<PersonaRepository>` | weakThis
 16 | (32) `std::string` | skinName
 48 | (64) `std::function<void __cdecl(bool)>` | cb
@@ -2279,7 +2279,7 @@ Offset | Type | Name
 
 ### `PersonaRepository::_parseTextures::__l2::<lambda_10f0bd2c25131a7c83c7167248bb7003>::()::__l5::<lambda_c799a6325396d5ef75f2a146eb9d922f>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `PersonaRepository::_parseTextures::__l2::<lambda_10f0bd2c25131a7c83c7167248bb7003>::()::__l2::<lambda_5d85ab44a3be28060ce8c604d35e3e70>` | callCallback
 64 | (16) `std::weak_ptr<PersonaRepository>` | weakThis
 80 | (32) `std::string` | textureId
@@ -2288,13 +2288,13 @@ Offset | Type | Name
 
 ### `PersonaRepository::_parseTextures::__l2::<lambda_10f0bd2c25131a7c83c7167248bb7003>::()::__l2::<lambda_5d85ab44a3be28060ce8c604d35e3e70>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::function<void __cdecl(bool)>` | callback
 
 
 ### `PersonaRepository::_createPersona::__l2::<lambda_1ac8df20115d23db4b78209d5ba2109e>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<PersonaRepository>` | weakThis
 16 | (1) `bool` | useCaching
 24 | (64) `std::function<void __cdecl(std::string const &)>` | newPersonaCallback
@@ -2304,7 +2304,7 @@ Offset | Type | Name
 
 ### `PersonaRepository::_createPersona::__l2::<lambda_1ca4cb5ef36f499cc6568a184177d332>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<PersonaRepository>` | weakThis
 16 | (184) `PersonaRepository::_createPersona::__l2::<lambda_1ac8df20115d23db4b78209d5ba2109e>` | updateCb
 200 | (32) `std::string` | skinName
@@ -2314,7 +2314,7 @@ Offset | Type | Name
 
 ### `PersonaRepository::_registerPersonaUserPieceTextures::__l9::<lambda_9ba0fc83626afbe85d07dc9acfc80a7a>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::weak_ptr<PersonaRepository>` | weakThis
 16 | (56) `const ResourceLocation` | resLoc
 72 | (40) `persona::PersonaCharacterHandle` | characterHandle
@@ -2322,14 +2322,14 @@ Offset | Type | Name
 
 ### `PolygonOperatorPool<RenderChunkSorter>::PoolEntry`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `const bool` | mIsImmediate
 8 | (8) `std::unique_ptr<RenderChunkSorter>` | mEntry
 
 
 ### `ParticleRenderObjectCollection`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (48) `ParticleLayerRenderObject` | mAlphaTested
 48 | (48) `ParticleLayerRenderObject` | mBlended
 96 | (48) `ParticleLayerRenderObject` | mOpaque
@@ -2337,14 +2337,14 @@ Offset | Type | Name
 
 ### `ParticleLayerRenderObject`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `std::vector<ParticleTypeRenderObject,LinearAllocator<ParticleTypeRenderObject> >` | mLayers
 40 | (8) `const mce::MaterialPtr *` | mLayerMaterial
 
 
 ### `ParsedAtlasData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (56) `ResourceLocation` | mMetaLocation
 56 | (152) `PageSettings` | mPageSettings
 208 | (4) `int` | mJsonPadSize
@@ -2354,7 +2354,7 @@ Offset | Type | Name
 
 ### `PageSettings`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | mResourceName
 32 | (32) `std::string` | mJsonKey
 64 | (32) `std::string` | mFileSuffix
@@ -2367,7 +2367,7 @@ Offset | Type | Name
 
 ### `ParsedAtlasNodeElement`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (56) `ResourceLocation` | mLocation
 56 | (56) `ResourceLocation` | mTintMapLocation
 112 | (4) `int` | mPackIndex
@@ -2386,13 +2386,13 @@ Offset | Type | Name
 
 ### `PackLoadError`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `PackError` | baseclass_0
 
 
 ### `PersonaPieceHandle::DeserializedPieceMetaData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | mActualId
 32 | (4) `_BYTE[4]` | mPieceType
 36 | (4) `_BYTE[4]` | mPieceSide
@@ -2401,7 +2401,7 @@ Offset | Type | Name
 
 ### `PersonaService::getAppearances::__l24::<lambda_c8daa739e4f3ac4f5212d25a433c3ba8>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `PersonaService *const` | __this
 8 | (4) `const unsigned int` | userId
 16 | (64) `std::function<void __cdecl(enum persona::ProfileType)>` | xforgeRequestStartCallback
@@ -2413,7 +2413,7 @@ Offset | Type | Name
 
 ### `PersonaService::getAppearances::__l28::<lambda_152ab41b6be6d97a049b15ad7e5edf2b>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `PersonaService *const` | __this
 8 | (4) `const unsigned int` | userId
 16 | (16) `std::shared_ptr<Social::User>` | sharedUser
@@ -2424,7 +2424,7 @@ Offset | Type | Name
 
 ### `PersonaService::getAppearances::__l24::<lambda_c8daa739e4f3ac4f5212d25a433c3ba8>::()::__l5::<lambda_3dc4c4d1c65fd2c738b5436343eb9d08>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `PersonaService *const` | __this
 8 | (4) `const unsigned int` | userId
 16 | (64) `std::function<void __cdecl(enum persona::ProfileType)>` | xforgeRequestStartCallback
@@ -2436,7 +2436,7 @@ Offset | Type | Name
 
 ### `PushNotificationMessage`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `_BYTE[4]` | m_Type
 8 | (32) `std::string` | m_Title
 40 | (32) `std::string` | m_Description
@@ -2445,14 +2445,14 @@ Offset | Type | Name
 
 ### `PromotionToastDocument`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (584) `CommonDocument` | mCommon
 584 | (208) `PromotionToastCustom` | mCustom
 
 
 ### `PromotionToastCustom`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (32) `std::string` | mToastMessageType
 32 | (32) `std::string` | mToastMessageData
 64 | (32) `std::string` | mTelemetryId
@@ -2467,7 +2467,7 @@ Offset | Type | Name
 
 ### `PlayerTickComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `unsigned __int64` | mLatestClientTick
 8 | (8) `unsigned __int64` | mLatestProcessedTick
 16 | (1) `unsigned __int8` | mCurrentProcessedTicks
@@ -2477,20 +2477,20 @@ Offset | Type | Name
 
 ### `PackSettingsError`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `PackError` | baseclass_0
 
 
 ### `PackStackStorage::PackEntry`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (136) `PackIdVersion` | mID
 136 | (16) `std::shared_ptr<IPackStorage>` | mStorage
 
 
 ### `PackStackStorage::onLoadSessionEnd::__l9::<lambda_f4caca1443c325a114dd6c3c07cc7928>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `PackStackStorage *const` | __this
 8 | (152) `PackStackStorage::PackEntry` | pack
 160 | (16) `std::shared_ptr<IPackStorageFallback>` | packAccess
@@ -2498,26 +2498,26 @@ Offset | Type | Name
 
 ### `PackStackStorage::deleteStorage::__l9::<lambda_8036390ddfa8710f80ed365a0d137936>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `PackStackStorage *const` | __this
 8 | (152) `PackStackStorage::PackEntry` | pack
 
 
 ### `PackStorage::PackStorageImpl::<lambda_6e112b5c324bd97586ed3abeec7fc3ff>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `Bedrock::NonOwnerPointer<PackStorage::PackStorageImpl>` | self
 
 
 ### `PackStorage::PackStorageImpl::<lambda_43012a4723de9ee562d8876adc0e2feb>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `Bedrock::NonOwnerPointer<PackStorage::PackStorageImpl>` | self
 
 
 ### `PackStorage::PendingTask`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<Bedrock::Threading::AsyncDeferredResultT<std::string > >` | mAsyncHandle
 16 | (16) `std::shared_ptr<Bedrock::Threading::IAsyncResult<bool> >` | mIsFileUpToDate
 32 | (40) `std::optional<std::string >` | mFileContents
@@ -2529,7 +2529,7 @@ Offset | Type | Name
 
 ### `PackStorage::PackStorageImpl::writeOptimizedPack::__l2::<lambda_1f5ae5da0c0ce39014e2fca1b82c114b>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<ICRCDataOutput>` | out
 16 | (16) `Bedrock::NonOwnerPointer<PackStorage::PackStorageImpl>` | self
 32 | (16) `std::shared_ptr<IPackStorageFallback const >` | readFromPack
@@ -2537,14 +2537,14 @@ Offset | Type | Name
 
 ### `PackStorage::PackStorageImpl::readOptimizedPack::__l2::<lambda_aa328192fb3f8fe908cc2fcdfa50f1ef>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `Bedrock::NonOwnerPointer<PackStorage::PackStorageImpl>` | self
 16 | (16) `std::shared_ptr<std::unique_ptr<ICRCDataInput> >` | crcStream
 
 
 ### `PackStorage::FileEntry`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `unsigned __int64` | mOffset
 8 | (8) `unsigned __int64` | mSize
 16 | (4) `unsigned int` | mCRC
@@ -2552,14 +2552,14 @@ Offset | Type | Name
 
 ### `PackStorage::PackStorageImpl::closePackStream::__l2::<lambda_f027d1e8730ed88e2be3e5721291af42>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `Bedrock::NonOwnerPointer<PackStorage::PackStorageImpl>` | self
 16 | (16) `std::shared_ptr<Bedrock::Threading::AsyncDeferredResultT<void> >` | result
 
 
 ### `ProjectileComponent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `bool` | mWasOnGround
 1 | (1) `bool` | mNoPhysics
 8 | (8) `ActorUniqueID` | mOwnerId
@@ -2634,7 +2634,7 @@ Offset | Type | Name
 
 ### `PrioritizedGoal`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `std::unique_ptr<Goal>` | mGoal
 8 | (4) `int` | mPriority
 12 | (1) `bool` | mUsed
@@ -2643,7 +2643,7 @@ Offset | Type | Name
 
 ### `PathFinder`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `BlockSource *` | mRegion
 8 | (32) `BinaryHeap` | mOpenSet
 40 | (64) `std::unordered_map<BlockPos,PathfinderNode>` | mNodes
@@ -2674,14 +2674,14 @@ Offset | Type | Name
 
 ### `ProjectileHitEvent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Actor *` | mProjectile
 8 | (112) `const HitResult` | mHitResult
 
 
 ### `ParticlesTeleportTrailEvent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (12) `Vec3` | mStart
 12 | (12) `Vec3` | mEnd
 24 | (8) `Vec2` | mVariation
@@ -2691,7 +2691,7 @@ Offset | Type | Name
 
 ### `PacketViolationDetectedTelemetryData`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `ExtendedStreamReadResult` | mExtendedReadResult
 40 | (4) `_BYTE[4]` | mViolationResponse
 44 | (4) `MinecraftPacketIds` | mViolatingPacketId
@@ -2700,7 +2700,7 @@ Offset | Type | Name
 
 ### `PotionMixDataEntry`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | fromItemId
 4 | (4) `int` | fromItemAux
 8 | (4) `int` | reagentItemId
@@ -2711,7 +2711,7 @@ Offset | Type | Name
 
 ### `PacketViolationHandler::PacketViolation`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (152) `NetworkIdentifier` | mNetId
 152 | (4) `unsigned int` | mTotalCount
 156 | (4) `float` | mTotalScore
@@ -2723,7 +2723,7 @@ Offset | Type | Name
 
 ### `PackAccessStrategyFactory::createForZip::__l10::<lambda_efd3edd89f95cae6f703fa58a12bab2a>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (56) `const ResourceLocation` | location
 56 | (8) `unsigned __int64 *` | currentManifestPathDepth
 64 | (8) `std::vector<Core::PathBuffer<std::string >> *` | subPaths
@@ -2731,14 +2731,14 @@ Offset | Type | Name
 
 ### `PackMover::copyPack::__l2::<lambda_efa97ea215b0ec3ccc21c2ccfa0a00f4>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (64) `std::function<void __cdecl(bool)>` | callback
 64 | (16) `std::shared_ptr<bool>` | importSuccess
 
 
 ### `PackMover::copyPack::__l2::<lambda_d0dea2db41fda175eebc6788cb5f1044>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::shared_ptr<bool>` | importSuccess
 16 | (56) `const ResourceLocation` | srcLocation
 72 | (1) `bool` | srcPackIsZipped
@@ -2752,35 +2752,35 @@ Offset | Type | Name
 
 ### `PackMover::copyPack::__l2::<lambda_d0dea2db41fda175eebc6788cb5f1044>::()::__l31::<lambda_5f399ab693cf08c0b37e8740c385d58d>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `const std::vector<std::string>` | excludeDirs
 24 | (1040) `const Core::PathBuffer<Core::StackString<char,1024> >` | uniqueDestinationDir
 
 
 ### `PrivateKeyManager`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (48) `KeyManager` | baseclass_0
 48 | (32) `std::string` | mPrivateKey
 
 
 ### `PlayerDamageEvent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `WeakRefT<EntityRefTraits>` | mPlayer
 24 | (8) `std::unique_ptr<ActorDamageSource>` | mDamageSource
 
 
 ### `PlayerAddExpEvent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `WeakRefT<EntityRefTraits>` | mPlayer
 24 | (4) `int` | mExp
 
 
 ### `PlayerArmorExchangeEvent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `WeakRefT<EntityRefTraits>` | mPlayer
 24 | (4) `ArmorSlot` | mArmorSlot
 32 | (248) `ItemStack` | mOldItem
@@ -2790,20 +2790,20 @@ Offset | Type | Name
 
 ### `PlayerGetExperienceOrbEvent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `WeakRefT<EntityRefTraits>` | mPlayer
 24 | (4) `int` | mExperienceValue
 
 
 ### `PlayerEvent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `WeakRefT<EntityRefTraits>` | mPlayer
 
 
 ### `PlayerEventCoordinator::sendPlayerCraftedItem::__l2::<lambda_42ff3f701c9b46b37c70e4fa14201c5a>`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `Player *` | player
 8 | (8) `const ItemInstance *` | item
 16 | (8) `bool *` | recipeBook
@@ -2819,7 +2819,7 @@ Offset | Type | Name
 
 ### `PlayerAddLevelEvent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `WeakRefT<EntityRefTraits>` | mPlayer
 24 | (4) `int` | mAddLevel
 28 | (4) `int` | mNewLevel
@@ -2827,7 +2827,7 @@ Offset | Type | Name
 
 ### `PlayerDestroyBlockEvent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `WeakRefT<EntityRefTraits>` | mPlayer
 24 | (12) `BlockPos` | mBlockPos
 36 | (1) `unsigned __int8` | mFace
@@ -2836,21 +2836,21 @@ Offset | Type | Name
 
 ### `PlayerSayCommandEvent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `WeakRefT<EntityRefTraits>` | mPlayer
 24 | (32) `std::string` | mMessage
 
 
 ### `PlayerUseNameTagEvent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (24) `WeakRefT<EntityRefTraits>` | mPlayer
 24 | (248) `ItemStack` | mItem
 
 
 ### `PortalShape`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `_BYTE[4]` | mAxis
 4 | (1) `Facing::Name` | mRightDir
 5 | (1) `Facing::Name` | mLeftDir
@@ -2863,7 +2863,7 @@ Offset | Type | Name
 
 ### `PostprocessingManager::Owns`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `ChunkPos` | mPosition
 8 | (8) `PostprocessingManager *` | mPpm
 16 | (24) `std::vector<PostprocessingManager::LockedChunk>` | mLockedChunks
@@ -2871,7 +2871,7 @@ Offset | Type | Name
 
 ### `ParticlesBlockExplosionEvent`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `float` | mRadius
 4 | (12) `Vec3` | mOrigin
 16 | (24) `std::vector<Vec3>` | mPositions
@@ -2879,7 +2879,7 @@ Offset | Type | Name
 
 ### `PendingArea`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `mce::UUID` | mUID
 16 | (32) `std::string` | mName
 48 | (8) `ActorUniqueID` | mEntityId
@@ -2892,7 +2892,7 @@ Offset | Type | Name
 
 ### `PlayerListPacket`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (40) `Packet` | baseclass_0
 40 | (24) `std::vector<PlayerListEntry>` | mEntries
 64 | (1) `_BYTE[1]` | mAction
@@ -2900,7 +2900,7 @@ Offset | Type | Name
 
 ### `PathfinderNode`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | heapIdx
 4 | (4) `float` | g
 8 | (4) `float` | h
@@ -2916,7 +2916,7 @@ Offset | Type | Name
 
 ### `PositionTrackingDB::PositionTrackingDBServer`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `std::enable_shared_from_this<PositionTrackingDB::PositionTrackingDBServer>` | baseclass_0
 16 | (8) `Level *` | mLevel
 24 | (8) `Scheduler *` | mCallbackContext
@@ -2928,14 +2928,14 @@ Offset | Type | Name
 
 ### `PackIdAndItemId`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (16) `mce::UUID` | mId
 16 | (32) `std::string` | mItemId
 
 
 ### `png_struct_def`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (256) `_SETJMP_FLOAT128[16]` | jmp_buf_local
 256 | (8) `void (__fastcall *)(_SETJMP_FLOAT128 *, int)` | longjmp_fn
 264 | (8) `_SETJMP_FLOAT128 (*)[16]` | jmp_buf_ptr
@@ -3085,7 +3085,7 @@ Offset | Type | Name
 
 ### `png_color_16_struct`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `unsigned __int8` | index
 2 | (2) `unsigned __int16` | red
 4 | (2) `unsigned __int16` | green
@@ -3095,7 +3095,7 @@ Offset | Type | Name
 
 ### `png_color_8_struct`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (1) `unsigned __int8` | red
 1 | (1) `unsigned __int8` | green
 2 | (1) `unsigned __int8` | blue
@@ -3105,7 +3105,7 @@ Offset | Type | Name
 
 ### `png_unknown_chunk_t`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (5) `unsigned __int8[5]` | name
 8 | (8) `unsigned __int8 *` | data
 16 | (8) `unsigned __int64` | size
@@ -3114,7 +3114,7 @@ Offset | Type | Name
 
 ### `png_colorspace`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | gamma
 4 | (32) `png_xy` | end_points_xy
 36 | (36) `png_XYZ` | end_points_XYZ
@@ -3124,7 +3124,7 @@ Offset | Type | Name
 
 ### `png_XYZ`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | red_X
 4 | (4) `int` | red_Y
 8 | (4) `int` | red_Z
@@ -3138,7 +3138,7 @@ Offset | Type | Name
 
 ### `png_row_info_struct`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | width
 8 | (8) `unsigned __int64` | rowbytes
 16 | (1) `unsigned __int8` | color_type
@@ -3149,7 +3149,7 @@ Offset | Type | Name
 
 ### `PS_PrivateRec_`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | unique_id
 4 | (4) `int` | lenIV
 8 | (1) `unsigned __int8` | num_blue_values
@@ -3179,7 +3179,7 @@ Offset | Type | Name
 
 ### `PS_ParserRec_`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (8) `unsigned __int8 *` | cursor
 8 | (8) `unsigned __int8 *` | base
 16 | (8) `unsigned __int8 *` | limit
@@ -3190,7 +3190,7 @@ Offset | Type | Name
 
 ### `PSH_GlyphRec_`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | num_points
 4 | (4) `unsigned int` | num_contours
 8 | (8) `PSH_PointRec_ *` | points
@@ -3211,7 +3211,7 @@ Offset | Type | Name
 
 ### `PSH_Hint_TableRec_`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `unsigned int` | max_hints
 4 | (4) `unsigned int` | num_hints
 8 | (8) `PSH_HintRec_ *` | hints
@@ -3226,7 +3226,7 @@ Offset | Type | Name
 
 ### `perrdetail`
 Offset | Type | Name
--|-|-|-
+-|-|-
 0 | (4) `int` | error
 8 | (8) `const char *` | filename
 16 | (4) `int` | lineno
